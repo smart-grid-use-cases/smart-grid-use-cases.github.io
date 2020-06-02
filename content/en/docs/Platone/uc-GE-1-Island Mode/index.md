@@ -60,7 +60,13 @@ Battery SOE/SOC| | |
 Weather conditions| | |
 Individual setpoints for flexibilities| | |
 
-### 1.5 Step by Step Analysis of Use Case
+### 1.5 List of assets
+
+|Name of the asset | Description	|	Domain |Zone |
+------------ | ------------- |------------ | ------------- 
+Avaon Local Flex Controller (ALF-C)|An IT-system to acquire and process local field data and handle monitoring and control of the flexibility in a single low-voltage network or local energy community to maintain an externally determined setpoint for the power exchange with the feeding MV line | Bulk Generation/ Transmission/ Distribution/ DER/ Customer Premises|Process/ Field/ Station/ Operation/ Enterprise/ Market |
+
+### 1.6 Step by Step Analysis of Use Case
 
 Step number |	Step name |	Description |	Involved actors	| Information exchanged
 ------------ | ------------- |------------ | ------------- | -------------
