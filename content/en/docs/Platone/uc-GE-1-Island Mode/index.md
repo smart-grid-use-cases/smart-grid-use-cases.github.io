@@ -1,5 +1,5 @@
 ---
-title: "title of Use Case"
+title: "Island Mode"
 linkTitle: "title of Use Case"
 date: 2020-mm-dd
 description: >
