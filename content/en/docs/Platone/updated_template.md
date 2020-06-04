@@ -46,7 +46,7 @@ add text - bried overview of the use case, no longer than 10 lines
 add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
 
 
-## 1.5 Key Performance Indicatiors (KPI)*
+## 1.5 Key Performance Indicatiors (KPI)
 
 |ID   |Name   | Description   | Reference to mentioned use case objectives|
 |-----|-------|---------------|-------------------------------------------|
@@ -107,7 +107,7 @@ Add any remarks which do not fit in any other category
 
 ### 3 Technical Details
 
-## 3.1 Actors**
+## 3.1 Actors
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
@@ -116,7 +116,7 @@ Add any remarks which do not fit in any other category
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
 
-## 3.2 References**
+## 3.2 References
 
 OPTIONAL - you can leave it blank
 
@@ -140,7 +140,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 * **Pre-Condition** - indicates which terms have to be fulfilled for the scenario to be executed.
 * **Post-Condition** - indicates which terms should be valid after the scenario. TIt can also specify whether a scenario has been successfully completed or not.
 
-**4.2 Steps – Scenarios**
+## 4.2 Steps – Scenarios
 
 **Scenario Name: No. 1 - (name of scenario)**
 
@@ -151,7 +151,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 **Scenario Name: No. 2 - (name of scenario)**
 
-| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
+| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 |||||||||
 | 2 |||||||||
@@ -164,13 +164,18 @@ This part describes the possible scenarios of the use case. The scenarios should
 * **Service** - addresses the nature of the information flow. Possible: GET (The information receiver obtains information from the
 information producer after an implicit request.), CREATE (The information producer creates an information object.), CHANGE (The information producer performs an update of the information at the information receiver’s.), DELETE (The information producer deletes information of the receiver.), CANCEL/CLOSE (A process is terminated.), EXECUTE (An action or service is performed.), REPORT (The information producer supplies information of its own account.), TIMER (The actor which represents both information producer
 and receiver has to enforce a waiting period.), REPEAT (A number of steps has to be repeated until a break condition (stated in the field Event) is satisfied. The contemplated steps have to be added in parentheses.).
-* **Information Producer (Actor)**
+* **Information Producer and Receiver (Actor)** - actors from actor list in section 3.1
+* **Information exchanged (IDs)** - ID of the information defined further in section 5
 
 ### 5 Information Exchanged***
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
 |||||
+
+***Notes***
+* **Information exchanged ID** - unique number (I-01,I-02...) for identification
+* **Requirements to information data** - optional, defined in section 6
 
 ### 6 Requirements (optional)***
 
