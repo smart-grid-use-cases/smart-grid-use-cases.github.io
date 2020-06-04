@@ -1,7 +1,7 @@
 
-# 1 Description of the Use Case
+# 1. Description of the Use Case
 
-## 1.1 Name of the Use Case
+## 1.1. Name of the Use Case
 
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
@@ -12,7 +12,7 @@
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
 * **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.
 
-## 1.2 Version Management
+## 1.2. Version Management
 
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
@@ -22,7 +22,7 @@
 |0.3|||||
 
 
-## 1.3 Scope and Objectives of Use Case
+## 1.3. Scope and Objectives of Use Case
 
 *Scope and objectives of use case*
 | Scope | add text |
@@ -35,7 +35,7 @@
 * **Objective(s)** - goals of the use case, in form of bullet points and a short headline.
 * **Realted business case(s)** - optional
 
-## 1.4 Narrative of Use Case
+## 1.4. Narrative of Use Case
 
 
 **Short description**
@@ -47,7 +47,7 @@ add text - brief overview of the use case, no longer than 10 lines
 add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
 
 
-## 1.5 Key Performance Indicatiors (KPI)
+## 1.5. Key Performance Indicatiors (KPI)
 
 |ID   |Name   | Description   | Reference to mentioned use case objectives|
 |-----|-------|---------------|-------------------------------------------|
@@ -56,7 +56,7 @@ add text - longer narrative from user viewpoint about *what* happens *how*, *whe
 ***Notes:***
 Can be left blank now
 
-## 1.6 Use case conditions
+## 1.6. Use case conditions
 
 |Assumptions| Prerequisites|
 |-----------|-------------|
@@ -67,7 +67,7 @@ Can be left blank now
 * **Prerequisites** - specify which requirements have to be met so that the basis scenario use case can be successfully accomplished.
 
 
-## 1.7 Further information to the use case for classification/mapping
+## 1.7. Further information to the use case for classification/mapping
 
 OPTIONAL - you can leave it blank
 
@@ -93,7 +93,7 @@ OPTIONAL - you can leave it blank
 * **Nature of the use cases** - describes the viewpoint and field of attention like *technical, political, business/market, test*, etc.
 
 
-## 1.8 General remarks
+## 1.8. General remarks
 
 |General remarks|
 |---|
@@ -102,13 +102,13 @@ OPTIONAL - you can leave it blank
 ***Notes:***
 Add any remarks which do not fit in any other category
 
-# 2 Diagrams of Use Case
+# 2. Diagrams of Use Case
 
 \&lt;! Example for img1: {{\&lt; imgproc img\_1 Fit &quot;600x400&quot; \&gt;}} Diagram 1 {{\&lt; /imgproc \&gt;}} !\&gt;
 
-# 3 Technical Details
+# 3. Technical Details
 
-## 3.1 Actors
+## 3.1. Actors
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
@@ -117,7 +117,7 @@ Add any remarks which do not fit in any other category
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
 
-## 3.2 References
+## 3.2. References
 
 OPTIONAL - you can leave it blank
 
@@ -126,9 +126,9 @@ OPTIONAL - you can leave it blank
 |add text|add text|add text|add text|add text|add text|
 
 
-# 4 Step by Step Analysis of Use Case
+# 4. Step by Step Analysis of Use Case
 
-## 4.1 Overview of Scenarios
+## 4.1. Overview of Scenarios
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
@@ -141,7 +141,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 * **Pre-Condition** - indicates which terms have to be fulfilled for the scenario to be executed.
 * **Post-Condition** - indicates which terms should be valid after the scenario. TIt can also specify whether a scenario has been successfully completed or not.
 
-## 4.2 Steps – Scenarios
+## 4.2. Steps – Scenarios
 
 **Scenario Name: No. 1 - (name of scenario)**
 
@@ -168,7 +168,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 * **Information Producer and Receiver (Actor)** - actors from actor list in section 3.1
 * **Information exchanged (IDs)** - ID of the information defined further in section 5
 
-# 5 Information Exchanged
+# 5. Information Exchanged
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
@@ -178,16 +178,16 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
 * **Requirements to information data** - optional, defined in section 6
 
-# 6 Requirements (optional)
+# 6. Requirements (optional)
 
-# 7 Common Terms and Definitions
+# 7. Common Terms and Definitions
 
 | **Term** | **Definition** |
 | --- | --- |
 |||
 
 
-# 8 Custom Information (optional)
+# 8. Custom Information (optional)
 
 | **Key** | **Value** | **Refers to Section** |
 | --- | --- | --- |
