@@ -6,19 +6,20 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| 132 | *Leave it blanc if not sure* | Short name of the use case |
+| 132 | Area: Energy system </br> *Leave it blanc if not sure* | Short name of the use case |
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
-* **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM area domains and zones. It can be left blank if you are not sure.
+* **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.
 
 ## 1.2 Version Management
 
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|0.1|2nd June 2020|add text|Initial creation|Draft|
-||||||
+|0.1||Torsten|Initial creation||
+|0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
+|0.3|||||
 
 
 ## 1.3 Scope and Objectives of Use Case
@@ -39,7 +40,7 @@
 
 **Short description**
 
-add text - bried overview of the use case, no longer than 10 lines
+add text - brief overview of the use case, no longer than 10 lines
 
 **Complete description**
 
@@ -167,7 +168,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 * **Information Producer and Receiver (Actor)** - actors from actor list in section 3.1
 * **Information exchanged (IDs)** - ID of the information defined further in section 5
 
-### 5 Information Exchanged***
+### 5 Information Exchanged
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
@@ -177,16 +178,16 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
 * **Requirements to information data** - optional, defined in section 6
 
-### 6 Requirements (optional)***
+### 6 Requirements (optional)
 
-### 7 Common Terms and Definitions***
+### 7 Common Terms and Definitions
 
 | **Term** | **Definition** |
 | --- | --- |
 |||
 
 
-### 8 Custom Information (optional)***
+### 8 Custom Information (optional)
 
 | **Key** | **Value** | **Refers to Section** |
 | --- | --- | --- |
