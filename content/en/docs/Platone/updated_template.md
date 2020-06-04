@@ -106,7 +106,7 @@ Add any remarks which do not fit in any other category
 
 \&lt;! Example for img1: {{\&lt; imgproc img\_1 Fit &quot;600x400&quot; \&gt;}} Diagram 1 {{\&lt; /imgproc \&gt;}} !\&gt;
 
-### 3 Technical Details
+# 3 Technical Details
 
 ## 3.1 Actors
 
@@ -126,7 +126,7 @@ OPTIONAL - you can leave it blank
 |add text|add text|add text|add text|add text|add text|
 
 
-### 4 Step by Step Analysis of Use Case
+# 4 Step by Step Analysis of Use Case
 
 ## 4.1 Overview of Scenarios
 
@@ -168,7 +168,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 * **Information Producer and Receiver (Actor)** - actors from actor list in section 3.1
 * **Information exchanged (IDs)** - ID of the information defined further in section 5
 
-### 5 Information Exchanged
+# 5 Information Exchanged
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
@@ -178,16 +178,16 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
 * **Requirements to information data** - optional, defined in section 6
 
-### 6 Requirements (optional)
+# 6 Requirements (optional)
 
-### 7 Common Terms and Definitions
+# 7 Common Terms and Definitions
 
 | **Term** | **Definition** |
 | --- | --- |
 |||
 
 
-### 8 Custom Information (optional)
+# 8 Custom Information (optional)
 
 | **Key** | **Value** | **Refers to Section** |
 | --- | --- | --- |
