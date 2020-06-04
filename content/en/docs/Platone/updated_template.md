@@ -1,61 +1,74 @@
 
-***1 Description of the Use Case***
+# 1 Description of the Use Case
 
-**1.1 Name of the Use Case**
+## 1.1 Name of the Use Case
 
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| 132 | Leave it blanc if not sure | Short name of the use case |
+| 132 | *Leave it blanc if not sure* | Short name of the use case |
 
+***Notes:***
+* **ID** - uniqe identification label: DE-1/GR-3/IT-2
+* **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM area domains and zones. It can be left blank if you are not sure.
 
-**1.2 Version Management**
+## 1.2 Version Management
 
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|add text|add text|add text|add text|add text|
+|0.1|2nd June 2020|add text|Initial creation|Draft|
+||||||
 
 
-**1.3 Scope and Objectives of Use Case**
+## 1.3 Scope and Objectives of Use Case
 
 *Scope and objectives of use case*
 | Scope | add text |
 | --- | --- |
-| **Objective(s)** | add text |
+| **Objective(s)** | - add text <br/> - add text <br/> - add text|
 | **Related business case(s)** |add text|
 
+***Notes:***
+* **Scope** - describes the aims and boundaries of the use case in a short, precise text.
+* **Objective(s)** - goals of the use case, in form of bullet points and a short headline.
+* **Realted business case(s)** - optional
 
-**1.4 Narrative of Use Case**
+## 1.4 Narrative of Use Case
 
 
 **Short description**
 
-add text
+add text - bried overview of the use case, no longer than 10 lines
 
 **Complete description**
 
-add text
+add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
 
 
-**1.5 Key Performance Indicatiors (KPI)**
+## 1.5 Key Performance Indicatiors (KPI)*
 
 |ID   |Name   | Description   | Reference to mentioned use case objectives|
 |-----|-------|---------------|-------------------------------------------|
 |add text|add text|add text|add text|
 
-**1.6 Use case conditions**
+***Notes:***
+Can be left blank now
 
-|Assumptions|
-|-----------|
-|add text|
+## 1.6 Use case conditions
 
-|Prerequisites|
-|-------------|
-|add text|
+|Assumptions| Prerequisites|
+|-----------|-------------|
+|add text| add text|
+
+***Notes:***
+* **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
+* **Prerequisites** - specify which requirements have to be met so that the basis scenario use case can be successfully accomplished.
 
 
-**1.7 Further information to the use case for classification/mapping**
+## 1.7 Further information to the use case for classification/mapping
+
+OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
@@ -71,40 +84,61 @@ add text
 |**Further keywords for classification**|
 |add text|
 
-**1.8 General remarks**
+***Notes:***
+* **Relation to other use cases** - relation to other use cases in the same project or thematic area. Possible relation types are for instance include, extend, invoke, or associate.
+* **Level of depth** - reflects the degree of specialisation of the use case. Although no common notation is settled, descriptions like high level use case, generic, detailed, or specialised use case are often used.
+* **Prioritisation** - helps to rate the use cases in a project from very important to nice-to-have with labels like obligatory/mandatory or optional which have to be agreed upon beforehand.
+* **Generic, regional or national relation** - for the purpose of generalisation if use case is applied to areas where restictions by law or silimiar issues occur.
+* **Nature of the use cases** - describes the viewpoint and field of attention like *technical, political, business/market, test*, etc.
+
+
+## 1.8 General remarks
 
 |General remarks|
 |---|
-|add text|
+|- add text <br/> - add text <br/> - add text|
 
-***2 Diagrams of Use Case***
+***Notes:***
+Add any remarks which do not fit in any other category
+
+### 2 Diagrams of Use Case
 
 \&lt;! Example for img1: {{\&lt; imgproc img\_1 Fit &quot;600x400&quot; \&gt;}} Diagram 1 {{\&lt; /imgproc \&gt;}} !\&gt;
 
-***3 Technical Details***
+### 3 Technical Details
 
-**3.1 Actors**
+## 3.1 Actors**
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
 | add text | add text | add text| add text|
 
+***Notes:***
+* **Actor Type** - Device/ Sytem/ Person
 
-**3.2 References**
+## 3.2 References**
+
+OPTIONAL - you can leave it blank
 
 | **No.** | **References Type** | **Reference** | **Status** | **Impact on Use Case** | **Organistaor / Organisation** | **Link** |
 | --- | --- | --- | --- | --- | --- | --- |
 |add text|add text|add text|add text|add text|add text|
 
 
-***4 Step by Step Analysis of Use Case***
+### 4 Step by Step Analysis of Use Case
 
-**4.1 Overview of Scenarios**
+## 4.1 Overview of Scenarios
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
 | 1 | | | | | |
 
+***Notes***
+This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
+* **Primary Actor** - the first actor appearing in the scenario at the incident causing the scenario to begin.
+* **Triggering Event** - the incident causing the scenario to begin.
+* **Pre-Condition** - indicates which terms have to be fulfilled for the scenario to be executed.
+* **Post-Condition** - indicates which terms should be valid after the scenario. TIt can also specify whether a scenario has been successfully completed or not.
 
 **4.2 Steps – Scenarios**
 
@@ -122,22 +156,32 @@ add text
 | 1 |||||||||
 | 2 |||||||||
 
-***5 Information Exchanged***
+***Notes***
+This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
+* **Event** - Event triggering a step, specific for that use case.
+* **Name of Process/ Activity** - general classification of process/activity (e.g. data aquisition).
+* **Description of Process/ Activity** - more detailed description of the step.
+* **Service** - addresses the nature of the information flow. Possible: GET (The information receiver obtains information from the
+information producer after an implicit request.), CREATE (The information producer creates an information object.), CHANGE (The information producer performs an update of the information at the information receiver’s.), DELETE (The information producer deletes information of the receiver.), CANCEL/CLOSE (A process is terminated.), EXECUTE (An action or service is performed.), REPORT (The information producer supplies information of its own account.), TIMER (The actor which represents both information producer
+and receiver has to enforce a waiting period.), REPEAT (A number of steps has to be repeated until a break condition (stated in the field Event) is satisfied. The contemplated steps have to be added in parentheses.).
+* **Information Producer (Actor)**
+
+### 5 Information Exchanged***
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
 |||||
 
-***6 Requirements (optional)***
+### 6 Requirements (optional)***
 
-***7 Common Terms and Definitions***
+### 7 Common Terms and Definitions***
 
 | **Term** | **Definition** |
 | --- | --- |
 |||
 
 
-***8 Custom Information (optional)***
+### 8 Custom Information (optional)***
 
 | **Key** | **Value** | **Refers to Section** |
 | --- | --- | --- |
