@@ -102,7 +102,7 @@ OPTIONAL - you can leave it blank
 ***Notes:***
 Add any remarks which do not fit in any other category
 
-### 2 Diagrams of Use Case
+# 2 Diagrams of Use Case
 
 \&lt;! Example for img1: {{\&lt; imgproc img\_1 Fit &quot;600x400&quot; \&gt;}} Diagram 1 {{\&lt; /imgproc \&gt;}} !\&gt;
 
