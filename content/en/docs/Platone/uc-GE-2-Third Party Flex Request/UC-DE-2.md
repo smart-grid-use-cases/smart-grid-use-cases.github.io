@@ -23,8 +23,10 @@
 ## 1.3. Scope and Objectives of Use Case
 
 *Scope and objectives of use case*
-| Scope | Provide system security thourgh flexibility and constant power exchange in between DSOs and local energy communities <br/> Networks: <br/> markets|
-| --- | --- |
+
+|||
+|-----|-----|
+| **Scope** | Provide system security thourgh flexibility and constant power exchange in between DSOs and local energy communities <br/> Networks: LV <br/> Markets: None |
 | **Objective(s)** | - providing flexibility to third parties  <br/> - enabling local energy community to sell surplus <br/> - demonstrates the ability and practical feasibility of constant power exchange|
 | **Related business case(s)** |add text|
 
