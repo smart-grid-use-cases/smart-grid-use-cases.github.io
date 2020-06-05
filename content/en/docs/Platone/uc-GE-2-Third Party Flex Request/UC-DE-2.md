@@ -27,7 +27,7 @@
 |||
 | --- | --- |
 | Scope | Mitigation of short-term congestion by use of flexibility services provided by Local Energy Community <br/> Networks: LV <br/> Markets: None|
-| **Objective(s)** | * To provide system security through flexibility. <br/> *To enable flexibility exchange between third parties. * To enable constant power exchange between DSOs and local energy communities. * *To minimize RES curtailment.*<br/> |
+| **Objective(s)** | * To provide system security through flexibility. <br/> *To enable flexibility exchange between third parties. <br/> * To enable constant power exchange between DSOs and local energy communities. <br/> * *To minimize RES curtailment.*<br/> |
 | **Related business case(s)** |add text|
 
 ***Notes:***
