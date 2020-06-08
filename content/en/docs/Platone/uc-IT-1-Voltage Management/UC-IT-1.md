@@ -39,7 +39,7 @@
 
 **Short description**
 
-add text - brief overview of the use case, no longer than 10 lines
+This BUC describes the main steps to avoid congestion in transmission and distribution systems. The DSO can use flexible resources connected to the distribution system and TSO can use flexible resources connected to transmission and distribution systems after the DSO’s approval. The power flow is assessed and monitored respectively by DSO and TSO, in order to keep the electrical quantities within admissible ranges.
 
 **Complete description**
 
