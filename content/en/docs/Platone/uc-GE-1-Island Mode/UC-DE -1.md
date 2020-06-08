@@ -25,7 +25,7 @@
 *Scope and objectives of use case*
 |||
 | --- | --- |
-| Scope | A local energy community - **please elaborate** <br/> Networks: LV <br/> Markets: None|
+| Scope | A local energy community - **please add** <br/> Networks: LV <br/> Markets: None|
 | **Objective(s)** | * To enable local islanding. <br/> *To maximize consumption of locally produced *renewable* energy in geographic proximity. <br/> * To create a prerequisite for the advanced use cases 2 - 4|
 | **Related business case(s)** |add text|
 
@@ -39,7 +39,7 @@
 
 **Short description**
 
-Use case 1 is anticipated to emerge as a result of the Clean Energy Package, driven by the bottom.up demand of customers and local communities. It is a prerequisite for the advanced use cases 2-4 which investigate ways to coordinate the interconnected distribution network with local energy communities.
+Use case 1 is anticipated to emerge as a result of the Clean Energy Package, driven by the bottom-up demand of customers and local communities. It is a prerequisite for the advanced use cases 2-4 which investigate ways to coordinate the interconnected distribution network with local energy communities.
 
 **Complete description**
 
@@ -112,12 +112,12 @@ Add any remarks which do not fit in any other category
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
 | DSO|Person | add text |  ADMS, SCADA| 
-| Residential consumer| add text| add text| add text |
-|Residential prostormer | add text| add text| add text | 
-|Commercial consumer| add text| add text| add text |
-|Commercial prostormer | add text| add text| add text |
- |Energy community | add text| add text| add text |
- |Aggregator/Flexibility operator | add text| add text| add text |
+| Residential consumer| Person| add text| add text |
+|Residential prostormer | Person| add text| add text | 
+|Commercial consumer| Person| add text| add text |
+|Commercial prostormer | Person| add text| add text |
+|Energy community | Person| add text| add text |
+|Aggregator/Flexibility operator | Person| add text| add text |
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
