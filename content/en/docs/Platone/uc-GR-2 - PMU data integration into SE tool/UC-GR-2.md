@@ -178,7 +178,6 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 |I-03|Voltage phasors|||
 |I-04|Current phasors|||
 |I-05|Estimated network state vector|||
-|
 
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
@@ -190,7 +189,9 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 | **Term** | **Definition** |
 | --- | --- |
-|||
+|Phasor measurements|Measurements of magnitude and phase angle of voltage or current signals, which are synchronised via the global positioning satellite (GPS) system.|
+|Pseudo-measurement|An injection whose value is obtained either from bus load forecasts or generation schedules. It is used as a substitute for a missing measurement in order to restore observability. |
+|State vector|Voltage magnitudes and angles of all network buses|
 
 
 # 8. Custom Information (optional)
