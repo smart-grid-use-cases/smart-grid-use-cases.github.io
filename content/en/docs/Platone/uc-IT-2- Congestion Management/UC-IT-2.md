@@ -39,7 +39,7 @@
 
 **Short description**
 
-add text - brief overview of the use case, no longer than 10 lines
+The BUC describes the steps to prevent voltage issues in transmission and distribution system. DSO can use flexible resources connected to distribution system and TSO can use flexible resources connected to transmission and distribution system after the DSO’s approval. The state of the grid is assessed and monitored by DSO and TSO respectively, in order to keep the electrical quantities of the system within admissible range.
 
 **Complete description**
 
@@ -183,6 +183,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 |I-02|technical data|||
 |I-03|customer data|||
 |I-04|economic data|||
+
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
 * **Requirements to information data** - optional, defined in section 6
