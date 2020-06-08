@@ -24,7 +24,6 @@
 
 |||
 | --- | --- |
-*Scope and objectives of use case*
 | Scope | High quality estimation of the network state will be acquired via the state estimation tool in real-time conditions under various network operating scenarios. The estimated network state will be used as an input to distribution management applications.<br/> Network: MV<br/> Markets: Near Real Time|
 | **Objective(s)** | * To ensure high quality estimation of the network state.<br/> * To improve confidence in actual measurement data obtained throughout the network and avaialble load forecasts.|
 | **Related business case(s)** |add text|
@@ -177,6 +176,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 |I-02|Voltages magnitudes|||
 |I-03|Estimated network state vector|||
 |||||
+
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
 * **Requirements to information data** - optional, defined in section 6
@@ -187,7 +187,8 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 | **Term** | **Definition** |
 | --- | --- |
-|||
+|Pseudo-measurement|An injection whose value is obtained either from bus load forecasts or generation schedules. It is used as a substitute for a missing measurement in order to restore observability. |
+|State vector|Voltage magnitudes and angles of all network buses|
 
 
 # 8. Custom Information (optional)
