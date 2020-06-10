@@ -5,7 +5,7 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-GR-05| Area: Energy system </br> *Leave it blanc if not sure* | Frequency support by the distribution network|
+| UC-GR-05| Area: Energy system/ Domains: Distribution,Transmission/ Zone: Station,Operation </br> | Frequency support by the distribution network|
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
@@ -16,8 +16,8 @@
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|0.1||Eleni Daridou|Initial creation||
-|0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
+|0.1||Panagiotis Pediaditis, Stavroula Tzioka, Eleni Daridou, Dimitris Stratogiannis, Themistoklis Xygkis|Initial creation|Draft|
+
 
 ## 1.3. Scope and Objectives of Use Case
 
@@ -25,7 +25,7 @@
 |||
 | --- | --- |
 | Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy that line and voltage limits of the distribution network are not violated in the case of a frequency support request by the transmission system. More in detail, customers with flexible loads will respond to such requests and the DSO will use flexibility tools to coordinate their response aiming at achieving the frequency support objective while ensuring distribution network operational safety. As in the previous Use Cases the state of the system is provided by the state estimation tool. <br/> Network: MV <br/> Markets: Near Real Time|
-| **Objective(s)** | * To keep the distribution network within physical limits (line and voltage) with appropriate actions in the case of a frequency restoration reserve activation request by the TSO.|
+| **Objective(s)** | To keep the distribution network within physical limits (line and voltage) with appropriate actions in the case of a frequency restoration reserve activation request by the TSO.|
 | **Related business case(s)** |add text|
 
 ***Notes:***
@@ -57,8 +57,8 @@ Can be left blank now
 
 |Assumptions| Prerequisites|
 |-----------|-------------|
-|add text| add text|
-
+|Customers' consent required for participation in the flexibility mechanism| DSO systems (e.g.AMR, GIS, SCADA) being operational|
+Simulation of TSO
 ***Notes:***
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
 * **Prerequisites** - specify which requirements have to be met so that the basis scenario use case can be successfully accomplished.
@@ -70,15 +70,15 @@ OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
-|add text|
+|include uc-GR-1 and uc-GR-2|
 |**Level of depth**|
-|add text|
+|detailed|
 |**Prioritisation**|
 |add text|
 |**Generic, regional or national relation**|
 |add text|
 |**Nature of the use cases**|
-|add text|
+|test|
 |**Further keywords for classification**|
 |add text|
 
@@ -110,12 +110,12 @@ Add any remarks which do not fit in any other category
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
 | DSO | Person | add text| DMS, DSO technical Platform , PMUs , State estimation tool, Measurement Data, Network topology|
-| TSO | Person | add text| add text|
+| TSO | Person | add text| Simulated entity to trigger the use case|
 | Residential consumer | Person | add text| Load information (aggregated) and Measurements|
 | Commercial consumer | Person | add text| Load information (aggregated) and Measurements|
-| Retailer | Person | add text| add text|
 | Aggregator/Flexibility| Person | add text| add text|
-| RES production| Person | add text| add text|
+| RES production| Person | add text| Measurements|
+
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
