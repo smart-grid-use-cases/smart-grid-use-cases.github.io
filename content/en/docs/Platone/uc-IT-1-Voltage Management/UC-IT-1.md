@@ -111,15 +111,15 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO| Person | add text| DMS, Light Node, Shared Customer Database, Simulator of DSO flexibility requests, Blockchain access layer|
-|TSO|Person||Simulator of TSO flexibility requests|
-|Market Operator|Person||Market Platform, Blockchain market layer|
-|Residential consumer|Person||Energy Management System|
-|Residential prostormer| Person| |Energy Management System, Storage|
-|Commercial  prostormer|Person||Electric Vehicles Parking|
-|Energy community|Person||Energy Management System, Storage|
-|Aggregator/Flexibility operator|Person||Aggregator Platform|
-|Balance responsible party|Person|||
+| DSO| Person | DSO is each Distribution System Operator. It is an entity in charge for the management of the energy distribution networks | DMS, Light Node, Shared Customer Database, Simulator of DSO flexibility requests, Blockchain access layer|
+|TSO|Person| TSO is each Transmission System Operator. It is an entity in charge for the management of the energy transmission networks |Simulator of TSO flexibility requests|
+|Market Operator|Person| Market Operator is each entity that provides and sell electricity into the market |Market Platform, Blockchain market layer|
+|Residential consumer|Person| Residential Consumer is a kind of end-user. He/she buys energy services |Energy Management System|
+|Residential prostormer| Person| Residential Prostormer is a kind of end-user. He/she buys energy services but produces energy by him/herself |Energy Management System, Storage|
+|Commercial  prostormer|Person| Commercial Prostormer is a kind of end-user. As a company, it buys energy services but produces energy by itself |Electric Vehicles Parking|
+|Energy community|Person| Energy community is an entity that groups different users for sharing and producing energy |Energy Management System, Storage|
+|Aggregator/Flexibility operator|Person| Aggregator / Flexibility operator is an entity that aggregates the flexibility offers on the market and provide them to DSO in case of needs for the grid |Aggregator Platform|
+|Balance responsible party|Person| Balance responsible party is a market participant or its chosen representative responsible for its imbalances ||
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
