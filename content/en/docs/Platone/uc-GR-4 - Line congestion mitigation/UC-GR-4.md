@@ -16,8 +16,7 @@
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|0.1||Stavroula Tzioka|Initial creation||
-|0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
+|0.1|17th June 2020|Panagiotis Pediaditis, Themistoklis Xygkis, Stavroula Tzioka, Dimitris Stratogiannis, Eleni Daridounitial creation|Draft|
 
 
 ## 1.3. Scope and Objectives of Use Case
@@ -26,7 +25,7 @@
 |||
 | --- | --- |
 | Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy that line thermal limits are not violated in the distribution network and especially in MV lines with flexible loads availability. The DSO will examine the operation of tools and services for decision making support to mitigate line congestions assuming that grid state estimation has a good degree of certainty. <br/> Network: MV <br/> Markets: Near Real Time |
-| **Objective(s)** | * To keep track of active and reactive power flows levels at a network line and so that thermal limits are not violated. <br/> * To take immediate response actions in case of a violation employing flexibility capabilities.|
+| **Objective(s)** | * To keep track of active and reactive power flows levels at a network line, so that thermal limits are not violated. <br/> * To take immediate response actions in case of a violation employing flexibility capabilities.|
 | **Related business case(s)** |add text|
 
 ***Notes:***
