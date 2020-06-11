@@ -151,7 +151,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |Measurements from the Distribution Network|Data Aquisition|	Description Network state (voltage magnitudes and angles of all network buses)|REPORT|SCADA,DMS,GIS,AMR|State Estimation tool|Measurements||
+| 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|State Estimation tool|Measurements||
 | 2 |Measurements of power flow through a distribution line out of the permissible range|Alarm generation|Alarm informing the DSO about the thermal line limit violation|CREATE|State Estimation tool|DSO|Alarm||
 | 3 |Alarm informing the DSO about the thermal line limit violation|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DNO|DNO|Network tariffs||
 | 4 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator|CREATE|DSO|Aggregator|Network tariffs||
@@ -165,7 +165,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |Measurements from the Distribution Network|Data Aquisition|	Description Network state (voltage magnitudes and angles of all network buses)|REPORT|SCADA,DMS,GIS,AMR|State Estimation tool|Measurements||
+| 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|State Estimation tool|Measurements||
 | 2 |Measurements of power flow through a distribution line out of the permissible range|Alarm generation|Alarm informing the DSO about the thermal line limit violation|CREATE|State Estimation tool|DSO|Alarm||
 | 3 |Alarm informing the DSO about the thermal line limit violation|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DNO|DNO|Network tariffs||
 | 4 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator but the Aggregator does not respond to it and does not take further action|CREATE|DSO|Aggregator|Network tariffs||
