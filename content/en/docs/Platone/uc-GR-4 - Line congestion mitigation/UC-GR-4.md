@@ -5,7 +5,7 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-GR-4| Area: Energy system </br> Domains: Distribution, DER, Customer Premises </br> Zones: Station, Operation  </br>  | Line congestion mitigation|
+| UC-GR-4| Area: Energy system/ </br> Domains: Distribution, DER, Customer Premises/ </br> Zones: Station, Operation  </br>  | Line congestion mitigation|
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
