@@ -70,16 +70,16 @@ Can be left blank now
 OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
-|---------------------------|
+|include uc-GR-1 and potentially uc-GR-2|
 |add text|
 |**Level of depth**|
-|add text|
+|detailed|
 |**Prioritisation**|
-|add text|
+|obligatory|
 |**Generic, regional or national relation**|
-|add text|
+|generic|
 |**Nature of the use cases**|
-|add text|
+|technical, market|
 |**Further keywords for classification**|
 |add text|
 
