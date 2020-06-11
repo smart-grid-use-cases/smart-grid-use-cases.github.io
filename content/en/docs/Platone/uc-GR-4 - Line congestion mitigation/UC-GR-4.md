@@ -135,7 +135,8 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | | | | | |
+| 1 | Line thermal limnit violation mitigated| SCADA | Measurements of power flow in a distribution line out of the permissible range |Distribution network observability | Line conjestion mitigated|
+| 2 | Line thermal limnit violation not mitigated| SCADA | Measurements of power flow in a distribution line out of the permissible range|Distribution network observability | Line congestion not mitigated|
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -146,12 +147,12 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 ## 4.2. Steps – Scenarios
 
-**Scenario Name: No. 1 - (name of scenario)**
+**Scenario Name: No. 1 - Line thermal limnit violation mitigated**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
+| 1 |Measurements from the Distribution Network|Data Aquisition|	Description Network state (voltage magnitudes and angles of all network buses)|REPORT|SCADA,DMS,GIS,AMR|State Estimation tool|Measurements||
+| 2 |Measurements of power flow through a distribution line out of the permissible range|Alarm generation|Alarm informing the DSO about the thermal line limit violation|CREATE|State Estimation tool|DSO|Alarm about the thermal line limit violation||
 
 **Scenario Name: No. 2 - (name of scenario)**
 
