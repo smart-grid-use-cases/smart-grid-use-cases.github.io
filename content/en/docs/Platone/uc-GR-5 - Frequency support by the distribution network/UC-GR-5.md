@@ -70,7 +70,7 @@ OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
-|include uc-GR-1 and uc-GR-2|
+|include uc-GR-1 and potentially uc-GR-2|
 |**Level of depth**|
 |detailed|
 |**Prioritisation**|
