@@ -79,7 +79,7 @@ OPTIONAL - you can leave it blank
 |**Generic, regional or national relation**|
 |add text|
 |**Nature of the use cases**|
-|technical, market|
+|technical, market, test|
 |**Further keywords for classification**|
 |add text|
 
