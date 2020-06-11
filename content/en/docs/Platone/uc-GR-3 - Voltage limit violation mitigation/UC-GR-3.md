@@ -5,7 +5,7 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-GR-3| Area: Energy system </br> *Leave it blanc if not sure* | Voltage limit violation mitigation |
+| UC-GR-3| Area: Energy system </br> Domains: Distribution, DER, Customer Premises/ </br> Zones: Station, Operation  </br> | Voltage limit violation mitigation |
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
@@ -16,8 +16,7 @@
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|0.1||Dimitris Stratogiannis|Initial creation||
-|0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
+|0.1|17th June 2020|Panagiotis Pediaditis, Themistoklis Xygkis, Dimitris Stratogiannis, Eleni Daridou, Stavroula Tzioka|Initial creation|Draft|
 
 ## 1.3. Scope and Objectives of Use Case
 
@@ -25,7 +24,7 @@
 |||
 | --- | --- |
 | Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy EN50160 in case of a voltage level violation in the distribution network and especially in MV lines with flexible loads availability. The DSO will examine the operation of tools and services for decision making support to mitigate voltage violations, assuming that the grid state estimation has a good degree of certainty . <br/> Network: MV <br/> Markets: Near Real Time|
-| **Objective(s)** | * To monitor and conrol the voltage level at a network node always into the operational limit. <br/> * To immediately respond in case of a violation employing flexibility capabilities.|
+| **Objective(s)** | * To monitor and control the voltage level at a network node always into the operational limit. <br/> * To immediately respond in case of a violation employing flexibility capabilities.|
 | **Related business case(s)** |add text|
 
 ***Notes:***
@@ -37,9 +36,10 @@
 
 
 **Short description**
-Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the available measurements and the topology via the AMR, GIS and SCADA data. In the first case: a) via the state estimation tool, it is identified that a voltage limit is violated on a node, in a second case: b) an alarm coming from the SCADA/DMS informs us for an undervoltage in an MV line that is controlled by DSO Regional Control Centre. The alarm signal is transferred in the DSO technical platform via an API and the information is shared with the appropriate tools and services. The DSO calculated and communicated the appropriate network tariffs that reflect the situation of the network. The flexible loads react to these tariffs and the problem is mitigated.
+Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that voltage limit violation is mitigated.
 
 **Complete description**
+Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the available measurements and the topology via the AMR, GIS and SCADA data. In the first case: a) via the state estimation tool, it is identified that a voltage limit is violated on a node, in a second case: b) an alarm coming from the SCADA/DMS informs us for an undervoltage in an MV line that is controlled by DSO Regional Control Centre. The alarm signal is transferred in the DSO technical platform via an API and the information is shared with the appropriate tools and services. The DSO calculated and communicated the appropriate network tariffs that reflect the situation of the network. The flexible loads react to these tariffs and the problem is mitigated.
 
 add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
 
@@ -70,15 +70,15 @@ OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
-|add text|
+|include uc-GR-1 and potentially uc-GR-2|
 |**Level of depth**|
-|add text|
+|detailed|
 |**Prioritisation**|
-|add text|
+|obligatory|
 |**Generic, regional or national relation**|
-|add text|
+|generic|
 |**Nature of the use cases**|
-|add text|
+|technical, market|
 |**Further keywords for classification**|
 |add text|
 
