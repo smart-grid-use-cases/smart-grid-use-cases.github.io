@@ -5,7 +5,7 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-GR-05| Area: Energy system/ Domains: Distribution,Transmission/ Zone: Station,Operation </br> | Frequency support by the distribution network|
+| UC-GR-05| Area: Energy system/</br> Domains: Distribution,Transmission, DER, Customer Premises/</br> Zone: Station,Operation </br> | Frequency support by the distribution network|
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
