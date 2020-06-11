@@ -188,7 +188,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
 |I-01|State Vector|Voltage magnitudes and angles of all network buses||
-|I-02|Frequency support requests|Frequency support request from the TSO||
+|I-02|Frequency support request|Frequency support request from the TSO||
 |I-03|Network tariffs|Network tariffs that reflect the Disribution Network state||
 |I-04|Setpoint|Setpoint for adjustment of flexible load/RES production||
 |I-05||||
