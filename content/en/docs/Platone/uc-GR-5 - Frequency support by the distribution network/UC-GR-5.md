@@ -37,9 +37,10 @@
 
 
 **Short description**
+Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that frequency restoration request from the TSO is adequately handled.
 
 **Complete description**
-Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the available measurements and the topology via the AMR, GIS and SCADA data. A frequency support activation request from the TSO arrives at the customers with flexible loads. The request is also communicated to the DSO technical platform via an API and the information is shared with the appropriate tools and services. The DSO calculated and communicated to the customers the appropriate network tariffs that reflect the situation of the network. The flexible loads react to these tariffs and respond to the frequency support request appropriately
+Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the available measurements and the topology via the AMR, GIS and SCADA data. A frequency support activation request from the TSO arrives at the customers with flexible loads. The request is also communicated to the DSO technical platform via an API and the information is shared with the appropriate tools and services. The DSO calculated and communicated to the customers the appropriate network tariffs that reflect the situation of the network. The flexible loads react to these tariffs and respond to the frequency support request appropriately.
 
 add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
 
