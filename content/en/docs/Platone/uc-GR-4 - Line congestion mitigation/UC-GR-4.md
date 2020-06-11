@@ -70,8 +70,8 @@ Can be left blank now
 OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
+|---------------------------|
 |include uc-GR-1 and potentially uc-GR-2|
-|add text|
 |**Level of depth**|
 |detailed|
 |**Prioritisation**|
