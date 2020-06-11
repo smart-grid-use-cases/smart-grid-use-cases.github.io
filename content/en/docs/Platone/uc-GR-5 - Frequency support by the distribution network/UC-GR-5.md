@@ -78,7 +78,7 @@ OPTIONAL - you can leave it blank
 |**Generic, regional or national relation**|
 |add text|
 |**Nature of the use cases**|
-|test|
+|technical, market|
 |**Further keywords for classification**|
 |add text|
 
