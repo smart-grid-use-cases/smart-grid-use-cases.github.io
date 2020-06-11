@@ -109,12 +109,12 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO| Person | add text| add text|
-| Residential Consumer | add text | add text| add text|
-| Commercial  | add text | add text| add text|
-| Retailer| add text | add text| add text|
-| Aggregator/Flexibility operator | add text | add text| add text|
-| RES production | add text | add text| add text|
+| DSO | Person | add text| DMS, DSO technical Platform , PMUs , State estimation tool, Measurement Data, Network topology|
+| Residential consumer | Person | add text| Load information (aggregated) and Measurements|
+| Commercial consumer | Person | add text| Load information (aggregated) and Measurements|
+| Aggregator| Person | add text| add text|
+| RES production| Person | add text| Measurements|
+| State Estimation tool| System | Tool that allows and assists the use of other DMS services and applications to provide network state estimation, improvement of measurement data reliability and better network observability | Alarm sent by the State Estimation tool is the triggering event for this Use Case|
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
