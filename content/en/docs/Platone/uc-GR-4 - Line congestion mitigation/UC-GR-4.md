@@ -37,9 +37,10 @@
 
 
 **Short description**
-Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the available measurements and the topology via the AMR, GIS and SCADA data. Via the state estimation tool, it is identified that a line thermal limit is violated. The alarm signal is transferred in the DSO technical platform via an API and the information is shared with the appropriate tools and services. The DSO calculated and communicated the appropriate network tariffs that reflect the situation of the network. The flexible loads react to these tariffs and the problem is mitigated.
+Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that line thermal limit violation is mitigated.  
 
 **Complete description**
+Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the available measurements and the topology via the AMR, GIS and SCADA data. Via the state estimation tool, it is identified that a line thermal limit is violated. The alarm signal is transferred in the DSO technical platform via an API and the information is shared with the appropriate tools and services. The DSO calculated and communicated the appropriate network tariffs that reflect the situation of the network. The flexible loads react to these tariffs and the problem is mitigated.
 
 add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
 
