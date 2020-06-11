@@ -152,7 +152,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |Frequency support request|Data Aquisition|Description Network state (voltage magnitudes and angles of all network buses)|REPORT|SCADA,DMS,GIS,AMR|DSO|State Vector||
+| 1 |Frequency support request|Data Aquisition|Description Network state (voltage magnitudes and angles of all network buses)|REPORT|SCADA,DMS,GIS,AMR|DSO|Measurements||
 | 2 |Frequency support request|Frequency support request|Frequency support request sent to the Aggregator|CREATE|TSO|Aggregator|Frequency support request||
 | 3 |Frequency support request|Frequency support request|Frequency support communicated to the DSO|CREATE|TSO|DSO|Frequency support request||
 | 4 |Frequency support request|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DNO|DNO|Network tariffs||
@@ -160,7 +160,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 6 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
 | 7 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|Setpoint||
 | 8 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES production|Setpoint||
-| 9 |Setpoints sent to flexibility loads|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|CHANGE|SCADA,DMS,GIS,AMR|DSO|State Vector||
+| 9 |Setpoints sent to flexibility loads|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|CHANGE|SCADA,DMS,GIS,AMR|DSO|Measurements||
 
 **Scenario Name: No. 2 - Frequency support request not resolved **
 
@@ -187,10 +187,11 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
-|I-01|State Vector|Voltage magnitudes and angles of all network buses||
-|I-02|Frequency support request|Frequency support request from the TSO||
-|I-03|Network tariffs|Network tariffs that reflect the Disribution Network state||
-|I-04|Setpoint|Setpoint for adjustment of flexible load/RES production||
+|I-01|Measurements|Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)||
+|I-02|State Vector|Voltage magnitudes and angles of all network buses||
+|I-03|Frequency support request|Frequency support request from the TSO||
+|I-04|Network tariffs|Network tariffs that reflect the Disribution Network state||
+|I-05|Setpoint|Setpoint for adjustment of flexible load/RES production||
 |I-05||||
 
 ***Notes***
