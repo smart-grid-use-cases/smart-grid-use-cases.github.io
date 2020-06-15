@@ -58,8 +58,10 @@ Can be left blank now
 
 |Assumptions| Prerequisites|
 |-----------|-------------|
-|Customers' consent required for participation in the flexibility mechanism| DSO systems (e.g.AMR, GIS, SCADA) being operational|
+|Customers' consent required for participation in the flexibility mechanism, Customers are rational, Part of the load is flexible, State of the network is known with a good degree of certainty|Simulation of TSO, Dynamic network charging is allowed, Smart metering is installed, Smart appliances can perform load shifting, DSO systems (e.g.AMR, GIS, SCADA) being operational|
 Simulation of TSO
+
+Customers are rational, Part of the load is flexible, State of the network is known with a good degree of certainty
 ***Notes:***
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
 * **Prerequisites** - specify which requirements have to be met so that the basis scenario use case can be successfully accomplished.
