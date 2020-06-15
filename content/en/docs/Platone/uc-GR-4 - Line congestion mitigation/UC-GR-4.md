@@ -58,7 +58,7 @@ Can be left blank now
 
 |Assumptions| Prerequisites|
 |-----------|-------------|
-|add text| add text|
+|Customers are rational, Part of the load is flexible, State of the network is known with a good degree of certainty| Dynamic network charging is allowed, Smart metering is installed, Smart appliances can perform load shifting|
 
 ***Notes:***
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
