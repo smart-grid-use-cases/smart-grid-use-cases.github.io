@@ -59,7 +59,7 @@ Can be left blank now
 |Assumptions| Prerequisites|
 |-----------|-------------|
 |Customers' consent required for participation in the flexibility mechanism, Customers are rational, Part of the load is flexible, State of the network is known with a good degree of certainty|Simulation of TSO, Dynamic network charging is allowed, Smart metering is installed, Smart appliances can perform load shifting, DSO systems (e.g.AMR, GIS, SCADA) being operational|
-Simulation of TSO
+
 
 Customers are rational, Part of the load is flexible, State of the network is known with a good degree of certainty
 ***Notes:***
