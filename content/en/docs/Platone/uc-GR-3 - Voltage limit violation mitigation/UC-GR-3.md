@@ -158,7 +158,8 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 5 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
 | 6 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|Setpoint||
 | 7 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES production|Setpoint||
-| 8 |Setpoints sent to flexibility loads|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|CHANGE|SCADA,DMS,GIS,AMR|DSO|Measurements||
+| 8 |Setpoints sent to flexibility loads|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|CHANGE|SCADA,DMS,GIS,AMR|DSO Data Server|Measurements||
+| 9 |New Distribution Network state|Data Aquisition|New Distribution Network state|CHANGE|DSO Data Server|DSO|Measurements||
 
 **Scenario Name: No. 2 - Voltage limit violation mitigated - Alarm via the State Estimation tool**
 
@@ -172,7 +173,8 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 6 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
 | 7 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|Setpoint||
 | 8 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES production|Setpoint||
-| 9 |Setpoints sent to flexibility loads|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|CHANGE|SCADA,DMS,GIS,AMR|DSO|Measurements||
+| 9 |Setpoints sent to flexibility loads|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|CHANGE|SCADA,DMS,GIS,AMR|DSO Data Server|Measurements||
+| 10 |New Distribution Network state|Data Aquisition|New Distribution Network state|CHANGE|DSO Data Server|DSO|Measurements||
 
 **Scenario Name: No. 3 - Voltage limit violation not mitigated**
 
