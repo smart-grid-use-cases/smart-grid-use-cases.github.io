@@ -152,7 +152,9 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|Measurements||
 | 3 |Measurements from the Distribution Network| Assess Observability| State vector calculation |EXECUTE|State Estimation tool||State vector||
 | 4 |State vector with low accuracy|Data Aquisition|New measurements/pseudo-measurements integrated in the State Estimation tool  |CHANGE|DSO Data Server|State Estimation tool|Measurements||
-| 5 |Measurements from the Distribution Network| Assess Observability| State vector calculation |EXECUTE|State Estimation tool|DSO|State vector||
+| 5 |Measurements from the Distribution Network| Assess Observability| State vector calculation |EXECUTE|State Estimation tool||State vector||
+| 6 |State vector calculation| State Estimation| Estimated state vector communication |REPORT|State Estimation tool|DSO|State vector||
+
 
 **Scenario Name: No. 2 - Enhanced network observability-unbservable**
 
@@ -162,7 +164,8 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|Measurements||
 | 3 |Measurements from the Distribution Network| Assess Observability| State vector cannot be calculated |EXECUTE|State Estimation tool||||
 | 4 |Missing/inconsistent data|Data Aquisition|New measurements integrated in the State Estimation tool  |CHANGE|DSO Data Server|State Estimation tool|Measurements||
-| 5 |Measurements from the Distribution Network| Assess Observability| State vector calculation |EXECUTE|State Estimation tool|DSO|State vector||
+| 5 |Measurements from the Distribution Network| Assess Observability| State vector calculation |EXECUTE|State Estimation tool||State vector||
+| 6 |State vector calculation| State Estimation| Estimated state vector communication |REPORT|State Estimation tool|DSO|State vector||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
