@@ -5,7 +5,7 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-GR-1| Area: Energy system </br> *Leave it blanc if not sure* | Improvement of measurement data reliability|
+| UC-GR-1| Area: Energy system </br> Domains: Distribution, DER, Customer Premises </br> Zones: Station, Operation  </br> | Improvement of measurement data reliability|
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
@@ -37,11 +37,10 @@
 
 
 **Short description**
-A measurement set, composed of actual and historical measurement data obtained from the dispersed metering devices (AMR, GIS, SCADA) installed throughout the network, is available to the DSO for real-time operation purposes. The related measurements refer to power flows and voltage magnitudes at the top of distribution feeders, power injections from distributed generation units, and load pseudo-measurements for aggregated consumer demand at MV/LV transformer level. Given that the network model (topology) is known with a good degree of certainty, the state estimation tool ensures that the network is observable based on the available measurement set and, subsequently, calculates the estimated state vector, that is, the voltage magnitudes and angles of all network buses.
+The State Estimation tool ensures and enhances the observability of the network using the available measurement set. 
 
 **Complete description**
-
-add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
+A measurement set, composed of actual and historical measurement data obtained from the dispersed metering devices (AMR, GIS, SCADA) installed throughout the network, is available to the DSO for real-time operation purposes. The related measurements refer to power flows and voltage magnitudes at the top of distribution feeders, power injections from distributed generation units, and load pseudo-measurements for aggregated consumer demand at MV/LV transformer level. Given that the network model (topology) is known with a good degree of certainty, the state estimation tool ensures that the network is observable based on the available measurement set and, subsequently, calculates the estimated state vector, that is, the voltage magnitudes and angles of all network buses.
 
 
 ## 1.5. Key Performance Indicatiors (KPI)
@@ -109,10 +108,11 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO | Person | add text| DMS, DSO technical Platform , PMUs, State estimation tool, Measurement Data, Network topology|
-| Residential consumer| Person | add text| Load information (aggregated) and Measurements|
-| Commercial consumer| Person | add text|Load information (aggregated) and Measurements|
-| RES Production| Person | add text||  
+| DSO | Person | add text| DMS, DSO technical Platform , PMUs , Measurement Data, Network topology|
+| Residential consumer | Person | add text| Load information (aggregated) and Measurements|
+| Commercial consumer | Person | add text| Load information (aggregated) and Measurements|
+| RES production| Person | add text| Measurements|
+| State Estimation tool| System | Tool that allows and assists the use of other DMS services and applications to provide network state estimation, improvement of measurement data reliability and better network observability | | 
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
@@ -132,7 +132,8 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | | | | | |
+| 1 | Enhanced network observability-low accuracy | SCADA | --- | State vector with low accuracy | High-accuracy state vector | 
+| 2 | Enhanced network observability-unbservable | SCADA | --- | Unobservable network | High-accuracy state vector | 
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -143,19 +144,25 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 ## 4.2. Steps – Scenarios
 
-**Scenario Name: No. 1 - (name of scenario)**
+**Scenario Name: No. 1 - Enhanced network observability-low accuracy**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
+| 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|Measurements||
+| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|Measurements||
+| 3 |Measurements from the Distribution Network| Assess Observability| State vector calculation |EXECUTE|State Estimation tool||State vector||
+| 4 |State vector with low accuracy|Data Aquisition|New measurements/pseudo-measurements integrated in the State Estimation tool  |CHANGE|DSO Data Server|State Estimation tool|Measurements||
+| 5 |Measurements from the Distribution Network| Assess Observability| State vector calculation |EXECUTE|State Estimation tool|DSO|State vector||
 
-**Scenario Name: No. 2 - (name of scenario)**
+**Scenario Name: No. 2 - Enhanced network observability-unbservable**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
+| 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|Measurements||
+| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|Measurements||
+| 3 |Measurements from the Distribution Network| Assess Observability| State vector cannot be calculated |EXECUTE|State Estimation tool||||
+| 4 |Missing/inconsistent data|Data Aquisition|New measurements integrated in the State Estimation tool  |CHANGE|DSO Data Server|State Estimation tool|Measurements||
+| 5 |Measurements from the Distribution Network| Assess Observability| State vector calculation |EXECUTE|State Estimation tool|DSO|State vector||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -172,10 +179,8 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
-|I-01|Power flows|||
-|I-02|Voltages magnitudes|||
-|I-03|Estimated network state vector|||
-|||||
+|I-01|Measurements|Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)||
+|I-02|State Vector|Voltage magnitudes and angles of all network buses||
 
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
