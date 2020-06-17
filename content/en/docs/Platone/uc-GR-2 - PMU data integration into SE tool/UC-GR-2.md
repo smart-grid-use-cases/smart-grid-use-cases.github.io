@@ -16,8 +16,7 @@
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|0.1||Themistoklis Xygkis|Initial creation||
-|0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
+|0.1|17th June 2020|Themistoklis Xygkis, Panagiotis Pediaditis, Stavroula Tzioka, Eleni Daridou, Dimitris Stratogiannis|Initial creation|Draft|
 
 
 ## 1.3. Scope and Objectives of Use Case
@@ -56,7 +55,7 @@ Can be left blank now
 ## 1.6. Use case conditions
 
 |Assumptions| Prerequisites|
-|-----------|-------------|
+|-----------|	The network model (topology) is known with a good degree of certainty, DSO systems (e.g.AMR, GIS, SCADA) being operational, PMUs are installed|
 |add text| add text|
 
 ***Notes:***
