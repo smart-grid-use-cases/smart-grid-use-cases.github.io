@@ -55,8 +55,8 @@ Can be left blank now
 ## 1.6. Use case conditions
 
 |Assumptions| Prerequisites|
-|-----------|	The network model (topology) is known with a good degree of certainty, DSO systems (e.g.AMR, GIS, SCADA) being operational, PMUs are installed|
-|add text| add text|
+|-----------|	-----------|
+|add text| The network model (topology) is known with a good degree of certainty, DSO systems (e.g.AMR, GIS, SCADA) being operational, PMUs are installed|
 
 ***Notes:***
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
@@ -69,7 +69,7 @@ OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
-|UC-GR-6|
+|Associate with UC-GR-6|
 |**Level of depth**|
 |add text|
 |**Prioritisation**|
