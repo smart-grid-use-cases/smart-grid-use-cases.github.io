@@ -16,15 +16,14 @@
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|0.1||Themistoklis Xygkis|Initial creation||
-|0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
+|0.1|17th June 2020|Themistoklis Xygkis, Panagiotis Pediaditis, Stavroula Tzioka, Eleni Daridou, Dimitris Stratogiannis|Initial creation|Draft|
 
 
 ## 1.3. Scope and Objectives of Use Case
 
 |||
 | --- | --- |
-| Scope | High quality estimation of the network state will be acquired via the state estimation tool in real-time conditions under various network operating scenarios. The estimated network state will be used as an input to distribution management applications.<br/> Network: MV<br/> Markets: Near Real Time|
+| Scope | High quality estimation of the network state will be acquired via the state estimation tool in real-time conditions under various network operating scenarios. The estimated network state will be used as an input to distribution management applications.<br/>|
 | **Objective(s)** | * To ensure high quality estimation of the network state.<br/> * To improve confidence in actual measurement data obtained throughout the network and avaialble load forecasts.|
 | **Related business case(s)** |add text|
 
@@ -55,8 +54,8 @@ Can be left blank now
 ## 1.6. Use case conditions
 
 |Assumptions| Prerequisites|
-|-----------|-------------|
-|add text| add text|
+|-----------|-----------|
+|add text| The network model (topology) is known with a good degree of certainty, DSO systems (e.g.AMR, GIS, SCADA) being operational|
 
 ***Notes:***
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
@@ -133,7 +132,7 @@ OPTIONAL - you can leave it blank
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Enhanced network observability-low accuracy | SCADA | --- | State vector with low accuracy | High-accuracy state vector | 
-| 2 | Enhanced network observability-unbservable | SCADA | --- | Unobservable network | High-accuracy state vector | 
+| 2 | Enhanced network observability-unobservable | SCADA | --- | Unobservable network | High-accuracy state vector | 
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
