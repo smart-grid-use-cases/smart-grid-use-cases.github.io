@@ -2,7 +2,7 @@
 
 ## 1.1. Name of the Use Case
 
-Hello World
+Hello World!
 
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
