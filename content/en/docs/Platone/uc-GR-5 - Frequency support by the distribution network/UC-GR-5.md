@@ -139,8 +139,6 @@ OPTIONAL - you can leave it blank
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
 | 1 |Frequency support request resolved |TSO |TSO sending a fequency support request |Distribution network observability | Frequency support request resolved|
-| 2 |Frequency support request not resolved |TSO |TSO sending a fequency support request |Distribution network observability | Frequency support request not resolved|
-
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -155,25 +153,15 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |Frequency support request|Data Aquisition|Description Network state (voltage magnitudes and angles of all network buses)|REPORT|SCADA,DMS,GIS,AMR|DSO|Measurements||
-| 2 |Frequency support request|Frequency support request|Frequency support request sent to the Aggregator|CREATE|TSO|Aggregator|Frequency support request||
-| 3 |Frequency support request|Frequency support request|Frequency support communicated to the DSO|CREATE|TSO|DSO|Frequency support request||
+| 2 |TSO needs frequency support|Frequency support request|Frequency support request sent to the Aggregator|CREATE|TSO|Aggregator|Frequency support request||
+| 3 |TSO needs frequency support|Frequency support request|Frequency support communicated to the DSO|CREATE|TSO|DSO|Frequency support request||
 | 4 |Frequency support request|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DNO|DNO|Network tariffs||
 | 5 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator|CREATE|DSO|Aggregator|Network tariffs||
 | 6 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
 | 7 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|Setpoint||
 | 8 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES production|Setpoint||
-| 9 |Setpoints sent to flexibility loads|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|CHANGE|SCADA,DMS,GIS,AMR|DSO|Measurements||
+| 9 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR|DSO|Measurements||
 
-**Scenario Name: No. 2 - Frequency support request not resolved **
-
-| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |Frequency support request|Distribution Network state|Description Network state (voltage magnitudes and angles of all network buses)|REPORT|SCADA,DMS,GIS,AMR|DSO|State Vector||
-| 2 |Frequency support request|Frequency support request|Frequency support request sent to the Aggregator|CREATE|TSO|Aggregator|Frequency support request||
-| 3 |Frequency support request|Frequency support request|Frequency support communicated to the DSO|CREATE|TSO|DSO|Frequency support request||
-| 4 |Frequency support request|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DNO|DNO|Network tariffs||
-| 5 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator but the Aggregator does not respond to it and does not take further action|CREATE|DSO|Aggregator|Network tariffs||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
