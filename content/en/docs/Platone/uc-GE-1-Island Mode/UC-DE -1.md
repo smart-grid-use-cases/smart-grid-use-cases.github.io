@@ -5,7 +5,7 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-DE-1 | Area: Energy system </br> *Leave it blanc if not sure* | Island Mode |
+| UC-DE-1 | Area: Energy system </br> Domain: Distribution, Customer Premise, Field, DER </br> *Leave it blanc if not sure* | Island Mode |
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1
