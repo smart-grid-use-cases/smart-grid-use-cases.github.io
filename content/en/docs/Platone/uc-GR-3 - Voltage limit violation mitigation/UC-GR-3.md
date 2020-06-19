@@ -160,7 +160,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 6 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES production|Setpoint||
 | 7 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|Measurements||
 | 8 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|State Estimation Tool|Measurements||
-| 9 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|State Estimation Tool|DSO|Measurements||
+| 9 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|State Estimation Tool|DSO|State Vector||
 
 **Scenario Name: No. 2 - Line thermal limit violation mitigation **
 
@@ -174,7 +174,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 6 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES production|Setpoint||
 | 7 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|Measurements||
 | 8 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|State Estimation Tool|Measurements||
-| 9 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|State Estimation Tool|DSO|Measurements||
+| 9 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|State Estimation Tool|DSO|State Vector||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
