@@ -114,7 +114,7 @@ Add any remarks which do not fit in any other category
 | Residential consumer | Person | add text| Load information (aggregated) and Measurements|
 | Commercial consumer | Person | add text| Load information (aggregated) and Measurements|
 | RES production| Person | add text| Measurements|
-| State Estimation tool| System | Tool that allows and assists the use of other DMS services and applications to provide network state estimation, improvement of measurement data reliability and better network observability | | 
+| State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, calculating the most likely network state and improving measurement data reliability| | 
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
