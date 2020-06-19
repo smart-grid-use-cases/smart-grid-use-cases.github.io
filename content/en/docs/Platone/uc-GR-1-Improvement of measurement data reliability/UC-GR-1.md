@@ -5,7 +5,7 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-GR-1| Area: Energy system </br> Domains: Distribution, DER, Customer Premises </br> Zones: Station, Operation  </br> | Improvement of measurement data reliability|
+| UC-GR-1| Area: Energy system </br> Domains: Distribution, DER, Customer Premises </br> Zones: Station, Operation  </br> | Functions of SE tool given conventional measurements|
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
@@ -23,8 +23,8 @@
 
 |||
 | --- | --- |
-| Scope | High quality estimation of the network state will be acquired via the state estimation tool in real-time conditions under various network operating scenarios. The estimated network state will be used as an input to distribution management applications.<br/>|
-| **Objective(s)** | * To ensure high quality estimation of the network state.<br/> * To improve confidence in actual measurement data obtained throughout the network and avaialble load forecasts.|
+| Scope | The scope of the UC is the investigation of the capability of the state estimation tool to filter the available measurement data, comprising actual measurements obtained from active metering devices and pseudo-measurements, i.e. data derived from load forecasting or RES scheduling for network observability accomplishment, in order to estimate the actual operational network state, identify measurement with gross errors (bad data), suppress measurement errors and reconcile inconsistent data. The goal is to ensure that high quality estimative of the network state will be acquired via the state estimation tool in real-time conditions under various network operating scenarios. The estimated network state will be used as an input to distribution management applications.<br/>|
+| **Objective(s)** | The DSO needs to improve confidence in actual measurement data obtained throughout the network as well as available load forecasts in order to capture the real-time operational network state.|
 | **Related business case(s)** |add text|
 
 ***Notes:***
@@ -36,17 +36,20 @@
 
 
 **Short description**
-The State Estimation tool ensures and enhances the observability of the network using the available measurement set. 
+Fulfillment of network observability and estimation of its real-time state by the State Estimation tool.
 
 **Complete description**
-A measurement set, composed of actual and historical measurement data obtained from the dispersed metering devices (AMR, GIS, SCADA) installed throughout the network, is available to the DSO for real-time operation purposes. The related measurements refer to power flows and voltage magnitudes at the top of distribution feeders, power injections from distributed generation units, and load pseudo-measurements for aggregated consumer demand at MV/LV transformer level. Given that the network model (topology) is known with a good degree of certainty, the state estimation tool ensures that the network is observable based on the available measurement set and, subsequently, calculates the estimated state vector, that is, the voltage magnitudes and angles of all network buses.
+The DSO operates the distribution network. A measurement set, composed of actual and historical measurement data obtained from the dispersed metering devices (AMR, GIS, SCADA) installed throughout the network, is available for real-time operation purposes. The related measurements refer to power flows and voltage magnitudes at the top of distribution feeders, power injections from distributed generation units, and load pseudo-measurements for aggregated consumer demand at MV/LV transformer level. Given that the network model (topology) is known with a good degree of certainty, the state estimation tool ensures that the network is observable based on the available measurement set and, subsequently, calculates the estimated state vector, that is, the voltage magnitudes and angles of all network buses. 
 
 
 ## 1.5. Key Performance Indicatiors (KPI)
 
 |ID   |Name   | Description   | Reference to mentioned use case objectives|
 |-----|-------|---------------|-------------------------------------------|
-|add text|add text|add text|add text|
+|1|RRMSE|Relative root mean square error of estimated states|evaluation of state estimation accuracy|
+|2|RPE|Relative percentage error of estimated states|evaluation of state estimation accuracy|
+|3|Convergence metrics|Convergence metrics|evaluation of convergence of state estimation algorithm to optimal solution|
+
 
 ***Notes:***
 Can be left blank now
