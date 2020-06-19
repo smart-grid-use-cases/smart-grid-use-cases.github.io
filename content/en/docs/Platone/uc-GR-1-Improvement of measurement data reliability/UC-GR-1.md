@@ -46,10 +46,7 @@ The DSO operates the distribution network. A measurement set, composed of actual
 
 |ID   |Name   | Description   | Reference to mentioned use case objectives|
 |-----|-------|---------------|-------------------------------------------|
-|1|RRMSE|Relative root mean square error of estimated states|evaluation of state estimation accuracy|
-|2|RPE|Relative percentage error of estimated states|evaluation of state estimation accuracy|
-|3|Convergence metrics|Convergence metrics|evaluation of convergence of state estimation algorithm to optimal solution|
-
+|1||||
 
 ***Notes:***
 Can be left blank now
