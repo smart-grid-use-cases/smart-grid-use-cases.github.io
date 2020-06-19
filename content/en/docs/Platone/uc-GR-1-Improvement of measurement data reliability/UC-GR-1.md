@@ -158,7 +158,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 6 |State vector calculation| State Estimation| Estimated state vector communication |REPORT|State Estimation tool|DSO|State vector||
 
 
-**Scenario Name: No. 2 - Fulfillment of observability in case of initially missing or inconsistent measurements**
+**Scenario Name: No. 2 - Fulfillment of observability**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
