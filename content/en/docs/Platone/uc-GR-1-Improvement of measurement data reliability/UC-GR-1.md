@@ -134,8 +134,8 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Enhanced network observability-low accuracy | SCADA | --- | State vector with low accuracy | High-accuracy state vector | 
-| 2 | Enhanced network observability-unobservable | SCADA | --- | Unobservable network | High-accuracy state vector | 
+| 1 | Attainment of quality state estimation using accurate pseudo-measurements or indicating new measured points. | SCADA | --- | State vector with relatively low accuracy | High-accuracy state vector | 
+| 2 | Fulfillment of observability in case of initially missing or inconsistent measurements using additional/alternative data to substitute for the missing ones.| SCADA | --- | Unobservable network | High-accuracy state vector | 
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
