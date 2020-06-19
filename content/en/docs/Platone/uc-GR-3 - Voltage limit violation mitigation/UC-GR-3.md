@@ -23,7 +23,7 @@
 *Scope and objectives of use case*
 |||
 | --- | --- |
-| Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy EN50160 in case of a voltage level/thermal line limit violation in the distribution network and especially in MV lines with flexible loads availability. The DSO will examine the operation of tools and services for decision making support to mitigate voltage/thermal line limits violations, assuming that the grid state estimation has a good degree of certainty . |
+| Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy EN50160 in case of a voltage level limit violation in the distribution network or mitigate line congestion, especially in MV lines with flexible loads availability. The DSO will examine the operation of tools and services for decision making support to mitigate voltage/thermal line limits violations, assuming that the grid state estimation has a good degree of certainty . |
 | **Objective(s)** | * To monitor and control the voltage level at a network node always into the operational limit as well as the thermal line load within permissible range. <br/> * To immediately respond in case of a violation employing flexibility capabilities.|
 | **Related business case(s)** |add text|
 
