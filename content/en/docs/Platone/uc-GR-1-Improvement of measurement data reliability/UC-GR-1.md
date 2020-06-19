@@ -110,7 +110,7 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO | Person | add text| DMS, DSO technical Platform , PMUs , Measurement Data, Network topology|
+| DSO | Person | add text| DMS, DSO technical Platform , Measurement Data, Network topology|
 | Residential consumer | Person | add text| Load information (aggregated) and Measurements|
 | Commercial consumer | Person | add text| Load information (aggregated) and Measurements|
 | RES production| Person | add text| Measurements|
