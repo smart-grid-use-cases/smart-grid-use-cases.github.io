@@ -5,7 +5,7 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-DE-2| Area: Energy system </br> *Leave it blanc if not sure* | Third Party Flex Request |
+| UC-DE-2| **Area:** Energy system </br> **Domain:** Distribution, Customer Premise, Field, DER </br> **Zones:** Operation, Enterprise, Process, Field | Flex Provision: </br> Implementing of an Energy Management System that enables a local energy community to provide flexibility on request of a user (operator) |
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
@@ -16,8 +16,9 @@
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|0.1||Thorsten Gross|Initial creation||
+|0.1|1st April 2020|Thorsten Gross|Initial creation|Draft|
 |0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
+|0.3|16th June 2020|Benjamin Petters|Extended description and added technical part|Draft|
 
 
 ## 1.3. Scope and Objectives of Use Case
@@ -26,9 +27,9 @@
 
 |||
 | --- | --- |
-| Scope | Mitigation of short-term congestion by use of flexibility services provided by Local Energy Community <br/> Networks: LV <br/> Markets: None|
-| **Objective(s)** | * To provide system security through flexibility. <br/> *To enable flexibility exchange between third parties. <br/> * To enable constant power exchange between DSOs and local energy communities. <br/> * *To minimize RES curtailment.*<br/> |
-| **Related business case(s)** |add text|
+| **Scope** | Communities with a high penetration of photovoltaic systems and correspondingly large installed generation capacity can be expected to generate an energy surplus during times of peak generation and low local demand, and vice versa to run into an energy deficit during seasons of low generation. Surplus energy can be stored and shifted to times of low generation in order to satisfy temporary demand and hence increase the degree of self-sufficiency up to 100%. UC 2 demonstrates the ability and practical feasibility of a local community to maintain constant power exchange with the distribution network for a previously defined duration. <br/> Networks: LV <br/> Markets: None|
+| **Objective(s)** | Maintain constant defined power exchange between energy community and the distribution network for a defined duration |
+| **Related business case(s)** | Improving reliability of grid operation/grid security: <br/> - Integration in Congestions Management Mechanism via provision of grid stabilizing power/energy <br/> - Voltage Management <br/> - Peak Shaving <br/> - Reactive Power Provision |
 
 ***Notes:***
 * **Scope** - describes the aims and boundaries of the use case in a short, precise text.
@@ -40,7 +41,7 @@
 
 **Short description**
 
-Local energy communities (LEC, CEC) are likely to emerge in Europe in the near future but will most likely retain an interconnection to the distribution grid. These communities will require a large share of flexibility to enable their primary use case. Situations could arise that require the LEC to provide flexibility to a third party –driven by technical circumstances (system security -> DSO) or following economic considerations (market incentives). UC2 demonstrates the ability and practical feasibility of a local community to maintain constant power exchange with the distribution network for a previously defined duration.
+Local energy communities (LEC, CEC) are likely to emerge in Europe in the near future but will most likely retain an interconnection to the distribution grid. These communities will require a large share of flexibility to enable their primary use case. Situations could arise that require the LEC to provide flexibility to a third party –driven by technical circumstances, such as a demand of system security triggered by the DSO or following economic considerations (market incentives). UC2 demonstrates the ability and practical feasibility of a local community to maintain constant power exchange with the distribution network for a previously defined duration.
 
 **Complete description**
 
@@ -51,7 +52,9 @@ add text - longer narrative from user viewpoint about *what* happens *how*, *whe
 
 |ID   |Name   | Description   | Reference to mentioned use case objectives|
 |-----|-------|---------------|-------------------------------------------|
-|add text|add text|add text|add text|
+| UC2-K01 | Flex Availability | Assessment of availability of Flex for Data Acquisition and Flex provision | |
+| UC2-K02 | Responsiveness | Assessment on how fast a flex request is implemented measurably | |
+| UC2-K03 | Accuracy | Assessment of the accuracy of the achievment of a given setpoint |  |
 
 ***Notes:***
 Can be left blank now
@@ -60,7 +63,8 @@ Can be left blank now
 
 |Assumptions| Prerequisites|
 |-----------|-------------|
-|add text| add text|
+| Private Customer households with flexible loads and storages are organized a local energy community with a central EMS. | Participants of the energy communities incl. flexible loads and storages are connected to a single low voltage grid (feed by a single MV/LV transformer) and are monitored and steered by an EMS. |
+| The energy community needs an operator for the “Islanding” EMS. | National regulations have to be clarified who can be the service providers and who can’t (TSO, DSO, Aggregator, Retailer, Energy Service provider) |
 
 ***Notes:***
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
@@ -73,15 +77,15 @@ OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
-|add text|
+| UC2 requires UC1 as a prerequisite |
 |**Level of depth**|
 |add text|
 |**Prioritisation**|
-|add text|
+| very important |
 |**Generic, regional or national relation**|
 |add text|
 |**Nature of the use cases**|
-|add text|
+| technical |
 |**Further keywords for classification**|
 |add text|
 
@@ -97,7 +101,8 @@ OPTIONAL - you can leave it blank
 
 |General remarks|
 |---|
-|- add text <br/> - add text <br/> - add text|
+|-	Use case 1 is anticipated to emerge as a result of the Clean Energy Package, driven by the bottom-up demand of customers and local communities.|
+|-	It is a prerequisite for the advanced use 2 - 4|
 
 ***Notes:***
 Add any remarks which do not fit in any other category
@@ -112,9 +117,9 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO|Person | add text |  ADMS, SCADA| 
-| Residential consumer|Person | add text |  add Text| 
-| Residential prostormer|Person | add text |  add Text| 
+| Standard Household | System | Household with a standard load profile energy consumption of a single household. | No direct measurement of energy consumption, demand not controllable (passive consumer). | 
+| Agricultural Buildings | System | Energy consumer with a standard load profile of an agricultural building. | No direct measurement of energy consumption, demand not controllable. | 
+| Street light | System | Household with a standard load profile energy consumption of a street light. | No direct measurement of energy consumption, demand not controllable. | 
 | Commercial consumer|Person | add text |  add Text| 
 | Commercial prostormer|Person | add text |  add Text|
 | Energy community|Person | add text |  Confined to a single low voltage network|  
