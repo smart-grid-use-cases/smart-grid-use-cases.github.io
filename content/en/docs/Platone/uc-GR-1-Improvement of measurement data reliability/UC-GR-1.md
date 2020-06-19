@@ -131,7 +131,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Attainment of quality state estimation using accurate pseudo-measurements or indicating new measured points. | SCADA | KPIs below predefined quality thresholds| State vector with relatively low accuracy | High-accuracy state vector | 
+| 1 | Attainment of quality state estimation using accurate pseudo-measurements or indicating new measured points. | SCADA | State estimation accuracy below predefined threshold| State vector with relatively low accuracy | High-accuracy state vector | 
 | 2 | Fulfillment of observability using additional/alternative data to substitute for the missing ones.| SCADA | Initially missing or inconsistent measurements | Unobservable network | High-accuracy state vector | 
 
 ***Notes***
