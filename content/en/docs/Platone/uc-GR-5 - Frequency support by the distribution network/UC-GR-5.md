@@ -5,7 +5,7 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-GR-05| Area: Energy system </br> *Leave it blanc if not sure* | Frequency support by the distribution network|
+| UC-GR-05| Area: Energy system/</br> Domains: Distribution,Transmission, DER, Customer Premises/</br> Zone: Station,Operation </br> | Frequency support by the distribution network|
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
@@ -16,8 +16,8 @@
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|0.1||Eleni Daridou|Initial creation||
-|0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
+|0.1|17th June 2020|Panagiotis Pediaditis, Stavroula Tzioka, Eleni Daridou, Dimitris Stratogiannis, Themistoklis Xygkis|Initial creation|Draft|
+
 
 ## 1.3. Scope and Objectives of Use Case
 
@@ -25,7 +25,7 @@
 |||
 | --- | --- |
 | Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy that line and voltage limits of the distribution network are not violated in the case of a frequency support request by the transmission system. More in detail, customers with flexible loads will respond to such requests and the DSO will use flexibility tools to coordinate their response aiming at achieving the frequency support objective while ensuring distribution network operational safety. As in the previous Use Cases the state of the system is provided by the state estimation tool. <br/> Network: MV <br/> Markets: Near Real Time|
-| **Objective(s)** | * To keep the distribution network within physical limits (line and voltage) with appropriate actions in the case of a frequency restoration reserve activation request by the TSO.|
+| **Objective(s)** | To keep the distribution network within physical limits (line and voltage) with appropriate actions in the case of a frequency restoration reserve activation request by the TSO.|
 | **Related business case(s)** |add text|
 
 ***Notes:***
@@ -37,9 +37,10 @@
 
 
 **Short description**
-Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the available measurements and the topology via the AMR, GIS and SCADA data. A frequency support activation request from the TSO arrives at the customers with flexible loads. The request is also communicated to the DSO technical platform via an API and the information is shared with the appropriate tools and services. The DSO calculated and communicated to the customers the appropriate network tariffs that reflect the situation of the network. The flexible loads react to these tariffs and respond to the frequency support request appropriately
+Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that frequency restoration request from the TSO is adequately handled.
 
 **Complete description**
+Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the available measurements and the topology via the AMR, GIS and SCADA data. A frequency support activation request from the TSO arrives at the customers with flexible loads. The request is also communicated to the DSO technical platform via an API and the information is shared with the appropriate tools and services. The DSO calculated and communicated to the customers the appropriate network tariffs that reflect the situation of the network. The flexible loads react to these tariffs and respond to the frequency support request appropriately.
 
 add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
 
@@ -57,8 +58,10 @@ Can be left blank now
 
 |Assumptions| Prerequisites|
 |-----------|-------------|
-|add text| add text|
+|Customers' consent required for participation in the flexibility mechanism, Customers are rational, Part of the load is flexible, State of the network is known with a good degree of certainty|Simulation of TSO, Dynamic network charging is allowed, Smart metering is installed, Smart appliances can perform load shifting, DSO systems (e.g.AMR, GIS, SCADA) being operational|
 
+
+Customers are rational, Part of the load is flexible, State of the network is known with a good degree of certainty
 ***Notes:***
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
 * **Prerequisites** - specify which requirements have to be met so that the basis scenario use case can be successfully accomplished.
@@ -70,15 +73,15 @@ OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
-|add text|
+|include uc-GR-1 and potentially uc-GR-2|
 |**Level of depth**|
-|add text|
+|detailed|
 |**Prioritisation**|
 |add text|
 |**Generic, regional or national relation**|
 |add text|
 |**Nature of the use cases**|
-|add text|
+|technical, market, test|
 |**Further keywords for classification**|
 |add text|
 
@@ -110,12 +113,14 @@ Add any remarks which do not fit in any other category
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
 | DSO | Person | add text| DMS, DSO technical Platform , PMUs , State estimation tool, Measurement Data, Network topology|
-| TSO | Person | add text| add text|
+| TSO | Person | add text| Simulated entity to trigger the use case|
 | Residential consumer | Person | add text| Load information (aggregated) and Measurements|
 | Commercial consumer | Person | add text| Load information (aggregated) and Measurements|
-| Retailer | Person | add text| add text|
-| Aggregator/Flexibility| Person | add text| add text|
-| RES production| Person | add text| add text|
+| Aggregator| Person | add text| add text|
+| RES production| Person | add text| Measurements|
+| State Estimation tool| System | Tool that allows and assists the use of other DMS services and applications to provide network state estimation, improvement of measurement data reliability and better network observability | Alarm sent by the State Estimation tool is the triggering event for this Use Case|
+| DSO Data Server |Device | Stores data from various existing DSO systems (SCADA, GIS, DMS, AMR)| 
+
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
@@ -135,7 +140,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | | | | | |
+| 1 |Frequency support request resolved |TSO |TSO sending a fequency support request |Distribution network observability | Frequency support request resolved|
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -146,19 +151,20 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 ## 4.2. Steps – Scenarios
 
-**Scenario Name: No. 1 - (name of scenario)**
+**Scenario Name: No. 1 - Frequency support request resolved**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
-
-**Scenario Name: No. 2 - (name of scenario)**
-
-| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
+| 2 |TSO needs frequency support|Frequency support request|Frequency support request sent to the Aggregator|CREATE|TSO|Aggregator|Frequency support request||
+| 3 |TSO needs frequency support|Frequency support request|Frequency support communicated to the DSO|CREATE|TSO|DSO|Frequency support request||
+| 4 |Frequency support request|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DNO|DNO|Network tariffs||
+| 5 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator|CREATE|DSO|Aggregator|Network tariffs||
+| 6 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
+| 7 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|Setpoint||
+| 8 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES production|Setpoint||
+| 9 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|Measurements||
+| 10 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|State Estimation Tool|Measurements||
+| 11 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|State Estimation Tool|DSO|Measurements||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -175,11 +181,12 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
-|I-01|Power injections|||
-|I-02|Network tariffs|||
-|I-03|Voltage levels|||
-|I-04|Power Flows|||
-|I-05|Frequency support requests|||
+|I-01|Measurements|Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)||
+|I-02|State Vector|Voltage magnitudes and angles of all network buses||
+|I-03|Frequency support request|Frequency support request from the TSO||
+|I-04|Network tariffs|Network tariffs that reflect the Disribution Network state||
+|I-05|Setpoint|Setpoint for adjustment of flexible load/RES production||
+|I-05||||
 
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification

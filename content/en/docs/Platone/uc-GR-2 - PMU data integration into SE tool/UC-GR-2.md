@@ -5,7 +5,7 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-GR-2| Area: Energy system </br> *Leave it blanc if not sure* | PMU data integration into SE tool |
+| UC-GR-2| Area: Energy system </br> Domains: Distribution, DER, Customer Premises </br> Zones: Station, Operation  </br> | PMU data integration into SE tool |
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
@@ -16,8 +16,7 @@
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|0.1||Panagiotis Pediaditis|Initial creation||
-|0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
+|0.1|17th June 2020|Themistoklis Xygkis, Panagiotis Pediaditis, Stavroula Tzioka, Eleni Daridou, Dimitris Stratogiannis|Initial creation|Draft|
 
 
 ## 1.3. Scope and Objectives of Use Case
@@ -26,7 +25,7 @@
 
 |||
 | --- | --- |
-| Scope | The scope of the UC is the integration of measurement data obtained from PMUs into the state estimation tool.<br/> Network: MV<br/> Markets: Near Real Time|
+| Scope | The scope of the UC is the integration of measurement data obtained from PMUs into the State Estimation tool.The installation of PMUs at selected buses is sure to upgrade the overall metering infrastructure of the network, since they record synchronized measurements of bus voltage phasors as well as a number of line current phasors—all of which are independent of each other and count as individual measurements. Yet, their proper utilization via the SE tool is a challenging task due to a) the intense discrepancies in update rates between conventional and PMU measurements, b) the provision of current measurements which often lead to various numerical problems, and c) the contrast between the large weighting factors linked to PMU measurements compared to the much lower ones linked to pseudo-measurements, which usually raises ill-conditioning issues. The goal is to ensure that the integration of PMU data will be smooth and all the aforesaid problems will be circumvented. In this way, the overall performance of the SE tool will be enhanced; the network state will be calculated with increased precision and high quality real-time operational standards for distribution management applications, will be met.|
 | **Objective(s)** | * To reinforce network observability and controllability via improved state estimation performance.<br/> * To ensure smooth incorporation of synchronised measurement data derived from PMUs into the preexisting system of conventional measurements.|
 | **Related business case(s)** |add text|
 
@@ -39,12 +38,10 @@
 
 
 **Short description**
-A measurement set, composed of actual and historical measurement data obtained from the dispersed metering devices (AMR, GIS, SCADA, PMUs) installed throughout the network, is available to the DSO for real-time operation purposes. The aforementioned data refer to a) synchronised measurements of bus voltage phasors and line current phasors (magnitude and angle) and b) conventional measurements of power flows and voltage magnitudes at the top of distribution feeders, power injections from distributed generation units, and load pseudo-measurements for aggregated consumer demand at MV/LV transformer level. Given that the network model (topology) is known with a good degree of certainty, the state estimation tool ensures that the network is observable based on the available measurement set, reconciles the PMU data with the conventional measurements, and, subsequently, calculates the estimated state vector, that is, the voltage magnitudes and angles of all network buses.
+Measurement data obtained from the installed PMUs are integraded in the State Estimation tool and used to enhance the network observability. 
 
 **Complete description**
-
-add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
-
+A measurement set, composed of actual and historical measurement data obtained from the dispersed metering devices (AMR, GIS, SCADA, PMUs) installed throughout the network, is available to the DSO for real-time operation purposes. The aforementioned data refer to a) synchronised measurements of bus voltage phasors and line current phasors (magnitude and angle) and b) conventional measurements of power flows and voltage magnitudes at the top of distribution feeders, power injections from distributed generation units, and load pseudo-measurements for aggregated consumer demand at MV/LV transformer level. Given that the network model (topology) is known with a good degree of certainty, the state estimation tool ensures that the network is observable based on the available measurement set, reconciles the PMU data with the conventional measurements, and, subsequently, calculates the estimated state vector, that is, the voltage magnitudes and angles of all network buses.
 
 ## 1.5. Key Performance Indicatiors (KPI)
 
@@ -58,8 +55,8 @@ Can be left blank now
 ## 1.6. Use case conditions
 
 |Assumptions| Prerequisites|
-|-----------|-------------|
-|add text| add text|
+|-----------|	-----------|
+|add text| The network model (topology) is known with a good degree of certainty, DSO systems (e.g.AMR, GIS, SCADA) being operational, PMUs are installed|
 
 ***Notes:***
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
@@ -72,7 +69,7 @@ OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
-|add text|
+|Associate with UC-GR-6|
 |**Level of depth**|
 |add text|
 |**Prioritisation**|
@@ -111,10 +108,12 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO | Person | add text| DMS, DSO technical platform , State estimation tool, SCADA, Smart meters, PMUs, Network topology|
-| Residential consumer| Person | add text| Load information (aggregated) and Measurements|
-| Commercial consumer| Person | add text| Load information (aggregated) and Measurements|
-| RES production| Person | add text| |
+| DSO | Person | add text| DMS, DSO technical Platform , PMUs , Measurement Data, Network topology|
+| Residential consumer | Person | add text| Load information (aggregated) and Measurements|
+| Commercial consumer | Person | add text| Load information (aggregated) and Measurements|
+| RES production| Person | add text| Measurements|
+| State Estimation tool| System | Tool that allows and assists the use of other DMS services and applications to provide network state estimation, improvement of measurement data reliability and better network observability | |
+
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
 
@@ -133,7 +132,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | | | | | |
+| 1 |PMU data integration | SCADA,PMU |	State estimation accuracy to be improved|PMU field intstallation | High-accuracy state vector|
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -144,19 +143,16 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 ## 4.2. Steps – Scenarios
 
-**Scenario Name: No. 1 - (name of scenario)**
+**Scenario Name: No. 1 - PMU data integration**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
-
-**Scenario Name: No. 2 - (name of scenario)**
-
-| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
+| 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR, PMUs|DSO Data Server|Measurements||
+| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|Measurements||
+| 3 |Measurements from the Distribution Network| PMU data integration | PMU and conventional measurements integrated into a unified measurement set|EXECUTE|State Estimation tool||Measurements||
+| 4 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool||Observability status||
+| 5 | Measurements from the Distribution Network|Calculation of the state vector| State estimation algorithm is carried out |EXECUTE|State estimation tool||State vector||
+| 6 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|State Estimation tool|DSO|State vector||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -173,17 +169,18 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
-|I-01|Power flows/injection|||
-|I-02|Voltage magnitudes|||
-|I-03|Voltage phasors|||
-|I-04|Current phasors|||
-|I-05|Estimated network state vector|||
+|I-01|Measurements|Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)||
+|I-02|State Vector|Voltage magnitudes and angles of all network buses||
+|I-03|Measurements|Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)||
+
 
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
 * **Requirements to information data** - optional, defined in section 6
 
 # 6. Requirements (optional)
+
+PMU field installation
 
 # 7. Common Terms and Definitions
 
