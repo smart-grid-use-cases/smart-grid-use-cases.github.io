@@ -5,7 +5,7 @@
 *Use case identification*
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-GR-6 | Area: Energy system </br> *Leave it blanc if not sure* | PMU integration and Data Visualization for Flexibility Services Management |
+| UC-GR-6 | Area: Energy system </br> Domains: Distribution/</br> Zone: Station,Operation </br>  | PMU integration and Data Visualization for Flexibility Services Management |
 
 ***Notes:***
 * **ID** - uniqe identification label: DE-1/GR-3/IT-2
@@ -16,8 +16,7 @@
 *Version management*
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|0.1||Dimitris Stratogiannis|Initial creation||
-|0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
+|0.1|17th June 2020|Dimitris Stratogiannis, Panagiotis Pediaditis, Stavroula Tzioka, Eleni Daridou, Themistoklis Xygkis|Initial creation|Draft|
 
 
 ## 1.3. Scope and Objectives of Use Case
