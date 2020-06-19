@@ -149,7 +149,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **References Type** | **Reference** | **Status** | **Impact on Use Case** | **Organistaor / Organisation** | **Link** |
 | --- | --- | --- | --- | --- | --- | --- |
-|add text|add text|add text|add text|add text|add text|
+| | | | | | | |
 
 
 # 4. Step by Step Analysis of Use Case
@@ -158,7 +158,9 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | | | | | |
+| 1 | Generation of energy surplus </br> (Islanding, when local generation > consumption)| •	Generators </br> •	ALF-C </br> •	Consumer Load </br> •	Energy Storage </br> •	Flexible Load | Measured load flow (export) at grid connection point | •	Sensors and actuators are connected with the ALF-C </br> •	Enough flexible loads and storages capacity are available for balancing | Demand of local flexible load and storages will be increased in order to balance generation and demand. |
+|2|Demand Excess </br> (Islanding, when local generation < consumption)|•Generators </br> •	ALF-C </br> •	Consumer Load </br> •	Energy Storage </br> •	Flexible Load|Measured Load Exchange at grid connection|•	Sensors and actuators are connected with the ALF-C </br> •	Enough flexible loads and storages capacity are available for balancing|Demand of local flexible loads and storages will be leveraged in order to balance generation and demand.|
+
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -173,8 +175,19 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
+| 1 |Initiating of UC 1||User triggers sets mode of operation for ALF-C to UC 1|Operator sets ALF-C mode of operation to UC 1 </br> (Implicit: ALF-C sets the target value for load exchange along the breaker of the grid connection point to zero (PBreaker; Target Value  = 0).|REPORT|User|ALF-C|I-01| |
+| 2 |ALF-C requests weather forecasts data|Data – Acquisition|ALF-C sends a request for the provision of real time weather and weather forecasts (6h ahead) to an external service provider. The Process will be repeated in regular intervals).|GET|ALF-C|External system|I-02||
+| 3 |Service Provider send weather forecasts|Transmitting the data|Service providers sends weather data and weather forecast values|GET|External System|ALF-C|I-03||
+| 4 |ALF-C receives forecasting values|Forecasting of generation and demand|ALF-C forecasts local generation and demand (use of load profiles/historic measurement data?)|CREATE|ALF-C|ALF-C| | |
+| 5 |ALF-C requests data of total generation/ consumption|Data – Acquisition|The ALF-C request measurement values from the PMU located at the secondary substation to provide measurement data (PBreaker) of the power exchange along the MV/LV grid connection point. </br> Then data will be pushed by PMU every 10 seconds|GET|ALF-C|PMU|I-04||
+| 6 |PMU (grid connection point) provides values|Transmitting the data|The local measurement device (PMU) located at the grid connection point measures the residual power export and sends data to the ALF-C (PBreaker). </br> Step will be repeated every 10 seconds.|CHANGE|PMU|ALF-C|I-05||
+| 7 |ALF-C requests data of current of demand/SOC of local flex|Data – Acquisition|The ALF-C sends request to sensors to provide load demand and SOC values of local customer flexible loads, customer storages and the BESS. Then data will be pushed by PMU every 15 minutes.|GET|ALF-C|PMU, Integrated sensors|I-04| |
+| 8 |Local sensors provide data.|Transmitting the data|Local sensors provide measurements values and data to the ALF-C. Step will be repeated every 15 minutes.|CHANGE|PMU, Integrated sensors|ALF-C|I-05| |
+| 9 |All data collected|Evaluation and determination of control strategy and setpoints|Based on provided measurement data, asset key data. ALF-C calculates the power bandwith and/or SOC of each asset available for steering.(PIST) </br> Based on generation, load and SOC forecasts the ALF-C calculates the optimum strategy of load and storage activation on order to maximize the duration of island mode. </br> The ALF-C determines for each asset a setpoint to reach a balanced grid. The determination of setpoint is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and storages located at customer premise.|CREATE|ALF-C|ALF-C| | |
+|10 |Individual setpoints determined|Transmitting setpoints to actuators|The ALF-C sends setpoints to actuators located in the field to increase their consumption. This signal is sent each ten seconds to the BESS and every 15 minutes to actuators located at customer premise and replaces the default signal until the ALF-C calculates a setpoint.|EXECUTE|ALF-C|Actuators|I-06| |
+|11 |Setpoint send to actuators|Verification of setpoint execution 
+Comparison of target and measured values|The ALF-C compares measured values from the grid connection point with the target values (PBreaker = 0). In case of deviation the setpoint are redefined by walking through step numbers 3 to 10. The process is continuously cycled until the end of use case.|CREATE|PMU|ALF-C| | |
+|12 |End of Use Case 1|End of Use Case 1|The use case ends, when a user triggers another use case, or not enough flex is available for islanding.|REPORT/CREATE|User or ALF-C|ALF-C|I-01| |
 
 **Scenario Name: No. 2 - (name of scenario)**
 
@@ -198,12 +211,12 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- | 
-| I-01 |Generation| --- | --- |
-| I-02| Consumption|--- |--- |
-| I-03| Power at point of connection (real time)|--- |--- |
-| I-04| Battery SOE/SOC|--- |--- |
-| I-05| Weather conditions|--- |--- |
-| I-06| Individual setpoints for flexibilities|--- |--- |
+| I-01 | Signal from user via GUI| A user triggers the use case via an GUI to the ALF-C to apply islanding. The trigger signal is: </br> 0 = stop current use case </br> 1 = application of UC 1 </br> 2 = application of UC 2 </br> 3 = application of UC 3 </br> 4 = application of UC 4 </br> </br> Based on the UC 1 trigger the ALF-C sets the target setpoint for the load - exchange along the grid connection point to zero (P’Breaker  = 0). |  |
+| I-02 | Signal from ALF-C to external system|Trigger to provide weather forecast data | |
+| I-03 | Weather forecasts | -	Solar radiation (t + 24h) </br> -	Cloudiness (t + 24 h) </br> -	Temperature (t + 24 h) </br> -	Humidity (t + 24 h) </br> - Windspeed (t + 24 h) | |
+| I-04 | Signal from the ALF-C to PMU at secondary substation | The ALF-C sends a signal to sensors to get current measurements. | |
+| I-05 | Signal from PMU | The PMU sends measurement values containing: voltage (U), current (I) and angle of phase (Phi) values for all 3 phases | |
+| I-06 | Signal from integratd sensors | The measurement of PMU contains voltage (U), current (I) and angle of phase (Phi) values, SOC, SOE and/or temperature | |
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
 * **Requirements to information data** - optional, defined in section 6
