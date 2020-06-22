@@ -122,7 +122,7 @@ Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-![Diagram of Use Case](UC2 - 2. Diagram of Use Case.png)
+![Diagram of Use Case](UC2- 2. Diagram of Use Case.png)
 
 # 3. Technical Details
 
