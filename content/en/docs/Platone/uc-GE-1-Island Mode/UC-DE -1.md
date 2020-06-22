@@ -3,17 +3,21 @@
 ## 1.1. Name of the Use Case
 
 *Use case identification*
+
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
 | UC-DE-1 | Area: Energy system </br> Domain: Distribution, Customer Premise, Field, DER </br> Zones: Operation, Enterprise, Process, Field </br> *Leave it blanc if not sure* | Island Mode </br> Implementing of an Energy Management System that operates a specific low voltage network in virtual island mode, i.e. minimizing the power exchange with the connected medium voltage feeder by utilizing available flexibility (local energy storage systems and controllable loads)|
 
 ***Notes:***
-* **ID** - uniqe identification label: DE-1
+
+* **ID** - unique identification label: DE-1
+
 * **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.
 
 ## 1.2. Version Management
 
 *Version management*
+
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 | --------- | ------- | --------------- | ----- | ------------- |
 |0.1|1st June 2020|Thorsten Gross|Initial creation|Draft|
@@ -22,11 +26,13 @@
 |0.4|17th June 2020|Navreet Dult|Review|Draft|
 |0.5|18th June 2020|Thorsten Gross|Review|Draft|
 |0.6|18th June 2020|Benjamin Petters|Revision|Draft|
+|0.7|22nd June 2020|Padraic McKeever|Revision|Draft|
 
 
 ## 1.3. Scope and Objectives of Use Case
 
 *Scope and objectives of use case*
+
 |||
 | --- | --- |
 | Scope | A local energy community - With the new Clean Energy Package, private households are encouraged not only to generate and consume energy, to market the flexibility of controllable producers and consumers in the future, but also to make energy available to each other and to share generated energy. </br> In the future energy distribution network, the new regulatory framework, technical developments and grid fee mechanisms canmotivate households to found and/or join energy communities with the aim to maximize the consumption of locally generated energy. </br> Communities with a high penetration of photovoltaic systems and correspondingly large  installed generation capacity can be expected to generate an energy surplus during times of peak generation and low local demand, and vice versa to run into an energy deficit during seasons of low generation.  Surplus energy can be stored and shifted to times of low generation in order to satisfy temporary demand and hence increase the degree of self-sufficiency up to 100%. <br/> Networks: LV <br/> Markets: None|
@@ -34,8 +40,11 @@
 | **Related business case(s)** |no|
 
 ***Notes:***
+
 * **Scope** - describes the aims and boundaries of the use case in a short, precise text.
+
 * **Objective(s)** - goals of the use case, in form of bullet points and a short headline.
+
 * **Realted business case(s)** - optional
 
 ## 1.4. Narrative of Use Case
@@ -60,6 +69,7 @@ The Clean Energy for all Europeans Package, encourages private households are  n
 |UC-K04|Duration of Island Mode|Max/Min/Average duration in which the community is able to be in island mode|Identify the framing characteristics of the island mode|
 
 ***Notes:***
+
 Can be left blank now
 
 ## 1.6. Use case conditions
@@ -71,7 +81,10 @@ Can be left blank now
 |The energy community needs an operator for the “Islanding” EMS.|National regulations have to be clarified who can be the service providers and who can’t (TSO, DSO, Aggregator, Retailer, Energy Service provider)|
 
 ***Notes:***
+
+
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
+
 * **Prerequisites** - specify which requirements have to be met so that the basis scenario use case can be successfully accomplished.
 
 
@@ -94,10 +107,16 @@ OPTIONAL - you can leave it blank
 |add text|
 
 ***Notes:***
+
+
 * **Relation to other use cases** - relation to other use cases in the same project or thematic area. Possible relation types are for instance include, extend, invoke, or associate.
+
 * **Level of depth** - reflects the degree of specialisation of the use case. Although no common notation is settled, descriptions like high level use case, generic, detailed, or specialised use case are often used.
+
 * **Prioritisation** - helps to rate the use cases in a project from very important to nice-to-have with labels like obligatory/mandatory or optional which have to be agreed upon beforehand.
+
 * **Generic, regional or national relation** - for the purpose of generalisation if use case is applied to areas where restictions by law or silimiar issues occur.
+
 * **Nature of the use cases** - describes the viewpoint and field of attention like *technical, political, business/market, test*, etc.
 
 
@@ -108,11 +127,14 @@ OPTIONAL - you can leave it blank
 |- Use case 1 is anticipated to emerge as a result of the Clean Energy Package, driven by the bottom-up demand of customers and local communities <br/> - It is a prerequisite for the advanced use 2 - 4|
 
 ***Notes:***
+
 Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-\&lt;! Example for img1: {{\&lt; imgproc img\_1 Fit &quot;600x400&quot; \&gt;}} Diagram 1 {{\&lt; /imgproc \&gt;}} !\&gt;
+![Diagram of Use Case](UC1 - 2. Diagram of Use Case.png)
+
+
 
 # 3. Technical Details
 
@@ -141,6 +163,7 @@ Add any remarks which do not fit in any other category
 
 
 ***Notes:***
+
 * **Actor Type** - Device/ Sytem/ Person
 
 ## 3.2. References
@@ -163,10 +186,15 @@ OPTIONAL - you can leave it blank
 
 
 ***Notes***
+
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
+
 * **Primary Actor** - the first actor appearing in the scenario at the incident causing the scenario to begin.
+
 * **Triggering Event** - the incident causing the scenario to begin.
+
 * **Pre-Condition** - indicates which terms have to be fulfilled for the scenario to be executed.
+
 * **Post-Condition** - indicates which terms should be valid after the scenario. TIt can also specify whether a scenario has been successfully completed or not.
 
 ## 4.2. Steps – Scenarios
@@ -198,13 +226,19 @@ Comparison of target and measured values|The ALF-C compares measured values from
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
+
 * **Event** - Event triggering a step, specific for that use case.
+
 * **Name of Process/ Activity** - general classification of process/activity (e.g. data aquisition).
+
 * **Description of Process/ Activity** - more detailed description of the step.
+
 * **Service** - addresses the nature of the information flow. Possible: GET (The information receiver obtains information from the
 information producer after an implicit request.), CREATE (The information producer creates an information object.), CHANGE (The information producer performs an update of the information at the information receiver’s.), DELETE (The information producer deletes information of the receiver.), CANCEL/CLOSE (A process is terminated.), EXECUTE (An action or service is performed.), REPORT (The information producer supplies information of its own account.), TIMER (The actor which represents both information producer
 and receiver has to enforce a waiting period.), REPEAT (A number of steps has to be repeated until a break condition (stated in the field Event) is satisfied. The contemplated steps have to be added in parentheses.).
+
 * **Information Producer and Receiver (Actor)** - actors from actor list in section 3.1
+
 * **Information exchanged (IDs)** - ID of the information defined further in section 5
 
 # 5. Information Exchanged
