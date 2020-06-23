@@ -3,6 +3,7 @@
 ## 1.1. Name of the Use Case
 
 *Use case identification*
+
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
 | UC-GR-2| Area: Energy system </br> Domains: Distribution, DER, Customer Premises </br> Zones: Station, Operation  </br> | PMU data integration into SE tool |
@@ -16,6 +17,7 @@
 ## 1.2. Version Management
 
 *Version management*
+
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
 |0.1|17th June 2020|Themistoklis Xygkis, Panagiotis Pediaditis, Stavroula Tzioka, Eleni Daridou, Dimitris Stratogiannis|Initial creation|Draft|
