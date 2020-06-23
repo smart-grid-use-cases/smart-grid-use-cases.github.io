@@ -3,6 +3,7 @@
 ## 1.1. Name of the Use Case
 
 *Use case identification*
+
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
 | UC-DE-4| Area: Energy system </br> *Leave it blank if not sure* | Energy Export in Discrete Packages |
@@ -16,6 +17,7 @@
 ## 1.2. Version Management
 
 *Version management*
+
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
 |0.1||Thorsten Gross|Initial creation||
@@ -25,6 +27,7 @@
 ## 1.3. Scope and Objectives of Use Case
 
 *Scope and objectives of use case*
+
 |||
 | --- | --- |
 | Scope | Import of energy surplus to the local energy communities. Battery storage system enables to provide that service during specified time slots.  <br/> Networks: LV, MV <br/> Markets: None|
