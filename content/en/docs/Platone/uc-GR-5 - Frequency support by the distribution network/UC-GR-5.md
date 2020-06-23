@@ -3,6 +3,7 @@
 ## 1.1. Name of the Use Case
 
 *Use case identification*
+
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
 | UC-GR-05| Area: Energy system/</br> Domains: Distribution,Transmission, DER, Customer Premises/</br> Zone: Station,Operation </br> | Frequency support by the distribution network|
@@ -16,6 +17,7 @@
 ## 1.2. Version Management
 
 *Version management*
+
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
 |0.1|17th June 2020|Panagiotis Pediaditis, Stavroula Tzioka, Eleni Daridou, Dimitris Stratogiannis, Themistoklis Xygkis|Initial creation|Draft|
@@ -24,6 +26,7 @@
 ## 1.3. Scope and Objectives of Use Case
 
 *Scope and objectives of use case*
+
 |||
 | --- | --- |
 | Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy that line and voltage limits of the distribution network are not violated in the case of a frequency support request by the transmission system. More in detail, customers with flexible loads will respond to such requests and the DSO will use flexibility tools to coordinate their response aiming at achieving the frequency support objective while ensuring distribution network operational safety. As in the previous Use Cases the state of the system is provided by the state estimation tool. <br/> Network: MV <br/> Markets: Near Real Time|
