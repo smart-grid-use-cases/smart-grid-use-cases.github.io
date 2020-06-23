@@ -171,7 +171,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 | --- | --- | --- | --- |
 |I-01|Measurements|Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)||
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
-|I-03|Measurements|Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)||
+|I-03|PMU Measurements|Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)||
 
 
 ***Notes***
