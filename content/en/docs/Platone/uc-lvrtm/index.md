@@ -148,6 +148,8 @@ the data to:
 
 ## 2 Diagrams of Use Case
 
+![Figure 1](img_1.png)
+
 {{< imgproc img_1 Fit "600x400" >}}
 Diagram 1
 {{< /imgproc >}}
