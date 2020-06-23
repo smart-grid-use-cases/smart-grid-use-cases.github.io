@@ -3,6 +3,7 @@
 ## 1.1. Name of the Use Case
 
 *Use case identification*
+
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
 | UC-IT-2| Area: Energy system </br> *Leave it blanc if not sure* | Voltage Management in transmission and distribution system using resources connected to distribution system |
@@ -16,6 +17,7 @@
 ## 1.2. Version Management
 
 *Version management*
+
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
 |0.1||Areti, Acea Energia, Engineering, Siemens|Initial creation||
@@ -25,6 +27,7 @@
 ## 1.3. Scope and Objectives of Use Case
 
 *Scope and objectives of use case*
+
 |||
 | --- | --- |
 | Scope | Congestion avoidance in distribution and transmission grid by use of flexibility resources connected to transmission and distribution system providing ancillary services through a market mechanism. <br/> Network: MV, LV (HV users have their own market) <br/> Market: Day Ahead, Near Real Time  <br/> |
