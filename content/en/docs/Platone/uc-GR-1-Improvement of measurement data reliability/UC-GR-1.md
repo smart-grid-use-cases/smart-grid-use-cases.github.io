@@ -107,14 +107,14 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| AMR | Device | add text| add text |
-| DMS | System | Distribution Management System. A system that monitors, controls and analyzes in real-time or near real-time the electricity distribution system.| add text|
-| DSO | Person | Distribution System Operator. The entity responsible for: the distribution network planning and development; the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services.| add text |
-| DSO Data Server | Database | add text| Measurement Data, Network topology|
-| GIS | System | Geographical Information System | add text |
-| PMU | Device | Phasor Measurement Unit | add text |
-| SCADA | Device | Supervisory Control And Data Acquisition system| add text |
-| State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.| add text |
+| AMR | System | Automatic Meter Reading system| add text |
+| DMS | System | Distribution Management System | add text|
+| DSO | Person | Distribution System Operator| add text |
+| DSO Data Server | Database | Database containing data from AMR, DMS & SCADA| |
+| GIS | System | Geographical Information System |  |
+| PMU | Device | Phasor Measurement Unit | |
+| SCADA | Device | Supervisory Control And Data Acquisition system|  |
+| State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.|  |
 
 
 ***Notes:***
