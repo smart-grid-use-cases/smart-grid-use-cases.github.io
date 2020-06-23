@@ -6,7 +6,7 @@
 
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-IT-2| Area: Energy system </br> *Leave it blanc if not sure* | Voltage Management in transmission and distribution system using resources connected to distribution system |
+| UC-IT-2| Area: Energy system </br> *Leave it blank if not sure* | Voltage Management in transmission and distribution system using resources connected to distribution system |
 
 ***Notes:***
 
@@ -51,7 +51,28 @@ The BUC describes the steps to prevent voltage issues in transmission and distri
 
 **Complete description**
 
-add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
+The decentralization of the electricity system brings an increase of the generation power plants connected in Medium and in Low Voltage, on the other hand the mobility electrification, especially in the urban areas, requires a broad widespread of fast and slow charging points, so the management of the distribution system have to change to face this new challenges.
+This new scenario also involves the transmission level, because a lot of high voltage power plant are no longer convenient, so they will close. Therefore the services for the network stabilization provided today by the HV plants, in the future will be required to the DER connected in medium and in low voltage.
+So, in the next years the active role of DSO in the flexibility services it’s crucial for the of the electricity system. 
+In Italy, since July 2017, ARERA – the Italian Authority for the Electricity market regulation – has launched pilot projects to involve the resources connected in medium and low voltage in the flexibility market. In these projects the TSO can use the resources connected to the distribution grid to solve some HV issues.
+However, a complete framework about the local flexibility market have to define and in this demo we describe a contribute. 
+The main points of the Italian demo are:
+-	Inclusivity: every customer connected to distribution grid must be able to participate;
+-	Interoperability: the device used to enable the users have to be interoperable, for avoid the lock-in phenomenon;
+-	Transparent: the energy provided in the flexibility market is certificated and communicated to the customer.
+The UC deals the congestion on transmission and distribution grid, describing all the main phases: procurement, activation and settlement, in the day ahead and real time flexibility market.
+In the day ahead the DSO Technical Platform detects the congestion on the distribution grid and the TSO simulator defines the congestions on the transmission network. The DSO try first to solve the issues using the own technologies, after it uses the local flexibility market, defining the local flexibility requests and communicating to TSO the new load and voltage profile in Primary Substation.
+In parallel the TSO requires the flexibility to solve the congestion in HV grid to the local market. 
+Finally, the aggregator gathers the flexibility from the customers in low and in medium voltage and offer it to the market
+At gate closure, all the day ahead requests and offers are stored on the market platform. The market operator matches first the offers with the DSO’s requests, and arranges them in economic order, after repeats the procedure with the TSO requests. Hence the list of auctioned offer is sent to DSO Technical Platform for evaluate the grid constraints violations. In the end the market operator receives the list of offers comply with local grid constraints and sends them to all the stakeholders.
+The same steps are used for the Real Time session, where the DSO and TSO can add or change the flexibility requests using the day ahead offers.
+When the DSO or the TSO need of flexibility, begin the Activation phase, where the DSO or TSO communicate the order to market for move a specific offer, the market operator sends the set-point for every PODs to the DSO Technical Platform, which sends it to every light nodes. The light node makes available the set points to the EMS. Finally, the Light Node measures the electrical quantities for evaluate the energy flexibility and sends them to the Shared Customer Database (SCD).
+For the settlement the market operator acquires the data from the SCD and calculates the difference between market baseline and electrical quantities measured in the same time frame. The outcomes are shared with Aggregator, DSO and TSO, who can recognize the respective economic items.
+The enabling technologies used in the use case are:
+-	the SCD: this database shares the data with the stakeholders ensuring the transparency;
+-	the Light Node: this device break down the barriers to entry market and ensuring the interoperability and inclusivity;
+-	the blockchain Access layer: this technology ensures the reliability and safety of the transactions.
+
 
 
 ## 1.5. Key Performance Indicatiors (KPI)
@@ -128,16 +149,17 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO| Person | add text| DMS, Light Node, Shared Customer Database, Simulator of DSO flexibility requests, Blockchain access layer|
-|TSO|Person||Simulator of TSO flexibility requests|
-|Market Operator|Person||Market Platform, Blockchain market layer|
-|Residential consumer|Person||Energy Management System|
-|Residential prostormer| Person| |Energy Management System, Storage|
-|Commercial  prostormer|Person||Electric Vehicles Parking|
-|Energy community|Person||Energy Management System, Storage|
-|Aggregator/Flexibility operator|Person||Market Platform|
-|Balance responsible party|Person|||
-
+| DSO| Person |DSO is each Distribution System Operator. It is an entity in charge for the management of the energy distribution networks| DMS, Light Node, Shared Customer Database, Simulator of DSO flexibility requests, Blockchain access layer|
+|Light Node|Device|Device installed on the electrical meter that reads, arranges, certifies in blockChain and sends the measurement for the dispatching market to the SCD (shared customer database). Moreover the device receives set-point from DSO Platform and make it available to client on client apparatus (e.g. EMS) ||
+|DSO Technical Platform|System|System that manages the distribution network. It foresees the grid state estimation, the productions and consumptions. Moreover it defines the flexibility requests for DSO’s grid. The DSO Technical Platform interfaces to SCADA and other system comprising in the Operation Domain||
+|EMS|System|System used to monitor, control, and optimize the energy consumption. It includes the Building Energy Management System (BEMS) for tertiary sector and Home Management System (HMS) for residential users||
+|Blockchain Access Layer|System|Platform that certify the customer data for the flexibility||
+|Shared Customer Database|System|Database that gathers all the data of flexibility resources and services and shares them with all the stakeholders||
+|TSO|Person|TSO is each Transmission System Operator. It is an entity in charge for the management of the energy transmission networks|The TSO will be simulated in a tool developed in WP 2|
+|Market Operator|Person|Market Operator is the responsible for the market Platform, it matches the offers and requests||
+|DER|Person|Customer connected in medium and in low voltage that can provide ancillary services through the aggreagator|In the demo several DERs will be involved: prosumers, storages, electric vehicle|
+|Aggregator/Flexibility operator|Person|Aggregator / Flexibility operator is an entity that aggregates the flexibility offers on the market and provide them to DSO in case of needs for the grid|Aggregator Platform|
+|Balance responsible party|Person|Balance responsible party is a market participant or its chosen representative responsible for its imbalances||
 ***Notes:***
 
 * **Actor Type** - Device/ Sytem/ Person
@@ -209,10 +231,25 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
-|I-01|Measures|||
-|I-02|technical data|||
-|I-03|customer data|||
-|I-04|economic data|||
+|I-01|Quarterly measures|The aggregator baseline or the DSO grid forecast use the data measurements (active power, energy consumption, energy production,…) stored in SCD. This measures have a 15 minutes granularity||
+|I-02|Customer data|This information contains the list of customer involved in the flexibility providers for the day after||
+|I-03|BRP Baseline|The BRP defines for every POD the day after load profile, in compliance with the market day ahead||
+|I-04|Near real time measures|This information contains for every POD involved in the flexibility market, the active power measured every 4 second||
+|I-05|Data for Offer|The flexibility offer contains the volume, the time frame and the price provided by the DER involved in the group||
+|I-06|Data for Requests|The flexibility request contains the needs of flexibility (volume and time frame) localized in specific nodes of the grid||
+|I-07|Technical Validation|This information contains the assessment of the local grid constraints||
+|I-08|Market Outcomes|This information contains the list of offers arranges for economic order and in compliance with the grid constraint||
+|I-09|Order|The TSO and the DSO send a signal of activation to move the DER involved in the service||
+|I-10|Congestion localization|The DSO technical platform defines a list of grid nodes subject to congestions||
+|I-11|Grid configuration|The DSO technical platform detects the possible grid configuration to solve the issue||
+|I-12|Primary Substation load profiling |This information contains the load profiling on the transformer in Primary Substation||
+|I-13|DER status|This information contains the customer availability for move own DER||
+|I-14|DER planning|This information contains the time frame, and the power that the customer have to provide during the activation||
+|I-15|Activation Signal|The EMS sends the signal of activation to smart load ||
+|I-16|Settlement outcomes|This information contains for every offer the energy moved and the payment||
+|I-17|DSO payment|It is the payment of DSO for the energy provided||
+|I-18|Aggregator payment|It is the remuneration that the aggregator recognizes to the customer||
+|I-19|Technical Measurement|Electrical quantities coming from the field sensors (Voltage and current sensors or Low Voltage circuit breaket embedded with IED)|
 
 ***Notes***
 
