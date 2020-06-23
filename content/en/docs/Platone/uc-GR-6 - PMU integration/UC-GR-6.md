@@ -3,19 +3,21 @@
 ## 1.1. Name of the Use Case
 
 *Use case identification*
+
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
 | UC-GR-6 | Area: Energy system </br> Domains: Distribution/</br> Zone: Station,Operation </br>  | PMU integration and Data Visualization for Flexibility Services Management |
 
 ***Notes:***
 
-* **ID** - uniquee identification label: DE-1/GR-3/IT-2
+* **ID** - unique identification label: DE-1/GR-3/IT-2
 
 * **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.
 
 ## 1.2. Version Management
 
 *Version management*
+
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
 |0.1|17th June 2020|Dimitris Stratogiannis, Panagiotis Pediaditis, Stavroula Tzioka, Eleni Daridou, Themistoklis Xygkis|Initial creation|Draft|
@@ -37,7 +39,7 @@
 
 * **Objective(s)** - goals of the use case, in form of bullet points and a short headline.
 
-* **Realted business case(s)** - optional
+* **Related business case(s)** - optional
 
 ## 1.4. Narrative of Use Case
 
