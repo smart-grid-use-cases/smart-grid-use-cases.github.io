@@ -110,7 +110,7 @@ Add any remarks which do not fit in any other category
 | AMR | System | Automatic Meter Reading system| add text |
 | DMS | System | Distribution Management System | add text|
 | DSO | Person | Distribution System Operator| add text |
-| DSO Data Server | Database | Database containing data from AMR, DMS & SCADA| |
+| DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
 | GIS | System | Geographical Information System |  |
 | PMU | Device | Phasor Measurement Unit | |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
