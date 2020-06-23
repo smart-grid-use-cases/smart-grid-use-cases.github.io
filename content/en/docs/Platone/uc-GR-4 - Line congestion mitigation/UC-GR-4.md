@@ -3,6 +3,7 @@
 ## 1.1. Name of the Use Case
 
 *Use case identification*
+
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
 | UC-GR-4| Area: Energy system/ </br> Domains: Distribution, DER, Customer Premises/ </br> Zones: Station, Operation  </br>  | Line congestion mitigation|
@@ -16,6 +17,7 @@
 ## 1.2. Version Management
 
 *Version management*
+
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
 |0.1|17th June 2020|Panagiotis Pediaditis, Themistoklis Xygkis, Dimitris Stratogiannis, Eleni Daridou, Stavroula Tzioka|Initial creation|Draft|
@@ -24,6 +26,7 @@
 ## 1.3. Scope and Objectives of Use Case
 
 *Scope and objectives of use case*
+
 |||
 | --- | --- |
 | Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy that line thermal limits are not violated in the distribution network and especially in MV lines with flexible loads availability. The DSO will examine the operation of tools and services for decision making support to mitigate line congestions assuming that grid state estimation has a good degree of certainty. <br/> Network: MV <br/> Markets: Near Real Time |
