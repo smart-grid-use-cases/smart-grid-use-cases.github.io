@@ -3,6 +3,7 @@
 ## 1.1. Name of the Use Case
 
 *Use case identification*
+
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
 | UC-DE-2| **Area:** Energy system </br> **Domain:** Distribution, Customer Premise, Field, DER </br> **Zones:** Operation, Enterprise, Process, Field | Flex Provision: </br> Implementing of an Energy Management System that enables a local energy community to provide flexibility on request of a user (operator) |
@@ -16,6 +17,7 @@
 ## 1.2. Version Management
 
 *Version management*
+
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
 |0.1|1st April 2020|Thorsten Gross|Initial creation|Draft|
@@ -122,7 +124,7 @@ Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-![Diagram of Use Case](UC2- 2. Diagram of Use Case.png)
+![Diagram of Use Case](UC2_2_Diagram_of_Use_Case.png)
 
 # 3. Technical Details
 
