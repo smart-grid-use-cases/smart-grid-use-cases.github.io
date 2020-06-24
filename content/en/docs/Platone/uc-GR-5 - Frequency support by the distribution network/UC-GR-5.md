@@ -190,7 +190,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 |I-03|Frequency support request|Frequency support request from the TSO||
 |I-04|Network tariffs|Network tariffs that reflect the Disribution Network state||
 |I-05|Setpoint|Setpoint for adjustment of flexible load/RES production||
-|I-05||||
+
 
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
