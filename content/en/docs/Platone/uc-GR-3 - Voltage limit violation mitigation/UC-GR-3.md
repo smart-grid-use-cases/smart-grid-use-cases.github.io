@@ -111,14 +111,14 @@ Add any remarks which do not fit in any other category
 | --- | --- | --- | --- |
 | Aggregator| Person | add text| add text|
 | AMR | System | Automatic Meter Reading system|  |
-| Commercial consumer | Person | add text| Load information (aggregated) and Measurements|
+| Commercial consumer | Person | Final end user to denote a typical commodity commercial consumption with capability of neither generation nor storage.| |
 | DMS | System | Distribution Management System | |
 | DSO | Person | Distribution System Operator| The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.  |
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
 | GIS | System | Geographical Information System |  |
 | PMU | Device | Phasor Measurement Unit | |
 | RES | Person | add text| Measurements|
-| Residential consumer | Person | add text| Load information (aggregated) and Measurements|
+| Residential consumer | Person | Final end user to denote a typical commodity residential consumption with capability of neither generation nor storage.| |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
 | State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.|  |
 
