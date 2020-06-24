@@ -131,7 +131,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **References Type** | **Reference** | **Status** | **Impact on Use Case** | **Organistaor / Organisation** | **Link** |
 | --- | --- | --- | --- | --- | --- | --- |
-|add text|add text|add text|add text|add text|add text|
+|1|Standard| EN50160 Voltage characteristics of electricity supplied by public distribution systems|add text|CENELEC|add text|
 
 
 # 4. Step by Step Analysis of Use Case
