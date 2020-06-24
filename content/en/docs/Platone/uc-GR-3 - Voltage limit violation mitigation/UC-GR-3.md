@@ -109,13 +109,18 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO | Person | add text| DMS, DSO technical Platform , PMUs , State estimation tool, Measurement Data, Network topology|
-| Residential consumer | Person | add text| Load information (aggregated) and Measurements|
-| Commercial consumer | Person | add text| Load information (aggregated) and Measurements|
 | Aggregator| Person | add text| add text|
-| RES production| Person | add text| Measurements|
-| State Estimation tool| System | Tool that allows and assists the use of other DMS services and applications to provide network state estimation, improvement of measurement data reliability and better network observability | Alarm sent by the State Estimation tool is the triggering event for this Use Case|
-| DSO Data Server |Device | Stores data from various existing DSO systems (SCADA, GIS, DMS, AMR)| |
+| AMR | System | Automatic Meter Reading system|  |
+| Commercial consumer | Person | add text| Load information (aggregated) and Measurements|
+| DMS | System | Distribution Management System | |
+| DSO | Person | Distribution System Operator| The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.  |
+| DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
+| GIS | System | Geographical Information System |  |
+| PMU | Device | Phasor Measurement Unit | |
+| RES | Person | add text| Measurements|
+| Residential consumer | Person | add text| Load information (aggregated) and Measurements|
+| SCADA | Device | Supervisory Control And Data Acquisition system|  |
+| State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.|  |
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
