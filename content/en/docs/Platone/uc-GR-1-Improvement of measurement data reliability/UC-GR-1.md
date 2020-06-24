@@ -109,7 +109,7 @@ Add any remarks which do not fit in any other category
 | --- | --- | --- | --- |
 | AMR | System | Automatic Meter Reading system|  |
 | DMS | System | Distribution Management System | |
-| DSO | Person | Distribution System Operator| The entity responsible for: the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.  |
+| DSO | Person | Distribution System Operator| The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.  |
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
 | GIS | System | Geographical Information System |  |
 | PMU | Device | Phasor Measurement Unit | |
