@@ -112,15 +112,19 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO | Person | add text| DMS, DSO technical Platform , PMUs , State estimation tool, Measurement Data, Network topology|
-| TSO | Person | add text| Simulated entity to trigger the use case|
-| Residential consumer | Person | add text| Load information (aggregated) and Measurements|
-| Commercial consumer | Person | add text| Load information (aggregated) and Measurements|
 | Aggregator| Person | add text| add text|
-| RES production| Person | add text| Measurements|
-| State Estimation tool| System | Tool that allows and assists the use of other DMS services and applications to provide network state estimation, improvement of measurement data reliability and better network observability | Alarm sent by the State Estimation tool is the triggering event for this Use Case|
-| DSO Data Server |Device | Stores data from various existing DSO systems (SCADA, GIS, DMS, AMR)| 
-
+| AMR | System | Automatic Meter Reading system|  |
+| Commercial consumer | Person | Final end user to denote a typical commodity commercial consumption with capability of neither generation nor storage.| |
+| DMS | System | Distribution Management System | |
+| DSO | Person | Distribution System Operator| The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.  |
+| DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
+| GIS | System | Geographical Information System |  |
+| PMU | Device | Phasor Measurement Unit | |
+| RES | Person | Renewable Energy Source| |
+| Residential consumer | Person | Final end user to denote a typical commodity residential consumption with capability of neither generation nor storage.| |
+| SCADA | Device | Supervisory Control And Data Acquisition system|  |
+| State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.|  |
+| TSO | Person | Transmission System Operator| Simulated entity to trigger the use case|
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
@@ -161,8 +165,8 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 5 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator|CREATE|DSO|Aggregator|Network tariffs||
 | 6 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
 | 7 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|Setpoint||
-| 8 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES production|Setpoint||
-| 9 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|Measurements||
+| 8 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES|Setpoint||
+| 9 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR,PMU|DSO Data Server|Measurements||
 | 10 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|State Estimation Tool|Measurements||
 | 11 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|State Estimation Tool|DSO|Measurements||
 
