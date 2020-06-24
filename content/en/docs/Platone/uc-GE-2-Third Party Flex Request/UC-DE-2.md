@@ -191,30 +191,36 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 ## 4.2. Steps – Scenarios
 
-**Scenario Name: No. 1 - Local generation exceeds consumption**
+**Scenario Name: No. 1 - Increasing Residual Energy Demand **
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Initiating of UC 2 ||User triggers sets mode of operation for ALF-C to UC 2 and duration | REPORT | USER | ALF-C | I - 01 | |
-| 2 | ALF-C requests data of total generation/ consumption | Data-Aquisition | The ALF-C request measurement values from the PMU located at the secondary substation to provide measurement data (PBreaker) of the power exchange along the MV/LV grid connection point. </br> Then data will be pushed by PMU every 10 seconds. | GET | ALF-C | PMU | I-04 | |
-| 3 | PMU (grid connection point) provides values | Transmitting data | The local measurement device (PMU) located at the grid connection point measures the residual power export and sends data to the ALF-C (PBreaker). </br> Step will be repeated every 10 seconds. | CHANGE | PMU | I-05 | |
-| 4 | ALF-C requests data of current of demand/SOC of local flex | Data-Aquisition | The ALF-C sends request to sensors to provide load demand and SOC values of local customer flexible loads, customer storages and the BESS.
-Then data will be pushed by PMU every 15 minutes. | GET | ALF-C | PMU, Integrated Sensors | I-04 | |
-| 5 | Local sensors provide data | Transmitting data | Local sensors provide measurements values and data to the ALF-C. </br> Step will be repeated every 15 minutes. | CHANGE | PMU, Integrated Sensors | ALF-C | I-05 | |
+| 1 | Initiating of UC 2 ||Operator sets ALF-C mode of operation to UC 2 and set via a GUI the target setpoint for load exchange aalong the grid connection point MV/LV P'_Breaker and duration (t) | REPORT | USER | ALF-C | I - 01 | |
+| 2 | ALF-C requests data of total generation/ consumption | Data-Aquisition | The ALF-C request measurement values from the sensor located at the secondary substation to provide measurement data (P_Breaker) of the power exchange along the MV/LV grid connection point. </br> Then data will be pushed by sensor every 10 seconds. | GET | ALF-C | Sensor | I-04 |   |
+| 3 | Sensor (grid connection point) provides values | Transmitting data | The local measurement device (PMU) located at the grid connection point measures the residual power export and sends data to the ALF-C (PBreaker). </br> Step will be repeated every 10 seconds. | CHANGE | Sensor| ALF-C|  I-05 |
+| 4 | ALF-C requests data of current of demand/SOC of local flex | Data-Aquisition | The ALF-C sends request to sensors to provide load demand and SOC values of local customer flexible loads, customer storages and the BESS. Then data will be pushed by PMU every 15 minutes. | GET | ALF-C | Sensors | I-04 | |
+| 5 | Local sensors provide data | Transmitting data | Local sensors provide measurements values and data to the ALF-C. </br> Step will be repeated every 15 minutes. | CHANGE | Sensor, | ALF-C | I-05 | |
 | 6 | All data is collected | Evaluation and determination of control strategy and setpoints | Based on provided measurement data, asset key data. ALF-C calculates the power bandwith and/or SOC of each asset available for steering (PFlex, available). </br> The ALF-C determines for each asset a setpoint to reach Ptarget. The determination of setpoint is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and storages located at customer premise. | Create | ALF-C | ALF-C | | |
 | 7 | Individual setpoints determined | Transmitting setpoints to actuators | The ALF-C sends setpoints to actuators located in the field to increase their consumption. </br> This signal is sent each ten seconds to the BESS and every 15 minutes to actuators located at customer premise and replaces the default signal until the ALF-C calculates a setpoint. | EXECUTE | ALF-C | Actuators | I-06 | |
-| 8 | Setpoint send to actuators | Verification of setpoint execution 
-Comparison of target and measured values | The ALF-C compares measured values from the grid connection point with the target values (PBreaker  = 0). In case of deviation the setpoint are redefined by walking through step numbers 2 to 8. The process is continuously cycled until the end of use case. | CREATE | PMU | ALF-C | | |
+| 8 | Setpoint send to actuators | Verification of setpoint execution Comparison of target and measured values | The ALF-C compares measured values from the grid connection P_Breaker point with the target values (P'_Breaker). In case of deviation the setpoint are redefined by walking through step numbers 2 to 8. The process is continuously cycled until the end of use case. | CREATE | Sensor| ALF-C | | |
 | 9 | End of Use Case 2 | End of Use Case 2 | The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach Ptarget. | REPORT | USER | ALF-C | I-01 |
 
 
+**Scenario Name: No.  - Decreasing Residual Energy Demand **
 
-**Scenario Name: No. 2 - (name of scenario)**
-
-| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
+| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
+| 1 | Initiating of UC 2 ||Operator sets ALF-C mode of operation to UC 2 and set via a GUI the target setpoint for load exchange aalong the grid connection point MV/LV P'_Breaker and duration (t) | REPORT | USER | ALF-C | I - 01 | |
+| 2 | ALF-C requests data of total generation/ consumption | Data-Aquisition | The ALF-C request measurement values from the sensor located at the secondary substation to provide measurement data (P_Breaker) of the power exchange along the MV/LV grid connection point. </br> Then data will be pushed by sensor every 10 seconds. | GET | ALF-C | Sensor | I-04 |   |
+| 3 | Sensor (grid connection point) provides values | Transmitting data | The local measurement device (PMU) located at the grid connection point measures the residual power export and sends data to the ALF-C (PBreaker). </br> Step will be repeated every 10 seconds. | CHANGE | Sensor| ALF-C|  I-05 |
+| 4 | ALF-C requests data of current of demand/SOC of local flex | Data-Aquisition | The ALF-C sends request to sensors to provide load demand and SOC values of local customer flexible loads, customer storages and the BESS. Then data will be pushed by PMU every 15 minutes. | GET | ALF-C | Sensors | I-04 | |
+| 5 | Local sensors provide data | Transmitting data | Local sensors provide measurements values and data to the ALF-C. </br> Step will be repeated every 15 minutes. | CHANGE | Sensor, | ALF-C | I-05 | |
+| 6 | All data is collected | Evaluation and determination of control strategy and setpoints | Based on provided measurement data, asset key data. ALF-C calculates the power bandwith and/or SOC of each asset available for steering (PFlex, available). </br> The ALF-C determines for each asset a setpoint to reach P'_Breaker. The determination of setpoint is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and storages located at customer premise. | Create | ALF-C | ALF-C | | |
+| 7 | Individual setpoints determined | Transmitting setpoints to actuators | The ALF-C sends setpoints to actuators located in the field to decrease their consumption. </br> This signal is sent each ten seconds to the BESS and every 15 minutes to actuators located at customer premise and replaces the default signal until the ALF-C calculates a setpoint. | EXECUTE | ALF-C | Actuators | I-06 | |
+| 8 | Setpoint send to actuators | Verification of setpoint execution Comparison of target and measured values | The ALF-C compares measured values from the grid connection P_Breaker point with the target values (P'_Breaker). In case of deviation the setpoint are redefined by walking through step numbers 2 to 8. The process is continuously cycled until the end of use case. | CREATE | Sensor| ALF-C | | |
+| 9 | End of Use Case 2 | End of Use Case 2 | The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach Ptarget. | REPORT | USER | ALF-C | I-01 |
+
+
 
 ***Notes***
 
@@ -238,11 +244,11 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
-| I-01 | Signal from user via GUI | A user triggers the use case via an GUI to the ALF-C to apply islanding. The trigger signal is: </br> 0 = stop current use case </br> 1 = application of UC 1 </br> 2 = application of UC 2 </br> 3 = application of UC 3 </br> 4 = application of UC 4 <br/> Based on the UC 2 trigger the ALF-C sets the target setpoint for the load - exchange along the grid connection point accoring to user input (Target Setpoint (P)). | |
+| I-01 | Signal from user via GUI | A user triggers the use case via an GUI to the ALF-C to apply islanding. The trigger signal is: </br> 0 = stop current use case </br> 1 = application of UC 1 </br> 2 = application of UC 2 </br> 3 = application of UC 3 </br> 4 = application of UC 4 <br/> Based on the UC 2 trigger the ALF-C sets the target setpoint for the load - exchange along the grid connection point accoring to user input (Target Setpoint P'_Breaker). | |
 | I-02| Signal from ALF-C to External System | Trigger to provide weather forecast data | |
 | I-03| Weather forecasts | -	Solar radiation (t + 24h) </br> -	Cloudiness (t + 24 h) </br> -	Temperature (t + 24 h) </br> -	Humidity (t + 24 h) </br> - Windspeed (t + 24 h) | |
-| I-04| Signal from the ALF-C to PMU at secondary substation | The ALF-C sends a signal to sensors to get current measurements. | |
-| I-05| Signal from PMU | The PMU sends measurement values containing:
+| I-04| Signal from the ALF-C to sensor at secondary substation | The ALF-C sends a signal to sensors to get current measurements. | |
+| I-05| Signal from sensor | The sensor sends measurement values containing:
 voltage (U), current (I) and angle of phase (Phi) values for all 3 phases | |
 | I-06| Signal from integrated sensors | The measurement of PMU contains voltage (U), current (I) and angle of phase (Phi) values, SOC, SOE and/or temperature | |
 
