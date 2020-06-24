@@ -153,9 +153,9 @@ This part describes the possible scenarios of the use case. The scenarios should
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR, PMUs|DSO Data Server|Measurements||
 | 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|Measurements||
-| 3 |Measurements from the Distribution Network| PMU data integration | PMU and conventional measurements integrated into a unified measurement set|EXECUTE|State Estimation tool||Measurements||
-| 4 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool||Observability status||
-| 5 | Measurements from the Distribution Network|Calculation of the state vector| State estimation algorithm is carried out |EXECUTE|State estimation tool||State vector||
+| 3 |Measurements from the Distribution Network| PMU data integration | PMU and conventional measurements integrated into a unified measurement set|EXECUTE|State Estimation tool|State estimation tool|Measurements||
+| 4 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool|State estimation tool|Observability status||
+| 5 | Measurements from the Distribution Network|Calculation of the state vector| State estimation algorithm is carried out |EXECUTE|State estimation tool|State estimation tool|State vector||
 | 6 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|State Estimation tool|DSO|State vector||
 
 ***Notes***
