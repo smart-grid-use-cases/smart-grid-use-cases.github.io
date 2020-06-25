@@ -116,7 +116,9 @@ Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-![Diagram of Use Case](img1.png)
+![Diagram of Use Case](UC_GR_1_2_3_4_UCdiagrams-UC1.svg)
+
+![Sequence Diagram of Use Case](UC_GR_1_2_3_4_Seq_Diag-UC1.svg)
 
 # 3. Technical Details
 
