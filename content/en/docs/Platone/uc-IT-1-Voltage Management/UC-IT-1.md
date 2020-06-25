@@ -307,7 +307,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
 |I-01|Quarterly measures|The aggregator baseline or the DSO grid forecast use the data measurements (active power, energy consumption, energy production,…) stored in SCD. This measures have a 15 minutes granularity||
-|I-02|Customer data|This information contains the list of customer involved in the flexibility providers for the day after||
+|I-02|Customer list|This information contains the list of customer involved in the flexibility providers for the day after||
 |I-03|BRP Baseline|The BRP defines for every POD the day after load profile, in compliance with the market day ahead||
 |I-04|Near real time measures|This information contains for every POD involved in the flexibility market, the active power measured every 4 second||
 |I-05|Data for Offer|The flexibility offer contains the volume, the time frame and the price provided by the DER involved in the group||
