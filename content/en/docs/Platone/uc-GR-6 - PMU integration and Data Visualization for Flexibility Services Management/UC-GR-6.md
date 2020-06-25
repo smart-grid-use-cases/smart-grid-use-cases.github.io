@@ -6,7 +6,7 @@
 
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-GR-6 | Area: Energy system </br> Domains: Distribution/</br> Zone: Station,Operation </br>  | PMU integration and Data Visualization for Flexibility Services Management |
+| UC-GR-5 | Area: Energy system </br> Domains: Distribution/</br> Zone: Station,Operation </br>  | PMU integration and Data Visualization for Flexibility Services Management |
 
 ***Notes:***
 
