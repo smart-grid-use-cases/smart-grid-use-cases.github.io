@@ -179,11 +179,11 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
-|I-01|Voltage and Current levels|||
-|I-02|phasors|||
-|I-03|Power Flows |||
-|I-04|Consumption data|||
-|I-05|Network topolgy change|||
+|I-10|Voltage and Current levels|||
+|I-11|phasors|||
+|I-12|Power Flows |||
+|I-13|Consumption data|||
+|I-14|Network topolgy change|||
 
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
