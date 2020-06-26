@@ -211,12 +211,12 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
-| I-01 |Generation| --- | --- |
-| I-02| Consumption|--- |--- |
-| I-03| Power at point of connection (real time)|--- |--- |
-| I-04| Battery SOE/SOC|--- |--- |
-| I-05| Weather conditions|--- |--- |
-| I-06| Individual setpoints for flexibilities|--- |--- |
+| I-07 |Generation| --- | --- |
+| I-08| Consumption|--- |--- |
+| I-09| Power at point of connection (real time)|--- |--- |
+| I-10| Battery SOE/SOC|--- |--- |
+| I-11| Weather conditions|--- |--- |
+| I-12| Individual setpoints for flexibilities|--- |--- |
 ***Notes***
 
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
