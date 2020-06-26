@@ -119,7 +119,7 @@ Add any remarks which do not fit in any other category
 | Residential Consumer| Person | add text| Load information (aggregated) and Measurements|
 | Commercial Consumer| Person | add text| Load information (aggregated) and Measurements|
 | Aggregator/ Flexibility operators| Person | add text|add text|
-| RES production| Person | add text|add text|
+| RES | System | add text|add text|
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
