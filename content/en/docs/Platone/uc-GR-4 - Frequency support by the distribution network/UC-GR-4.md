@@ -108,8 +108,8 @@ Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-![Diagram of Use Case](img1.png)
-
+![Diagram of Use Case](UC_GR_1_2_3_4_UCdiagrams-UC4.svg)
+![Sequence diagram](UC_GR_1_2_3_4_Seq_Diag-UC4.svg)
 # 3. Technical Details
 
 ## 3.1. Actors
@@ -124,7 +124,7 @@ Add any remarks which do not fit in any other category
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
 | GIS | System | Geographical Information System |  |
 | PMU | Device | Phasor Measurement Unit | |
-| RES | Person | Renewable Energy Source| |
+| RES | System | Renewable Energy Source| |
 | Residential customer | Person | Final end user to denote a typical commodity residential consumption with capability of neither generation nor storage.| |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
 | State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.|  |
