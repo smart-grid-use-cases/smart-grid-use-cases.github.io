@@ -241,7 +241,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 | I-03 | Weather forecasts | -	Solar radiation (t + 24h) <br> -	Cloudiness (t + 24 h) <br> -	Temperature (t + 24 h) <br> -	Humidity (t + 24 h) <br> - Windspeed (t + 24 h) | |
 | I-04 | Signal from the ALF-C to PMU at secondary substation | The ALF-C sends a signal to sensors to get current measurements. | |
 | I-05 | Signal from PMU | The PMU sends measurement values containing: voltage (U), current (I) and angle of phase (Phi) values for all 3 phases | |
-| I-06 | Setpoin transmission | Setpoint P(t) or setpoint schedule P(t+1) | |
+| I-06 | Setpoint transmission | Setpoint P(t) or setpoint schedule P(t+1) | |
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
 * **Requirements to information data** - optional, defined in section 6
