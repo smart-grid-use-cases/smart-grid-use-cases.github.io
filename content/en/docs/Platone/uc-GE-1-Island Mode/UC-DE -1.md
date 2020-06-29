@@ -2,21 +2,11 @@
 
 ## 1.1. Name of the Use Case
 
-*Use case identification*
-
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-DE-1 | Area: Energy system <br> Domain: Distribution, Customer Premise, Field, DER <br> Zones: Operation, Enterprise, Process, Field <br> *Leave it blanc if not sure* | Island Mode <br> Implementing of an Energy Management System that operates a specific low voltage network in virtual island mode, i.e. minimizing the power exchange with the connected medium voltage feeder by utilizing available flexibility (local energy storage systems and controllable loads)|
-
-***Notes:***
-
-* **ID** - unique identification label: DE-1
-
-* **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.
+| UC-DE-1 | Area: Energy system </br> Domain: Distribution, Customer Premise, Field, DER </br> Zones: Operation, Enterprise, Process, Field </br>  | Island Mode </br> Implementing of an Energy Management System that operates a specific low voltage network in virtual island mode, i.e. minimizing the power exchange with the connected medium voltage feeder by utilizing available flexibility (local energy storage systems and controllable loads)|
 
 ## 1.2. Version Management
-
-*Version management*
 
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 | --------- | ------- | --------------- | ----- | ------------- |
@@ -30,8 +20,6 @@
 
 
 ## 1.3. Scope and Objectives of Use Case
-
-*Scope and objectives of use case*
 
 |||
 | --- | --- |
