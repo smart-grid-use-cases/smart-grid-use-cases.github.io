@@ -27,14 +27,6 @@
 | **Objective(s)** | -	Maximize consumption of local generation/Minimize demand satisfied by public grid <br/> -	Islanding of local grid by making use of flexible loads and storages <br/> -	Maximizing duration of islanding operation <br> -	UC 1 is prerequisite for UC 2 to 4|
 | **Related business case(s)** |no|
 
-***Notes:***
-
-* **Scope** - describes the aims and boundaries of the use case in a short, precise text.
-
-* **Objective(s)** - goals of the use case, in form of bullet points and a short headline.
-
-* **Realted business case(s)** - optional
-
 ## 1.4. Narrative of Use Case
 
 
@@ -56,10 +48,6 @@ The Clean Energy for all Europeans Package, encourages private households are  n
 |UC-K03|Consumption of customer generation|Amount of consumption by the community from their generation|Measure the consumption for maximized internal consumption of the generation|
 |UC-K04|Duration of Island Mode|Max/Min/Average duration in which the community is able to be in island mode|Identify the framing characteristics of the island mode|
 
-***Notes:***
-
-Can be left blank now
-
 ## 1.6. Use case conditions
 
 |Assumptions| Prerequisites|
@@ -68,55 +56,27 @@ Can be left blank now
 |Private Customer households with flexible loads and storages join a local energy community.|Participants of the energy communities incl. flexible loads and storages are connected to a single low voltage grid (feed by a single MV/LV transformer) and are monitored and steered by an EMS.|
 |The energy community needs an operator for the “Islanding” EMS.|National regulations have to be clarified who can be the service providers and who can’t (TSO, DSO, Aggregator, Retailer, Energy Service provider)|
 
-***Notes:***
-
-
-* **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
-
-* **Prerequisites** - specify which requirements have to be met so that the basis scenario use case can be successfully accomplished.
-
-
 ## 1.7. Further information to the use case for classification/mapping
-
-OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
 |This use case is a prerequisite for Use Case 2 to 4|
 |**Level of depth**|
-|add text|
+||
 |**Prioritisation**|
 |very important|
 |**Generic, regional or national relation**|
-|add text|
+||
 |**Nature of the use cases**|
 |technical|
 |**Further keywords for classification**|
-|add text|
-
-***Notes:***
-
-
-* **Relation to other use cases** - relation to other use cases in the same project or thematic area. Possible relation types are for instance include, extend, invoke, or associate.
-
-* **Level of depth** - reflects the degree of specialisation of the use case. Although no common notation is settled, descriptions like high level use case, generic, detailed, or specialised use case are often used.
-
-* **Prioritisation** - helps to rate the use cases in a project from very important to nice-to-have with labels like obligatory/mandatory or optional which have to be agreed upon beforehand.
-
-* **Generic, regional or national relation** - for the purpose of generalisation if use case is applied to areas where restictions by law or silimiar issues occur.
-
-* **Nature of the use cases** - describes the viewpoint and field of attention like *technical, political, business/market, test*, etc.
-
+||
 
 ## 1.8. General remarks
 
 |General remarks|
 |---|
 |- Use case 1 is anticipated to emerge as a result of the Clean Energy Package, driven by the bottom-up demand of customers and local communities <br/> - It is a prerequisite for the advanced use 2 - 4|
-
-***Notes:***
-
-Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
@@ -149,13 +109,7 @@ Add any remarks which do not fit in any other category
 | DSO (Avacon) | Person | Local grid operator | In future done by DSO, TSO, marketer or energy service providers |
 
 
-***Notes:***
-
-* **Actor Type** - Device/ Sytem/ Person
-
 ## 3.2. References
-
-OPTIONAL - you can leave it blank
 
 | **No.** | **References Type** | **Reference** | **Status** | **Impact on Use Case** | **Organistaor / Organisation** | **Link** |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -230,9 +184,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 | I-04 | Signal from the ALF-C to PMU at secondary substation | The ALF-C sends a signal to sensors to get current measurements. | |
 | I-05 | Signal from PMU | The PMU sends measurement values containing: voltage (U), current (I) and angle of phase (Phi) values for all 3 phases | |
 | I-06 | Setpoint transmission | Setpoint P(t) or setpoint schedule P(t+1) | |
-***Notes***
-* **Information exchanged ID** - unique number (I-01,I-02...) for identification
-* **Requirements to information data** - optional, defined in section 6
+
 
 # 6. Requirements (optional)
 
