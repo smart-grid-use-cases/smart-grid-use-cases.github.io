@@ -128,7 +128,9 @@ Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-![Diagram of Use Case](img1.png)
+![Active Diagram Voltage Violation](Active Diagram Voltage Violation.jpg)
+![Sequence Diagram Voltage](Sequence diagram Voltage.png)
+![Use Case Diagram Voltage](Use Case Diagram Voltage.png)
 
 # 3. Technical Details
 
