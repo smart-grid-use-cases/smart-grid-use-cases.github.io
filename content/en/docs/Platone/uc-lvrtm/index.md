@@ -1,4 +1,4 @@
-@include imgproc
+@imgproc
 ---
 title: "LVRTM Example Use Case"
 linkTitle: "LVRTM Example Use Case"
