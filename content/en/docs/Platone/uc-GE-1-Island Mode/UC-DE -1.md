@@ -89,7 +89,11 @@ The operation of the community in an “Island” mode will be initiated by the 
 
 # 2. Diagrams of Use Case
 
-![Diagram of Use Case](UC1_2_Diagram_of_Use_Case.png)
+<!--![Diagram of Use Case](UC1_2_Diagram_of_Use_Case.png)-->
+
+{{ imgproc UC1_2_Diagram_of_Use_Case.png Fit "600x400" >}}
+Diagram of Use Case
+{{< /imgproc >}}
 
 <!--![Diagram of Use Case](UC1 - 2. Diagram of Use Case.png)-->
 
