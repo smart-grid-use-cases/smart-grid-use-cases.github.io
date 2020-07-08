@@ -131,7 +131,9 @@ Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-![Diagram of Use Case](img1.png)
+![Sequence Diagram Congestion](Sequence Diagram Congestion.png)
+![Use Case Diagram Congestion](Use Case Diagram Congestion.jpg)
+![Use Case Diagram Congestion 2](Use Case Diagram Congestion.png)
 
 # 3. Technical Details
 
