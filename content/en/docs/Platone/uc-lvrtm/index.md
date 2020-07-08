@@ -153,7 +153,7 @@ the data to:
 ![Figure 3](img_3.png)
 
 
-{{ imgproc img_1 Fit "600x400" >}}
+{{< imgproc img_1 Fit "600x400" >}}
 Diagram 1
 {{< /imgproc >}}
 
