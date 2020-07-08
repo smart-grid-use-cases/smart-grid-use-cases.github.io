@@ -153,6 +153,7 @@ the data to:
 ![Figure 3](img_3.png)
 
 <img src="img_1.png"
+     title="my title"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
      
