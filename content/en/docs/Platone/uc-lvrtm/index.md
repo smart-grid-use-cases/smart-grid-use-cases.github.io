@@ -1,4 +1,3 @@
-@imgproc
 ---
 title: "LVRTM Example Use Case"
 linkTitle: "LVRTM Example Use Case"
@@ -153,12 +152,16 @@ the data to:
 ![Figure 2](img_2.png)
 ![Figure 3](img_3.png)
 
-
+<img src="img_1.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+     
+<!--
 {{< imgproc img_1.png Fit "600x400" >}}
 Diagram 1
 {{< /imgproc >}}
 
-<!--
+
 {{< imgproc img_2 Fit "600x1200" >}}
 Diagram 2
 {{< /imgproc >}}
