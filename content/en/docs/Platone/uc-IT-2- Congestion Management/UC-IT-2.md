@@ -8,12 +8,6 @@
 | --- | ---                    | ---                  |
 | UC-IT-2| Area: Energy system </br> *Leave it blank if not sure* | Voltage Management in transmission and distribution system using resources connected to distribution system |
 
-***Notes:***
-
-* **ID** - unique identification label: DE-1/GR-3/IT-2
-
-* **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.
-
 ## 1.2. Version Management
 
 *Version management*
@@ -33,14 +27,6 @@
 | Scope | Congestion avoidance in distribution and transmission grid by use of flexibility resources connected to transmission and distribution system providing ancillary services through a market mechanism. <br/> Network: MV, LV (HV users have their own market) <br/> Market: Day Ahead, Near Real Time  <br/> |
 | **Objective(s)** | *	To support the TSO to use the flexibility provided by resources connected to the distribution system for congestion management, while respecting distribution system constraints <br/> * To ensure an inclusive and non-discriminatory access to the market for all agents that provide grid services <br/> * To enable coordination between system operators <br/> * To optimize the distribution network utilization <br/> * *To activate flexibility to solve congestion in the distribution grid* <br/> * *To minimize RES curtailment due to technical requirements and operation constraints*|
 | **Related business case(s)** |add text|
-
-***Notes:***
-
-* **Scope** - describes the aims and boundaries of the use case in a short, precise text.
-
-* **Objective(s)** - goals of the use case, in form of bullet points and a short headline.
-
-* **Realted business case(s)** - optional
 
 ## 1.4. Narrative of Use Case
 
@@ -70,10 +56,6 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 |ID   |Name   | Description   | Reference to mentioned use case objectives|
 |-----|-------|---------------|-------------------------------------------|
 |add text|add text|add text|add text|
-
-***Notes:***
-
-Can be left blank now
 
 ## 1.6. Use case conditions
 
@@ -131,9 +113,9 @@ Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-![Sequence Diagram Congestion](Sequence Diagram Congestion.png)
-![Use Case Diagram Congestion](Use Case Diagram Congestion.jpg)
-![Use Case Diagram Congestion 2](Use Case Diagram Congestion.png)
+![Sequence Diagram Congestion](Sequence_Diagram_Congestion.png)
+![Use Case Diagram Congestion](Use_Case_Diagram_Congestion.jpg)
+![Use Case Diagram Congestion 2](Use_Case_Diagram_Congestion.png)
 
 # 3. Technical Details
 
@@ -157,10 +139,6 @@ Add any remarks which do not fit in any other category
 |Aggregator Platform/Software component|System that gathers the data measurement from the customers, calculates the energy flexibility to offer on the market, and defines the users set-points||
 |Balance responsible party|Person|Balance responsible party is a market participant or its chosen representative responsible for its imbalances||
 
-***Notes:***
-
-* **Actor Type** - Device/ Sytem/ Person
-
 ## 3.2. References
 
 OPTIONAL - you can leave it blank
@@ -181,18 +159,6 @@ OPTIONAL - you can leave it blank
 | 3 |Activation|DSO|DSO sends the order to move the resources|The resources have won the session market|The Light Node measures the deviation from the baseline|
 | 4 |Settlement|BRP|BRP sends the baseline to SCD|BRP estimate the baseline for the energy market| The market operator calculates the flexibility energy respect to BRP's baseline|
 
-
-***Notes***
-
-This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
-
-* **Primary Actor** - the first actor appearing in the scenario at the incident causing the scenario to begin.
-
-* **Triggering Event** - the incident causing the scenario to begin.
-
-* **Pre-Condition** - indicates which terms have to be fulfilled for the scenario to be executed.
-
-* **Post-Condition** - indicates which terms should be valid after the scenario. TIt can also specify whether a scenario has been successfully completed or not.
 
 ## 4.2. Steps – Scenarios
 
@@ -278,26 +244,6 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 6 | Payment of provided Energy | Payment | DSO pays the provided Energy for flexibility to AGGREGATOR | CREATE | DSO | Aggregator Platform | I -16 |  |
 | 7 | Customer payment | Payment | AGGREGATOR shares the revenues with the flexibility resources under their jurisdiction | CREATE | Aggregator Platform | FR Owner | I -17 |  |
 
-
-
-***Notes***
-
-This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
-
-* **Event** - Event triggering a step, specific for that use case.
-
-* **Name of Process/ Activity** - general classification of process/activity (e.g. data aquisition).
-
-* **Description of Process/ Activity** - more detailed description of the step.
-
-* **Service** - addresses the nature of the information flow. Possible: GET (The information receiver obtains information from the
-information producer after an implicit request.), CREATE (The information producer creates an information object.), CHANGE (The information producer performs an update of the information at the information receiver’s.), DELETE (The information producer deletes information of the receiver.), CANCEL/CLOSE (A process is terminated.), EXECUTE (An action or service is performed.), REPORT (The information producer supplies information of its own account.), TIMER (The actor which represents both information producer
-and receiver has to enforce a waiting period.), REPEAT (A number of steps has to be repeated until a break condition (stated in the field Event) is satisfied. The contemplated steps have to be added in parentheses.).
-
-* **Information Producer and Receiver (Actor)** - actors from actor list in section 3.1
-
-* **Information exchanged (IDs)** - ID of the information defined further in section 5
-
 # 5. Information Exchanged
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
@@ -320,12 +266,6 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 |I-16|DSO payment|It is the payment of DSO for the energy provided||
 |I-17|Aggregator payment|It is the remuneration that the aggregator recognizes to the customer||
 |I-18|Technical Measurement|Electrical quantities coming from the field sensors (Voltage and current sensors or Low Voltage circuit breaket embedded with IED)|
-
-***Notes***
-
-* **Information exchanged ID** - unique number (I-01,I-02...) for identification
-
-* **Requirements to information data** - optional, defined in section 6
 
 # 6. Requirements (optional)
 
