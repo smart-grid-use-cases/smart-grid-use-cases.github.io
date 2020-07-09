@@ -43,7 +43,7 @@ A local Energy Management System (EMS) named (Avacon Local Flex Controller –( 
 When local generation exceeds local demand, surplus energy will automatically be stored in local storages and the consumption of available flexible loads will be increased. When local consumption is exceeding local generation, stored electrical energy in local batteries will be discharged. The target is to minimize the load flow exchange at the MV/LV grid connection  to a level at which the community is virtually islanded. In cases where generation and demand can not be balanced due to a lack of available storage capacity or flexibility, the residual load will exported/imported.
 A sensor located at the grid connection will measure the power exchange of all 3 phases between the medium voltage and low voltage grid. The measured values indicate the residual demand or export of surplus of generated energy/power. Data is provided to the EMS an  based on the information increases or decreases the load in order balance the grid. Additionally, customer households provide flexible load and storage capacities for steering. Flexible assets in the field are equipped with sensors and controllers for steering to increase or decrease demand and to command charging or discharging of local large Battery Energy Storage System and private customer household storages.  Vendors of flexible assets provide a cloud data management platform from which measurement data are accessible for EMS via an backend. The interface also provides data to sensors located in private customer households will provide measurements of energy consumption and provide the necessary data for EMS to estimate the state of charge of batteries or flexible loads and potential available storage capacity. With Hhistorical measurement data and weather forecasts provided by external service providers enable the EMS to predict energy generation and consumption to maximize self-sufficiency.
 Controllers Actuators enable EMSC to switch on and off, increase or decrease energy consumption of individual loads, such as storage heaters and heat pumps, and storages located in private households and the large scale storage located in the community.
-The communication between sensors, actuators controllers and EMSC will be web based, via LTE or DSL and open protocols. Customers shall not sacrifice comfort due to a decrease of room heating. 
+The communication between sensors, actuators controllers and EMSC will be web based, via LTE or DSL and open protocols. Customers shall not sacrifice comfort due to a decrease of room heating.
 The operation of the community in an “Island” mode will be initiated by the operator.
 
 
@@ -91,7 +91,7 @@ The operation of the community in an “Island” mode will be initiated by the 
 
 <!--![Diagram of Use Case](UC1_2_Diagram_of_Use_Case.png)-->
 
-{{ imgproc UC1_2_Diagram_of_Use_Case.png Fit "600x400" >}}
+{{< imgproc UC1_2_Diagram_of_Use_Case.png Fit "600x400" >}}
 Diagram of Use Case
 {{< /imgproc >}}
 
@@ -103,7 +103,7 @@ Diagram of Use Case
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | -------- | -------- | -------- | -------- |
-| Standard Household | System | Household with a standard load profile energy consumption of a single household. | No direct measurement of energy consumption, demand not controllable (passive consumer). | 
+| Standard Household | System | Household with a standard load profile energy consumption of a single household. | No direct measurement of energy consumption, demand not controllable (passive consumer). |
 | Agricultural Buildings|System | Energy consumer with a standard load profile of an agricultural building. | No direct measurement of energy consumption, demand not controllable. |
 | Generators | System | Generation of roof top photovoltaic systems directly correlated with solar radiation at location. | Limited controllability (can be curtailed in extreme cases). Located on customers premise and can be operated in combination with a battery storage system, for optimization of own consumption. |
 | Controller | Device | Summarises all controllers that are installed as a retrofit solution to make flexible loads, controllable and summarises all controllers that are already installed in local flexible loads. |   |
@@ -112,7 +112,7 @@ Diagram of Use Case
 | Household Energy Storage|System|Stores electrical energy|Integrated in EMS and full time available for UC. |
 | Flexible Load|Device|Storage heater or heat pump used by household for generation of domestic heat.|Could be provided by customer households. |
 | External Service Providers | External System | Weather Forecast Service Provider provides weather forecasts for the next 24h of wind, solar radiation, cloudiness and temperature. |
-| Energy Management System (EMS) | System | -	Monitors local generation and demand <br> -	monitors available flexibility and storages <br> -	forecasts generation, demand and available flexibility via historic data and weather forecasts |  In an productive environment operator can could be DSO, retailers, storage system operators or any other energy service provider. 
+| Energy Management System (EMS) | System | -	Monitors local generation and demand <br> -	monitors available flexibility and storages <br> -	forecasts generation, demand and available flexibility via historic data and weather forecasts |  In an productive environment operator can could be DSO, retailers, storage system operators or any other energy service provider.
 | DSO | Person | Distribution System Operator (Avacon)| EMS named Avacon Local Flex Controller (ALF-C). In a productive environment operator could be DSO, retailer, storage system operators or any other energy service provider. |
 | Data Management Backend| External System| Cloud service of assets vendor (can be individual for different assets) storing data, providing measurement data of asset and/or interface for transmission of setpoints to asset. | Assets with different vendors, requires connection to different vendor cloud platform and backends. |
 | BESS Data Management Backend| External System| Cloud service platform of BESS manufacturer for storing data and providing measurement data and forwarding setpoint to BESS. | |
@@ -184,7 +184,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 # 5. Information Exchanged
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | I-01 | Signal from DSO via GUI| DSO triggers the use case via an GUI to the EMS to apply islanding. The trigger signal is: <br> 0 = stop current use case <br> 1 = application of UC 1 <br> 2 = application of UC 2 <br> 3 = application of UC 3 <br> 4 = application of UC 4 <br> <br> Based on the UC 1 trigger the EMS sets the target setpoint for the load - exchange along the grid connection point to zero (P’Breaker  = 0). |  |
 | I-02 | Signal from EMS to external system|Trigger to provide weather forecast data | |
 | I-03 | Weather forecasts | -	Solar radiation (t + 24h) <br> -	Cloudiness (t + 24 h) <br> -	Temperature (t + 24 h) <br> -	Humidity (t + 24 h) <br> - Windspeed (t + 24 h) | |
