@@ -1,47 +1,61 @@
+---
+title: "UC-GR-4"
+linkTitle: "UC-GR-4"
+date: 2020-07-09
+description: >
+  Frequency support by the distribution network
+---
+
 # 1. Description of the Use Case
 
 ## 1.1. Name of the Use Case
 
 *Use case identification*
+
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-GR-2| Area: Energy system </br> Domains: Distribution, DER, Customer Premises </br> Zones: Station, Operation  </br> | PMU data integration into SE tool |
+| UC-GR-04| Area: Energy system/</br> Domains: Distribution,Transmission, DER, Customer Premises/</br> Zone: Station,Operation </br> | Frequency support by the distribution network|
 
 ***Notes:***
-* **ID** - uniqe identification label: DE-1/GR-3/IT-2
+
+* **ID** - unique identification label: DE-1/GR-3/IT-2
+
 * **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.
 
 ## 1.2. Version Management
 
 *Version management*
+
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
-|0.1|17th June 2020|Themistoklis Xygkis, Panagiotis Pediaditis, Stavroula Tzioka, Eleni Daridou, Dimitris Stratogiannis|Initial creation|Draft|
+|0.1|17th June 2020|Panagiotis Pediaditis, Stavroula Tzioka, Eleni Daridou, Dimitris Stratogiannis, Themistoklis Xygkis|Initial creation|Draft|
 
 
 ## 1.3. Scope and Objectives of Use Case
 
 *Scope and objectives of use case*
-
 |||
 | --- | --- |
-| Scope | The scope of the UC is the integration of measurement data obtained from PMUs into the State Estimation tool.The installation of PMUs at selected buses is sure to upgrade the overall metering infrastructure of the network, since they record synchronized measurements of bus voltage phasors as well as a number of line current phasors—all of which are independent of each other and count as individual measurements. Yet, their proper utilization via the SE tool is a challenging task due to a) the intense discrepancies in update rates between conventional and PMU measurements, b) the provision of current measurements which often lead to various numerical problems, and c) the contrast between the large weighting factors linked to PMU measurements compared to the much lower ones linked to pseudo-measurements, which usually raises ill-conditioning issues. The goal is to ensure that the integration of PMU data will be smooth and all the aforesaid problems will be circumvented. In this way, the overall performance of the SE tool will be enhanced; the network state will be calculated with increased precision and high quality real-time operational standards for distribution management applications, will be met.|
-| **Objective(s)** | * To reinforce network observability and controllability via improved state estimation performance.<br/> * To ensure smooth incorporation of synchronised measurement data derived from PMUs into the preexisting system of conventional measurements.|
+| Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy that line and voltage limits of the distribution network are not violated in the case of a frequency support request by the transmission system. More in detail, customers with flexible loads will respond to such requests and the DSO will use flexibility tools to coordinate their response aiming at achieving the frequency support objective while ensuring distribution network operational safety. As in the previous Use Cases the state of the system is provided by the state estimation tool. <br/> Network: MV <br/> Markets: Near Real Time|
+| **Objective(s)** | To keep the distribution network within physical limits (line and voltage) with appropriate actions in the case of a frequency restoration reserve activation request by the TSO.|
 | **Related business case(s)** |add text|
 
 ***Notes:***
 * **Scope** - describes the aims and boundaries of the use case in a short, precise text.
 * **Objective(s)** - goals of the use case, in form of bullet points and a short headline.
-* **Realted business case(s)** - optional
+* **Related business case(s)** - optional
 
 ## 1.4. Narrative of Use Case
 
 
 **Short description**
-Measurement data obtained from the installed PMUs are integraded in the State Estimation tool and used to enhance the network observability. 
+Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that frequency restoration request from the TSO is adequately handled.
 
 **Complete description**
-A measurement set, composed of actual and historical measurement data obtained from the dispersed metering devices (AMR, GIS, SCADA, PMUs) installed throughout the network, is available to the DSO for real-time operation purposes. The aforementioned data refer to a) synchronised measurements of bus voltage phasors and line current phasors (magnitude and angle) and b) conventional measurements of power flows and voltage magnitudes at the top of distribution feeders, power injections from distributed generation units, and load pseudo-measurements for aggregated consumer demand at MV/LV transformer level. Given that the network model (topology) is known with a good degree of certainty, the state estimation tool ensures that the network is observable based on the available measurement set, reconciles the PMU data with the conventional measurements, and, subsequently, calculates the estimated state vector, that is, the voltage magnitudes and angles of all network buses.
+Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the available measurements and the topology via the AMR, GIS and SCADA data. A frequency support activation request from the TSO arrives at the customers with flexible loads. The request is also communicated to the DSO technical platform via an API and the information is shared with the appropriate tools and services. The DSO calculated and communicated to the customers the appropriate network tariffs that reflect the situation of the network. The flexible loads react to these tariffs and respond to the frequency support request appropriately.
+
+add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
+
 
 ## 1.5. Key Performance Indicatiors (KPI)
 
@@ -55,9 +69,11 @@ Can be left blank now
 ## 1.6. Use case conditions
 
 |Assumptions| Prerequisites|
-|-----------|	-----------|
-|add text| The network model (topology) is known with a good degree of certainty, DSO systems (e.g.AMR, GIS, SCADA) being operational, PMUs are installed|
+|-----------|-------------|
+|Customers' consent required for participation in the flexibility mechanism, Customers are rational, Part of the load is flexible, State of the network is known with a good degree of certainty|Simulation of TSO, Dynamic network charging is allowed, Smart metering is installed, Smart appliances can perform load shifting, DSO systems (e.g.AMR, GIS, SCADA) being operational|
 
+
+Customers are rational, Part of the load is flexible, State of the network is known with a good degree of certainty
 ***Notes:***
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
 * **Prerequisites** - specify which requirements have to be met so that the basis scenario use case can be successfully accomplished.
@@ -69,15 +85,15 @@ OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
-|Associate with UC-GR-6|
+|include uc-GR-1 and potentially uc-GR-2|
 |**Level of depth**|
-|add text|
+|detailed|
 |**Prioritisation**|
 |add text|
 |**Generic, regional or national relation**|
 |add text|
 |**Nature of the use cases**|
-|add text|
+|technical, market, test|
 |**Further keywords for classification**|
 |add text|
 
@@ -100,25 +116,27 @@ Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-![Diagram of Use Case](UC_GR_1_2_3_4_UCdiagrams-UC2.svg)
-
-![Sequence Diagram of Use Case](UC_GR_1_2_3_4_Seq_Diag-UC2.svg)
-
+![Diagram of Use Case](UC_GR_1_2_3_4_UCdiagrams-UC4.svg)
+![Sequence diagram](UC_GR_1_2_3_4_Seq_Diag-UC4.svg)
 # 3. Technical Details
 
 ## 3.1. Actors
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
+| Aggregator| Person | add text| add text|
 | AMR | System | Automatic Meter Reading system|  |
+| Commercial customer | Person | Final end user to denote a typical commodity commercial consumption with capability of neither generation nor storage.| |
 | DMS | System | Distribution Management System | |
-| DSO | Person | Distribution System Operator| The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.  |
+| DSO | Person | Distribution System Operator| The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.  |
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
 | GIS | System | Geographical Information System |  |
 | PMU | Device | Phasor Measurement Unit | |
+| RES | System | Renewable Energy Source| |
+| Residential customer | Person | Final end user to denote a typical commodity residential consumption with capability of neither generation nor storage.| |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
 | State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.|  |
-
+| TSO | Person | Transmission System Operator| Simulated entity to trigger the use case|
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
@@ -138,7 +156,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 |PMU data integration | SCADA,PMU |	State estimation accuracy to be improved|PMU field intstallation | High-accuracy state vector|
+| 1 |Frequency support request resolved |TSO |TSO sending a fequency support request |Distribution network observability | Frequency support request resolved|
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -149,16 +167,20 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 ## 4.2. Steps – Scenarios
 
-**Scenario Name: No. 1 - PMU data integration**
+**Scenario Name: No. 1 - Frequency support request resolved**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR, PMUs|DSO Data Server|Measurements||
-| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|Measurements||
-| 3 |Measurements from the Distribution Network| PMU data integration | PMU and conventional measurements integrated into a unified measurement set|EXECUTE|State Estimation tool|State estimation tool|Measurements||
-| 4 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool|State estimation tool|Observability status||
-| 5 | Measurements from the Distribution Network|Calculation of the state vector| State estimation algorithm is carried out |EXECUTE|State estimation tool|State estimation tool|State vector||
-| 6 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|State Estimation tool|DSO|State vector||
+| 2 |TSO needs frequency support|Frequency support request|Frequency support request sent to the Aggregator|CREATE|TSO|Aggregator|Frequency support request||
+| 3 |TSO needs frequency support|Frequency support request|Frequency support communicated to the DSO|CREATE|TSO|DSO|Frequency support request||
+| 4 |Frequency support request|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DSO|DSO|Network tariffs||
+| 5 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator|CREATE|DSO|Aggregator|Network tariffs||
+| 6 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
+| 7 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|Setpoint||
+| 8 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES|Setpoint||
+| 9 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR,PMU|DSO Data Server|Measurements||
+| 10 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|State Estimation Tool|Measurements||
+| 11 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|State Estimation Tool|DSO|State Vector||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -177,8 +199,10 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 | --- | --- | --- | --- |
 |I-01|Measurements|Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)||
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
-|I-03|Observability status|The result of the observability assessment of the Distribution Network||
-|I-04|PMU Measurements|Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)||
+|I-06|Network tariffs|Network tariffs that reflect the Disribution Network state||
+|I-07|Setpoint|Setpoint for adjustment of flexible load/RES production||
+|I-08|Frequency support request|Frequency support request from the TSO||
+
 
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
@@ -186,15 +210,11 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 # 6. Requirements (optional)
 
-PMU field installation
-
 # 7. Common Terms and Definitions
 
 | **Term** | **Definition** |
 | --- | --- |
-|Phasor measurements|Measurements of magnitude and phase angle of voltage or current signals, which are synchronised via the global positioning satellite (GPS) system.|
-|Pseudo-measurement|An injection whose value is obtained either from bus load forecasts or generation schedules. It is used as a substitute for a missing measurement in order to restore observability. |
-|State vector|Voltage magnitudes and angles of all network buses|
+|Dynamic tariffs|Price signals communicated to the flexible loads in order to incentivise their behaviour.|
 
 
 # 8. Custom Information (optional)
@@ -202,3 +222,4 @@ PMU field installation
 | **Key** | **Value** | **Refers to Section** |
 | --- | --- | --- |
 |||
+

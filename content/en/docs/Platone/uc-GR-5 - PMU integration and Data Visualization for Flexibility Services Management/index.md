@@ -1,3 +1,11 @@
+---
+title: "UC-GR-5"
+linkTitle: "UC-GR-5"
+date: 2020-07-09
+description: >
+  PMU integration and Data Visualization for Flexibility Services Management
+---
+
 # 1. Description of the Use Case
 
 ## 1.1. Name of the Use Case

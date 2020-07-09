@@ -1,3 +1,11 @@
+---
+title: "UC-GR-3"
+linkTitle: "UC-GR-3"
+date: 2020-07-09
+description: >
+  Distribution Network limit violation mitigation
+---
+
 # 1. Description of the Use Case
 
 ## 1.1. Name of the Use Case
