@@ -6,7 +6,7 @@
 
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-IT-2| Area: Energy system </br> *Leave it blank if not sure* | Voltage Management in transmission and distribution system using resources connected to distribution system |
+| UC-IT-2| Area: Energy system </br> | Voltage Management in transmission and distribution system using resources connected to distribution system |
 
 ## 1.2. Version Management
 
@@ -115,9 +115,15 @@ Add any remarks which do not fit in any other category
 
 ![Active Diagram Voltage Violation](Active_Diagram_Voltage_Violation.jpg)
 
+**Active Diagram Voltage Violation**
+
 ![Sequence Diagram Congestion](Sequence_diagram_Congestion.png)
 
+**Sequence Diagram Congestion**
+
 ![Use Case Diagram Congestion 2](Use_Case_Diagram_Congestion.png)
+
+**Use Case Diagram Congestion**
 
 # 3. Technical Details
 
