@@ -1,4 +1,4 @@
-baseURL = "smart-grid-use-cases.github.io"
+baseURL = "https://smart-grid-use-cases.github.io"
 title = "Smart Grid Use Cases"
 
 enableRobotsTXT = true
