@@ -1,3 +1,11 @@
+---
+title: "UC-DE-1"
+linkTitle: "UC-DE-1"
+date: 2020-07-09
+description: >
+  Island Mode
+---
+
 # 1. Description of the Use Case
 
 ## 1.1. Name of the Use Case
