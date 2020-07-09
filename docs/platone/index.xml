@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Platone</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/</link><description>Recent content in Platone on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC-DE-1</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-ge-1-island-mode/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-ge-1-island-mode/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Platone</title><link>smart-grid-use-cases.github.io/docs/platone/</link><description>Recent content in Platone on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="smart-grid-use-cases.github.io/docs/platone/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC-DE-1</title><link>smart-grid-use-cases.github.io/docs/platone/uc-ge-1-island-mode/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-ge-1-island-mode/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -241,7 +241,7 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
 &lt;!--![Diagram of Use Case](UC1_2_Diagram_of_Use_Case.png)-->
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
-&lt;img class="card-img-top" src="https://acs.pages.rwth-aachen.de/public/automation/use-cases/public/automation/use-cases/docs/platone/uc-ge-1-island-mode/UC1_2_Diagram_of_Use_Case_hu8ab8fe310f4811db00eaf616ef20cc10_64721_600x400_fit_catmullrom_2.png" width="600" height="323">
+&lt;img class="card-img-top" src="smart-grid-use-cases.github.io/smart-grid-use-cases.github.io/docs/platone/uc-ge-1-island-mode/UC1_2_Diagram_of_Use_Case_hu8ab8fe310f4811db00eaf616ef20cc10_64721_600x400_fit_catmullrom_2.png" width="600" height="323">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Diagram of Use Case
@@ -796,7 +796,7 @@ Diagram of Use Case
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: UC-GE-2</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-ge-2-third-party-flex-request/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-ge-2-third-party-flex-request/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-GE-2</title><link>smart-grid-use-cases.github.io/docs/platone/uc-ge-2-third-party-flex-request/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-ge-2-third-party-flex-request/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;p>&lt;em>Use case identification&lt;/em>&lt;/p>
@@ -1603,7 +1603,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: UC-GE-3</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-ge-3-energy-delivery/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-ge-3-energy-delivery/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-GE-3</title><link>smart-grid-use-cases.github.io/docs/platone/uc-ge-3-energy-delivery/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-ge-3-energy-delivery/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;p>&lt;em>Use case identification&lt;/em>&lt;/p>
@@ -2153,7 +2153,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: UC-GE-4</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-ge-4-energy-export-in-discrete-packages/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-ge-4-energy-export-in-discrete-packages/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-GE-4</title><link>smart-grid-use-cases.github.io/docs/platone/uc-ge-4-energy-export-in-discrete-packages/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-ge-4-energy-export-in-discrete-packages/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;p>&lt;em>Use case identification&lt;/em>&lt;/p>
@@ -2698,7 +2698,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: UC-GR-1</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-gr-1-functions-of-the-state-estimation-tool-given-conventional-measurements/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-gr-1-functions-of-the-state-estimation-tool-given-conventional-measurements/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-GR-1</title><link>smart-grid-use-cases.github.io/docs/platone/uc-gr-1-functions-of-the-state-estimation-tool-given-conventional-measurements/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-gr-1-functions-of-the-state-estimation-tool-given-conventional-measurements/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;p>&lt;em>Use case identification&lt;/em>&lt;/p>
@@ -3284,7 +3284,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: UC-GR-2</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-gr-2-pmu-data-integration-into-se-tool/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-gr-2-pmu-data-integration-into-se-tool/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-GR-2</title><link>smart-grid-use-cases.github.io/docs/platone/uc-gr-2-pmu-data-integration-into-se-tool/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-gr-2-pmu-data-integration-into-se-tool/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;p>&lt;em>Use case identification&lt;/em>
@@ -3751,7 +3751,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: UC-GR-3</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-gr-3-distribution-network-limit-violation-mitigation/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-gr-3-distribution-network-limit-violation-mitigation/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-GR-3</title><link>smart-grid-use-cases.github.io/docs/platone/uc-gr-3-distribution-network-limit-violation-mitigation/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-gr-3-distribution-network-limit-violation-mitigation/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;p>&lt;em>Use case identification&lt;/em>&lt;/p>
@@ -4428,7 +4428,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: UC-GR-4</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-gr-4-frequency-support-by-the-distribution-network/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-gr-4-frequency-support-by-the-distribution-network/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-GR-4</title><link>smart-grid-use-cases.github.io/docs/platone/uc-gr-4-frequency-support-by-the-distribution-network/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-gr-4-frequency-support-by-the-distribution-network/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;p>&lt;em>Use case identification&lt;/em>&lt;/p>
@@ -4985,7 +4985,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: UC-GR-5</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-gr-5-pmu-integration-and-data-visualization-for-flexibility-services-management/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-gr-5-pmu-integration-and-data-visualization-for-flexibility-services-management/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-GR-5</title><link>smart-grid-use-cases.github.io/docs/platone/uc-gr-5-pmu-integration-and-data-visualization-for-flexibility-services-management/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-gr-5-pmu-integration-and-data-visualization-for-flexibility-services-management/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;p>&lt;em>Use case identification&lt;/em>&lt;/p>
@@ -5466,7 +5466,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: UC-IT-1</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-it-1-voltage-management/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-it-1-voltage-management/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-IT-1</title><link>smart-grid-use-cases.github.io/docs/platone/uc-it-1-voltage-management/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-it-1-voltage-management/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;p>&lt;em>Use case identification&lt;/em>
@@ -6662,7 +6662,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: UC-IT-2</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-it-2-congestion-management/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-it-2-congestion-management/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-IT-2</title><link>smart-grid-use-cases.github.io/docs/platone/uc-it-2-congestion-management/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-it-2-congestion-management/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;p>&lt;em>Use case identification&lt;/em>&lt;/p>
@@ -7911,7 +7911,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: LVRTM Example Use Case</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-lvrtm/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/uc-lvrtm/</guid><description>
+&lt;/table></description></item><item><title>Docs: LVRTM Example Use Case</title><link>smart-grid-use-cases.github.io/docs/platone/uc-lvrtm/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/uc-lvrtm/</guid><description>
 &lt;h2 id="1-description-of-the-use-case">1 Description of the Use Case&lt;/h2>
 &lt;h3 id="11-name-of-the-use-case">1.1 Name of the Use Case&lt;/h3>
 &lt;table>
@@ -8063,7 +8063,7 @@ alt="Markdown Monster icon"
 style="float: left; margin-right: 10px;" />&lt;/p>
 &lt;!--
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 546px">
-&lt;img class="card-img-top" src="https://acs.pages.rwth-aachen.de/public/automation/use-cases/public/automation/use-cases/docs/platone/uc-lvrtm/img_1_hu538106bf09c5188e3ddf1d379cb6e66a_13668_600x400_fit_catmullrom_2.png" width="536" height="360">
+&lt;img class="card-img-top" src="smart-grid-use-cases.github.io/smart-grid-use-cases.github.io/docs/platone/uc-lvrtm/img_1_hu538106bf09c5188e3ddf1d379cb6e66a_13668_600x400_fit_catmullrom_2.png" width="536" height="360">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Diagram 1
@@ -8071,7 +8071,7 @@ Diagram 1
 &lt;/div>
 &lt;/div>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
-&lt;img class="card-img-top" src="https://acs.pages.rwth-aachen.de/public/automation/use-cases/public/automation/use-cases/docs/platone/uc-lvrtm/img_2_hu3bd13d865a93137878b01e9114fed8eb_45932_600x1200_fit_catmullrom_2.png" width="600" height="956">
+&lt;img class="card-img-top" src="smart-grid-use-cases.github.io/smart-grid-use-cases.github.io/docs/platone/uc-lvrtm/img_2_hu3bd13d865a93137878b01e9114fed8eb_45932_600x1200_fit_catmullrom_2.png" width="600" height="956">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Diagram 2
@@ -8079,7 +8079,7 @@ Diagram 2
 &lt;/div>
 &lt;/div>
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 487px">
-&lt;img class="card-img-top" src="https://acs.pages.rwth-aachen.de/public/automation/use-cases/public/automation/use-cases/docs/platone/uc-lvrtm/img_3_hub75e1e6d8792cdd3fcc17804ad8cadaf_67128_600x600_fit_catmullrom_2.png" width="477" height="600">
+&lt;img class="card-img-top" src="smart-grid-use-cases.github.io/smart-grid-use-cases.github.io/docs/platone/uc-lvrtm/img_3_hub75e1e6d8792cdd3fcc17804ad8cadaf_67128_600x600_fit_catmullrom_2.png" width="477" height="600">
 &lt;div class="card-body px-0 pt-2 pb-0">
 &lt;p class="card-text">
 Diagram 3
@@ -9195,7 +9195,7 @@ Switch status&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs:</title><link>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/updated_template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://acs.pages.rwth-aachen.de/public/automation/use-cases/docs/platone/updated_template/</guid><description>
+&lt;/table></description></item><item><title>Docs:</title><link>smart-grid-use-cases.github.io/docs/platone/updated_template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>smart-grid-use-cases.github.io/docs/platone/updated_template/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;p>&lt;em>Use case identification&lt;/em>
