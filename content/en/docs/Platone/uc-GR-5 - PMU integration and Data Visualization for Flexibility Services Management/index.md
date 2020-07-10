@@ -37,7 +37,7 @@ description: >
 
 |||
 | --- | --- |
-| Scope | The scope of the UC is to examine the integration and operational use of low cost PMUs in order to increase network observability collecting measurement data such as voltage, current and phases in various points of the distribution network. More in detail, the DSO will use the data collected to improve the operation of the tools and services developed within the project by exploiting increased data granularity. Furthermore, the data coming from various sources and systems of the DSO should be integrated and visualised in a friendly User Interface (UI) of the DSO Technical platform in order to be handled by the DSO personnel. <br/> Network: MV, LV <br/> Markets: Near Real Time 	<br/> **to comment: should be or will be delivered/integrated in this UC? " In addition, all the available data should be further delivered for use by tools and services developed in order to support flexibility mechanisms. All the appropriate communication protocols should be integrated and tested to develop a unique point of data delivery to various actors involved in the project."** |
+| Scope | The scope of the UC is to examine the integration and operational use of low cost PMUs in order to increase network observability collecting measurement data such as voltage, current and phases in various points of the distribution network. More in detail, the DSO will use the data collected to improve the operation of the tools and services developed within the project by exploiting increased data granularity. Furthermore, the data coming from various sources and systems of the DSO should be integrated in the DSO Technical Platform and a User Interface (UI) should be developed to allow the DSO personnel to use the available tools and services. <br/>  In addition, all the available data should be further delivered for use by tools and services developed in order to support flexibility mechanisms. All the appropriate communication protocols should be integrated and tested to develop a unique point of data delivery to various actors involved in the project. |
 | **Objective(s)** | * To increase network observability. <br/> * To integrate data coming from different sources in the DSO Technical Platform.|
 | **Related business case(s)** |add text|
 
@@ -50,11 +50,11 @@ description: >
 
 
 **Short description**
-The DSO operates the distribution network and handles the data sources coming from various systems such as SCADA/DMS, AMR, GIS etc. Data coming from various sources get integrated into the Open DSO Technical Platform providing an adequate level of network observability. Low cost PMUs are deployed in Mesogia area in critical network points and nodes where there is limited observability or a requirement to have an increased awareness such as DER and prosumers bidirectional power flows. PMUs are integrated in the DSO Technical Platform following a data collection plan that serves the functionalities of the flexibility tools and services. Measurements from PMUs  enhance network awareness in terms of data granularity and number of nodes observed in a cost effective manner. Also, the open DSO Technical Platform performs the correlation of the data coming from different sources and systems during real time, providing to the DSO the technical capacity for flexibility mechanisms support and a User Interface (UI) where the aforementioned is visualised.
+PMUs are installed in critical network nodes to increase network observability. PMU measurements along with other DSO data (network topology, customer loads, etc) are integrated in the DSO Technical Platform to be visulalised in a User Interface (UI), so that DSO can make use of tools and services developed in the project.
 
 **Complete description**
 
-add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
+The DSO operates the distribution network and handles the data sources coming from various systems such as SCADA/DMS, AMR, GIS etc. Data coming from various sources get integrated into the Open DSO Technical Platform providing an adequate level of network observability. Low cost PMUs are deployed in Mesogia area in critical network points and nodes where there is limited observability or a requirement to have an increased awareness such as DER and prosumers bidirectional power flows. Also, PMU data are integrated in the DSO Technical Platform following a data collection plan that serves the functionalities of the flexibility tools and services. Measurements from PMUs  enhance network awareness in terms of data granularity and number of nodes observed in a cost effective manner. Also, the open DSO Technical Platform performs the correlation of the data coming from different sources and systems during real time, providing to the DSO the technical capacity for flexibility mechanisms support and a User Interface (UI) where the aforementioned is visualised.
 
 
 ## 1.5. Key Performance Indicatiors (KPI)
@@ -70,7 +70,7 @@ Can be left blank now
 
 |Assumptions| Prerequisites|
 |-----------|-------------|
-|add text| add text|
+|PMUs are provided for deployment in Mesogia area| |
 
 ***Notes:***
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
@@ -83,9 +83,9 @@ OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
-|add text|
+|Include all other uc-GR|
 |**Level of depth**|
-|add text|
+|generic|
 |**Prioritisation**|
 |add text|
 |**Generic, regional or national relation**|
@@ -93,7 +93,7 @@ OPTIONAL - you can leave it blank
 |**Nature of the use cases**|
 |add text|
 |**Further keywords for classification**|
-|add text|
+|technical (IT)|
 
 ***Notes:***
 * **Relation to other use cases** - relation to other use cases in the same project or thematic area. Possible relation types are for instance include, extend, invoke, or associate.
@@ -122,12 +122,12 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO | Person | add text| DMS, DSO technical Platform , PMUs , State estimation tool, Measurement Data, Network topology|
-| TSO| Person | add text| add text|
-| Residential Consumer| Person | add text| Load information (aggregated) and Measurements|
-| Commercial Consumer| Person | add text| Load information (aggregated) and Measurements|
-| Aggregator/ Flexibility operators| Person | add text|add text|
-| RES | System | add text|add text|
+| AMR | System | Automatic Meter Reading system|  |
+| DMS | System | Distribution Management System | |
+| DSOTP | System | DSO Technical Platform| The system that integrates data from various DSO sources as well as the PMUs installed in Mesogia and allows use of tools and services developed within the roject|
+| DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
+| GIS | System | Geographical Information System |  |
+| SCADA | Device | Supervisory Control And Data Acquisition system|  |
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
@@ -187,11 +187,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
-|I-09|Voltage and Current levels|||
-|I-10|phasors|||
-|I-11|Power Flows |||
-|I-12|Consumption data|||
-|I-13|Network topolgy change|||
+
 
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
