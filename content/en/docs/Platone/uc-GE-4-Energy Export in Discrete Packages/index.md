@@ -16,12 +16,6 @@ description: >
 | --- | ---                    | ---                  |
 | UC-DE-4| Area: Energy system </br> *Leave it blank if not sure* | Energy Export in Discrete Packages |
 
-***Notes:***
-
-* **ID** - uniqe identification label: DE-1/GR-3/IT-2
-
-* **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.
-
 ## 1.2. Version Management
 
 *Version management*
@@ -70,10 +64,6 @@ add text - longer narrative from user viewpoint about *what* happens *how*, *whe
 |ID   |Name   | Description   | Reference to mentioned use case objectives|
 |-----|-------|---------------|-------------------------------------------|
 |add text|add text|add text|add text|
-
-***Notes:***
-
-Can be left blank now
 
 ## 1.6. Use case conditions
 
@@ -131,7 +121,13 @@ Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-![Diagram of Use Case](img1.png)
+![Sequence Diagram](UC_GE_1_2_3_4_Seq_Diag.png)
+
+*Sequence Diagram*
+
+![Use Case Diagram](UC_GE_1_2_3_4_UC_diagram.png)
+
+*Use Case Diagram*
 
 # 3. Technical Details
 

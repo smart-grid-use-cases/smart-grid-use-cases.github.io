@@ -16,12 +16,6 @@ description: >
 | --- | ---                    | ---                  |
 | UC-DE-2| **Area:** Energy system </br> **Domain:** Distribution, Customer Premise, Field, DER </br> **Zones:** Operation, Enterprise, Process, Field | Flex Provision: </br> Implementing of an Energy Management System that enables a local energy community to provide flexibility on request of a user (operator) |
 
-***Notes:***
-
-* **ID** - uniqe identification label: DE-1/GR-3/IT-2
-
-* **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.
-
 ## 1.2. Version Management
 
 *Version management*
@@ -44,14 +38,6 @@ description: >
 | **Objective(s)** | Maintain constant defined power exchange between energy community and the distribution network for a defined duration |
 | **Related business case(s)** | Improving reliability of grid operation/grid security: <br/> - Integration in Congestions Management Mechanism via provision of grid stabilizing power/energy <br/> - Voltage Management <br/> - Peak Shaving <br/> - Reactive Power Provision |
 
-***Notes:***
-
-* **Scope** - describes the aims and boundaries of the use case in a short, precise text.
-
-* **Objective(s)** - goals of the use case, in form of bullet points and a short headline.
-
-* **Realted business case(s)** - optional
-
 ## 1.4. Narrative of Use Case
 
 
@@ -71,10 +57,6 @@ add text - longer narrative from user viewpoint about *what* happens *how*, *whe
 | UC2-K01 | Flex Availability | Assessment of availability of Flex for Data Acquisition and Flex provision | |
 | UC2-K02 | Responsiveness | Assessment on how fast a flex request is implemented measurably | |
 | UC2-K03 | Accuracy | Assessment of the accuracy of the achievment of a given setpoint |  |
-
-***Notes:***
-
-Can be left blank now
 
 ## 1.6. Use case conditions
 
@@ -133,6 +115,16 @@ Add any remarks which do not fit in any other category
 # 2. Diagrams of Use Case
 
 ![Diagram of Use Case](UC2_2_Diagram_of_Use_Case.png)
+
+*Diagram of Use Case*
+
+![Sequence Diagram](UC_GE_1_2_3_4_Seq_Diag.png)
+
+*Sequence Diagram*
+
+![Use Case Diagram](UC_GE_1_2_3_4_UC_diagram.png)
+
+*Use Case Diagram*
 
 # 3. Technical Details
 
