@@ -239,7 +239,13 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;!--![Diagram of Use Case](UC1_2_Diagram_of_Use_Case.png)-->
+&lt;p>&lt;img src="UC1_2_Diagram_of_Use_Case.png" alt="Diagram of Use Case">&lt;/p>
+&lt;p>&lt;em>Diagram of Use Case&lt;/em>&lt;/p>
+&lt;p>&lt;img src="UC_GE_1_2_3_4_Seq_Diag.png" alt="Sequence Diagram">&lt;/p>
+&lt;p>&lt;em>Sequence Diagram&lt;/em>&lt;/p>
+&lt;p>&lt;img src="UC_GE_1_2_3_4_UC_diagram.png" alt="Use Case Diagram">&lt;/p>
+&lt;p>&lt;em>Use Case Diagram&lt;/em>&lt;/p>
+&lt;!--
 &lt;div class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px">
 &lt;img class="card-img-top" src="https://smart-grid-use-cases.github.io/docs/platone/uc-ge-1-island-mode/UC1_2_Diagram_of_Use_Case_hu8ab8fe310f4811db00eaf616ef20cc10_64721_600x400_fit_catmullrom_2.png" width="600" height="323">
 &lt;div class="card-body px-0 pt-2 pb-0">
@@ -248,7 +254,7 @@ Diagram of Use Case
 &lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;!--![Diagram of Use Case](UC1 - 2. Diagram of Use Case.png)-->
+-->
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
