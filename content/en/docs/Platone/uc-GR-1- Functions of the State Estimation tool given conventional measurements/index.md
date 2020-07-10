@@ -35,8 +35,8 @@ description: >
 
 |||
 | --- | --- |
-| Scope | The scope of the UC is the investigation of the capability of the state estimation tool to filter the available measurement data, comprising actual measurements obtained from active metering devices and pseudo-measurements, i.e. data derived from load forecasting or RES scheduling for network observability accomplishment, in order to identify measurement with gross errors (bad data), to suppress measurement errors, to reconcile inconsistent data and, ultimately, to estimate the actual operational network state. The goal is to ensure that high quality estimative of the network state will be acquired via the state estimation tool in real-time conditions under various network operating scenarios. The estimated network state will be used as an input to distribution management applications.<br/>|
-| **Objective(s)** | The DSO needs to improve confidence in actual measurement data obtained throughout the network as well as available load forecasts in order to capture the real-time operational network state.|
+| Scope | The scope of the UC is to investigate whether a high quality estimative of the network state will be acquired via the state estimation tool in real-time conditions under various network operating scenarios. The estimated network state will be used as an input to distribution management applications.<br/>|
+| **Objective(s)** | *To improve confidence in actual measurement data obtained throughout the network as well as available load forecasts.<br/> *To capture the real-time operational network state.|
 | **Related business case(s)** |add text|
 
 ***Notes:***
@@ -48,7 +48,7 @@ description: >
 
 
 **Short description**
-Fulfillment of network observability and estimation of its real-time state by the State Estimation tool.
+The UC investigates the capability of the state estimation tool to filter the available measurement data, comprising actual measurements obtained from active metering devices and pseudo-measurements, i.e. data derived from load forecasting or RES scheduling for network observability accomplishment, in order to identify measurements with gross errors (bad data), to suppress measurement errors, to reconcile inconsistent data and, ultimately, to estimate the actual operational network state.
 
 **Complete description**
 The DSO operates the distribution network. A measurement set, composed of actual and historical measurement data obtained from the dispersed metering devices (AMR, GIS, SCADA) installed throughout the network, is available for real-time operation purposes. The related measurements refer to power flows and voltage magnitudes at the top of distribution feeders, power injections from distributed generation units, and load pseudo-measurements for aggregated consumer demand at MV/LV transformer level. Given that the network model (topology) is known with a good degree of certainty, the state estimation tool ensures that the network is observable based on the available measurement set and, subsequently, calculates the estimated state vector, that is, the voltage magnitudes and angles of all network buses.
@@ -67,7 +67,7 @@ Can be left blank now
 
 |Assumptions| Prerequisites|
 |-----------|-----------|
-|add text| The network model (topology) is known with a good degree of certainty, DSO systems (e.g.AMR, GIS, SCADA) being operational|
+|The network model (topology) is known with a good degree of certainty, DSO systems (e.g.AMR, GIS, SCADA) being operational| |
 
 ***Notes:***
 * **Assumptions** - general presumptions about conditions or system configurations (e.g. customer's consent required for some steps; simulation of TSO)
@@ -123,7 +123,7 @@ Add any remarks which do not fit in any other category
 | --- | --- | --- | --- |
 | AMR | System | Automatic Meter Reading system|  |
 | DMS | System | Distribution Management System | |
-| DSO | Person | Distribution System Operator| The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.  |
+| DSO | Person | Distribution System Operator, the entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.  ||
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
 | GIS | System | Geographical Information System |  |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
@@ -164,25 +164,25 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|Measurements||
-| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|Measurements||
-| 3 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool||Observability status||
-| 4 |Measurements from the Distribution Network|Calculation of state vector| State estimation algorithm is carried out |EXECUTE|State estimation tool|State estimation tool|State vector||
-| 5 |State vector with low accuracy|Data Aquisition|New measurements/pseudo-measurements integrated in the State Estimation tool |CHANGE|DSO Data Server|State estimation tool|Measurements||
-| 6 |Measurements from the Distribution Network| Calculation of state vector| State estimation algorithm is carried out |EXECUTE|State Estimation tool|State estimation tool|State vector||
-| 7 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|State Estimation tool|DSO|State vector||
+| 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|I-01||
+| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|I-01||
+| 3 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool||I-03||
+| 4 |Measurements from the Distribution Network|Calculation of state vector| State estimation algorithm is carried out |EXECUTE|State estimation tool|State estimation tool|I-02||
+| 5 |State vector with low accuracy|Data Aquisition|New measurements/pseudo-measurements integrated in the State Estimation tool |CHANGE|DSO Data Server|State estimation tool|I-01||
+| 6 |Measurements from the Distribution Network| Calculation of state vector| State estimation algorithm is carried out |EXECUTE|State Estimation tool|State estimation tool|I-02||
+| 7 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|State Estimation tool|DSO|I-02||
 
 
 **Scenario Name: No. 2 - Fulfillment of observability**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|Measurements||
-| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|Measurements||
-| 3 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool||Observability status||
-| 4 |Lack of observability| Data acquisition | Additional/alternative data to substitute for missing or inconsistent measurements, are into integrated in the State Estimation tool|CHANGE|DSO Data Server|State Estimation tool|Measurements||
-| 5 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool||Observability status||
-| 6 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|State Estimation tool|DSO|State vector||
+| 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|I-01||
+| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|I-01||
+| 3 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool||I-03||
+| 4 |Lack of observability| Data acquisition | Additional/alternative data to substitute for missing or inconsistent measurements, are integrated in the State Estimation tool|CHANGE|DSO Data Server|State Estimation tool|I-01||
+| 5 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool||I-03||
+| 6 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|State Estimation tool|DSO|I-02||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
