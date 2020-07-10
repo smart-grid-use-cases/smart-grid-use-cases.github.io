@@ -822,15 +822,6 @@ Diagram of Use Case
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>ID&lt;/strong> - uniqe identification label: DE-1/GR-3/IT-2&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Area /Domain(s)/Zone(s)&lt;/strong> - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.&lt;/p>
-&lt;/li>
-&lt;/ul>
 &lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
 &lt;p>&lt;em>Version management&lt;/em>&lt;/p>
 &lt;table>
@@ -898,18 +889,6 @@ Diagram of Use Case
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>Scope&lt;/strong> - describes the aims and boundaries of the use case in a short, precise text.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Objective(s)&lt;/strong> - goals of the use case, in form of bullet points and a short headline.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Realted business case(s)&lt;/strong> - optional&lt;/p>
-&lt;/li>
-&lt;/ul>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
 &lt;p>Local energy communities (LEC, CEC) are likely to emerge in Europe in the near future but will most likely retain an interconnection to the distribution grid. These communities will require a large share of flexibility to enable their primary use case. Situations could arise that require the LEC to provide flexibility to a third party –driven by technical circumstances, such as a demand of system security triggered by the DSO or following economic considerations (market incentives). UC2 demonstrates the ability and practical feasibility of a local community to maintain constant power exchange with the distribution network for a previously defined duration.&lt;/p>
@@ -946,8 +925,6 @@ Diagram of Use Case
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>Can be left blank now&lt;/p>
 &lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -1054,6 +1031,11 @@ Diagram of Use Case
 &lt;p>Add any remarks which do not fit in any other category&lt;/p>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
 &lt;p>&lt;img src="UC2_2_Diagram_of_Use_Case.png" alt="Diagram of Use Case">&lt;/p>
+&lt;p>&lt;em>Diagram of Use Case&lt;/em>&lt;/p>
+&lt;p>&lt;img src="UC_GE_1_2_3_4_Seq_Diag.png" alt="Sequence Diagram">&lt;/p>
+&lt;p>&lt;em>Sequence Diagram&lt;/em>&lt;/p>
+&lt;p>&lt;img src="UC_GE_1_2_3_4_UC_diagram.png" alt="Use Case Diagram">&lt;/p>
+&lt;p>&lt;em>Use Case Diagram&lt;/em>&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -1629,15 +1611,6 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>ID&lt;/strong> - uniqe identification label: DE-1/GR-3/IT-2&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Area /Domain(s)/Zone(s)&lt;/strong> - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.&lt;/p>
-&lt;/li>
-&lt;/ul>
 &lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
 &lt;p>&lt;em>Version management&lt;/em>&lt;/p>
 &lt;table>
@@ -1832,7 +1805,10 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>Add any remarks which do not fit in any other category&lt;/p>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;img src="img1.png" alt="Diagram of Use Case">&lt;/p>
+&lt;p>&lt;img src="UC_GE_1_2_3_4_Seq_Diag.png" alt="Sequence Diagram">&lt;/p>
+&lt;p>&lt;em>Sequence Diagram&lt;/em>&lt;/p>
+&lt;p>&lt;img src="UC_GE_1_2_3_4_UC_diagram.png" alt="Use Case Diagram">&lt;/p>
+&lt;p>&lt;em>Use Case Diagram&lt;/em>&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -2179,15 +2155,6 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>ID&lt;/strong> - uniqe identification label: DE-1/GR-3/IT-2&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Area /Domain(s)/Zone(s)&lt;/strong> - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.&lt;/p>
-&lt;/li>
-&lt;/ul>
 &lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
 &lt;p>&lt;em>Version management&lt;/em>&lt;/p>
 &lt;table>
@@ -2278,8 +2245,6 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>Can be left blank now&lt;/p>
 &lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -2382,7 +2347,10 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>Add any remarks which do not fit in any other category&lt;/p>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;img src="img1.png" alt="Diagram of Use Case">&lt;/p>
+&lt;p>&lt;img src="UC_GE_1_2_3_4_Seq_Diag.png" alt="Sequence Diagram">&lt;/p>
+&lt;p>&lt;em>Sequence Diagram&lt;/em>&lt;/p>
+&lt;p>&lt;img src="UC_GE_1_2_3_4_UC_diagram.png" alt="Use Case Diagram">&lt;/p>
+&lt;p>&lt;em>Use Case Diagram&lt;/em>&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
