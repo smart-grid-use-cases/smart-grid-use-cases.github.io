@@ -2734,11 +2734,11 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>Scope&lt;/td>
-&lt;td>The scope of the UC is the investigation of the capability of the state estimation tool to filter the available measurement data, comprising actual measurements obtained from active metering devices and pseudo-measurements, i.e. data derived from load forecasting or RES scheduling for network observability accomplishment, in order to identify measurement with gross errors (bad data), to suppress measurement errors, to reconcile inconsistent data and, ultimately, to estimate the actual operational network state. The goal is to ensure that high quality estimative of the network state will be acquired via the state estimation tool in real-time conditions under various network operating scenarios. The estimated network state will be used as an input to distribution management applications.&lt;br/>&lt;/td>
+&lt;td>The scope of the UC is to investigate whether a high quality estimative of the network state will be acquired via the state estimation tool in real-time conditions under various network operating scenarios. The estimated network state will be used as an input to distribution management applications.&lt;br/>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>The DSO needs to improve confidence in actual measurement data obtained throughout the network as well as available load forecasts in order to capture the real-time operational network state.&lt;/td>
+&lt;td>*To improve confidence in actual measurement data obtained throughout the network as well as available load forecasts.&lt;br/> *To capture the real-time operational network state.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
@@ -2754,7 +2754,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/ul>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>
-Fulfillment of network observability and estimation of its real-time state by the State Estimation tool.&lt;/p>
+The UC investigates the capability of the state estimation tool to filter the available measurement data, comprising actual measurements obtained from active metering devices and pseudo-measurements, i.e. data derived from load forecasting or RES scheduling for network observability accomplishment, in order to identify measurements with gross errors (bad data), to suppress measurement errors, to reconcile inconsistent data and, ultimately, to estimate the actual operational network state.&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>
 The DSO operates the distribution network. A measurement set, composed of actual and historical measurement data obtained from the dispersed metering devices (AMR, GIS, SCADA) installed throughout the network, is available for real-time operation purposes. The related measurements refer to power flows and voltage magnitudes at the top of distribution feeders, power injections from distributed generation units, and load pseudo-measurements for aggregated consumer demand at MV/LV transformer level. Given that the network model (topology) is known with a good degree of certainty, the state estimation tool ensures that the network is observable based on the available measurement set and, subsequently, calculates the estimated state vector, that is, the voltage magnitudes and angles of all network buses.&lt;/p>
 &lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
@@ -2788,8 +2788,8 @@ Can be left blank now&lt;/p>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>add text&lt;/td>
 &lt;td>The network model (topology) is known with a good degree of certainty, DSO systems (e.g.AMR, GIS, SCADA) being operational&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -2895,8 +2895,8 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tr>
 &lt;td>DSO&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Distribution System Operator&lt;/td>
-&lt;td>The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.&lt;/td>
+&lt;td>Distribution System Operator, the entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>DSO Data Server&lt;/td>
@@ -3019,7 +3019,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>SCADA,DMS,GIS,AMR&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3030,7 +3030,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3041,7 +3041,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>EXECUTE&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>Observability status&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3052,7 +3052,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>EXECUTE&lt;/td>
 &lt;td>State estimation tool&lt;/td>
 &lt;td>State estimation tool&lt;/td>
-&lt;td>State vector&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3063,7 +3063,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>CHANGE&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
 &lt;td>State estimation tool&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3074,7 +3074,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>EXECUTE&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
 &lt;td>State estimation tool&lt;/td>
-&lt;td>State vector&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3085,7 +3085,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>State vector&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -3114,7 +3114,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>SCADA,DMS,GIS,AMR&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3125,7 +3125,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3136,18 +3136,18 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>EXECUTE&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>Observability status&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4&lt;/td>
 &lt;td>Lack of observability&lt;/td>
 &lt;td>Data acquisition&lt;/td>
-&lt;td>Additional/alternative data to substitute for missing or inconsistent measurements, are into integrated in the State Estimation tool&lt;/td>
+&lt;td>Additional/alternative data to substitute for missing or inconsistent measurements, are integrated in the State Estimation tool&lt;/td>
 &lt;td>CHANGE&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3158,7 +3158,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>EXECUTE&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>Observability status&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3169,7 +3169,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>State vector&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
