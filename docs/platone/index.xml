@@ -3287,7 +3287,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>Scope&lt;/td>
-&lt;td>The scope of the UC is the integration of measurement data obtained from PMUs into the State Estimation tool.The installation of PMUs at selected buses is sure to upgrade the overall metering infrastructure of the network, since they record synchronized measurements of bus voltage phasors as well as a number of line current phasors—all of which are independent of each other and count as individual measurements. Yet, their proper utilization via the SE tool is a challenging task due to a) the intense discrepancies in update rates between conventional and PMU measurements, b) the provision of current measurements which often lead to various numerical problems, and c) the contrast between the large weighting factors linked to PMU measurements compared to the much lower ones linked to pseudo-measurements, which usually raises ill-conditioning issues. The goal is to ensure that the integration of PMU data will be smooth and all the aforesaid problems will be circumvented. In this way, the overall performance of the SE tool will be enhanced; the network state will be calculated with increased precision and high quality real-time operational standards for distribution management applications, will be met.&lt;/td>
+&lt;td>The scope of the UC is the integration of measurement data obtained from PMUs into the State Estimation tool.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
@@ -3307,9 +3307,9 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/ul>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>
-Measurement data obtained from the installed PMUs are integraded in the State Estimation tool and used to enhance the network observability.&lt;/p>
+Measurement data obtained from the installed PMUs are integraded in the State Estimation tool and used to enhance the network observability. The installation of PMUs at selected buses is sure to upgrade the overall metering infrastructure of the network, since they record synchronized measurements of bus voltage phasors as well as a number of line current phasors—all of which are independent of each other and count as individual measurements. Yet, their proper utilization via the SE tool is a challenging task due to a) the intense discrepancies in update rates between conventional and PMU measurements, b) the provision of current measurements which often lead to various numerical problems, and c) the contrast between the large weighting factors linked to PMU measurements compared to the much lower ones linked to pseudo-measurements, which usually raises ill-conditioning issues. The goal is to ensure that the integration of PMU data will be smooth and all the aforesaid problems will be circumvented.&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>
-A measurement set, composed of actual and historical measurement data obtained from the dispersed metering devices (AMR, GIS, SCADA, PMUs) installed throughout the network, is available to the DSO for real-time operation purposes. The aforementioned data refer to a) synchronised measurements of bus voltage phasors and line current phasors (magnitude and angle) and b) conventional measurements of power flows and voltage magnitudes at the top of distribution feeders, power injections from distributed generation units, and load pseudo-measurements for aggregated consumer demand at MV/LV transformer level. Given that the network model (topology) is known with a good degree of certainty, the state estimation tool ensures that the network is observable based on the available measurement set, reconciles the PMU data with the conventional measurements, and, subsequently, calculates the estimated state vector, that is, the voltage magnitudes and angles of all network buses.&lt;/p>
+A measurement set, composed of actual and historical measurement data obtained from the dispersed metering devices (AMR, GIS, SCADA, PMUs) installed throughout the network, is available to the DSO for real-time operation purposes. The aforementioned data refer to a) synchronised measurements of bus voltage phasors and line current phasors (magnitude and angle) and b) conventional measurements of power flows and voltage magnitudes at the top of distribution feeders, power injections from distributed generation units, and load pseudo-measurements for aggregated consumer demand at MV/LV transformer level. Given that the network model (topology) is known with a good degree of certainty, the state estimation tool ensures that the network is observable based on the available measurement set, reconciles the PMU data with the conventional measurements, and, subsequently, calculates the estimated state vector, that is, the voltage magnitudes and angles of all network buses. Given the successful integration and use of the PMU data in the SE tool, the overall performance of the SE tool will be enhanced; the network state will be calculated with increased precision compared to conventional-measurements-only scenarios (uc-GR-1), and high quality real-time operational standards for distribution management applications will be met.&lt;/p>
 &lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -3341,8 +3341,16 @@ Can be left blank now&lt;/p>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>add text&lt;/td>
-&lt;td>The network model (topology) is known with a good degree of certainty, DSO systems (e.g.AMR, GIS, SCADA) being operational, PMUs are installed&lt;/td>
+&lt;td>*The network model (topology) is known with a good degree of certainty&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>*DSO systems (e.g.AMR, GIS, SCADA) being operational&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>*PMUs are installed and PMU data is available for SE tool&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -3361,7 +3369,7 @@ Can be left blank now&lt;/p>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Associate with UC-GR-6&lt;/td>
+&lt;td>Associate with UC-GR-5&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
@@ -3448,8 +3456,8 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tr>
 &lt;td>DSO&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Distribution System Operator&lt;/td>
-&lt;td>The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.&lt;/td>
+&lt;td>Distribution System Operator, the entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>DSO Data Server&lt;/td>
@@ -3570,7 +3578,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>SCADA,DMS,GIS,AMR, PMUs&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3581,7 +3589,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3592,7 +3600,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>EXECUTE&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
 &lt;td>State estimation tool&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3603,7 +3611,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>EXECUTE&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
 &lt;td>State estimation tool&lt;/td>
-&lt;td>Observability status&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3614,7 +3622,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>EXECUTE&lt;/td>
 &lt;td>State estimation tool&lt;/td>
 &lt;td>State estimation tool&lt;/td>
-&lt;td>State vector&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3625,7 +3633,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>State vector&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
