@@ -2673,15 +2673,6 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>ID&lt;/strong> - uniqe identification label: DE-1/GR-3/IT-2&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Area /Domain(s)/Zone(s)&lt;/strong> - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.&lt;/p>
-&lt;/li>
-&lt;/ul>
 &lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
 &lt;p>&lt;em>Version management&lt;/em>&lt;/p>
 &lt;table>
@@ -2757,8 +2748,6 @@ The DSO operates the distribution network. A measurement set, composed of actual
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>
-Can be left blank now&lt;/p>
 &lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -3174,7 +3163,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements to information data&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Protocol&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
