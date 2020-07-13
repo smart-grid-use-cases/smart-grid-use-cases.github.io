@@ -3762,7 +3762,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>Scope&lt;/td>
-&lt;td>The scope of the UC is to examine the operational use of flexibility tools in order to satisfy EN50160 in case of a voltage level limit violation in the distribution network or mitigate line congestion, especially in MV lines with flexible loads availability. The DSO will examine the operation of tools and services for decision making support to mitigate voltage/thermal line limits violations, assuming that the grid state estimation has a good degree of certainty .&lt;/td>
+&lt;td>The scope of the UC is to examine the operational use of flexibility tools in order to satisfy EN50160 in case of a voltage level limit violation in the distribution network or mitigate line congestion, especially in MV lines with flexible loads availability.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
@@ -3782,7 +3782,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/ul>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>
-Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that a voltage/line thermal limit violation is mitigated.&lt;/p>
+Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that a voltage/line thermal limit violation is mitigated.The DSO will examine the operation of tools and services for decision making support to mitigate voltage/thermal line limits violations, assuming that the grid state estimation has a good degree of certainty .&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>
 Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the available measurements and the topology via the AMR, GIS and SCADA data. Via the state estimation tool, it is identified that a voltage limit is violated on a node or a thermal line limit is exceeded. The alarm signal is transferred in the DSO Technical Platform via an API and the information is shared with the appropriate tools and services. The DSO calculated and communicated the appropriate network tariffs that reflect the situation of the network. The flexible loads react to these tariffs and the problem is mitigated.&lt;/p>
 &lt;p>add text - longer narrative from user viewpoint about &lt;em>what&lt;/em> happens &lt;em>how&lt;/em>, &lt;em>where&lt;/em>, &lt;em>when&lt;/em>, &lt;em>why&lt;/em> and &lt;em>under which assumptions&lt;/em>. It has to be written in a way that it can also be understood by non-experts.&lt;/p>
@@ -3936,8 +3936,8 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tr>
 &lt;td>DSO&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Distribution System Operator&lt;/td>
-&lt;td>The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.&lt;/td>
+&lt;td>Distribution System Operator, the entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>DSO Data Server&lt;/td>
@@ -4195,7 +4195,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>CREATE&lt;/td>
 &lt;td>State Estimation tool&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>Alarm&lt;/td>
+&lt;td>I-05&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4206,7 +4206,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>EXECUTE&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>Network tariffs&lt;/td>
+&lt;td>I-06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4217,7 +4217,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>Aggregator&lt;/td>
-&lt;td>Network tariffs&lt;/td>
+&lt;td>I-06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4228,7 +4228,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator&lt;/td>
 &lt;td>Residential consumer&lt;/td>
-&lt;td>Setpoint&lt;/td>
+&lt;td>I-07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4239,7 +4239,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator&lt;/td>
 &lt;td>Commercial consumer&lt;/td>
-&lt;td>Setpoint&lt;/td>
+&lt;td>I-07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4250,7 +4250,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator&lt;/td>
 &lt;td>RES&lt;/td>
-&lt;td>Setpoint&lt;/td>
+&lt;td>I-07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4261,7 +4261,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>SCADA,DMS,GIS,AMR,PMU&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4272,7 +4272,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
 &lt;td>State Estimation Tool&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4283,7 +4283,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>REPORT&lt;/td>
 &lt;td>State Estimation Tool&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>State Vector&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
