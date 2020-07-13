@@ -65,10 +65,6 @@ add text - longer narrative from user viewpoint about *what* happens *how*, *whe
 |-----|-------|---------------|-------------------------------------------|
 |add text|add text|add text|add text|
 
-***Notes:***
-
-Can be left blank now
-
 ## 1.6. Use case conditions
 
 |Assumptions| Prerequisites|
@@ -217,7 +213,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 # 5. Information Exchanged
 
-|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
+|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
 | I-07 |Generation| --- | --- |
 | I-08| Consumption|--- |--- |
