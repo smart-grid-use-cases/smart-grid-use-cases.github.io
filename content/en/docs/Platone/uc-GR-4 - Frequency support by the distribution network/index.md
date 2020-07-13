@@ -195,7 +195,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 # 5. Information Exchanged
 
-|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
+|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
 |I-01|Measurements|Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)||
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
