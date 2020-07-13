@@ -185,7 +185,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 # 5. Information Exchanged
 
-|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
+|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
 
 
