@@ -1684,8 +1684,6 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>Can be left blank now&lt;/p>
 &lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -2030,7 +2028,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements to information data&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Protocol&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
