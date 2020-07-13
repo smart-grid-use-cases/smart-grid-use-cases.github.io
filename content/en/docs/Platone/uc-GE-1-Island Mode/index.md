@@ -204,7 +204,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 |12 |End of Use Case 1|End of Use Case 1|The use case ends, when DSO triggers another use case, or not enough flex is available to reach P’_Breaker.|REPORT/CREATE|DSO or EMS|EMS|I-01| |
 # 5. Information Exchanged
 
-|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
+|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
 | I-01 | Signal from DSO via GUI| DSO triggers the use case via an GUI to the EMS to apply islanding. The trigger signal is: <br> 0 = stop current use case <br> 1 = application of UC 1 <br> 2 = application of UC 2 <br> 3 = application of UC 3 <br> 4 = application of UC 4 <br> <br> Based on the UC 1 trigger the EMS sets the target setpoint for the load - exchange along the grid connection point to zero (P’Breaker  = 0). |  |
 | I-02 | Signal from EMS to external system|Trigger to provide weather forecast data | |
