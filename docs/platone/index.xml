@@ -5798,7 +5798,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tbody>
 &lt;tr>
 &lt;td>1 a&lt;/td>
-&lt;td>DER availability&lt;/td>
+&lt;td>FR availability&lt;/td>
 &lt;td>Availability of Flexibility resources&lt;/td>
 &lt;td>FR Owner, through the app developed in the demo, communicates the availability of own resources to Aggregator, for the day after&lt;/td>
 &lt;td>CREATE&lt;/td>
@@ -5909,7 +5909,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>1 b&lt;/td>
 &lt;td>Data acquisition&lt;/td>
-&lt;td>Data DER Acquisition&lt;/td>
+&lt;td>Data FR Acquisition&lt;/td>
 &lt;td>AGGREGATOR, known the available resources, acquires their measurements from Shared Customer Database&lt;/td>
 &lt;td>GET&lt;/td>
 &lt;td>SCD&lt;/td>
@@ -5920,7 +5920,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>2 b&lt;/td>
 &lt;td>Customer flexibility&lt;/td>
-&lt;td>Providing of flexibility from DER&lt;/td>
+&lt;td>Providing of flexibility from FR&lt;/td>
 &lt;td>AGGREGATOR calculates the baseline and the flexibility energy for every customer in our premises&lt;/td>
 &lt;td>Execute&lt;/td>
 &lt;td>Aggregator Platform Platform&lt;/td>
@@ -6517,7 +6517,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-05&lt;/td>
 &lt;td>Data for Offer&lt;/td>
-&lt;td>The flexibility offer contains the volume, the time frame and the price provided by the DER involved in the group&lt;/td>
+&lt;td>The flexibility offer contains the volume, the time frame and the price provided by the FR involved in the group&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -6541,7 +6541,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-09&lt;/td>
 &lt;td>Order&lt;/td>
-&lt;td>The TSO and the DSO send a signal of activation to move the DER involved in the service&lt;/td>
+&lt;td>The TSO and the DSO send a signal of activation to move the FR involved in the service&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -6558,13 +6558,13 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/tr>
 &lt;tr>
 &lt;td>I-12&lt;/td>
-&lt;td>DER status&lt;/td>
-&lt;td>This information contains the customer availability for move own DER&lt;/td>
+&lt;td>FR status&lt;/td>
+&lt;td>This information contains the customer availability for move own FR&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-13&lt;/td>
-&lt;td>DER planning&lt;/td>
+&lt;td>FR planning&lt;/td>
 &lt;td>This information contains the time frame, and the power that the customer have to provide during the activation&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
