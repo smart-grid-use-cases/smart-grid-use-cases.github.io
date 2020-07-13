@@ -3627,7 +3627,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements to information data&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Protocol&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
