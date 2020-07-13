@@ -36,7 +36,7 @@ description: >
 *Scope and objectives of use case*
 |||
 | --- | --- |
-| Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy that line and voltage limits of the distribution network are not violated in the case of a frequency support request by the transmission system. More in detail, customers with flexible loads will respond to such requests and the DSO will use flexibility tools to coordinate their response aiming at achieving the frequency support objective while ensuring distribution network operational safety. As in the previous Use Cases the state of the system is provided by the state estimation tool. <br/> Network: MV <br/> Markets: Near Real Time|
+| Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy that line and voltage limits of the distribution network are not violated in the case of a frequency support request by the transmission system.|
 | **Objective(s)** | To keep the distribution network within physical limits (line and voltage) with appropriate actions in the case of a frequency restoration reserve activation request by the TSO.|
 | **Related business case(s)** |add text|
 
@@ -49,7 +49,7 @@ description: >
 
 
 **Short description**
-Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that frequency restoration request from the TSO is adequately handled.
+Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that frequency restoration request from the TSO is adequately handled. More in detail, customers with flexible loads will respond to such requests and the DSO will use flexibility tools to coordinate their response aiming at achieving the frequency support objective while ensuring distribution network operational safety. As in the previous Use Cases the state of the system is provided by the state estimation tool.
 
 **Complete description**
 Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the available measurements and the topology via the AMR, GIS and SCADA data. A frequency support activation request from the TSO arrives at the customers with flexible loads. The request is also communicated to the DSO technical platform via an API and the information is shared with the appropriate tools and services. The DSO calculated and communicated to the customers the appropriate network tariffs that reflect the situation of the network. The flexible loads react to these tariffs and respond to the frequency support request appropriately.
