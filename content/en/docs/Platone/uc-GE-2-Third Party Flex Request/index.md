@@ -151,11 +151,6 @@ Add any remarks which do not fit in any other category
 | ALF-C Use Case Modul | System | Calculated the setpoint or setpoint schedule for the ALF-C Controller | |
 | DSO (Avacon) | Person | Local grid operator | In future done by DSO, TSO, marketer or energy service providers |
 
-
-
-
-***Notes:***
-
 * **Actor Type** - Device/ Sytem/ Person
 
 ## 3.2. References
@@ -175,19 +170,6 @@ OPTIONAL - you can leave it blank
 | --- | --- | --- | --- | --- | --- |
 | 1 | Increasing Residual Energy Demand | •	ALF-C </br> •	Energy Storage </br> • Flexible Load | Measured load flow (export) at grid connection point (Residual generation is decreasing/residual demand is increasing) | •	Sensors and actuators are connected with the ALF-C </br> •	Enough flexible loads and storages capacity are available for balancing | -	Demand of local flexible loads and storages will be decreased, or feed of storages into the grid will be increased in order to reach Ptarget. |
 | 2 | Decreasing Residual Energy Demand | •	ALF-C </br> •	Energy Storage </br> •	Flexible Load | Measured load flow at grid connection point (Residual generation is increasing/residual demand is decreasing) | •	Sensors and actuators are connected with the ALF-C </br> •	Enough flexible loads and storages capacity are available for balancing | |
-
-
-***Notes***
-
-This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
-
-* **Primary Actor** - the first actor appearing in the scenario at the incident causing the scenario to begin.
-
-* **Triggering Event** - the incident causing the scenario to begin.
-
-* **Pre-Condition** - indicates which terms have to be fulfilled for the scenario to be executed.
-
-* **Post-Condition** - indicates which terms should be valid after the scenario. TIt can also specify whether a scenario has been successfully completed or not.
 
 ## 4.2. Steps – Scenarios
 
@@ -242,7 +224,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 # 5. Information Exchanged
 
-|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
+|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
 | I-01 | Signal from user via GUI | A user triggers the use case via an GUI to the ALF-C to apply islanding. The trigger signal is: </br> 0 = stop current use case </br> 1 = application of UC 1 </br> 2 = application of UC 2 </br> 3 = application of UC 3 </br> 4 = application of UC 4 <br/> Based on the UC 2 trigger the ALF-C sets the target setpoint for the load - exchange along the grid connection point accoring to user input (Target Setpoint P'_Breaker). | |
 | I-02| Signal from ALF-C to External System | Trigger to provide weather forecast data | |
