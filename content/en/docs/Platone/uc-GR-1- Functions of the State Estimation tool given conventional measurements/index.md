@@ -16,12 +16,6 @@ description: >
 | --- | ---                    | ---                  |
 | UC-GR-1| Area: Energy system </br> Domains: Distribution, DER, Customer Premises </br> Zones: Station, Operation  </br> | Functions of SE tool given conventional measurements|
 
-***Notes:***
-
-* **ID** - uniqe identification label: DE-1/GR-3/IT-2
-
-* **Area /Domain(s)/Zone(s)** - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.
-
 ## 1.2. Version Management
 
 *Version management*
@@ -59,9 +53,6 @@ The DSO operates the distribution network. A measurement set, composed of actual
 |ID   |Name   | Description   | Reference to mentioned use case objectives|
 |-----|-------|---------------|-------------------------------------------|
 |1||||
-
-***Notes:***
-Can be left blank now
 
 ## 1.6. Use case conditions
 
@@ -197,7 +188,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 # 5. Information Exchanged
 
-|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
+|**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
 |I-01|Measurements|Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)||
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
