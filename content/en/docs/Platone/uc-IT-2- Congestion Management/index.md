@@ -10,15 +10,11 @@ description: >
 
 ## 1.1. Name of the Use Case
 
-*Use case identification*
-
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
 | UC-IT-2| Area: Energy system </br> | Voltage Management in transmission and distribution system using resources connected to distribution system |
 
 ## 1.2. Version Management
-
-*Version management*
 
 |Version No.|Date     |Name of author(s)|Changes|Approval status|
 |---        |---      |---              |---    |---            |
@@ -27,8 +23,6 @@ description: >
 
 
 ## 1.3. Scope and Objectives of Use Case
-
-*Scope and objectives of use case*
 
 |||
 | --- | --- |
