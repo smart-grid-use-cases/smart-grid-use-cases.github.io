@@ -1158,7 +1158,6 @@ Diagram of Use Case
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Actor Type&lt;/strong> - Device/ Sytem/ Person&lt;/li>
 &lt;/ul>
@@ -1220,22 +1219,6 @@ Diagram of Use Case
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;strong>Primary Actor&lt;/strong> - the first actor appearing in the scenario at the incident causing the scenario to begin.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Triggering Event&lt;/strong> - the incident causing the scenario to begin.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Pre-Condition&lt;/strong> - indicates which terms have to be fulfilled for the scenario to be executed.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;strong>Post-Condition&lt;/strong> - indicates which terms should be valid after the scenario. TIt can also specify whether a scenario has been successfully completed or not.&lt;/p>
-&lt;/li>
-&lt;/ul>
 &lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
 &lt;p>**Scenario Name: No. 1 - Increasing Residual Energy Demand **&lt;/p>
 &lt;table>
@@ -1502,7 +1485,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements to information data&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Protocol&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
