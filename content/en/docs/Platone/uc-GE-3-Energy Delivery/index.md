@@ -14,7 +14,7 @@ description: >
 
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-DE-3| Area: Energy system </br> *Leave it blank if not sure* | Energy Delivery |
+| UC-DE-3| Area: Energy system </br> Domain(s): Distribution, Customer Premise, Field, DER, Operation <br/> Zone(s): Operation, Enterprise, Process, Field | Package-based Energy Supply: <br/> Electricity is delivered to local energy community during predefined timeslots, outside of which the community reverts to temporary island-mode. |
 
 ## 1.2. Version Management
 
@@ -24,6 +24,7 @@ description: >
 |---        |---      |---              |---    |---            |
 |0.1||Thorsten Gross|Initial creation||
 |0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
+|0.3|19th June 2020|Benjamin Petters|Draft|
 
 
 ## 1.3. Scope and Objectives of Use Case
@@ -32,9 +33,9 @@ description: >
 
 |||
 | --- | --- |
-| Scope | Export of energy surplus to the local energy communities. Battery storage system enables to provide that service during specified time slots.  <br/> Networks: LV, MV <br/> Markets: None|
-| **Objective(s)** | * To develop novel strategies  for the supply and export of power to and from local energy communities <br/> * To improve management of the network. <br/> |
-| **Related business case(s)** |add text|
+| Scope | Package-based Energy Supply: <br/> Energy communities with a high proportion of self-generation and flexible consumers and storage can maximize the self-consumption of locally generated energy. These communities are unlikely to meet their own needs with locally generated energy throughout the year and will potentially run into energy-deficit in times of low local generation. Energy deficits could be compensated by the supplying distribution network. To reduce the stress on the mid-voltage feeder and reduce overall network cost, energy deficits occurring could be forecasted and delivered in discrete packages ahead of time at fixed time slots and be stored in local storages until demand arises. <br/> Networks: LV, MV <br/> Markets: None|
+| **Objective(s)** | •	Enabling temporary islanding even in times of energy deficit of the local community <br/> •	Forecasting of residual energy demand of an energy community <br/> •	Calculation of required energy packages serving energy deficits <br/> •	Determination of power exchange schedule for the energy community for the grid connection point LV/MV (time and power of load exchange)  <br/> •	Determination of a setpoint schedule for individual local asset to meet energy community setpoint schedule  <br/> •	Execution of defined power exchange between energy community and the distribution network |
+| **Related business case(s)** |Integration of local energy communities in network management and supply strategies for the stabilization and uniform utilization in distribution grid|
 
 ***Notes:***
 
@@ -49,9 +50,8 @@ description: >
 
 **Short description**
 
-The emergence of Local Energy Communities can introduce the end of the supply paradigm for low voltage network. Instead of a real-time-all-the-time approach, DSO can imagine to limit the delivery or exports of energy to local communities to fixed time slots. By staggering the assigned time slots across the communities along a feeder DSOs can significantly reduce line loading and improve the utilization of assets.
+Local energy communities (LEC, CEC) are likely to emerge in Europe in the near future but will most likely retain an interconnection to the distribution grid. These communities will require a large share of flexibility to enable their primary use case (islanding). <br/> In the absence of sufficient generation and storage, the community is unlikely to be self-sufficient at all times. When energy deficits occur, they must be provided by the distribution network. Instead of a real time energy supply by the connected distribution network, energy deficits could be forecast and supplied as an energy package with a defined time, duration and power value for the load exchange at the LV/ MV-grid connection point that connects the community with the distribution grid. The energy package shall be stored in local storages within the community and available for use, when the demand is rising. Outside of the defined periods of energy provision, no power exchange shall all the grid connection point shall take place, according to DE-UC1. This use case enables the DSO to reduce overall network costs, for example by gaining the ability to stagger the demand of multiple communities along a single feeder, thusly reducing the factor of coincidence of peak load and peak load level accordingly.
 
-UC3 covers the situation during times of energy deficits. The use case module predicts the energy demand for a 24h period and assigns delivery slots to the LEC. Outside of these slots the LEC reverts to island-mode.
 
 
 **Complete description**
@@ -69,7 +69,9 @@ add text - longer narrative from user viewpoint about *what* happens *how*, *whe
 
 |Assumptions| Prerequisites|
 |-----------|-------------|
-|add text| add text|
+|Formation of energy communities in future distribution grid|The Clean Energy Package has to be implemented by national regulation and legislations, enabling the formation of energy communities.|
+|Integration of battery storage in control mechanisms of the DSO|The local energy community has the ability to forecast net-energy deficit day ahead and can accept and follow power setpoints as defined by the DSO.|
+|DSO supply mechanism for local energy communities|The DSO is enabled and capable to apply novel supply strategies to energy communities, moving away from real-time supply to a package-based philosophy.|
 
 
 ***Notes:***
@@ -83,19 +85,19 @@ add text - longer narrative from user viewpoint about *what* happens *how*, *whe
 
 OPTIONAL - you can leave it blank
 
-|Relation to other use cases|
+|**Relation to other use cases**|
 |---------------------------|
-|add text|
+|UC 3 requires UC 1 and UC 2 as a prerequisite|
 |**Level of depth**|
-|add text|
+|Primary Use Case|
 |**Prioritisation**|
-|add text|
+|1, very important|
 |**Generic, regional or national relation**|
-|add text|
+|Germany|
 |**Nature of the use cases**|
-|add text|
+|Technical|
 |**Further keywords for classification**|
-|add text|
+|Medium Voltage Grid, Low Voltage Grid, Monitoring, Energy Communities, Islanding|
 
 ***Notes:***
 
@@ -136,13 +138,13 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO | Person | add text| ADMS, SCADA|
-| Residential consumer| Person | add text| add text|
-| Residential prostormer| Person | add text| add text|
-| commercial consumer| Person | add text| add text|
-| commercial prostormer| Person | add text| add text|
-| Energy community| Person | add text| add text|
-| Aggreator/ Flexibility operator| Person | add text| add text|
+| Consumer Load | System | Household with a standard load profile energy consumption of a single household or energy consumer with a standard load profile of an agricultural building. | No direct measurement of energy consumption, demand not controllable(passive user). |
+| Generators | System | Roof Top photovoltaic system generating energy directly correlated with solar radiation at location. | Limited controllability (can be curtailed in extreme cases). Located on customers premise and can be operated in combination with a battery storage system, for optimization of own consumption. |
+| Controller | Device | Summarises all devices that are able to receive setpoints or setpoint schedules and translate them into actionable steering commands for the flexible load or storage. | |
+| Sensors | Device | Devices that measure voltage, current and angle of phase or SOE or SOC in case of storages and able to communicate to external systems or devices. | Retrofit (PMU or other) or integrated |
+| Battery Energy Storage System (BESS) | System | System that are demanding, storing and feeding energy to the local grid/energy community. | 300 kW/600 kWh, fully integrated in EMS and full time available for UC. |
+| Household Energy Storage | System | System that are demanding, storing and feeding energy to the local grid/energy community. | Integrated in EMS and full time available for UC. |
+| Flexible Loads | System | Electrical heater or eat pump used by household for generation of domestic heat. | Could be provided by customer households. |
 
 ***Notes:***
 
