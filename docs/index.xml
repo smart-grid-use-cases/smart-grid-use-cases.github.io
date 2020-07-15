@@ -3331,7 +3331,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tr>
 &lt;td>I-01&lt;/td>
 &lt;td>Measurements&lt;/td>
-&lt;td>Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)&lt;/td>
+&lt;td>Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3343,7 +3343,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tr>
 &lt;td>I-03&lt;/td>
 &lt;td>Observability status&lt;/td>
-&lt;td>The result of the observability assessment of the Distribution Network&lt;/td>
+&lt;td>The result of the observability assessment of the Distribution Network, i.e.whether the state estimation problem can be resolved or not&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -3795,7 +3795,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tr>
 &lt;td>I-01&lt;/td>
 &lt;td>Measurements&lt;/td>
-&lt;td>Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)&lt;/td>
+&lt;td>Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3807,13 +3807,13 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tr>
 &lt;td>I-03&lt;/td>
 &lt;td>Observability status&lt;/td>
-&lt;td>The result of the observability assessment of the Distribution Network&lt;/td>
+&lt;td>The result of the observability assessment of the Distribution Network, i.e.whether the state estimation problem can be resolved or not&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-04&lt;/td>
 &lt;td>PMU Measurements&lt;/td>
-&lt;td>Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)&lt;/td>
+&lt;td>Measurements from PMUs (voltage phasors(angle and magnitude), current phasors(angle and magnitude))&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -4475,7 +4475,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tr>
 &lt;td>I-01&lt;/td>
 &lt;td>Measurements&lt;/td>
-&lt;td>Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)&lt;/td>
+&lt;td>Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
