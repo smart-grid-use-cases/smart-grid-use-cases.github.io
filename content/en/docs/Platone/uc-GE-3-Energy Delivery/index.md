@@ -14,7 +14,7 @@ description: >
 
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-DE-3| Area: Energy system </br> *Leave it blank if not sure* | Energy Delivery |
+| UC-DE-3| Area: Energy system </br> Domain: Distribution, Customer Premise, Field, DER, Operation *Leave it blank if not sure* | Energy Delivery |
 
 ## 1.2. Version Management
 
