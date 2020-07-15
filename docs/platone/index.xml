@@ -1732,37 +1732,37 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>add text&lt;/td>
+&lt;td>UC 3 requires UC 1 and UC 2 as a prerequisite&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>add text&lt;/td>
+&lt;td>Primary Use Case&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>add text&lt;/td>
+&lt;td>1, very important&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>add text&lt;/td>
+&lt;td>Germany&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>add text&lt;/td>
+&lt;td>Technical&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>add text&lt;/td>
+&lt;td>Medium Voltage Grid, Low Voltage Grid, Monitoring, Energy Communities, Islanding&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1817,46 +1817,88 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>DSO&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>ADMS, SCADA&lt;/td>
+&lt;td>Consumer Load&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Household with a standard load profile energy consumption of a single household or energy consumer with a standard load profile of an agricultural building.&lt;/td>
+&lt;td>No direct measurement of energy consumption, demand not controllable(passive user).&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Residential consumer&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Generators&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Roof Top photovoltaic system generating energy directly correlated with solar radiation at location.&lt;/td>
+&lt;td>Limited controllability (can be curtailed in extreme cases). Located on customers premise and can be operated in combination with a battery storage system, for optimization of own consumption.&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Residential prostormer&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Controller&lt;/td>
+&lt;td>Device&lt;/td>
+&lt;td>Summarises all devices that are able to receive setpoints or setpoint schedules and translate them into actionable steering commands for the flexible load or storage.&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>commercial consumer&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>Device&lt;/td>
+&lt;td>Devices that measure voltage, current and angle of phase or SOE or SOC in case of storages and able to communicate to external systems or devices.&lt;/td>
+&lt;td>Retrofit (PMU or other) or integrated&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>commercial prostormer&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Battery Energy Storage System (BESS)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>System that are demanding, storing and feeding energy to the local grid/energy community.&lt;/td>
+&lt;td>300 kW/600 kWh, fully integrated in EMS and full time available for UC.&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Energy community&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Household Energy Storage&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>System that are demanding, storing and feeding energy to the local grid/energy community.&lt;/td>
+&lt;td>Integrated in EMS and full time available for UC.&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Aggreator/ Flexibility operator&lt;/td>
+&lt;td>Flexible Loads&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Electrical heater or eat pump used by household for generation of domestic heat.&lt;/td>
+&lt;td>Could be provided by customer households.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Weather Forecast Service Provider&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>Provides weather forecasts for the next 24h of wind, solar radiation, cloudiness and temperature.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BESS Data Management Backend&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>Data backend of BESS manufacturer for storing data and providing measurement data and forwarding setpoint to BESS.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sensor &amp;amp; Controller Data Management Backend&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>Cloud service of assets vendor (can be individual for different assets) storing data, providing measurement data of asset and/or interface for transmission of setpoints to asset.&lt;/td>
+&lt;td>Assets with different vendors, requires connection to different vendor cloud platform and backends.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DSO Technical Platform&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Central Platform providing services, e.g. data storage and state estimation. Used as middleware for data acquisition and setpoint delivery of assets and sensors in the field.&lt;/td>
+&lt;td>Provided by RWTH.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Blockchain Access Platform&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Platform for encryption and verification of data flows along the was of communication from EMS (ALF-C) to sensors and Assets in the field.&lt;/td>
+&lt;td>Provided by Engineering&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EMS (ALF-C)&lt;/td>
+&lt;td>Component&lt;/td>
+&lt;td>- Monitors local generation and demand &lt;br/> - monitors available flexibility and storages &lt;br/> - forecasts generation, demand and available flexibility via historic data and weather forecasts &lt;br/> - Accepts use case trigger and use case parameter - from EMS Use Case Modul and determines and dispatches setpoints for individual assets &lt;br/> - Calculates the setpoint or setpoint schedule for the EMS Controller&lt;/td>
+&lt;td>EMS named Avacon Local Flex Controller (EMS). &lt;br/> &lt;br/> In a productive environment operator could be DSO, retailer, storage system operators or any other energy service provider.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Distribution System Operator (Avacon)&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Local grid operator (Avacon) setting use case and setting setpoint for load exchange along the grid connection point (P’Breaker)&lt;/td>
+&lt;td>Only in field test trial. n future done by DSO, TSO, marketer or energy service providers&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
