@@ -47,7 +47,8 @@ Local energy communities (LEC, CEC) are likely to emerge in Europe in the near f
 
 **Complete description**
 
-add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
+The community is consuming and/or generating energy. A user (in the case of the field trial the DSO) triggers the EMS to apply Use Case 2 and sets a target value (P’Breaker) for the power exchange at the grid connection. The EMS (ALF-C) processes weather forecasts and measurement values from the grid connection and flexible assets such as BESS, household energy storages and flexible loads located in the community. Based on the data and historic values the EMS forecasts the local generation and demands and determines the best strategy to reach (P’Breaker) by utilizing the available flexibility to keep the power flow constant for a pre-defined duration. <br/> The EMS communicates with sensors through the Blockchain Access Platform and DSO Technical Platform and handles all data in a dedicated data base. The DSO Technical Platform provides encryption and decryption in the whole IT infrastructure. Control signals are routed through the DSO technical platform and the Blockchain Access Platform to flexible devices, if applicable through a third-party backend that connects to the hardware.
+
 
 
 ## 1.5. Key Performance Indicatiors (KPI)
