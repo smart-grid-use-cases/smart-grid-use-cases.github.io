@@ -209,7 +209,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
-|I-01|Measurements|Measurements from the Distribution Network (e.g. voltage levels, power injections, etc)||
+|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)||
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
 |I-05|Alarm| Alarm about the Distribution Network limit violation||
 |I-06|Network tariffs|Network tariffs that reflect the Disribution Network state||
