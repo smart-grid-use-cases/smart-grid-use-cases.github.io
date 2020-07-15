@@ -87,17 +87,17 @@ OPTIONAL - you can leave it blank
 
 |Relation to other use cases|
 |---------------------------|
-|add text|
+|UC 3 requires UC 1 and UC 2 as a prerequisite|
 |**Level of depth**|
-|add text|
+|Primary Use Case|
 |**Prioritisation**|
-|add text|
+|1, very important|
 |**Generic, regional or national relation**|
-|add text|
+|Germany|
 |**Nature of the use cases**|
-|add text|
+|Technical|
 |**Further keywords for classification**|
-|add text|
+|Medium Voltage Grid, Low Voltage Grid, Monitoring, Energy Communities, Islanding|
 
 ***Notes:***
 
@@ -138,13 +138,21 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO | Person | add text| ADMS, SCADA|
-| Residential consumer| Person | add text| add text|
-| Residential prostormer| Person | add text| add text|
-| commercial consumer| Person | add text| add text|
-| commercial prostormer| Person | add text| add text|
-| Energy community| Person | add text| add text|
-| Aggreator/ Flexibility operator| Person | add text| add text|
+| Consumer Load | System | Household with a standard load profile energy consumption of a single household or energy consumer with a standard load profile of an agricultural building. | No direct measurement of energy consumption, demand not controllable(passive user). |
+| Generators | System | Roof Top photovoltaic system generating energy directly correlated with solar radiation at location. | Limited controllability (can be curtailed in extreme cases). Located on customers premise and can be operated in combination with a battery storage system, for optimization of own consumption. |
+| Controller | Device | Summarises all devices that are able to receive setpoints or setpoint schedules and translate them into actionable steering commands for the flexible load or storage. | |
+| Sensors | Device | Devices that measure voltage, current and angle of phase or SOE or SOC in case of storages and able to communicate to external systems or devices. | Retrofit (PMU or other) or integrated |
+| Battery Energy Storage System (BESS) | System | System that are demanding, storing and feeding energy to the local grid/energy community. | 300 kW/600 kWh, fully integrated in EMS and full time available for UC. |
+| Household Energy Storage | System | System that are demanding, storing and feeding energy to the local grid/energy community. | Integrated in EMS and full time available for UC. |
+| Flexible Loads | System | Electrical heater or eat pump used by household for generation of domestic heat. | Could be provided by customer households. |
+| Weather Forecast Service Provider | External System | Provides weather forecasts for the next 24h of wind, solar radiation, cloudiness and temperature. | |
+| BESS Data Management Backend | External System | Data backend of BESS manufacturer for storing data and providing measurement data and forwarding setpoint to BESS. | |
+| Sensor & Controller Data Management Backend | External System | Cloud service of assets vendor (can be individual for different assets) storing data, providing measurement data of asset and/or interface for transmission of setpoints to asset. | Assets with different vendors, requires connection to different vendor cloud platform and backends. |
+| DSO Technical Platform | System | Central Platform providing services, e.g. data storage and state estimation. Used as middleware for data acquisition and setpoint delivery of assets and sensors in the field. | Provided by RWTH. |
+| Blockchain Access Platform | System | Platform for encryption and verification of data flows along the was of communication from EMS (ALF-C) to sensors and Assets in the field. | Provided by Engineering |
+| EMS (ALF-C) | Component | -	Monitors local generation and demand <br/> -	monitors available flexibility and storages <br/> -	forecasts generation, demand and available flexibility via historic data and weather forecasts <br/> -	Accepts use case trigger and use case parameter - from EMS Use Case Modul and determines and dispatches setpoints for individual assets <br/> -	Calculates the setpoint or setpoint schedule for the EMS Controller | EMS named Avacon Local Flex Controller (EMS). <br/> <br/> In a productive environment operator could be DSO, retailer, storage system operators or any other energy service provider. |
+| Distribution System Operator (Avacon) | Person | Local grid operator (Avacon) setting use case and setting setpoint for load exchange along the grid connection point (P’Breaker) | Only in field test trial. n future done by DSO, TSO, marketer or energy service providers |
+
 
 ***Notes:***
 
