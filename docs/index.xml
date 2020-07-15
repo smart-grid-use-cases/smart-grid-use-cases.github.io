@@ -1589,7 +1589,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>UC-DE-3&lt;/td>
-&lt;td>Area: Energy system &lt;/br> &lt;em>Leave it blank if not sure&lt;/em>&lt;/td>
+&lt;td>Area: Energy system &lt;/br> Domain: Distribution, Customer Premise, Field, DER, Operation &lt;em>Leave it blank if not sure&lt;/em>&lt;/td>
 &lt;td>Energy Delivery&lt;/td>
 &lt;/tr>
 &lt;/tbody>
