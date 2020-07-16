@@ -154,7 +154,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Networt limit violations mitigation by the use of day-ahead network tariffs | none | Voltage measurements of a node/multiple nodes out of permissible range |Distribution network observability | Voltage limit violation mitigated |
+| 1 | Network limit violations mitigation by the use of day-ahead network tariffs | none | Voltage measurements of a node/multiple nodes out of permissible range |Distribution network observability | Voltage limit violation mitigated |
 
 
 ***Notes***
@@ -166,7 +166,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 ## 4.2. Steps – Scenarios
 
-**Scenario Name: No. 1 - Networt limit violations mitigation by the use of day-ahead network tariffs **
+**Scenario Name: No. 1 - Network limit violations mitigation by the use of day-ahead network tariffs **
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -209,7 +209,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
-|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)||
+|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|ethernet TCP/IP, IP over GPRS|
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
 |I-06|Network tariffs|Network tariffs that reflect the Disribution Network state||
 |I-07|Setpoint|Setpoint for adjustment of flexible load/RES production||
