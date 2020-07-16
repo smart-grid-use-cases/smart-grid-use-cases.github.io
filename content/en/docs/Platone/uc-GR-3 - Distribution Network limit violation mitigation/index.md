@@ -50,7 +50,7 @@ description: >
 Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that a voltage/line thermal limit violation is mitigated.The DSO will examine the operation of tools and services for decision making support to mitigate voltage/thermal line limits violations, assuming that the grid state estimation has a good degree of certainty .
 
 **Complete description**
-Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the state vector that the state estimation tool produces using the available measurements and the topology data from the AMR, GIS, SCADA and PMUs. The DSO communicates network tariffs in a day-ahead context. These tariffs appropriately reflect the potential of the network exceeding its physical limits resulting in violations and/or curtailment of demand/generation. Compared to the business as usual scenario of the flat network tariffs, the DSO aims at reducing such negative effects by the use of dynamic network tariffs, which incentivise the appropriate actions of the -assumed as- rational users of the distribution network.
+Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the state vector that the state estimation tool produces using the available measurements and the topology data from the AMR, GIS, SCADA and PMUs. The DSO communicates network tariffs in a day-ahead context. These tariffs appropriately reflect the potential of the network exceeding its physical limits resulting in violations and/or curtailment of demand/generation. Compared to the business as usual scenario of the flat network tariffs, the DSO aims at reducing such negative effects by the use of variable day-ahead network tariffs, which incentivise the appropriate actions of the -assumed as- rational users of the distribution network.
 
 add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
 
@@ -154,8 +154,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Voltage limit violation mitigation| State Estimation Tool | Voltage measurements of a node/multiple nodes out of permissible range |Distribution network observability | Voltage limit violation mitigated |
-| 2 | Line thermal limit violation mitigation| State Estimation Tool | Line thermal limit exceeded |Distribution network observability | Line congestion mitigated |
+| 1 | Networt limit violations mitigation by the use of day-ahead network tariffs | none | Voltage measurements of a node/multiple nodes out of permissible range |Distribution network observability | Voltage limit violation mitigated |
 
 
 ***Notes***
@@ -172,12 +171,12 @@ This part describes the possible scenarios of the use case. The scenarios should
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 |Measurements of voltage at a node/multiple nodes out of the permissible range|Alarm generation|Alarm informing the DSO about the voltage limit violation|CREATE|State Estimation tool|DSO|Alarm||
-| 2 |Alarm informing the DSO about the voltage limit violation|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DSO|DSO|Network tariffs||
-| 3 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator|CREATE|DSO|Aggregator|Network tariffs||
-| 4 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
-| 5 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|Setpoint||
-| 6 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES|Setpoint||
-| 7 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR,PMU|DSO Data Server|Measurements||
+| 1 |none-daily process|Tariffs retrieval|Day ahead tariffs that reflect the expected state of the network sent to the DSO|REPORT|DSOTP|DSO|I-06||
+| 2 |Tariffs retrieval|Tariffs communication|Tariffs are communicated to the Aggregator|REPORT|DSO|Aggregator|Network tariffs||
+| 3 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
+| 4 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|Setpoint||
+| 5 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES|Setpoint||
+| 6 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR,PMU|DSO Data Server|Measurements||
 | 8 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|State Estimation Tool|Measurements||
 | 9 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|State Estimation Tool|DSO|State Vector||
 
