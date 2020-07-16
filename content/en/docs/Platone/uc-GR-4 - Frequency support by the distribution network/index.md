@@ -128,14 +128,14 @@ Add any remarks which do not fit in any other category
 | AMR | System | Automatic Meter Reading system|  |
 | Commercial customer | Person | Final end user to denote a typical commodity commercial consumption with capability of neither generation nor storage.| |
 | DMS | System | Distribution Management System | |
-| DSO | Person | Distribution System Operator| The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.  |
+| DSO | Person | Distribution System Operator, the entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.| |
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
+| DSOTP | System | DSO Technical Platform| |
 | GIS | System | Geographical Information System |  |
 | PMU | Device | Phasor Measurement Unit | |
 | RES | System | Renewable Energy Source| |
 | Residential customer | Person | Final end user to denote a typical commodity residential consumption with capability of neither generation nor storage.| |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
-| State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.|  |
 | TSO | Person | Transmission System Operator| Simulated entity to trigger the use case|
 
 ***Notes:***
@@ -171,8 +171,9 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2 |TSO needs frequency support|Frequency support request|Frequency support request sent to the Aggregator|CREATE|TSO|Aggregator|Frequency support request||
-| 3 |TSO needs frequency support|Frequency support request|Frequency support communicated to the DSO|CREATE|TSO|DSO|Frequency support request||
+| 1 |TSO needs frequency support|Frequency support request|Frequency support request sent to the Aggregator|CREATE|TSO|Aggregator|Frequency support request||
+| 2 |TSO needs frequency support|Frequency support request|Frequency support communicated to the DSO|CREATE|TSO|DSO|Frequency support request||
+| 3 |DSO receives frequency support request from TSO|Frequency support request|Frequency support communicated to the DSOTP|CREATE|DSO|DSOTP|Frequency support request||
 | 4 |Frequency support request|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DSO|DSO|Network tariffs||
 | 5 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator|CREATE|DSO|Aggregator|Network tariffs||
 | 6 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
