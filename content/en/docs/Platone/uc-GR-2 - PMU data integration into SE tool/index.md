@@ -169,7 +169,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 4 |Measurements from the Distribution Network| PMU data integration | PMU and conventional measurements integrated into a unified measurement set|EXECUTE|DSOTP|DSOTP|I-01||
 | 5 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|DSOTP|DSOTP|I-03||
 | 6 | Measurements from the Distribution Network|Calculation of the state vector| State estimation algorithm is carried out |EXECUTE|DSOTP|DSOTP|I-02||
-| 7 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|State Estimation tool|DSO|I-02||
+| 7 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|DSOTP|DSO|I-02||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
