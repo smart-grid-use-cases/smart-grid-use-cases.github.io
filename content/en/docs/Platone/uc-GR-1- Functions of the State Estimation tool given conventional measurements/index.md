@@ -116,9 +116,10 @@ Add any remarks which do not fit in any other category
 | DMS | System | Distribution Management System | |
 | DSO | Person | Distribution System Operator, the entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the DSO Technical Platform.  ||
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
+| DSOTP | System | DSO Technical Platform |  |
 | GIS | System | Geographical Information System |  |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
-| State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.|  |
+
 
 
 ***Notes:***
@@ -156,12 +157,12 @@ This part describes the possible scenarios of the use case. The scenarios should
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|I-01||
-| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|I-01||
-| 3 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool||I-03||
-| 4 |Measurements from the Distribution Network|Calculation of state vector| State estimation algorithm is carried out |EXECUTE|State estimation tool|State estimation tool|I-02||
-| 5 |State vector with low accuracy|Data Aquisition|New measurements/pseudo-measurements integrated in the State Estimation tool |CHANGE|DSO Data Server|State estimation tool|I-01||
-| 6 |Measurements from the Distribution Network| Calculation of state vector| State estimation algorithm is carried out |EXECUTE|State Estimation tool|State estimation tool|I-02||
-| 7 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|State Estimation tool|DSO|I-02||
+| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|DSOTP|I-01||
+| 3 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|DSOTP||I-03||
+| 4 |Measurements from the Distribution Network|Calculation of state vector| State estimation algorithm is carried out |EXECUTE|DSOTP|DSOTP|I-02||
+| 5 |State vector with low accuracy|Data Aquisition|New measurements/pseudo-measurements integrated in the State Estimation tool |CHANGE|DSO Data Server|DSOTP|I-01||
+| 6 |Measurements from the Distribution Network| Calculation of state vector| State estimation algorithm is carried out |EXECUTE|DSOTP|DSOTP|I-02||
+| 7 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|DSOTP|DSO|I-02||
 
 
 **Scenario Name: No. 2 - Fulfillment of observability**
@@ -169,11 +170,11 @@ This part describes the possible scenarios of the use case. The scenarios should
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|I-01||
-| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|State Estimation tool|I-01||
-| 3 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool||I-03||
-| 4 |Lack of observability| Data acquisition | Additional/alternative data to substitute for missing or inconsistent measurements, are integrated in the State Estimation tool|CHANGE|DSO Data Server|State Estimation tool|I-01||
-| 5 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|State Estimation tool||I-03||
-| 6 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|State Estimation tool|DSO|I-02||
+| 2 |Measurements from the Distribution Network|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|DSOTP|I-01||
+| 3 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|DSOTP||I-03||
+| 4 |Lack of observability| Data acquisition | Additional/alternative data to substitute for missing or inconsistent measurements, are integrated in the State Estimation tool|CHANGE|DSO Data Server|DSOTP|I-01||
+| 5 |Measurements from the Distribution Network| Observability assessment| A numerical observability method is used in order to determine observability status |EXECUTE|DSOTP||I-03||
+| 6 |Measurements from the Distribution Network| Output of State Estimation tool| Estimated state vector is communicated |REPORT|DSOTP|DSO|I-02||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
