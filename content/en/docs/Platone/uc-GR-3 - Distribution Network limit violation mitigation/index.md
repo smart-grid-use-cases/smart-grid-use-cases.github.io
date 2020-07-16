@@ -154,7 +154,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Network limit violations mitigation by the use of day-ahead network tariffs | none | Voltage measurements of a node/multiple nodes out of permissible range |Distribution network observability | Network limit violation mitigated |
+| 1 | Network limit violations mitigation by the use of day-ahead network tariffs | none | none |Distribution network observability | Network limit violation mitigated |
 
 
 ***Notes***
