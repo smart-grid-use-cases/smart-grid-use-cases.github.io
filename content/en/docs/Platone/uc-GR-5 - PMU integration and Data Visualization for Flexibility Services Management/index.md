@@ -147,7 +147,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | | | | | |
+| 1 |Data integration and visualisation in the DSOTP (User Interface)|none|none|Various data sources/services not able to interface with the Platone architecture and not visible to the users (DSO, Aggregators, TSO)|Data from various data sources as well as services' outcomes integrated and visualised in the DSOTP|
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -158,7 +158,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 ## 4.2. Steps – Scenarios
 
-**Scenario Name: No. 1 - (name of scenario)**
+**Scenario Name: No. 1 - Data integration and visualisation in the DSOTP (User Interface)**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
