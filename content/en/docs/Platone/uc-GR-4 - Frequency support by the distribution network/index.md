@@ -174,7 +174,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 1 |TSO needs frequency support|Frequency support request|Frequency support request sent to the Aggregator|CREATE|TSO|Aggregator|I-08||
 | 2 |TSO needs frequency support|Frequency support request|Frequency support request communicated to the DSO|CREATE|TSO|DSO|I-08||
 | 3 |DSO receives frequency support request from TSO|Frequency support request|Frequency support request sent to the DSOTP|REPORT|DSO|DSOTP|I-08||
-| 4 |Frequency support request|Tariffs retrieval|Tariffs are sent to the DSO|REPORT|DSOTP|DSO|I-06||
+| 4 |Frequency support request recieved by DSOTP|Tariffs retrieval|Tariffs are sent to the DSO|REPORT|DSOTP|DSO|I-06||
 | 5 |Tariffs retrieval|Tariffs communication|Tariffs are communicated to the Aggregator|REPORT|DSO|Aggregator|I-06||
 | 6 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|I-07||
 | 7 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|I-07||
