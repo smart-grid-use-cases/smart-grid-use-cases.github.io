@@ -164,8 +164,12 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
+| 1 |none-continuous process|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|I-01||
+| 2 |none-continuous process|Data Aquisition| PMU data are retrieved by and integrated in the DSOTP|REPORT|PMUs|DSOTP|I-04||
+| 3 |none-continuous process|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|BAP|I-01||
+| 3 |none-continuous process|Data Verification| All data received gets verified and secured via blockchain technology|EXECUTE|BAP|BAP|I-01||
+| 4 |none-continuous process|Data Aquisition|	Verified and secured data is delivered to the DSOTP |REPORT|BAP|DSOTP|I-01|
+| 5 |none-continuous process|Data Visualisation|Data and services' outcomes are visualised (User Interface) |EXECUTE|DSOTP|DSOTP|-|
 
 **Scenario Name: No. 2 - (name of scenario)**
 
@@ -188,7 +192,8 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 # 5. Information Exchanged
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
-| --- | --- | --- | --- |
+|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|TCP/IP, IP over GPRS|
+|I-04|PMU Measurements|Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)|MQTT|
 
 
 ***Notes***
