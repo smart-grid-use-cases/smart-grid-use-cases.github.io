@@ -128,14 +128,14 @@ Add any remarks which do not fit in any other category
 | AMR | System | Automatic Meter Reading system|  |
 | Commercial customer | Person | Final end user to denote a typical commodity commercial consumption with capability of neither generation nor storage.| |
 | DMS | System | Distribution Management System | |
-| DSO | Person | Distribution System Operator| The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.  |
+| DSO | Person | Distribution System Operator, the entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.| |
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
+| DSOTP | System | DSO Technical Platform| |
 | GIS | System | Geographical Information System |  |
 | PMU | Device | Phasor Measurement Unit | |
 | RES | System | Renewable Energy Source| |
 | Residential customer | Person | Final end user to denote a typical commodity residential consumption with capability of neither generation nor storage.| |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
-| State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.|  |
 | TSO | Person | Transmission System Operator| Simulated entity to trigger the use case|
 
 ***Notes:***
@@ -171,16 +171,18 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2 |TSO needs frequency support|Frequency support request|Frequency support request sent to the Aggregator|CREATE|TSO|Aggregator|Frequency support request||
-| 3 |TSO needs frequency support|Frequency support request|Frequency support communicated to the DSO|CREATE|TSO|DSO|Frequency support request||
-| 4 |Frequency support request|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DSO|DSO|Network tariffs||
-| 5 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator|CREATE|DSO|Aggregator|Network tariffs||
-| 6 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
-| 7 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|Setpoint||
-| 8 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES|Setpoint||
-| 9 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR,PMU|DSO Data Server|Measurements||
-| 10 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|State Estimation Tool|Measurements||
-| 11 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|State Estimation Tool|DSO|State Vector||
+| 1 |TSO needs frequency support|Frequency support request|Frequency support request sent to the Aggregator|CREATE|TSO|Aggregator|I-08||
+| 2 |TSO needs frequency support|Frequency support request|Frequency support request communicated to the DSO|CREATE|TSO|DSO|I-08||
+| 3 |DSO receives frequency support request from TSO|Frequency support request|Frequency support request sent to the DSOTP|REPORT|DSO|DSOTP|I-08||
+| 4 |Frequency support request recieved by DSOTP|Tariffs retrieval|Tariffs are sent to the DSO|CREATE|DSOTP|DSO|I-06||
+| 5 |Tariffs retrieval|Tariffs communication|Tariffs are communicated to the Aggregator|REPORT|DSO|Aggregator|I-06||
+| 6 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|I-07||
+| 7 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|I-07||
+| 8 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES|I-07||
+| 9 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|PMU|DSOTP|I-04||
+| 10 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|I-01||
+| 11 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|DSOTP|I-01||
+| 12 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSOTP|DSO|I-02||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -197,8 +199,10 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
-|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)||
+
+|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|TCP/IP, IP over GPRS|
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
+|I-04|PMU Measurements|Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)|MQTT|
 |I-06|Network tariffs|Network tariffs that reflect the Disribution Network state||
 |I-07|Setpoint|Setpoint for adjustment of flexible load/RES production||
 |I-08|Frequency support request|Frequency support request from the TSO||

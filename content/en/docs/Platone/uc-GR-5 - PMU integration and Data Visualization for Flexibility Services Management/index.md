@@ -37,7 +37,7 @@ description: >
 
 |||
 | --- | --- |
-| Scope | The scope of the UC is to examine the integration and operational use of low cost PMUs in order to increase network observability collecting measurement data such as voltage, current and phases in various points of the distribution network. More in detail, the DSO will use the data collected to improve the operation of the tools and services developed within the project by exploiting increased data granularity. Furthermore, the data coming from various sources and systems of the DSO should be integrated in the DSO Technical Platform and a User Interface (UI) should be developed to allow the DSO personnel to use the available tools and services. <br/>  In addition, all the available data should be further delivered for use by tools and services developed in order to support flexibility mechanisms. All the appropriate communication protocols should be integrated and tested to develop a unique point of data delivery to various actors involved in the project. |
+| Scope | The scope of the UC is to examine the integration and operational use of low cost PMUs in order to increase network observability collecting measurement data such as voltage, current and phases in various points of the distribution network. More in detail, the DSO will use the data collected to improve the operation of the tools and services developed within the project by exploiting increased data granularity. Furthermore, the data coming from various sources and systems of the DSO should be integrated in the DSO Technical Platform having first passed through the Blockchain Access Platform developed in the project to provide data access security and data integrity. In addition, all the available data should be further delivered for use by tools and services developed in order to support flexibility mechanisms. All the appropriate communication protocols should be integrated and tested to develop a unique point of data delivery to various actors involved in the project and a User Interface (UI) should be developed to allow the DSO personnel to use the available tools and services.|
 | **Objective(s)** | * To increase network observability. <br/> * To integrate data coming from different sources in the DSO Technical Platform.|
 | **Related business case(s)** |add text|
 
@@ -50,11 +50,11 @@ description: >
 
 
 **Short description**
-PMUs are installed in critical network nodes to increase network observability. PMU measurements along with other DSO data (network topology, customer loads, etc) are integrated in the DSO Technical Platform to be visulalised in a User Interface (UI), so that DSO can make use of tools and services developed in the project.
+PMUs are installed in critical network nodes to increase network observability. PMU measurements along with other DSO data (network topology, customer loads, etc) are integrated in the DSO Technical Platform to be visulalised in a User Interface (UI), so that DSO can make use of tools and services developed in the project. Aforementioned data is going through the Blockchain Access Platform developed in the project to ensure data access security and data integrity. 
 
 **Complete description**
 
-The DSO operates the distribution network and handles the data sources coming from various systems such as SCADA/DMS, AMR, GIS etc. Data coming from various sources get integrated into the Open DSO Technical Platform providing an adequate level of network observability. Low cost PMUs are deployed in Mesogia area in critical network points and nodes where there is limited observability or a requirement to have an increased awareness such as DER and prosumers bidirectional power flows. Also, PMU data are integrated in the DSO Technical Platform following a data collection plan that serves the functionalities of the flexibility tools and services. Measurements from PMUs  enhance network awareness in terms of data granularity and number of nodes observed in a cost effective manner. Also, the open DSO Technical Platform performs the correlation of the data coming from different sources and systems during real time, providing to the DSO the technical capacity for flexibility mechanisms support and a User Interface (UI) where the aforementioned is visualised.
+The DSO operates the distribution network and handles the data sources coming from various systems such as SCADA/DMS, AMR, GIS etc. Data coming from various sources get integrated into the Open DSO Technical Platform providing an adequate level of network observability. Low cost PMUs are deployed in Mesogia area in critical network points and nodes where there is limited observability or a requirement to have an increased awareness such as DER and prosumers bidirectional power flows. Also, PMU data are integrated in the DSO Technical Platform following a data collection plan that serves the functionalities of the flexibility tools and services. Measurements from PMUs  enhance network awareness in terms of data granularity and number of nodes observed in a cost effective manner. Also, the open DSO Technical Platform performs the correlation of the data coming from different sources and systems during real time, providing to the DSO the technical capacity for flexibility mechanisms support and a User Interface (UI) where the aforementioned is visualised. All data is verified and secured by the use of blockchain technology to be developed in the Blockhain Access Platform of the project.
 
 
 ## 1.5. Key Performance Indicatiors (KPI)
@@ -114,7 +114,8 @@ Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-![Diagram of Use Case](img1.png)
+![Diagram of Use Case](UC_GR_1_2_3_4_UCdiagrams-UC5.svg)
+![Sequence diagram](UC_GR_1_2_3_4_Seq_Diag-UC5.svg)
 
 # 3. Technical Details
 
@@ -128,6 +129,7 @@ Add any remarks which do not fit in any other category
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
 | GIS | System | Geographical Information System |  |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
+| BAP| System |Blockchain Access Platform|
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
@@ -147,7 +149,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | | | | | |
+| 1 |Data integration and visualisation in the DSOTP (User Interface)|none|none|none|Data from various data sources as well as services' outcomes integrated and visualised in the DSOTP|
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -158,19 +160,17 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 ## 4.2. Steps – Scenarios
 
-**Scenario Name: No. 1 - (name of scenario)**
+**Scenario Name: No. 1 - Data integration and visualisation in the DSOTP (User Interface)**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
+| 1 |none-continuous process|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|I-01||
+| 2 |none-continuous process|Data Aquisition| PMU data are retrieved by and integrated in the DSOTP|REPORT|PMUs|DSOTP|I-04||
+| 3 |none-continuous process|Data Aquisition|	Various field measurements that reflect the network state are communicated |REPORT|DSO Data Server|BAP|I-01||
+| 4 |none-continuous process|Data Verification| All data received gets verified and secured via blockchain technology|EXECUTE|BAP|BAP|I-01||
+| 5 |none-continuous process|Data Aquisition|	Verified and secured data is delivered to the DSOTP |REPORT|BAP|DSOTP|I-01|
+| 6 |none-continuous process|Data Visualisation|Data and services' outcomes are visualised (User Interface) |EXECUTE|DSOTP|DSOTP|-|
 
-**Scenario Name: No. 2 - (name of scenario)**
-
-| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -186,7 +186,9 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 # 5. Information Exchanged
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | 
+|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|TCP/IP, IP over GPRS|
+|I-04|PMU Measurements|Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)|MQTT|
 
 
 ***Notes***

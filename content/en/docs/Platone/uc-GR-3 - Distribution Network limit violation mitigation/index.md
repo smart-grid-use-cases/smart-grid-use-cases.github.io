@@ -50,7 +50,7 @@ description: >
 Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that a voltage/line thermal limit violation is mitigated.The DSO will examine the operation of tools and services for decision making support to mitigate voltage/thermal line limits violations, assuming that the grid state estimation has a good degree of certainty .
 
 **Complete description**
-Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the state vector that the state estimation tool produces using the available measurements and the topology data from the AMR, GIS, SCADA and PMUs. The DSO communicates network tariffs in a day-ahead context. These tariffs appropriately reflect the potential of the network exceeding its physical limits resulting in violations and/or curtailment of demand/generation. Compared to the business as usual scenario of the flat network tariffs, the DSO aims at reducing such negative effects by the use of dynamic network tariffs, which incentivise the appropriate actions of the -assumed as- rational users of the distribution network.
+Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the state vector that the state estimation tool produces using the available measurements and the topology data from the AMR, GIS, SCADA and PMUs. The DSO communicates network tariffs in a day-ahead context. These tariffs appropriately reflect the potential of the network exceeding its physical limits resulting in violations and/or curtailment of demand/generation. Compared to the business as usual scenario of the flat network tariffs, the DSO aims at reducing such negative effects by the use of variable day-ahead network tariffs, which incentivise the appropriate actions of the -assumed as- rational users of the distribution network.
 
 add text - longer narrative from user viewpoint about *what* happens *how*, *where*, *when*, *why* and *under which assumptions*. It has to be written in a way that it can also be understood by non-experts.
 
@@ -128,12 +128,13 @@ Add any remarks which do not fit in any other category
 | DMS | System | Distribution Management System | |
 | DSO | Person | Distribution System Operator, the entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.  ||
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
+| DSOTP | System | DSO Technical Platform| |
 | GIS | System | Geographical Information System |  |
 | PMU | Device | Phasor Measurement Unit | |
 | RES | System | Renewable Energy Source| |
 | Residential customer | Person | Final end user to denote a typical commodity residential consumption with capability of neither generation nor storage.| |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
-| State Estimation tool| System | Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.|  |
+
 
 ***Notes:***
 * **Actor Type** - Device/ Sytem/ Person
@@ -153,8 +154,7 @@ OPTIONAL - you can leave it blank
 
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Voltage limit violation mitigation| State Estimation Tool | Voltage measurements of a node/multiple nodes out of permissible range |Distribution network observability | Voltage limit violation mitigated |
-| 2 | Line thermal limit violation mitigation| State Estimation Tool | Line thermal limit exceeded |Distribution network observability | Line congestion mitigated |
+| 1 | Network limit violations mitigation by the use of day-ahead network tariffs | none | none |Distribution network observability | Network limit violation mitigated |
 
 
 ***Notes***
@@ -166,19 +166,19 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 ## 4.2. Steps – Scenarios
 
-**Scenario Name: No. 1 - Voltage limit violation mitigation **
+**Scenario Name: No. 1 - Network limit violations mitigation by the use of day-ahead network tariffs **
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |Measurements of voltage at a node/multiple nodes out of the permissible range|Alarm generation|Alarm informing the DSO about the voltage limit violation|CREATE|State Estimation tool|DSO|Alarm||
-| 2 |Alarm informing the DSO about the voltage limit violation|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DSO|DSO|Network tariffs||
-| 3 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator|CREATE|DSO|Aggregator|Network tariffs||
-| 4 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|Setpoint||
-| 5 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|Setpoint||
-| 6 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES|Setpoint||
-| 7 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR,PMU|DSO Data Server|Measurements||
-| 8 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|State Estimation Tool|Measurements||
-| 9 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|State Estimation Tool|DSO|State Vector||
+| 1 |none-daily process|Tariffs retrieval|Day-ahead tariffs that reflect the expected state of the network sent to the DSO|CREATE|DSOTP|DSO|I-06||
+| 2 |Tariffs retrieval|Tariffs communication|Tariffs are communicated to the Aggregator|REPORT|DSO|Aggregator|I-06||
+| 3 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|I-07||
+| 4 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|I-07||
+| 5 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES|I-07||
+| 6 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|PMU|DSOTP|I-04||
+| 7 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|I-01||
+| 8 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|DSOTP|I-01||
+| 9 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSOTP|DSO|I-02||
 
 **Scenario Name: No. 2 - Line thermal limit violation mitigation **
 
@@ -209,9 +209,8 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
-|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)||
+|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|ethernet TCP/IP, IP over GPRS|
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
-|I-05|Alarm| Alarm about the Distribution Network limit violation||
 |I-06|Network tariffs|Network tariffs that reflect the Disribution Network state||
 |I-07|Setpoint|Setpoint for adjustment of flexible load/RES production||
 
