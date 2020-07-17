@@ -133,16 +133,16 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO| Person |DSO is each Distribution System Operator. It is an entity in charge for the management of the energy distribution networks| DMS, Light Node, Shared Customer Database, Simulator of DSO flexibility requests, Blockchain access layer|
-|Light Node|Device|Device installed on the electrical meter that reads, arranges, certifies in BlockChain and sends the measurement for the dispatching market to the SCD (shared customer database). Moreover the device receives set-point from DSO Platform and make it available to client on client apparatus (e.g. EMS) ||
-|DSO Technical Platform|System|System that manages the distribution network. It foresees the grid state estimation, the productions and consumptions. Moreover it defines the flexibility requests for DSO’s grid. The DSO Technical Platform interfaces to SCADA and other system comprising in the Operation Domain||
+| DSO| Person |DSO is each Distribution System Operator. It is an entity in charge for the management of the energy distribution networks||
+|Light Node|Device|Device installed on the electrical meter that reads, arranges, certifies in Blockchain and sends the measurement for the dispatching market to the SCD (shared customer database). Moreover, the device receives set-point from DSO Platform and make it available to client on client apparatus (e.g. EMS) ||
+|DSO Technical Platform|System|System that manages the distribution network. It foresees the grid state estimation, the productions and consumptions. Moreover, it defines the flexibility requests for DSO’s grid. The DSO Technical Platform interfaces to SCADA and other system comprising in the Operation Domain||
 |BMS|System|BMS is a computer-based control system installed in buildings that controls and monitors the building's mechanical and electrical equipment such as ventilation, lighting, power systems, fire systems, and security systems. In Italian demo the definition can also comprise the Home Management System (HMS) for residential users||
-|Blockchain Access Layer|System|Platform that certifies the customer data for the flexibility||
-|Shared Customer Database|System|Database that gathers all the data of flexibility resources and services and shares them with all the stakeholders||
+|Blockchain Access Platform (BAP) |System|Platform that certifies the customer data for the flexibility||
+|Shared Customer Database (SCD)|System|Database that gathers all the data of flexibility resources and services and shares them with all the stakeholders||
 |TSO|Person|TSO is each Transmission System Operator. It is an entity in charge for the management of the energy transmission networks|The TSO will be simulated in a tool developed in WP 2|
 |TSO simulator|Software component|Tool to emulate the TSO flexibility requests that involve the resources connected in medium and in low voltage||
-|Market Operator|Person|Market Operator is the responsible for the market Platform, it matches the offers and requests||
-|PlatOne Market Platform|Software component|Virtual Place where the requests of flexibility match the offers||
+|Market Operator (MO)|Person|Market Operator is the responsible for the market Platform, it matches the offers and requests||
+|PlatOne Market Platform (MP)|Software component|Virtual Place where the requests of flexibility match the offers||
 |Flexibility Resources (FR)|System|Resources, in customer premises, that provide flexibility to the market. They could be generation plants, electric vehicles, batteries, active demand. They are closely related to the demo’s areas||
 |Flexibility Resources Owner (FR Owner)|Person|FR Owner is the customer that makes available its flexibility to provide the ancillary services||
 |Aggregator/Flexibility operator|Person|Aggregator / Flexibility operator is an entity that aggregates the flexibility offers on the market and provide them to DSO in case of needs for the grid|Aggregator Platform|
@@ -176,7 +176,7 @@ OPTIONAL - you can leave it blank
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 a | DER availability | Availability of Flexibility resources | FR Owner, through the app developed in the demo, communicates the availability of own resources to Aggregator, for the day after | CREATE | FR Owner | Aggregator Platform | I - 12 |  |
+| 1 a | FR availability | Availability of Flexibility resources | FR Owner, through the app developed in the demo, communicates the availability of own resources to Aggregator, for the day after | CREATE | FR Owner | Aggregator Platform | I - 12 |  |
 | 2 a | Users involved | List of flexible customer - step 1 | Aggregator shares the flexible resources list with the SCD | CREATE | Aggregator Platform | SCD | I - 02 |  |
 | 3 a | Active POD | List of flexible customer - step 2 | The DSO acquires from SCD the list of POD involved | CREATE | SCD | DSO Techncial Platfoem | I - 02 |  |
 | 4 a | DSO forecasts for day after | DSO Data acquisition | DSO Technical Platform acquires the data from SCD and from the field sensors (V&C sensors and LV3G), throught the Operational Systems, and runs the forecast tool, to evaluate the production and the consumption | CREATE | Opeartional Systems | DSO Technical PlatForm | I-18 / I-01 |  |
@@ -186,8 +186,8 @@ OPTIONAL - you can leave it blank
 | 8 a | Involving of the FR | Active Grid Management | DSO Technical Platform checks the further amount of flexibility that is required to solve the congestion and detects the location of the flexibility resources connected to distribution system, that can contribute to eliminate the problem | CREATE | DSO Technical Platform | DSO Technical PlatForm |  |  |
 | 9 a | Flexibility Procurement | Flexibility requests | DSO communicates the flexibility requests (Volumes, time frame) to market | CREATE | DSO Technical Platform | market platfomr | I - 06 |  |
 | 10 a | Market session | Requests Acquisition | The market Platform acquires and stores the DSO Day Ahead Requests | CREATE | market platfomr | market platfomr |  |  |
-| 1 b | Data acquisition | Data DER Acquisition | AGGREGATOR, known the available resources, acquires their measurements from Shared Customer Database | GET | SCD | Aggregator Platform Platform | I - 01 |  |
-| 2 b | Customer flexibility | Providing of flexibility from DER | AGGREGATOR calculates the baseline and the flexibility energy for every customer in our premises | Execute | Aggregator Platform Platform | Aggregator Platform Platform |  |  |
+| 1 b | Data acquisition | Data FR Acquisition | AGGREGATOR, known the available resources, acquires their measurements from Shared Customer Database | GET | SCD | Aggregator Platform Platform | I - 01 |  |
+| 2 b | Customer flexibility | Providing of flexibility from FR | AGGREGATOR calculates the baseline and the flexibility energy for every customer in our premises | Execute | Aggregator Platform Platform | Aggregator Platform Platform |  |  |
 | 3 b | Definition of the offer | Offering | AGGREGATOR arranges the offers for PODs defining the flexibility providing | CREATE | Aggregator Platform Platform | Aggregator Platform Platform |  |  |
 | 4 b | Offers providing | Offers sending | AGGREGATOR sends the scheduling (volumes, time frame and price) for POD to market | CREATE | Aggregator Platform | market platfomr | I - 05 |  |
 | 5 b | Market session | Offers Acquisition | Market Operator Acquires and stores the Aggregator Day Ahead Bids | GET | market platform | market platfomr |  |  |
@@ -201,6 +201,7 @@ OPTIONAL - you can leave it blank
 | 15 a | Finally list of auctioned offers  | Auctioned offers | DSO sends the list of approved offers to Market | REPORT | DSO Technical Platform | market platfomr | I - 07 |  |
 | 16 a | Market outcomes | Market Day Ahead outcomes | DSO, TSO and Aggregator receives Market Day Ahead outcomes from the Market Operator | REPORT | market platform | DSO/TSO/Aggregator Platform | I - 08 |  |
 | 17 a | Available resources | Resource Planning | FR Owner receives the detail on the service to provide for the day after | REPORT | Aggregator Platform | FR Owner | I - 13 |  |
+
 
 
 
@@ -242,6 +243,7 @@ OPTIONAL - you can leave it blank
 
 
 
+
 **Scenario Name: No. 4 - Settlement**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
@@ -258,19 +260,19 @@ OPTIONAL - you can leave it blank
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
-|I-01|Quarterly measures|The aggregator baseline or the DSO grid forecast use the data measurements (active power, energy consumption, energy production,…) stored in SCD. This measures have a 15 minutes granularity||
+|I-01|Quarterly measures|The aggregator baseline or the DSO grid forecast uses the data measurements (active power, energy consumption, energy production,…) stored in SCD. This measures have a 15 minutes granularity||
 |I-02|Customer data|This information contains the list of customer involved in the flexibility providers for the day after||
 |I-03|BRP Baseline|The BRP defines for every POD the day after load profile, in compliance with the market day ahead||
 |I-04|Near real time measures|This information contains for every POD involved in the flexibility market, the active power measured every 4 second||
-|I-05|Data for Offer|The flexibility offer contains the volume, the time frame and the price provided by the DER involved in the group||
+|I-05|Data for Offer|The flexibility offer contains the volume, the time frame and the price provided by the FR involved in the group||
 |I-06|Data for Requests|The flexibility request contains the needs of flexibility (volume and time frame) localized in specific nodes of the grid||
 |I-07|Technical Validation|This information contains the assessment of the local grid constraints||
 |I-08|Market Outcomes|This information contains the list of offers arranges for economic order and in compliance with the grid constraint||
-|I-09|Order|The TSO and the DSO send a signal of activation to move the DER involved in the service||
+|I-09|Order|The TSO and the DSO send a signal of activation to move the FR involved in the service||
 |II-10|Congestion localization|The DSO technical platform defines a list of grid nodes subject to congestions||
 |I-11|Grid configuration|The DSO technical platform detects the possible grid configuration to solve the issue||
-|I-12|DER status|This information contains the customer availability for move own DER||
-|I-13|DER planning|This information contains the time frame, and the power that the customer have to provide during the activation||
+|I-12|FR status|This information contains the customer availability for move own FR||
+|I-13|FR planning|This information contains the time frame, and the power that the customer have to provide during the activation||
 |I-14|Activation Signal|The EMS sends the signal of activation to smart load ||
 |I-15|Settlement outcomes|This information contains for every offer the energy moved and the payment||
 |I-16|DSO payment|It is the payment of DSO for the energy provided||
