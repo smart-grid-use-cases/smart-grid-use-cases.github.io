@@ -3036,6 +3036,12 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
+&lt;td>DSOTP&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
 &lt;td>GIS&lt;/td>
 &lt;td>System&lt;/td>
 &lt;td>Geographical Information System&lt;/td>
@@ -3045,12 +3051,6 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;td>SCADA&lt;/td>
 &lt;td>Device&lt;/td>
 &lt;td>Supervisory Control And Data Acquisition system&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>State Estimation tool&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -3160,7 +3160,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Various field measurements that reflect the network state are communicated&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -3170,7 +3170,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Observability assessment&lt;/td>
 &lt;td>A numerical observability method is used in order to determine observability status&lt;/td>
 &lt;td>EXECUTE&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
@@ -3181,8 +3181,8 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Calculation of state vector&lt;/td>
 &lt;td>State estimation algorithm is carried out&lt;/td>
 &lt;td>EXECUTE&lt;/td>
-&lt;td>State estimation tool&lt;/td>
-&lt;td>State estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -3193,7 +3193,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>New measurements/pseudo-measurements integrated in the State Estimation tool&lt;/td>
 &lt;td>CHANGE&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>State estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -3203,8 +3203,8 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Calculation of state vector&lt;/td>
 &lt;td>State estimation algorithm is carried out&lt;/td>
 &lt;td>EXECUTE&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
-&lt;td>State estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -3214,7 +3214,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Output of State Estimation tool&lt;/td>
 &lt;td>Estimated state vector is communicated&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
@@ -3255,7 +3255,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Various field measurements that reflect the network state are communicated&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -3265,7 +3265,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Observability assessment&lt;/td>
 &lt;td>A numerical observability method is used in order to determine observability status&lt;/td>
 &lt;td>EXECUTE&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
@@ -3277,7 +3277,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Additional/alternative data to substitute for missing or inconsistent measurements, are integrated in the State Estimation tool&lt;/td>
 &lt;td>CHANGE&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -3287,7 +3287,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Observability assessment&lt;/td>
 &lt;td>A numerical observability method is used in order to determine observability status&lt;/td>
 &lt;td>EXECUTE&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
@@ -3298,7 +3298,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Output of State Estimation tool&lt;/td>
 &lt;td>Estimated state vector is communicated&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
@@ -3327,27 +3327,10 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Protocol&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>I-01&lt;/td>
-&lt;td>Measurements&lt;/td>
-&lt;td>Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-02&lt;/td>
-&lt;td>State Vector&lt;/td>
-&lt;td>Voltage magnitudes and angles of all network buses&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-03&lt;/td>
-&lt;td>Observability status&lt;/td>
-&lt;td>The result of the observability assessment of the Distribution Network, i.e.whether the state estimation problem can be resolved or not&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
 &lt;/table>
+&lt;p>|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|TCP/IP, IP over GPRS||
+|I-02|State Vector|Voltage magnitudes and angles of all network buses||
+|I-03|Observability status|The result of the observability assessment of the Distribution Network, i.e.whether the state estimation problem can be resolved or not||&lt;/p>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Information exchanged ID&lt;/strong> - unique number (I-01,I-02&amp;hellip;) for identification&lt;/li>
@@ -3597,6 +3580,12 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
+&lt;td>DSOTP&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
 &lt;td>GIS&lt;/td>
 &lt;td>System&lt;/td>
 &lt;td>Geographical Information System&lt;/td>
@@ -3612,12 +3601,6 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;td>SCADA&lt;/td>
 &lt;td>Device&lt;/td>
 &lt;td>Supervisory Control And Data Acquisition system&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>State Estimation tool&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -3719,50 +3702,61 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Various field measurements that reflect the network state are communicated&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
-&lt;td>PMU data integration&lt;/td>
-&lt;td>PMU and conventional measurements integrated into a unified measurement set&lt;/td>
-&lt;td>EXECUTE&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
-&lt;td>State estimation tool&lt;/td>
-&lt;td>I-01&lt;/td>
+&lt;td>PMU Data Aquisition&lt;/td>
+&lt;td>PMU measurements that reflect the network state are communicated&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>PMU&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-04&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
-&lt;td>Observability assessment&lt;/td>
-&lt;td>A numerical observability method is used in order to determine observability status&lt;/td>
+&lt;td>PMU data integration&lt;/td>
+&lt;td>PMU and conventional measurements integrated into a unified measurement set&lt;/td>
 &lt;td>EXECUTE&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
-&lt;td>State estimation tool&lt;/td>
-&lt;td>I-03&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>5&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
-&lt;td>Calculation of the state vector&lt;/td>
-&lt;td>State estimation algorithm is carried out&lt;/td>
+&lt;td>Observability assessment&lt;/td>
+&lt;td>A numerical observability method is used in order to determine observability status&lt;/td>
 &lt;td>EXECUTE&lt;/td>
-&lt;td>State estimation tool&lt;/td>
-&lt;td>State estimation tool&lt;/td>
-&lt;td>I-02&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
+&lt;td>Calculation of the state vector&lt;/td>
+&lt;td>State estimation algorithm is carried out&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-02&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>Measurements from the Distribution Network&lt;/td>
 &lt;td>Output of State Estimation tool&lt;/td>
 &lt;td>Estimated state vector is communicated&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
@@ -3791,33 +3785,11 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Protocol&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>I-01&lt;/td>
-&lt;td>Measurements&lt;/td>
-&lt;td>Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-02&lt;/td>
-&lt;td>State Vector&lt;/td>
-&lt;td>Voltage magnitudes and angles of all network buses&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-03&lt;/td>
-&lt;td>Observability status&lt;/td>
-&lt;td>The result of the observability assessment of the Distribution Network, i.e.whether the state estimation problem can be resolved or not&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-04&lt;/td>
-&lt;td>PMU Measurements&lt;/td>
-&lt;td>Measurements from PMUs (voltage phasors(angle and magnitude), current phasors(angle and magnitude))&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
 &lt;/table>
+&lt;p>|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|
+|I-02|State Vector|Voltage magnitudes and angles of all network buses||
+|I-03|Observability status|The result of the observability assessment of the Distribution Network, i.e.whether the state estimation problem can be resolved or not||
+|I-04|PMU Measurements|Measurements from PMUs (voltage phasors(angle and magnitude), current phasors(angle and magnitude))|MQTT|&lt;/p>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Information exchanged ID&lt;/strong> - unique number (I-01,I-02&amp;hellip;) for identification&lt;/li>
@@ -3945,7 +3917,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;p>&lt;strong>Short description&lt;/strong>
 Various types of flexible loads -aggregated for the scope of the Use Case- react to network tariffs sent by the DSO, so that a voltage/line thermal limit violation is mitigated.The DSO will examine the operation of tools and services for decision making support to mitigate voltage/thermal line limits violations, assuming that the grid state estimation has a good degree of certainty .&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>
-Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the state vector that the state estimation tool produces using the available measurements and the topology data from the AMR, GIS, SCADA and PMUs. The DSO communicates network tariffs in a day-ahead context. These tariffs appropriately reflect the potential of the network exceeding its physical limits resulting in violations and/or curtailment of demand/generation. Compared to the business as usual scenario of the flat network tariffs, the DSO aims at reducing such negative effects by the use of dynamic network tariffs, which incentivise the appropriate actions of the -assumed as- rational users of the distribution network.&lt;/p>
+Customers with flexible loads are connected to the distribution network and their loads are considered aggregated for the scope of the UCs regarding their management in the MV level. State of the network is known with a good degree of certainty based on the state vector that the state estimation tool produces using the available measurements and the topology data from the AMR, GIS, SCADA and PMUs. The DSO communicates network tariffs in a day-ahead context. These tariffs appropriately reflect the potential of the network exceeding its physical limits resulting in violations and/or curtailment of demand/generation. Compared to the business as usual scenario of the flat network tariffs, the DSO aims at reducing such negative effects by the use of variable day-ahead network tariffs, which incentivise the appropriate actions of the -assumed as- rational users of the distribution network.&lt;/p>
 &lt;p>add text - longer narrative from user viewpoint about &lt;em>what&lt;/em> happens &lt;em>how&lt;/em>, &lt;em>where&lt;/em>, &lt;em>when&lt;/em>, &lt;em>why&lt;/em> and &lt;em>under which assumptions&lt;/em>. It has to be written in a way that it can also be understood by non-experts.&lt;/p>
 &lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
 &lt;table>
@@ -4107,6 +4079,12 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
+&lt;td>DSOTP&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
 &lt;td>GIS&lt;/td>
 &lt;td>System&lt;/td>
 &lt;td>Geographical Information System&lt;/td>
@@ -4134,12 +4112,6 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;td>SCADA&lt;/td>
 &lt;td>Device&lt;/td>
 &lt;td>Supervisory Control And Data Acquisition system&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>State Estimation tool&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -4190,19 +4162,11 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>Voltage limit violation mitigation&lt;/td>
-&lt;td>State Estimation Tool&lt;/td>
-&lt;td>Voltage measurements of a node/multiple nodes out of permissible range&lt;/td>
+&lt;td>Network limit violations mitigation by the use of day-ahead network tariffs&lt;/td>
+&lt;td>none&lt;/td>
+&lt;td>none&lt;/td>
 &lt;td>Distribution network observability&lt;/td>
-&lt;td>Voltage limit violation mitigated&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Line thermal limit violation mitigation&lt;/td>
-&lt;td>State Estimation Tool&lt;/td>
-&lt;td>Line thermal limit exceeded&lt;/td>
-&lt;td>Distribution network observability&lt;/td>
-&lt;td>Line congestion mitigated&lt;/td>
+&lt;td>Network limit violation mitigated&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -4215,7 +4179,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;li>&lt;strong>Post-Condition&lt;/strong> - indicates which terms should be valid after the scenario. TIt can also specify whether a scenario has been successfully completed or not.&lt;/li>
 &lt;/ul>
 &lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;p>**Scenario Name: No. 1 - Voltage limit violation mitigation **&lt;/p>
+&lt;p>**Scenario Name: No. 1 - Network limit violations mitigation by the use of day-ahead network tariffs **&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -4233,68 +4197,68 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>Measurements of voltage at a node/multiple nodes out of the permissible range&lt;/td>
-&lt;td>Alarm generation&lt;/td>
-&lt;td>Alarm informing the DSO about the voltage limit violation&lt;/td>
+&lt;td>none-daily process&lt;/td>
+&lt;td>Tariffs retrieval&lt;/td>
+&lt;td>Day-ahead tariffs that reflect the expected state of the network sent to the DSO&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>Alarm&lt;/td>
+&lt;td>I-06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
-&lt;td>Alarm informing the DSO about the voltage limit violation&lt;/td>
-&lt;td>Tariffs calculation&lt;/td>
-&lt;td>Tariffs calculation that reflect the situation of the network&lt;/td>
-&lt;td>EXECUTE&lt;/td>
+&lt;td>Tariffs retrieval&lt;/td>
+&lt;td>Tariffs communication&lt;/td>
+&lt;td>Tariffs are communicated to the Aggregator&lt;/td>
+&lt;td>REPORT&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>DSO&lt;/td>
-&lt;td>Network tariffs&lt;/td>
+&lt;td>Aggregator&lt;/td>
+&lt;td>I-06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
-&lt;td>Tariffs calculation&lt;/td>
-&lt;td>Tariffs communication&lt;/td>
-&lt;td>Tariffs are communicated to the Aggregator&lt;/td>
-&lt;td>CREATE&lt;/td>
-&lt;td>DSO&lt;/td>
-&lt;td>Aggregator&lt;/td>
-&lt;td>Network tariffs&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
 &lt;td>Tariffs communication&lt;/td>
 &lt;td>Setpoint sent to Residential Customer&lt;/td>
 &lt;td>Sending setpoint to the flexibility load&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator&lt;/td>
 &lt;td>Residential consumer&lt;/td>
-&lt;td>Setpoint&lt;/td>
+&lt;td>I-07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>5&lt;/td>
+&lt;td>4&lt;/td>
 &lt;td>Tariffs communication&lt;/td>
 &lt;td>Setpoint sent to Commercial Customer&lt;/td>
 &lt;td>Sending setpoint to the flexibility load&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator&lt;/td>
 &lt;td>Commercial consumer&lt;/td>
-&lt;td>Setpoint&lt;/td>
+&lt;td>I-07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>6&lt;/td>
+&lt;td>5&lt;/td>
 &lt;td>Tariffs communication&lt;/td>
 &lt;td>Setpoint sent to RES&lt;/td>
 &lt;td>Sending setpoint to the RES producer&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator&lt;/td>
 &lt;td>RES&lt;/td>
-&lt;td>Setpoint&lt;/td>
+&lt;td>I-07&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>none&lt;/td>
+&lt;td>Data Aquisition&lt;/td>
+&lt;td>New Distribution Network state (Distribution Network state updated following the Aggregator&amp;rsquo;s response)&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>PMU&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-04&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4303,9 +4267,9 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Data Aquisition&lt;/td>
 &lt;td>New Distribution Network state (Distribution Network state updated following the Aggregator&amp;rsquo;s response)&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>SCADA,DMS,GIS,AMR,PMU&lt;/td>
+&lt;td>SCADA,DMS,GIS,AMR&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4315,8 +4279,8 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>New Distribution Network state&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>State Estimation Tool&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4325,9 +4289,9 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Data Aquisition&lt;/td>
 &lt;td>New Distribution Network state&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>State Estimation Tool&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>State Vector&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -4476,18 +4440,12 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>I-01&lt;/td>
 &lt;td>Measurements&lt;/td>
 &lt;td>Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>ethernet TCP/IP, IP over GPRS&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-02&lt;/td>
 &lt;td>State Vector&lt;/td>
 &lt;td>Voltage magnitudes and angles of all network buses&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-05&lt;/td>
-&lt;td>Alarm&lt;/td>
-&lt;td>Alarm about the Distribution Network limit violation&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4762,13 +4720,19 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tr>
 &lt;td>DSO&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Distribution System Operator&lt;/td>
-&lt;td>The entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.&lt;/td>
+&lt;td>Distribution System Operator, the entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>DSO Data Server&lt;/td>
 &lt;td>System&lt;/td>
 &lt;td>Database containing data from AMR, DMS &amp;amp; SCADA&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DSOTP&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4799,12 +4763,6 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;td>SCADA&lt;/td>
 &lt;td>Device&lt;/td>
 &lt;td>Supervisory Control And Data Acquisition system&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>State Estimation tool&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Tool that allows and supports the operation of other DMS services and applications by processing network observability, improving confidence in available measurement data and calculating the most likely real-time network state.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4895,47 +4853,58 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>2&lt;/td>
+&lt;td>1&lt;/td>
 &lt;td>TSO needs frequency support&lt;/td>
 &lt;td>Frequency support request&lt;/td>
 &lt;td>Frequency support request sent to the Aggregator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>TSO&lt;/td>
 &lt;td>Aggregator&lt;/td>
+&lt;td>I-08&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>TSO needs frequency support&lt;/td>
 &lt;td>Frequency support request&lt;/td>
+&lt;td>Frequency support request communicated to the DSO&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>TSO&lt;/td>
+&lt;td>DSO&lt;/td>
+&lt;td>I-08&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
-&lt;td>TSO needs frequency support&lt;/td>
+&lt;td>DSO receives frequency support request from TSO&lt;/td>
 &lt;td>Frequency support request&lt;/td>
-&lt;td>Frequency support communicated to the DSO&lt;/td>
-&lt;td>CREATE&lt;/td>
-&lt;td>TSO&lt;/td>
+&lt;td>Frequency support request sent to the DSOTP&lt;/td>
+&lt;td>REPORT&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>Frequency support request&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-08&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4&lt;/td>
-&lt;td>Frequency support request&lt;/td>
-&lt;td>Tariffs calculation&lt;/td>
-&lt;td>Tariffs calculation that reflect the situation of the network&lt;/td>
-&lt;td>EXECUTE&lt;/td>
+&lt;td>Frequency support request recieved by DSOTP&lt;/td>
+&lt;td>Tariffs retrieval&lt;/td>
+&lt;td>Tariffs are sent to the DSO&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>DSO&lt;/td>
-&lt;td>Network tariffs&lt;/td>
+&lt;td>I-06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>5&lt;/td>
-&lt;td>Tariffs calculation&lt;/td>
+&lt;td>Tariffs retrieval&lt;/td>
 &lt;td>Tariffs communication&lt;/td>
 &lt;td>Tariffs are communicated to the Aggregator&lt;/td>
-&lt;td>CREATE&lt;/td>
+&lt;td>REPORT&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>Aggregator&lt;/td>
-&lt;td>Network tariffs&lt;/td>
+&lt;td>I-06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4946,7 +4915,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator&lt;/td>
 &lt;td>Residential consumer&lt;/td>
-&lt;td>Setpoint&lt;/td>
+&lt;td>I-07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4957,7 +4926,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator&lt;/td>
 &lt;td>Commercial consumer&lt;/td>
-&lt;td>Setpoint&lt;/td>
+&lt;td>I-07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4968,7 +4937,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator&lt;/td>
 &lt;td>RES&lt;/td>
-&lt;td>Setpoint&lt;/td>
+&lt;td>I-07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4977,20 +4946,20 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Data Aquisition&lt;/td>
 &lt;td>New Distribution Network state (Distribution Network state updated following the Aggregator&amp;rsquo;s response)&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>SCADA,DMS,GIS,AMR,PMU&lt;/td>
-&lt;td>DSO Data Server&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>PMU&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-04&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>10&lt;/td>
-&lt;td>New Distribution Network state&lt;/td>
+&lt;td>none&lt;/td>
 &lt;td>Data Aquisition&lt;/td>
-&lt;td>New Distribution Network state&lt;/td>
+&lt;td>New Distribution Network state (Distribution Network state updated following the Aggregator&amp;rsquo;s response)&lt;/td>
 &lt;td>REPORT&lt;/td>
+&lt;td>SCADA,DMS,GIS,AMR&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>State Estimation Tool&lt;/td>
-&lt;td>Measurements&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4999,9 +4968,20 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Data Aquisition&lt;/td>
 &lt;td>New Distribution Network state&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>State Estimation Tool&lt;/td>
+&lt;td>DSO Data Server&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-01&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12&lt;/td>
+&lt;td>New Distribution Network state&lt;/td>
+&lt;td>Data Aquisition&lt;/td>
+&lt;td>New Distribution Network state&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>DSOTP&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>State Vector&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -5028,39 +5008,13 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Protocol&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>I-01&lt;/td>
-&lt;td>Measurements&lt;/td>
-&lt;td>Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-02&lt;/td>
-&lt;td>State Vector&lt;/td>
-&lt;td>Voltage magnitudes and angles of all network buses&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-06&lt;/td>
-&lt;td>Network tariffs&lt;/td>
-&lt;td>Network tariffs that reflect the Disribution Network state&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-07&lt;/td>
-&lt;td>Setpoint&lt;/td>
-&lt;td>Setpoint for adjustment of flexible load/RES production&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-08&lt;/td>
-&lt;td>Frequency support request&lt;/td>
-&lt;td>Frequency support request from the TSO&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
 &lt;/table>
+&lt;p>|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|TCP/IP, IP over GPRS|
+|I-02|State Vector|Voltage magnitudes and angles of all network buses||
+|I-04|PMU Measurements|Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)|MQTT|
+|I-06|Network tariffs|Network tariffs that reflect the Disribution Network state||
+|I-07|Setpoint|Setpoint for adjustment of flexible load/RES production||
+|I-08|Frequency support request|Frequency support request from the TSO||&lt;/p>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Information exchanged ID&lt;/strong> - unique number (I-01,I-02&amp;hellip;) for identification&lt;/li>
@@ -5161,7 +5115,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>Scope&lt;/td>
-&lt;td>The scope of the UC is to examine the integration and operational use of low cost PMUs in order to increase network observability collecting measurement data such as voltage, current and phases in various points of the distribution network. More in detail, the DSO will use the data collected to improve the operation of the tools and services developed within the project by exploiting increased data granularity. Furthermore, the data coming from various sources and systems of the DSO should be integrated in the DSO Technical Platform and a User Interface (UI) should be developed to allow the DSO personnel to use the available tools and services. &lt;br/> In addition, all the available data should be further delivered for use by tools and services developed in order to support flexibility mechanisms. All the appropriate communication protocols should be integrated and tested to develop a unique point of data delivery to various actors involved in the project.&lt;/td>
+&lt;td>The scope of the UC is to examine the integration and operational use of low cost PMUs in order to increase network observability collecting measurement data such as voltage, current and phases in various points of the distribution network. More in detail, the DSO will use the data collected to improve the operation of the tools and services developed within the project by exploiting increased data granularity. Furthermore, the data coming from various sources and systems of the DSO should be integrated in the DSO Technical Platform having first passed through the Blockchain Access Platform developed in the project to provide data access security and data integrity. In addition, all the available data should be further delivered for use by tools and services developed in order to support flexibility mechanisms. All the appropriate communication protocols should be integrated and tested to develop a unique point of data delivery to various actors involved in the project and a User Interface (UI) should be developed to allow the DSO personnel to use the available tools and services.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
@@ -5181,9 +5135,9 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/ul>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>
-PMUs are installed in critical network nodes to increase network observability. PMU measurements along with other DSO data (network topology, customer loads, etc) are integrated in the DSO Technical Platform to be visulalised in a User Interface (UI), so that DSO can make use of tools and services developed in the project.&lt;/p>
+PMUs are installed in critical network nodes to increase network observability. PMU measurements along with other DSO data (network topology, customer loads, etc) are integrated in the DSO Technical Platform to be visulalised in a User Interface (UI), so that DSO can make use of tools and services developed in the project. Aforementioned data is going through the Blockchain Access Platform developed in the project to ensure data access security and data integrity.&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>The DSO operates the distribution network and handles the data sources coming from various systems such as SCADA/DMS, AMR, GIS etc. Data coming from various sources get integrated into the Open DSO Technical Platform providing an adequate level of network observability. Low cost PMUs are deployed in Mesogia area in critical network points and nodes where there is limited observability or a requirement to have an increased awareness such as DER and prosumers bidirectional power flows. Also, PMU data are integrated in the DSO Technical Platform following a data collection plan that serves the functionalities of the flexibility tools and services. Measurements from PMUs enhance network awareness in terms of data granularity and number of nodes observed in a cost effective manner. Also, the open DSO Technical Platform performs the correlation of the data coming from different sources and systems during real time, providing to the DSO the technical capacity for flexibility mechanisms support and a User Interface (UI) where the aforementioned is visualised.&lt;/p>
+&lt;p>The DSO operates the distribution network and handles the data sources coming from various systems such as SCADA/DMS, AMR, GIS etc. Data coming from various sources get integrated into the Open DSO Technical Platform providing an adequate level of network observability. Low cost PMUs are deployed in Mesogia area in critical network points and nodes where there is limited observability or a requirement to have an increased awareness such as DER and prosumers bidirectional power flows. Also, PMU data are integrated in the DSO Technical Platform following a data collection plan that serves the functionalities of the flexibility tools and services. Measurements from PMUs enhance network awareness in terms of data granularity and number of nodes observed in a cost effective manner. Also, the open DSO Technical Platform performs the correlation of the data coming from different sources and systems during real time, providing to the DSO the technical capacity for flexibility mechanisms support and a User Interface (UI) where the aforementioned is visualised. All data is verified and secured by the use of blockchain technology to be developed in the Blockhain Access Platform of the project.&lt;/p>
 &lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -5293,7 +5247,8 @@ Can be left blank now&lt;/p>
 &lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>
 Add any remarks which do not fit in any other category&lt;/p>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;img src="img1.png" alt="Diagram of Use Case">&lt;/p>
+&lt;p>&lt;img src="UC_GR_1_2_3_4_UCdiagrams-UC5.svg" alt="Diagram of Use Case">
+&lt;img src="UC_GR_1_2_3_4_Seq_Diag-UC5.svg" alt="Sequence diagram">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -5340,6 +5295,12 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;td>SCADA&lt;/td>
 &lt;td>Device&lt;/td>
 &lt;td>Supervisory Control And Data Acquisition system&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BAP&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Blockchain Access Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -5390,11 +5351,11 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Data integration and visualisation in the DSOTP (User Interface)&lt;/td>
+&lt;td>none&lt;/td>
+&lt;td>none&lt;/td>
+&lt;td>none&lt;/td>
+&lt;td>Data from various data sources as well as services&amp;rsquo; outcomes integrated and visualised in the DSOTP&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -5407,7 +5368,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;li>&lt;strong>Post-Condition&lt;/strong> - indicates which terms should be valid after the scenario. TIt can also specify whether a scenario has been successfully completed or not.&lt;/li>
 &lt;/ul>
 &lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;p>&lt;strong>Scenario Name: No. 1 - (name of scenario)&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Scenario Name: No. 1 - Data integration and visualisation in the DSOTP (User Interface)&lt;/strong>&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -5425,64 +5386,68 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;strong>Scenario Name: No. 2 - (name of scenario)&lt;/strong>&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged (IDs)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>none-continuous process&lt;/td>
+&lt;td>Data Aquisition&lt;/td>
+&lt;td>Various field measurements that reflect the network state are communicated&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>SCADA,DMS,GIS,AMR&lt;/td>
+&lt;td>DSO Data Server&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
+&lt;td>none-continuous process&lt;/td>
+&lt;td>Data Aquisition&lt;/td>
+&lt;td>PMU data are retrieved by and integrated in the DSOTP&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>PMUs&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-04&lt;/td>
 &lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>none-continuous process&lt;/td>
+&lt;td>Data Aquisition&lt;/td>
+&lt;td>Various field measurements that reflect the network state are communicated&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>DSO Data Server&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>none-continuous process&lt;/td>
+&lt;td>Data Verification&lt;/td>
+&lt;td>All data received gets verified and secured via blockchain technology&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>none-continuous process&lt;/td>
+&lt;td>Data Aquisition&lt;/td>
+&lt;td>Verified and secured data is delivered to the DSOTP&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>none-continuous process&lt;/td>
+&lt;td>Data Visualisation&lt;/td>
+&lt;td>Data and services&amp;rsquo; outcomes are visualised (User Interface)&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>-&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -5509,6 +5474,20 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Protocol&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>I-01&lt;/td>
+&lt;td>Measurements&lt;/td>
+&lt;td>Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)&lt;/td>
+&lt;td>TCP/IP, IP over GPRS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-04&lt;/td>
+&lt;td>PMU Measurements&lt;/td>
+&lt;td>Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)&lt;/td>
+&lt;td>MQTT&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
 &lt;ul>
