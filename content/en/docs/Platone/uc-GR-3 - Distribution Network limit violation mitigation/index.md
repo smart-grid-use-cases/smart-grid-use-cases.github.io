@@ -170,7 +170,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |none-daily process|Tariffs retrieval|Day-ahead tariffs that reflect the expected state of the network sent to the DSO|REPORT|DSOTP|DSO|I-06||
+| 1 |none-daily process|Tariffs retrieval|Day-ahead tariffs that reflect the expected state of the network sent to the DSO|CREATE|DSOTP|DSO|I-06||
 | 2 |Tariffs retrieval|Tariffs communication|Tariffs are communicated to the Aggregator|REPORT|DSO|Aggregator|I-06||
 | 3 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|I-07||
 | 4 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|I-07||
