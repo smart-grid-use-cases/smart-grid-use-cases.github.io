@@ -134,16 +134,16 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| DSO| Person |DSO is each Distribution System Operator. It is an entity in charge for the management of the energy distribution networks| DMS, Light Node, Shared Customer Database, Simulator of DSO flexibility requests, Blockchain access layer|
-|Light Node|Device|Device installed on the electrical meter that reads, arranges, certifies in BlockChain and sends the measurement for the dispatching market to the SCD (shared customer database). Moreover the device receives set-point from DSO Platform and make it available to client on client apparatus (e.g. EMS) ||
-|DSO Technical Platform|System|System that manages the distribution network. It foresees the grid state estimation, the productions and consumptions. Moreover it defines the flexibility requests for DSO’s grid. The DSO Technical Platform interfaces to SCADA and other system comprising in the Operation Domain||
+| DSO| Person |DSO is each Distribution System Operator. It is an entity in charge for the management of the energy distribution networks||
+|Light Node|Device|Device installed on the electrical meter that reads, arranges, certifies in Blockchain and sends the measurement for the dispatching market to the SCD (shared customer database). Moreover, the device receives set-point from DSO Platform and make it available to client on client apparatus (e.g. EMS) ||
+|DSO Technical Platform|System|System that manages the distribution network. It foresees the grid state estimation, the productions and consumptions. Moreover, it defines the flexibility requests for DSO’s grid. The DSO Technical Platform interfaces to SCADA and other system comprising in the Operation Domain||
 |BMS|System|BMS is a computer-based control system installed in buildings that controls and monitors the building's mechanical and electrical equipment such as ventilation, lighting, power systems, fire systems, and security systems. In Italian demo the definition can also comprise the Home Management System (HMS) for residential users||
-|Blockchain Access Layer|System|Platform that certifies the customer data for the flexibility||
-|Shared Customer Database|System|Database that gathers all the data of flexibility resources and services and shares them with all the stakeholders||
+|Blockchain Access Platform (BAP) |System|Platform that certifies the customer data for the flexibility||
+|Shared Customer Database (SCD)|System|Database that gathers all the data of flexibility resources and services and shares them with all the stakeholders||
 |TSO|Person|TSO is each Transmission System Operator. It is an entity in charge for the management of the energy transmission networks|The TSO will be simulated in a tool developed in WP 2|
 |TSO simulator|Software component|Tool to emulate the TSO flexibility requests that involve the resources connected in medium and in low voltage||
-|Market Operator|Person|Market Operator is the responsible for the market Platform, it matches the offers and requests||
-|PlatOne Market Platform|Software component|Virtual Place where the requests of flexibility match the offers||
+|Market Operator (MO)|Person|Market Operator is the responsible for the market Platform, it matches the offers and requests||
+|PlatOne Market Platform (MP)|Software component|Virtual Place where the requests of flexibility match the offers||
 |Flexibility Resources (FR)|System|Resources, in customer premises, that provide flexibility to the market. They could be generation plants, electric vehicles, batteries, active demand. They are closely related to the demo’s areas||
 |Flexibility Resources Owner (FR Owner)|Person|FR Owner is the customer that makes available its flexibility to provide the ancillary services||
 |Aggregator/Flexibility operator|Person|Aggregator / Flexibility operator is an entity that aggregates the flexibility offers on the market and provide them to DSO in case of needs for the grid|Aggregator Platform|
@@ -207,6 +207,7 @@ OPTIONAL - you can leave it blank
 
 
 
+
 **Scenario Name: No. 2 - Real Time**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
@@ -242,8 +243,6 @@ OPTIONAL - you can leave it blank
 | 6 a | Using of Bolckchian Access Layer | Data Certification | The Light Node carries the set point and the measurements (takes every 4 sec.) in the BlockChain | CREATE | Light Nodes | BlockChain Access Platform | I-04 / I-09 |  |
 | 7 a | Flexibility Certification | BlockChain outcomes | The Blockchain sends the certification data to SCD | CREATE | BlockChain Access Platform | Shared Customer Database | I-04 / I-09 |  |
 | 8 a | Measurement of flexibility energy | Energy Monitoring | Light Node measures the electrical quantities for calculate the flexibility and sends them to SCD | CREATE | Light Node | Shared Customer Database | I-04 / I-09 |  |
-
-
 
 
 **Scenario Name: No. 4 - Settlement**
