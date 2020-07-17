@@ -36,8 +36,8 @@ description: >
 *Scope and objectives of use case*
 |||
 | --- | --- |
-| Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy that line and voltage limits of the distribution network are not violated in the case of a frequency support request by the transmission system.|
-| **Objective(s)** | To keep the distribution network within physical limits (line and voltage) with appropriate actions in the case of a frequency restoration reserve activation request by the TSO.|
+| Scope | The scope of the UC is to examine the operational use of flexibility tools in order to reduce the possibility of negative effects on the distribution in the case of a frequency support request by the transmission system.|
+| **Objective(s)** | To achieve better operating conditions of the distribution network in the case of a frequency restoration reserve activation request by the TSO.|
 | **Related business case(s)** |add text|
 
 ***Notes:***
@@ -199,6 +199,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
+
 |I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|TCP/IP, IP over GPRS|
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
 |I-04|PMU Measurements|Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)|MQTT|

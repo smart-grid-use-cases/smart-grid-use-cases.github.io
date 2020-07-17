@@ -191,9 +191,10 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Protocol** |
 | --- | --- | --- | --- |
-|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|TCP/IP, IP over GPRS|
+
+|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|TCP/IP, IP over GPRS||
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
-|I-03|Observability status|The result of the observability assessment of the Distribution Network||
+|I-03|Observability status|The result of the observability assessment of the Distribution Network, i.e.whether the state estimation problem can be resolved or not||
 
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
