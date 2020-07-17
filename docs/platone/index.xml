@@ -5757,18 +5757,18 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>DSO&lt;/td>
 &lt;td>Person&lt;/td>
 &lt;td>DSO is each Distribution System Operator. It is an entity in charge for the management of the energy distribution networks&lt;/td>
-&lt;td>DMS, Light Node, Shared Customer Database, Simulator of DSO flexibility requests, Blockchain access layer&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Light Node&lt;/td>
 &lt;td>Device&lt;/td>
-&lt;td>Device installed on the electrical meter that reads, arranges, certifies in BlockChain and sends the measurement for the dispatching market to the SCD (shared customer database). Moreover the device receives set-point from DSO Platform and make it available to client on client apparatus (e.g. EMS)&lt;/td>
+&lt;td>Device installed on the electrical meter that reads, arranges, certifies in Blockchain and sends the measurement for the dispatching market to the SCD (shared customer database). Moreover, the device receives set-point from DSO Platform and make it available to client on client apparatus (e.g. EMS)&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>System that manages the distribution network. It foresees the grid state estimation, the productions and consumptions. Moreover it defines the flexibility requests for DSO’s grid. The DSO Technical Platform interfaces to SCADA and other system comprising in the Operation Domain&lt;/td>
+&lt;td>System that manages the distribution network. It foresees the grid state estimation, the productions and consumptions. Moreover, it defines the flexibility requests for DSO’s grid. The DSO Technical Platform interfaces to SCADA and other system comprising in the Operation Domain&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -5778,13 +5778,13 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Blockchain Access Layer&lt;/td>
+&lt;td>Blockchain Access Platform (BAP)&lt;/td>
 &lt;td>System&lt;/td>
 &lt;td>Platform that certifies the customer data for the flexibility&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Shared Customer Database&lt;/td>
+&lt;td>Shared Customer Database (SCD)&lt;/td>
 &lt;td>System&lt;/td>
 &lt;td>Database that gathers all the data of flexibility resources and services and shares them with all the stakeholders&lt;/td>
 &lt;td>&lt;/td>
@@ -5802,13 +5802,13 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Market Operator&lt;/td>
+&lt;td>Market Operator (MO)&lt;/td>
 &lt;td>Person&lt;/td>
 &lt;td>Market Operator is the responsible for the market Platform, it matches the offers and requests&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>PlatOne Market Platform&lt;/td>
+&lt;td>PlatOne Market Platform (MP)&lt;/td>
 &lt;td>Software component&lt;/td>
 &lt;td>Virtual Place where the requests of flexibility match the offers&lt;/td>
 &lt;td>&lt;/td>
