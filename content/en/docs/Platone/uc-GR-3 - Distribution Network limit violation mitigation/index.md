@@ -211,8 +211,8 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 | --- | --- | --- | --- |
 |I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|ethernet TCP/IP, IP over GPRS|
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
-|I-06|Network tariffs|Network tariffs that reflect the Disribution Network state||
-|I-07|Setpoint|Setpoint for adjustment of flexible load/RES production||
+|I-06|Network tariffs|Network tariffs that reflect the Disribution Network state|IP|
+|I-07|Setpoint|Setpoint for adjustment of flexible load/RES production|IP|
 
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
