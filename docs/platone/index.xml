@@ -3938,7 +3938,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>* To monitor and control the voltage level at a network node always into the operational limit as well as the thermal line load within permissible range. &lt;br/> * To immediately respond in case of a violation employing flexibility capabilities.&lt;/td>
+&lt;td>*To use network tariffs in order to incentivise a more efficient operation of the network while respecting operation limits (voltages, lines) &lt;br/>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
