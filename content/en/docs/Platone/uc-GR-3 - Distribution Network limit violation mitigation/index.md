@@ -35,7 +35,7 @@ description: >
 |||
 | --- | --- |
 | Scope | The scope of the UC is to examine the operational use of flexibility tools in order to satisfy EN50160 in case of a voltage level limit violation in the distribution network and mitigate line congestion, especially in MV lines with flexible loads availability.  |
-| **Objective(s)** | * To monitor and control the voltage level at a network node always into the operational limit as well as the thermal line load within permissible range. <br/> * To immediately respond in case of a violation employing flexibility capabilities.|
+| **Objective(s)** | *To use network tariffs in order to incentivise a more efficient operation of the network while respecting operation limits (voltages, lines)  <br/>|
 | **Related business case(s)** |add text|
 
 ***Notes:***
