@@ -3327,10 +3327,27 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Protocol&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>I-01&lt;/td>
+&lt;td>Measurements&lt;/td>
+&lt;td>Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)&lt;/td>
+&lt;td>TCP/IP, IP over GPRS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-02&lt;/td>
+&lt;td>State Vector&lt;/td>
+&lt;td>Voltage magnitudes and angles of all network buses&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-03&lt;/td>
+&lt;td>Observability status&lt;/td>
+&lt;td>The result of the observability assessment of the Distribution Network, i.e.whether the state estimation problem can be resolved or not&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
-&lt;p>|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|TCP/IP, IP over GPRS||
-|I-02|State Vector|Voltage magnitudes and angles of all network buses||
-|I-03|Observability status|The result of the observability assessment of the Distribution Network, i.e.whether the state estimation problem can be resolved or not||&lt;/p>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Information exchanged ID&lt;/strong> - unique number (I-01,I-02&amp;hellip;) for identification&lt;/li>
@@ -3785,11 +3802,33 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Protocol&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>I-01&lt;/td>
+&lt;td>Measurements&lt;/td>
+&lt;td>Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)&lt;/td>
+&lt;td>ethernet TCP/IP, IP over GPRS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-02&lt;/td>
+&lt;td>State Vector&lt;/td>
+&lt;td>Voltage magnitudes and angles of all network buses&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-03&lt;/td>
+&lt;td>Observability status&lt;/td>
+&lt;td>The result of the observability assessment of the Distribution Network, i.e.whether the state estimation problem can be resolved or not&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-04&lt;/td>
+&lt;td>PMU Measurements&lt;/td>
+&lt;td>Measurements from PMUs (voltage phasors(angle and magnitude), current phasors(angle and magnitude))&lt;/td>
+&lt;td>MQTT&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
-&lt;p>|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|
-|I-02|State Vector|Voltage magnitudes and angles of all network buses||
-|I-03|Observability status|The result of the observability assessment of the Distribution Network, i.e.whether the state estimation problem can be resolved or not||
-|I-04|PMU Measurements|Measurements from PMUs (voltage phasors(angle and magnitude), current phasors(angle and magnitude))|MQTT|&lt;/p>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Information exchanged ID&lt;/strong> - unique number (I-01,I-02&amp;hellip;) for identification&lt;/li>
@@ -4452,13 +4491,13 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>I-06&lt;/td>
 &lt;td>Network tariffs&lt;/td>
 &lt;td>Network tariffs that reflect the Disribution Network state&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>IP&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-07&lt;/td>
 &lt;td>Setpoint&lt;/td>
 &lt;td>Setpoint for adjustment of flexible load/RES production&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>IP&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -5008,13 +5047,45 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Protocol&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>I-01&lt;/td>
+&lt;td>Measurements&lt;/td>
+&lt;td>Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)&lt;/td>
+&lt;td>TCP/IP, IP over GPRS&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-02&lt;/td>
+&lt;td>State Vector&lt;/td>
+&lt;td>Voltage magnitudes and angles of all network buses&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-04&lt;/td>
+&lt;td>PMU Measurements&lt;/td>
+&lt;td>Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)&lt;/td>
+&lt;td>MQTT&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-06&lt;/td>
+&lt;td>Network tariffs&lt;/td>
+&lt;td>Network tariffs that reflect the Disribution Network state&lt;/td>
+&lt;td>IP&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-07&lt;/td>
+&lt;td>Setpoint&lt;/td>
+&lt;td>Setpoint for adjustment of flexible load/RES production&lt;/td>
+&lt;td>IP&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-08&lt;/td>
+&lt;td>Frequency support request&lt;/td>
+&lt;td>Frequency support request from the TSO&lt;/td>
+&lt;td>IP&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
-&lt;p>|I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|TCP/IP, IP over GPRS|
-|I-02|State Vector|Voltage magnitudes and angles of all network buses||
-|I-04|PMU Measurements|Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)|MQTT|
-|I-06|Network tariffs|Network tariffs that reflect the Disribution Network state||
-|I-07|Setpoint|Setpoint for adjustment of flexible load/RES production||
-|I-08|Frequency support request|Frequency support request from the TSO||&lt;/p>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Information exchanged ID&lt;/strong> - unique number (I-01,I-02&amp;hellip;) for identification&lt;/li>
