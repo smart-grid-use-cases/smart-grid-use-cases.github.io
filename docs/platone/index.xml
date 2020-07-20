@@ -818,7 +818,7 @@ Diagram of Use Case
 &lt;tr>
 &lt;td>UC-DE-2&lt;/td>
 &lt;td>&lt;strong>Area:&lt;/strong> Energy system &lt;/br> &lt;strong>Domain:&lt;/strong> Distribution, Customer Premise, Field, DER &lt;/br> &lt;strong>Zones:&lt;/strong> Operation, Enterprise, Process, Field&lt;/td>
-&lt;td>Flex Provision: &lt;/br> Implementing of an Energy Management System that enables a local energy community to provide flexibility on request of a user (operator)&lt;/td>
+&lt;td>Flex Provision: &lt;/br> Implementing of an Energy Management System that enables a local energy community to provide flexibility at request of a third party (operator)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -877,21 +877,21 @@ Diagram of Use Case
 &lt;tbody>
 &lt;tr>
 &lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
-&lt;td>Communities with a high penetration of photovoltaic systems and correspondingly large installed generation capacity can be expected to generate an energy surplus during times of peak generation and low local demand, and vice versa to run into an energy deficit during seasons of low generation. Surplus energy can be stored and shifted to times of low generation in order to satisfy temporary demand and hence increase the degree of self-sufficiency up to 100%. UC 2 demonstrates the ability and practical feasibility of a local community to maintain constant power exchange with the distribution network for a previously defined duration. &lt;br/> Networks: LV &lt;br/> Markets: None&lt;/td>
+&lt;td>Communities with a high penetration of photovoltaic systems and correspondingly high installed generation capacity can be expected to generate an energy surplus during times of peak generation and low local demand, and vice versa to run into an energy deficit during seasons of low generation. Surplus energy can be stored and shifted to times of low generation in order to satisfy temporary demand and hence increase the degree of self-sufficiency. Use Case 2 demonstrates how the flexibility required to enable a local balancing mechanism could temporarily be allocated to other uses, for example the provision of flexibility to a third party, e.g. the connecting grid operator. Use Case 2 uses the available flexibility in a given local energy community to maintain an externally defined non-zero setpoint at the point of connection. &lt;br/> Networks: LV &lt;br/> Markets: None&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>Maintain constant defined power exchange between energy community and the distribution network for a defined duration&lt;/td>
+&lt;td>Maintain a fixed non-zero power exchange between energy community and the distribution network for a limited duration.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
-&lt;td>Improving reliability of grid operation/grid security: &lt;br/> - Integration in Congestions Management Mechanism via provision of grid stabilizing power/energy &lt;br/> - Voltage Management &lt;br/> - Peak Shaving &lt;br/> - Reactive Power Provision&lt;/td>
+&lt;td>Integration of local energy communities in network management strategies for the stabilization and uniform utilization in distribution grid&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>Local energy communities (LEC, CEC) are likely to emerge in Europe in the near future but will most likely retain an interconnection to the distribution grid. These communities will require a large share of flexibility to enable their primary use case. Situations could arise that require the LEC to provide flexibility to a third party –driven by technical circumstances, such as a demand of system security triggered by the DSO or following economic considerations (market incentives). UC2 demonstrates the ability and practical feasibility of a local community to maintain constant power exchange with the distribution network for a previously defined duration.&lt;/p>
+&lt;p>Local energy communities are likely to emerge in Europe in the near future but will most likely retain an interconnection to the distribution grid. These communities will require a large share of flexibility to enable their primary use case. Situations could arise that require the community to provide flexibility to third parties – driven by technical circumstances or following economic considerations (market incentives). Use Case 2 demonstrates the ability and practical feasibility of a local community to maintain constant non-zero power exchange with the distribution network for a previously defined duration.&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
 &lt;p>The community is consuming and/or generating energy. A user (in the case of the field trial the DSO) triggers the EMS to apply Use Case 2 and sets a target value (P’Breaker) for the power exchange at the grid connection. The EMS (ALF-C) processes weather forecasts and measurement values from the grid connection and flexible assets such as BESS, household energy storages and flexible loads located in the community. Based on the data and historic values the EMS forecasts the local generation and demands and determines the best strategy to reach (P’Breaker) by utilizing the available flexibility to keep the power flow constant for a pre-defined duration. &lt;br/> The EMS communicates with sensors through the Blockchain Access Platform and DSO Technical Platform and handles all data in a dedicated data base. The DSO Technical Platform provides encryption and decryption in the whole IT infrastructure. Control signals are routed through the DSO technical platform and the Blockchain Access Platform to flexible devices, if applicable through a third-party backend that connects to the hardware.&lt;/p>
 &lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
@@ -907,14 +907,14 @@ Diagram of Use Case
 &lt;tbody>
 &lt;tr>
 &lt;td>UC2-K01&lt;/td>
-&lt;td>Flex Availability&lt;/td>
-&lt;td>Assessment of availability of Flex for Data Acquisition and Flex provision&lt;/td>
+&lt;td>Flexibility Availability&lt;/td>
+&lt;td>Assessment of availability of Flexibility&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>UC2-K02&lt;/td>
 &lt;td>Responsiveness&lt;/td>
-&lt;td>Assessment on how fast a flex request is implemented measurably&lt;/td>
+&lt;td>Assessment of response times to flex requests and latencies along the use case process&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -935,7 +935,7 @@ Diagram of Use Case
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Private Customer households with flexible loads and storages are organized a local energy community with a central EMS.&lt;/td>
+&lt;td>Private Customer households with flexible loads and storages are organized in a local energy community with a central EMS.&lt;/td>
 &lt;td>Participants of the energy communities incl. flexible loads and storages are connected to a single low voltage grid (feed by a single MV/LV transformer) and are monitored and steered by an EMS.&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -959,13 +959,13 @@ Diagram of Use Case
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>UC2 requires UC1 as a prerequisite&lt;/td>
+&lt;td>UC 1 as a prerequisite for islanding the community&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>add text&lt;/td>
+&lt;td>Primary Use Case&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
@@ -1049,88 +1049,46 @@ Diagram of Use Case
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Standard Household&lt;/td>
+&lt;td>Consumer Load&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>Household with a standard load profile energy consumption of a single household.&lt;/td>
+&lt;td>Household with a standard load profile energy consumption of a single household or energy consumer with a standard load profile of an agricultural building.&lt;/td>
 &lt;td>No direct measurement of energy consumption, demand not controllable (passive consumer).&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Agricultural Buildings&lt;/td>
+&lt;td>Generators&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>Energy consumer with a standard load profile of an agricultural building.&lt;/td>
-&lt;td>No direct measurement of energy consumption, demand not controllable.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Street light&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Household with a standard load profile energy consumption of a street light.&lt;/td>
-&lt;td>No direct measurement of energy consumption, demand not controllable.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Roof Top Photovoltaic System&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Power generation directly correlated with solar radiation at location.&lt;/td>
+&lt;td>Rooftop photovoltaic system generating energy directly correlated with solar radiation at location.&lt;/td>
 &lt;td>Limited controllability (can be curtailed in extreme cases). Located on customers premise and can be operated in combination with a battery storage system, for optimization of own consumption.&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Integrated Controller&lt;/td>
+&lt;td>Controller&lt;/td>
 &lt;td>Device&lt;/td>
-&lt;td>Summarises all controllers that are already installed in local flexible loads.&lt;/td>
+&lt;td>Summarises all devices that are able to receive setpoints or setpoint schedules and translate them into actionable steering commands for the flexible load or storage.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Retrofit Controller&lt;/td>
+&lt;td>Sensors&lt;/td>
 &lt;td>Device&lt;/td>
-&lt;td>Summarises all controllers that a installed as a retrofit solution to make flexible loads, controllable.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Current Sensor&lt;/td>
-&lt;td>Device&lt;/td>
-&lt;td>Summarises all sensors that measure the current and delivers values as input for the EMS for load flow monitoring.&lt;/td>
-&lt;td>PMU&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Voltage Sensor&lt;/td>
-&lt;td>Device&lt;/td>
-&lt;td>Summarises all sensors that measure the voltage and delivers values as input for the EMS for load flow monitoring.&lt;/td>
-&lt;td>PMU&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Temperature Sensor&lt;/td>
-&lt;td>Device&lt;/td>
-&lt;td>Summarises all sensors that measure the temperature of the heat storage be used as input for the EMS SOC calculation of flexible heaters (head pumps, night storage heaters).&lt;/td>
-&lt;td>Retrofit or integrated in existing system of customers heater.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SOC/SOE Sensor&lt;/td>
-&lt;td>Device&lt;/td>
-&lt;td>Summarises all sensors that measure the SOC/SOE of storages.&lt;/td>
-&lt;td>Integrated in BESS and household battery storages&lt;/td>
+&lt;td>Devices that measure voltage, current and angle of phase or SOE or SOC in case of storages and able to communicate to external systems or devices.&lt;/td>
+&lt;td>Retrofit (PMU or other) or integrated&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Battery Energy Storage System (BESS)&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>Stores electrical energy&lt;/td>
+&lt;td>System that are demanding, storing and feeding energy to the local grid/energy community.&lt;/td>
 &lt;td>300 kW/600 kWh, fully integrated in EMS and full time available for UC.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Household Energy Storage&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>Stores electrical energy&lt;/td>
+&lt;td>System that are demanding, storing and feeding energy to the local grid/energy community.&lt;/td>
 &lt;td>Integrated in EMS and full time available for UC.&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Storage Heater&lt;/td>
-&lt;td>Device&lt;/td>
-&lt;td>Electrical Heater with a large-scale water storage, able to store electrical generated heat. Heater is used by household for generation of domestic heat.&lt;/td>
+&lt;td>Flexible Loads&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Electrical heater or eat pump used by household for generation of domestic heat.&lt;/td>
 &lt;td>Could be provided by customer households.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Heat pump&lt;/td>
-&lt;td>Device&lt;/td>
-&lt;td>Electrical Heater able to store electrical generated heat for 1 -2 hours. Heater is used by household for generation of domestic heat.&lt;/td>
-&lt;td>At least one is targeted to be integrated in UC.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Weather Forecast Service Provider&lt;/td>
@@ -1139,22 +1097,40 @@ Diagram of Use Case
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>ALF-C Controller&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>- Monitors local generation and demand &lt;/br> - monitors available flexibility and storages &lt;/br> - forecasts generation, demand and available flexibility via historic data and weather forecasts &lt;/br> -receives “Islanding” -Trigger from ALF-C Use Case Modul and determines and dispatches setpoints for individual assets&lt;/td>
-&lt;td>In a productive environment operator can could be DSO, retailers, storage system operators or any other energy service provider.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>ALF-C Use Case Modul&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Calculated the setpoint or setpoint schedule for the ALF-C Controller&lt;/td>
+&lt;td>BESS Data Management Backend&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>Data backend provided by BESS manufacturer for storing data and providing measurement data and forwarding setpoint to BESS.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>DSO (Avacon)&lt;/td>
+&lt;td>Sensor &amp;amp; Controller Data Management Backend&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>Cloud service of assets vendor (can be individual for different assets) storing data, providing measurement data of asset and/or interface for transmission of setpoints to asset.&lt;/td>
+&lt;td>Assets with different vendors, requires connection to different vendor cloud platform and backends.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DSO Technical Platform&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Central Platform providing services, e.g. data storage and state estimation. Used as middleware for data acquisition and setpoint delivery of assets and sensors in the field.&lt;/td>
+&lt;td>Provided by RWTH.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Blockchain Access Platform&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Platform for encryption and verification of data flows along the was of communication from EMS (ALF-C) to sensors and Assets in the field.&lt;/td>
+&lt;td>Provided by Engineering&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EMS (ALF-C)&lt;/td>
+&lt;td>Component&lt;/td>
+&lt;td>- Monitors local generation and demand &lt;/br> - Monitors available flexibility and storages &lt;/br> - Forecasts generation, demand and available flexibility via historic data and weather forecasts &lt;/br> - Accepts use case Trigger from EMS Use Case Modul and determines and dispatches setpoints for individual assets &lt;br/> - Calculates the setpoint or setpoint schedule for the EMS Controller&lt;/td>
+&lt;td>EMS named Avacon Local Flex Controller (EMS). &lt;br/> &lt;br/> In a productive environment operator could be DSO, retailer, storage system operators or any other energy service provider.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Distribution System Operator (Avacon)&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Local grid operator&lt;/td>
-&lt;td>In future done by DSO, TSO, marketer or energy service providers&lt;/td>
+&lt;td>Local grid operator (Avacon) setting use case and setting setpoint for load exchange along the grid connection point (P’Breaker)&lt;/td>
+&lt;td>Only in field test trial. In future done by DSO, TSO, marketer or energy service providers&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1189,36 +1165,22 @@ Diagram of Use Case
 &lt;/table>
 &lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
 &lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Increasing Residual Energy Demand&lt;/td>
-&lt;td>• ALF-C &lt;/br> • Energy Storage &lt;/br> • Flexible Load&lt;/td>
-&lt;td>Measured load flow (export) at grid connection point (Residual generation is decreasing/residual demand is increasing)&lt;/td>
-&lt;td>• Sensors and actuators are connected with the ALF-C &lt;/br> • Enough flexible loads and storages capacity are available for balancing&lt;/td>
-&lt;td>- Demand of local flexible loads and storages will be decreased, or feed of storages into the grid will be increased in order to reach Ptarget.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Decreasing Residual Energy Demand&lt;/td>
-&lt;td>• ALF-C &lt;/br> • Energy Storage &lt;/br> • Flexible Load&lt;/td>
-&lt;td>Measured load flow at grid connection point (Residual generation is increasing/residual demand is decreasing)&lt;/td>
-&lt;td>• Sensors and actuators are connected with the ALF-C &lt;/br> • Enough flexible loads and storages capacity are available for balancing&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;p>| 1 | Initiating of UC 2 | Trigger Event | Operator sets EMS (ALF-C) mode of operation to UC 2 and defines target setpoint (PBreaker) for load exchange and duration (t) | REPORT | DSO | EMS | I - 01 | |
+| 2 | EMS requests weather forecasts data | Data-Aquisition | EMS sends a request for the provision of real time and forecast weather data (6h ahead) to an external service provider. &lt;br/> The process will be repeated in regular intervals). | GET | EMS | External System | I-02 | |
+| 3 | External service provider sends weather forecasts | Transmitting data | An external service provider sends weather data and weather forecast values | GET | External System | EMS | I-03 |
+| 4 | EMS receives forecasting values | Forecasting of generation and demand | The EMS forecasts local generation and demand: &lt;br/> - Generation based on weather forecasts &lt;br/> - Load – based on weather forecast and load profiles from historic measurement data | CREATE | EMS | EMS | | |
+| 5 | EMS requests data of total generation/ consumption | Data-Acquisition | The EMS triggers measurement values from sensors located at the secondary substation to provide measurement data (PBreaker) of the power exchange at the MV/LV grid connection. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. &lt;br/> From there the data will be forwarded to the DSO Technical Platform acting as second level middle ware from where the signal is sent to the Data Management Backend of the sensor. &lt;br/> &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed backwards along the communication from the sensor to the EMS every 10 seconds. | GET | EMS | Sensor | I-04 | |
+| 6 | Sensor (grid connection point in secondary substation) provides values | Transmitting the data | The local sensor located at secondary substation measures the residual power export and sends data to EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 10 seconds. | CHANGE | Sensor | EMS | I-05 | |
+| 7 | EMS requests measurement data of sensors located in the field | Data – Acquisition | The EMS sends request to sensors to provide load demand and SOE, SOC values of local customer flexible loads, household energy storages and battery energy storage system. The connection is established via a backend of data management platform provided by the manufacturer of the asset (BESS, household battery storage, flexible loads). &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middle ware from where the signal is sent to the Data Management Backend of the sensor. | GET | EMS | Sensor | I-04 | |
+| 8 | Local sensors provide data via Data Management Backend | Transmitting the data | Local sensors provide measurements values and data via sensor data management backend to the EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 15 minutes. | CHANGE | Sensor | EMS | I-05 | |
+| 9 | All data collected | Evaluation and determination of control strategy and setpoints | Based on provided measurement data, asset key data. EMS calculates the power bandwidth of each asset available for steering (PFlex). &lt;br/> &lt;br/> The EMS determines for each asset a setpoint (P’Asset) to reach P’Breaker. The determination of setpoints is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and household energy storages. | CREATE | EMS | EMS | |
+| 10 | Individual setpoints determined | Transmitting setpoints to controllers | The EMS sends setpoints via a data management backend to controllers to increase, decrease consumption assets (battery energy storage, household energy storage and flexible load) located in the field to increase consumption. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS along the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the Data Management Backend of the controller. &lt;br/> This signal is sent every ten seconds to the BESS Management Backend and every 15 minutes to loads located at customer premise and replaces the default signal until the EMS calculates a setpoint. | EXECUTE | EMS | Controllers | I-06 | |
+| 11 | Setpoint send to controller | Verification of setpoint execution | The EMS compares measured values comparison of PBreaker from the grid connection point with the target values P’Breaker. In case of deviation the setpoint are redefined by walking through step numbers 2 to 10. The process is continuously repeated until the end of use case. | CREATE | Sensor | EMS | | |
+| 12 | End of Use Case 2 | End of Use Case 2 | The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach P’Breaker. | REPORT/CREATE | DSO or ALF-C | EMS | I-01 | |
+| &lt;strong>No.&lt;/strong> | &lt;strong>Scenario Name&lt;/strong> | &lt;strong>Primary Actor&lt;/strong> | &lt;strong>Triggering Event&lt;/strong> | &lt;strong>Pre-Condition&lt;/strong> | &lt;strong>Post-Condition&lt;/strong> |
+| &amp;mdash; | &amp;mdash; | &amp;mdash; | &amp;mdash; | &amp;mdash; | &amp;mdash; |
+| 1 | Increasing Residual Energy Demand | • ALF-C &lt;br/> • BESS &lt;br/> • Energy Storage &lt;br/> • Flexible Load &lt;br/> • Generator &lt;br/> • Controller | Measured load flow (export) at grid connection point (Residual generation is decreasing/residual demand is increasing) | • Sensors and controllers are connected with EMS &lt;br/> • Enough flexible loads and storages capacity are available | Demand of local flexible loads and storages will be decreased, or feed of storages into the grid will be increased in order to reach P’Breaker. |
+| 2 | Decreasing Residual Energy Demand | • ALF-C &lt;br/> • BESS &lt;br/> • Energy Storage &lt;br/> • Flexible Load &lt;br/> • Generator &lt;br/> • Controller | Measured load flow at grid connection point (Residual generation is increasing/residual demand is decreasing) | • Sensors and actuators are connected with ALF-C &lt;br/> • Enough flexible loads and storages capacity are available for balancing | |&lt;/p>
 &lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
 &lt;p>**Scenario Name: No. 1 - Increasing Residual Energy Demand **&lt;/p>
 &lt;table>
@@ -1239,99 +1201,132 @@ Diagram of Use Case
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>Initiating of UC 2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Operator sets ALF-C mode of operation to UC 2 and set via a GUI the target setpoint for load exchange aalong the grid connection point MV/LV P&amp;rsquo;_Breaker and duration (t)&lt;/td>
+&lt;td>Trigger Event&lt;/td>
+&lt;td>Operator sets EMS (ALF-C) mode of operation to UC 2 and defines target setpoint (PBreaker) for load exchange and duration (t)&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>USER&lt;/td>
-&lt;td>ALF-C&lt;/td>
+&lt;td>DSO&lt;/td>
+&lt;td>EMS&lt;/td>
 &lt;td>I - 01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
-&lt;td>ALF-C requests data of total generation/ consumption&lt;/td>
+&lt;td>EMS requests weather forecasts data&lt;/td>
 &lt;td>Data-Aquisition&lt;/td>
-&lt;td>The ALF-C request measurement values from the sensor located at the secondary substation to provide measurement data (P_Breaker) of the power exchange along the MV/LV grid connection point. &lt;/br> Then data will be pushed by sensor every 10 seconds.&lt;/td>
+&lt;td>EMS sends a request for the provision of real time and forecast weather data (6h ahead) to an external service provider. &lt;br/> The process will be repeated in regular intervals).&lt;/td>
 &lt;td>GET&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>Sensor&lt;/td>
-&lt;td>I-04&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
-&lt;td>Sensor (grid connection point) provides values&lt;/td>
+&lt;td>External service provider sends weather forecasts&lt;/td>
 &lt;td>Transmitting data&lt;/td>
-&lt;td>The local measurement device (PMU) located at the grid connection point measures the residual power export and sends data to the ALF-C (PBreaker). &lt;/br> Step will be repeated every 10 seconds.&lt;/td>
-&lt;td>CHANGE&lt;/td>
-&lt;td>Sensor&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>I-05&lt;/td>
+&lt;td>An external service provider sends weather data and weather forecast values&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4&lt;/td>
-&lt;td>ALF-C requests data of current of demand/SOC of local flex&lt;/td>
-&lt;td>Data-Aquisition&lt;/td>
-&lt;td>The ALF-C sends request to sensors to provide load demand and SOC values of local customer flexible loads, customer storages and the BESS. Then data will be pushed by PMU every 15 minutes.&lt;/td>
-&lt;td>GET&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>Sensors&lt;/td>
-&lt;td>I-04&lt;/td>
+&lt;td>EMS receives forecasting values&lt;/td>
+&lt;td>Forecasting of generation and demand&lt;/td>
+&lt;td>The EMS forecasts local generation and demand: &lt;br/> - Generation based on weather forecasts &lt;br/> - Load – based on weather forecast and load profiles from historic measurement data&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>5&lt;/td>
-&lt;td>Local sensors provide data&lt;/td>
-&lt;td>Transmitting data&lt;/td>
-&lt;td>Local sensors provide measurements values and data to the ALF-C. &lt;/br> Step will be repeated every 15 minutes.&lt;/td>
-&lt;td>CHANGE&lt;/td>
-&lt;td>Sensor,&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>I-05&lt;/td>
+&lt;td>EMS requests data of total generation/ consumption&lt;/td>
+&lt;td>Data-Acquisition&lt;/td>
+&lt;td>The EMS triggers measurement values from sensors located at the secondary substation to provide measurement data (PBreaker) of the power exchange at the MV/LV grid connection. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. &lt;br/> From there the data will be forwarded to the DSO Technical Platform acting as second level middle ware from where the signal is sent to the Data Management Backend of the sensor. &lt;br/> &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed backwards along the communication from the sensor to the EMS every 10 seconds.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>Sensor&lt;/td>
+&lt;td>I-04&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6&lt;/td>
-&lt;td>All data is collected&lt;/td>
-&lt;td>Evaluation and determination of control strategy and setpoints&lt;/td>
-&lt;td>Based on provided measurement data, asset key data. ALF-C calculates the power bandwith and/or SOC of each asset available for steering (PFlex, available). &lt;/br> The ALF-C determines for each asset a setpoint to reach Ptarget. The determination of setpoint is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and storages located at customer premise.&lt;/td>
-&lt;td>Create&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Sensor (grid connection point in secondary substation) provides values&lt;/td>
+&lt;td>Transmitting the data&lt;/td>
+&lt;td>The local sensor located at secondary substation measures the residual power export and sends data to EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 10 seconds.&lt;/td>
+&lt;td>CHANGE&lt;/td>
+&lt;td>Sensor&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>I-05&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>7&lt;/td>
-&lt;td>Individual setpoints determined&lt;/td>
-&lt;td>Transmitting setpoints to actuators&lt;/td>
-&lt;td>The ALF-C sends setpoints to actuators located in the field to increase their consumption. &lt;/br> This signal is sent each ten seconds to the BESS and every 15 minutes to actuators located at customer premise and replaces the default signal until the ALF-C calculates a setpoint.&lt;/td>
-&lt;td>EXECUTE&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>Actuators&lt;/td>
-&lt;td>I-06&lt;/td>
+&lt;td>EMS requests measurement data of sensors located in the field&lt;/td>
+&lt;td>Data – Acquisition&lt;/td>
+&lt;td>The EMS sends request to sensors to provide load demand and SOE, SOC values of local customer flexible loads, household energy storages and battery energy storage system. The connection is established via a backend of data management platform provided by the manufacturer of the asset (BESS, household battery storage, flexible loads). &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middle ware from where the signal is sent to the Data Management Backend of the sensor.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>Sensor&lt;/td>
+&lt;td>I-04&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>8&lt;/td>
-&lt;td>Setpoint send to actuators&lt;/td>
-&lt;td>Verification of setpoint execution Comparison of target and measured values&lt;/td>
-&lt;td>The ALF-C compares measured values from the grid connection P_Breaker point with the target values (P&amp;rsquo;_Breaker). In case of deviation the setpoint are redefined by walking through step numbers 2 to 8. The process is continuously cycled until the end of use case.&lt;/td>
-&lt;td>CREATE&lt;/td>
+&lt;td>Local sensors provide data via Data Management Backend&lt;/td>
+&lt;td>Transmitting the data&lt;/td>
+&lt;td>Local sensors provide measurements values and data via sensor data management backend to the EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 15 minutes.&lt;/td>
+&lt;td>CHANGE&lt;/td>
 &lt;td>Sensor&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>I-05&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>9&lt;/td>
+&lt;td>All data collected&lt;/td>
+&lt;td>Evaluation and determination of control strategy and setpoints&lt;/td>
+&lt;td>Based on provided measurement data, asset key data. EMS calculates the power bandwidth of each asset available for steering (PFlex). &lt;br/> &lt;br/> The EMS determines for each asset a setpoint (P’Asset) to reach P’Breaker. The determination of setpoints is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and household energy storages.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>Individual setpoints determined&lt;/td>
+&lt;td>Transmitting setpoints to controllers&lt;/td>
+&lt;td>The EMS sends setpoints via a data management backend to controllers to increase, decrease consumption assets (battery energy storage, household energy storage and flexible load) located in the field to increase consumption. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS along the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the Data Management Backend of the controller. &lt;br/> This signal is sent every ten seconds to the BESS Management Backend and every 15 minutes to loads located at customer premise and replaces the default signal until the EMS calculates a setpoint.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>Controllers&lt;/td>
+&lt;td>I-06&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
+&lt;td>Setpoint send to controller&lt;/td>
+&lt;td>Verification of setpoint execution&lt;/td>
+&lt;td>The EMS compares measured values comparison of PBreaker from the grid connection point with the target values P’Breaker. In case of deviation the setpoint are redefined by walking through step numbers 2 to 10. The process is continuously repeated until the end of use case.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>Sensor&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12&lt;/td>
 &lt;td>End of Use Case 2&lt;/td>
 &lt;td>End of Use Case 2&lt;/td>
-&lt;td>The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach Ptarget.&lt;/td>
-&lt;td>REPORT&lt;/td>
-&lt;td>USER&lt;/td>
-&lt;td>ALF-C&lt;/td>
+&lt;td>The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach P’Breaker.&lt;/td>
+&lt;td>REPORT/CREATE&lt;/td>
+&lt;td>DSO or ALF-C&lt;/td>
+&lt;td>EMS&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -1356,99 +1351,132 @@ Diagram of Use Case
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>Initiating of UC 2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Operator sets ALF-C mode of operation to UC 2 and set via a GUI the target setpoint for load exchange aalong the grid connection point MV/LV P&amp;rsquo;_Breaker and duration (t)&lt;/td>
+&lt;td>Trigger Event&lt;/td>
+&lt;td>Operator sets EMS (ALF-C) mode of operation to UC 2 and defines target setpoint (PBreaker) for load exchange and duration (t)&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>USER&lt;/td>
-&lt;td>ALF-C&lt;/td>
+&lt;td>DSO&lt;/td>
+&lt;td>EMS&lt;/td>
 &lt;td>I - 01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
-&lt;td>ALF-C requests data of total generation/ consumption&lt;/td>
+&lt;td>EMS requests weather forecasts data&lt;/td>
 &lt;td>Data-Aquisition&lt;/td>
-&lt;td>The ALF-C request measurement values from the sensor located at the secondary substation to provide measurement data (P_Breaker) of the power exchange along the MV/LV grid connection point. &lt;/br> Then data will be pushed by sensor every 10 seconds.&lt;/td>
+&lt;td>EMS sends a request for the provision of real time and forecast weather data (6h ahead) to an external service provider. &lt;br/> The process will be repeated in regular intervals).&lt;/td>
 &lt;td>GET&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>Sensor&lt;/td>
-&lt;td>I-04&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
-&lt;td>Sensor (grid connection point) provides values&lt;/td>
+&lt;td>External service provider sends weather forecasts&lt;/td>
 &lt;td>Transmitting data&lt;/td>
-&lt;td>The local measurement device (PMU) located at the grid connection point measures the residual power export and sends data to the ALF-C (PBreaker). &lt;/br> Step will be repeated every 10 seconds.&lt;/td>
-&lt;td>CHANGE&lt;/td>
-&lt;td>Sensor&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>I-05&lt;/td>
+&lt;td>An external service provider sends weather data and weather forecast values&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4&lt;/td>
-&lt;td>ALF-C requests data of current of demand/SOC of local flex&lt;/td>
-&lt;td>Data-Aquisition&lt;/td>
-&lt;td>The ALF-C sends request to sensors to provide load demand and SOC values of local customer flexible loads, customer storages and the BESS. Then data will be pushed by PMU every 15 minutes.&lt;/td>
-&lt;td>GET&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>Sensors&lt;/td>
-&lt;td>I-04&lt;/td>
+&lt;td>EMS receives forecasting values&lt;/td>
+&lt;td>Forecasting of generation and demand&lt;/td>
+&lt;td>The EMS forecasts local generation and demand: &lt;br/> - Generation based on weather forecasts &lt;br/> - Load – based on weather forecast and load profiles from historic measurement data&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>5&lt;/td>
-&lt;td>Local sensors provide data&lt;/td>
-&lt;td>Transmitting data&lt;/td>
-&lt;td>Local sensors provide measurements values and data to the ALF-C. &lt;/br> Step will be repeated every 15 minutes.&lt;/td>
-&lt;td>CHANGE&lt;/td>
-&lt;td>Sensor,&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>I-05&lt;/td>
+&lt;td>EMS requests data of total generation/ consumption&lt;/td>
+&lt;td>Data-Acquisition&lt;/td>
+&lt;td>The EMS triggers measurement values from sensors located at the secondary substation to provide measurement data (PBreaker) of the power exchange at the MV/LV grid connection. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. &lt;br/> From there the data will be forwarded to the DSO Technical Platform acting as second level middle ware from where the signal is sent to the Data Management Backend of the sensor. &lt;br/> &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed backwards along the communication from the sensor to the EMS every 10 seconds.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>Sensor&lt;/td>
+&lt;td>I-04&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6&lt;/td>
-&lt;td>All data is collected&lt;/td>
-&lt;td>Evaluation and determination of control strategy and setpoints&lt;/td>
-&lt;td>Based on provided measurement data, asset key data. ALF-C calculates the power bandwith and/or SOC of each asset available for steering (PFlex, available). &lt;/br> The ALF-C determines for each asset a setpoint to reach P&amp;rsquo;_Breaker. The determination of setpoint is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and storages located at customer premise.&lt;/td>
-&lt;td>Create&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Sensor (grid connection point in secondary substation) provides values&lt;/td>
+&lt;td>Transmitting the data&lt;/td>
+&lt;td>The local sensor located at secondary substation measures the residual power export and sends data to EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 10 seconds.&lt;/td>
+&lt;td>CHANGE&lt;/td>
+&lt;td>Sensor&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>I-05&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>7&lt;/td>
-&lt;td>Individual setpoints determined&lt;/td>
-&lt;td>Transmitting setpoints to actuators&lt;/td>
-&lt;td>The ALF-C sends setpoints to actuators located in the field to decrease their consumption. &lt;/br> This signal is sent each ten seconds to the BESS and every 15 minutes to actuators located at customer premise and replaces the default signal until the ALF-C calculates a setpoint.&lt;/td>
-&lt;td>EXECUTE&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>Actuators&lt;/td>
-&lt;td>I-06&lt;/td>
+&lt;td>EMS requests measurement data of sensors located in the field&lt;/td>
+&lt;td>Data – Acquisition&lt;/td>
+&lt;td>The EMS sends request to sensors to provide load demand and SOE, SOC values of local customer flexible loads, household energy storages and battery energy storage system. The connection is established via a backend of data management platform provided by the manufacturer of the asset (BESS, household battery storage, flexible loads). &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middle ware from where the signal is sent to the Data Management Backend of the sensor.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>Sensor&lt;/td>
+&lt;td>I-04&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>8&lt;/td>
-&lt;td>Setpoint send to actuators&lt;/td>
-&lt;td>Verification of setpoint execution Comparison of target and measured values&lt;/td>
-&lt;td>The ALF-C compares measured values from the grid connection P_Breaker point with the target values (P&amp;rsquo;_Breaker). In case of deviation the setpoint are redefined by walking through step numbers 2 to 8. The process is continuously cycled until the end of use case.&lt;/td>
-&lt;td>CREATE&lt;/td>
+&lt;td>Local sensors provide data via Data Management Backend&lt;/td>
+&lt;td>Transmitting the data&lt;/td>
+&lt;td>Local sensors provide measurements values and data via sensor data management backend to the EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 15 minutes.&lt;/td>
+&lt;td>CHANGE&lt;/td>
 &lt;td>Sensor&lt;/td>
-&lt;td>ALF-C&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>I-05&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>9&lt;/td>
+&lt;td>All data collected&lt;/td>
+&lt;td>Evaluation and determination of control strategy and setpoints&lt;/td>
+&lt;td>Based on provided measurement data, asset key data. EMS calculates the power bandwidth of each asset available for steering (PFlex). &lt;br/> &lt;br/> The EMS determines for each asset a setpoint (P’Asset) to reach P’Breaker. The determination of setpoints is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and household energy storages.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>Individual setpoints determined&lt;/td>
+&lt;td>Transmitting setpoints to controllers&lt;/td>
+&lt;td>The EMS sends setpoints via a data management backend to controllers to increase, decrease consumption assets (battery energy storage, household energy storage and flexible load) located in the field to increase consumption. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS along the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the Data Management Backend of the controller. &lt;br/> This signal is sent every ten seconds to the BESS Management Backend and every 15 minutes to loads located at customer premise and replaces the default signal until the EMS calculates a setpoint.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>Controllers&lt;/td>
+&lt;td>I-06&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
+&lt;td>Setpoint send to controller&lt;/td>
+&lt;td>Verification of setpoint execution&lt;/td>
+&lt;td>The EMS compares measured values comparison of PBreaker from the grid connection point with the target values P’Breaker. In case of deviation the setpoint are redefined by walking through step numbers 2 to 10. The process is continuously repeated until the end of use case.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>Sensor&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12&lt;/td>
 &lt;td>End of Use Case 2&lt;/td>
 &lt;td>End of Use Case 2&lt;/td>
-&lt;td>The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach Ptarget.&lt;/td>
-&lt;td>REPORT&lt;/td>
-&lt;td>USER&lt;/td>
-&lt;td>ALF-C&lt;/td>
+&lt;td>The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach P’Breaker.&lt;/td>
+&lt;td>REPORT/CREATE&lt;/td>
+&lt;td>DSO or ALF-C&lt;/td>
+&lt;td>EMS&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -1491,44 +1519,38 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>I-01&lt;/td>
-&lt;td>Signal from user via GUI&lt;/td>
-&lt;td>A user triggers the use case via an GUI to the ALF-C to apply islanding. The trigger signal is: &lt;/br> 0 = stop current use case &lt;/br> 1 = application of UC 1 &lt;/br> 2 = application of UC 2 &lt;/br> 3 = application of UC 3 &lt;/br> 4 = application of UC 4 &lt;br/> Based on the UC 2 trigger the ALF-C sets the target setpoint for the load - exchange along the grid connection point accoring to user input (Target Setpoint P&amp;rsquo;_Breaker).&lt;/td>
+&lt;td>User sets UC and variables&lt;/td>
+&lt;td>- DSO sets the use case via an UI the EMS (ALF-C) to apply UC 2. The trigger signal is: &lt;br/> 0 = stop current use case &lt;br/> 1 = application of UC 1 &lt;br/> 2 = application of UC 2 &lt;br/> 3 = application of UC 3 &lt;br/> 4 = application of UC 4 &lt;br/> &lt;br/> - DSO set via UI a target setpoint (P’Breaker) for the load - exchange along the grid connection point.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-02&lt;/td>
-&lt;td>Signal from ALF-C to External System&lt;/td>
-&lt;td>Trigger to provide weather forecast data&lt;/td>
+&lt;td>EMS requests weather data&lt;/td>
+&lt;td>EMS triggers External weather forecast service providers to provide real time and forecast weather data&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-03&lt;/td>
-&lt;td>Weather forecasts&lt;/td>
-&lt;td>- Solar radiation (t + 24h) &lt;/br> - Cloudiness (t + 24 h) &lt;/br> - Temperature (t + 24 h) &lt;/br> - Humidity (t + 24 h) &lt;/br> - Windspeed (t + 24 h)&lt;/td>
+&lt;td>Weather forecasts provision&lt;/td>
+&lt;td>- Solar radiation (t + 24h) &lt;br/> - Cloudiness (t + 24 h) &lt;br/> - Temperature (t + 24 h) &lt;br/> - Humidity (t + 24 h) &lt;br/> Windspeed (t + 24 h)&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-04&lt;/td>
-&lt;td>Signal from the ALF-C to sensor at secondary substation&lt;/td>
-&lt;td>The ALF-C sends a signal to sensors to get current measurements.&lt;/td>
+&lt;td>Sensor Wake UP&lt;/td>
+&lt;td>The EMS sends a signal to sensors located at secondary substation to push measurement data&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-05&lt;/td>
-&lt;td>Signal from sensor&lt;/td>
-&lt;td>The sensor sends measurement values containing:&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>voltage (U), current (I) and angle of phase (Phi) values for all 3 phases&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Sensor measurement data provision&lt;/td>
+&lt;td>The sensor sends measurement values containing: &lt;br/> voltage (U), current (I) and angle of phase (Phi) values of all 3 phases measured in secondary substation. Values indicate the residual power demand/generation as sum of demand or feed of BESS, household energy storage, flexible loads, generators and customer households and agricultural buildings.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-06&lt;/td>
-&lt;td>Signal from integrated sensors&lt;/td>
-&lt;td>The measurement of PMU contains voltage (U), current (I) and angle of phase (Phi) values, SOC, SOE and/or temperature&lt;/td>
+&lt;td>Sending of setpoint (t) or setpoint schedule (t+1)&lt;/td>
+&lt;td>Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC]&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
