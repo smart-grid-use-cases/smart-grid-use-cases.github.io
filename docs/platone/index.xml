@@ -5830,7 +5830,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
 &lt;p>&lt;img src="Active_Diagram_Voltage_Violation.jpg" alt="Active Diagram Voltage Violation">&lt;/p>
 &lt;p>&lt;strong>Active Diagram Voltage Violation&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="Sequence_diagram_Voltage.png" alt="Sequence Diagram Voltage">&lt;/p>
+&lt;p>![Sequence Diagram Voltage Day Ahead](Sequence diagram Voltage DA.png)
+![Sequence Diagram Voltage Real Time](Sequence diagram Voltage RT.png)
+![Sequence Diagram Voltage Activation](Sequence diagram Voltage Activation.png)
+![Sequence Diagram Voltage Settlement](Sequence diagram Voltage Settlement.png)&lt;/p>
 &lt;p>&lt;strong>Sequence Diagram Voltage&lt;/strong>&lt;/p>
 &lt;p>&lt;img src="Use_Case_Diagram_Voltage.png" alt="Use Case Diagram Voltage">&lt;/p>
 &lt;p>&lt;strong>Use Case Diagram Voltage&lt;/strong>&lt;/p>
