@@ -12,7 +12,7 @@ description: >
 
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-IT-1| Area: Energy system </br> | Congestion Management in transmission and distribution system using also the resources connected to the distribution system |
+| UC-IT-1| Area: Energy system </br> | Voltage Management in transmission and distribution system using also the resources connected to the distribution system |
 
 
 ## 1.2. Version Management
@@ -36,7 +36,7 @@ description: >
 
 **Short description**
 
-This BUC describes the main steps to avoid congestion in transmission and distribution systems. The DSO can use flexible resources connected to the distribution system and TSO can use flexible resources connected to transmission and distribution systems after the DSO’s approval. The power flow is assessed and monitored respectively by DSO and TSO, in order to keep the electrical quantities within admissible ranges.
+This UC describes the main steps to avoid voltage violations in transmission and distribution systems. The DSO can use flexible resources connected to the distribution system and TSO can use flexible resources connected to transmission and distribution systems after the DSO’s approval. The power flow is assessed and monitored respectively by DSO and TSO, in order to keep the electrical quantities within admissible ranges.
 
 **Complete description**
 
