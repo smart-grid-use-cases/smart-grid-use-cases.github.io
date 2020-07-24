@@ -5634,7 +5634,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tr>
 &lt;td>UC-IT-1&lt;/td>
 &lt;td>Area: Energy system &lt;/br>&lt;/td>
-&lt;td>Congestion Management in transmission and distribution system using also the resources connected to the distribution system&lt;/td>
+&lt;td>Voltage Management in transmission and distribution system using also the resources connected to the distribution system&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -5691,7 +5691,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/table>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>This BUC describes the main steps to avoid congestion in transmission and distribution systems. The DSO can use flexible resources connected to the distribution system and TSO can use flexible resources connected to transmission and distribution systems after the DSO’s approval. The power flow is assessed and monitored respectively by DSO and TSO, in order to keep the electrical quantities within admissible ranges.&lt;/p>
+&lt;p>This UC describes the main steps to avoid voltage violations in transmission and distribution systems. The DSO can use flexible resources connected to the distribution system and TSO can use flexible resources connected to transmission and distribution systems after the DSO’s approval. The power flow is assessed and monitored respectively by DSO and TSO, in order to keep the electrical quantities within admissible ranges.&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
 &lt;p>The UC deals the Voltage Violation on transmission and distribution grid, describing all the main phases: procurement, activation and settlement, in the day ahead and real time flexibility market.
 In the day ahead market, the FR Owner sends to Aggregator Platform the list of the resources available for the day after. Subsequently the Aggregator Platform transmits the list to the SCD. For every POD, the SCD joins the quarterly measures and all the main data useful for the flexibility and sends them to DSO TP, TSO simulator and Aggregator Platform.
