@@ -35,7 +35,7 @@ description: >
 
 **Short description**
 
-The BUC describes the steps to prevent voltage issues in transmission and distribution system. DSO can use flexible resources connected to distribution system and TSO can use flexible resources connected to transmission and distribution system after the DSO’s approval. The state of the grid is assessed and monitored by DSO and TSO respectively, in order to keep the electrical quantities of the system within admissible range.
+The UC describes the steps to prevent congestion issues in transmission and distribution system. DSO can use flexible resources connected to distribution system and TSO can use flexible resources connected to transmission and distribution system after the DSO’s approval. The state of the grid is assessed and monitored by DSO and TSO respectively, in order to keep the electrical quantities of the system within admissible range.
 
 **Complete description**
 
