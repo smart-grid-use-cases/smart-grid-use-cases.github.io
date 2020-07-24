@@ -6883,7 +6883,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>UC-IT-2&lt;/td>
 &lt;td>Area: Energy system &lt;/br>&lt;/td>
-&lt;td>Voltage Management in transmission and distribution system using resources connected to distribution system&lt;/td>
+&lt;td>Congestion Management in transmission and distribution system using resources connected to distribution system&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -7081,7 +7081,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;p>&lt;strong>Active Diagram Voltage Violation&lt;/strong>&lt;/p>
 &lt;p>&lt;img src="Sequence_diagram_Congestion.png" alt="Sequence Diagram Congestion">&lt;/p>
 &lt;p>&lt;strong>Sequence Diagram Congestion&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="Use_Case_Diagram_Congestion.png" alt="Use Case Diagram Congestion 2">&lt;/p>
+&lt;p>![Sequence Diagram Congestion Day Ahead](Sequence diagram Congestion DA.png)
+![Sequence Diagram Congestion Real Time](Sequence diagram Congestion RT.png)
+![Sequence Diagram Congestion Activation](Sequence diagram Congestion Activation.png)
+![Sequence Diagram Congestion Settlement](Sequence diagram Congestion Settlement.png)&lt;/p>
 &lt;p>&lt;strong>Use Case Diagram Congestion&lt;/strong>&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
