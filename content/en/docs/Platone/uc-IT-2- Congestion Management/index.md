@@ -12,7 +12,7 @@ description: >
 
 | ID  | Area /Domain(s)/Zone(s)| Name of the Use Case |
 | --- | ---                    | ---                  |
-| UC-IT-2| Area: Energy system </br> | Voltage Management in transmission and distribution system using resources connected to distribution system |
+| UC-IT-2| Area: Energy system </br> | Congestion Management in transmission and distribution system using resources connected to distribution system |
 
 ## 1.2. Version Management
 
@@ -123,7 +123,10 @@ Add any remarks which do not fit in any other category
 
 **Sequence Diagram Congestion**
 
-![Use Case Diagram Congestion 2](Use_Case_Diagram_Congestion.png)
+![Sequence Diagram Congestion Day Ahead](Sequence diagram Congestion DA.png)
+![Sequence Diagram Congestion Real Time](Sequence diagram Congestion RT.png)
+![Sequence Diagram Congestion Activation](Sequence diagram Congestion Activation.png)
+![Sequence Diagram Congestion Settlement](Sequence diagram Congestion Settlement.png)
 
 **Use Case Diagram Congestion**
 
