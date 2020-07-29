@@ -180,19 +180,6 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 8 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|DSOTP|I-01||
 | 9 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSOTP|DSO|I-02||
 
-**Scenario Name: No. 2 - Line thermal limit violation mitigation **
-
-| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |Measurements of line(s) thermal load out of the permissible range|Alarm generation|Alarm informing the DSO about the thermal line limit violation|CREATE|State Estimation tool|DSO|I-05||
-| 2 |Alarm informing the DSO about the voltage limit violation|Tariffs calculation|Tariffs calculation that reflect the situation of the network|EXECUTE|DSO|DSO|I-06||
-| 3 |Tariffs calculation|Tariffs communication|Tariffs are communicated to the Aggregator|CREATE|DSO|Aggregator|I-06||
-| 4 |Tariffs communication|Setpoint sent to Residential Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Residential consumer|I-07||
-| 5 |Tariffs communication|Setpoint sent to Commercial Customer| Sending setpoint to the flexibility load|CREATE|Aggregator|Commercial consumer|I-07||
-| 6 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES|I-07||
-| 7 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR,PMU|DSO Data Server|I-01||
-| 8 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|State Estimation Tool|I-01||
-| 9 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|State Estimation Tool|DSO|I-02||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
@@ -224,7 +211,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 | **Term** | **Definition** |
 | --- | --- |
-|Dynamic tariffs|Price signals communicated to the flexible loads in order to incentivise their behaviour.|
+
 
 
 # 8. Custom Information (optional)
