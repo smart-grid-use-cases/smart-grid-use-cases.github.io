@@ -4357,123 +4357,6 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>**Scenario Name: No. 2 - Line thermal limit violation mitigation **&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Measurements of line(s) thermal load out of the permissible range&lt;/td>
-&lt;td>Alarm generation&lt;/td>
-&lt;td>Alarm informing the DSO about the thermal line limit violation&lt;/td>
-&lt;td>CREATE&lt;/td>
-&lt;td>State Estimation tool&lt;/td>
-&lt;td>DSO&lt;/td>
-&lt;td>I-05&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Alarm informing the DSO about the voltage limit violation&lt;/td>
-&lt;td>Tariffs calculation&lt;/td>
-&lt;td>Tariffs calculation that reflect the situation of the network&lt;/td>
-&lt;td>EXECUTE&lt;/td>
-&lt;td>DSO&lt;/td>
-&lt;td>DSO&lt;/td>
-&lt;td>I-06&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Tariffs calculation&lt;/td>
-&lt;td>Tariffs communication&lt;/td>
-&lt;td>Tariffs are communicated to the Aggregator&lt;/td>
-&lt;td>CREATE&lt;/td>
-&lt;td>DSO&lt;/td>
-&lt;td>Aggregator&lt;/td>
-&lt;td>I-06&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>Tariffs communication&lt;/td>
-&lt;td>Setpoint sent to Residential Customer&lt;/td>
-&lt;td>Sending setpoint to the flexibility load&lt;/td>
-&lt;td>CREATE&lt;/td>
-&lt;td>Aggregator&lt;/td>
-&lt;td>Residential consumer&lt;/td>
-&lt;td>I-07&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5&lt;/td>
-&lt;td>Tariffs communication&lt;/td>
-&lt;td>Setpoint sent to Commercial Customer&lt;/td>
-&lt;td>Sending setpoint to the flexibility load&lt;/td>
-&lt;td>CREATE&lt;/td>
-&lt;td>Aggregator&lt;/td>
-&lt;td>Commercial consumer&lt;/td>
-&lt;td>I-07&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6&lt;/td>
-&lt;td>Tariffs communication&lt;/td>
-&lt;td>Setpoint sent to RES&lt;/td>
-&lt;td>Sending setpoint to the RES producer&lt;/td>
-&lt;td>CREATE&lt;/td>
-&lt;td>Aggregator&lt;/td>
-&lt;td>RES&lt;/td>
-&lt;td>I-07&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7&lt;/td>
-&lt;td>none&lt;/td>
-&lt;td>Data Aquisition&lt;/td>
-&lt;td>New Distribution Network state (Distribution Network state updated following the Aggregator&amp;rsquo;s response)&lt;/td>
-&lt;td>REPORT&lt;/td>
-&lt;td>SCADA,DMS,GIS,AMR,PMU&lt;/td>
-&lt;td>DSO Data Server&lt;/td>
-&lt;td>I-01&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8&lt;/td>
-&lt;td>New Distribution Network state&lt;/td>
-&lt;td>Data Aquisition&lt;/td>
-&lt;td>New Distribution Network state&lt;/td>
-&lt;td>REPORT&lt;/td>
-&lt;td>DSO Data Server&lt;/td>
-&lt;td>State Estimation Tool&lt;/td>
-&lt;td>I-01&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9&lt;/td>
-&lt;td>New Distribution Network state&lt;/td>
-&lt;td>Data Aquisition&lt;/td>
-&lt;td>New Distribution Network state&lt;/td>
-&lt;td>REPORT&lt;/td>
-&lt;td>State Estimation Tool&lt;/td>
-&lt;td>DSO&lt;/td>
-&lt;td>I-02&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.&lt;/p>
 &lt;ul>
@@ -4537,12 +4420,6 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Definition&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Dynamic tariffs&lt;/td>
-&lt;td>Price signals communicated to the flexible loads in order to incentivise their behaviour.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
 &lt;/table>
 &lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
 &lt;table>
@@ -6940,7 +6817,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/table>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>The BUC describes the steps to prevent voltage issues in transmission and distribution system. DSO can use flexible resources connected to distribution system and TSO can use flexible resources connected to transmission and distribution system after the DSO’s approval. The state of the grid is assessed and monitored by DSO and TSO respectively, in order to keep the electrical quantities of the system within admissible range.&lt;/p>
+&lt;p>The UC describes the steps to prevent congestion issues in transmission and distribution system. DSO can use flexible resources connected to distribution system and TSO can use flexible resources connected to transmission and distribution system after the DSO’s approval. The state of the grid is assessed and monitored by DSO and TSO respectively, in order to keep the electrical quantities of the system within admissible range.&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
 &lt;p>The UC deals the Congestion on transmission and distribution grid, describing all the main phases: procurement, activation and settlement, in the day ahead and real time flexibility market.
 In the day ahead market, the FR Owner sends to Aggregator Platform the list of the resources available for the day after. Subsequently the Aggregator Platform transmits the list to the SCD. For every POD, the SCD joins the quarterly measures and all the main data useful for the flexibility and sends them to DSO TP, TSO simulator and Aggregator Platform.
