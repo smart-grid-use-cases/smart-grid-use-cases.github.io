@@ -217,7 +217,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 | **Term** | **Definition** |
 | --- | --- |
-|Dynamic tariffs|Price signals communicated to the flexible loads in order to incentivise their behaviour.|
+
 
 
 # 8. Custom Information (optional)
