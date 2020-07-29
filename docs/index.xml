@@ -4999,12 +4999,6 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Definition&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Dynamic tariffs&lt;/td>
-&lt;td>Price signals communicated to the flexible loads in order to incentivise their behaviour.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
 &lt;/table>
 &lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
 &lt;table>
