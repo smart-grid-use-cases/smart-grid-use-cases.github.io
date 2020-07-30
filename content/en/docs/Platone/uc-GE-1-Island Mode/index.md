@@ -95,15 +95,18 @@ The operation of the community in an “Island” mode will be initiated by the 
 |---|
 |- Use case 1 is anticipated to emerge as a result of the Clean Energy Package, driven by the bottom-up demand of customers and local communities <br/> - It is a prerequisite for the advanced use 2 - 4|
 
-# 2. Diagrams of Use Case
+## 1.9. Diagrams of Use Case
 
 ![Diagram of Use Case](UC1_2_Diagram_of_Use_Case.png)
 
 *Diagram of Use Case*
 
-## 2.1 Use Case Diagram
+# 2. Temp
+
+## 2.1. Use Case Diagram
 
 ![Use Case Diagram](UC_GE_1_2_3_4_UC_diagram.png)
+
 
 *Use Case Diagram*
 
