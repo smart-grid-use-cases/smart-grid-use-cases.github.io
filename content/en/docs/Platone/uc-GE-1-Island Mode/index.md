@@ -95,26 +95,16 @@ The operation of the community in an “Island” mode will be initiated by the 
 |---|
 |- Use case 1 is anticipated to emerge as a result of the Clean Energy Package, driven by the bottom-up demand of customers and local communities <br/> - It is a prerequisite for the advanced use 2 - 4|
 
-## 1.9. Diagrams of Use Case
+# 2. Diagrams of Use Case
 
 ![Diagram of Use Case](UC1_2_Diagram_of_Use_Case.png)
 
-*Diagram of Use Case*
-
-# 2. Temp
-
-## 2.1. Use Case Diagram
 
 ![Use Case Diagram](UC_GE_1_2_3_4_UC_diagram.png)
 
 
-*Use Case Diagram*
-
-## 2.2. Sequence Diagram
-
 ![Sequence Diagram](UC_GE_1_2_3_4_Seq_Diag.png)
 
-*Sequence Diagram*
 
 # 3. Technical Details
 
@@ -170,7 +160,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 **Scenario Name: No. 1 - (Local generation exceeds local consumption)**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** |
-| --- | ------ | ------ | ---------------------- | --- | --- | --- | --- |
+| --- | ------ | ------ | ----------------------------- | - | --- | --- | --- |
 | 1 |DSO initiates UC 1|Trigger of Use Case|Operator from Avacon sets EMS (ALF-C) mode of operation to UC 1.EMS defines the target value for load exchange along the breaker of the grid connection point to zero (P’Breaker= 0).|REPORT|DSO|EMS|I-01|
 | 2 |EMS requests weather forecasts data|Data – Acquisition|EMS sends a request for the provision of real time weather and (6h ahead) to an external service provider. The Process will be repeated in regular intervals).|GET|EMS|External system|I-02|
 | 3 |External service provider send weather forecasts|Transmitting the data|Service providers sends weather data and weather forecast values|GET|External System|EMS|I-03|
