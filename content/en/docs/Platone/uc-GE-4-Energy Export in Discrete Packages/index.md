@@ -176,17 +176,17 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 **Scenario Name: No. 1 - (name of scenario)**
 
-| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** | **Requirements, R-ID** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
+| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 ||||||||
+| 2 ||||||||
 
 **Scenario Name: No. 2 - (name of scenario)**
 
-| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** | **Requirements, R-ID** |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 |||||||||
-| 2 |||||||||
+| **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged (IDs)** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 ||||||||
+| 2 ||||||||
 
 ***Notes***
 
