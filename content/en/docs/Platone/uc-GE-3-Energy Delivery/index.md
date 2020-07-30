@@ -126,11 +126,9 @@ Add any remarks which do not fit in any other category
 
 ![Sequence Diagram](UC_GE_1_2_3_4_Seq_Diag.png)
 
-*Sequence Diagram*
 
 ![Use Case Diagram](UC_GE_1_2_3_4_UC_diagram.png)
 
-*Use Case Diagram*
 
 # 3. Technical Details
 
