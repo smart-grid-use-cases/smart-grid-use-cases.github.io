@@ -2566,7 +2566,6 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
@@ -2579,11 +2578,9 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -2606,7 +2603,6 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Information Exchanged (IDs)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
@@ -2619,11 +2615,9 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
