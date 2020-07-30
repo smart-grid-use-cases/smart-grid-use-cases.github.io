@@ -172,7 +172,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 **Scenario Name: No. 1 - (Local generation exceeds local consumption)**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** |
-| --- | --- | --- | ------------------------------ | --- | --- | --- | --- |
+| --- | ------ | ------ | ---------------------- | --- | --- | --- | --- |
 | 1 |DSO initiates UC 1|Trigger of Use Case|Operator from Avacon sets EMS (ALF-C) mode of operation to UC 1.EMS defines the target value for load exchange along the breaker of the grid connection point to zero (P’Breaker= 0).|REPORT|DSO|EMS|I-01|
 | 2 |EMS requests weather forecasts data|Data – Acquisition|EMS sends a request for the provision of real time weather and (6h ahead) to an external service provider. The Process will be repeated in regular intervals).|GET|EMS|External system|I-02|
 | 3 |External service provider send weather forecasts|Transmitting the data|Service providers sends weather data and weather forecast values|GET|External System|EMS|I-03|
