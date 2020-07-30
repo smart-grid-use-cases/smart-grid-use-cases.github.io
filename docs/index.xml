@@ -238,10 +238,11 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;h2 id="19-diagrams-of-use-case">1.9. Diagrams of Use Case&lt;/h2>
 &lt;p>&lt;img src="UC1_2_Diagram_of_Use_Case.png" alt="Diagram of Use Case">&lt;/p>
 &lt;p>&lt;em>Diagram of Use Case&lt;/em>&lt;/p>
-&lt;h2 id="21-use-case-diagram">2.1 Use Case Diagram&lt;/h2>
+&lt;h1 id="2-temp">2. Temp&lt;/h1>
+&lt;h2 id="21-use-case-diagram">2.1. Use Case Diagram&lt;/h2>
 &lt;p>&lt;img src="UC_GE_1_2_3_4_UC_diagram.png" alt="Use Case Diagram">&lt;/p>
 &lt;p>&lt;em>Use Case Diagram&lt;/em>&lt;/p>
 &lt;h2 id="22-sequence-diagram">2.2. Sequence Diagram&lt;/h2>
