@@ -1194,7 +1194,6 @@ Diagram of Use Case
 &lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
@@ -1207,7 +1206,6 @@ Diagram of Use Case
 &lt;td>DSO&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>I - 01&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
@@ -1218,7 +1216,6 @@ Diagram of Use Case
 &lt;td>EMS&lt;/td>
 &lt;td>External System&lt;/td>
 &lt;td>I-02&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
@@ -1229,7 +1226,6 @@ Diagram of Use Case
 &lt;td>External System&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>I-03&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4&lt;/td>
@@ -1239,7 +1235,6 @@ Diagram of Use Case
 &lt;td>CREATE&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1251,7 +1246,6 @@ Diagram of Use Case
 &lt;td>EMS&lt;/td>
 &lt;td>Sensor&lt;/td>
 &lt;td>I-04&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6&lt;/td>
@@ -1262,7 +1256,6 @@ Diagram of Use Case
 &lt;td>Sensor&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>I-05&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>7&lt;/td>
@@ -1273,7 +1266,6 @@ Diagram of Use Case
 &lt;td>EMS&lt;/td>
 &lt;td>Sensor&lt;/td>
 &lt;td>I-04&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>8&lt;/td>
@@ -1284,7 +1276,6 @@ Diagram of Use Case
 &lt;td>Sensor&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>I-05&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>9&lt;/td>
@@ -1294,7 +1285,6 @@ Diagram of Use Case
 &lt;td>CREATE&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1306,7 +1296,6 @@ Diagram of Use Case
 &lt;td>EMS&lt;/td>
 &lt;td>Controllers&lt;/td>
 &lt;td>I-06&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>11&lt;/td>
@@ -1316,7 +1305,6 @@ Diagram of Use Case
 &lt;td>CREATE&lt;/td>
 &lt;td>Sensor&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1328,7 +1316,6 @@ Diagram of Use Case
 &lt;td>DSO or ALF-C&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>I-01&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1344,7 +1331,6 @@ Diagram of Use Case
 &lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
 &lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
@@ -1357,7 +1343,6 @@ Diagram of Use Case
 &lt;td>DSO&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>I - 01&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
@@ -1368,7 +1353,6 @@ Diagram of Use Case
 &lt;td>EMS&lt;/td>
 &lt;td>External System&lt;/td>
 &lt;td>I-02&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
@@ -1379,7 +1363,6 @@ Diagram of Use Case
 &lt;td>External System&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>I-03&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4&lt;/td>
@@ -1389,7 +1372,6 @@ Diagram of Use Case
 &lt;td>CREATE&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1401,7 +1383,6 @@ Diagram of Use Case
 &lt;td>EMS&lt;/td>
 &lt;td>Sensor&lt;/td>
 &lt;td>I-04&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6&lt;/td>
@@ -1412,7 +1393,6 @@ Diagram of Use Case
 &lt;td>Sensor&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>I-05&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>7&lt;/td>
@@ -1423,7 +1403,6 @@ Diagram of Use Case
 &lt;td>EMS&lt;/td>
 &lt;td>Sensor&lt;/td>
 &lt;td>I-04&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>8&lt;/td>
@@ -1434,7 +1413,6 @@ Diagram of Use Case
 &lt;td>Sensor&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>I-05&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>9&lt;/td>
@@ -1444,7 +1422,6 @@ Diagram of Use Case
 &lt;td>CREATE&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1456,7 +1433,6 @@ Diagram of Use Case
 &lt;td>EMS&lt;/td>
 &lt;td>Controllers&lt;/td>
 &lt;td>I-06&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>11&lt;/td>
@@ -1466,7 +1442,6 @@ Diagram of Use Case
 &lt;td>CREATE&lt;/td>
 &lt;td>Sensor&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1478,7 +1453,6 @@ Diagram of Use Case
 &lt;td>DSO or ALF-C&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>I-01&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
