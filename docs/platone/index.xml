@@ -1,4 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Platone</title><link>https://smart-grid-use-cases.github.io/docs/platone/</link><description>Recent content in Platone on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/platone/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC-DE-1</title><link>https://smart-grid-use-cases.github.io/docs/platone/uc-ge-1-island-mode/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/platone/uc-ge-1-island-mode/</guid><description>
+&lt;p>% Island Mode&lt;/p>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
