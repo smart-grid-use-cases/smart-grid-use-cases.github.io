@@ -117,15 +117,9 @@ Add any remarks which do not fit in any other category
 
 ![Diagram of Use Case](UC2_2_Diagram_of_Use_Case.png)
 
-*Diagram of Use Case*
-
 ![Sequence Diagram](UC_GE_1_2_3_4_Seq_Diag.png)
 
-*Sequence Diagram*
-
 ![Use Case Diagram](UC_GE_1_2_3_4_UC_diagram.png)
-
-*Use Case Diagram*
 
 # 3. Technical Details
 
