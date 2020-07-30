@@ -2442,9 +2442,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;p>Add any remarks which do not fit in any other category&lt;/p>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
 &lt;p>&lt;img src="UC_GE_1_2_3_4_Seq_Diag.png" alt="Sequence Diagram">&lt;/p>
-&lt;p>&lt;em>Sequence Diagram&lt;/em>&lt;/p>
 &lt;p>&lt;img src="UC_GE_1_2_3_4_UC_diagram.png" alt="Use Case Diagram">&lt;/p>
-&lt;p>&lt;em>Use Case Diagram&lt;/em>&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
