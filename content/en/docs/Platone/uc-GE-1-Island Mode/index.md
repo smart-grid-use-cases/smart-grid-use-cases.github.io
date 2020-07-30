@@ -6,8 +6,6 @@ description: >
   Island Mode
 ---
 
-% Island Mode
-
 # 1. Description of the Use Case
 
 ## 1.1. Name of the Use Case
