@@ -156,6 +156,7 @@ OPTIONAL - you can leave it blank
 # 4. Step by Step Analysis of Use Case
 
 ## 4.1. Overview of Scenarios
+
 | 1 | Initiating of UC 2 | Trigger Event | Operator sets EMS (ALF-C) mode of operation to UC 2 and defines target setpoint (PBreaker) for load exchange and duration (t) | REPORT | DSO | EMS | I - 01 | |
 | 2 | EMS requests weather forecasts data | Data-Aquisition | EMS sends a request for the provision of real time and forecast weather data (6h ahead) to an external service provider. <br/> The process will be repeated in regular intervals). | GET | EMS | External System | I-02 |   |
 | 3 | External service provider sends weather forecasts | Transmitting data | An external service provider sends weather data and weather forecast values | GET | External System | EMS |  I-03 |
