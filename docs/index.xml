@@ -2725,6 +2725,14 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>• Sensors and controllers are connected with EMS &lt;br/> • Enough flexible loads and storages capacity are available&lt;/td>
 &lt;td>Demand of local flexible loads and storages will be decreased, or feed of storages into the grid will be increased in order to reach P’Breaker.&lt;/td>
 &lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Decreasing Residual Energy Demand&lt;/td>
+&lt;td>• ALF-C &lt;br/> • BESS &lt;br/> • Energy Storage &lt;br/> • Flexible Load &lt;br/> • Generator &lt;br/> • Controller&lt;/td>
+&lt;td>Measured load flow at grid connection point (Residual generation is increasing/residual demand is decreasing)&lt;/td>
+&lt;td>• Sensors and actuators are connected with ALF-C &lt;br/> • Enough flexible loads and storages capacity are available for balancing&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
@@ -2744,7 +2752,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;p>&lt;strong>Scenario Name: No. 1 - (name of scenario)&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>Scenario Name: No. 1 - Local generation exceeds consumption&lt;/strong>&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -2761,23 +2769,93 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Initiating of UC 4&lt;/td>
+&lt;td>Trigger Event&lt;/td>
+&lt;td>Operator sets EMS (ALF-C) mode of operation to UC 4 and defines a setpoint schedule P’Breaker (t+1) for load exchange along the MV/LV feeder.&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>DSO&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
+&lt;td>External service provider sends weather forecasts&lt;/td>
+&lt;td>Transmitting the data&lt;/td>
+&lt;td>An external service provider sends weather data and weather forecast values.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>External Systems&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>I-03&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>EMS receives forecasting values&lt;/td>
+&lt;td>Forecasting of generation and demand&lt;/td>
+&lt;td>The EMS forecasts local generation and demand: &lt;br/> - Generation based on weather forecasts &lt;br/> - Load – based on weather forecast and load profiles from historic measurement data&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>EMS&lt;/td>
 &lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Sensor (grid connection point in secondary substation) provides values&lt;/td>
+&lt;td>Transmitting the data&lt;/td>
+&lt;td>The local sensor located at secondary substation measures the residual power export and sends data to EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 10 seconds.&lt;/td>
+&lt;td>CHANGE&lt;/td>
+&lt;td>Sensor&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>I-05&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>Local sensors provide data via Data Management Backend.&lt;/td>
+&lt;td>Transmitting the data&lt;/td>
+&lt;td>Local sensors provide measurements values and data via sensor data management backend to the EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 15 minutes.&lt;/td>
+&lt;td>CHANGE&lt;/td>
+&lt;td>Sensor&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>I-05&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>All data collected&lt;/td>
+&lt;td>Evaluation and determination of control strategy and setpoints&lt;/td>
+&lt;td>Based on provided measurement data, asset key data. EMS calculates the power bandwidth of each asset available for steering (PFlex). &lt;br/> &lt;br/> The EMS determines for each asset a setpoint (P’Asset) to reach P’Breaker. The determination of setpoints is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and household energy storages.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>EMS&lt;/td>
 &lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>Individual setpoints determined&lt;/td>
+&lt;td>Transmitting setpoints to controllers&lt;/td>
+&lt;td>The EMS sends setpoints via a data management backend to controllers to increase, decrease consumption assets (battery energy storage, household energy storage and flexible load) located in the field to increase consumption. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS along the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the Data Management Backend of the controller. This signal is sent every ten seconds to the BESS Management Backend and every 15 minutes to loads located at customer premise and replaces the default signal until the EMS calculates a setpoint.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>Controllers&lt;/td>
+&lt;td>I-06&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>Setpoint send to controller&lt;/td>
+&lt;td>Verification of setpoint execution&lt;/td>
+&lt;td>The EMS compares measured values comparison of PBreaker from the grid connection point with the target values P’Breaker. In case of deviation the setpoint are redefined by walking through step numbers 2 to 10. The process is continuously repeated until the end of use case.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>Sensor&lt;/td>
+&lt;td>EMS&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>End of Use Case 2&lt;/td>
+&lt;td>End of Use Case 2&lt;/td>
+&lt;td>The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach P’Breaker.&lt;/td>
+&lt;td>REPORT/CREATE&lt;/td>
+&lt;td>DSO or ALF-C&lt;/td>
+&lt;td>EMS&lt;/td>
+&lt;td>I-01&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -2854,40 +2932,28 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>I-07&lt;/td>
-&lt;td>Generation&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
+&lt;td>I-01&lt;/td>
+&lt;td>User sets UC and variables&lt;/td>
+&lt;td>- DSO sets the use case via an UI the EMS (ALF-C) to apply UC 2. The trigger signal is: &lt;br/> 0 = stop current use case &lt;br/> 1 = application of UC 1 &lt;br/> 2 = application of UC 2 &lt;br/> 3 = application of UC 3 &lt;br/> 4 = application of UC 4 &lt;br/> - DSO set via UI a target setpoint (P’Breaker) for the load - exchange along the grid connection point.&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>I-08&lt;/td>
-&lt;td>Consumption&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
+&lt;td>I-03&lt;/td>
+&lt;td>Weather forecasts provision&lt;/td>
+&lt;td>- Solar radiation (t + 24h) &lt;br/> - Cloudiness (t + 24 h) &lt;br/> - Temperature (t + 24 h) &lt;br/> - Humidity (t + 24 h) &lt;br/> - Windspeed (t + 24 h)&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>I-09&lt;/td>
-&lt;td>Power at point of connection (real time)&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
+&lt;td>I-05&lt;/td>
+&lt;td>Sensor measurement data provision&lt;/td>
+&lt;td>The sensor sends measurement values containing: &lt;br/> voltage (U), current (I) and angle of phase (Phi) values of all 3 phases measured in secondary substation. Values indicate the residual power demand/generation as sum of demand or feed of BESS, household energy storage, flexible loads, generators and customer households and agricultural buildings.&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>I-10&lt;/td>
-&lt;td>Battery SOE/SOC&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-11&lt;/td>
-&lt;td>Weather conditions&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-12&lt;/td>
-&lt;td>Individual setpoints for flexibilities&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
-&lt;td>&amp;mdash;&lt;/td>
+&lt;td>I-06&lt;/td>
+&lt;td>Sending of setpoint (t) or setpoint schedule (t+1)&lt;/td>
+&lt;td>Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC]&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -2930,6 +2996,85 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="9-functionalities">9. Functionalities&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Function&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Application in UC-GE-0&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Input&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Output&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Provided by&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>F-01&lt;/td>
+&lt;td>Monitoring&lt;/td>
+&lt;td>1,2,3,4&lt;/td>
+&lt;td>I-03&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>ALF-C&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>F-02&lt;/td>
+&lt;td>Data Storage&lt;/td>
+&lt;td>1,2,3,4&lt;/td>
+&lt;td>I-03&lt;/td>
+&lt;td>Historic data&lt;/td>
+&lt;td>ALF-C, BAP&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>F-03&lt;/td>
+&lt;td>Analysis of historic data&lt;/td>
+&lt;td>1,2,3,4&lt;/td>
+&lt;td>Historic data&lt;/td>
+&lt;td>Load profiles&lt;/td>
+&lt;td>ALF-C, DSOTP&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>F-04&lt;/td>
+&lt;td>State Estimation&lt;/td>
+&lt;td>1,2,3,4&lt;/td>
+&lt;td>I-02, I-03&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>ALF-C, DSOTP&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>F-05&lt;/td>
+&lt;td>Forecasting Generation&lt;/td>
+&lt;td>1,2,3,4&lt;/td>
+&lt;td>I-03, I-02 asset data; load profiles&lt;/td>
+&lt;td>Generation forecast&lt;/td>
+&lt;td>ALF-C, DSOTP&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>F-06&lt;/td>
+&lt;td>Forecasting Demand&lt;/td>
+&lt;td>1,2,3,4&lt;/td>
+&lt;td>I-03, I-02 asset data; load profiles&lt;/td>
+&lt;td>Load forecast&lt;/td>
+&lt;td>ALF-C, DSOTP&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>F-07&lt;/td>
+&lt;td>Local Balancing&lt;/td>
+&lt;td>1,2,3,4&lt;/td>
+&lt;td>I-01, I-03, Generation forecast, Load forecast&lt;/td>
+&lt;td>Setpoint&lt;/td>
+&lt;td>ALF-C, DSOTP&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>F-08&lt;/td>
+&lt;td>Setpoint Dispatching&lt;/td>
+&lt;td>1,2,3,4&lt;/td>
+&lt;td>Setpoint&lt;/td>
+&lt;td>I-06&lt;/td>
+&lt;td>ALF-C&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: UC-GR-1</title><link>https://smart-grid-use-cases.github.io/docs/platone/uc-gr-1-functions-of-the-state-estimation-tool-given-conventional-measurements/</link><pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/platone/uc-gr-1-functions-of-the-state-estimation-tool-given-conventional-measurements/</guid><description>
