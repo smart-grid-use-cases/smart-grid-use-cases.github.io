@@ -171,6 +171,7 @@ OPTIONAL - you can leave it blank
 | **No.** | **Scenario Name** | **Primary Actor** | **Triggering Event** | **Pre-Condition** | **Post-Condition** |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Increasing Residual Energy Demand | •	ALF-C <br/> •	BESS <br/> •	Energy Storage <br/> •	Flexible Load <br/> •	Generator <br/> •	Controller | Measured load flow (export) at grid connection point (Residual generation is decreasing/residual demand is increasing) | •	Sensors and controllers are connected with EMS <br/> •	Enough flexible loads and storages capacity are available | Demand of local flexible loads and storages will be decreased, or feed of storages into the grid will be increased in order to reach P’Breaker. |
+| 2 | Decreasing Residual Energy Demand | •	ALF-C <br/> •	BESS <br/> •	Energy Storage <br/> •	Flexible Load <br/> •	Generator <br/> •	Controller | Measured load flow at grid connection point (Residual generation is increasing/residual demand is decreasing) | •	Sensors and actuators are connected with ALF-C <br/> •	Enough flexible loads and storages capacity are available for balancing | |
 
 ***Notes***
 
@@ -186,12 +187,21 @@ This part describes the possible scenarios of the use case. The scenarios should
 
 ## 4.2. Steps – Scenarios
 
-**Scenario Name: No. 1 - (name of scenario)**
+**Scenario Name: No. 1 - Local generation exceeds consumption**
 
 | **Step No.** | **Event.** | **Name of Process/ Activity** | **Description of Process/ Activity.** | **Service** | **Information Producer (Actor)** | **Information Receiver (Actor)** | **Information Exchanged** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 ||||||||
-| 2 ||||||||
+| 1 | Initiating of UC 4 | Trigger Event | Operator sets EMS (ALF-C) mode of operation to UC 4 and defines a setpoint schedule P’Breaker (t+1) for load exchange along the MV/LV feeder. | REPORT | DSO | EMS | I-01 |
+| 2 | External service provider sends weather forecasts | Transmitting the data | An external service provider sends weather data and weather forecast values. | GET | External Systems | EMS | I-03 |
+| 3 | EMS receives forecasting values | Forecasting of generation and demand | The EMS forecasts local generation and demand: <br/> -	Generation based on weather forecasts <br/> -	Load – based on weather forecast and load profiles from historic measurement data | CREATE | EMS | EMS | |
+| 4 | Sensor (grid connection point in secondary substation) provides values | Transmitting the data | The local sensor located at secondary substation measures the residual power export and sends data to EMS. <br/> <br/> If Applicable (to be clarified): <br/> <br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. <br/> <br/> After the trigger for provision of measurement data, the <br/> Then data will be pushed by the sensor to the EMS every 10 seconds. | CHANGE | Sensor | EMS | I-05 |
+| 5 | Local sensors provide data via Data Management Backend. | Transmitting the data | Local sensors provide measurements values and data via sensor data management backend to the EMS. <br/> <br/> If Applicable (to be clarified): <br/> <br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. <br/> <br/> After the trigger for provision of measurement data, the <br/> Then data will be pushed by the sensor to the EMS every 15 minutes. | CHANGE | Sensor | EMS | I-05 |
+| 6 | All data collected | Evaluation and determination of control strategy and setpoints | Based on provided measurement data, asset key data. EMS calculates the power bandwidth of each asset available for steering (PFlex). <br/> <br/> The EMS determines for each asset a setpoint (P’Asset) to reach P’Breaker. The determination of setpoints is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and household energy storages. | CREATE | EMS | EMS | |
+| 7 | Individual setpoints determined | Transmitting setpoints to controllers | The EMS sends setpoints via a data management backend to controllers to increase, decrease consumption assets (battery energy storage, household energy storage and flexible load) located in the field to increase consumption. <br/> <br/> If Applicable (to be clarified): <br/> The communication will take place from the EMS along the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the Data Management Backend of the controller. This signal is sent every ten seconds to the BESS Management Backend and every 15 minutes to loads located at customer premise and replaces the default signal until the EMS calculates a setpoint. | EXECUTE | EMS | Controllers | I-06 |
+| 8 | Setpoint send to controller | Verification of setpoint execution | The EMS compares measured values comparison of PBreaker from the grid connection point with the target values P’Breaker. In case of deviation the setpoint are redefined by walking through step numbers 2 to 10. The process is continuously repeated until the end of use case. | CREATE | Sensor | EMS | |
+| 9 | End of Use Case 2 | End of Use Case 2 | The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach P’Breaker. | REPORT/CREATE | DSO or ALF-C | EMS | I-01 |
+
+
 
 **Scenario Name: No. 2 - (name of scenario)**
 
@@ -222,12 +232,10 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 
 |**Information exchanged ID**|**Name of Information** | **Description of Information Exchanged** | **Requirements to information data** |
 | --- | --- | --- | --- |
-| I-07 |Generation| --- | --- |
-| I-08| Consumption|--- |--- |
-| I-09| Power at point of connection (real time)|--- |--- |
-| I-10| Battery SOE/SOC|--- |--- |
-| I-11| Weather conditions|--- |--- |
-| I-12| Individual setpoints for flexibilities|--- |--- |
+| I-01 | User sets UC and variables | -	DSO sets the use case via an UI the EMS (ALF-C) to apply UC 2. The trigger signal is: <br/> 0 = stop current use case <br/> 1 = application of UC 1 <br/> 2 = application of UC 2 <br/> 3 = application of UC 3 <br/> 4 = application of UC 4 <br/> -	DSO set via UI  a target setpoint (P’Breaker) for the load - exchange along the grid connection point. | |
+| I-03| Weather forecasts provision | -	Solar radiation (t + 24h) <br/> -	Cloudiness (t + 24 h) <br/> -	Temperature (t + 24 h) <br/> -	Humidity (t + 24 h) <br/> -	Windspeed (t + 24 h) | |
+| I-05| Sensor measurement data provision | The sensor sends measurement values containing: <br/> voltage (U), current (I) and angle of phase (Phi) values of all 3 phases measured in secondary substation. Values indicate the residual power demand/generation as sum of demand or feed of BESS, household energy storage, flexible loads, generators and customer households and agricultural buildings. | |
+| I-06| Sending of setpoint (t) or setpoint schedule (t+1) | Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC] | |
 
 ***Notes***
 
@@ -249,3 +257,29 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 | **Key** | **Value** | **Refers to Section** |
 | --- | --- | --- |
 |||
+
+# 9. Functionalities
+
+| **Function** | **Description** | **Application in UC-GE-0** | **Input** | **Output** | **Provided by** |
+| --- | --- | --- | --- | --- | --- |
+| F-01 | Monitoring | 1,2,3,4 | I-03 | | ALF-C |
+| F-02 | Data Storage | 1,2,3,4 | I-03 | Historic data | ALF-C, BAP |
+| F-03 | Analysis of historic data | 1,2,3,4 | Historic data | Load profiles | ALF-C, DSOTP |
+| F-04 | State Estimation | 1,2,3,4 | I-02, I-03 | | ALF-C, DSOTP |
+| F-05 | Forecasting Generation | 1,2,3,4 | I-03, I-02 asset data; load profiles | Generation forecast | ALF-C, DSOTP |
+| F-06 | Forecasting Demand | 1,2,3,4 | I-03, I-02 asset data; load profiles | Load forecast | ALF-C, DSOTP |
+| F-07 | Local Balancing | 1,2,3,4 | I-01, I-03, Generation forecast, Load forecast | Setpoint | ALF-C, DSOTP |
+| F-08 | Setpoint Dispatching | 1,2,3,4 | Setpoint | I-06 | ALF-C |
+
+
+
+
+
+
+
+
+
+
+
+
+
