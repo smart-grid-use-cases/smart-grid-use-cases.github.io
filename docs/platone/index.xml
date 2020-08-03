@@ -2354,8 +2354,8 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>UC-DE-4&lt;/td>
-&lt;td>Area: Energy system &lt;/br> &lt;em>Leave it blank if not sure&lt;/em>&lt;/td>
-&lt;td>Energy Export in Discrete Packages&lt;/td>
+&lt;td>&lt;strong>Area:&lt;/strong> Energy system &lt;/br> &lt;strong>Domain:&lt;/strong> Distribution, Customer Premise, Field, DER &lt;/br> &lt;strong>Zones:&lt;/strong> Operation, Enterprise, Process, Field&lt;/td>
+&lt;td>&lt;strong>Flex Provision:&lt;/strong> Implementation of an Energy Management System that enables a local energy community to provide flexibility at request of a third party (operator)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -2374,16 +2374,23 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>0.1&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>1st April 2020&lt;/td>
 &lt;td>Thorsten Gross&lt;/td>
 &lt;td>Initial creation&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Draft&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>0.2&lt;/td>
 &lt;td>2nd June 2020&lt;/td>
 &lt;td>Katarzyna Zawadzka&lt;/td>
 &lt;td>Initial creation in Github&lt;/td>
+&lt;td>Draft&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>0.3&lt;/td>
+&lt;td>16th June 2020&lt;/td>
+&lt;td>Benjamin Petters&lt;/td>
+&lt;td>Extended description and added technical part&lt;/td>
 &lt;td>Draft&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -2399,16 +2406,16 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Scope&lt;/td>
-&lt;td>Import of energy surplus to the local energy communities. Battery storage system enables to provide that service during specified time slots. &lt;br/> Networks: LV, MV &lt;br/> Markets: None&lt;/td>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>Communities with a high penetration of photovoltaic systems and correspondingly high installed generation capacity can be expected to generate an energy surplus during times of peak generation and low local demand, and vice versa to run into an energy deficit during seasons of low generation. Surplus energy can be stored and shifted to times of low generation in order to satisfy temporary demand and hence increase the degree of self-sufficiency. Use Case 2 demonstrates how the flexibility required to enable a local balancing mechanism could temporarily be allocated to other uses, for example the provision of flexibility to a third party, e.g. the connecting grid operator. Use Case 2 uses the available flexibility in a given local energy community to maintain an externally defined non-zero setpoint at the point of connection. &lt;br/> Networks: LV, MV &lt;br/> Markets: None&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>* To develop novel strategies for the supply and export of power to and from local energy communities &lt;br/> * To improve management of the network. &lt;br/>&lt;/td>
+&lt;td>Maintain a fixed non-zero power exchange between energy community and the distribution network for a limited duration.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Integration of local energy communities in network management strategies for the stabilization and uniform utilization in distribution grid&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -2426,10 +2433,9 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/ul>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>The emergence of Local Energy Communities can introduce the end of the supply paradigm for low voltage network. Instead of a real-time-all-the-time approach, DSO can imagine to limit the delivery or exports of energy to local communities to fixed time slots. By staggering the assigned time slots across the communities along a feeder DSOs can significantly reduce line loading and improve the utilization of assets.&lt;/p>
-&lt;p>UC4 covers the situation during times of energy surplus. The use case module predicts the energy generation for a 24h period and assigns export slots to the LEC. Outside of these slots the LEC reverts to island-mode.&lt;/p>
+&lt;p>Local energy communities (LEC, CEC) are likely to emerge in Europe in the near future but will most likely retain an interconnection to the distribution grid. These communities will require a large share of flexibility to enable their primary use case (islanding). &lt;/br> In the absence of sufficient generation and storage, the community is unlikely to be self-sufficient at all times. When generation of surplus occur, they must be exported into the distribution network. Instead of a real time energy export to the connected distribution network, energy surplus could be forecast and exported delayed as an energy package within a defined time, duration and power value for the load exchange at the LV/ MV-grid connection point. The generated energy surplus first shall be stored in local storages located within the community and be exported as an energy package delayed, when the load in the upper grid decreases. Outside of the defined periods of energy export, no power exchange shall take place, according to DE-UC1. This use case enables the DSO to reduce overall network costs, for example by gaining the ability to stagger the export of multiple communities along a single feeder, thusly reducing the factor of coincidence of peak load and peak load level accordingly. &lt;/br> Local energy communities (LEC, CEC) are likely to emerge in Europe in the near future but will most likely retain an interconnection to the distribution grid. These communities will require a large share of flexibility to enable their primary use case (islanding). &lt;/br> &lt;/br> In the absence of sufficient generation and storage, the community is unlikely to be self-sufficient at all times. When generation of surplus occur, they must be exported into the distribution network. Instead of a real time energy export to the connected distribution network, energy surplus could be forecast and exported delayed as an energy package within a defined time, duration and power value for the load exchange at the LV/ MV-grid connection point. The generated energy surplus first shall be stored in local storages located within the community and be exported as an energy package delayed, when the load in the upper grid decreases. Outside of the defined periods of energy export, no power exchange shall take place, according to DE-UC1. This use case enables the DSO to reduce overall network costs, for example by gaining the ability to stagger the export of multiple communities along a single feeder, thusly reducing the factor of coincidence of peak load and peak load level accordingly.&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>add text - longer narrative from user viewpoint about &lt;em>what&lt;/em> happens &lt;em>how&lt;/em>, &lt;em>where&lt;/em>, &lt;em>when&lt;/em>, &lt;em>why&lt;/em> and &lt;em>under which assumptions&lt;/em>. It has to be written in a way that it can also be understood by non-experts.&lt;/p>
+&lt;p>An operator of Avacon triggers the EMS to apply Use Case 4 and sets a schedule of target value P’Breaker for the period (t+1) for the power exchange at the grid connection point. The schedule can be defined for a duration for the next 1 to 24 hours. &lt;br/> The schedule contains time slots for the export of energy in which P’Breaker ≠ 0 and time slots in which no power shall be exchange along the grid connection point (P’Breaker = 0), following the principle of UC 1. During the application of UC 4 the total amount of exported energy shall meet the total amount of the residual energy surplus that the community will generate. The generated surplus will therefore have to be forecasted by the user. In times P’Breaker = 0 the generated surplus will have to be stored in local battery energy storages systems. In times P’Breaker ≠ 0, local batteries will be triggered to discharge in order to export generated surplus from LV into MV grid. To maintain the given setpoint P’Breaker deficits shall be covered by energy provided by batteries located in the local network whereas generated surplus shall be buffered in available batteries. &lt;/br> After the user input has been confirmed the EMS begins with the application of UC 4. The EMS receives weather forecasts provided by an external service provider and measurement values provided by sensors located at the LV/MV grid connection point, flexible assets such as BESS, household energy storages and flexible loads as well as household grid connection points. Based on the received data and historic measurements values the EMS forecasts the local generation and demands and determines the best strategy to reach and maintain the setpoint schedule by utilizing the available flexibility for the pre-defined duration. &lt;/br> A sensor located at the grid connection will measure the power exchange of all 3 phases with the MV grid PBreaker and provide data to the EMS. Based on the information the EMS determines deviations between PBreaker and P’Breaker and dispatches setpoints to increases or decreases the load in the grid in order to reach P’Breaker. Additionally, sensors located in private customer households will provide measurements of energy consumption and SOC/SOE of storages and provide data to the EMS. With historical measurement data and weather forecast provided by external service providers enable the EMS to predict energy generation and consumption to maximize the duration of time of maintaining P’Breaker. &lt;/br> In cases generation and demand cannot be balanced to reach (P’Breaker) due to a lack of available storage capacity or flexibility, the use case will be terminated.&lt;/p>
 &lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -2442,10 +2448,22 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>KPI_GE_UC4_01&lt;/td>
+&lt;td>Flexibility Availability&lt;/td>
+&lt;td>Assessment of availability of Flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>KPI_GE_UC2_02&lt;/td>
+&lt;td>Responsiveness&lt;/td>
+&lt;td>Assessment of response times to flex requests and latencies along the use case process&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>KPI_GE_UC2_03&lt;/td>
+&lt;td>Accuracy of power exchange&lt;/td>
+&lt;td>Assessment of the accuracy of the achievement of a given setpoint.&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -2459,8 +2477,12 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Private Customer households with flexible loads and storages are organized in a local energy community with a central EMS.&lt;/td>
+&lt;td>Participants of the energy communities incl. flexible loads and storages are connected to a single low voltage grid (feed by a single MV/LV transformer) and are monitored and steered by an EMS.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>The energy community needs an operator for the “Islanding” EMS.&lt;/td>
+&lt;td>National regulations have to be clarified who can be the service providers and who can’t (TSO, DSO, Aggregator, Retailer, Energy Service provider)&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -2483,19 +2505,19 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>add text&lt;/td>
+&lt;td>UC 1 as a prerequisite for islanding the community&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>add text&lt;/td>
+&lt;td>Primary Use Case&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>add text&lt;/td>
+&lt;td>very important&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
@@ -2507,7 +2529,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>add text&lt;/td>
+&lt;td>Technical&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
@@ -2566,46 +2588,88 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>DSO&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>ADMS, SCADA&lt;/td>
+&lt;td>Consumer Load&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Household with a standard load profile energy consumption of a single household or energy consumer with a standard load profile of an agricultural building.&lt;/td>
+&lt;td>No direct measurement of energy consumption, demand not controllable (passive user).&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Residential consumer&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Generators&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Rooftop photovoltaic system generating energy directly correlated with solar radiation at location.&lt;/td>
+&lt;td>Limited controllability (can be curtailed in extreme cases). Located on customers premise and can be operated in combination with a battery storage system, for optimization of own consumption.&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Residential prostormer&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Controller&lt;/td>
+&lt;td>Device&lt;/td>
+&lt;td>Summarises all devices that are able to receive setpoints or setpoint schedules and translate them into actionable steering commands for the flexible load or storage.&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>commercial consumer&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Sensors&lt;/td>
+&lt;td>Device&lt;/td>
+&lt;td>Devices that measure voltage, current and angle of phase or SOE or SOC in case of storages and able to communicate to external systems or devices.&lt;/td>
+&lt;td>Retrofit (PMU or other) or integrated&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>commercial prostormer&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Battery Energy Storage System (BESS)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>System that are demanding, storing and feeding energy to the local grid/energy community.&lt;/td>
+&lt;td>300 kW/600 kWh, fully integrated in EMS and full time available for UC.&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Energy community&lt;/td>
-&lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Household Energy Storage&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>System that are demanding, storing and feeding energy to the local grid/energy community.&lt;/td>
+&lt;td>Integrated in EMS and full time available for UC.&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Aggreator/ Flexibility operator&lt;/td>
+&lt;td>Flexible Loads&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Electrical heater or eat pump used by household for generation of domestic heat.&lt;/td>
+&lt;td>aould be provided by customer households.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Weather Forecast Service Provider&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>Provides weather forecasts for the next 24h of wind, solar radiation, cloudiness and temperature.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BESS Data Management Backend&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>Data backend provided by BESS manufacturer for storing data and providing measurement data and forwarding setpoint to BESS.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sensor &amp;amp; Controller Data Management Backend&lt;/td>
+&lt;td>External System&lt;/td>
+&lt;td>Cloud service of assets vendor (can be individual for different assets) storing data, providing measurement data of asset and/or interface for transmission of setpoints to asset.&lt;/td>
+&lt;td>Assets with different vendors, requires connection to different vendor cloud platform and backends.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DSO Technical Platform&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Central Platform providing services, e.g. data storage and state estimation. Used as middleware for data acquisition and setpoint delivery of assets and sensors in the field.&lt;/td>
+&lt;td>Provided by RWTH.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Blockchain Access Platform&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Platform for encryption and verification of data flows along the way of communication from EMS (ALF-C) to sensors and Assets in the field.&lt;/td>
+&lt;td>Provided by Engineering&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EMS (ALF-C)&lt;/td>
+&lt;td>Component&lt;/td>
+&lt;td>- Monitors local generation and demand &lt;br/> - monitors available flexibility and storages &lt;br/> - forecasts generation, demand and available flexibility via historic data and weather forecasts &lt;/br> - Accepts use case Trigger from EMS Use Case Modul and determines and dispatches setpoints for individual assets &lt;/br> - Calculates the setpoint or setpoint schedule for the EMS Controller&lt;/td>
+&lt;td>EMS named Avacon Local Flex Controller (EMS). &lt;br/> &lt;br/> In a productive environment operator could be DSO, retailer, storage system operators or any other energy service provider.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Distribution System Operator (Avacon)&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Local grid operator (Avacon) setting use case and setting setpoint for load exchange along the grid connection point (P’Breaker)&lt;/td>
+&lt;td>Only in field test trial. n future done by DSO, TSO, marketer or energy service providers&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -2655,11 +2719,11 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Increasing Residual Energy Demand&lt;/td>
+&lt;td>• ALF-C &lt;br/> • BESS &lt;br/> • Energy Storage &lt;br/> • Flexible Load &lt;br/> • Generator &lt;br/> • Controller&lt;/td>
+&lt;td>Measured load flow (export) at grid connection point (Residual generation is decreasing/residual demand is increasing)&lt;/td>
+&lt;td>• Sensors and controllers are connected with EMS &lt;br/> • Enough flexible loads and storages capacity are available&lt;/td>
+&lt;td>Demand of local flexible loads and storages will be decreased, or feed of storages into the grid will be increased in order to reach P’Breaker.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
