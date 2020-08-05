@@ -5746,7 +5746,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tr>
 &lt;td>UC-IT-1&lt;/td>
 &lt;td>Area: Energy system &lt;/br>&lt;/td>
-&lt;td>Voltage Management in transmission and distribution system using also the resources connected to the distribution system&lt;/td>
+&lt;td>Voltage Management in transmission and distribution systems&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -5789,11 +5789,11 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>Scope&lt;/td>
-&lt;td>Voltage violations avoidance in distribution and transmission grid by use of flexibility resources connected to transmission and distribution system providing ancillary services through a market mechanism. &lt;br/> Networks: MV, LV (HV users have their own market) &lt;br/> Markets: Day Ahead, Near Real Time&lt;/td>
+&lt;td>Avoiding the voltage violations in distribution and transmission grid, using the flexibility resources connected to the distribution systems which provide flexibility services through a market mechanism. &lt;br/> Networks: MV, LV &lt;br/> Markets: Day Ahead, Real Time&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>* To support the TSO to use the flexibility provided by the resources connected to the distribution system for congestion management, while respecting distribution system constraints &lt;br/> * To ensure an inclusive and non-discriminatory access to the market &lt;em>for all agents that provide grid services&lt;/em> &lt;br/> * To enable coordination between system operators &lt;br/> * To &lt;em>optimize&lt;/em> the distribution network utilization &lt;br/> * To activate &lt;em>flexibility to solve voltage violations in the distribution grid&lt;/em> &lt;br/> * To &lt;em>minimize RES curtailment due to technical requirements and operation constraints&lt;/em>&lt;/td>
+&lt;td>* To support the TSO to use the flexibility provided by the resources connected to the distribution system for voltage violation, respecting the distribution system constraints &lt;br/> * To ensure an inclusive and non-discriminatory access to the market to all the actors that provide grid services &lt;br/> * To empower coordination between system operators &lt;br/> * To activate flexibility to solve voltage violations in the distribution grid &lt;br/>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
@@ -5803,22 +5803,23 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;/table>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>This UC describes the main steps to avoid voltage violations in transmission and distribution systems. The DSO can use flexible resources connected to the distribution system and TSO can use flexible resources connected to transmission and distribution systems after the DSO’s approval. The power flow is assessed and monitored respectively by DSO and TSO, in order to keep the electrical quantities within admissible ranges.&lt;/p>
+&lt;p>This use case describes the main steps to avoid voltage violations in transmission and distribution systems by exploiting flexibility resources, contemplating all the phases concerned (procurement, activation and settlement) in the day-ahead and real time flexibility market. The DSO can use flexible resources connected to the distribution system and the TSO can use flexible resources connected to distribution systems under the DSO’s approval. The state estimation is assessed and monitored by the DSO in order to keep the electrical quantities within admissible ranges.&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>The UC deals the Voltage Violation on transmission and distribution grid, describing all the main phases: procurement, activation and settlement, in the day ahead and real time flexibility market.
-In the day ahead market, the FR Owner sends to Aggregator Platform the list of the resources available for the day after. Subsequently the Aggregator Platform transmits the list to the SCD. For every POD, the SCD joins the quarterly measures and all the main data useful for the flexibility and sends them to DSO TP, TSO simulator and Aggregator Platform.
-In parallel take place three processes :&lt;/p>
+&lt;p>The Use Case describes the main steps to avoid voltage violations in transmission and distribution systems by exploiting flexibility resources, contemplating all the phases concerned (procurement, activation and settlement) in the day-ahead and real time flexibility market. The DSO can use flexible resources connected to the distribution system and the TSO can use flexible resources connected to distribution systems under the DSO’s approval. The state estimation is assessed and monitored by the DSO in order to keep the electrical quantities within admissible ranges.&lt;/p>
+&lt;p>In the day ahead market, the FR Owner sends to Aggregator Platform the list of the resources available for the day after. The list is subsequently transmitted by the Aggregator Platform to the Shared Customer Database (SCD). For each Point of delivery (PODs), the SCD collects quarterly measures and data useful for flexibility and sends them to the DSO Technical Platform, the TSO simulator and the Aggregator Platform.&lt;/p>
+&lt;p>Other three processes take place parallelly:&lt;/p>
 &lt;ul>
-&lt;li>The DSO Technical Platform detects the voltage violation on the distribution grid. The DSO try first to solve the issues using the own solutions, after it uses the local flexibility market, defining the local flexibility requests;&lt;/li>
-&lt;li>The TSO simulator defines the voltage violations on the transmission network and requires the flexibility to solve the congestion in HV grid to the local market;&lt;/li>
-&lt;li>The Aggregator Platform gathers the flexibility from the customers in low and in medium voltage and offer it to the market platform.
-At gate closure all the day ahead requests and offers are stored on the Market Platform. The Market Platform matches first the offers with the DSO’s requests, and orders them in economic manner, after repeats the procedure with the TSO requests. Hence the list of auctioned offers is sent to DSO TP for evaluate the grid constraints violations. Finally the market platform receives the list of offers comply with local grid constraints and sends them to all the stakeholders.
-Moreover the Aggregator Platform sends a reservation to FR Owner for the resources that will be select for the market day ahead.
-The same steps are followed in the Real Time session. The only variation is in the Aggregator domain. Indeed the aggregator uses in Real Time session the same offers proposed in the Day ahead market, hence all the requests that DSO and TSO makes in Real Time are matched with the offers presented in the previous session.
-When the DSO or the TSO need of flexibility, begin the Activation phase, where the DSO TP or TSO Simulator communicate to market the order to move tied to a specific offer. The Market Platform sends the order to DSO TP, that divides it for every POD and dispatches the set point to light nodes. The light nodes make available the set points to the BMS/FR. Also, the Light Node measures the electrical quantities for evaluate the energy flexibility and sends them to the SCD.
-For the settlement phase the Market Platform acquires the data from the SCD and calculates the difference between market baseline, uploaded in the SCD by BRP, and electrical quantities measured in the same time frame, uploaded in the SCD by Light Node. The Market Platform runs the settlement algorithm and finds the outcomes. The settlement outcomes are transmitted to Aggregator Platform, DSO and TSO Simulator.
-Finally, the DSO pays the flexibility to the aggregator, that can recognizes the fee to the FR Owner.&lt;/li>
+&lt;li>Detection of voltage violations on the distribution grid by the DSO Technical Platform and definition of local flexibility requests, in the event the issue cannot be solved through its own solutions;&lt;/li>
+&lt;li>Definition of voltage violations on the transmission network by the TSO simulator and request of flexibility to solve them in HV grid;&lt;/li>
+&lt;li>Gathering by the Aggregator Platform of flexibility offers from customers in LV and MV and offering to the Market.&lt;/li>
 &lt;/ul>
+&lt;p>At gate closure, all day ahead requests and offers are stored in the Market Platform, which matches first the offers with the DSO’s requests, and orders them economically; then, it repeats the same procedure with the TSO requests.&lt;/p>
+&lt;p>The list of awarded offers is sent to DSO TP for evaluating the grid constraints violations. Finally, the market platform receives the list of offers compliant with local grid constraints and sends it to all the stakeholders.
+At this step, the Aggregator Platform sends a reservation to the FR Owner for the resources that will be selected for the day-ahead market.&lt;/p>
+&lt;p>The same steps are also followed in the Real Time sessions. Indeed, in these Market sessions, the offers to be matched with DSO and TSO Real Time requests are the ones still valid because not matched in previous market sessions.&lt;/p>
+&lt;p>The activation phase begins when the DSO and TSO need flexibility. The DSO TP and the TSO simulator communicate to the market Platform to move a specific offer. The Market Platform sends the order to the DSO TP, that divides it for every POD and dispatches the set point to the light nodes. The light nodes make available the set points to the BMS and measures the electrical quantities to be sent to the SCD for evaluate the energy flexibility.
+For the settlement phase, the Market Platform acquires data from the SCD and calculates the difference between market baseline, evaluated by BRP, and electrical quantities measured in the same time frame, uploaded in the SCD by Light Nodes. The Market Platform runs the settlement algorithm and finds the outcomes. Settlement outcomes are transmitted to the Aggregator Platform, the DSO and the TSO Simulator.&lt;/p>
+&lt;p>Finally, the DSO pays the flexibility to the aggregator, that can pay the fee to the FR Owner.&lt;/p>
 &lt;h2 id="15-key-performance-indicators-kpi">1.5. Key Performance Indicators (KPI)&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -5940,7 +5941,8 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>Add any remarks which do not fit in any other category&lt;/p>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;img src="Active_Diagram_Voltage_Violation.jpg" alt="Active Diagram Voltage Violation">&lt;/p>
+&lt;p>&lt;strong>Use Case Diagram Congestion&lt;/strong>
+To be uploaded&lt;/p>
 &lt;p>&lt;strong>Active Diagram Voltage Violation&lt;/strong>&lt;/p>
 &lt;p>![Sequence Diagram Voltage Day Ahead](Sequence diagram Voltage DA.png)
 ![Sequence Diagram Voltage Real Time](Sequence diagram Voltage RT.png)
@@ -5948,7 +5950,6 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 ![Sequence Diagram Voltage Settlement](Sequence diagram Voltage Settlement.png)&lt;/p>
 &lt;p>&lt;strong>Sequence Diagram Voltage&lt;/strong>&lt;/p>
 &lt;p>&lt;img src="Use_Case_Diagram_Voltage.png" alt="Use Case Diagram Voltage">&lt;/p>
-&lt;p>&lt;strong>Use Case Diagram Voltage&lt;/strong>&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -5970,56 +5971,56 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>Light Node&lt;/td>
 &lt;td>Device&lt;/td>
-&lt;td>Device installed on the electrical meter that reads, arranges, certifies in Blockchain and sends the measurement for the dispatching market to the SCD (shared customer database). Moreover, the device receives set-point from DSO Platform and make it available to client on client apparatus (e.g. EMS)&lt;/td>
+&lt;td>Device installed on the DSO’s smart meter in order to read, arrange, certify in Blockchain (at first level) and send to the SCD measurements and other data for the flexibility market and observability. Moreover, the device receives set-point from DSO Platform and make it available to client on client’s apparatus (e.g. EMS).&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>System that manages the distribution network. It foresees the grid state estimation, the productions and consumptions. Moreover, it defines the flexibility requests for DSO’s grid. The DSO Technical Platform interfaces to SCADA and other system comprising in the Operation Domain&lt;/td>
+&lt;td>A software-based system that manages the distribution network. It performs grid state estimation and productions and consumptions forecasting. Moreover, it defines the flexibility requests for DSO’s grid. The DSO Technical Platform exchanges data with SCADA and other system comprised in the Operation Domain.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>BMS&lt;/td>
+&lt;td>EMS (Energy Management System)&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>BMS is a computer-based control system installed in buildings that controls and monitors the building&amp;rsquo;s mechanical and electrical equipment such as ventilation, lighting, power systems, fire systems, and security systems. In Italian demo the definition can also comprise the Home Management System (HMS) for residential users&lt;/td>
+&lt;td>A system, in customer premises, used to monitor, control, and optimize the energy consumption and production. It could include the Building Energy Management System (BEMS) for tertiary sector, the Home Management System (HMS) for residential users, the Battery Management System (BMS) and the management system for EV charging points&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Blockchain Access Platform (BAP)&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>Platform that certifies the customer data for the flexibility&lt;/td>
+&lt;td>A software-based platform that certify, on Blockchain technology, the customers’ data for flexibility and observability&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Shared Customer Database (SCD)&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>Database that gathers all the data of flexibility resources and services and shares them with all the stakeholders&lt;/td>
+&lt;td>Database that gathers all the data and services of flexibility resources and shares them with all the stakeholders&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>TSO&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>TSO is each Transmission System Operator. It is an entity in charge for the management of the energy transmission networks&lt;/td>
-&lt;td>The TSO will be simulated in a tool developed in WP 2&lt;/td>
+&lt;td>TSO is each Transmission System Operator. It is an entity in charge for the management of the energy transmission networks.&lt;/td>
+&lt;td>Within the Italian Demo, the TSO is simulated by tool “TSO Simulator” (see below)&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>TSO simulator&lt;/td>
 &lt;td>Software component&lt;/td>
-&lt;td>Tool to emulate the TSO flexibility requests that involve the resources connected in medium and in low voltage&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Tool that emulates the TSO flexibility requests involving the resources connected in medium and in low voltage&lt;/td>
+&lt;td>Developed and implemented by WP2&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Market Operator (MO)&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Market Operator is the responsible for the market Platform, it matches the offers and requests&lt;/td>
+&lt;td>Party responsible for the Market Platform. The Market Operator matches the flexibility offers and requests on the Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>PlatOne Market Platform (MP)&lt;/td>
 &lt;td>Software component&lt;/td>
 &lt;td>Virtual Place where the requests of flexibility match the offers&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Developed and implemented within WP2&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Flexibility Resources (FR)&lt;/td>
@@ -6030,25 +6031,25 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>Flexibility Resources Owner (FR Owner)&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>FR Owner is the customer that makes available its flexibility to provide the ancillary services&lt;/td>
+&lt;td>FR Owner is the customer that makes available its flexibility to provide services&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Aggregator/Flexibility operator&lt;/td>
+&lt;td>Aggregator/Flexibility Operator&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Aggregator / Flexibility operator is an entity that aggregates the flexibility offers on the market and provide them to DSO in case of needs for the grid&lt;/td>
+&lt;td>Aggregator / Flexibility Operator is an entity that aggregates the flexibility offers in the market and provides them to the DSO in case of needs for the grid&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Aggregator Platform/Software component&lt;/td>
-&lt;td>System that gathers the data measurement from the customers, calculates the energy flexibility to offer on the market, and defines the users set-points&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Software component&lt;/td>
+&lt;td>A software-based system that gathers the data measurement from the customers and calculates the flexibility to be offered on the market&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Balance responsible party&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Balance responsible party is a market participant or its chosen representative responsible for its imbalances&lt;/td>
+&lt;td>A market participant or its chosen representative responsible for its imbalances&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -6097,33 +6098,33 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>1&lt;/td>
 &lt;td>Day Ahead&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>DSO assesses the Grid for the day after and finds a Voltage violation&lt;/td>
-&lt;td>The DSO Technical Platform is able to foresee the grid status for the day after&lt;/td>
-&lt;td>The DSO acquires on the market the energy flexibility to solve the grid issues for the day after&lt;/td>
+&lt;td>The DSO assesses the Grid for the day after and finds a Voltage Violation&lt;/td>
+&lt;td>The DSO Technical Platform is capable to foresee the grid status for the day after&lt;/td>
+&lt;td>The DSO acquires in the market the energy flexibility to solve the grid issues for the day after&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
 &lt;td>Real Time&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>DSO assesses the Grid for the next 4 hour to take in account the last grid outages or riconfiguration&lt;/td>
-&lt;td>The DSO TP is able to detect the critical issues in short term&lt;/td>
-&lt;td>The DSO acquires on the market the energy flexibility to solve the grid issues for the real time&lt;/td>
+&lt;td>The DSO assesses the Grid for the next 4 hours to take into account last grid outages or reconfiguration&lt;/td>
+&lt;td>The DSO TP is capable to detect the critical issues in the short term&lt;/td>
+&lt;td>The DSO acquires in the market the energy flexibility to solve the grid issues for the real time&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
 &lt;td>Activation&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>DSO sends the order to move the resources&lt;/td>
+&lt;td>The DSO sends the order to move the resources&lt;/td>
 &lt;td>The resources have won the session market&lt;/td>
-&lt;td>The Light Node measures the deviation from the baseline&lt;/td>
+&lt;td>The Light Node measures the quantity of service provided&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4&lt;/td>
 &lt;td>Settlement&lt;/td>
 &lt;td>BRP&lt;/td>
-&lt;td>BRP sends the baseline to SCD&lt;/td>
-&lt;td>BRP estimate the baseline for the energy market&lt;/td>
-&lt;td>The market operator calculates the flexibility energy respect to BRP&amp;rsquo;s baseline&lt;/td>
+&lt;td>The BRP sends the baseline to the SCD&lt;/td>
+&lt;td>The BRP estimates the baseline for the energy market&lt;/td>
+&lt;td>The market operator calculates the energy flexibility with respect to BRP&amp;rsquo;s baseline&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -6148,7 +6149,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>1 a&lt;/td>
 &lt;td>FR availability&lt;/td>
 &lt;td>Availability of Flexibility resources&lt;/td>
-&lt;td>FR Owner, through the app developed in the demo, communicates the availability of own resources to Aggregator, for the day after&lt;/td>
+&lt;td>FR Owner, through the app developed in the demo, communicates the availability of its resources to the Aggregator, for the day after&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>FR Owner&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
@@ -6159,7 +6160,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>2 a&lt;/td>
 &lt;td>Users involved&lt;/td>
 &lt;td>List of flexible customer - step 1&lt;/td>
-&lt;td>Aggregator shares the flexible resources list with the SCD&lt;/td>
+&lt;td>The Aggregator shares the flexible resources list with the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
 &lt;td>SCD&lt;/td>
@@ -6173,7 +6174,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>The DSO TP acquires from SCD the list of POD involved&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>SCD&lt;/td>
-&lt;td>DSO Techncial Platfoem&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>I - 02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6181,29 +6182,29 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>4 a&lt;/td>
 &lt;td>DSO forecasts for day after&lt;/td>
 &lt;td>DSO Data acquisition&lt;/td>
-&lt;td>DSO Technical Platform acquires the data from SCD and from the field sensors (like V&amp;amp;C sensors and LV3G), throught the Operational Systems, and runs the forecast tool, to evaluate the production and the consumption&lt;/td>
+&lt;td>The DSO Technical Platform acquires the data from the SCD and from the field sensors (like V&amp;amp;C sensors and LV3G), through the Operational Systems, and runs the forecast tool to evaluate the production and the consumption&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>Opeartion Systems&lt;/td>
-&lt;td>DSO Technical PlatForm&lt;/td>
+&lt;td>Operation Systems&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>I-18 / I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>5 a&lt;/td>
-&lt;td>DSO simulate the grid for day after&lt;/td>
+&lt;td>DSO simulates the grid for day after&lt;/td>
 &lt;td>Day Ahead grid assessment&lt;/td>
-&lt;td>DSO Tehcnical Platform runs the state estimation tool to assess the grid for the day after&lt;/td>
+&lt;td>The DSO Technical Platform runs the state estimation tool to assess the grid for the day after&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>DSO Technical PlatForm&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6 a&lt;/td>
-&lt;td>Voltage violation&lt;/td>
-&lt;td>Violation localiaztion&lt;/td>
-&lt;td>If the DSO Technical Platform detects a voltage violation sends an alert to DSO operator&lt;/td>
+&lt;td>Voltage Violation&lt;/td>
+&lt;td>Violation localization&lt;/td>
+&lt;td>If the DSO Technical Platform detects a voltage violation, it sends an alert to the DSO operator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>DSO&lt;/td>
@@ -6212,9 +6213,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/tr>
 &lt;tr>
 &lt;td>7 a&lt;/td>
-&lt;td>Using of solutions in premisis of DSO&lt;/td>
+&lt;td>Using of solutions in the DSO premises&lt;/td>
 &lt;td>Grid management&lt;/td>
-&lt;td>DSO tries first to solve the issues, using its own technical solutions.&lt;/td>
+&lt;td>The DSO first tries to solve the issues, using its own technical solutions.&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>Operational systems&lt;/td>
@@ -6225,10 +6226,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>8 a&lt;/td>
 &lt;td>Involving of the FR&lt;/td>
 &lt;td>Active Grid Management&lt;/td>
-&lt;td>DSO Technical Platform checks the further amount of flexibility that is required to solve the voltage violation and detects the location of the flexibility resources connected to distribution system, that can contribute to eliminate the issue&lt;/td>
+&lt;td>The DSO Technical Platform checks further amount of flexibility that is required to solve the voltage violation and detects the location of the flexibility resources connected to distribution system, that can contribute to eliminate the issue&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>DSO Technical PlatForm&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6236,10 +6237,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>9 a&lt;/td>
 &lt;td>Flexibility Procurement&lt;/td>
 &lt;td>Flexibility requests&lt;/td>
-&lt;td>DSO communicates the flexibility requests (Volumes, time frame) to market&lt;/td>
+&lt;td>The DSO communicates the flexibility requests (Volumes, time frame) to the market&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I - 06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6249,8 +6250,8 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>Requests Acquisition&lt;/td>
 &lt;td>The market Platform acquires and stores the DSO Day Ahead Requests&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>market platfomr&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6258,21 +6259,21 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>1 b&lt;/td>
 &lt;td>Data acquisition&lt;/td>
 &lt;td>Data FR Acquisition&lt;/td>
-&lt;td>AGGREGATOR, known the available resources, acquires their measurements from Shared Customer Database&lt;/td>
+&lt;td>The Aggregator, once known the available resources, acquires their measurements from the Shared Customer Database&lt;/td>
 &lt;td>GET&lt;/td>
 &lt;td>SCD&lt;/td>
-&lt;td>Aggregator Platform Platform&lt;/td>
+&lt;td>Aggregator Platform&lt;/td>
 &lt;td>I - 01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2 b&lt;/td>
 &lt;td>Customer flexibility&lt;/td>
-&lt;td>Providing of flexibility from FR&lt;/td>
-&lt;td>AGGREGATOR calculates the baseline and the flexibility energy for every customer in our premises&lt;/td>
+&lt;td>Provision of flexibility from FR&lt;/td>
+&lt;td>The Aggregator calculates the baseline and the energy flexibility for every customer in its premises&lt;/td>
 &lt;td>Execute&lt;/td>
-&lt;td>Aggregator Platform Platform&lt;/td>
-&lt;td>Aggregator Platform Platform&lt;/td>
+&lt;td>Aggregator Platform&lt;/td>
+&lt;td>Aggregator Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6280,10 +6281,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>3 b&lt;/td>
 &lt;td>Definition of the offer&lt;/td>
 &lt;td>Offering&lt;/td>
-&lt;td>AGGREGATOR arranges the offers for PODs defining the flexibility providing&lt;/td>
+&lt;td>The Aggregator arranges the offers for PODs defining the flexibility to be offered&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>Aggregator Platform Platform&lt;/td>
-&lt;td>Aggregator Platform Platform&lt;/td>
+&lt;td>Aggregator Platform&lt;/td>
+&lt;td>Aggregator Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6291,10 +6292,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>4 b&lt;/td>
 &lt;td>Offers providing&lt;/td>
 &lt;td>Offers sending&lt;/td>
-&lt;td>AGGREGATOR sends the scheduling (volumes, time frame and price) for POD to market&lt;/td>
+&lt;td>The Aggregator sends the scheduling (max. volumes, time frame and price) per POD to the market&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I - 05&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6302,10 +6303,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>5 b&lt;/td>
 &lt;td>Market session&lt;/td>
 &lt;td>Offers Acquisition&lt;/td>
-&lt;td>Market Operator Acquires and stores the Aggregator Day Ahead Bids&lt;/td>
+&lt;td>The Market Operator acquires and stores the Aggregator Day Ahead Bids&lt;/td>
 &lt;td>GET&lt;/td>
-&lt;td>market platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6324,10 +6325,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>2 c&lt;/td>
 &lt;td>Procurement of flexibility&lt;/td>
 &lt;td>Flexibility requests&lt;/td>
-&lt;td>TSO communicates the requests (Volumes, time frame) of flexibility to market&lt;/td>
+&lt;td>The TSO communicates the requests (Volumes, time frame) of flexibility to the market&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>TSO Simulator&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market&lt;/td>
 &lt;td>I - 06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6335,32 +6336,32 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>3 c&lt;/td>
 &lt;td>Market session&lt;/td>
 &lt;td>Requests Acquisition&lt;/td>
-&lt;td>Market Operator acquires and stores the TSO Day Ahead Requests&lt;/td>
+&lt;td>The Market Operator acquires and stores the TSO Day Ahead Requests&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>market platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
+&lt;td>Market&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>11 a&lt;/td>
-&lt;td>Select of the cheaper requests for DSO&lt;/td>
+&lt;td>Selection of the cheapest requests for the DSO&lt;/td>
 &lt;td>Economic market clearing&lt;/td>
-&lt;td>Market Operator solves the DSO requests, selecting the best offers located in the distribution network area subjected to voltage violation. To increase the realiability Market Platform selects also some additional offers beyond the requests&lt;/td>
+&lt;td>The Market Operator solves the DSO requests, selecting the best offers located in the distribution network area subjected to voltage violation. To increase the reliability, the Market Platform also selects some additional offers beyond the requests&lt;/td>
 &lt;td>REPEAT&lt;/td>
-&lt;td>market platform&lt;/td>
-&lt;td>Martket Platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>12 a&lt;/td>
-&lt;td>Select of the cheaper requests for TSO&lt;/td>
+&lt;td>Selection of the cheapest requests for the TSO&lt;/td>
 &lt;td>Economic market clearing&lt;/td>
 &lt;td>The Market Operator uses the remaining flexibility to clear the TSO requests&lt;/td>
 &lt;td>REPEAT&lt;/td>
-&lt;td>market platform&lt;/td>
-&lt;td>Martket platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
+&lt;td>Market platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6368,9 +6369,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>13 a&lt;/td>
 &lt;td>Preliminary list of auctioned offers&lt;/td>
 &lt;td>Economical Auctioned offers&lt;/td>
-&lt;td>Market Operator gathers and orders the list of auctioned offers and send it to DSO&lt;/td>
+&lt;td>The Market Operator gathers and orders the list of auctioned offers and sends it to the DSO&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>market platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>I - 08&lt;/td>
 &lt;td>&lt;/td>
@@ -6378,22 +6379,22 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>14 a&lt;/td>
 &lt;td>Grid constraints assessment&lt;/td>
-&lt;td>Techncical assessment&lt;/td>
-&lt;td>DSO receives from Market the list of auctioned offers and assesses the grid constraints&lt;/td>
+&lt;td>Technical assessment&lt;/td>
+&lt;td>The DSO receives from the Market the list of auctioned offers and assesses the grid constraints&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>DSO Techncial Platfoem&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>15 a&lt;/td>
-&lt;td>Finally list of auctioned offers&lt;/td>
+&lt;td>Final list of auctioned offers&lt;/td>
 &lt;td>Auctioned offers&lt;/td>
-&lt;td>DSO sends the list of approved offers to Market&lt;/td>
+&lt;td>The DSO sends the list of approved offers to the Market&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I - 07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6401,9 +6402,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>16 a&lt;/td>
 &lt;td>Market outcomes&lt;/td>
 &lt;td>Market Day Ahead outcomes&lt;/td>
-&lt;td>DSO, TSO and Aggregator receives Market Day Ahead outcomes from the Market Operator&lt;/td>
+&lt;td>The DSO, TSO and Aggregator receive Market Day Ahead outcomes from the Market Operator&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>market platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>DSO/TSO/Aggregator Platform&lt;/td>
 &lt;td>I - 08&lt;/td>
 &lt;td>&lt;/td>
@@ -6412,7 +6413,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>17 a&lt;/td>
 &lt;td>Available resources&lt;/td>
 &lt;td>Resource Planning&lt;/td>
-&lt;td>FR Owner receives the detail on the service to provide for the day after&lt;/td>
+&lt;td>FR Owner receives the detail of the service to be provide for the day after&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
 &lt;td>FR Owner&lt;/td>
@@ -6444,15 +6445,15 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>DSO Technical Platform acquires the data from SCD and from the field sensors (V&amp;amp;C sensors and LV3G), through the Operational Systems and runs the forecast tool, to evaluate the production and the consumption&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Operational Systems&lt;/td>
-&lt;td>DSO Technical PlatForm&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>I-18 / I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2 a&lt;/td>
 &lt;td>DSO simulate the grid for the next hours&lt;/td>
-&lt;td>Real Tima grid assessment&lt;/td>
-&lt;td>DSO Tehcnical Platform run the state estimation tool to assesses the grid for the next four hours&lt;/td>
+&lt;td>Real Time grid assessment&lt;/td>
+&lt;td>DSO Technical Platform run the state estimation tool to assesses the grid for the next four hours&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
@@ -6472,7 +6473,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/tr>
 &lt;tr>
 &lt;td>4 a&lt;/td>
-&lt;td>Using of solution in premisis of DSO&lt;/td>
+&lt;td>Using of solution in premises of DSO&lt;/td>
 &lt;td>Grid management&lt;/td>
 &lt;td>DSO tries first to solve the issue, using its own technical solutions.&lt;/td>
 &lt;td>CREATE&lt;/td>
@@ -6499,18 +6500,18 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>DSO communicates the requests (Volumes, time frame) of flexibility&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I - 06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>7 a&lt;/td>
 &lt;td>Open market session&lt;/td>
-&lt;td>Requests pubblishing&lt;/td>
+&lt;td>Requests publishing&lt;/td>
 &lt;td>Market Platform acquires and stores the DSO Real time Requests&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6521,18 +6522,18 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>TSO communicates the further requests (Volumes, time frame) of flexibility to market&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>TSO Simulator&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I-06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2 c&lt;/td>
 &lt;td>Open market session&lt;/td>
-&lt;td>Requests pubblishing&lt;/td>
+&lt;td>Requests publishing&lt;/td>
 &lt;td>Market Platform Acquires and stores the TSO Real time Requests&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>TSO Simulator&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6540,10 +6541,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>8 a&lt;/td>
 &lt;td>Select of the cheaper requests for DSO&lt;/td>
 &lt;td>Economic market clearing&lt;/td>
-&lt;td>Market Platform solves the DSO requests, selecting the best offers located in the distribution network area subjected to voltage violation. To increase the realiability Market Platform select also some additional offers beyond the requests&lt;/td>
+&lt;td>Market Platform solves the DSO requests, selecting the best offers located in the distribution network area subjected to voltage violation. To increase the reliability Market Platform select also some additional offers beyond the requests&lt;/td>
 &lt;td>REPEAT&lt;/td>
 &lt;td>market platform&lt;/td>
-&lt;td>Martket platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6554,7 +6555,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>The Market Platform uses the remaining flexibility to clear the TSO requests&lt;/td>
 &lt;td>REPEAT&lt;/td>
 &lt;td>market platform&lt;/td>
-&lt;td>Martket platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6562,7 +6563,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>10 a&lt;/td>
 &lt;td>Preliminary list of auctioned offers&lt;/td>
 &lt;td>Economical Auctioned offers&lt;/td>
-&lt;td>The Market Platform gathers and orders the list of auctioned offers and sends it to DSO Technical Platform&lt;/td>
+&lt;td>The Market Platform gathers and orders the list of all auctioned offers and sends it to DSO Technical Platform&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>market platform&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
@@ -6572,7 +6573,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>11 a&lt;/td>
 &lt;td>Grid constraints assessment&lt;/td>
-&lt;td>Techncical assessment&lt;/td>
+&lt;td>Technical assessment&lt;/td>
 &lt;td>DSO Technical Platform receives from Market Operator the list of auctioned offers and assesses the grid constraints&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
@@ -6584,10 +6585,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>12 a&lt;/td>
 &lt;td>Finally list of auctioned offers&lt;/td>
 &lt;td>Auctioned offers&lt;/td>
-&lt;td>DSO Technical Platform sends the list of approved offers to Market&lt;/td>
+&lt;td>DSO Technical Platform sends the list of all approved offers to Market&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO technical Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I -07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6597,7 +6598,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>Market Real Time outcomes&lt;/td>
 &lt;td>DSO, TSO and Aggregator receives Market Real Time outcomes from the Market Operator&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>DSO/TSO/Aggregator Platform&lt;/td>
 &lt;td>I - 08&lt;/td>
 &lt;td>&lt;/td>
@@ -6605,7 +6606,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>14 a&lt;/td>
 &lt;td>Available resources&lt;/td>
-&lt;td>Resorces planning&lt;/td>
+&lt;td>Resources planning&lt;/td>
 &lt;td>FR Owner receives the detail on the service to provide in the Real Time&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
@@ -6633,9 +6634,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tbody>
 &lt;tr>
 &lt;td>1 a&lt;/td>
-&lt;td>DSO have to solve a Congestion&lt;/td>
-&lt;td>DSO Flxibility order&lt;/td>
-&lt;td>DSO Technical Platform sends the order to move flexibility to the market operator&lt;/td>
+&lt;td>The DSO needs to solve a voltage violation&lt;/td>
+&lt;td>DSO Flexibility order&lt;/td>
+&lt;td>The DSO Technical Platform sends the order to move flexibility to the market operator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>Market Platform&lt;/td>
@@ -6644,9 +6645,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/tr>
 &lt;tr>
 &lt;td>1 b&lt;/td>
-&lt;td>TSO have to solve a grid congestion&lt;/td>
-&lt;td>TSO Flxibility order&lt;/td>
-&lt;td>TSO sends the order to move the flexibility to the market operator&lt;/td>
+&lt;td>The TSO needs to solve a voltage violation&lt;/td>
+&lt;td>TSO Flexibility order&lt;/td>
+&lt;td>The TSO sends the order to move flexibility to the market operator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>TSO Simulator&lt;/td>
 &lt;td>Market Platform&lt;/td>
@@ -6656,8 +6657,8 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>2 a&lt;/td>
 &lt;td>Order transmission&lt;/td>
-&lt;td>Carryng of set point - step 1&lt;/td>
-&lt;td>The Market Platform receives and sends the order to DSO Technical Platform, SCD and Aggregator&lt;/td>
+&lt;td>Forwarding the set point - step 1&lt;/td>
+&lt;td>The Market Platform receives and sends the order to the DSO Technical Platform, the SCD and the Aggregator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Market Platform&lt;/td>
 &lt;td>DSO Technical Platform/SCD/Aggregator&lt;/td>
@@ -6665,10 +6666,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>3 a&lt;/td>
+&lt;td>3a&lt;/td>
 &lt;td>Order transmission&lt;/td>
-&lt;td>Carryng of set point - step 2&lt;/td>
-&lt;td>DSO receives from Market the scheduling and sends the set points to Light Nodes&lt;/td>
+&lt;td>Forwarding the of set point - step 2&lt;/td>
+&lt;td>The DSO receives from the Market the scheduling and sends the set points to Light Nodes&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>Light Nodes&lt;/td>
@@ -6679,10 +6680,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>4 a&lt;/td>
 &lt;td>Order available&lt;/td>
 &lt;td>Delivering of set point&lt;/td>
-&lt;td>The Light Node receives and makes available the set point to BMS (it can be BMS or HMS) and FR&lt;/td>
+&lt;td>The Light Node receives and makes available the set point to the EMS (it can be BMS or HMS) and FR&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Light Node&lt;/td>
-&lt;td>BMS / FR&lt;/td>
+&lt;td>EMS / FR&lt;/td>
 &lt;td>I-09&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -6690,40 +6691,40 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>5 a&lt;/td>
 &lt;td>Moving of flexibility&lt;/td>
 &lt;td>Activation&lt;/td>
-&lt;td>Energy Management System, acquires the set point and select the correct scenario for electrical appliances (it can be also EV or storage), and/or suggests the right behaviour for the customers (f.i. through an alert);&lt;/td>
+&lt;td>Energy Management System acquires the set point and selects the correct scenario for electrical appliances (it can be also EV or storage), and/or suggests the right behaviour for the customers (e.g. through an alert);&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>BMS / HMS&lt;/td>
+&lt;td>EMS / FR&lt;/td>
 &lt;td>Smart Appliance / EV / Storage&lt;/td>
 &lt;td>I-14&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6 a&lt;/td>
-&lt;td>Using of Bolckchian Access Layer&lt;/td>
+&lt;td>Use of Blockchain Access Layer&lt;/td>
 &lt;td>Data Certification&lt;/td>
-&lt;td>The Light Node carries the set point and the measurements (takes every 4 sec.) in the BlockChain&lt;/td>
+&lt;td>The Light Node forwards the set point and the measurements (in Blockchain&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Light Nodes&lt;/td>
-&lt;td>BlockChain Access Platform&lt;/td>
+&lt;td>BlockCchain Access Platform&lt;/td>
 &lt;td>I-04 / I-09&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>7 a&lt;/td>
 &lt;td>Flexibility Certification&lt;/td>
-&lt;td>BlockChain outcomes&lt;/td>
-&lt;td>The Blockchain sends the certification data to SCD&lt;/td>
+&lt;td>Blockchain outcomes&lt;/td>
+&lt;td>The Blockchain sends the certification data to the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>BlockChain Access Platform&lt;/td>
+&lt;td>Blockchain Access Platform&lt;/td>
 &lt;td>Shared Customer Database&lt;/td>
 &lt;td>I-04 / I-09&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>8 a&lt;/td>
-&lt;td>Measurement of flexibility energy&lt;/td>
+&lt;td>Measurement of flexibility&lt;/td>
 &lt;td>Energy Monitoring&lt;/td>
-&lt;td>Light Node measures the electrical quantities for calculate the flexibility and sends them to SCD&lt;/td>
+&lt;td>Light Node measures the electrical quantities for calculating the flexibility and sends them to the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Light Node&lt;/td>
 &lt;td>Shared Customer Database&lt;/td>
@@ -6752,7 +6753,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>1&lt;/td>
 &lt;td>Baseline Definition&lt;/td>
 &lt;td>Market Baseline&lt;/td>
-&lt;td>BRP defines the production and/or consumption programs for any resource involved in the local flexibility market, and sends it to SCD&lt;/td>
+&lt;td>The BRP defines the production and/or consumption programs for all the resources involved in the local flexibility market, and sends it to the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>BRP&lt;/td>
 &lt;td>SCD&lt;/td>
@@ -6761,9 +6762,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
-&lt;td>Energy moved after a flexibility requests&lt;/td>
+&lt;td>Energy moved after a flexibility request&lt;/td>
 &lt;td>Flexibility measurements&lt;/td>
-&lt;td>The light nodes sends the measurements to SCD&lt;/td>
+&lt;td>The light node sends the measurements to the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Light Node&lt;/td>
 &lt;td>SCD&lt;/td>
@@ -6772,9 +6773,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
-&lt;td>Gathering of the data&lt;/td>
+&lt;td>Gathering of data&lt;/td>
 &lt;td>Settlement - step 1&lt;/td>
-&lt;td>Market Platform acquires the data from SCD&lt;/td>
+&lt;td>The Market Platform acquires the data from the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>SCD&lt;/td>
 &lt;td>Market Platform&lt;/td>
@@ -6785,7 +6786,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>4&lt;/td>
 &lt;td>Flexibility evaluation&lt;/td>
 &lt;td>Settlement - step 2&lt;/td>
-&lt;td>Market Operator performs the settlement comparing the metering data and BRP baseline&lt;/td>
+&lt;td>The Market Operator performs the settlement comparing the metering data with the BRP baseline&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Market Platform&lt;/td>
 &lt;td>Market Platform&lt;/td>
@@ -6796,18 +6797,18 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>5&lt;/td>
 &lt;td>Settlements outcomes&lt;/td>
 &lt;td>Settlement - step 3&lt;/td>
-&lt;td>Market Operator communicates the settlements outcomes to DSO, TSO and AGGREGATOR&lt;/td>
+&lt;td>The Market Operator communicates the settlements outcomes to the DSO, TSO and Aggregator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Market Platform&lt;/td>
-&lt;td>DSO ; TSO ; Aggregator Platform&lt;/td>
+&lt;td>DSO / TSO / Aggregator Platform&lt;/td>
 &lt;td>I -15&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6&lt;/td>
-&lt;td>Payment of provided Energy&lt;/td>
+&lt;td>Payment of Energy provided&lt;/td>
 &lt;td>Payment&lt;/td>
-&lt;td>DSO pays the provided Energy for flexibility to AGGREGATOR&lt;/td>
+&lt;td>The DSO pays the Energy provided for flexibility to Aggregator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
@@ -6818,7 +6819,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>7&lt;/td>
 &lt;td>Customer payment&lt;/td>
 &lt;td>Payment&lt;/td>
-&lt;td>AGGREGATOR shares the revenues with the flexibility resources under their jurisdiction&lt;/td>
+&lt;td>The Aggregator shares the revenues with the flexibility resources under their jurisdiction&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
 &lt;td>FR Owner&lt;/td>
@@ -6841,25 +6842,25 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-01&lt;/td>
 &lt;td>Quarterly measures&lt;/td>
-&lt;td>The aggregator baseline or the DSO grid forecast use the data measurements (active power, energy consumption, energy production,…) stored in SCD. This measures have a 15 minutes granularity&lt;/td>
+&lt;td>The data measurements (active power, energy consumption, energy production, etc.) stored in the SCD. These measures have a 15-minute granularity&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-02&lt;/td>
 &lt;td>Customer list&lt;/td>
-&lt;td>This information contains the list of customer involved in the flexibility providers for the day after&lt;/td>
+&lt;td>The list of customers available to provide flexibility services for the day after&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-03&lt;/td>
 &lt;td>BRP Baseline&lt;/td>
-&lt;td>The BRP defines for every POD the day after load profile, in compliance with the market day ahead&lt;/td>
+&lt;td>The BRP defines for every POD the day after load profile, in compliance with the day ahead market&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-04&lt;/td>
 &lt;td>Near real time measures&lt;/td>
-&lt;td>This information contains for every POD involved in the flexibility market, the active power measured every 4 second&lt;/td>
+&lt;td>This information contains for every POD involved in the flexibility market, the active power measured every 4 seconds&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -6883,7 +6884,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-08&lt;/td>
 &lt;td>Market Outcomes&lt;/td>
-&lt;td>This information contains the list of offers arranges for economic order and in compliance with the grid constraint&lt;/td>
+&lt;td>This information contains the list of offers arranged in economic order and in compliance with the grid constraint&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -6907,13 +6908,13 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-12&lt;/td>
 &lt;td>FR status&lt;/td>
-&lt;td>This information contains the customer availability for move own FR&lt;/td>
+&lt;td>This information contains the customer availability to move its own FR&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-13&lt;/td>
 &lt;td>FR planning&lt;/td>
-&lt;td>This information contains the time frame, and the power that the customer have to provide during the activation&lt;/td>
+&lt;td>This information contains the time frame and the power that the customer has to provide during the activation&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -6931,7 +6932,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-16&lt;/td>
 &lt;td>DSO payment&lt;/td>
-&lt;td>It is the payment of DSO for the energy provided&lt;/td>
+&lt;td>It is the payment realised by the DSO for the energy provided&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -6943,7 +6944,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-18&lt;/td>
 &lt;td>Technical Measurement&lt;/td>
-&lt;td>Electrical quantities coming from the field sensors (Voltage and current sensors or Low Voltage circuit breaket embedded with IED)&lt;/td>
+&lt;td>Electrical quantities coming from the field sensors (Voltage and current sensors or Low Voltage circuit breakers embedded with IED)&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -6995,7 +6996,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>UC-IT-2&lt;/td>
 &lt;td>Area: Energy system &lt;/br>&lt;/td>
-&lt;td>Congestion Management in transmission and distribution system using resources connected to distribution system&lt;/td>
+&lt;td>Congestion Management in transmission and distribution system&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -7038,11 +7039,11 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tbody>
 &lt;tr>
 &lt;td>Scope&lt;/td>
-&lt;td>Congestion avoidance in distribution and transmission grid by use of flexibility resources connected to transmission and distribution system providing ancillary services through a market mechanism. &lt;br/> Network: MV, LV (HV users have their own market) &lt;br/> Market: Day Ahead, Near Real Time &lt;br/>&lt;/td>
+&lt;td>Avoiding the congestions in distribution and transmission grid, using the flexibility resources connected to the distribution systems which provide flexibility services through a market mechanism. &lt;br/> Network: MV, LV &lt;br/> Market: Day Ahead, Real Time &lt;br/>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>* To support the TSO to use the flexibility provided by resources connected to the distribution system for congestion management, while respecting distribution system constraints &lt;br/> * To ensure an inclusive and non-discriminatory access to the market for all agents that provide grid services &lt;br/> * To enable coordination between system operators &lt;br/> * To optimize the distribution network utilization &lt;br/> * &lt;em>To activate flexibility to solve congestion in the distribution grid&lt;/em> &lt;br/> * &lt;em>To minimize RES curtailment due to technical requirements and operation constraints&lt;/em>&lt;/td>
+&lt;td>* To support the TSO in using the flexibility provided by resources connected to the distribution system for congestion management, while respecting distribution system constraints &lt;br/> * To ensure an inclusive and non-discriminatory access to the market for all agents that provide grid services &lt;br/> * To empower coordination between system operators &lt;br/> * To activate flexibility to solve congestion in the distribution grid &lt;br/>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
@@ -7052,22 +7053,29 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/table>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>The UC describes the steps to prevent congestion issues in transmission and distribution system. DSO can use flexible resources connected to distribution system and TSO can use flexible resources connected to transmission and distribution system after the DSO’s approval. The state of the grid is assessed and monitored by DSO and TSO respectively, in order to keep the electrical quantities of the system within admissible range.&lt;/p>
+&lt;p>This use case describes the main steps to prevent congestion issues in transmission and distribution systems by exploiting flexibility resources, contemplating all the phases concerned (procurement, activation and settlement) in the day-ahead and real time flexibility market. The DSO can use flexible resources connected to the distribution system and the TSO can use flexible resources connected to distribution systems under the DSO’s approval. The state estimation is assessed and monitored by the DSO in order to keep the electrical quantities within admissible ranges.&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>The UC deals the Congestion on transmission and distribution grid, describing all the main phases: procurement, activation and settlement, in the day ahead and real time flexibility market.
-In the day ahead market, the FR Owner sends to Aggregator Platform the list of the resources available for the day after. Subsequently the Aggregator Platform transmits the list to the SCD. For every POD, the SCD joins the quarterly measures and all the main data useful for the flexibility and sends them to DSO TP, TSO simulator and Aggregator Platform.
-In parallel take place three processes :&lt;/p>
+&lt;p>The Use Case describes the main steps to prevent congestion issues in transmission and distribution systems by exploiting flexibility resources, contemplating all the phases concerned (procurement, activation and settlement) in the day-ahead and real time flexibility market. The DSO can use flexible resources connected to the distribution system and the TSO can use flexible resources connected to distribution systems under the DSO’s approval. The state estimation is assessed and monitored by the DSO in order to keep the electrical quantities within admissible ranges
+In the day ahead market, the FR Owner sends to Aggregator Platform the list of the resources available for the day after. The list is subsequently transmitted by the Aggregator Platform to the Shared Customer Database (SCD). For each Point of delivery (PODs), the SCD collects quarterly measures and data useful for flexibility and sends them to the DSO Technical Platform, the TSO simulator and the Aggregator Platform.&lt;/p>
+&lt;p>Other three processes take place parallelly:&lt;/p>
 &lt;ul>
-&lt;li>The DSO Technical Platform detects the congestion on the distribution grid. The DSO try first to solve the issues using the own solutions, after it uses the local flexibility market, defining the local flexibility requests;&lt;/li>
-&lt;li>The TSO simulator defines the congestions on the transmission network and requires the flexibility to solve the congestion in HV grid to the local market;&lt;/li>
-&lt;li>The Aggregator Platform gathers the flexibility from the customers in low and in medium voltage and offer it to the market platform.
-At gate closure all the day ahead requests and offers are stored on the Market Platform. The Market Platform matches first the offers with the DSO’s requests, and orders them in economic manner, after repeats the procedure with the TSO requests. Hence the list of auctioned offers is sent to DSO TP for evaluate the grid constraints violations. Finally the market platform receives the list of offers comply with local grid constraints and sends them to all the stakeholders.
-Moreover the Aggregator Platform sends a reservation to FR Owner for the resources that will be select for the market day ahead.
-The same steps are followed in the Real Time session. The only variation is in the Aggregator domain. Indeed the aggregator uses in Real Time session the same offers proposed in the Day ahead market, hence all the requests that DSO and TSO makes in Real Time are matched with the offers presented in the previous session.
-When the DSO or the TSO need of flexibility, begin the Activation phase, where the DSO TP or TSO Simulator communicate to market the order to move tied to a specific offer. The Market Platform sends the order to DSO TP, that divides it for every POD and dispatches the set point to light nodes. The light nodes make available the set points to the BMS/FR. Also, the Light Node measures the electrical quantities for evaluate the energy flexibility and sends them to the SCD.
-For the settlement phase the Market Platform acquires the data from the SCD and calculates the difference between market baseline, uploaded in the SCD by BRP, and electrical quantities measured in the same time frame, uploaded in the SCD by Light Node. The Market Platform runs the settlement algorithm and finds the outcomes. The settlement outcomes are transmitted to Aggregator Platform, DSO and TSO Simulator.
-Finally, the DSO pays the flexibility to the aggregator, that can recognizes the fee to the FR Owner.&lt;/li>
+&lt;li>
+&lt;p>Detection of congestion issues on the distribution grid by the DSO Technical Platform and definition of local flexibility requests, in the event the issue cannot be solved through its own solutions;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Definition of congestion issues on the transmission network by the TSO simulator and request of flexibility to solve them in HV grid;&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Gathering by the Aggregator Platform of flexibility offers from customers in LV and MV and offering to the Market.&lt;/p>
+&lt;/li>
 &lt;/ul>
+&lt;p>At gate closure, all day ahead requests and offers are stored in the Market Platform, which matches first the offers with the DSO’s requests, and orders them economically; then, it repeats the same procedure with the TSO requests.&lt;/p>
+&lt;p>The list of awarded offers is sent to DSO TP for evaluating the grid constraints violations. Finally, the market platform receives the list of offers compliant with local grid constraints and sends it to all the stakeholders.&lt;/p>
+&lt;p>At this step, the Aggregator Platform sends a reservation to the FR Owner for the resources that will be selected for the day-ahead market.
+The same steps are also followed in the Real Time sessions. Indeed, in these Market sessions, the offers to be matched with DSO and TSO Real Time requests are the ones still valid because not matched in previous market sessions.&lt;/p>
+&lt;p>The activation phase begins when the DSO and TSO need flexibility. The DSO TP and the TSO simulator communicate to the market Platform to move a specific offer. The Market Platform sends the order to the DSO TP, that divides it for every POD and dispatches the set point to the light nodes. The light nodes make available the set points to the BMS and measures the electrical quantities to be sent to the SCD for evaluate the energy flexibility.&lt;/p>
+&lt;p>For the settlement phase, the Market Platform acquires data from the SCD and calculates the difference between market baseline, evaluated by BRP, and electrical quantities measured in the same time frame, uploaded in the SCD by Light Nodes. The Market Platform runs the settlement algorithm and finds the outcomes. Settlement outcomes are transmitted to the Aggregator Platform, the DSO and the TSO Simulator.&lt;/p>
+&lt;p>Finally, the DSO pays the flexibility to the aggregator, that can pay the fee to the FR Owner.&lt;/p>
 &lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -7189,7 +7197,8 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>Add any remarks which do not fit in any other category&lt;/p>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;img src="Active_Diagram_Voltage_Violation.jpg" alt="Active Diagram Voltage Violation">&lt;/p>
+&lt;p>&lt;strong>Use Case Diagram Congestion&lt;/strong>
+To be uploaded&lt;/p>
 &lt;p>&lt;strong>Active Diagram Voltage Violation&lt;/strong>&lt;/p>
 &lt;p>&lt;img src="Sequence_diagram_Congestion.png" alt="Sequence Diagram Congestion">&lt;/p>
 &lt;p>&lt;strong>Sequence Diagram Congestion&lt;/strong>&lt;/p>
@@ -7197,7 +7206,6 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 ![Sequence Diagram Congestion Real Time](Sequence diagram Congestion RT.png)
 ![Sequence Diagram Congestion Activation](Sequence diagram Congestion Activation.png)
 ![Sequence Diagram Congestion Settlement](Sequence diagram Congestion Settlement.png)&lt;/p>
-&lt;p>&lt;strong>Use Case Diagram Congestion&lt;/strong>&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -7219,56 +7227,56 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>Light Node&lt;/td>
 &lt;td>Device&lt;/td>
-&lt;td>Device installed on the electrical meter that reads, arranges, certifies in Blockchain and sends the measurement for the dispatching market to the SCD (shared customer database). Moreover, the device receives set-point from DSO Platform and make it available to client on client apparatus (e.g. EMS)&lt;/td>
+&lt;td>Device installed on the DSO’s smart meter in order to read, arrange, certify in Blockchain (at first level) and send to the SCD measurements and other data for the flexibility market and observability. Moreover, the device receives set-point from DSO Platform and make it available to client on client’s apparatus (e.g. EMS).&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>System that manages the distribution network. It foresees the grid state estimation, the productions and consumptions. Moreover, it defines the flexibility requests for DSO’s grid. The DSO Technical Platform interfaces to SCADA and other system comprising in the Operation Domain&lt;/td>
+&lt;td>A software-based system that manages the distribution network. It performs grid state estimation and productions and consumptions forecasting. Moreover, it defines the flexibility requests for DSO’s grid. The DSO Technical Platform exchanges data with SCADA and other system comprised in the Operation Domain.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>BMS&lt;/td>
+&lt;td>EMS (Energy Management System)&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>BMS is a computer-based control system installed in buildings that controls and monitors the building&amp;rsquo;s mechanical and electrical equipment such as ventilation, lighting, power systems, fire systems, and security systems. In Italian demo the definition can also comprise the Home Management System (HMS) for residential users&lt;/td>
+&lt;td>A system, in customer premises, used to monitor, control, and optimize the energy consumption and production. It could include the Building Energy Management System (BEMS) for tertiary sector, the Home Management System (HMS) for residential users, the Battery Management System (BMS) and the management system for EV charging points&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Blockchain Access Platform (BAP)&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>Platform that certifies the customer data for the flexibility&lt;/td>
+&lt;td>A software-based platform that certify, on Blockchain technology, the customers’ data for flexibility and observability&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Shared Customer Database (SCD)&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>Database that gathers all the data of flexibility resources and services and shares them with all the stakeholders&lt;/td>
+&lt;td>Database that gathers all the data and services of flexibility resources and shares them with all the stakeholders&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>TSO&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>TSO is each Transmission System Operator. It is an entity in charge for the management of the energy transmission networks&lt;/td>
-&lt;td>The TSO will be simulated in a tool developed in WP 2&lt;/td>
+&lt;td>TSO is each Transmission System Operator. It is an entity in charge for the management of the energy transmission networks.&lt;/td>
+&lt;td>Within the Italian Demo, the TSO is simulated by tool “TSO Simulator” (see below)&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>TSO simulator&lt;/td>
 &lt;td>Software component&lt;/td>
-&lt;td>Tool to emulate the TSO flexibility requests that involve the resources connected in medium and in low voltage&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Tool that emulates the TSO flexibility requests involving the resources connected in medium and in low voltage&lt;/td>
+&lt;td>Developed and implemented by WP2&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Market Operator (MO)&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Market Operator is the responsible for the market Platform, it matches the offers and requests&lt;/td>
+&lt;td>Party responsible for the Market Platform. The Market Operator matches the flexibility offers and requests on the Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>PlatOne Market Platform (MP)&lt;/td>
 &lt;td>Software component&lt;/td>
 &lt;td>Virtual Place where the requests of flexibility match the offers&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Developed and implemented within WP2&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Flexibility Resources (FR)&lt;/td>
@@ -7279,25 +7287,25 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>Flexibility Resources Owner (FR Owner)&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>FR Owner is the customer that makes available its flexibility to provide the ancillary services&lt;/td>
+&lt;td>FR Owner is the customer that makes available its flexibility to provide services&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>Aggregator/Flexibility operator&lt;/td>
+&lt;td>Aggregator/Flexibility Operator&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Aggregator / Flexibility operator is an entity that aggregates the flexibility offers on the market and provide them to DSO in case of needs for the grid&lt;/td>
+&lt;td>Aggregator / Flexibility Operator is an entity that aggregates the flexibility offers in the market and provides them to the DSO in case of needs for the grid&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Aggregator Platform/Software component&lt;/td>
-&lt;td>System that gathers the data measurement from the customers, calculates the energy flexibility to offer on the market, and defines the users set-points&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Software component&lt;/td>
+&lt;td>A software-based system that gathers the data measurement from the customers and calculates the flexibility to be offered on the market&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Balance responsible party&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Balance responsible party is a market participant or its chosen representative responsible for its imbalances&lt;/td>
+&lt;td>A market participant or its chosen representative responsible for its imbalances&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -7346,33 +7354,33 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>1&lt;/td>
 &lt;td>Day Ahead&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>DSO assesses the Grid for the day after and finds a possible congestion&lt;/td>
-&lt;td>The DSO Technical Platform is able to foresee the grid status for the day after&lt;/td>
-&lt;td>The DSO acquires on the market the energy flexibility to solve the grid issues for the day after&lt;/td>
+&lt;td>The DSO assesses the Grid for the day after and finds a Congestion&lt;/td>
+&lt;td>The DSO Technical Platform is capable to foresee the grid status for the day after&lt;/td>
+&lt;td>The DSO acquires in the market the energy flexibility to solve the grid issues for the day after&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
 &lt;td>Real Time&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>DSO assesses the Grid for the next 4 hour to take in account the last grid outages or riconfiguration&lt;/td>
-&lt;td>The DSO TP is able to detect the critical issues in short term&lt;/td>
-&lt;td>The DSO acquires on the market the energy flexibility to solve the grid issues for the real time&lt;/td>
+&lt;td>The DSO assesses the Grid for the next 4 hours to take into account last grid outages or reconfiguration&lt;/td>
+&lt;td>The DSO TP is capable to detect the critical issues in the short term&lt;/td>
+&lt;td>The DSO acquires in the market the energy flexibility to solve the grid issues for the real time&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
 &lt;td>Activation&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>DSO sends the order to move the resources&lt;/td>
+&lt;td>The DSO sends the order to move the resources&lt;/td>
 &lt;td>The resources have won the session market&lt;/td>
-&lt;td>The Light Node measures the deviation from the baseline&lt;/td>
+&lt;td>The Light Node measures the quantity of service provided&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4&lt;/td>
 &lt;td>Settlement&lt;/td>
 &lt;td>BRP&lt;/td>
-&lt;td>BRP sends the baseline to SCD&lt;/td>
-&lt;td>BRP estimate the baseline for the energy market&lt;/td>
-&lt;td>The market operator calculates the flexibility energy respect to BRP&amp;rsquo;s baseline&lt;/td>
+&lt;td>The BRP sends the baseline to the SCD&lt;/td>
+&lt;td>The BRP estimates the baseline for the energy market&lt;/td>
+&lt;td>The market operator calculates the energy flexibility with respect to BRP&amp;rsquo;s baseline&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -7397,7 +7405,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>1 a&lt;/td>
 &lt;td>FR availability&lt;/td>
 &lt;td>Availability of Flexibility resources&lt;/td>
-&lt;td>FR Owner, through the app developed in the demo, communicates the availability of own resources to Aggregator, for the day after&lt;/td>
+&lt;td>FR Owner, through the app developed in the demo, communicates the availability of its resources to the Aggregator, for the day after&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>FR Owner&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
@@ -7408,7 +7416,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>2 a&lt;/td>
 &lt;td>Users involved&lt;/td>
 &lt;td>List of flexible customer - step 1&lt;/td>
-&lt;td>Aggregator shares the flexible resources list with the SCD&lt;/td>
+&lt;td>The Aggregator shares the flexible resources list with the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
 &lt;td>SCD&lt;/td>
@@ -7419,10 +7427,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>3 a&lt;/td>
 &lt;td>Active POD&lt;/td>
 &lt;td>List of flexible customer - step 2&lt;/td>
-&lt;td>The DSO acquires from SCD the list of POD involved&lt;/td>
+&lt;td>The DSO TP acquires from SCD the list of POD involved&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>SCD&lt;/td>
-&lt;td>DSO Techncial Platfoem&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>I - 02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7430,40 +7438,40 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>4 a&lt;/td>
 &lt;td>DSO forecasts for day after&lt;/td>
 &lt;td>DSO Data acquisition&lt;/td>
-&lt;td>DSO Technical Platform acquires the data from SCD and from the field sensors (V&amp;amp;C sensors and LV3G), throught the Operational Systems, and runs the forecast tool, to evaluate the production and the consumption&lt;/td>
+&lt;td>The DSO Technical Platform acquires the data from the SCD and from the field sensors (like V&amp;amp;C sensors and LV3G), through the Operational Systems, and runs the forecast tool to evaluate the production and the consumption&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>Opeartional Systems&lt;/td>
-&lt;td>DSO Technical PlatForm&lt;/td>
+&lt;td>Operation Systems&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>I-18 / I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>5 a&lt;/td>
-&lt;td>DSO simulate the grid for day after&lt;/td>
+&lt;td>DSO simulates the grid for day after&lt;/td>
 &lt;td>Day Ahead grid assessment&lt;/td>
-&lt;td>DSO Tehcnical Platform runs the power flow tool to assess the grid for the day after&lt;/td>
+&lt;td>The DSO Technical Platform runs the state estimation tool to assess the grid for the day after&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>DSO Technical PlatForm&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6 a&lt;/td>
-&lt;td>Congestion Detection&lt;/td>
-&lt;td>Congestion localiaztion&lt;/td>
-&lt;td>If the DSO Technical Platform detect a congestion sends an alert to DSO operator&lt;/td>
+&lt;td>Congestion&lt;/td>
+&lt;td>Congestion localization&lt;/td>
+&lt;td>If the DSO Technical Platform detects a congestion, it sends an alert to the DSO operator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>II - 10&lt;/td>
+&lt;td>I - 10&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>7 a&lt;/td>
-&lt;td>Using of solutions in premisis of DSO&lt;/td>
+&lt;td>Using of solutions in the DSO premises&lt;/td>
 &lt;td>Grid management&lt;/td>
-&lt;td>DSO tries first to solve the issues, using its own technical solutions.&lt;/td>
+&lt;td>The DSO first tries to solve the issues, using its own technical solutions.&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>Operational systems&lt;/td>
@@ -7474,10 +7482,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>8 a&lt;/td>
 &lt;td>Involving of the FR&lt;/td>
 &lt;td>Active Grid Management&lt;/td>
-&lt;td>DSO Technical Platform checks the further amount of flexibility that is required to solve the congestion and detects the location of the flexibility resources connected to distribution system, that can contribute to eliminate the problem&lt;/td>
+&lt;td>The DSO Technical Platform checks further amount of flexibility that is required to solve the congestion and detects the location of the flexibility resources connected to distribution system, that can contribute to eliminate the issue&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>DSO Technical PlatForm&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7485,10 +7493,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>9 a&lt;/td>
 &lt;td>Flexibility Procurement&lt;/td>
 &lt;td>Flexibility requests&lt;/td>
-&lt;td>DSO communicates the flexibility requests (Volumes, time frame) to market&lt;/td>
+&lt;td>The DSO communicates the flexibility requests (Volumes, time frame) to the market&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I - 06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7498,8 +7506,8 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>Requests Acquisition&lt;/td>
 &lt;td>The market Platform acquires and stores the DSO Day Ahead Requests&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>market platfomr&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7507,21 +7515,21 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>1 b&lt;/td>
 &lt;td>Data acquisition&lt;/td>
 &lt;td>Data FR Acquisition&lt;/td>
-&lt;td>AGGREGATOR, known the available resources, acquires their measurements from Shared Customer Database&lt;/td>
+&lt;td>The Aggregator, once known the available resources, acquires their measurements from the Shared Customer Database&lt;/td>
 &lt;td>GET&lt;/td>
 &lt;td>SCD&lt;/td>
-&lt;td>Aggregator Platform Platform&lt;/td>
+&lt;td>Aggregator Platform&lt;/td>
 &lt;td>I - 01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2 b&lt;/td>
 &lt;td>Customer flexibility&lt;/td>
-&lt;td>Providing of flexibility from FR&lt;/td>
-&lt;td>AGGREGATOR calculates the baseline and the flexibility energy for every customer in our premises&lt;/td>
+&lt;td>Provision of flexibility from FR&lt;/td>
+&lt;td>The Aggregator calculates the baseline and the energy flexibility for every customer in its premises&lt;/td>
 &lt;td>Execute&lt;/td>
-&lt;td>Aggregator Platform Platform&lt;/td>
-&lt;td>Aggregator Platform Platform&lt;/td>
+&lt;td>Aggregator Platform&lt;/td>
+&lt;td>Aggregator Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7529,10 +7537,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>3 b&lt;/td>
 &lt;td>Definition of the offer&lt;/td>
 &lt;td>Offering&lt;/td>
-&lt;td>AGGREGATOR arranges the offers for PODs defining the flexibility providing&lt;/td>
+&lt;td>The Aggregator arranges the offers for PODs defining the flexibility to be offered&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>Aggregator Platform Platform&lt;/td>
-&lt;td>Aggregator Platform Platform&lt;/td>
+&lt;td>Aggregator Platform&lt;/td>
+&lt;td>Aggregator Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7540,10 +7548,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>4 b&lt;/td>
 &lt;td>Offers providing&lt;/td>
 &lt;td>Offers sending&lt;/td>
-&lt;td>AGGREGATOR sends the scheduling (volumes, time frame and price) for POD to market&lt;/td>
+&lt;td>The Aggregator sends the scheduling (max. volumes, time frame and price) per POD to the market&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I - 05&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7551,10 +7559,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>5 b&lt;/td>
 &lt;td>Market session&lt;/td>
 &lt;td>Offers Acquisition&lt;/td>
-&lt;td>Market Operator Acquires and stores the Aggregator Day Ahead Bids&lt;/td>
+&lt;td>The Market Operator acquires and stores the Aggregator Day Ahead Bids&lt;/td>
 &lt;td>GET&lt;/td>
-&lt;td>market platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7562,7 +7570,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>1 c&lt;/td>
 &lt;td>TSO flexibility requests for day after&lt;/td>
 &lt;td>TSO requests&lt;/td>
-&lt;td>The TSO acquires from SCD the list of flexible resources that can contribute to eliminate the congestions at transmission level&lt;/td>
+&lt;td>The TSO acquires from SCD the list of flexible resources that can contribute to eliminate the congestion at transmission level&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>SCD&lt;/td>
 &lt;td>TSO Simulator&lt;/td>
@@ -7573,10 +7581,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>2 c&lt;/td>
 &lt;td>Procurement of flexibility&lt;/td>
 &lt;td>Flexibility requests&lt;/td>
-&lt;td>TSO communicates the requests (Volumes, time frame) of flexibility to market&lt;/td>
+&lt;td>The TSO communicates the requests (Volumes, time frame) of flexibility to the market&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>TSO Simulator&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market&lt;/td>
 &lt;td>I - 06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7584,32 +7592,32 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>3 c&lt;/td>
 &lt;td>Market session&lt;/td>
 &lt;td>Requests Acquisition&lt;/td>
-&lt;td>Market Operator acquires and stores the TSO Day Ahead Requests&lt;/td>
+&lt;td>The Market Operator acquires and stores the TSO Day Ahead Requests&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>market platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
+&lt;td>Market&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>11 a&lt;/td>
-&lt;td>Select of the cheaper requests for DSO&lt;/td>
+&lt;td>Selection of the cheapest requests for the DSO&lt;/td>
 &lt;td>Economic market clearing&lt;/td>
-&lt;td>Market Operator solves the DSO requests, selecting the best offers located in the distribution network area subjected to congestions. To increase the realiability Market Platform selects also some additional offers beyond the requests&lt;/td>
+&lt;td>The Market Operator solves the DSO requests, selecting the best offers located in the distribution network area subjected to congestion. To increase the reliability, the Market Platform also selects some additional offers beyond the requests&lt;/td>
 &lt;td>REPEAT&lt;/td>
-&lt;td>market platform&lt;/td>
-&lt;td>Martket Platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>12 a&lt;/td>
-&lt;td>Select of the cheaper requests for TSO&lt;/td>
+&lt;td>Selection of the cheapest requests for the TSO&lt;/td>
 &lt;td>Economic market clearing&lt;/td>
 &lt;td>The Market Operator uses the remaining flexibility to clear the TSO requests&lt;/td>
 &lt;td>REPEAT&lt;/td>
-&lt;td>market platform&lt;/td>
-&lt;td>Martket platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
+&lt;td>Market platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7617,9 +7625,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>13 a&lt;/td>
 &lt;td>Preliminary list of auctioned offers&lt;/td>
 &lt;td>Economical Auctioned offers&lt;/td>
-&lt;td>Market Operator gathers and orders the list of auctioned offers and send it to DSO&lt;/td>
+&lt;td>The Market Operator gathers and orders the list of auctioned offers and sends it to the DSO&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>market platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>I - 08&lt;/td>
 &lt;td>&lt;/td>
@@ -7627,22 +7635,22 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>14 a&lt;/td>
 &lt;td>Grid constraints assessment&lt;/td>
-&lt;td>Techncical assessment&lt;/td>
-&lt;td>DSO receives from Market the list of auctioned offers and assesses the grid constraints&lt;/td>
+&lt;td>Technical assessment&lt;/td>
+&lt;td>The DSO receives from the Market the list of auctioned offers and assesses the grid constraints&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>DSO Techncial Platfoem&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>15 a&lt;/td>
-&lt;td>Finally list of auctioned offers&lt;/td>
+&lt;td>Final list of auctioned offers&lt;/td>
 &lt;td>Auctioned offers&lt;/td>
-&lt;td>DSO sends the list of approved offers to Market&lt;/td>
+&lt;td>The DSO sends the list of approved offers to the Market&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I - 07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7650,9 +7658,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>16 a&lt;/td>
 &lt;td>Market outcomes&lt;/td>
 &lt;td>Market Day Ahead outcomes&lt;/td>
-&lt;td>DSO, TSO and Aggregator receives Market Day Ahead outcomes from the Market Operator&lt;/td>
+&lt;td>The DSO, TSO and Aggregator receive Market Day Ahead outcomes from the Market Operator&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>market platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>DSO/TSO/Aggregator Platform&lt;/td>
 &lt;td>I - 08&lt;/td>
 &lt;td>&lt;/td>
@@ -7661,7 +7669,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>17 a&lt;/td>
 &lt;td>Available resources&lt;/td>
 &lt;td>Resource Planning&lt;/td>
-&lt;td>FR Owner receives the detail on the service to provide for the day after&lt;/td>
+&lt;td>FR Owner receives the detail of the service to be provide for the day after&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
 &lt;td>FR Owner&lt;/td>
@@ -7690,18 +7698,18 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>1 a&lt;/td>
 &lt;td>DSO forecast for the next hours&lt;/td>
 &lt;td>DSO Data acquisition&lt;/td>
-&lt;td>DSO Technical Platform acquires the data from SCD and from the field sensors (V&amp;amp;C sensors and LV3G), through the Operational Systems, to run the forecast tool, to evaluate the production and the consumption&lt;/td>
+&lt;td>DSO Technical Platform acquires the data from SCD and from the field sensors (V&amp;amp;C sensors and LV3G), through the Operational Systems and runs the forecast tool, to evaluate the production and the consumption&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>Operation Systems&lt;/td>
-&lt;td>DSO Technical PlatForm&lt;/td>
+&lt;td>Operational Systems&lt;/td>
+&lt;td>DSO Technical Platform&lt;/td>
 &lt;td>I-18 / I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2 a&lt;/td>
 &lt;td>DSO simulate the grid for the next hours&lt;/td>
-&lt;td>Real Tima grid assessment&lt;/td>
-&lt;td>DSO Tehcnical Platform run the power flow tool to assesses the grid for the next four hours&lt;/td>
+&lt;td>Real Time grid assessment&lt;/td>
+&lt;td>DSO Technical Platform run the state estimation tool to assesses the grid for the next four hours&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
@@ -7710,23 +7718,23 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/tr>
 &lt;tr>
 &lt;td>3 a&lt;/td>
-&lt;td>Congestion detection&lt;/td>
+&lt;td>Congestion&lt;/td>
 &lt;td>Congestion Localization&lt;/td>
 &lt;td>If the DSO Technical Platform detect a congestion sends an alert to DSO Operator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>II - 10&lt;/td>
+&lt;td>I - 10&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4 a&lt;/td>
-&lt;td>Using of solution in premisis of DSO&lt;/td>
+&lt;td>Using of solution in premises of DSO&lt;/td>
 &lt;td>Grid management&lt;/td>
 &lt;td>DSO tries first to solve the issue, using its own technical solutions.&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>Operational systems&lt;/td>
+&lt;td>Operational Systems&lt;/td>
 &lt;td>I - 11&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7734,7 +7742,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>5 a&lt;/td>
 &lt;td>Involving of the customer&lt;/td>
 &lt;td>Active Grid Management&lt;/td>
-&lt;td>DSO Technical Platform assess the amount of flexibility that is required to solve the congestions and decides the location of the flexibility resources connected to distribution system, that can contribute to eliminate the issue&lt;/td>
+&lt;td>DSO Technical Platform assess the amount of flexibility that is required to solve the congestion and decides the location of the flexibility resources connected to distribution system, that can contribute to eliminate the issue&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
@@ -7748,18 +7756,18 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>DSO communicates the requests (Volumes, time frame) of flexibility&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I - 06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>7 a&lt;/td>
 &lt;td>Open market session&lt;/td>
-&lt;td>Requests pubblishing&lt;/td>
+&lt;td>Requests publishing&lt;/td>
 &lt;td>Market Platform acquires and stores the DSO Real time Requests&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7770,18 +7778,18 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>TSO communicates the further requests (Volumes, time frame) of flexibility to market&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>TSO Simulator&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I-06&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2 c&lt;/td>
 &lt;td>Open market session&lt;/td>
-&lt;td>Requests pubblishing&lt;/td>
+&lt;td>Requests publishing&lt;/td>
 &lt;td>Market Platform Acquires and stores the TSO Real time Requests&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>TSO Simulator&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7789,10 +7797,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>8 a&lt;/td>
 &lt;td>Select of the cheaper requests for DSO&lt;/td>
 &lt;td>Economic market clearing&lt;/td>
-&lt;td>Market Platform solves the DSO requests, selecting the best offers located in the distribution network area subjected to congestions. To increase the realiability Market Platform select also some additional offers beyond the requests&lt;/td>
+&lt;td>Market Platform solves the DSO requests, selecting the best offers located in the distribution network area subjected to congestion. To increase the reliability Market Platform select also some additional offers beyond the requests&lt;/td>
 &lt;td>REPEAT&lt;/td>
 &lt;td>market platform&lt;/td>
-&lt;td>Martket platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7803,7 +7811,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>The Market Platform uses the remaining flexibility to clear the TSO requests&lt;/td>
 &lt;td>REPEAT&lt;/td>
 &lt;td>market platform&lt;/td>
-&lt;td>Martket platform&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7811,7 +7819,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>10 a&lt;/td>
 &lt;td>Preliminary list of auctioned offers&lt;/td>
 &lt;td>Economical Auctioned offers&lt;/td>
-&lt;td>The Market Platform gathers and orders the list of auctioned offers and sends it to DSO Technical Platform&lt;/td>
+&lt;td>The Market Platform gathers and orders the list of all auctioned offers and sends it to DSO Technical Platform&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>market platform&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
@@ -7821,7 +7829,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>11 a&lt;/td>
 &lt;td>Grid constraints assessment&lt;/td>
-&lt;td>Techncical assessment&lt;/td>
+&lt;td>Technical assessment&lt;/td>
 &lt;td>DSO Technical Platform receives from Market Operator the list of auctioned offers and assesses the grid constraints&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
@@ -7833,10 +7841,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>12 a&lt;/td>
 &lt;td>Finally list of auctioned offers&lt;/td>
 &lt;td>Auctioned offers&lt;/td>
-&lt;td>DSO Technical Platform sends the list of approved offers to Market&lt;/td>
+&lt;td>DSO Technical Platform sends the list of all approved offers to Market&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO technical Platform&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>I -07&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7846,7 +7854,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>Market Real Time outcomes&lt;/td>
 &lt;td>DSO, TSO and Aggregator receives Market Real Time outcomes from the Market Operator&lt;/td>
 &lt;td>REPORT&lt;/td>
-&lt;td>market platfomr&lt;/td>
+&lt;td>Market Platform&lt;/td>
 &lt;td>DSO/TSO/Aggregator Platform&lt;/td>
 &lt;td>I - 08&lt;/td>
 &lt;td>&lt;/td>
@@ -7854,7 +7862,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>14 a&lt;/td>
 &lt;td>Available resources&lt;/td>
-&lt;td>Resorces planning&lt;/td>
+&lt;td>Resources planning&lt;/td>
 &lt;td>FR Owner receives the detail on the service to provide in the Real Time&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
@@ -7882,9 +7890,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tbody>
 &lt;tr>
 &lt;td>1 a&lt;/td>
-&lt;td>DSO have to solve a Congestion&lt;/td>
-&lt;td>DSO Flxibility order&lt;/td>
-&lt;td>DSO Technical Platform sends the order to move flexibility to the market operator&lt;/td>
+&lt;td>The DSO needs to solve a congestion&lt;/td>
+&lt;td>DSO Flexibility order&lt;/td>
+&lt;td>The DSO Technical Platform sends the order to move flexibility to the market operator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>Market Platform&lt;/td>
@@ -7893,9 +7901,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/tr>
 &lt;tr>
 &lt;td>1 b&lt;/td>
-&lt;td>TSO have to solve a grid congestion&lt;/td>
-&lt;td>TSO Flxibility order&lt;/td>
-&lt;td>TSO sends the order to move the flexibility to the market operator&lt;/td>
+&lt;td>The TSO needs to solve a congestion&lt;/td>
+&lt;td>TSO Flexibility order&lt;/td>
+&lt;td>The TSO sends the order to move flexibility to the market operator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>TSO Simulator&lt;/td>
 &lt;td>Market Platform&lt;/td>
@@ -7905,8 +7913,8 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>2 a&lt;/td>
 &lt;td>Order transmission&lt;/td>
-&lt;td>Carryng of set point - step 1&lt;/td>
-&lt;td>The Market Platform receives and sends the order to DSO Technical Platform, SCD and Aggregator&lt;/td>
+&lt;td>Forwarding the set point - step 1&lt;/td>
+&lt;td>The Market Platform receives and sends the order to the DSO Technical Platform, the SCD and the Aggregator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Market Platform&lt;/td>
 &lt;td>DSO Technical Platform/SCD/Aggregator&lt;/td>
@@ -7916,8 +7924,8 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>3 a&lt;/td>
 &lt;td>Order transmission&lt;/td>
-&lt;td>Carryng of set point - step 2&lt;/td>
-&lt;td>DSO receives from Market the scheduling and sends the set points to Light Nodes&lt;/td>
+&lt;td>Forwarding the of set point - step 2&lt;/td>
+&lt;td>The DSO receives from the Market the scheduling and sends the set points to Light Nodes&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO Technical Platform&lt;/td>
 &lt;td>Light Nodes&lt;/td>
@@ -7928,10 +7936,10 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>4 a&lt;/td>
 &lt;td>Order available&lt;/td>
 &lt;td>Delivering of set point&lt;/td>
-&lt;td>The Light Node receives and makes available the set point to BMS (it can be BMS or HMS) and FR&lt;/td>
+&lt;td>The Light Node receives and makes available the set point to the EMS (it can be BMS or HMS) and FR&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Light Node&lt;/td>
-&lt;td>BMS / FR&lt;/td>
+&lt;td>EMS / FR&lt;/td>
 &lt;td>I-09&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -7939,40 +7947,40 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>5 a&lt;/td>
 &lt;td>Moving of flexibility&lt;/td>
 &lt;td>Activation&lt;/td>
-&lt;td>Energy Management System, acquires the set point and select the correct scenario for electrical appliances (it can be also EV or storage), and/or suggests the right behaviour for the customers (f.i. through an alert);&lt;/td>
+&lt;td>Energy Management System acquires the set point and selects the correct scenario for electrical appliances (it can be also EV or storage), and/or suggests the right behaviour for the customers (e.g. through an alert);&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>EMS / BMS / HMS&lt;/td>
+&lt;td>EMS / FR&lt;/td>
 &lt;td>Smart Appliance / EV / Storage&lt;/td>
 &lt;td>I-14&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6 a&lt;/td>
-&lt;td>Using of Bolckchian Access Layer&lt;/td>
+&lt;td>Use of Blockchain Access Layer&lt;/td>
 &lt;td>Data Certification&lt;/td>
-&lt;td>The Light Node carries the set point and the measurements (takes every 4 sec.) in the BlockChain&lt;/td>
+&lt;td>The Light Node forwards the set point and the measurements (in Blockchain&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Light Nodes&lt;/td>
-&lt;td>BlockChain Access Platform&lt;/td>
+&lt;td>BlockCchain Access Platform&lt;/td>
 &lt;td>I-04 / I-09&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>7 a&lt;/td>
 &lt;td>Flexibility Certification&lt;/td>
-&lt;td>BlockChain outcomes&lt;/td>
-&lt;td>The Blockchain sends the certification data to SCD&lt;/td>
+&lt;td>Blockchain outcomes&lt;/td>
+&lt;td>The Blockchain sends the certification data to the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
-&lt;td>BlockChain Access Platform&lt;/td>
+&lt;td>Blockchain Access Platform&lt;/td>
 &lt;td>Shared Customer Database&lt;/td>
 &lt;td>I-04 / I-09&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>8 a&lt;/td>
-&lt;td>Measurement of flexibility energy&lt;/td>
+&lt;td>Measurement of flexibility&lt;/td>
 &lt;td>Energy Monitoring&lt;/td>
-&lt;td>Light Node measures the electrical quantities for calculate the flexibility and sends them to SCD&lt;/td>
+&lt;td>Light Node measures the electrical quantities for calculating the flexibility and sends them to the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Light Node&lt;/td>
 &lt;td>Shared Customer Database&lt;/td>
@@ -8001,7 +8009,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>1&lt;/td>
 &lt;td>Baseline Definition&lt;/td>
 &lt;td>Market Baseline&lt;/td>
-&lt;td>BRP defines the production and/or consumption programs for any resource involved in the local flexibility market, and sends it to SCD&lt;/td>
+&lt;td>The BRP defines the production and/or consumption programs for all the resources involved in the local flexibility market, and sends it to the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>BRP&lt;/td>
 &lt;td>SCD&lt;/td>
@@ -8010,9 +8018,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
-&lt;td>Energy moved after a flexibility requests&lt;/td>
+&lt;td>Energy moved after a flexibility request&lt;/td>
 &lt;td>Flexibility measurements&lt;/td>
-&lt;td>The light nodes sends the measurements to SCD&lt;/td>
+&lt;td>The light node sends the measurements to the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Light Node&lt;/td>
 &lt;td>SCD&lt;/td>
@@ -8021,9 +8029,9 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
-&lt;td>Gathering of the data&lt;/td>
+&lt;td>Gathering of data&lt;/td>
 &lt;td>Settlement - step 1&lt;/td>
-&lt;td>Market Platform acquires the data from SCD&lt;/td>
+&lt;td>The Market Platform acquires the data from the SCD&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>SCD&lt;/td>
 &lt;td>Market Platform&lt;/td>
@@ -8034,7 +8042,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>4&lt;/td>
 &lt;td>Flexibility evaluation&lt;/td>
 &lt;td>Settlement - step 2&lt;/td>
-&lt;td>Market Operator performs the settlement comparing the metering data and BRP baseline&lt;/td>
+&lt;td>The Market Operator performs the settlement comparing the metering data with the BRP baseline&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Market Platform&lt;/td>
 &lt;td>Market Platform&lt;/td>
@@ -8045,18 +8053,18 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>5&lt;/td>
 &lt;td>Settlements outcomes&lt;/td>
 &lt;td>Settlement - step 3&lt;/td>
-&lt;td>Market Operator communicates the settlements outcomes to DSO, TSO and AGGREGATOR&lt;/td>
+&lt;td>The Market Operator communicates the settlements outcomes to the DSO, TSO and Aggregator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Market Platform&lt;/td>
-&lt;td>DSO ; TSO ; Aggregator Platform&lt;/td>
+&lt;td>DSO / TSO / Aggregator Platform&lt;/td>
 &lt;td>I -15&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>6&lt;/td>
-&lt;td>Payment of provided Energy&lt;/td>
+&lt;td>Payment of Energy provided&lt;/td>
 &lt;td>Payment&lt;/td>
-&lt;td>DSO pays the provided Energy for flexibility to AGGREGATOR&lt;/td>
+&lt;td>The DSO pays the Energy provided for flexibility to Aggregator&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>DSO&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
@@ -8067,7 +8075,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;td>7&lt;/td>
 &lt;td>Customer payment&lt;/td>
 &lt;td>Payment&lt;/td>
-&lt;td>AGGREGATOR shares the revenues with the flexibility resources under their jurisdiction&lt;/td>
+&lt;td>The Aggregator shares the revenues with the flexibility resources under their jurisdiction&lt;/td>
 &lt;td>CREATE&lt;/td>
 &lt;td>Aggregator Platform&lt;/td>
 &lt;td>FR Owner&lt;/td>
@@ -8090,25 +8098,25 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-01&lt;/td>
 &lt;td>Quarterly measures&lt;/td>
-&lt;td>The aggregator baseline or the DSO grid forecast uses the data measurements (active power, energy consumption, energy production,…) stored in SCD. This measures have a 15 minutes granularity&lt;/td>
+&lt;td>The data measurements (active power, energy consumption, energy production, etc.) stored in the SCD. These measures have a 15-minute granularity&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-02&lt;/td>
-&lt;td>Customer data&lt;/td>
-&lt;td>This information contains the list of customer involved in the flexibility providers for the day after&lt;/td>
+&lt;td>Customer list&lt;/td>
+&lt;td>The list of customers available to provide flexibility services for the day after&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-03&lt;/td>
 &lt;td>BRP Baseline&lt;/td>
-&lt;td>The BRP defines for every POD the day after load profile, in compliance with the market day ahead&lt;/td>
+&lt;td>The BRP defines for every POD the day after load profile, in compliance with the day ahead market&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-04&lt;/td>
 &lt;td>Near real time measures&lt;/td>
-&lt;td>This information contains for every POD involved in the flexibility market, the active power measured every 4 second&lt;/td>
+&lt;td>This information contains for every POD involved in the flexibility market, the active power measured every 4 seconds&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -8132,7 +8140,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-08&lt;/td>
 &lt;td>Market Outcomes&lt;/td>
-&lt;td>This information contains the list of offers arranges for economic order and in compliance with the grid constraint&lt;/td>
+&lt;td>This information contains the list of offers arranged in economic order and in compliance with the grid constraint&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -8156,13 +8164,13 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-12&lt;/td>
 &lt;td>FR status&lt;/td>
-&lt;td>This information contains the customer availability for move own FR&lt;/td>
+&lt;td>This information contains the customer availability to move its own FR&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-13&lt;/td>
 &lt;td>FR planning&lt;/td>
-&lt;td>This information contains the time frame, and the power that the customer have to provide during the activation&lt;/td>
+&lt;td>This information contains the time frame and the power that the customer has to provide during the activation&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -8180,7 +8188,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-16&lt;/td>
 &lt;td>DSO payment&lt;/td>
-&lt;td>It is the payment of DSO for the energy provided&lt;/td>
+&lt;td>It is the payment realised by the DSO for the energy provided&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -8192,7 +8200,7 @@ Finally, the DSO pays the flexibility to the aggregator, that can recognizes the
 &lt;tr>
 &lt;td>I-18&lt;/td>
 &lt;td>Technical Measurement&lt;/td>
-&lt;td>Electrical quantities coming from the field sensors (Voltage and current sensors or Low Voltage circuit breaket embedded with IED)&lt;/td>
+&lt;td>Electrical quantities coming from the field sensors (Voltage and current sensors or Low Voltage circuit breakers embedded with IED)&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
