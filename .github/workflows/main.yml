@@ -24,6 +24,14 @@ jobs:
         submodules: recursive  # Fetch the Docsy theme
         fetch-depth: 0         # Fetch all history for .GitInfo and .Lastmod
 
+    - name: Download Bridge
+      run: |
+        ./get_latest_xml2md.sh
+        zip -d content/en/docs/ Bridge.zip
+        ls content/en/docs
+        echo **********
+        ls content/en/docs/Bridge
+
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
