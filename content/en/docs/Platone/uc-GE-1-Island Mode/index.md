@@ -191,8 +191,8 @@ This part describes the possible scenarios of the use case. The scenarios should
 | --- | --- | --- | --- |
 | I-01 | Signal from DSO via GUI| DSO triggers the use case via an GUI to the EMS to apply islanding. The trigger signal is: <br> 0 = stop current use case <br> 1 = application of UC 1 <br> 2 = application of UC 2 <br> 3 = application of UC 3 <br> 4 = application of UC 4 <br> <br> Based on the UC 1 trigger the EMS sets the target setpoint for the load - exchange along the grid connection point to zero (P’Breaker  = 0). | HTTPS |
 | I-02 | Weather forecasts | -	Solar radiation (t + 24h) <br> -	Cloudiness (t + 24 h) <br> -	Temperature (t + 24 h) <br> -	Humidity (t + 24 h) <br> - Windspeed (t + 24 h) | Rest API |
-| I-03 | Signal from the EMS to Sensors at secondary substation | The EMS sends a signal to sensors to get current measurements. | PMU: MQTT or IEC61850 <br/> Household energy storage: MQTT or HTTP <br/> BESS: MODBUS/TCP or IEC VPN 608770|
-| I-06 | Sending of setpoint (t) or setpoint schedule (t+1) | Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC] | Household energy storage: MQTT or HTTP <br/> BESS: MODBUS/TCP or IEC VPN 608770 |
+| I-03 | Measurement data provision | Sensors located at secondary substation, BESS and households push measurement data to EMS | PMU: MQTT or IEC61850 <br/> Household energy storage: MQTT or HTTP <br/> BESS: MODBUS/TCP or IEC VPN 608770|
+| I-04 | Sending of setpoint (t) or setpoint schedule (t+1) from EMS to BESS, household energy storages and flexible loads | Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC] | Household energy storage: MQTT or HTTP <br/> BESS: MODBUS/TCP or IEC VPN 608770 |
 
 
 # 6. Requirements (optional)
