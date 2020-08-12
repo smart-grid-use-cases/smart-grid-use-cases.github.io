@@ -234,8 +234,8 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 | --- | --- | --- | --- |
 | I-01 | User sets UC and variables | -	DSO sets the use case via an UI the EMS (ALF-C) to apply UC 2. The trigger signal is: <br/> 0 = stop current use case <br/> 1 = application of UC 1 <br/> 2 = application of UC 2 <br/> 3 = application of UC 3 <br/> 4 = application of UC 4 <br/> -	DSO set via UI  a target setpoint (P’Breaker) for the load - exchange along the grid connection point. | HTTPS |
 | I-02| Weather forecasts provision | -	Solar radiation (t + 24h) <br/> -	Cloudiness (t + 24 h) <br/> -	Temperature (t + 24 h) <br/> -	Humidity (t + 24 h) <br/> -	Windspeed (t + 24 h) | Rest API |
-| I-03| Sensor measurement data provision | The sensor sends measurement values containing: <br/> voltage (U), current (I) and angle of phase (Phi) values of all 3 phases measured in secondary substation. Values indicate the residual power demand/generation as sum of demand or feed of BESS, household energy storage, flexible loads, generators and customer households and agricultural buildings. | PMU: MQTT or IEC6180 <br/> Household energy storage: MQTT or HTTP </br> BESS: MODBUS/ TCP or IEC VPN 60970|
-| I-04| Sending of setpoint (t) or setpoint schedule (t+1) | Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC] | Household Energy Storage: MQTT or HTTP <br/> BESS: MODBUS/TCP or IEC VPN 60870 |
+| I-03 | Measurement data provision | Sensors located at secondary substation, BESS and households push measurement data to EMS | PMU: MQTT or IEC61850 <br/> Household energy storage: MQTT or HTTP <br/> BESS: MODBUS/TCP or IEC VPN 608770|
+| I-04 | Sending of setpoint (t) or setpoint schedule (t+1) from EMS to BESS, household energy storages and flexible loads | Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC] | Household energy storage: MQTT or HTTP <br/> BESS: MODBUS/TCP or IEC VPN 608770 |
 
 ***Notes***
 
