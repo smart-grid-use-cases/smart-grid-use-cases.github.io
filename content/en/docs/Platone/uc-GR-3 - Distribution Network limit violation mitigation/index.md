@@ -198,8 +198,8 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 | --- | --- | --- | --- |
 |I-01|Measurements|Measurements from the Distribution Network (voltage magnitudes, active and reactive power injections/flows)|ethernet TCP/IP, IP over GPRS|
 |I-02|State Vector|Voltage magnitudes and angles of all network buses||
-|I-06|Network tariffs|Network tariffs that reflect the Disribution Network state|IP|
-|I-07|Setpoint|Setpoint for adjustment of flexible load/RES production|IP|
+|I-03| Measurement data provision | Sensors located at secondary substation, BESS and households push measurement data to EMS | PMU: MQTT or IEC61850 <br/> Household energy storage: MQTT or HTTP <br/> BESS: MODBUS/TCP or IEC VPN 608770|
+|I-04| Sending of setpoint (t) or setpoint schedule (t+1) from EMS to BESS, household energy storages and flexible loads | Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC] | Household energy storage: MQTT or HTTP <br/> BESS: MODBUS/TCP or IEC VPN 608770 |
 
 ***Notes***
 * **Information exchanged ID** - unique number (I-01,I-02...) for identification
