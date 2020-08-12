@@ -654,13 +654,13 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;/tr>
 &lt;tr>
 &lt;td>I-03&lt;/td>
-&lt;td>Signal from the EMS to Sensors at secondary substation&lt;/td>
-&lt;td>The EMS sends a signal to sensors to get current measurements.&lt;/td>
+&lt;td>Measurement data provision&lt;/td>
+&lt;td>Sensors located at secondary substation, BESS and households push measurement data to EMS&lt;/td>
 &lt;td>PMU: MQTT or IEC61850 &lt;br/> Household energy storage: MQTT or HTTP &lt;br/> BESS: MODBUS/TCP or IEC VPN 608770&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>I-06&lt;/td>
-&lt;td>Sending of setpoint (t) or setpoint schedule (t+1)&lt;/td>
+&lt;td>I-04&lt;/td>
+&lt;td>Sending of setpoint (t) or setpoint schedule (t+1) from EMS to BESS, household energy storages and flexible loads&lt;/td>
 &lt;td>Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC]&lt;/td>
 &lt;td>Household energy storage: MQTT or HTTP &lt;br/> BESS: MODBUS/TCP or IEC VPN 608770&lt;/td>
 &lt;/tr>
