@@ -824,6 +824,13 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;td>Template corrections&lt;/td>
 &lt;td>Draft&lt;/td>
 &lt;/tr>
+&lt;tr>
+&lt;td>0.5&lt;/td>
+&lt;td>23rd July 2020&lt;/td>
+&lt;td>Benjamin Petters&lt;/td>
+&lt;td>Extended description and review&lt;/td>
+&lt;td>Draft&lt;/td>
+&lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
@@ -1293,26 +1300,16 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
-&lt;td>EMS requests weather forecasts data&lt;/td>
-&lt;td>Data-Aquisition&lt;/td>
-&lt;td>EMS sends a request for the provision of real time and forecast weather data (6h ahead) to an external service provider. &lt;br/> The process will be repeated in regular intervals).&lt;/td>
-&lt;td>GET&lt;/td>
-&lt;td>EMS&lt;/td>
-&lt;td>External System&lt;/td>
-&lt;td>I-02&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
 &lt;td>External service provider sends weather forecasts&lt;/td>
 &lt;td>Transmitting data&lt;/td>
 &lt;td>An external service provider sends weather data and weather forecast values&lt;/td>
 &lt;td>GET&lt;/td>
 &lt;td>External System&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>I-03&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>4&lt;/td>
+&lt;td>3&lt;/td>
 &lt;td>EMS receives forecasting values&lt;/td>
 &lt;td>Forecasting of generation and demand&lt;/td>
 &lt;td>The EMS forecasts local generation and demand: &lt;br/> - Generation based on weather forecasts &lt;br/> - Load – based on weather forecast and load profiles from historic measurement data&lt;/td>
@@ -1322,47 +1319,27 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>5&lt;/td>
-&lt;td>EMS requests data of total generation/ consumption&lt;/td>
-&lt;td>Data-Acquisition&lt;/td>
-&lt;td>The EMS triggers measurement values from sensors located at the secondary substation to provide measurement data (PBreaker) of the power exchange at the MV/LV grid connection. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. &lt;br/> From there the data will be forwarded to the DSO Technical Platform acting as second level middle ware from where the signal is sent to the Data Management Backend of the sensor. &lt;br/> &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed backwards along the communication from the sensor to the EMS every 10 seconds.&lt;/td>
-&lt;td>GET&lt;/td>
-&lt;td>EMS&lt;/td>
-&lt;td>Sensor&lt;/td>
-&lt;td>I-04&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6&lt;/td>
+&lt;td>4&lt;/td>
 &lt;td>Sensor (grid connection point in secondary substation) provides values&lt;/td>
 &lt;td>Transmitting the data&lt;/td>
 &lt;td>The local sensor located at secondary substation measures the residual power export and sends data to EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 10 seconds.&lt;/td>
 &lt;td>CHANGE&lt;/td>
 &lt;td>Sensor&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>I-05&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>7&lt;/td>
-&lt;td>EMS requests measurement data of sensors located in the field&lt;/td>
-&lt;td>Data – Acquisition&lt;/td>
-&lt;td>The EMS sends request to sensors to provide load demand and SOE, SOC values of local customer flexible loads, household energy storages and battery energy storage system. The connection is established via a backend of data management platform provided by the manufacturer of the asset (BESS, household battery storage, flexible loads). &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middle ware from where the signal is sent to the Data Management Backend of the sensor.&lt;/td>
-&lt;td>GET&lt;/td>
-&lt;td>EMS&lt;/td>
-&lt;td>Sensor&lt;/td>
-&lt;td>I-04&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8&lt;/td>
+&lt;td>5&lt;/td>
 &lt;td>Local sensors provide data via Data Management Backend&lt;/td>
 &lt;td>Transmitting the data&lt;/td>
 &lt;td>Local sensors provide measurements values and data via sensor data management backend to the EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 15 minutes.&lt;/td>
 &lt;td>CHANGE&lt;/td>
 &lt;td>Sensor&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>I-05&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>9&lt;/td>
+&lt;td>6&lt;/td>
 &lt;td>All data collected&lt;/td>
 &lt;td>Evaluation and determination of control strategy and setpoints&lt;/td>
 &lt;td>Based on provided measurement data, asset key data. EMS calculates the power bandwidth of each asset available for steering (PFlex). &lt;br/> &lt;br/> The EMS determines for each asset a setpoint (P’Asset) to reach P’Breaker. The determination of setpoints is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and household energy storages.&lt;/td>
@@ -1372,17 +1349,17 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>10&lt;/td>
+&lt;td>7&lt;/td>
 &lt;td>Individual setpoints determined&lt;/td>
 &lt;td>Transmitting setpoints to controllers&lt;/td>
 &lt;td>The EMS sends setpoints via a data management backend to controllers to increase, decrease consumption assets (battery energy storage, household energy storage and flexible load) located in the field to increase consumption. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS along the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the Data Management Backend of the controller. &lt;br/> This signal is sent every ten seconds to the BESS Management Backend and every 15 minutes to loads located at customer premise and replaces the default signal until the EMS calculates a setpoint.&lt;/td>
 &lt;td>EXECUTE&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>Controllers&lt;/td>
-&lt;td>I-06&lt;/td>
+&lt;td>I-04&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>11&lt;/td>
+&lt;td>8&lt;/td>
 &lt;td>Setpoint send to controller&lt;/td>
 &lt;td>Verification of setpoint execution&lt;/td>
 &lt;td>The EMS compares measured values comparison of PBreaker from the grid connection point with the target values P’Breaker. In case of deviation the setpoint are redefined by walking through step numbers 2 to 10. The process is continuously repeated until the end of use case.&lt;/td>
@@ -1392,7 +1369,7 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>12&lt;/td>
+&lt;td>9&lt;/td>
 &lt;td>End of Use Case 2&lt;/td>
 &lt;td>End of Use Case 2&lt;/td>
 &lt;td>The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach P’Breaker.&lt;/td>
@@ -1430,26 +1407,16 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
-&lt;td>EMS requests weather forecasts data&lt;/td>
-&lt;td>Data-Aquisition&lt;/td>
-&lt;td>EMS sends a request for the provision of real time and forecast weather data (6h ahead) to an external service provider. &lt;br/> The process will be repeated in regular intervals).&lt;/td>
-&lt;td>GET&lt;/td>
-&lt;td>EMS&lt;/td>
-&lt;td>External System&lt;/td>
-&lt;td>I-02&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
 &lt;td>External service provider sends weather forecasts&lt;/td>
 &lt;td>Transmitting data&lt;/td>
 &lt;td>An external service provider sends weather data and weather forecast values&lt;/td>
 &lt;td>GET&lt;/td>
 &lt;td>External System&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>I-03&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>4&lt;/td>
+&lt;td>3&lt;/td>
 &lt;td>EMS receives forecasting values&lt;/td>
 &lt;td>Forecasting of generation and demand&lt;/td>
 &lt;td>The EMS forecasts local generation and demand: &lt;br/> - Generation based on weather forecasts &lt;br/> - Load – based on weather forecast and load profiles from historic measurement data&lt;/td>
@@ -1459,37 +1426,17 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>5&lt;/td>
-&lt;td>EMS requests data of total generation/ consumption&lt;/td>
-&lt;td>Data-Acquisition&lt;/td>
-&lt;td>The EMS triggers measurement values from sensors located at the secondary substation to provide measurement data (PBreaker) of the power exchange at the MV/LV grid connection. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. &lt;br/> From there the data will be forwarded to the DSO Technical Platform acting as second level middle ware from where the signal is sent to the Data Management Backend of the sensor. &lt;br/> &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed backwards along the communication from the sensor to the EMS every 10 seconds.&lt;/td>
-&lt;td>GET&lt;/td>
-&lt;td>EMS&lt;/td>
-&lt;td>Sensor&lt;/td>
-&lt;td>I-04&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6&lt;/td>
+&lt;td>4&lt;/td>
 &lt;td>Sensor (grid connection point in secondary substation) provides values&lt;/td>
 &lt;td>Transmitting the data&lt;/td>
 &lt;td>The local sensor located at secondary substation measures the residual power export and sends data to EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 10 seconds.&lt;/td>
 &lt;td>CHANGE&lt;/td>
 &lt;td>Sensor&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>I-05&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>7&lt;/td>
-&lt;td>EMS requests measurement data of sensors located in the field&lt;/td>
-&lt;td>Data – Acquisition&lt;/td>
-&lt;td>The EMS sends request to sensors to provide load demand and SOE, SOC values of local customer flexible loads, household energy storages and battery energy storage system. The connection is established via a backend of data management platform provided by the manufacturer of the asset (BESS, household battery storage, flexible loads). &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middle ware from where the signal is sent to the Data Management Backend of the sensor.&lt;/td>
-&lt;td>GET&lt;/td>
-&lt;td>EMS&lt;/td>
-&lt;td>Sensor&lt;/td>
-&lt;td>I-04&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8&lt;/td>
+&lt;td>5&lt;/td>
 &lt;td>Local sensors provide data via Data Management Backend&lt;/td>
 &lt;td>Transmitting the data&lt;/td>
 &lt;td>Local sensors provide measurements values and data via sensor data management backend to the EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 15 minutes.&lt;/td>
@@ -1499,7 +1446,7 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;td>I-05&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>9&lt;/td>
+&lt;td>6&lt;/td>
 &lt;td>All data collected&lt;/td>
 &lt;td>Evaluation and determination of control strategy and setpoints&lt;/td>
 &lt;td>Based on provided measurement data, asset key data. EMS calculates the power bandwidth of each asset available for steering (PFlex). &lt;br/> &lt;br/> The EMS determines for each asset a setpoint (P’Asset) to reach P’Breaker. The determination of setpoints is repeated every 10 seconds for BESS and every 15 minutes for flexible loads and household energy storages.&lt;/td>
@@ -1509,17 +1456,17 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>10&lt;/td>
+&lt;td>7&lt;/td>
 &lt;td>Individual setpoints determined&lt;/td>
 &lt;td>Transmitting setpoints to controllers&lt;/td>
 &lt;td>The EMS sends setpoints via a data management backend to controllers to increase, decrease consumption assets (battery energy storage, household energy storage and flexible load) located in the field to increase consumption. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS along the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the Data Management Backend of the controller. &lt;br/> This signal is sent every ten seconds to the BESS Management Backend and every 15 minutes to loads located at customer premise and replaces the default signal until the EMS calculates a setpoint.&lt;/td>
 &lt;td>EXECUTE&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>Controllers&lt;/td>
-&lt;td>I-06&lt;/td>
+&lt;td>I-04&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>11&lt;/td>
+&lt;td>8&lt;/td>
 &lt;td>Setpoint send to controller&lt;/td>
 &lt;td>Verification of setpoint execution&lt;/td>
 &lt;td>The EMS compares measured values comparison of PBreaker from the grid connection point with the target values P’Breaker. In case of deviation the setpoint are redefined by walking through step numbers 2 to 10. The process is continuously repeated until the end of use case.&lt;/td>
@@ -1529,7 +1476,7 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>12&lt;/td>
+&lt;td>9&lt;/td>
 &lt;td>End of Use Case 2&lt;/td>
 &lt;td>End of Use Case 2&lt;/td>
 &lt;td>The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach P’Breaker.&lt;/td>
@@ -1540,6 +1487,7 @@ The operation of the community in an “Island” mode will be initiated by the 
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
+&lt;p>Household energy storage: MQTT or HTTP &lt;br/> BESS: MODBUS/TCP or IEC VPN 60870&lt;/p>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.&lt;/p>
 &lt;ul>
@@ -1579,37 +1527,25 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>I-01&lt;/td>
 &lt;td>User sets UC and variables&lt;/td>
 &lt;td>- DSO sets the use case via an UI the EMS (ALF-C) to apply UC 2. The trigger signal is: &lt;br/> 0 = stop current use case &lt;br/> 1 = application of UC 1 &lt;br/> 2 = application of UC 2 &lt;br/> 3 = application of UC 3 &lt;br/> 4 = application of UC 4 &lt;br/> &lt;br/> - DSO set via UI a target setpoint (P’Breaker) for the load - exchange along the grid connection point.&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>HTTPS&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-02&lt;/td>
-&lt;td>EMS requests weather data&lt;/td>
-&lt;td>EMS triggers External weather forecast service providers to provide real time and forecast weather data&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Weather forecasts provision&lt;/td>
+&lt;td>- Solar radiation (t + 24h) &lt;br/> - Cloudiness (t + 24 h) &lt;br/> - Temperature (t + 24 h) &lt;br/> - Humidity (t + 24 h) &lt;br/> Windspeed (t + 24 h)&lt;/td>
+&lt;td>Rest API&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-03&lt;/td>
-&lt;td>Weather forecasts provision&lt;/td>
-&lt;td>- Solar radiation (t + 24h) &lt;br/> - Cloudiness (t + 24 h) &lt;br/> - Temperature (t + 24 h) &lt;br/> - Humidity (t + 24 h) &lt;br/> Windspeed (t + 24 h)&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Sensor Wake UP&lt;/td>
+&lt;td>The EMS sends a signal to sensors located at secondary substation to push measurement data&lt;/td>
+&lt;td>PMU: MQTT or IEC6180 &lt;br/> Household energy storage: MQTT or HTTP &lt;br/> BESS: MODBUS/TCP or IEC VPN 60870&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-04&lt;/td>
-&lt;td>Sensor Wake UP&lt;/td>
-&lt;td>The EMS sends a signal to sensors located at secondary substation to push measurement data&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-05&lt;/td>
-&lt;td>Sensor measurement data provision&lt;/td>
-&lt;td>The sensor sends measurement values containing: &lt;br/> voltage (U), current (I) and angle of phase (Phi) values of all 3 phases measured in secondary substation. Values indicate the residual power demand/generation as sum of demand or feed of BESS, household energy storage, flexible loads, generators and customer households and agricultural buildings.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-06&lt;/td>
 &lt;td>Sending of setpoint (t) or setpoint schedule (t+1)&lt;/td>
 &lt;td>Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC]&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Household energy storage: MQTT or HTTP &lt;br/> BESS: MODBUS/TCP or IEC VPN 60870&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1689,10 +1625,10 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;tbody>
 &lt;tr>
 &lt;td>0.1&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>1st April&lt;/td>
 &lt;td>Thorsten Gross&lt;/td>
 &lt;td>Initial creation&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Draft&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>0.2&lt;/td>
@@ -1706,7 +1642,14 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>19th June 2020&lt;/td>
 &lt;td>Benjamin Petters&lt;/td>
 &lt;td>Extended description and added technical part&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Draft&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>0.4&lt;/td>
+&lt;td>23rd July 2020&lt;/td>
+&lt;td>Benjamin Petters&lt;/td>
+&lt;td>Extending, review&lt;/td>
+&lt;td>Draft&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -2073,31 +2016,21 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>Operator sets the application of UC-3 via a UI. &lt;br/> &lt;br/> The setting includes the setting of duration of UC 3 application as well as times, setpoints and time slots for the delivery of packages for the next 24h.&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO&lt;/td>
-&lt;td>DSO&lt;/td>
+&lt;td>EMS&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2&lt;/td>
-&lt;td>EMS requests weather forecasts data&lt;/td>
-&lt;td>Data – Acquisition&lt;/td>
-&lt;td>EMS sends a request for the provision of real time and forecast weather data (6h ahead) to a weather forecast service provider. &lt;br/> The Process will be repeated in regular intervals).&lt;/td>
-&lt;td>GET&lt;/td>
-&lt;td>EMS&lt;/td>
-&lt;td>External System&lt;/td>
-&lt;td>I-02&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
 &lt;td>Weather forecast service provider send weather forecasts&lt;/td>
 &lt;td>Transmitting the data&lt;/td>
 &lt;td>Weather forecast service provider pushes weather data and weather forecast values.&lt;/td>
 &lt;td>GET&lt;/td>
 &lt;td>External System&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>I-03&lt;/td>
+&lt;td>I-02&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>4&lt;/td>
+&lt;td>3&lt;/td>
 &lt;td>EMS receives forecasting values&lt;/td>
 &lt;td>Forecasting of generation and demand&lt;/td>
 &lt;td>The EMS forecasts local generation and demand: &lt;br/> - Generation based on weather forecasts &lt;br/> - Load – based in weather forecast and load profiles from historic measurement data&lt;/td>
@@ -2107,47 +2040,27 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>5&lt;/td>
-&lt;td>EMS requests data of total generation/ consumption&lt;/td>
-&lt;td>Data – Acquisition&lt;/td>
-&lt;td>The EMS triggers provision measurement values from sensor located at the secondary substation to provide measurement data (PBreaker) of the power exchange along the MV/LV grid connection point. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the Data Management Backend of the sensor. &lt;br/> &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by backwards along the communication from the sensor to the EMS every 10 seconds.&lt;/td>
-&lt;td>GET&lt;/td>
-&lt;td>EMS&lt;/td>
-&lt;td>Sensor&lt;/td>
-&lt;td>I-04&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6&lt;/td>
+&lt;td>4&lt;/td>
 &lt;td>Sensor (grid connection point in secondary substation) provides values&lt;/td>
 &lt;td>Transmitting the data&lt;/td>
 &lt;td>The local sensor located at secondary substation measures the residual power export and sends data to EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor to the EMS every 10 seconds.&lt;/td>
 &lt;td>CHANGE&lt;/td>
 &lt;td>Sensor&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>I-05&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>7&lt;/td>
-&lt;td>Then data will be pushed by the sensor to the EMS every 10 seconds.&lt;/td>
-&lt;td>Data – Acquisition&lt;/td>
-&lt;td>The EMS sends request to sensors to provide load demand and SOE, SOC values of local customer flexible loads, household energy storages and battery energy storage system. The connection is established via a backend of data management platform provided by the manufacturer of the asset (BESS, household battery storage, flexible loads). &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> &lt;br/> The communication will take place from the EMS to the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middle ware from where the signal is sent to the Data Management Backend of the sensor.&lt;/td>
-&lt;td>GET&lt;/td>
-&lt;td>EMS&lt;/td>
-&lt;td>Sensor&lt;/td>
-&lt;td>I-04&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8&lt;/td>
+&lt;td>5&lt;/td>
 &lt;td>Local sensors provide data.&lt;/td>
 &lt;td>Transmitting the data&lt;/td>
 &lt;td>Local sensors provide measurements values and data via sensor data management backend to the EMS. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> &lt;br/> The communication will take place from the sensor via the sensor data management backend to the Blockchain Access Platform (BAP). The BAP acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the EMS. &lt;br/> &lt;br/> After the trigger for provision of measurement data, the &lt;br/> Then data will be pushed by the sensor via data management sensor to the EMS every 15 minutes.&lt;/td>
 &lt;td>CHANGE&lt;/td>
 &lt;td>Sensor&lt;/td>
 &lt;td>EMS&lt;/td>
-&lt;td>I-05&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>9&lt;/td>
+&lt;td>6&lt;/td>
 &lt;td>All data collected&lt;/td>
 &lt;td>Evaluation and determination of control strategy and setpoints&lt;/td>
 &lt;td>Based on all provided data and load and generation forecasts, EMS forecasts the energy deficits for the next 24h and optimum times, durations and power for the delivery in time slots defined by the DSO (Step 1). As result the EMS determines a setpoint schedule for the load exchange along the grid connection point P’Breaker.(t+1). &lt;br/> &lt;br/> EMS determines each 15 minutes individual setpoints for the BESS and flexible loads and household energy storages in the field to balance local consumption generation to reach P’Breaker at grid connection point.&lt;/td>
@@ -2157,17 +2070,17 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>10&lt;/td>
+&lt;td>7&lt;/td>
 &lt;td>Individual setpoints determined&lt;/td>
 &lt;td>Transmitting setpoints to controller&lt;/td>
 &lt;td>The EMS sends setpoints via a data management backend to controllers to increase, decrease consumption assets (battery energy storage, household energy storage and flexible load) located in the field to increase consumption. &lt;br/> &lt;br/> If Applicable (to be clarified): &lt;br/> The communication will take place from the EMS along the Blockchain Access Platform. The Blockchain Access Platform acts as middleware for data encryption. From there the data will be forwarded to the DSO Technical Platform acting as second level middleware from where the signal is sent to the Data Management Backend of the controller. &lt;br/> &lt;br/> This signal is sent each ten seconds to the BESS Management Backend and every 15 minutes to loads located at customer premise and replaces the default signal until the EMS calculates a setpoint.&lt;/td>
 &lt;td>EXECUTE&lt;/td>
 &lt;td>EMS&lt;/td>
 &lt;td>Controllers&lt;/td>
-&lt;td>I-06&lt;/td>
+&lt;td>I-04&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>11&lt;/td>
+&lt;td>8&lt;/td>
 &lt;td>Setpoint send to controller&lt;/td>
 &lt;td>Verification of setpoint execution&lt;/td>
 &lt;td>The EMS compares measured values comparison of PBreaker from the grid connection point with the target values P’Breaker. In case of deviation the setpoint are redefined by walking through step numbers 2 to 10. The process is continuously repeated until the end of use case.&lt;/td>
@@ -2177,7 +2090,7 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>12&lt;/td>
+&lt;td>9&lt;/td>
 &lt;td>End of Use Case 3&lt;/td>
 &lt;td>End of Use Case 3&lt;/td>
 &lt;td>The use case ends, when a user triggers another use case, or in a case of lack of flexibility to reach P’Breaker.&lt;/td>
@@ -2229,7 +2142,8 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;p>This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;strong>Event&lt;/strong> - Event triggering a step, specific for that use case.&lt;/p>
+&lt;p>&lt;strong>Event&lt;/strong> - Event triggering a step, specific for that use case.
+Household energy storage: MQTT or HTTP &lt;br/> BESS: MODBUS/TCP or IEC VPN 60870&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Name of Process/ Activity&lt;/strong> - general classification of process/activity (e.g. data aquisition).&lt;/p>
@@ -2264,37 +2178,25 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>I-01&lt;/td>
 &lt;td>User sets UC and variables&lt;/td>
 &lt;td>- DSO sets the use case via an UI the EMS to apply UC 3 “Energy Delivery”. The trigger signal is: &lt;br/> 0 = stop current use case &lt;br/> 1 = application of UC 1 &lt;br/> 2 = application of UC 2 &lt;br/> 3 = application of UC 3 &lt;br/> 4 = application of UC 4 &lt;br/> &lt;br/> - Set of time schedule: &lt;br/> DSO (user) sets via UI a time schedule for load exchange at grid connection point. The schedules define time (t) – earliest time for beginning of load exchange and duration for load exchange delivery (dt) – longest duration for delivery&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>HTTPS&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-02&lt;/td>
-&lt;td>EMS requests weather data&lt;/td>
-&lt;td>EMS triggers External weather forecast service providers to provide real time and forecast weather data.&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Weather forecasts provision&lt;/td>
+&lt;td>- Solar radiation (t + 24h) &lt;br/> - Cloudiness (t + 24 h) &lt;br/> - Temperature (t + 24 h) &lt;br/> - Humidity (t + 24 h) &lt;br/> - Windspeed (t + 24 h)&lt;/td>
+&lt;td>Rest API&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-03&lt;/td>
-&lt;td>Weather forecasts provision&lt;/td>
-&lt;td>- Solar radiation (t + 24h) &lt;br/> - Cloudiness (t + 24 h) &lt;br/> - Temperature (t + 24 h) &lt;br/> - Humidity (t + 24 h) &lt;br/> - Windspeed (t + 24 h)&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Sensor measurement data provision&lt;/td>
+&lt;td>The sensor sends measurement values containing: &lt;br/> voltage (U), current (I) and angle of phase (Phi) values of all 3 phases measured in secondary substation. Values indicate the residual power demand/generation as sum of demand or feed of BESS, household energy storage, flexible loads, generators and customer households and agricultural buildings.&lt;/td>
+&lt;td>PMU: MQTT or IEC 61850 &lt;br/> Household energy storage: MQTT or HTTP &lt;br/> BESS: MODBUS/TCP or IEC VPN 60870&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>I-04&lt;/td>
-&lt;td>Sensor wake up&lt;/td>
-&lt;td>The EMS sends a signal to sensors located at secondary substation to push measurement data&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-05&lt;/td>
-&lt;td>Sensor measurement data provision&lt;/td>
-&lt;td>The sensor sends measurement values containing: &lt;br/> voltage (U), current (I) and angle of phase (Phi) values of all 3 phases measured in secondary substation. Values indicate the residual power demand/generation as sum of demand or feed of BESS, household energy storage, flexible loads, generators and customer households and agricultural buildings.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>I-06&lt;/td>
 &lt;td>Sending of setpoint (t) or setpoint schedule (t+1)&lt;/td>
 &lt;td>Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC]&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Household energy storage: MQTT or HTTP &lt;br/> BESS: MODBUS/TCP or IEC VPN 60870&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
