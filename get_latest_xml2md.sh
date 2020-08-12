@@ -7,3 +7,5 @@ echo "tail: $tail"
 release_version=${tail%"$suffix"}
 echo "release version: $release_version"
 wget https://github.com/richardmarston/xml2md/releases/download/${release_version}/Bridge.zip
+unzip Bridge.zip -d content/en/docs/
+rm Bridge.zip

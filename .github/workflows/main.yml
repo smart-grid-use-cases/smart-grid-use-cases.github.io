@@ -27,7 +27,6 @@ jobs:
     - name: Download Bridge
       run: |
         ./get_latest_xml2md.sh
-        unzip Bridge.zip -d content/en/docs/
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
