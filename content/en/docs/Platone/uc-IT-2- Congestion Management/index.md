@@ -125,21 +125,20 @@ Add any remarks which do not fit in any other category
 
 # 2. Diagrams of Use Case
 
-**Use Case Diagram Congestion**
-To be uploaded
+**Use Case Diagram Congestion: Component**
 
+![Sgam Component Layer](0_SGAM_Component_Layer.PNG)
 
-**Active Diagram Voltage Violation**
+**Use Case Diagram Congestion: Function**
 
-![Sequence Diagram Congestion](Sequence_diagram_Congestion.png)
+![Sgam Function Layer](0_SGAM_Function_Layer.PNG)
 
 **Sequence Diagram Congestion**
 
-![Sequence Diagram Congestion Day Ahead](Sequence diagram Congestion DA.png)
-![Sequence Diagram Congestion Real Time](Sequence diagram Congestion RT.png)
-![Sequence Diagram Congestion Activation](Sequence diagram Congestion Activation.png)
-![Sequence Diagram Congestion Settlement](Sequence diagram Congestion Settlement.png)
-
+![Sequence Diagram Congestion Day Ahead](1_Sequence_DA_Congestion.png)
+![Sequence Diagram Congestion Real Time](2_Sequence_RT_Congestion.png)
+![Sequence Diagram Congestion Activation](3_Sequence_Activation_Congestion.png)
+![Sequence Diagram Congestion Settlement](4_Sequence_Settlement_Congestion.png)
 
 
 # 3. Technical Details
