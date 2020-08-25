@@ -7034,15 +7034,15 @@ The same steps are also followed in the Real Time sessions. Indeed, in these Mar
 &lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>Add any remarks which do not fit in any other category&lt;/p>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;strong>Use Case Diagram Congestion&lt;/strong>
-To be uploaded&lt;/p>
-&lt;p>&lt;strong>Active Diagram Voltage Violation&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="Sequence_diagram_Congestion.png" alt="Sequence Diagram Congestion">&lt;/p>
+&lt;p>&lt;strong>Use Case Diagram Congestion: Component&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="0_SGAM_Component_Layer.PNG" alt="Sgam Component Layer">&lt;/p>
+&lt;p>&lt;strong>Use Case Diagram Congestion: Function&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="0_SGAM_Function_Layer.PNG" alt="Sgam Function Layer">&lt;/p>
 &lt;p>&lt;strong>Sequence Diagram Congestion&lt;/strong>&lt;/p>
-&lt;p>![Sequence Diagram Congestion Day Ahead](Sequence diagram Congestion DA.png)
-![Sequence Diagram Congestion Real Time](Sequence diagram Congestion RT.png)
-![Sequence Diagram Congestion Activation](Sequence diagram Congestion Activation.png)
-![Sequence Diagram Congestion Settlement](Sequence diagram Congestion Settlement.png)&lt;/p>
+&lt;p>&lt;img src="1_Sequence_DA_Congestion.png" alt="Sequence Diagram Congestion Day Ahead">
+&lt;img src="2_Sequence_RT_Congestion.png" alt="Sequence Diagram Congestion Real Time">
+&lt;img src="3_Sequence_Activation_Congestion.png" alt="Sequence Diagram Congestion Activation">
+&lt;img src="4_Sequence_Settlement_Congestion.png" alt="Sequence Diagram Congestion Settlement">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
