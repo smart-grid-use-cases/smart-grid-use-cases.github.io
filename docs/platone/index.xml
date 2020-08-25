@@ -4471,16 +4471,22 @@ and receiver has to enforce a waiting period.), REPEAT (A number of steps has to
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>I-03&lt;/td>
-&lt;td>Measurement data provision&lt;/td>
-&lt;td>Sensors located at secondary substation, BESS and households push measurement data to EMS&lt;/td>
-&lt;td>PMU: MQTT or IEC61850 &lt;br/> Household energy storage: MQTT or HTTP &lt;br/> BESS: MODBUS/TCP or IEC VPN 608770&lt;/td>
+&lt;td>I-04&lt;/td>
+&lt;td>PMU Measurements&lt;/td>
+&lt;td>Measurements from PMUs (e.g. voltage magnitudes, voltage phasors, current phasors)&lt;/td>
+&lt;td>MQTT&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>I-04&lt;/td>
-&lt;td>Sending of setpoint (t) or setpoint schedule (t+1) from EMS to BESS, household energy storages and flexible loads&lt;/td>
-&lt;td>Setpoint to increase or decrease demand/generation as static value [P] or relative value [%] or [SOC]&lt;/td>
-&lt;td>Household energy storage: MQTT or HTTP &lt;br/> BESS: MODBUS/TCP or IEC VPN 608770&lt;/td>
+&lt;td>I-06&lt;/td>
+&lt;td>Network tariffs&lt;/td>
+&lt;td>Network tariffs that reflect the Disribution Network state&lt;/td>
+&lt;td>IP&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-07&lt;/td>
+&lt;td>Setpoint&lt;/td>
+&lt;td>Setpoint for adjustment of flexible load/RES production&lt;/td>
+&lt;td>IP&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
