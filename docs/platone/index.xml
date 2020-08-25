@@ -5778,15 +5778,15 @@ For the settlement phase, the Market Platform acquires data from the SCD and cal
 &lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>Add any remarks which do not fit in any other category&lt;/p>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;strong>Use Case Diagram Congestion&lt;/strong>
-To be uploaded&lt;/p>
-&lt;p>&lt;strong>Active Diagram Voltage Violation&lt;/strong>&lt;/p>
-&lt;p>![Sequence Diagram Voltage Day Ahead](Sequence diagram Voltage DA.png)
-![Sequence Diagram Voltage Real Time](Sequence diagram Voltage RT.png)
-![Sequence Diagram Voltage Activation](Sequence diagram Voltage Activation.png)
-![Sequence Diagram Voltage Settlement](Sequence diagram Voltage Settlement.png)&lt;/p>
+&lt;p>&lt;strong>Use Case Diagram Voltage: Component&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="0_SGAM_Component_Layer.PNG" alt="Sgam Component Layer">&lt;/p>
+&lt;p>&lt;strong>Use Case Diagram Voltage: Function&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="0_SGAM_Function_Layer.PNG" alt="Sgam Function Layer">&lt;/p>
 &lt;p>&lt;strong>Sequence Diagram Voltage&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="Use_Case_Diagram_Voltage.png" alt="Use Case Diagram Voltage">&lt;/p>
+&lt;p>&lt;img src="1_Sequence_DA_Voltage.png" alt="Sequence Diagram Voltage Day Ahead">
+&lt;img src="2_Sequence_RT_Voltage.png" alt="Sequence Diagram Voltage Real Time">
+&lt;img src="3_Sequence_Activation_Voltage.png" alt="Sequence Diagram Voltage Activation">
+&lt;img src="4_Sequence_Settlement_Voltage.png" alt="Sequence Diagram Voltage Settlement">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
