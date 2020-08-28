@@ -181,8 +181,10 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 8 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES|I-07||
 | 9 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|PMU|DSOTP|I-04||
 | 10 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|I-01||
-| 11 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|DSOTP|I-01||
-| 12 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSOTP|DSO|I-02||
+| 11 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|BAP|I-01||
+| 12 |New Distribution Network state|Data Verification|All data received gets verified and secured via blockchain technology |EXECUTE|BAP|BAP|||
+| 13 |New Distribution Network state|Data Acquisition| Verified and secured data is delivered to the DSOTP |REPORT|BAP|DSOTP|I-03||
+| 14 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSOTP|DSO|I-02||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
