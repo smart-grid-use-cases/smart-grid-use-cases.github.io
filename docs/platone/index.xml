@@ -3260,12 +3260,34 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Various field measurements that reflect the network state are communicated&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>DSOTP&lt;/td>
+&lt;td>BAP&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
+&lt;td>Measurements from the Distribution Network&lt;/td>
+&lt;td>Data Verification&lt;/td>
+&lt;td>All data received gets verified and secured via blockchain technology&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Measurements from the Distribution Network&lt;/td>
+&lt;td>Data Acquisition&lt;/td>
+&lt;td>Verified and secured data is delivered to the DSOTP&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-03&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
 &lt;td>Observability assessment&lt;/td>
 &lt;td>A numerical observability method is used in order to determine observability status&lt;/td>
@@ -3273,28 +3295,6 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>DSOTP&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>I-03&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>Measurements from the Distribution Network&lt;/td>
-&lt;td>Calculation of state vector&lt;/td>
-&lt;td>State estimation algorithm is carried out&lt;/td>
-&lt;td>EXECUTE&lt;/td>
-&lt;td>DSOTP&lt;/td>
-&lt;td>DSOTP&lt;/td>
-&lt;td>I-02&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5&lt;/td>
-&lt;td>State vector with low accuracy&lt;/td>
-&lt;td>Data Aquisition&lt;/td>
-&lt;td>New measurements/pseudo-measurements integrated in the State Estimation tool&lt;/td>
-&lt;td>CHANGE&lt;/td>
-&lt;td>DSO Data Server&lt;/td>
-&lt;td>DSOTP&lt;/td>
-&lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3310,6 +3310,28 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;/tr>
 &lt;tr>
 &lt;td>7&lt;/td>
+&lt;td>State vector with low accuracy&lt;/td>
+&lt;td>Data Aquisition&lt;/td>
+&lt;td>New measurements/pseudo-measurements integrated in the State Estimation tool&lt;/td>
+&lt;td>CHANGE&lt;/td>
+&lt;td>DSO Data Server&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-01&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>Measurements from the Distribution Network&lt;/td>
+&lt;td>Calculation of state vector&lt;/td>
+&lt;td>State estimation algorithm is carried out&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-02&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
 &lt;td>Output of State Estimation tool&lt;/td>
 &lt;td>Estimated state vector is communicated&lt;/td>
@@ -3355,30 +3377,30 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Various field measurements that reflect the network state are communicated&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>DSOTP&lt;/td>
+&lt;td>BAP&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
-&lt;td>Observability assessment&lt;/td>
-&lt;td>A numerical observability method is used in order to determine observability status&lt;/td>
+&lt;td>Data Verification&lt;/td>
+&lt;td>All data received gets verified and secured via blockchain technology&lt;/td>
 &lt;td>EXECUTE&lt;/td>
-&lt;td>DSOTP&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>BAP&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>4&lt;/td>
-&lt;td>Lack of observability&lt;/td>
-&lt;td>Data acquisition&lt;/td>
-&lt;td>Additional/alternative data to substitute for missing or inconsistent measurements, are integrated in the State Estimation tool&lt;/td>
-&lt;td>CHANGE&lt;/td>
-&lt;td>DSO Data Server&lt;/td>
+&lt;td>Measurements from the Distribution Network&lt;/td>
+&lt;td>Data Acquisition&lt;/td>
+&lt;td>Verified and secured data is delivered to the DSOTP&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>BAP&lt;/td>
 &lt;td>DSOTP&lt;/td>
-&lt;td>I-01&lt;/td>
+&lt;td>I-03&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -3394,6 +3416,28 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;/tr>
 &lt;tr>
 &lt;td>6&lt;/td>
+&lt;td>Lack of observability&lt;/td>
+&lt;td>Data acquisition&lt;/td>
+&lt;td>Additional/alternative data to substitute for missing or inconsistent measurements, are integrated in the State Estimation tool&lt;/td>
+&lt;td>CHANGE&lt;/td>
+&lt;td>DSO Data Server&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-01&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>Measurements from the Distribution Network&lt;/td>
+&lt;td>Observability assessment&lt;/td>
+&lt;td>A numerical observability method is used in order to determine observability status&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>I-03&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
 &lt;td>Output of State Estimation tool&lt;/td>
 &lt;td>Estimated state vector is communicated&lt;/td>
@@ -3819,12 +3863,34 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>Various field measurements that reflect the network state are communicated&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>DSOTP&lt;/td>
+&lt;td>BAP&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>3&lt;/td>
+&lt;td>Measurements from the Distribution Network&lt;/td>
+&lt;td>Data Verification&lt;/td>
+&lt;td>All data received gets verified and secured via blockchain technology&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Measurements from the Distribution Network&lt;/td>
+&lt;td>Data Acquisition&lt;/td>
+&lt;td>Verified and secured data is delivered to the DSOTP&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-03&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
 &lt;td>PMU Data Aquisition&lt;/td>
 &lt;td>PMU measurements that reflect the network state are communicated&lt;/td>
@@ -3835,7 +3901,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>4&lt;/td>
+&lt;td>6&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
 &lt;td>PMU data integration&lt;/td>
 &lt;td>PMU and conventional measurements integrated into a unified measurement set&lt;/td>
@@ -3846,7 +3912,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>5&lt;/td>
+&lt;td>7&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
 &lt;td>Observability assessment&lt;/td>
 &lt;td>A numerical observability method is used in order to determine observability status&lt;/td>
@@ -3857,7 +3923,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>6&lt;/td>
+&lt;td>8&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
 &lt;td>Calculation of the state vector&lt;/td>
 &lt;td>State estimation algorithm is carried out&lt;/td>
@@ -3868,7 +3934,7 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>7&lt;/td>
+&lt;td>9&lt;/td>
 &lt;td>Measurements from the Distribution Network&lt;/td>
 &lt;td>Output of State Estimation tool&lt;/td>
 &lt;td>Estimated state vector is communicated&lt;/td>
@@ -4184,8 +4250,8 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tr>
 &lt;td>Aggregator&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Entity that aggregates the flexibility offers on the market and provide them to DSO in case of needs for the grid.&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>AMR&lt;/td>
@@ -4196,7 +4262,7 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tr>
 &lt;td>Commercial customer&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Final end user to denote a typical commodity commercial consumption with capability of neither generation nor storage.&lt;/td>
+&lt;td>End user to denote a typical commercial electricity consumption with the capability of load flexibility provision through a contract with an Aggregator&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4244,7 +4310,7 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tr>
 &lt;td>Residential customer&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Final end user to denote a typical commodity residential consumption with capability of neither generation nor storage.&lt;/td>
+&lt;td>End user to denote a typical residential electricity consumption with the capability of load flexibility provision through a contract with an Aggregator.&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4418,12 +4484,34 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>New Distribution Network state&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>DSOTP&lt;/td>
+&lt;td>BAP&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>9&lt;/td>
+&lt;td>New Distribution Network state&lt;/td>
+&lt;td>Data Verification&lt;/td>
+&lt;td>All data received gets verified and secured via blockchain technology&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>New Distribution Network state&lt;/td>
+&lt;td>Data Acquisition&lt;/td>
+&lt;td>Verified and secured data is delivered to the DSOTP&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-03&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
 &lt;td>New Distribution Network state&lt;/td>
 &lt;td>Data Aquisition&lt;/td>
 &lt;td>New Distribution Network state&lt;/td>
@@ -4718,8 +4806,8 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tr>
 &lt;td>Aggregator&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
+&lt;td>Entity that aggregates the flexibility offers on the market and provide them to DSO in case of needs for the grid&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>AMR&lt;/td>
@@ -4730,7 +4818,7 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tr>
 &lt;td>Commercial customer&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Final end user to denote a typical commodity commercial consumption with capability of neither generation nor storage.&lt;/td>
+&lt;td>End user to denote a typical commercial electricity consumption with the capability of load flexibility provision through a contract with an Aggregator&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4778,7 +4866,7 @@ Add any remarks which do not fit in any other category&lt;/p>
 &lt;tr>
 &lt;td>Residential customer&lt;/td>
 &lt;td>Person&lt;/td>
-&lt;td>Final end user to denote a typical commodity residential consumption with capability of neither generation nor storage.&lt;/td>
+&lt;td>End user to denote a typical residential electricity consumption with the capability of load flexibility provision through a contract with an Aggregator&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -4991,12 +5079,34 @@ This part describes the possible scenarios of the use case. The scenarios should
 &lt;td>New Distribution Network state&lt;/td>
 &lt;td>REPORT&lt;/td>
 &lt;td>DSO Data Server&lt;/td>
-&lt;td>DSOTP&lt;/td>
+&lt;td>BAP&lt;/td>
 &lt;td>I-01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>12&lt;/td>
+&lt;td>New Distribution Network state&lt;/td>
+&lt;td>Data Verification&lt;/td>
+&lt;td>All data received gets verified and secured via blockchain technology&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>13&lt;/td>
+&lt;td>New Distribution Network state&lt;/td>
+&lt;td>Data Acquisition&lt;/td>
+&lt;td>Verified and secured data is delivered to the DSOTP&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>BAP&lt;/td>
+&lt;td>DSOTP&lt;/td>
+&lt;td>I-03&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>14&lt;/td>
 &lt;td>New Distribution Network state&lt;/td>
 &lt;td>Data Aquisition&lt;/td>
 &lt;td>New Distribution Network state&lt;/td>
