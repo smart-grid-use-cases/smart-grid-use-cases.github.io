@@ -124,9 +124,9 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| Aggregator| Person | add text| add text|
+| Aggregator| Person | Entity that aggregates the flexibility offers on the market and provide them to DSO in case of needs for the grid| |
 | AMR | System | Automatic Meter Reading system|  |
-| Commercial customer | Person | Final end user to denote a typical commodity commercial consumption with capability of neither generation nor storage.| |
+| Commercial customer | Person | End user to denote a typical commercial electricity consumption with the capability of load flexibility provision through a contract with an Aggregator| |
 | DMS | System | Distribution Management System | |
 | DSO | Person | Distribution System Operator, the entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.| |
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
@@ -134,7 +134,7 @@ Add any remarks which do not fit in any other category
 | GIS | System | Geographical Information System |  |
 | PMU | Device | Phasor Measurement Unit | |
 | RES | System | Renewable Energy Source| |
-| Residential customer | Person | Final end user to denote a typical commodity residential consumption with capability of neither generation nor storage.| |
+| Residential customer | Person | End user to denote a typical residential electricity consumption with the capability of load flexibility provision through a contract with an Aggregator| |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
 | TSO | Person | Transmission System Operator| Simulated entity to trigger the use case|
 
