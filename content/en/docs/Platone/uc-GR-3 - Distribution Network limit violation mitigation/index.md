@@ -122,7 +122,7 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| Aggregator| Person | add text| add text|
+| Aggregator| Person | Entity that aggregates the flexibility offers on the market and provide them to DSO in case of needs for the grid.| |
 | AMR | System | Automatic Meter Reading system|  |
 | Commercial customer | Person | End user to denote a typical commercial electricity consumption with the capability of load flexibility provision through a contract with an Aggregator| |
 | DMS | System | Distribution Management System | |
