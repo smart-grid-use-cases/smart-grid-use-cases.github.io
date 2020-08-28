@@ -124,9 +124,9 @@ Add any remarks which do not fit in any other category
 
 | **Actor Name** | **Actor Type** | **Actor Description** | **Further information specific to this Use Case** |
 | --- | --- | --- | --- |
-| Aggregator| Person | add text| add text|
+| Aggregator| Person | Entity that aggregates the flexibility offers on the market and provide them to DSO in case of needs for the grid| |
 | AMR | System | Automatic Meter Reading system|  |
-| Commercial customer | Person | Final end user to denote a typical commodity commercial consumption with capability of neither generation nor storage.| |
+| Commercial customer | Person | End user to denote a typical commercial electricity consumption with the capability of load flexibility provision through a contract with an Aggregator| |
 | DMS | System | Distribution Management System | |
 | DSO | Person | Distribution System Operator, the entity responsible for the safe and secure operation and management of the distribution system; for data management associated with the use of the distribution system; for procurement of flexibility services using optimization algorithms and the Platone DSO Technical Platform.| |
 | DSO Data Server | System | Database containing data from AMR, DMS & SCADA| |
@@ -134,7 +134,7 @@ Add any remarks which do not fit in any other category
 | GIS | System | Geographical Information System |  |
 | PMU | Device | Phasor Measurement Unit | |
 | RES | System | Renewable Energy Source| |
-| Residential customer | Person | Final end user to denote a typical commodity residential consumption with capability of neither generation nor storage.| |
+| Residential customer | Person | End user to denote a typical residential electricity consumption with the capability of load flexibility provision through a contract with an Aggregator| |
 | SCADA | Device | Supervisory Control And Data Acquisition system|  |
 | TSO | Person | Transmission System Operator| Simulated entity to trigger the use case|
 
@@ -181,8 +181,10 @@ This part describes the possible scenarios of the use case. The scenarios should
 | 8 |Tariffs communication|Setpoint sent to RES| Sending setpoint to the RES producer|CREATE|Aggregator|RES|I-07||
 | 9 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|PMU|DSOTP|I-04||
 | 10 |none|Data Aquisition|New Distribution Network state (Distribution Network state updated following the Aggregator's response)|REPORT|SCADA,DMS,GIS,AMR|DSO Data Server|I-01||
-| 11 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|DSOTP|I-01||
-| 12 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSOTP|DSO|I-02||
+| 11 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSO Data Server|BAP|I-01||
+| 12 |New Distribution Network state|Data Verification|All data received gets verified and secured via blockchain technology |EXECUTE|BAP|BAP|||
+| 13 |New Distribution Network state|Data Acquisition| Verified and secured data is delivered to the DSOTP |REPORT|BAP|DSOTP|I-03||
+| 14 |New Distribution Network state|Data Aquisition|New Distribution Network state|REPORT|DSOTP|DSO|I-02||
 
 ***Notes***
 This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.
