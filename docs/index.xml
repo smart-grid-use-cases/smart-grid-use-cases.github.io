@@ -33,21 +33,21 @@
 &lt;td>&lt;/td>
 &lt;td>2018-06-05T00:00:00.000+02:00&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&amp;lt;p&amp;gt;Ansprechpartner erg&amp;amp;auml;nzt&amp;lt;/p&amp;gt;&lt;/td>
+&lt;td>&lt;p>Ansprechpartner ergänzt&lt;/p>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>2.0&lt;/td>
 &lt;td>2017-08-05T00:00:00.000+02:00&lt;/td>
 &lt;td>Marie Clausen&lt;/td>
-&lt;td>&amp;lt;p&amp;gt;Ausformulierung, Erstellung der Szenarien&amp;lt;/p&amp;gt;&lt;/td>
+&lt;td>&lt;p>Ausformulierung, Erstellung der Szenarien&lt;/p>&lt;/td>
 &lt;td>erfasst&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>1.0&lt;/td>
 &lt;td>2017-02-02T00:00:00.000+01:00&lt;/td>
 &lt;td>Marie van Amelsvoort&lt;/td>
-&lt;td>&amp;lt;p&amp;gt;initial angelegt&amp;lt;/p&amp;gt;&lt;/td>
+&lt;td>&lt;p>initial angelegt&lt;/p>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -968,7 +968,7 @@ Das Ziel dieses Use Cases ist die Architekturdokumentation nach SGAM inkl. eines
 &lt;td>6&lt;/td>
 &lt;td>2018-08-19T00:00:00&lt;/td>
 &lt;td>Ricardo Jover (EDF), Eric Suignard (EDF),&lt;/td>
-&lt;td>&amp;amp;#8220;Delegated Authentication&amp;amp;#8221; changed into &amp;amp;#8220;Representation Rights&amp;amp;#8221;&lt;/td>
+&lt;td>“Delegated Authentication” changed into “Representation Rights”&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -989,14 +989,14 @@ Das Ziel dieses Use Cases ist die Architekturdokumentation nach SGAM inkl. eines
 &lt;td>9&lt;/td>
 &lt;td>2018-10-04T00:00:00&lt;/td>
 &lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>Version post WP5&amp;amp;amp;9 physical meeting in Tallinn&lt;/td>
+&lt;td>Version post WP5&amp;amp;9 physical meeting in Tallinn&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>10&lt;/td>
 &lt;td>2018-10-17T00:00:00&lt;/td>
 &lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>Version reviewed by WP5&amp;amp;amp;9 partners&lt;/td>
+&lt;td>Version reviewed by WP5&amp;amp;9 partners&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -2675,31 +2675,31 @@ Das Ziel dieses Use Cases ist die Architekturdokumentation nach SGAM inkl. eines
 &lt;tr>
 &lt;td>cf4885b8-d5d1-4873-92c1-d09cb000223a&lt;/td>
 &lt;td>Flexibility Offer&lt;/td>
-&lt;td>Power (Regulation up)&amp;lt;br/&amp;gt;Power (Regulation down)&amp;lt;br/&amp;gt;Time (Begin)&amp;lt;br/&amp;gt;Time (End)&amp;lt;br/&amp;gt;Time (Minimum duration)&amp;lt;br/&amp;gt;Time (Maximum duration)&amp;lt;br/&amp;gt;Point(s) of activation&amp;lt;br/&amp;gt;Price&lt;/td>
+&lt;td>Power (Regulation up)&lt;br/>Power (Regulation down)&lt;br/>Time (Begin)&lt;br/>Time (End)&lt;br/>Time (Minimum duration)&lt;br/>Time (Maximum duration)&lt;br/>Point(s) of activation&lt;br/>Price&lt;/td>
 &lt;td>&amp;mdash;-&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>19841afb-643f-4134-9105-03c4449bde7a&lt;/td>
 &lt;td>TSO Margins&lt;/td>
-&lt;td>Margin to activate the regulation up offers for a region (group of nodes HV/MV) and for each period &amp;lt;br/&amp;gt;Margin to activate the regulation down offers for a region (group of nodes HV/MV) and for each period&lt;/td>
+&lt;td>Margin to activate the regulation up offers for a region (group of nodes HV/MV) and for each period &lt;br/>Margin to activate the regulation down offers for a region (group of nodes HV/MV) and for each period&lt;/td>
 &lt;td>&amp;mdash;-&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>256e57f3-202d-4dec-b9f5-770f1c98782f&lt;/td>
 &lt;td>SO flexibility needs&lt;/td>
-&lt;td>Power (Regulation up)&amp;lt;br/&amp;gt;Power (Regulation down)&amp;lt;br/&amp;gt;Time (Begin)&amp;lt;br/&amp;gt;Time (End)&amp;lt;br/&amp;gt;Activation points (group of nodes where the offers can be activated to solve the SO problems)&lt;/td>
+&lt;td>Power (Regulation up)&lt;br/>Power (Regulation down)&lt;br/>Time (Begin)&lt;br/>Time (End)&lt;br/>Activation points (group of nodes where the offers can be activated to solve the SO problems)&lt;/td>
 &lt;td>&amp;mdash;-&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>c7cf4214-591e-49e8-8995-fb6485f73818&lt;/td>
 &lt;td>Flexibility limitations&lt;/td>
-&lt;td>Redefinition of the flexibilities (or flexibility offers):&amp;lt;br/&amp;gt;Power (Regulation up)&amp;lt;br/&amp;gt;Power (Regulation down)&amp;lt;br/&amp;gt;Time (Begin)&amp;lt;br/&amp;gt;Time (End)&amp;lt;br/&amp;gt;Time (Minimum duration)&amp;lt;br/&amp;gt;Time (Maximum duration)&amp;lt;br/&amp;gt;Point(s) of activation (Only for aggregators)&lt;/td>
+&lt;td>Redefinition of the flexibilities (or flexibility offers):&lt;br/>Power (Regulation up)&lt;br/>Power (Regulation down)&lt;br/>Time (Begin)&lt;br/>Time (End)&lt;br/>Time (Minimum duration)&lt;br/>Time (Maximum duration)&lt;br/>Point(s) of activation (Only for aggregators)&lt;/td>
 &lt;td>&amp;mdash;-&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>ecb2b9f4-2038-4b12-8a0e-3d5f42575c8f&lt;/td>
 &lt;td>DSO Margins&lt;/td>
-&lt;td>Margin to activate the regulation up offers for each node HV/MV and for each period &amp;lt;br/&amp;gt;Margin to activate the regulation down offers for each node HV/MV and for each period&lt;/td>
+&lt;td>Margin to activate the regulation up offers for each node HV/MV and for each period &lt;br/>Margin to activate the regulation down offers for each node HV/MV and for each period&lt;/td>
 &lt;td>&amp;mdash;-&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -2717,7 +2717,7 @@ Das Ziel dieses Use Cases ist die Architekturdokumentation nach SGAM inkl. eines
 &lt;tr>
 &lt;td>f47f7cb9-4007-44aa-8266-fd68e9c02fcc&lt;/td>
 &lt;td>DSO flexibility needs&lt;/td>
-&lt;td>Power (Regulation up)&amp;lt;br/&amp;gt;Power (Regulation down)&amp;lt;br/&amp;gt;Time (Begin)&amp;lt;br/&amp;gt;Time (End)&amp;lt;br/&amp;gt;Activation points (group of nodes where the offers can be activated to solve the TSO problems)&lt;/td>
+&lt;td>Power (Regulation up)&lt;br/>Power (Regulation down)&lt;br/>Time (Begin)&lt;br/>Time (End)&lt;br/>Activation points (group of nodes where the offers can be activated to solve the TSO problems)&lt;/td>
 &lt;td>&amp;mdash;-&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -3630,13 +3630,13 @@ cost and quality of service achieved&lt;/p>
 &lt;tr>
 &lt;td>fe8283d0-3bde-4b21-8111-06a651699053&lt;/td>
 &lt;td>Request measurements in the observability area&lt;/td>
-&lt;td>The request of information can be done in two different ways:&amp;lt;br/&amp;gt;1: &amp;lt;br/&amp;gt;Observability area ID&amp;lt;br/&amp;gt;Time (not defined means the last one) (day; hour; minutes; seconds)&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;2:&amp;lt;br/&amp;gt;Bus ID&amp;lt;br/&amp;gt;Line ID&amp;lt;br/&amp;gt;Power Transformer ID&amp;lt;br/&amp;gt;SGU ID&amp;lt;br/&amp;gt;Time (not defined means the last one) (day; hour; minutes; seconds)&lt;/td>
+&lt;td>The request of information can be done in two different ways:&lt;br/>1: &lt;br/>Observability area ID&lt;br/>Time (not defined means the last one) (day; hour; minutes; seconds)&lt;br/>&lt;br/>2:&lt;br/>Bus ID&lt;br/>Line ID&lt;br/>Power Transformer ID&lt;br/>SGU ID&lt;br/>Time (not defined means the last one) (day; hour; minutes; seconds)&lt;/td>
 &lt;td>&amp;mdash;-&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>72c603c9-727f-476f-a60b-66d58c6964f3&lt;/td>
 &lt;td>Send measurements in the observability area&lt;/td>
-&lt;td>Send the measurements in the observability area to the data exchange platform.&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;Observability area ID&amp;lt;br/&amp;gt;Time (day; hour; minutes; seconds)&amp;lt;br/&amp;gt;Bus ID&amp;lt;br/&amp;gt;P(MW)&amp;lt;br/&amp;gt;Q(MVAr)&amp;lt;br/&amp;gt;U(kV)&amp;lt;br/&amp;gt;Voltage Angle (°)&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;Observability area ID&amp;lt;br/&amp;gt;Time (day; hour; minutes; seconds)&amp;lt;br/&amp;gt;Line ID&amp;lt;br/&amp;gt;P(MW)&amp;lt;br/&amp;gt;Q(MVAr)&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;Observability area ID&amp;lt;br/&amp;gt;Time (day; hour; minutes; seconds)&amp;lt;br/&amp;gt;Power Transformer ID&amp;lt;br/&amp;gt;P(MW)&amp;lt;br/&amp;gt;Q(MVAr)&amp;lt;br/&amp;gt;U1(kV)&amp;lt;br/&amp;gt;U2(kV)&amp;lt;br/&amp;gt;OLTC&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;Observability area ID&amp;lt;br/&amp;gt;Time (day; hour; minutes; seconds)&amp;lt;br/&amp;gt;SGU ID&amp;lt;br/&amp;gt;P(MW)&amp;lt;br/&amp;gt;Q(MW)&lt;/td>
+&lt;td>Send the measurements in the observability area to the data exchange platform.&lt;br/>&lt;br/>Observability area ID&lt;br/>Time (day; hour; minutes; seconds)&lt;br/>Bus ID&lt;br/>P(MW)&lt;br/>Q(MVAr)&lt;br/>U(kV)&lt;br/>Voltage Angle (°)&lt;br/>&lt;br/>Observability area ID&lt;br/>Time (day; hour; minutes; seconds)&lt;br/>Line ID&lt;br/>P(MW)&lt;br/>Q(MVAr)&lt;br/>&lt;br/>Observability area ID&lt;br/>Time (day; hour; minutes; seconds)&lt;br/>Power Transformer ID&lt;br/>P(MW)&lt;br/>Q(MVAr)&lt;br/>U1(kV)&lt;br/>U2(kV)&lt;br/>OLTC&lt;br/>&lt;br/>Observability area ID&lt;br/>Time (day; hour; minutes; seconds)&lt;br/>SGU ID&lt;br/>P(MW)&lt;br/>Q(MW)&lt;/td>
 &lt;td>&amp;mdash;-&lt;/td>
 &lt;/tr>
 &lt;/tbody>
