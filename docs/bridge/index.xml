@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Bridge</title><link>https://smart-grid-use-cases.github.io/docs/bridge/</link><description>Recent content in Bridge on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/bridge/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Network real-time monitoring</title><link>https://smart-grid-use-cases.github.io/docs/bridge/uc2.1_network_real-time_monitoring/</link><pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/bridge/uc2.1_network_real-time_monitoring/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Bridge</title><link>https://smart-grid-use-cases.github.io/docs/bridge/</link><description>Recent content in Bridge on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 24 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/bridge/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Network real-time monitoring</title><link>https://smart-grid-use-cases.github.io/docs/bridge/uc2.1_network_real-time_monitoring/</link><pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/bridge/uc2.1_network_real-time_monitoring/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -63,7 +63,7 @@
 &lt;/table>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>Network real-time monitoring with more POWER&lt;/p>
+&lt;p>Network real-time monitoring&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
 &lt;p>The smart grid environment requires the upgrade of tools for monitoring at all levels of the grid. By integrating the required data sources (e.g. SLAM, SMX, SCADA, AMI), these compo-nents will provide the data necessary for monitoring the grid.
 Several sources of energy data will be analysed, taking into account the specific characteris-tics of each pilot site where demonstration will take place. Communication protocols are an important issue due to the necessity to integrate different vendors.
@@ -447,7 +447,7 @@ Data to be collected comprises:
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: RES scheduling control</title><link>https://smart-grid-use-cases.github.io/docs/bridge/uc2.4_res_scheduling_control/</link><pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/bridge/uc2.4_res_scheduling_control/</guid><description>
+&lt;/table></description></item><item><title>Docs: RES scheduling control</title><link>https://smart-grid-use-cases.github.io/docs/bridge/uc2.4_res_scheduling_control/</link><pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/bridge/uc2.4_res_scheduling_control/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
