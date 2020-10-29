@@ -14,7 +14,6 @@ An easily accessible use-case repository for users with different background, ba
 
 ## Where should I go next?
 
-* [Getting Started](/getting-started/): Get started with editing and adding new use-cases
-* [BRIDGE](/bridge/): BRIDGE initiative use-cases
-* [PlatOne](/platone/): BRIDGE initiative use-cases
-
+* [Getting Started](/docs/getting-started/): Get started with editing and adding new use-cases
+* [BRIDGE](/docs/bridge/): BRIDGE initiative use-cases
+* [PlatOne](/docs/platone/): BRIDGE initiative use-cases
