@@ -2,35 +2,46 @@
 title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
-description: >
-  What does your user need to know to try your project?
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+## Get access
 
-Information in this section helps your user try your project themselves.
+Sign up at [github](http://github.com).
 
-* What do your users need to do to start using your project? This could include downloading/installation instructions, including any prerequisites or system requirements.
+{{< imgproc github-sign-up.png Resize "800x" />}}
 
-* Introductory “Hello World” example, if appropriate. More complex tutorials should live in the Tutorials section.
+Write a mail to the repository manager (smartgridusecases@gmail.com) and indicate your github account name.
 
-Consider using the headings below for your getting started page. You can delete any that are not applicable to your project.
+We will give you write access to the repository.
 
-## Prerequisites
+Please check your inbox for an invitation link to the repository.
 
-Are there any system requirements for using your project? What languages are supported (if any)? Do users need to already have any software or tools installed?
+## Upload your Excel Use Case File - First Step
 
-## Installation
+Sign in at github and follow this [link](https://github.com/smart-grid-use-cases/excel2xml-input/tree/master/grupoetra).
 
-Where can your user find your project code? How can they install it (binaries, installable package, build from source)? Are there multiple options/versions they can install and how should they choose the right one for them?
+Click "Add file" and then "Upload files".
 
-## Setup
+{{< imgproc github-add-file.png Resize "800x" />}}
 
-Is there any initial setup users need to do after installation to try your project?
+## Upload your Excel Use Case File - Second Step
 
-## Try it out!
+Drag your Excel file into the browser.
 
-Can your users test their installation, for example by running a commmand or deploying a Hello World example?
+If you like, you can leave a message to describe your change (optional).
 
+Finally, click "commit changes".
+
+{{< imgproc github-upload-file.png Resize "800x" />}}
+
+## Check the Website
+
+Go to the [BRIDGE section](https://smart-grid-use-cases.github.io/docs/bridge/) of the use-cases website.
+
+Processing the changes may take some minutes.
+
+{{< imgproc use-case-repo.png Resize "800x" />}}
+
+You can also add diagrams if you upload them in a common image format, e.g. .png.
+
+{{< imgproc use-case-diagram.png Resize "800x" />}}

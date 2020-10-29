@@ -1,5 +1,5 @@
 ---
-title: "Platone"
-linkTitle: "Platone"
+title: "PlatOne"
+linkTitle: "PlatOne"
 weight: 5
 ---
