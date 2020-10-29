@@ -41,6 +41,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
+    - run: npm install
 
     - name: Install pandoc
       run: sudo apt-get install pandoc
