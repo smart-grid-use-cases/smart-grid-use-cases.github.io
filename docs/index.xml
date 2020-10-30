@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Network real-time monitoring</title><link>https://smart-grid-use-cases.github.io/docs/bridge/uc2.1_network_real-time_monitoring/</link><pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/bridge/uc2.1_network_real-time_monitoring/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Network real-time monitoring</title><link>https://smart-grid-use-cases.github.io/docs/bridge/uc2.1_network_real-time_monitoring/</link><pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/bridge/uc2.1_network_real-time_monitoring/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -447,7 +447,7 @@ Data to be collected comprises:
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: RES scheduling control</title><link>https://smart-grid-use-cases.github.io/docs/bridge/uc2.4_res_scheduling_control/</link><pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/bridge/uc2.4_res_scheduling_control/</guid><description>
+&lt;/table></description></item><item><title>Docs: RES scheduling control</title><link>https://smart-grid-use-cases.github.io/docs/bridge/uc2.4_res_scheduling_control/</link><pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/bridge/uc2.4_res_scheduling_control/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
