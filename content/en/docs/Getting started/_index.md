@@ -16,15 +16,22 @@ We will give you write access to the repository.
 
 Please check your inbox for an invitation link to the repository.
 
-## Upload your Excel Use Case File - First Step
+## Upload Your Use Case File
 
-Sign in at github and follow this [link](https://github.com/smart-grid-use-cases/excel2xml-input/tree/master/grupoetra).
+Currently, we support three different input formats:
+- Excel
+- XML
+- Markdown
+
+### Excel
+
+First, you can download an [Excel template file](https://github.com/smart-grid-use-cases/excel2xml-input/blob/master/IEC62559-2_TEMPLATE.xlsx) to prepare your use case.
+
+Then, sign in at github and follow this [link](https://github.com/smart-grid-use-cases/excel2xml-input/tree/master/grupoetra).
 
 Click "Add file" and then "Upload files".
 
 {{< imgproc github-add-file.png Resize "800x" />}}
-
-## Upload your Excel Use Case File - Second Step
 
 Drag your Excel file into the browser.
 
@@ -33,6 +40,18 @@ If you like, you can leave a message to describe your change (optional).
 Finally, click "commit changes".
 
 {{< imgproc github-upload-file.png Resize "800x" />}}
+
+### XML
+
+To upload XML files, sign in at github and follow this [link](https://github.com/smart-grid-use-cases/xml2md-input).
+
+Then, you can upload the file as described for Excel use-case files.
+
+### Markdown
+
+To upload Markdown files, sign in at github and follow this [link](https://github.com/smart-grid-use-cases/github-pages).
+
+Then, you can fork this repository and send us a pull request.
 
 ## Check the Website
 
