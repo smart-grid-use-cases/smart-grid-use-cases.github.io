@@ -15,4 +15,4 @@ do
   cp -a $dir content/en/docs/UseCases
 done
 rm Bridge.zip
-rm -f content/en/docs/Bridge/_index.md
+rm -rf content/en/docs/Bridge
