@@ -27,7 +27,7 @@ Currently, we support three different input formats:
 
 First, you can download an [Excel template file](https://github.com/smart-grid-use-cases/excel2xml-input/blob/master/IEC62559-2_TEMPLATE.xlsx) to prepare your use case.
 
-Then, sign in at github and follow this [link](https://github.com/smart-grid-use-cases/excel2xml-input/tree/master/grupoetra).
+Then, sign in at github and follow this [link](https://github.com/smart-grid-use-cases/excel2xml-input/tree/master/excel-use-cases).
 
 Click "Add file" and then "Upload files".
 
@@ -43,7 +43,7 @@ Finally, click "commit changes".
 
 ### XML
 
-To upload XML files, sign in at github and follow this [link](https://github.com/smart-grid-use-cases/xml2md-input).
+To upload XML files, sign in at github and follow this [link](https://github.com/smart-grid-use-cases/xml2md-input/tree/master/xml-use-cases).
 
 Then, you can upload the file as described for Excel use-case files.
 
@@ -55,7 +55,7 @@ Then, you can fork this repository and send us a pull request.
 
 ## Check the Website
 
-Go to the [BRIDGE section](https://smart-grid-use-cases.github.io/docs/bridge/) of the use-cases website.
+Go to the [USe Case section](https://smart-grid-use-cases.github.io/docs/usecases/) of the website.
 
 Processing the changes may take some minutes.
 
