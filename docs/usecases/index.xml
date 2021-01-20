@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Use Cases</title><link>https://smart-grid-use-cases.github.io/docs/usecases/</link><description>Recent content in Use Cases on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Load forecast in distribution network</title><link>https://smart-grid-use-cases.github.io/docs/usecases/iec62559-2_template_bridge_gr-puc1/</link><pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/iec62559-2_template_bridge_gr-puc1/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Use Cases</title><link>https://smart-grid-use-cases.github.io/docs/usecases/</link><description>Recent content in Use Cases on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Load forecast in distribution network</title><link>https://smart-grid-use-cases.github.io/docs/usecases/iec62559-2_template_bridge_gr-puc1/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/iec62559-2_template_bridge_gr-puc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -463,7 +463,7 @@
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Network real-time monitoring</title><link>https://smart-grid-use-cases.github.io/docs/usecases/uc2.1_network_real-time_monitoring/</link><pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/uc2.1_network_real-time_monitoring/</guid><description>
+&lt;/table></description></item><item><title>Docs: Network real-time monitoring</title><link>https://smart-grid-use-cases.github.io/docs/usecases/uc2.1_network_real-time_monitoring/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/uc2.1_network_real-time_monitoring/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -912,7 +912,7 @@ Data to be collected comprises:
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: RES scheduling control</title><link>https://smart-grid-use-cases.github.io/docs/usecases/uc2.4_res_scheduling_control/</link><pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/uc2.4_res_scheduling_control/</guid><description>
+&lt;/table></description></item><item><title>Docs: RES scheduling control</title><link>https://smart-grid-use-cases.github.io/docs/usecases/uc2.4_res_scheduling_control/</link><pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/uc2.4_res_scheduling_control/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
