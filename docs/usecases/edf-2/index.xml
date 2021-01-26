@@ -1,0 +1,406 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – edf-2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/edf-2/</link><description>Recent content in edf-2 on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/edf-2/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Real-time supervision</title><link>https://smart-grid-use-cases.github.io/docs/usecases/edf-2/suc_realtime-supervision/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/edf-2/suc_realtime-supervision/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Distribution Management, Users, Distribution System, Real-Time Operation, Transmission System, Energy systems,&lt;/td>
+&lt;td>Real-time supervision&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>2018-08-13T00:00:00&lt;/td>
+&lt;td>Francisco Reis &amp;amp; Gonçalo Glória [R&amp;amp;D Nester],&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Approved Version&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>The exchange of real time data/information in the observability area between TSO&amp;rsquo;s and DSO&amp;rsquo;s&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>Increase observability areas of both TSO and DSO on each other networks, expanding the set of signals (measurements, states …) exchanged in real-time, as well as improving data exchange structure/normalization. Enlarge real-time data exchanged between TSO and DSO for improved supervision and control of their own networks.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>ecaa3f43-fc46-4e0c-ae3b-74d9a95ab3b7 45f1db00-6691-479d-b2d3-e7951635afe5&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>This SUC describes the process to define the exchange of signal/information (measurements, states, &amp;hellip; ) between the TSOs and DSOs. Two scenarios are described: one to send the real-time information and another to request the real-time information.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>The exchange of real-time information between TSO and DSO is essential to real-time control and supervision of the power system. Although it is a usual practice between transmission and distribution operators, it should be revised and improved given the importance that has in the operation of both grids.&lt;br/>&lt;br/>The definition of the standardized method to request and send measurements along with setting up a methodology to define the right observability areas of both TSO and DSO at each other networks and by expanding the set of signals (measurements, states …) exchanged are some of the enhancements that this SUC provides.&lt;br/>&lt;br/>In the case of Portuguese field test, the exchange of real-time information will use Inter-Control center Communication Protocol (ICCP) in order to allow the communication between TSO and DSO SCADAs. However, other solutions can be adopted.&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>TSO’s state estimator accuracy (%)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>d2fe406c-96f7-4d01-a8ed-72037a66d16b, 553a6680-12e7-44a9-9bc8-b38fddc07f06,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>TSO and DSO degree of cooperation includes having a certain level of observability over each other networks.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>TSO records information on the state of operation of the transmission network (measurements, state of operation of the equipment, etc…).&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SUC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>High&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SUC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Real-time operation, TSO-DSO information exchange, Observability area&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="Image3.png" alt="Real-time supervision">
+&lt;img src="Image4.png" alt="Real-time supervision">&lt;/p>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Data exchange platform&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Platform used by several power system actors to exchange information for different proposes. Three types of data (real-time, scheduled and structural data) can be exchanged through this platform. The operational/control data are not included in real-time type. The exchange of information related with the markets are included in the scheduled data.&lt;br/>The platform is a data-agnostic ICT infrastructure that enables a secure and reliable information exchange for different purposes (long-term planning, operational planning, contingencies, …) and within different time scales.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Network Operation&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>The Network Operation function includes business activity directly involved with monitoring and operating the power grid as a whole system. &lt;br/>&lt;ul>&lt;li>The phrase ‘directly involved’ indicates that the covered activities are limited to a hands-on focus on keeping the power grid running successfully, and more indirect influences on grid operation, such as energy markets, will be covered by other business functions.&lt;/li>&lt;li>The phrase ‘as a whole system’ indicates that local activity, such as operating a generating plant or substation, is excluded, and here the concern is a system perspective, such as is typical in transmission or distribution control centres.&lt;/li>&lt;/ul>&lt;br/>In the presented SUCs, the Network Operation function can refer to either the analysis tools used by TSOs or DSOs.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Request Real-time information&lt;/td>
+&lt;td>In this scenario it&amp;rsquo;s described the main flux of the activities to request real time information from the observability area that is already stored or not in the data exchange platform.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Every 5 seconds (or other value defined between TSO and DSO)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Send Real-time information&lt;/td>
+&lt;td>This scenario describes the flux of the main activities to send information from the SO (TSO or DSO) to the data exchange platform&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Every 5 seconds (or other value defined between TSO and DSO)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Request Real-time information&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Request Real-Time information in the observability area&lt;/td>
+&lt;td>The SO should request the information in each node in the defined observability area&lt;br/>Modsarus Use Case::InstanceName=&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>395198ac-5a33-430c-b38b-5c94bb593604&lt;/td>
+&lt;td>41fe759a-eccc-4e9c-8d5a-427a3550e8e1&lt;/td>
+&lt;td>fe8283d0-3bde-4b21-8111-06a651699053&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Organisation of the requested information&lt;/td>
+&lt;td>The information stored in the data exchange platform should organize all the information in the observability area to send to the SO&lt;br/>Modsarus Use Case::InstanceName=&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>41fe759a-eccc-4e9c-8d5a-427a3550e8e1&lt;/td>
+&lt;td>395198ac-5a33-430c-b38b-5c94bb593604&lt;/td>
+&lt;td>72c603c9-727f-476f-a60b-66d58c6964f3&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Real-time information acknowledge&lt;/td>
+&lt;td>Acknowledge by the SO of the information sent.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>395198ac-5a33-430c-b38b-5c94bb593604&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Send Real-time information&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>2.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Network real-time data collection&lt;/td>
+&lt;td>SO (TSO or DSO) collects real-time data on its own network and aggregates it whenever necessary.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>395198ac-5a33-430c-b38b-5c94bb593604&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Real-time information exchange with the DSO&lt;/td>
+&lt;td>SO send real-time information to the data exchange platform, limited to the defined observability.&lt;br/>Modsarus Use Case::InstanceName=&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>395198ac-5a33-430c-b38b-5c94bb593604&lt;/td>
+&lt;td>41fe759a-eccc-4e9c-8d5a-427a3550e8e1&lt;/td>
+&lt;td>72c603c9-727f-476f-a60b-66d58c6964f3&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Real-time measurements acknowledge&lt;/td>
+&lt;td>Real-time information acknowledged by Data Exchange Platform.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>41fe759a-eccc-4e9c-8d5a-427a3550e8e1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>fe8283d0-3bde-4b21-8111-06a651699053&lt;/td>
+&lt;td>Request measurements in the observability area&lt;/td>
+&lt;td>The request of information can be done in two different ways:&lt;br/>1: &lt;br/>Observability area ID&lt;br/>Time (not defined means the last one) (day; hour; minutes; seconds)&lt;br/>&lt;br/>2:&lt;br/>Bus ID&lt;br/>Line ID&lt;br/>Power Transformer ID&lt;br/>SGU ID&lt;br/>Time (not defined means the last one) (day; hour; minutes; seconds)&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>72c603c9-727f-476f-a60b-66d58c6964f3&lt;/td>
+&lt;td>Send measurements in the observability area&lt;/td>
+&lt;td>Send the measurements in the observability area to the data exchange platform.&lt;br/>&lt;br/>Observability area ID&lt;br/>Time (day; hour; minutes; seconds)&lt;br/>Bus ID&lt;br/>P(MW)&lt;br/>Q(MVAr)&lt;br/>U(kV)&lt;br/>Voltage Angle (°)&lt;br/>&lt;br/>Observability area ID&lt;br/>Time (day; hour; minutes; seconds)&lt;br/>Line ID&lt;br/>P(MW)&lt;br/>Q(MVAr)&lt;br/>&lt;br/>Observability area ID&lt;br/>Time (day; hour; minutes; seconds)&lt;br/>Power Transformer ID&lt;br/>P(MW)&lt;br/>Q(MVAr)&lt;br/>U1(kV)&lt;br/>U2(kV)&lt;br/>OLTC&lt;br/>&lt;br/>Observability area ID&lt;br/>Time (day; hour; minutes; seconds)&lt;br/>SGU ID&lt;br/>P(MW)&lt;br/>Q(MW)&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item></channel></rss>
