@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Load forecast in distribution network</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</link><pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Load forecast in distribution network</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/iec62559-2_template_bridge_gr-puc1/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/iec62559-2_template_bridge_gr-puc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -509,7 +509,7 @@
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Network real-time monitoring</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</link><pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</guid><description>
+&lt;/table></description></item><item><title>Docs: Network real-time monitoring</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/uc2.1_network_real-time_monitoring/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/uc2.1_network_real-time_monitoring/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -958,7 +958,7 @@ Data to be collected comprises:
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Optimal sizing of a Local Energy System</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/hluc03/</link><pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/hluc03/</guid><description>
+&lt;/table></description></item><item><title>Docs: Optimal sizing of a Local Energy System</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/hluc03/iec62559-2_template_-_eland_hluc03/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/hluc03/iec62559-2_template_-_eland_hluc03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1344,7 +1344,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Optimization of operation of Local Energy System</title><link>https://smart-grid-use-cases.github.io/docs/usecases/grupoetra/</link><pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/grupoetra/</guid><description>
+&lt;/table></description></item><item><title>Docs: Optimization of operation of Local Energy System</title><link>https://smart-grid-use-cases.github.io/docs/usecases/grupoetra/iec62559-2_template_-_eland_hluc02/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/grupoetra/iec62559-2_template_-_eland_hluc02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1758,7 +1758,7 @@ The above functionalities are facilitated by forecasting, scheduling and integra
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: RES scheduling control</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</link><pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</guid><description>
+&lt;/table></description></item><item><title>Docs: RES scheduling control</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/uc2.4_res_scheduling_control/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/uc2.4_res_scheduling_control/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -2171,7 +2171,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Architekturdokumentation und Repository</title><link>https://smart-grid-use-cases.github.io/docs/usecases/offis-2/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/offis-2/</guid><description>
+&lt;/table></description></item><item><title>Docs: Architekturdokumentation und Repository</title><link>https://smart-grid-use-cases.github.io/docs/usecases/offis-2/1201/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/offis-2/1201/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3071,7 +3071,7 @@ Das Ziel dieses Use Cases ist die Architekturdokumentation nach SGAM inkl. eines
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Authenticate data users</title><link>https://smart-grid-use-cases.github.io/docs/usecases/elering-1/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/elering-1/</guid><description>
+&lt;/table></description></item><item><title>Docs: Authenticate data users</title><link>https://smart-grid-use-cases.github.io/docs/usecases/elering-1/xml-example-from-eu-sysflex-authenticate-data-users/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/elering-1/xml-example-from-eu-sysflex-authenticate-data-users/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3734,7 +3734,7 @@ Das Ziel dieses Use Cases ist die Architekturdokumentation nach SGAM inkl. eines
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Coordination of distributed flexibility resources in a marketplace</title><link>https://smart-grid-use-cases.github.io/docs/usecases/edf-1/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/edf-1/</guid><description>
+&lt;/table></description></item><item><title>Docs: Coordination of distributed flexibility resources in a marketplace</title><link>https://smart-grid-use-cases.github.io/docs/usecases/edf-1/buc2_coordination-of-distributed-flexibility-resources-in-a-marketplace/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/edf-1/buc2_coordination-of-distributed-flexibility-resources-in-a-marketplace/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -4906,7 +4906,7 @@ Das Ziel dieses Use Cases ist die Architekturdokumentation nach SGAM inkl. eines
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation</title><link>https://smart-grid-use-cases.github.io/docs/usecases/offis-1/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/offis-1/</guid><description>
+&lt;/table></description></item><item><title>Docs: Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation</title><link>https://smart-grid-use-cases.github.io/docs/usecases/offis-1/test/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/offis-1/test/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -5420,7 +5420,7 @@ cost and quality of service achieved&lt;/p>
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Real-time supervision</title><link>https://smart-grid-use-cases.github.io/docs/usecases/edf-2/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/edf-2/</guid><description>
+&lt;/table></description></item><item><title>Docs: Real-time supervision</title><link>https://smart-grid-use-cases.github.io/docs/usecases/edf-2/suc_realtime-supervision/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/edf-2/suc_realtime-supervision/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
