@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Optimization of operation of Local Energy System</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: HLUC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -13,7 +13,7 @@
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>NA,&lt;/td>
-&lt;td>Optimization of operation of Local Energy System&lt;/td>
+&lt;td>HLUC02&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -129,7 +129,7 @@ The above functionalities are facilitated by forecasting, scheduling and integra
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Optimization of operation of Local Energy System&lt;/td>
+&lt;td>HLUC02&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -141,7 +141,7 @@ The above functionalities are facilitated by forecasting, scheduling and integra
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Optimization of operation of Local Energy System&lt;/td>
+&lt;td>HLUC02&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -379,7 +379,7 @@ The above functionalities are facilitated by forecasting, scheduling and integra
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Optimization of operation of Local Energy System&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -412,7 +412,7 @@ The above functionalities are facilitated by forecasting, scheduling and integra
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Optimal sizing of a Local Energy System</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLUC03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -427,7 +427,7 @@ The above functionalities are facilitated by forecasting, scheduling and integra
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>NA,&lt;/td>
-&lt;td>Optimal sizing of a Local Energy System&lt;/td>
+&lt;td>HLUC03&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -533,7 +533,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Optimal sizing of a Local Energy System&lt;/td>
+&lt;td>HLUC03&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -545,7 +545,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Optimal sizing of a Local Energy System&lt;/td>
+&lt;td>HLUC03&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -765,7 +765,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Optimal sizing of a Local Energy System&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -798,7 +798,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Load forecast in distribution network</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</guid><description>
+&lt;/table></description></item><item><title>Docs: PUC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -813,7 +813,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>Smart Grid / Distribution / Operation,&lt;/td>
-&lt;td>Load forecast in distribution network&lt;/td>
+&lt;td>PUC1&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -922,7 +922,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Load forecast in distribution network&lt;/td>
+&lt;td>PUC1&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -934,7 +934,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td>Load forecast in distribution network&lt;/td>
+&lt;td>PUC1&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1258,7 +1258,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Load forecast in distribution network&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -1309,7 +1309,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Network real-time monitoring</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1324,7 +1324,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>Energy,&lt;/td>
-&lt;td>Network real-time monitoring&lt;/td>
+&lt;td>UC2-1&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1733,7 +1733,7 @@ Data to be collected comprises:
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Network real-time monitoring&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -1758,7 +1758,7 @@ Data to be collected comprises:
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: RES scheduling control</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</link><pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-4</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</link><pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1773,7 +1773,7 @@ Data to be collected comprises:
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>,&lt;/td>
-&lt;td>RES scheduling control&lt;/td>
+&lt;td>UC2-4&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -2146,7 +2146,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>RES scheduling control&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -2171,7 +2171,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Coordination of distributed flexibility resources in a marketplace</title><link>https://smart-grid-use-cases.github.io/docs/usecases/edf-1/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/edf-1/</guid><description>
+&lt;/table></description></item><item><title>Docs: edf-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/edf-1/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/edf-1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -2186,7 +2186,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>Distribution Management, Energy Markets, Transmission System, Distribution System, Users, Operational planning,&lt;/td>
-&lt;td>Coordination of distributed flexibility resources in a marketplace&lt;/td>
+&lt;td>edf-1&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -3343,7 +3343,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Real-time supervision</title><link>https://smart-grid-use-cases.github.io/docs/usecases/edf-2/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/edf-2/</guid><description>
+&lt;/table></description></item><item><title>Docs: edf-2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/edf-2/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/edf-2/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3358,7 +3358,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>Distribution Management, Users, Distribution System, Real-Time Operation, Transmission System, Energy systems,&lt;/td>
-&lt;td>Real-time supervision&lt;/td>
+&lt;td>edf-2&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -3748,7 +3748,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Authenticate data users</title><link>https://smart-grid-use-cases.github.io/docs/usecases/elering-1/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/elering-1/</guid><description>
+&lt;/table></description></item><item><title>Docs: elering-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/elering-1/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/elering-1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3763,7 +3763,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>Access to data, Market for flexibilities, Operational planning and forecasting, Services related to end customers, Balance management,&lt;/td>
-&lt;td>Authenticate data users&lt;/td>
+&lt;td>elering-1&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -4411,7 +4411,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation</title><link>https://smart-grid-use-cases.github.io/docs/usecases/offis-1/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/offis-1/</guid><description>
+&lt;/table></description></item><item><title>Docs: offis-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/offis-1/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/offis-1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -4426,7 +4426,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation&lt;/td>
+&lt;td>offis-1&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -4703,7 +4703,7 @@ cost and quality of service achieved&lt;/p>
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>Quality Index Analysis&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation&lt;/td>
 &lt;td>Network Operation Statistics and Reporting&lt;/td>
 &lt;td>An outage happens in the network&lt;/td>
 &lt;td>The outage consequences are storage&lt;/td>
@@ -4712,7 +4712,7 @@ cost and quality of service achieved&lt;/p>
 &lt;tr>
 &lt;td>2&lt;/td>
 &lt;td>Switching Simulation&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation&lt;/td>
 &lt;td>Network Operation Simulation&lt;/td>
 &lt;td>Need for simulating different levels and location of automation.&lt;/td>
 &lt;td>-The model of the network is available with the capacity to simulate different scenarios. -Availability of average cost units for field operations -Availability of average fault rates&lt;/td>
@@ -4721,7 +4721,7 @@ cost and quality of service achieved&lt;/p>
 &lt;tr>
 &lt;td>3&lt;/td>
 &lt;td>Decision Support&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation&lt;/td>
 &lt;td>Asset Investment Planning&lt;/td>
 &lt;td>End of the simulation of automation scenarios&lt;/td>
 &lt;td>The curve with Investment vs QoS achieved per each scenario is available&lt;/td>
@@ -4762,7 +4762,7 @@ cost and quality of service achieved&lt;/p>
 &lt;td>1&lt;/td>
 &lt;td>Periodically&lt;/td>
 &lt;td>Get outage average ratio&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation&lt;/td>
 &lt;td>INTERNAL PROCESS&lt;/td>
 &lt;td>523&lt;/td>
 &lt;td>523&lt;/td>
@@ -4802,7 +4802,7 @@ cost and quality of service achieved&lt;/p>
 &lt;td>1&lt;/td>
 &lt;td>Punctual&lt;/td>
 &lt;td>Ask for simulation&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation&lt;/td>
 &lt;td>GET&lt;/td>
 &lt;td>511&lt;/td>
 &lt;td>526&lt;/td>
@@ -4813,7 +4813,7 @@ cost and quality of service achieved&lt;/p>
 &lt;td>2&lt;/td>
 &lt;td>Punctual&lt;/td>
 &lt;td>Ask for information&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation&lt;/td>
 &lt;td>GET&lt;/td>
 &lt;td>526&lt;/td>
 &lt;td>523&lt;/td>
@@ -4824,7 +4824,7 @@ cost and quality of service achieved&lt;/p>
 &lt;td>3&lt;/td>
 &lt;td>Punctual&lt;/td>
 &lt;td>Send information&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation&lt;/td>
 &lt;td>SHOW&lt;/td>
 &lt;td>523&lt;/td>
 &lt;td>526&lt;/td>
@@ -4835,7 +4835,7 @@ cost and quality of service achieved&lt;/p>
 &lt;td>4&lt;/td>
 &lt;td>Iterative&lt;/td>
 &lt;td>Algorithm operation&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation&lt;/td>
 &lt;td>INTERNAL PROCESS&lt;/td>
 &lt;td>526&lt;/td>
 &lt;td>526&lt;/td>
@@ -4875,7 +4875,7 @@ cost and quality of service achieved&lt;/p>
 &lt;td>1&lt;/td>
 &lt;td>Punctual&lt;/td>
 &lt;td>Send simulation results&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation&lt;/td>
 &lt;td>SHOW&lt;/td>
 &lt;td>526&lt;/td>
 &lt;td>511&lt;/td>
@@ -4886,7 +4886,7 @@ cost and quality of service achieved&lt;/p>
 &lt;td>2&lt;/td>
 &lt;td>Punctual&lt;/td>
 &lt;td>Decision taken process&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Enhanced monitoring and control of MV/LV network – Optimal MV network monitoring and automation&lt;/td>
 &lt;td>INTERNAL PROCESS&lt;/td>
 &lt;td>511&lt;/td>
 &lt;td>511&lt;/td>
@@ -4925,7 +4925,7 @@ cost and quality of service achieved&lt;/p>
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Architekturdokumentation und Repository</title><link>https://smart-grid-use-cases.github.io/docs/usecases/offis-2/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/offis-2/</guid><description>
+&lt;/table></description></item><item><title>Docs: offis-2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/offis-2/</link><pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/offis-2/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -4940,7 +4940,7 @@ cost and quality of service achieved&lt;/p>
 &lt;tr>
 &lt;td>1&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>Architekturdokumentation und Repository&lt;/td>
+&lt;td>offis-2&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -5765,43 +5765,43 @@ Das Ziel dieses Use Cases ist die Architekturdokumentation nach SGAM inkl. eines
 &lt;tr>
 &lt;td>1718&lt;/td>
 &lt;td>Use Case Word&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Architekturdokumentation und Repository&lt;/td>
 &lt;td>384,&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>1719&lt;/td>
 &lt;td>Use Case html&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Architekturdokumentation und Repository&lt;/td>
 &lt;td>383,&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>1721&lt;/td>
 &lt;td>Eingabe UCMR&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Architekturdokumentation und Repository&lt;/td>
 &lt;td>386,&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>1722&lt;/td>
 &lt;td>UCMR Export&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Architekturdokumentation und Repository&lt;/td>
 &lt;td>387,&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>1723&lt;/td>
 &lt;td>Abrufinformationen&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Architekturdokumentation und Repository&lt;/td>
 &lt;td>388,&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>1724&lt;/td>
 &lt;td>SGAM Beschreibung CLS&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Architekturdokumentation und Repository&lt;/td>
 &lt;td>389,&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>1725&lt;/td>
 &lt;td>3D Modell&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Architekturdokumentation und Repository&lt;/td>
 &lt;td>390,&lt;/td>
 &lt;/tr>
 &lt;/tbody>
