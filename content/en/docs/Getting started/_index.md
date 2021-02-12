@@ -74,7 +74,7 @@ You can also edit use cases directly in your browser. Just click on a use case a
 
 ### Markdown
 
-To upload Markdown files, sign in at github and follow this [link](https://github.com/smart-grid-use-cases/github-pages).
+To upload Markdown files, sign in at github and follow this [link](https://github.com/smart-grid-use-cases/github-pages/tree/master/content/en/docs/UseCases).
 
 Then, you can upload the file as described for Excel use-case files.
 
@@ -82,7 +82,7 @@ You can also edit use cases directly in your browser. Just click on a use case a
 
 ## Check the Website
 
-Go to the [USe Case section](https://smart-grid-use-cases.github.io/docs/usecases/) of the website.
+Go to the [Use Case section](https://smart-grid-use-cases.github.io/docs/usecases/) of the website.
 
 Processing the changes may take some minutes.
 
