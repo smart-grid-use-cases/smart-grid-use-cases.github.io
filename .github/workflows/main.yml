@@ -60,11 +60,7 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
-        deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        external_repository: smart-grid-use-cases/smart-grid-use-cases.github.io
+        github_token: ${{ secrets.GITHUB_TOKEN }}     
         publish_dir: ./public
         #   keep_files: true
-        user_name: m-mirz
-        user_email: mmirz@eonerc.rwth-aachen.de
-        publish_branch: master
-
+        publish_branch: gh-pages
