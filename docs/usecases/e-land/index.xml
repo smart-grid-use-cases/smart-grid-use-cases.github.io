@@ -1,0 +1,1233 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – E-LAND</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/</link><description>Recent content in E-LAND on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/e-land/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: HLUC01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</link><pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>NA,&lt;/td>
+&lt;td>HLUC01&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.0&lt;/td>
+&lt;td>2019-05-20T00:00:00&lt;/td>
+&lt;td>UTVgv, ICOM, SE,&lt;/td>
+&lt;td>Final version&lt;/td>
+&lt;td>Approved&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>Describe the main functionalities, prerequisites and integration aspects of an enhanced Energy Management System (EMS) designed for a Local Energy System (LES). Leveraging monitoring and control technologies to intelligently manage and optimize on-site Distributed Energy Resources (DER) - from Renewable Energy Sources (RES) generation to multi-vector load and storage assets - whilst integrating the Building Management Systems (BMS), to enforce optimal management strategies at the building level, hence enabling actors to automatically take actions that provide economic viability and energy reliability to the LES.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>Integrating multiple assets in a supervisory control and data acquisition monitoring network:&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>Multi-vector DER generation;&lt;/li>
+&lt;li>On-site multi-vector storage;&lt;/li>
+&lt;li>On-site BMS (sensing, control); |
+| &lt;strong>Related business case(s)&lt;/strong> | PUC 1 Provide commercial functionality to a multi-vector LES
+PUC 2 Shift Building Loads using Demand Side Management
+PUC 3 Shift Harbor Loads using Demand Side Management
+PUC 4 Optimal scheduling of thermal and electrical storage
+PUC 5 Optimal scheduling of electrical storage and hydrogen storage
+PUC 6 Storing excess generation in thermal network
+PUC 7 Optimal management of EV and FCEVs in a LES |&lt;/li>
+&lt;/ul>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>The main purpose of this HLUC is to describe how multi-vector local generation, on-site multi-vector storage and Building Management Systems (BMS) should interface with an Energy Management System (EMS) of a Local Energy System (LES) enabling optimized operation, through the integration of advanced functionalities provided by the E-LAND Toolbox.&lt;/p>
+&lt;p>Optimal operation of a LES encompassing multi-vector DER generators (thermal or electrical); on-site multi-vector storage (i.e. electrical batteries, hot water tanks, hydrogen storage, building enthalpy) and load priority control facilitated by the BMS could achieve higher efficiency levels than traditional solutions. The integration with advanced tools e.g. forecasting, optimisation as well as to external sources of data (e.g. weather forecasts) - through an Enterprise Service Bus (ESB) - should provide enough information and endpoints for proper EMS automation scenarios to be enforced having as a goal the optimal operation of the Local Energy System (LES). Therefore, the integrations of various field equipment (e.g. storage controllers, DER controllers, actuators, sensors) and the BMS is crucial for the realization of these advanced operations.&lt;/p>
+&lt;p>Optimal operation of a Local energy system (LES) can be considered from different perspectives (Facility Operator, Microgrid Operator, Aggregator, DER Owner) and therefore achieved by prioritising and/or optimising indices like: energy efficiency, cost of operation, cost of ownership, energy cost, carbon footprint.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>Traditionally, Energy Management System (EMS) solutions provide a comprehensive way of understanding energy profiles, identifying actual energy use and waste, as well as perform control actions on a variety of production and storage assets of multiple vectors (thermal, electrical, gas).&lt;/p>
+&lt;p>However, in the case of a Local Energy System (LES) where multiple business actors with different roles exist (e.g. DER Owner/Producer, Consumer), an enhanced solution is required to provide a top-level view of the operation of the system, enabling the realisation of optimisation scenarios. On this basis, the integration of the EMS with the controllers of the various storage and production assets is necessary. On the other hand, the integration with Building Management Systems (BMS) allows a more in-depth knowledge of the facilities’ loads (electrical or thermal), taking priority based decisions and enabling fine grained Demand Response (DR) actions.&lt;/p>
+&lt;p>On top of that, the EMS can make use of advanced tools related to forecasting and optimal operational scheduling/ future planning, which combined with all the above can help achieve optimal utilization of the constrained grid capacities, maximizing the use of on-site RES, by utilizing multi-vector energy blending, storage and DR actions.&lt;/p>
+&lt;p>Such an integrated system can enable the operation of the LES with the following advanced features:
+• Coordinated DER operation
+• Control over the energy mix and optimal use of storage with energy forecasting
+• Increased system reliability and power quality
+• Optimal load prioritization and shifting
+• Microgrid enabled operations: the ability of all integrated systems to work together as a single system, enabling facilities to operate as autonomous microgrids;
+• Quantification and measurement of overall carbon foot-print
+• Detailed monitoring of real-time energy-related data
+• Alerts for optimizing operational expenditures (OpEx)&lt;/p>
+&lt;p>The enhanced EMS will encompass the integration of the following sub-systems:
+• EMS: integrating the traditional DER Owner energy monitoring and control solution;
+• DER Controllers: On-site devices offering monitoring &amp;amp; control of the production assets of DER Owners;
+• Storage Controllers (Thermal/Electric/H2) Devices for multi-vector storage management, handling information on capacity and availability of storage assets of DER Owners;
+• BMS: Offering a monitoring network at a building level (evaluate energy usage/needs, occupancy, production, weather, etc.) as well as assisting real-time, data-driven decisions for the optimization of the consumption, by analysing offering various modes of operation (demand response, store energy) for various vectors;
+• Field Devices: For sensing or actuation of various loads, integrated through the BMS or directly;
+• EV/FCEV Chargers: Devices enabling the monitoring and control of the charging of Electric Vehicles and Fuel Cell Electric Vehicles in the LES, typically owned by the local stakeholders or even third parties
+• External Data Sources: for weather forecasting and energy prices
+• Advanced tools: for energy forecasting (Energy Forecaster) and for optimal scheduling (Optimal Scheduler) and planning
+• Enterprise Service Bus (ESB): A system enabling the integration of the above sub-systems&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>HLUC01&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>HLUC01&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>High&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Technical&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>LES Integration&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>DER Owner&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>An asset owner of generation or storage facilities which is able to provide flexibility to the aggregator.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Microgrid Operator&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>The operator of a microgrid. Utilizes the flexibility provided by a local energy system to solve grid problems (reduce grid dependency) and/or achieve energy efficiency and environmental goals.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Facility Manager/Operator&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>The operator of a local energy system. Utilizes the flexibility provided by a local energy system to solve grid problems (reduce grid dependency) and/or achieve energy efficiency and environmental goals.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DER Controller&lt;/td>
+&lt;td>Device&lt;/td>
+&lt;td>Device able to control the operation of DER.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Electric Storage Controller&lt;/td>
+&lt;td>Device&lt;/td>
+&lt;td>Electrical energy storage: solid state batteries, hydrogen&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Thermal Storage Controller&lt;/td>
+&lt;td>Device&lt;/td>
+&lt;td>Thermal energy storage: tanks, buffers, building enthalpy&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>H2 Storage Controller&lt;/td>
+&lt;td>Device&lt;/td>
+&lt;td>Device able to control the operation of the electrolyser for producing and storing H2.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Building Management System (BMS)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>A system to monitor and control building&amp;rsquo;s loads.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Energy Management System (EMS)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>A system responsible for controlling and monitoring the various assets of the LES as well as for the orchestration of its optimal operation. Provides a user interface to the operator of the LES.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Energy Forecaster (EF)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Predicts generation from local generation assets (e.g. wind turbines, PV panels), as well as consumption assets.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Optimal Scheduler (OS)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>A system responsible for optimal scheduling of generation and storage assets as well as community based flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Enterprise Service Bus (ESB)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>A system enabling the integration of the forecasting and optimisation tools of E-Land toolbox and the EMS. Provides integration of the forecasting function as well as pre-processed meter and weather data&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>External Data Source (EDS)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>A system able to store and provide data (environmental, system parameters, energy prices) e.g. PV inverter portal, weather forecasting service, local weather station.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Integration of multi-vector LES management in an EMS&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: HLUC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</link><pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>NA,&lt;/td>
+&lt;td>HLUC02&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.0&lt;/td>
+&lt;td>2019-05-20T00:00:00&lt;/td>
+&lt;td>INYCOM, ICOM,&lt;/td>
+&lt;td>Final version&lt;/td>
+&lt;td>Approved&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>This HLUC encompasses an extended conceptual description of a Local Energy System (LES) covering different actors’ perspectives, assets and functionalities related to the multi-vector optimization of the operation of the LES aiming at improving energy efficiency and environmental impact.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>Optimal control of RES, load flexibility and storage&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Optimal scheduling&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Co-optimization of different energy vectors&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>PUC02 Shift Building Loads using Demand Side Management&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PUC03 Shift Harbour Loads using Demand Side Management&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PUC04 Optimal Scheduling of Thermal and Electrical Storage&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PUC05 Optimal Scheduling of Electrical Storage and Hydrogen Storage&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PUC06 Storing Excess Generation in Thermal Network&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PUC07 Optimal Management of EV with Hydrogen and/or Electricity&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>The goal of this HLUC is to describe how optimal multi-vector operation of a LES can be achieved, by coordinating the different available assets; providing a solution to the optimal control problem of DER, flexible loads and different storage technologies. On the basis of these flexibility assets and considering the different energy networks (i.e. electricity, heat, gas, Hydrogen) the operator of the LES, aims to achieve specific goals related to the economic operation, reduce environmental impact and reduce the dependency from the main grid. The role of the LES operator can be undertaken by various actors such as: the Distribution System Operator (DSO), the Aggregator (e.g. Virtual Power Plant, EV Charging Infrastructure Owner/Operators), the Microgrid Operator, the Facility Operator; whilst the role of the flexibility provider can be handled by DER Owners i.e. the owners of generation and storage assets of various energy vectors – as well as Consumers and in general an aggregated scheme of the previous e.g. a Community within the LES.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>The task of leveraging the multi-vector assets of a Local Energy System (LES) for achieving an optimized operation can be viewed by different perspectives. From the perspective of the operator of the grid, pursuing efficiency, reduce environmental impact and reliability; a task undertaken by an actor such as the Grid/Microgrid/Facility Operator. On the other hand, the optimal management of such resources can be leveraged by an Aggregator aiming to maximize its profits through market participation (VPP concept).&lt;/p>
+&lt;p>The assets involved in a multi-vector LES case concern various type of DERs (e.g. wind, PV, solar thermal), flexible loads (e.g. EVs, FCEVs, HVAC) and different storage technologies (i.e. electrical, thermal, H2). The (multi-vector) flexibility assets are assumed to be provided by the various DER owners and consumers, owned by individuals or the community within the LES. The flexibility providers procure services to the operator of the LES, in order to support the grid operation, improve the overall system efficiency and/or reduce the carbon emissions and are assumed to receive reimbursements respectively.
+The core functionalities of the optimal operation concern:
+• Demand side management and the shifting/scheduling of multi-vector loads (see PUC 2 Shift Building Loads using Demand Side Management, PUC 3 Shift Harbour Loads using Demand Side Management)
+• Optimal scheduling of different storage vectors: electric, thermal and hydrogen-based (see PUC 4 Optimal Scheduling of Thermal and Electrical Storage, PUC 5 Optimal Scheduling of Electrical Storage and Hydrogen Storage, PUC 6 Storing Excess Generation in Thermal Network )
+• Optimal Management of EV/FCEV related operations:
+(see PUC 7 Optimal Management of EV with Hydrogen and/or Electricity)
+The above functionalities are facilitated by forecasting, scheduling and integration services provided by the relevant tools developed in the project.&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>HLUC02&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>HLUC02&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>High&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Business&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Optimisation, Local Energy System operation&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>DSO&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>An operator of the distribution system of one or more vector in which the multi-vector local energy system is located. Utilizes the flexibility provided by a local energy system to solve grid problems and/or achieve energy efficiency and environmental goals.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Microgrid Operator&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>The operator of a microgrid. Utilizes the flexibility provided by a local energy system to solve grid problems (reduce grid dependency) and/or achieve energy efficiency and environmental goals.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Facility Manager/Operator&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>The operator of a local energy system. Utilizes the flexibility provided by a local energy system to solve grid problems (reduce grid dependency) and/or achieve energy efficiency and environmental goals.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Aggregator&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>A market actor that utilizes the multi-vector flexibility assets. Can take the form of a Virtual Power Plant (VPP).&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DER Owner&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>An asset owner of generation or storage facilities which is able to provide flexibility to the aggregator.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EV Owner&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>The owner of an EV, uses electrical energy to charge it.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>FCEV Owner&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>The owner of one or more FCEVs who utilizes the facilities of the LES for charging.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Consumer&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>A residential, commercial or industrial end-user of energy from one or multiple vectors.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Optimization of operation of Local Energy System&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: HLUC03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</link><pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>NA,&lt;/td>
+&lt;td>HLUC03&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.0&lt;/td>
+&lt;td>2019-05-20T00:00:00&lt;/td>
+&lt;td>BIKS, ICOM,&lt;/td>
+&lt;td>Final version&lt;/td>
+&lt;td>Approved&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>This HLUC targets at describing the concept of sizing of the production and storage assets of a LES in order to: - Lower cost of energy use, Maximize profits from selling energy to the grid, - Reduce C02 emissions, and - Increase self-supply.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>Calculating the optimal sizing of different components of the LES, consisting of:&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ul>
+&lt;li>Electrical and thermal energy production&lt;/li>
+&lt;li>Electrical and thermal energy storage
+Based on electrical and thermal loads consumption data, as well as energy interchange with the electricity and district heating grid. |
+| &lt;strong>Related business case(s)&lt;/strong> | PUC8 Multi-vector Optimisation of assets’ sizing in a LES
+PUC9 Optimal sizing of electrical parts of a LES |&lt;/li>
+&lt;/ul>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>The optimal sizing of a multi-vector LES involves the sizing of different assets, in order to make its operation more efficient. The assets may concern:
+• Electrical production assets, like PV panels and Wind generators
+• Thermal production assets such as solar thermal panel and geothermal heat pumps
+• Storage assets, such as batteries and hot water tanks
+Depending on the role of the involved business actor (grid/microgrid operator, facility operator, aggregator, DER owner), the business goals and relevant optimization objectives can vary. The optimization is proposed to tackle the following objectives:&lt;/p>
+&lt;ol>
+&lt;li>Cost reduction for energy use or profit maximization from market participation&lt;/li>
+&lt;li>Fossil fuels/CO2 emissions reduction&lt;/li>
+&lt;li>Grid dependency reduction
+The optimization process should enable the operator to model and possibly combine the different objectives of the involved actors.
+In order to perform the simulations, the availability and cost of thermal and electrical energy exchanged with the main grids is considered. High import cost and low export price will increase the need for reducing the dependency of the LES from the main grid.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>A multi-vector local energy system (LES) operator can pursuit various goals, depending on its roles. Such goals may concern:
+• Increasing quality of service for load and production assets (any vector)
+• Increasing energy efficiency and reliability of the LES
+• Minimizing cost of operation
+• Reducing the environmental impact (CO2 emissions)
+• Maximizing the profits from selling energy to the market&lt;/p>
+&lt;p>To achieve such goals, the LES operator, can consider investments in local energy production (i.e. Distributed energy resources - DERs) such as PV panels, Wind generators, solar thermal panels and geothermal heat pumps. The former two technologies can increase the self-production of electricity and reduce electricity costs. Moreover, they can reduce peak power consumption or even provide revenues from selling energy to the energy market. From the two latter technologies, the local heat production can contribute in reducing the dependency from District Heat (DH) supplier or even become a heat producer and supply the grid with excessive production. Such assets can be installed in the operator facilities or in the facilities of consumers, which may be involved in the investment by leasing their properties or even investing in the assets. This way the role of DER Owners is considered to be in close collaboration with the operator that orchestrates the investment.&lt;/p>
+&lt;p>Furthermore, investments in storage of electrical and thermal energy can be considered and designed in order to lower the costs of energy supply from the main grid (e.g. peak shaving), as well as improve the profitability of energy production (by optimizing the energy consumption or energy trading). In a similar manner, local consumers/producers may be involved in such investments.&lt;/p>
+&lt;p>The core functionalities of the optimal planning comprise the modelling of the various assets and objectives of the investor, as well as the various ownership schemes in order to identify the most efficient scenarios for future investments.&lt;/p>
+&lt;p>From the perspective of an investor (e.g. a DER owner), the needs of electrical and thermal energy should be evaluated, integrating the current and estimating the future loads (from different vectors) as way to increase self-consumption. Also, the energy market for electrical (i.e. the local DSO and customers in the LES) and thermal energy (i.e. the DH supplier and the customers in the LES) should be investigated in terms of volume versus value, both for import and export. Assessing these inputs and providing the relevant optimisation criteria and assets of interest, the investor must be provided with the most beneficial scenarios with regard to the sizing of assets and the investment cost. The optimisation should concern different vectors and possible transformations of energy amongst them.&lt;/p>
+&lt;p>A typical use case should model the optimal sizing of electrical assets for storage and production, considering the current assets and the future electrical loads of the LES, whilst also considering production and loads (through transformation e.g. HVAC for heating) from other vectors(see - PUC 11: Sizing of electrical parts of a LES). In this scenario, the pricing of each energy vector (e.g. electric, thermal, gas) during the day and throughout the year will be considered, along with the constraints regarding the autonomous operation of the LES, as well as other techno-economic constraints.&lt;/p>
+&lt;p>Finally, another use case combining both electrical and heating production and storage assets, should enable the identification of the optimal investment in the LES (see PUC 07: Multi-vector Optimisation of assets’ sizing in a LES).&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>HLUC03&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>HLUC03&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>High&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Business&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Local Energy System planning&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Distribution System Operator (DSO)&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>An operator of the multi-vector distribution system in which the local energy system is located.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Microgrid Operator&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>The operator of a microgrid. Utilizes the flexibility provided by a local energy system to solve grid problems (reduce grid dependency) and/or achieve energy efficiency and environmental goals.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Facility Manager/Operator&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>The operator of a local energy system. Utilizes the flexibility provided by a local energy system to solve grid problems (reduce grid dependency) and/or achieve energy efficiency and environmental goals.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Aggregator&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>A market actor that utilizes the multi-vector flexibility assets. Can take the form a Virtual Power Plant (VPP).&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DER Owner&lt;/td>
+&lt;td>Business Entity&lt;/td>
+&lt;td>An asset owner of generation or storage facilities which is able to provide flexibility to the aggregator, a producer or prosumer.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Optimal sizing of a Local Energy System&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;td>NA&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item></channel></rss>
