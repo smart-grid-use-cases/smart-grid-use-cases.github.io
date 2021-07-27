@@ -48,7 +48,7 @@ First, you can download an [Excel template file](https://github.com/smart-grid-u
 
 Then, sign in at github and follow this [link](https://github.com/smart-grid-use-cases/excel2xml-input/tree/master/excel-use-cases).
 
-Currently, every research project has its own folder. New use cases can be added to the folders by dropping the Excel files in the browser windows when you are in the associated project folder.
+Currently, every research project has its own folder. New use cases can be added to the folders by dropping the Excel files in the browser windows when you are in the associated project folder. If there are use case diagrams associated to the Excel file, please drop them in the same folder as the Excel file and insert the image names in the URI field in Excel.
 
 To create new folders, the easiest way is to create the folder including a new Excel use case on your local computer first. Then, you can drop this folder including the Excel file into the browser window.
 
@@ -56,7 +56,7 @@ Instead of directly dropping files in the browser window, you can also click "Ad
 
 {{< imgproc github-add-file.png Resize "800x" />}}
 
-Drag your Excel file into the browser.
+Drag your Excel file into the browser. 
 
 If you like, you can leave a message to describe your change (optional).
 
