@@ -1143,7 +1143,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>![AC/DC hybrid architecture for the CIEMAT demo site](DC hybrid architecture for the CIEMAT demo site)&lt;/p>
+&lt;p>&lt;img src="DC_hybrid_architecture_for_the_CIEMAT_demo_site" alt="AC/DC hybrid architecture for the CIEMAT demo site">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>

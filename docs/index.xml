@@ -178,6 +178,11 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="EACL-HU-01_use_case_overview.png" alt="EACL-HU-01 Use Case Overview">
+&lt;img src="EACL-HU-01_scenario1_activities.png" alt="EACL-HU-01_scenario1_activities">
+&lt;img src="EACL-HU-01_scenario2_activities.png" alt="EACL-HU-01_scenario2_activities">
+&lt;img src="EACL-HU-01_scenario3_activities.png" alt="EACL-HU-01_scenario3_activities">
+&lt;img src="EACL-HU-01_scenario4_activities.png" alt="EACL-HU-01_scenario4_activities">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -10538,7 +10543,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>![AC/DC hybrid architecture for the CIEMAT demo site](DC hybrid architecture for the CIEMAT demo site)&lt;/p>
+&lt;p>&lt;img src="DC_hybrid_architecture_for_the_CIEMAT_demo_site" alt="AC/DC hybrid architecture for the CIEMAT demo site">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
