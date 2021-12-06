@@ -581,4 +581,1360 @@
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description/></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description/></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description/></item></channel></rss>
+&lt;/table></description></item><item><title>Docs: UC2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Energy Community/DER, Consumption/Building, Operation, Market,&lt;/td>
+&lt;td>UC2&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>0.3&lt;/td>
+&lt;td>2021-07-06T00:00:00&lt;/td>
+&lt;td>Hypertech, RINA-C,&lt;/td>
+&lt;td>Final proposal of use case&lt;/td>
+&lt;td>final&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>The scope of this UC is to establish an optimization framework for maximizing the use of self-generated energy, having a building asset as its focus. Relevant components from the ACCEPT architecture are: Building Digital Twin, On-Demand Flexibility Management&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>1. Reduce residential energy bills through increase self-consumption of renewable energy&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2. Share of total consumption is covered by local green energy.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>UC02 is generalized by UC13 (building to community level self-consumption)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC02 includes UC01 (requires the monitoring and metering functionality prescribed in that UC)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>This Use Case (UC) deals with the optimal scheduling of operation for HVAC resources at building/apartment level, combined with the heat energy storage capabilities offered by the building envelope or hot water storage tanks, so as to increase the consumption of self-generated electricity via renewable resources. Consequently, the UC’s objective is also to minimize the dependence of a single consumer from the grid, by making him/her self-sufficient.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>The concept of Virtual Energy Storage (VES) is tightly connected to the demand-side management on intra-building thermal loads. The building envelope and available hot water storage tanks are examined as thermal storage devices, whilst the building also serves as the energy sink. Local Power-to-Heat units operate as energy sources, and the heat generated can be either utilized directly to satisfy the occupants’ comfort needs or stored to be utilized in a later moment in time.
+The significance of such functionality increases considerably when the building is equipped with Renewable Energy Resources (RES), such as Photovoltaic (PV) panels. This free resource of energy, due to its intermittent nature, does not commonly match the end-user demand and thus cannot always be readily consumed. One solution to this is energy trading to/from the grid, this though poses issues of energy balancing and management to the grid operator. Self-consumption is another way to minimize the loss of freely produced renewable energy. In this setting, the combined effect of being able to store thermal energy and modify to some extent the thermal demand leads to the best intra-building utilization of self-production.
+VES is an inherent part of the building Digital Twin model and is also tightly dependent on input from the Citizen Twin module. It combines the thermal properties of the building envelope and hot water storage with the usage patterns of its occupants and their comfort perception, so as to perform a short or mid-term optimization on use of resources that maximize the use of any renewable energy generated in the premises.&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC2&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>High&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Technical&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Virtual Thermal Energy Storage, Flexibility, Model Predictive Control&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Prosumer/ Facility Manager&lt;/td>
+&lt;td>Stakeholder&lt;/td>
+&lt;td>End-user that consumes energy but also produces energy&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Building assets&lt;/td>
+&lt;td>Device&lt;/td>
+&lt;td>Required infrastructure&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BIML - Information/Communication Layer&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>ACCEPT system for enabling building data monitoring and control&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>On Demand Flexibility Management&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>ACCEPT collection of modules responsible for the management of building assets&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Citizen Apps&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>ACCEPT UI for interacting with the end user&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>S01&lt;/td>
+&lt;td>Self-Consumption maximization&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Self-Consumption maximization&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Self-Consumption maximization&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>St01&lt;/td>
+&lt;td>Request&lt;/td>
+&lt;td>Initiate optimization&lt;/td>
+&lt;td>User requests via the UI the optimal scheduling for the apartment/ building&lt;/td>
+&lt;td>Module to Module&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St02&lt;/td>
+&lt;td>Request&lt;/td>
+&lt;td>Request optimization&lt;/td>
+&lt;td>Request is passed on to the on-Demand flexibility management engine&lt;/td>
+&lt;td>Module to Module&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St03&lt;/td>
+&lt;td>Request&lt;/td>
+&lt;td>Get end user activity/comfort constraints&lt;/td>
+&lt;td>Request the information (comfort/occupancy/activity) of the occupants in order to define the required constraints for the energy optimization&lt;/td>
+&lt;td>Module to Module&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St04&lt;/td>
+&lt;td>Request&lt;/td>
+&lt;td>Get Building/ Asset information&lt;/td>
+&lt;td>Request the thermal modelling and characteristics of the apartment/ building zones and the relevant equipment&lt;/td>
+&lt;td>Module to Module&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St05&lt;/td>
+&lt;td>Computation&lt;/td>
+&lt;td>Run self-consumption optimization&lt;/td>
+&lt;td>Run optimization algorithm based on retrieved constraints&lt;/td>
+&lt;td>Internal&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St06&lt;/td>
+&lt;td>Response&lt;/td>
+&lt;td>Present information&lt;/td>
+&lt;td>Present the optimal schedule to the requesting actor&lt;/td>
+&lt;td>Module to Module&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St07&lt;/td>
+&lt;td>Request&lt;/td>
+&lt;td>Apply schedule for building assets&lt;/td>
+&lt;td>Request the optimal operation of all building assets included&lt;/td>
+&lt;td>Module to Module&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St08&lt;/td>
+&lt;td>Response&lt;/td>
+&lt;td>Monitor Event&lt;/td>
+&lt;td>Provide information of metered data&lt;/td>
+&lt;td>Module to Module&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St09&lt;/td>
+&lt;td>Response&lt;/td>
+&lt;td>Monitor Event&lt;/td>
+&lt;td>Provide information of scheduled operation&lt;/td>
+&lt;td>Module to Module&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St10&lt;/td>
+&lt;td>Response&lt;/td>
+&lt;td>Monitor Event&lt;/td>
+&lt;td>Visualize results of operation at community level&lt;/td>
+&lt;td>External&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Building self-consumption employing Virtual Energy Storage optimisation&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>INF 01&lt;/td>
+&lt;td>Request notification&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>UI, Infrastructure for monitoring and control in place. Software modules for optimization&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF 02&lt;/td>
+&lt;td>Datetime, horizon and timestep&lt;/td>
+&lt;td>The information is required in order to establish the time period for which the optimization is requested&lt;/td>
+&lt;td>Infrastructure for monitoring and control in place. Software modules for optimization&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF 03&lt;/td>
+&lt;td>Building/asset ID&lt;/td>
+&lt;td>The information is required for the correct communication between the modules. The key actor may have the ability to select which assets/zones should be considered each time&lt;/td>
+&lt;td>BIML, Citizen Digital Twin Module&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF 04&lt;/td>
+&lt;td>Timeseries of Power consumption&lt;/td>
+&lt;td>Information exchanged between the different modules and presenting the results of the self-consumption optimization. May be a timeseries of consumption per asset or aggregated per building.&lt;/td>
+&lt;td>BIML, Citizen Digital Twin Module&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF 05&lt;/td>
+&lt;td>Comparison between scheduled and actual operation&lt;/td>
+&lt;td>A timeseries object highlighting the requested vs actual consumption from assets at each timestep&lt;/td>
+&lt;td>Software modules for optimization&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF 06&lt;/td>
+&lt;td>Timeseries of control actions&lt;/td>
+&lt;td>Control actions for each specific resource in order to follow the requested consumption schedule&lt;/td>
+&lt;td>UI&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: UC3</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Building/DER, Consumer Premises/Station, Operation, Enterprise,&lt;/td>
+&lt;td>UC3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>0.3&lt;/td>
+&lt;td>2021-07-06T00:00:00&lt;/td>
+&lt;td>Hypertech, RINA-C,&lt;/td>
+&lt;td>Final proposal of use case&lt;/td>
+&lt;td>Final&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>The scope of this UC is to establish the pipeline from monitoring and metering of building assets, to occupant and device modelling, flexibility forecasting and finally application of control actions to the flexible resources. Relevant components of the ACCEPT system are: Building Digital Twin, Building Citizen Twin, On-Demand Flexibility Management (additionally: BIML, citizen apps, community portfolio management)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>1. Provide intra-day and day-ahead forecasts of flexibility (possibility for upwards of downwards regulation of a building/asset consumption), based on the energy resources installed in the premises.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2. Translate flexibility requests to the building into scheduling operations for the electricity resources in the building/apartment/thermal zones.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>UC03 includes UC01 (requires the monitoring and metering functionality prescribed in that UC)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC03 is included in UCs 07, 08 and 13 (UC07 and UC08 and UC13 use functionality from UC03)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>The Use Case (UC) captures one of the core functionalities to be provided by the on-demand Flexibility Management component of the ACCEPT solution. In order for consumers to participate into energy markets, it is necessary to be able to provide forecasts of their baseline demand, as well as any upwards or downwards regulations of this baseline that can be provided, at specific future time intervals. The process depends on the modelling of the characteristics of the building, combined with the installed heating/cooling, resources DHW and other small electrical resources, as well as the modelling of the occupants’ behaviour. Both of the above are translated into mathematical constraints that allow the execution of a number of numerical optimizations, that yield the quantitative forecasts in terms of baseline and flexibility offered by the asset.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>Aggregators and energy communities are anticipated to contribute significantly to the coming years in the opening of energy markets to demand flexibility. The way to do so is through aggregation of flexibility from individual consumers or district wide assets. This UC concentrated mainly on the first part and aims to enable the participation of consumers at building level to such markets.
+One of the first and necessary steps towards implementing this business scenario, is the forecasting of demand flexibility potential for each asset. To achieve this, individual consumer data, such as occupancy, device operational statuses, environmental conditions, metering and price data, along with occupants’ comfort preferences need to be monitored. Upon establishing this information management layer, the algorithms implemented in the citizen twin module process the data to identify the comfort and activity preferences of the occupants. In parallel, the building digital twin module must model the electricity resources and thermal characteristics of the building. These models are then fed to the flexibility demand management component, which also takes as input forecasts of the environmental conditions and is able to estimate the future requirements and flexibility, in terms of energy, of each device/apartment/building.
+The computed flexibility forecasts can then be sent to the community flexibility management layer for realizing the participation in the energy market.&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>High&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Regional&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Flexibility estimation/forecasting, demand side management, demand response&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Prosumer&lt;/td>
+&lt;td>Stakeholder&lt;/td>
+&lt;td>End-user that consumes and may produce energy from local RES&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Aggregator/Energy Community&lt;/td>
+&lt;td>Stakeholder&lt;/td>
+&lt;td>Actor that trades flexibility in the energy market&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Building assets&lt;/td>
+&lt;td>Device&lt;/td>
+&lt;td>Required infrastructure&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BIML - Information/Communication Layer&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>ACCEPT system for enabling building data monitoring and control&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>On Demand Flexibility Management&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>ACCEPT collection of modules responsible for the management of building assets&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Citizen Apps&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>ACCEPT UI for interacting with the end user&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Energy community tools&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>ACCEPT system responsible for community level optimization&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>S01&lt;/td>
+&lt;td>Building Demand Flexibility Estimation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Building Demand Flexibility Estimation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Building Demand Flexibility Estimation&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>St01&lt;/td>
+&lt;td>Request&lt;/td>
+&lt;td>Request flexibility from a building&lt;/td>
+&lt;td>User or system requests the available flexibility of a building&lt;/td>
+&lt;td>External&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St02&lt;/td>
+&lt;td>Request&lt;/td>
+&lt;td>Get end user activity/comfort constraints&lt;/td>
+&lt;td>Request the information (comfort/occupancy/activity) of the occupants in order to define the required constraints for the energy optimization&lt;/td>
+&lt;td>Module to Module&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St03&lt;/td>
+&lt;td>Request&lt;/td>
+&lt;td>Get Building/ Asset information&lt;/td>
+&lt;td>Request the models and characteristics of the building zones and the relevant equipment&lt;/td>
+&lt;td>Module to Module&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St04&lt;/td>
+&lt;td>Computation&lt;/td>
+&lt;td>Estimate flexibility&lt;/td>
+&lt;td>Run flexibility estimation algorithm based on retrieved constraints&lt;/td>
+&lt;td>Internal&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St05&lt;/td>
+&lt;td>Response&lt;/td>
+&lt;td>Return flexibility forecast&lt;/td>
+&lt;td>Return the flexibility forecast of devices to the energy community tool as well as the citizen app&lt;/td>
+&lt;td>Module to Module&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>St06&lt;/td>
+&lt;td>Response&lt;/td>
+&lt;td>Present information&lt;/td>
+&lt;td>Present the optimal schedule to the requesting actor&lt;/td>
+&lt;td>External&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Consumer demand-side flexibility forecasting and optimisation taking into account comfort boundaries, activity patterns and possible requirements&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>INF 01&lt;/td>
+&lt;td>Request notification&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>UI, Infrastructure for monitoring and control in place. Software modules for optimization&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF 02&lt;/td>
+&lt;td>Datetime, horizon and timestep&lt;/td>
+&lt;td>The information is required in order to establish the time period for which the flexibility estimation is requested&lt;/td>
+&lt;td>BIML, Citizen Digital Twin Module&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF 03&lt;/td>
+&lt;td>Building/Asset ID&lt;/td>
+&lt;td>The information is required for the correct communication between the modules. The energy community may have the ability to select which assets (buildings/apartments) should be considered each time&lt;/td>
+&lt;td>BIML, Building Digital Twin Module&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF 04&lt;/td>
+&lt;td>Timeseries of baseline and flexibility&lt;/td>
+&lt;td>Set of timeseries showing the baseline consumption forecast and the available upwards and downwards flexibility&lt;/td>
+&lt;td>Software modules for optimization&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Component Layer, Communication Layer/ DER, Customer Premises/ Building, Operation,&lt;/td>
+&lt;td>UC8&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>2021-04-27T00:00:00&lt;/td>
+&lt;td>CERTH,&lt;/td>
+&lt;td>First proposal of use case&lt;/td>
+&lt;td>Draft&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>Establish the most appropriate sequence of actions and collaboration among the available tools, in order at both end-user level and Energy Community (LEC) Level to participate in an explicit DR event, based on flexibility potential&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>1. Provide optimal solutions at LEC Level, according to the agreed role, i.e. Aggregator, Retailer, ESCO, and based on inputs such as demand/generation flexibility, forecast etc.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2. Provide optimal solutions at end-user level, according to the agreed role of LEC, i.e. Aggregator, Retailer, ESCO, and based on inputs such as demand/generation flexibility, forecast of the particular end-user, in order for the latter to accept or reject any DR events that are offered to him/her.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>UC01 “Monitoring and Visualization of Metering &amp;amp; Sensor Energy Data in community buildings”&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC03 “Consumer demand-side flexibility forecasting”&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC04 “Demand elasticity profiling-forecasting-aggregation”&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC05 “Intra-Day district Level DER flexibility management for community self-balancing”&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC06 “Day-ahead smart charging flexibility quantification via EV usage pattern profiling and forecasting”&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC12 “Retailer day-ahead optimal pricing configuration for aggregated portfolio balancing”&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>Provide DR events at both LEC Level and end-user level, in order to provide appropriate services to the electricity market&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>Regardless of their role, that is ESCO, Retailer or Aggregator, LECs can provide valuable services to both the electricity market and the local DSO, if so requested. Utilizing the appropriate assets available at the moment, their potential and forecast, the decision support system can provide the available option to the Local Energy community manager, and he/she can decide upon the appropriate course of action. This decision will trigger to send the appropriate DR signals to the assets available at that time. These assets can range from a local PV plant to an appliance connected to the grid. The availability of such assets, along with their rated power, current power, flexibility potential and forecast for that time period should be made aware to the LEC manager, in order to assign the appropriate DR signals to the appropriate assets. The availability of those assets is retrieved via notifying the end-users accordingly and having retrieved their informed consent. To that end an appropriate mathematical formulation of the optimization problem at hand will be shaped and the most suitable optimization techniques will be employed, ranging from mixed-integer linear programming to metaheuristics and robust optimization, depending on the circumstances.&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SR-01&lt;/td>
+&lt;td>Number of data security incidents&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>None,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>High&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Regional&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Prosumer/End-User and Local Energy Community in all its roles (ESCO, Retailer, Aggregator)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Explicit Demand Response, Aggregator, DER, prosumer, end-user&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Prosumer/Consumer&lt;/td>
+&lt;td>Stakeholder&lt;/td>
+&lt;td>The end user that consumes or produces also in the case of the prosumer&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Building/district Manager&lt;/td>
+&lt;td>Stakeholder&lt;/td>
+&lt;td>Person who manages property or district assets, usually not the end user of electricity but is responsible for billing and maintenance.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>LEC manager (Aggregator, Retailer, ESCO)&lt;/td>
+&lt;td>Stakeholder&lt;/td>
+&lt;td>Person who manages the whole LEC ecosystem&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Aggregator, DSO&lt;/td>
+&lt;td>Stakeholder&lt;/td>
+&lt;td>External Actor to the LEC strict ecosystem&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>S01&lt;/td>
+&lt;td>Receive DR request&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive DR request&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>S02&lt;/td>
+&lt;td>Provide DR&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Provide DR&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Receive DR request&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Provide DR&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Participation in explicit Demand Response schemes&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>INF01&lt;/td>
+&lt;td>No. DR Events&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>(integer)&lt;/td>
+&lt;td>Number of DR events requested for the upcoming period&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF02&lt;/td>
+&lt;td>DR duration&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>(float)&lt;/td>
+&lt;td>The duration of the DR events requested for the upcoming period&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF03&lt;/td>
+&lt;td>Energy increase/decrease&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>(float)&lt;/td>
+&lt;td>The amount of energy to be in-/de-creased during the DR event&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF04&lt;/td>
+&lt;td>End user preferences&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>(string)&lt;/td>
+&lt;td>Any specific preferences the end user may pertaining the DR events, such as, preferred period for participating in a DR event, preferred appliances for engaging in a DR event (e.g. washing machine, clothe dryer etc.), his/her availability for participating in DR events for the upcoming period, etc.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF05&lt;/td>
+&lt;td>End user energy consumption profile&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>(timeseries)&lt;/td>
+&lt;td>Forecast for the end user energy consumption baseline and upper/lower boundaries.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF06&lt;/td>
+&lt;td>End user DR engagement profile (float)&lt;/td>
+&lt;td>A metric of how actively or non-actively engaged is the end user regarding DR events.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF07&lt;/td>
+&lt;td>timestamp&lt;/td>
+&lt;td>A time instant, which the DR event is to start/end.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>INF08&lt;/td>
+&lt;td>DR control signal&lt;/td>
+&lt;td>An appropriate DR signal to be sent to a particular device, in order to in-/de-crease&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item></channel></rss>
