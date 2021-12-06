@@ -111,8 +111,13 @@ algolia_docsearch = false
 offlineSearch = true
 
 [params.taxonomy]
-taxonomyCloud = ["projects", "tags"] # set taxonomyCloud = [] to hide taxonomy clouds
-taxonomyPageHeader = ["tags", "categories"] # set taxonomyPageHeader = [] to hide taxonomies on the page headers
+taxonomyCloud = ["tags", "categories"] # set taxonomyCloud = [] to hide taxonomy clouds
+# taxonomyCloudTitle = ["Tag Cloud", "Cloud of Categories"] # if used, must have same lang as taxonomyCloud
+# taxonomyPageHeader = ["tags", "categories"] # set taxonomyPageHeader = [] to hide taxonomies on the page headers
+
+[taxonomies]
+tag = "tags"
+category = "categories"
 
 # User interface configuration
 [params.ui]
