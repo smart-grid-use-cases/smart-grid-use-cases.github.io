@@ -5750,18 +5750,8 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>Area: Energy system&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Domain: Transmission, DER, Customer Premises&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Zones: Operation, Market,&lt;/td>
+&lt;td>Area: Energy system, Domain: Transmission, DER, Customer Premises, Zones: Operation, Market,&lt;/td>
 &lt;td>MAESHA&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -5834,41 +5824,39 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;p>One of the goals when considering the frequency use case is to find a way for moving from the energy assets providing frequency services with the help of fossil fuel to assets using renewable energy sources (RES) and Battery Energy Storage Systems (BESS). To further reduce the primary reserve provided by the EDM’s diesel generation sets new sources for providing frequency regulation services are needed to have a direct impact on reduction of CO2 emissions.&lt;/p>
 &lt;p>The main challenges when implementing the frequency control framework are related to the identification of sufficient assets from RES to reduce the required capacity of fossil fueled generators that are capable to provide similar reliable frequency services.&lt;/p>
 &lt;p>The use case describes the interactions between the main actors and platforms but doesn’t discuss the details of the balancing products. The details of the designed balancing products will be defined Deliverable D4.1 Report detailing the energy market framework and specific product design details.&lt;/p>
-&lt;p>For the MAESHA project, it has been decided to examine how different flexibility sources could support the frequency control on the island:
-•Industrial Demand Response
-Industry’s main purpose is manufacturing of goods or provision of other services. Some industrial assets are additionally able to provide a certain help to the system operator by adjusting their internal manufacturing process and thus increase or decrease the consumption for the time being (load shifting) and help minimizing the frequency deviation. Such industrial energy assets usually have some restrictions, such as limited duration of delivery (e.g., max 4 h), poor controllability (e.g., ON-OFF operation), or can provide such action only at a certain time of the day or year. Therefore, industrial demand response is not considered as a primary source for providing balancing services to the power grid, but they may serve as secondary source for additional support when other services are already fully activated (e.g., for emergency measures).&lt;/p>
-&lt;p>• Residential Demand Response managed by a virtual power plant (VPP)
-Residential customers may have flexible loads that end-users do not necessarily need instantaneously to ensure their comfort, e.g., air-conditioning units and electric heating, but also dishwashers, washing machines, cloth dryers, etc. Optimally controlling the on/off times of these devices, considering local frequency deviations, can help in ensuring the frequency stability. Depending on the characteristics of the device, the activation time and activation duration differ. Heat pumps or air conditioning units can be used for frequency response, considering the heat storage capacity of the building or heat storage in a hot water tank. The activation duration depends upon the stored heat capacity in the building or the tank and the comfort requirements of the end-users. These units can be activated very fast (remote switch-off) but their availability is difficult to forecast.&lt;/p>
-&lt;p>• Smart Charging of electric vehicles (EV) and vehicle to grid (V2G)
-Smart charging of EV can be a source of consumption flexibility and theoretically be used even for balancing services. The challenges for provision of FRR by an EV are linked to the prediction of the charging process’ time and duration as well as the limited hours per day, when EV charging can be used for load shifting. Nevertheless, the forecasting of consumption and flexibility becomes easier on a fleet of EVs, as such an aggregate of a higher number of EV’s can provide ancillary services reliably using a minor share of the predicted consumption. Load reduction in EV charging can be achieved by reducing the charging power (e.g., switch from 3-phase to 1-phase charging) of a certain number of vehicles. Advanced fleet management might also allow downward services by increasing the charging power during the requested period. Feed-in of energy stored in the EV’s batteries (V2G) will been investigated as another possibility of upward regulation by EVs but comes with practical drawbacks like possible reduction of battery lifetime and the need for bidirectional inverters. Due to the nature of the fleet management and lower frequency of data acquisition, EV charging will be preferably applied for mFRR than for aFRR or FCR like frequency services.&lt;/p>
-&lt;p>• Virtual Power Plant (VPP) aggregating RES
-The variability of renewable energy sources, such as wind and solar, are causing continuous, small frequency deviations due to their hard to predict short-term dynamics and their lack of synchronous inertia to stabilize the frequency during disturbances. Lowering the output of PV plants (downward regulation) during high frequency periods can support frequency stabilization. If PVs are operated below their maximal inverter power, PV plants can inject additional power into the grid with different activation times, ranging from seconds to minutes during low frequency periods (upward regulation). The latter will result in a reduction of overall generation or require the installation of PV batteries. The activation duration depends on the amount of reserve kept for upward frequency response and will be the result of a cost-benefit analysis, where the outcome depends on the remuneration of the different frequency response products compared to the value of electric energy fed-in by PV. In the last years, much development effort has been made on virtual inertia provided by PV and wind power, which might become state-of-the-art within the next decades.&lt;/p>
-&lt;p>• Battery Energy Storage System
-By supplying or absorbing power in response to deviations from the nominal frequency and imbalances between supply and demand, the rapid response of a BESS will provide a frequency stabilizing services. The fast response capability of BESS allows them to participate in all kinds of frequency response (e.g., FCR, FRR) or even a fast or enhanced frequency response markets (activation in less than 5 s). The BESS will also provide virtual inertia by modulating active power as a function of the ROCOF. The duration of the service provision will be determined by the SoC. BESS providing ancillary services will require an additional charge management to maintain the state of charge (SOC) within predefined limits (e.g., 30%&amp;lt;SOC&amp;lt;70%) in order to ensure the continuous availability of upward and downward regulation ability. Load management (consumption or feed-in) is based on schedules and should be communicated with the SO, e.g., via an intraday program. The BESS should be able to provide multiple balancing services and perform load management in parallel.&lt;/p>
-&lt;p>• Power-to-Hydrogen system
-Proton Exchange Membrane (PEM) electrolysers have the capability of modifying their load rapidly with very high ramps rates (i.e., within seconds) and within a wide operational range up to the nominal power. This flexibility can be utilized for large range of frequency regulation (e.g., FCR, aFRR, mFRR). Despite the hydrogen storage capacity, there is no limit in the duration of the service as the service is provided by reducing/increasing the load of the electrolyser.&lt;/p>
+&lt;p>For the MAESHA project, it has been decided to examine how different flexibility sources could support the frequency control on the island:&lt;/p>
+&lt;p>•Industrial Demand Response&lt;/p>
+&lt;p>Industry’s main purpose is manufacturing of goods or provision of other services. Some industrial assets are additionally able to provide a certain help to the system operator by adjusting their internal manufacturing process and thus increase or decrease the consumption for the time being (load shifting) and help minimizing the frequency deviation. Such industrial energy assets usually have some restrictions, such as limited duration of delivery (e.g., max 4 h), poor controllability (e.g., ON-OFF operation), or can provide such action only at a certain time of the day or year. Therefore, industrial demand response is not considered as a primary source for providing balancing services to the power grid, but they may serve as secondary source for additional support when other services are already fully activated (e.g., for emergency measures).&lt;/p>
+&lt;p>• Residential Demand Response managed by a virtual power plant (VPP)&lt;/p>
+&lt;p>Residential customers may have flexible loads that end-users do not necessarily need instantaneously to ensure their comfort, e.g., air-conditioning units and electric heating, but also dishwashers, washing machines, cloth dryers, etc. Optimally controlling the on/off times of these devices, considering local frequency deviations, can help in ensuring the frequency stability. Depending on the characteristics of the device, the activation time and activation duration differ. Heat pumps or air conditioning units can be used for frequency response, considering the heat storage capacity of the building or heat storage in a hot water tank. The activation duration depends upon the stored heat capacity in the building or the tank and the comfort requirements of the end-users. These units can be activated very fast (remote switch-off) but their availability is difficult to forecast.&lt;/p>
+&lt;p>• Smart Charging of electric vehicles (EV) and vehicle to grid (V2G)&lt;/p>
+&lt;p>Smart charging of EV can be a source of consumption flexibility and theoretically be used even for balancing services. The challenges for provision of FRR by an EV are linked to the prediction of the charging process’ time and duration as well as the limited hours per day, when EV charging can be used for load shifting. Nevertheless, the forecasting of consumption and flexibility becomes easier on a fleet of EVs, as such an aggregate of a higher number of EV’s can provide ancillary services reliably using a minor share of the predicted consumption. Load reduction in EV charging can be achieved by reducing the charging power (e.g., switch from 3-phase to 1-phase charging) of a certain number of vehicles. Advanced fleet management might also allow downward services by increasing the charging power during the requested period. Feed-in of energy stored in the EV’s batteries (V2G) will been investigated as another possibility of upward regulation by EVs but comes with practical drawbacks like possible reduction of battery lifetime and the need for bidirectional inverters. Due to the nature of the fleet management and lower frequency of data acquisition, EV charging will be preferably applied for mFRR than for aFRR or FCR like frequency services.&lt;/p>
+&lt;p>• Virtual Power Plant (VPP) aggregating RES&lt;/p>
+&lt;p>The variability of renewable energy sources, such as wind and solar, are causing continuous, small frequency deviations due to their hard to predict short-term dynamics and their lack of synchronous inertia to stabilize the frequency during disturbances. Lowering the output of PV plants (downward regulation) during high frequency periods can support frequency stabilization. If PVs are operated below their maximal inverter power, PV plants can inject additional power into the grid with different activation times, ranging from seconds to minutes during low frequency periods (upward regulation). The latter will result in a reduction of overall generation or require the installation of PV batteries. The activation duration depends on the amount of reserve kept for upward frequency response and will be the result of a cost-benefit analysis, where the outcome depends on the remuneration of the different frequency response products compared to the value of electric energy fed-in by PV. In the last years, much development effort has been made on virtual inertia provided by PV and wind power, which might become state-of-the-art within the next decades.&lt;/p>
+&lt;p>• Battery Energy Storage System&lt;/p>
+&lt;p>By supplying or absorbing power in response to deviations from the nominal frequency and imbalances between supply and demand, the rapid response of a BESS will provide a frequency stabilizing services. The fast response capability of BESS allows them to participate in all kinds of frequency response (e.g., FCR, FRR) or even a fast or enhanced frequency response markets (activation in less than 5 s). The BESS will also provide virtual inertia by modulating active power as a function of the ROCOF. The duration of the service provision will be determined by the SoC. BESS providing ancillary services will require an additional charge management to maintain the state of charge (SOC) within predefined limits (e.g., 30%&amp;lt;SOC&amp;lt;70%) in order to ensure the continuous availability of upward and downward regulation ability. Load management (consumption or feed-in) is based on schedules and should be communicated with the SO, e.g., via an intraday program. The BESS should be able to provide multiple balancing services and perform load management in parallel.&lt;/p>
+&lt;p>• Power-to-Hydrogen system&lt;/p>
+&lt;p>Proton Exchange Membrane (PEM) electrolysers have the capability of modifying their load rapidly with very high ramps rates (i.e., within seconds) and within a wide operational range up to the nominal power. This flexibility can be utilized for large range of frequency regulation (e.g., FCR, aFRR, mFRR). Despite the hydrogen storage capacity, there is no limit in the duration of the service as the service is provided by reducing/increasing the load of the electrolyser.&lt;/p>
 &lt;p>These DER provide their flexibility to the SO via the FMTP, as indicated in Figure below.&lt;/p>
 &lt;p>[See figure &amp;ldquo;Architecture overview for frequency control in MAESHA&amp;rdquo; below]&lt;/p>
 &lt;p>Functions&lt;/p>
 &lt;p>This Use Case relies on the following functions:
-• Asset contraction and technical preparation, incl. pre-qualification
-• Detection of frequency deviations
-• Evaluation of flexibility available from different assets or via intermediate platforms
-• Contracting balancing service products
-• Calculation of setpoints by the AGC of the SO
-• Flexibility activation through the Flexibility Management and Trading Platform (FMTP)
-• Monitoring of service provision
-• Settlement process to remunerate flexibility activation&lt;/p>
-&lt;p>This Use Case supports a technology-agnostic approach for provision of balancing services by central or decentralized energy assets. In the MAESHA project, the following technologies are aimed to be investigated in the scope of the use case demonstration.&lt;br>
-Investigated technology options for provision of balancing services&lt;/p>
-&lt;p>The following technology options to provision of balancing services are aimed to be supported by the use case:
-• Detection of frequency deviations, central by SO or decentral by the DER
-• Frequency regulation by industrial DR
-• Frequency regulation by residential DR via VPP
-• Frequency regulation by Smart charging/V2G
-• Frequency regulation by RES via VPP
-• Frequency regulation by BESS
-• Frequency regulation by P2H system&lt;/p>
+•Asset contraction and technical preparation, incl. pre-qualification
+•Detection of frequency deviations
+•Evaluation of flexibility available from different assets or via intermediate platforms
+•Contracting balancing service products
+•Calculation of setpoints by the AGC of the SO
+•Flexibility activation through the Flexibility Management and Trading Platform (FMTP)
+•Monitoring of service provision
+•Settlement process to remunerate flexibility activation&lt;/p>
+&lt;p>This Use Case supports a technology-agnostic approach for provision of balancing services by central or decentralized energy assets. In the MAESHA project, the following technologies are aimed to be investigated in the scope of the use case demonstration:
+•Detection of frequency deviations, central by SO or decentral by the DER
+•Frequency regulation by industrial DR
+•Frequency regulation by residential DR via VPP
+•Frequency regulation by Smart charging/V2G
+•Frequency regulation by RES via VPP
+•Frequency regulation by BESS
+•Frequency regulation by P2H system&lt;/p>
 &lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -6656,26 +6644,14 @@ Investigated technology options for provision of balancing services&lt;/p>
 &lt;tr>
 &lt;td>IE-06-06&lt;/td>
 &lt;td>Individual FRR monitoring data&lt;/td>
-&lt;td>Monitoring data of individual DER, which is sent to an intermediate platform&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Datapoints: active power, baseline, setpoint, FRR activation, control bandwidth&lt;/td>
+&lt;td>Monitoring data of individual DER, which is sent to an intermediate platform. Datapoints: active power, baseline, setpoint, FRR activation, control bandwidth&lt;/td>
 &lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>IE-06-07&lt;/td>
 &lt;td>Aggregated FRR monitoring data&lt;/td>
-&lt;td>Aggregated monitoring data of a pool of DER (managed by an intermediary platform), which is sent to the FMTP.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Datapoints: active power, baseline, setpoint, FRR activation, control bandwidth&lt;/td>
+&lt;td>Aggregated monitoring data of a pool of DER (managed by an intermediary platform), which is sent to the FMTP. Datapoints: active power, baseline, setpoint, FRR activation, control bandwidth&lt;/td>
 &lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>IE-07-01&lt;/td>
