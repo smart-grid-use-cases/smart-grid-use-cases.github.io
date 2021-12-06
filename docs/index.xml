@@ -5736,6 +5736,989 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;/table></description></item><item><title>Docs: MAESHA</title><link>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Area: Energy system&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Domain: Transmission, DER, Customer Premises&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Zones: Operation, Market,&lt;/td>
+&lt;td>MAESHA&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.0&lt;/td>
+&lt;td>2021-10-31T00:00:00&lt;/td>
+&lt;td>Andraž Andolšek (cyberGRID), Christoph Gutschi (cyberGRID), Marjolaine Farré (Trialog), Elchaysse Soudjae (Electricité de Mayotte),&lt;/td>
+&lt;td>First version&lt;/td>
+&lt;td>Final&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>The scope of this use case is to examine the use of flexibility to restore system frequency to its nominal value of 50 Hz.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>The main objective of this use case is to stabilize the electricity grid of the islands by establishing balancing services. Implementing the balancing services framework will help system operators to maintain the equilibrium between consumption and generation while minimizing the frequency deviation from the nominal values.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>Linked to “Voltage control” UC (UC2) as potential conflicts within flexibility products could appear.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>This high-level use case describes different scenarios incl. all required steps for the implementation of a tender based frequency control system. The UC differentiates between FCR (frequency containment reserve) and FRR (frequency restoration reserve) services. The explained approach is technology agnostic and supports any kind of flexibility resource, that can meet the technical requirements for balancing service provision. A common approach to handle different technologies for flexibility provision (industrial demand response, residential demand response aggregated by a VPP, smart charging of electric vehicles, aggregation of renewables (PV) via a VPP, battery energy storage, power-to-hydrogen electrolyser) is explained.&lt;/p>
+&lt;p>The scope of the use case includes dimensioning of balancing service reserves for an islanding system, prequalification of suitable distributed energy assets and intermediary platforms (Virtual Power Plants, VPPs), tendering and contracting balancing services, balancing service activation, monitoring, validation, and remuneration.&lt;/p>
+&lt;p>All periodic communication between the system operator and the market participants, like bidding, monitoring and activation is organized via a Flexibility Management and Trading Platform (FMTP).&lt;/p>
+&lt;p>The use case focuses on the situation on the Island of Mayotte and aims to adapt to the historically grown infrastructure and processes, but also takes into account updates of the system operators SCADA in the near future.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>Introduction to balancing services for frequency control&lt;/p>
+&lt;p>The system operator Electricité de Mayotte (EDM), responsible for grid operation and supply of electric energy, needs to maintain the network frequency within a narrow bandwidth (+300 / -200 mHz) around 50 Hz. Frequency deviation is a consequence of an imbalance between generation (feed-in to the grid) and consumption (extraction from the grid) including losses of the grid itself. These imbalances are mainly caused by unpredictable fluctuations of the load (low impact on the grid frequency), general imprecisions in the load forecasting that cause improper generation schedules (medium impact) or rare fault-induced disconnection of entire branches or substations or even unexpected loss of generation (high impact). Until now, the electricity system in Mayotte relied on fast adaption of the generation of spinning diesel engines to balance the load fluctuations. These diesel engines also cover for the main generation schedule.&lt;/p>
+&lt;p>The mechanisms to maintain the grid frequency within a narrow bandwidth can be distinguished between three main types of control, as shown in Figure 24. After an incident like the unexpected outage of a generator, the imbalance between load and generation causes an immediate decrease of the grid frequency, which is mainly limited by the kinetic energy stored in spinning machines (synchronous inertia). The higher the inertia of the rotating machines connected to the grid, the lower the gradient of frequency change (Df/Dt), also known as rate of change in frequency (ROCOF). The frequency stabilization by inertia is a physical effect, responding spontaneously to any frequency gradient and acting in both directions. New generations of inverters can provide a frequency gradient dependent feed-in (with only a minor time lag), which can be considered as “virtual inertia”.&lt;/p>
+&lt;p>[See figure &amp;ldquo;Overview of phases of frequency control after a major outage&amp;rdquo; below]&lt;/p>
+&lt;p>The frequency containment reserve (FCR), also known as primary control, provides a variable feed-in linearly depending on the deviation of the frequency (Df) from the target value of 50 Hz. FCR is required to act very fast. The required full activation time (FAT) is determined by the considered maximum imbalance (e.g., due to loss of the largest generation unit in the system), the maximum allowed frequency deviation and the typical inertia of the system. FCR is a very fast service that requires frequency measurements and control logic directly at the providing asset, usually a generator or battery. Some loads controlled by power electronics might also be feasible to provide FCR. Usually, FCR is a symmetric service that acts in both directions. The linear function of FCR power only depending on the frequency deviation enables a fast response to limit the frequency deviation but does not allow to bring the frequency back to the target value.
+Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate between Frequency Containment Reserve for Normal Operation (FCR-N) and Frequency Containment Reserve for Disturbances (FCR-D). FCR-N is a symmetric service providing upregulation and downregulation with a linear characteristic while FCR-D differentiate between upward (increase feed-in or decrease consumption) and downward (decrease feed-in or increase consumption) regulation. FCR-D is only activated after exceeding a threshold value of frequency deviation.&lt;/p>
+&lt;p>[See figure &amp;ldquo;FCR architecture overview&amp;rdquo; below]&lt;/p>
+&lt;p>The frequency restoration reserve FRR is managed by the system operator (SO) using the automatic generation control (AGC). The AGC calculates setpoints for multiple balancing providing assets (generators, batteries but also fast and precisely controllable loads like electrolyser). After reception of the setpoint the assets will adapt the power output within a defined FAT that may be longer than required for FCR. The AGC aims to bring the system frequency back to the target value. FRR requires reliable communication between the central AGC and the distributed assets. FRR can be divided into positive products for upward control and negative products for downward control. European TSO differentiate between faster, automatically controlled reserves (aFRR), that follow to instantaneous setpoints, and slower reserves that might be manually controlled (mFRR) and follow to received schedules.&lt;/p>
+&lt;p>[See figure &amp;ldquo;FRR architecture overview&amp;rdquo; below]&lt;/p>
+&lt;p>FCR and FRR provision in Europe usually require active power measurements with high precision (e.g., 0.5% error class) and submission of data points to the SO in short intervals (e.g., 1-2 s) for the purpose of real-time monitoring of provision and ex-post validation of the provided services.&lt;/p>
+&lt;p>Additional Emergency measures will be activated in case that the frequency regulation system failed, and the frequency deviation exceeds defined thresholds. Emergency measure can include load shedding, disconnection of large, robust consumers or disconnection of generators. The rules for frequency protection devices to disconnect sensible assets in case of high frequency deviations must be defined accordingly to support system frequency stabilization and to avoid negative feedback on the frequency control mechanisms.&lt;/p>
+&lt;p>Context&lt;/p>
+&lt;p>The rising number of PV power plants to be installed and connected to the main grid in Mayotte may increase the difficulty of frequency control as the production is highly dependent on weather conditions challenging to forecast (e.g., a passing cloud leads to a decline in PV production) which may increase the imbalances between generation and consumption. With increasing number of PV generation, partly replacing diesel generators the ratio of spinning machines in the system will be reduced which has negative impact on the synchronous inertia. To avoid reaching low frequency thresholds leading to load shedding (48.5 Hz, 48 Hz and 47.5 Hz), the French Energy Regulatory Commission (CRE) granted an exemption to EDM to operate the grid at a higher frequency. The current mean frequency value is thus of 50.15 Hz, higher than the 50 Hz stipulated in the EU Electricity Network code.&lt;/p>
+&lt;p>The main balancing service to cope with the frequency deviation currently applied on the island of Mayotte is the “primary reserve” (covering FCR and FRR), which is estimated at 15% of the daily demand and mainly supported by the EDM diesel generation sets of Longoni and Badamiers. The generators are limited to operate at 80-85% of their maximal capacity. For the past few years, the primary reserve hadn’t exceeded 8 MW, but this will change soon with an expected rising demand and RES integration.&lt;/p>
+&lt;p>To stabilize the frequency in the island and ease the penetration of renewable energy, the French Energy Regulatory Commission CRE launched a call for tender to install a battery for frequency control in July 2018. This 4 MW/2 MWh battery should be installed and be ready to operate in October 2021. Following this installation, the exemption (of higher system frequency) should disappear for the time-being. It is estimated that further investments will be needed to fulfil the requirements that are foreseen in the future.&lt;/p>
+&lt;p>One of the goals when considering the frequency use case is to find a way for moving from the energy assets providing frequency services with the help of fossil fuel to assets using renewable energy sources (RES) and Battery Energy Storage Systems (BESS). To further reduce the primary reserve provided by the EDM’s diesel generation sets new sources for providing frequency regulation services are needed to have a direct impact on reduction of CO2 emissions.&lt;/p>
+&lt;p>The main challenges when implementing the frequency control framework are related to the identification of sufficient assets from RES to reduce the required capacity of fossil fueled generators that are capable to provide similar reliable frequency services.&lt;/p>
+&lt;p>The use case describes the interactions between the main actors and platforms but doesn’t discuss the details of the balancing products. The details of the designed balancing products will be defined Deliverable D4.1 Report detailing the energy market framework and specific product design details.&lt;/p>
+&lt;p>For the MAESHA project, it has been decided to examine how different flexibility sources could support the frequency control on the island:
+•Industrial Demand Response
+Industry’s main purpose is manufacturing of goods or provision of other services. Some industrial assets are additionally able to provide a certain help to the system operator by adjusting their internal manufacturing process and thus increase or decrease the consumption for the time being (load shifting) and help minimizing the frequency deviation. Such industrial energy assets usually have some restrictions, such as limited duration of delivery (e.g., max 4 h), poor controllability (e.g., ON-OFF operation), or can provide such action only at a certain time of the day or year. Therefore, industrial demand response is not considered as a primary source for providing balancing services to the power grid, but they may serve as secondary source for additional support when other services are already fully activated (e.g., for emergency measures).&lt;/p>
+&lt;p>• Residential Demand Response managed by a virtual power plant (VPP)
+Residential customers may have flexible loads that end-users do not necessarily need instantaneously to ensure their comfort, e.g., air-conditioning units and electric heating, but also dishwashers, washing machines, cloth dryers, etc. Optimally controlling the on/off times of these devices, considering local frequency deviations, can help in ensuring the frequency stability. Depending on the characteristics of the device, the activation time and activation duration differ. Heat pumps or air conditioning units can be used for frequency response, considering the heat storage capacity of the building or heat storage in a hot water tank. The activation duration depends upon the stored heat capacity in the building or the tank and the comfort requirements of the end-users. These units can be activated very fast (remote switch-off) but their availability is difficult to forecast.&lt;/p>
+&lt;p>• Smart Charging of electric vehicles (EV) and vehicle to grid (V2G)
+Smart charging of EV can be a source of consumption flexibility and theoretically be used even for balancing services. The challenges for provision of FRR by an EV are linked to the prediction of the charging process’ time and duration as well as the limited hours per day, when EV charging can be used for load shifting. Nevertheless, the forecasting of consumption and flexibility becomes easier on a fleet of EVs, as such an aggregate of a higher number of EV’s can provide ancillary services reliably using a minor share of the predicted consumption. Load reduction in EV charging can be achieved by reducing the charging power (e.g., switch from 3-phase to 1-phase charging) of a certain number of vehicles. Advanced fleet management might also allow downward services by increasing the charging power during the requested period. Feed-in of energy stored in the EV’s batteries (V2G) will been investigated as another possibility of upward regulation by EVs but comes with practical drawbacks like possible reduction of battery lifetime and the need for bidirectional inverters. Due to the nature of the fleet management and lower frequency of data acquisition, EV charging will be preferably applied for mFRR than for aFRR or FCR like frequency services.&lt;/p>
+&lt;p>• Virtual Power Plant (VPP) aggregating RES
+The variability of renewable energy sources, such as wind and solar, are causing continuous, small frequency deviations due to their hard to predict short-term dynamics and their lack of synchronous inertia to stabilize the frequency during disturbances. Lowering the output of PV plants (downward regulation) during high frequency periods can support frequency stabilization. If PVs are operated below their maximal inverter power, PV plants can inject additional power into the grid with different activation times, ranging from seconds to minutes during low frequency periods (upward regulation). The latter will result in a reduction of overall generation or require the installation of PV batteries. The activation duration depends on the amount of reserve kept for upward frequency response and will be the result of a cost-benefit analysis, where the outcome depends on the remuneration of the different frequency response products compared to the value of electric energy fed-in by PV. In the last years, much development effort has been made on virtual inertia provided by PV and wind power, which might become state-of-the-art within the next decades.&lt;/p>
+&lt;p>• Battery Energy Storage System
+By supplying or absorbing power in response to deviations from the nominal frequency and imbalances between supply and demand, the rapid response of a BESS will provide a frequency stabilizing services. The fast response capability of BESS allows them to participate in all kinds of frequency response (e.g., FCR, FRR) or even a fast or enhanced frequency response markets (activation in less than 5 s). The BESS will also provide virtual inertia by modulating active power as a function of the ROCOF. The duration of the service provision will be determined by the SoC. BESS providing ancillary services will require an additional charge management to maintain the state of charge (SOC) within predefined limits (e.g., 30%&amp;lt;SOC&amp;lt;70%) in order to ensure the continuous availability of upward and downward regulation ability. Load management (consumption or feed-in) is based on schedules and should be communicated with the SO, e.g., via an intraday program. The BESS should be able to provide multiple balancing services and perform load management in parallel.&lt;/p>
+&lt;p>• Power-to-Hydrogen system
+Proton Exchange Membrane (PEM) electrolysers have the capability of modifying their load rapidly with very high ramps rates (i.e., within seconds) and within a wide operational range up to the nominal power. This flexibility can be utilized for large range of frequency regulation (e.g., FCR, aFRR, mFRR). Despite the hydrogen storage capacity, there is no limit in the duration of the service as the service is provided by reducing/increasing the load of the electrolyser.&lt;/p>
+&lt;p>These DER provide their flexibility to the SO via the FMTP, as indicated in Figure below.&lt;/p>
+&lt;p>[See figure &amp;ldquo;Architecture overview for frequency control in MAESHA&amp;rdquo; below]&lt;/p>
+&lt;p>Functions&lt;/p>
+&lt;p>This Use Case relies on the following functions:
+• Asset contraction and technical preparation, incl. pre-qualification
+• Detection of frequency deviations
+• Evaluation of flexibility available from different assets or via intermediate platforms
+• Contracting balancing service products
+• Calculation of setpoints by the AGC of the SO
+• Flexibility activation through the Flexibility Management and Trading Platform (FMTP)
+• Monitoring of service provision
+• Settlement process to remunerate flexibility activation&lt;/p>
+&lt;p>This Use Case supports a technology-agnostic approach for provision of balancing services by central or decentralized energy assets. In the MAESHA project, the following technologies are aimed to be investigated in the scope of the use case demonstration.&lt;br>
+Investigated technology options for provision of balancing services&lt;/p>
+&lt;p>The following technology options to provision of balancing services are aimed to be supported by the use case:
+• Detection of frequency deviations, central by SO or decentral by the DER
+• Frequency regulation by industrial DR
+• Frequency regulation by residential DR via VPP
+• Frequency regulation by Smart charging/V2G
+• Frequency regulation by RES via VPP
+• Frequency regulation by BESS
+• Frequency regulation by P2H system&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>4.2&lt;/td>
+&lt;td>Frequency range before and after the project&lt;/td>
+&lt;td>From [49.6;50.6] to [49.8;50.3] Hz&lt;/td>
+&lt;td>/,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>MAESHA&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>MAESHA&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Obligatory. This UC should be demonstrated under real-life conditions&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Regional relation&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Technical and business UC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Balancing services, load-frequency control, demand response, flexibility, distributed energy resources (DER)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="BusinessLayer_FrequencyControlUC" alt="SGAM Business layer of the frequency control use case-specific architecture">
+&lt;img src="FunctionLayer_FrequencyControlUC" alt="SGAM Function layer of the frequency control use case-specific architecture">
+&lt;img src="FrequencyControlPhasesAfterMajorOutage" alt="Overview of phases of frequency control after a major outage">
+&lt;img src="FCR_Architecture" alt="FCR achitecture overview">
+&lt;img src="FRR_Architecture" alt="FRR achitecture overview">
+&lt;img src="FrequencyControlArchi_OverviewMAESHA" alt="Architecture overview for frequency control in MAESHA">&lt;/p>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>TSO&lt;/td>
+&lt;td>Business actor&lt;/td>
+&lt;td>Transmission System Operator&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Flexibility provider&lt;/td>
+&lt;td>Business actor&lt;/td>
+&lt;td>Generic presentation of the energy asset capable of providing flexibility on request (balancing service provider)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Residential prosumer&lt;/td>
+&lt;td>Business actor&lt;/td>
+&lt;td>A residential party that consumers electricity (Flexibility Provider)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Industrial prosumer&lt;/td>
+&lt;td>Business actor&lt;/td>
+&lt;td>An industrial party that consumes electricity (Flexibility Provider)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SCADA&lt;/td>
+&lt;td>Logical actor&lt;/td>
+&lt;td>Supervisory Control and Data Acquisition – a supervisory computerized system that gathers and processes data and applies operational controls for transmission side systems used to control dispersed assets&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AGC&lt;/td>
+&lt;td>Logical actor&lt;/td>
+&lt;td>Automatic gain control. Process to determine the amount of power needed to bring back the frequency to the nominal values.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Intermediate platform&lt;/td>
+&lt;td>Logical actor&lt;/td>
+&lt;td>Platform that aggregates flexibility energy assets (virtual power plant, EV charging management platform)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Small-scale virtual power plant&lt;/td>
+&lt;td>Logical actor&lt;/td>
+&lt;td>This is a type of Intermediate platforms. Software platform that aggregates the flexibility of residential prosumers and PV power plants&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Large-scale virtual power plant&lt;/td>
+&lt;td>Logical actor&lt;/td>
+&lt;td>This is a type of Intermediate platforms. Software platform that aggregates the flexibility of industrial energy assets and BESS&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EV charging management platform&lt;/td>
+&lt;td>Logical actor&lt;/td>
+&lt;td>A platform that manages and aggregates the charging power of multiple EV charging stations&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>FMTP&lt;/td>
+&lt;td>Logical actor&lt;/td>
+&lt;td>Flexibility Management and Trading Platform&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Distributed Energy Resource (DER)&lt;/td>
+&lt;td>Asset&lt;/td>
+&lt;td>Generic presentation of the energy asset providing flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PV power plant&lt;/td>
+&lt;td>Asset&lt;/td>
+&lt;td>Renewable energy source able to provide flexibility of feed-in&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Battery&lt;/td>
+&lt;td>Asset&lt;/td>
+&lt;td>Energy storage system capable of providing different services to the grid&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>P2H system&lt;/td>
+&lt;td>Asset&lt;/td>
+&lt;td>System to convert electricity (optimally from RES) into hydrogen that can be stored to use it eventually for different purposes (feedstock, electricity production, fuel)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Diesel generator&lt;/td>
+&lt;td>Asset&lt;/td>
+&lt;td>Synchronous generators&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EV charging station&lt;/td>
+&lt;td>Device&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Operational guidelines&lt;/td>
+&lt;td>Operational guidelines from ENTSO-E&lt;/td>
+&lt;td>Final&lt;/td>
+&lt;td>Medium&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://eepublicdownloads.entsoe.eu/clean-documents/pre2015/publications/entsoe/Operation_Handbook/Policy_1_final.pdf">https://eepublicdownloads.entsoe.eu/clean-documents/pre2015/publications/entsoe/Operation_Handbook/Policy_1_final.pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Operational guidelines&lt;/td>
+&lt;td>Operational guidelines from the French government&lt;/td>
+&lt;td>Final&lt;/td>
+&lt;td>High&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://codes.droit.org/PDF/Code%20de%20l'%C3%A9nergie.pdf">https://codes.droit.org/PDF/Code%20de%20l'%C3%A9nergie.pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Role model&lt;/td>
+&lt;td>ENTSO-E Role model&lt;/td>
+&lt;td>Version 2020-01&lt;/td>
+&lt;td>Medium&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://www.entsoe.eu/digital/cim/role-models/#harmonised-electricity-role-model">https://www.entsoe.eu/digital/cim/role-models/#harmonised-electricity-role-model&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Sc1&lt;/td>
+&lt;td>Frequency reserve requirements&lt;/td>
+&lt;td>Calculating the amount of FCR and FRR needed&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Frequency reserve requirements&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sc2&lt;/td>
+&lt;td>Detection of the frequency issues - FCR&lt;/td>
+&lt;td>Detection of the frequency deviations locally on the site of the flexibility provider&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Detection of the frequency issues - FCR&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sc3&lt;/td>
+&lt;td>Detection of the frequency issues - FRR&lt;/td>
+&lt;td>Detection of the frequency deviations centrally in the SCADA&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Detection of the frequency issues - FRR&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sc4&lt;/td>
+&lt;td>Contracting balancing service products&lt;/td>
+&lt;td>Contractual obligations between the SO (EDM) and the flexibility providers&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Contracting balancing service products&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sc5&lt;/td>
+&lt;td>Flexibility activation through local controller - FCR&lt;/td>
+&lt;td>Activation of the flexibility providers automatically using its local controller&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Flexibility activation through local controller - FCR&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sc6&lt;/td>
+&lt;td>Flexibility activation through the Flexibility Management and Trading Platform (FMTP) - FRR&lt;/td>
+&lt;td>Activation of the flexibility providers automatically using centralized platform - FMTP&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Flexibility activation through the Flexibility Management and Trading Platform (FMTP) - FRR&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sc7&lt;/td>
+&lt;td>Settlement process to remunerate flexibility activation&lt;/td>
+&lt;td>Validation and settlement of the activation responses&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Settlement process to remunerate flexibility activation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sc8&lt;/td>
+&lt;td>Frequency control by flexibility provider&lt;/td>
+&lt;td>The process of flexibility provision by the flexibility provider&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Frequency control by flexibility provider&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Frequency reserve requirements&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Detection of the frequency issues - FCR&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Detection of the frequency issues - FRR&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Contracting balancing service products&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Flexibility activation through local controller - FCR&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Flexibility activation through the Flexibility Management and Trading Platform (FMTP) - FRR&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Settlement process to remunerate flexibility activation&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Frequency control by flexibility provider&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Frequency control&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>IE-01-01&lt;/td>
+&lt;td>frequency band-width and emergency thresholds&lt;/td>
+&lt;td>Predefined bandwidth of allowed system frequency, including target value (50 Hz) and thresholds for initiating emergency measures&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-01-02&lt;/td>
+&lt;td>System model&lt;/td>
+&lt;td>Model of the power system supporting dynamic analyses&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-01-03&lt;/td>
+&lt;td>historic measurements&lt;/td>
+&lt;td>Historic timeseries of measured generation, consumption and system frequency&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-01-04&lt;/td>
+&lt;td>Fault statistics&lt;/td>
+&lt;td>Statistics of faults in the power system that are relevant for balancing reserve dimensioning&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-01-05&lt;/td>
+&lt;td>Consumption forecasts&lt;/td>
+&lt;td>Mid-term (timeseries) of the total consumption&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-01-06&lt;/td>
+&lt;td>Design scenarios&lt;/td>
+&lt;td>Expected critical situations (e.g., yearly peak load, separation of parts of the grid, etc.) relevant for balancing reserve dimensioning&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-01-07&lt;/td>
+&lt;td>Required amount of balancing reserve&lt;/td>
+&lt;td>Required number of balancing reserves to ensure a stable operation of the power system, (e.g., 99.975% reliability)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-01-08&lt;/td>
+&lt;td>Balancing products and requirements&lt;/td>
+&lt;td>Definition of balancing products and requirements comprising: products (duration, min. bid size, direction, tolerances)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-02-01&lt;/td>
+&lt;td>Network frequency&lt;/td>
+&lt;td>Actual measurements of network frequency measured on-site by DER&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-02-02&lt;/td>
+&lt;td>Frequency deviation&lt;/td>
+&lt;td>Actual frequency deviation detected on-site at DER&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-03-01&lt;/td>
+&lt;td>Grid Frequency&lt;/td>
+&lt;td>Actual measurements of grid frequency centrally acquired by SO&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-03-02&lt;/td>
+&lt;td>Frequency deviation&lt;/td>
+&lt;td>Actual frequency deviation detected centrally by SO&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-03-03&lt;/td>
+&lt;td>Updated FRR setpoint&lt;/td>
+&lt;td>Actual FRR setpoint calculated by AGC, sum for all assets participating in FRR service provision&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-04-01&lt;/td>
+&lt;td>Balancing services rules&lt;/td>
+&lt;td>The document describing the rules for participation in balancing services, their technical and administrative requirements and tendered products, as well as the prequalification procedure&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-04-02&lt;/td>
+&lt;td>Request for prequalification of DER&lt;/td>
+&lt;td>The flexibility provider (DER operator) applies for the prequalification for the balancing service participation.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-04-03&lt;/td>
+&lt;td>Request for prequalification of platform&lt;/td>
+&lt;td>The aggregator (intermediate platform operator) applies for the prequalification for the balancing service participation.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-04-04&lt;/td>
+&lt;td>Confirmation of prequalification&lt;/td>
+&lt;td>The SO confirms the successful prequalification of a DER or platform. Confirmation may need to be renewed after an expiry period.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-04-05&lt;/td>
+&lt;td>Rules and schedules of balancing service tender&lt;/td>
+&lt;td>The SO publishes the rules and schedules of balancing service tender, including description of tendered balancing service products.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-04-06&lt;/td>
+&lt;td>Balancing service bid document&lt;/td>
+&lt;td>The aggregator or flexibility provider participates in the tender for balancing services by submitting one or multiple binding bids. Bids contains ID of bidder, date, timespan, product ID, power, capacity price, energy price.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-04-07&lt;/td>
+&lt;td>Balancing service bid acceptance&lt;/td>
+&lt;td>The SO informs the bidders about acceptance or rejection of the bids submitted in the tender.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-05-01&lt;/td>
+&lt;td>FCR provision enabled&lt;/td>
+&lt;td>The (PLC of the) DER enabled the FCR functionality and starts detecting the frequency deviations.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-05-02&lt;/td>
+&lt;td>FCR setpoint&lt;/td>
+&lt;td>FCR setpoint calculated on-site by PLC (DER)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-05-03&lt;/td>
+&lt;td>FCR monitoring data&lt;/td>
+&lt;td>The FCR monitoring data includes local measurements of frequency, active power, calculated setpoint, actual FCR provision. It is submitted in short intervals (e.g., of 2s).&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-05-04&lt;/td>
+&lt;td>FCR validation report&lt;/td>
+&lt;td>The FCR validation report summarizes the quality of FCR service provision of a flexibility provider.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-06-01&lt;/td>
+&lt;td>FRR provision enabled&lt;/td>
+&lt;td>The (PLC of the) DER enabled the FCR functionality and starts listening for incoming setpoints&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-06-02&lt;/td>
+&lt;td>FRR setpoints for central balancing assets&lt;/td>
+&lt;td>FRR setpoints for central balancing assets (controlled by the SO)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-06-03&lt;/td>
+&lt;td>FRR setpoint for DER&lt;/td>
+&lt;td>FRR setpoints for DER (controlled by 3rd party flexibility providers)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-06-04&lt;/td>
+&lt;td>FRR Activation requests&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-06-05&lt;/td>
+&lt;td>Individual FRR setpoints&lt;/td>
+&lt;td>Individual FRR setpoints for DER controlled via an intermedia platform&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-06-06&lt;/td>
+&lt;td>Individual FRR monitoring data&lt;/td>
+&lt;td>Monitoring data of individual DER, which is sent to an intermediate platform&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Datapoints: active power, baseline, setpoint, FRR activation, control bandwidth&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-06-07&lt;/td>
+&lt;td>Aggregated FRR monitoring data&lt;/td>
+&lt;td>Aggregated monitoring data of a pool of DER (managed by an intermediary platform), which is sent to the FMTP.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Datapoints: active power, baseline, setpoint, FRR activation, control bandwidth&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-07-01&lt;/td>
+&lt;td>Daily balancing service accounting&lt;/td>
+&lt;td>Accounting of provided balancing energy and related costs (according to balancing service bid document), created on d+1&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-07-02&lt;/td>
+&lt;td>Monthly balancing service accounting and remuneration report&lt;/td>
+&lt;td>Monthly sum of Daily balancing service accounting positions, which are used for remuneration of the flexibility provider&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-08-01&lt;/td>
+&lt;td>Forecast of flexible capacity and costs&lt;/td>
+&lt;td>The forecast of flexible capacity and costs of a DER is generated for the entire upcoming product duration, that is tendered.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-08-02&lt;/td>
+&lt;td>Flexibility merit order&lt;/td>
+&lt;td>The flexibility merit order sorts the DER’s flexibility forecasts according to their costs (from cheapest to most expensive).&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE-08-03&lt;/td>
+&lt;td>Actual flexibility of DER&lt;/td>
+&lt;td>The actual flexibility bandwidth of a DER&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
 &lt;/table></description></item><item><title>Docs: NOCL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
@@ -39559,381 +40542,4 @@ Switch status&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description/></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description/></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description/></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/platone/updated_template/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/platone/updated_template/</guid><description>
-&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
-&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
-&lt;p>&lt;em>Use case identification&lt;/em>
-| ID | Area /Domain(s)/Zone(s)| Name of the Use Case |
-| &amp;mdash; | &amp;mdash; | &amp;mdash; |
-| 132 | Area: Energy system &lt;/br> &lt;em>Leave it blanc if not sure&lt;/em> | Short name of the use case |&lt;/p>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>ID&lt;/strong> - uniqe identification label: DE-1/GR-3/IT-2&lt;/li>
-&lt;li>&lt;strong>Area /Domain(s)/Zone(s)&lt;/strong> - placement of the use case in the SGAM domains and zones. It can be left blank if you are not sure.&lt;/li>
-&lt;/ul>
-&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
-&lt;p>&lt;em>Version management&lt;/em>
-|Version No.|Date |Name of author(s)|Changes|Approval status|
-|&amp;mdash; |&amp;mdash; |&amp;mdash; |&amp;mdash; |&amp;mdash; |
-|0.1||Torsten|Initial creation||
-|0.2|2nd June 2020|Katarzyna Zawadzka|Initial creation in Github|Draft|
-|0.3|||||&lt;/p>
-&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
-&lt;p>&lt;em>Scope and objectives of use case&lt;/em>
-| Scope | add text |
-| &amp;mdash; | &amp;mdash; |
-| &lt;strong>Objective(s)&lt;/strong> | - add text &lt;br/> - add text &lt;br/> - add text|
-| &lt;strong>Related business case(s)&lt;/strong> |add text|&lt;/p>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Scope&lt;/strong> - describes the aims and boundaries of the use case in a short, precise text.&lt;/li>
-&lt;li>&lt;strong>Objective(s)&lt;/strong> - goals of the use case, in form of bullet points and a short headline.&lt;/li>
-&lt;li>&lt;strong>Realted business case(s)&lt;/strong> - optional&lt;/li>
-&lt;/ul>
-&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
-&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>add text - brief overview of the use case, no longer than 10 lines&lt;/p>
-&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>add text - longer narrative from user viewpoint about &lt;em>what&lt;/em> happens &lt;em>how&lt;/em>, &lt;em>where&lt;/em>, &lt;em>when&lt;/em>, &lt;em>why&lt;/em> and &lt;em>under which assumptions&lt;/em>. It has to be written in a way that it can also be understood by non-experts.&lt;/p>
-&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Name&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Reference to mentioned use case objectives&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>
-Can be left blank now&lt;/p>
-&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Assumptions&lt;/th>
-&lt;th>Prerequisites&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Assumptions&lt;/strong> - general presumptions about conditions or system configurations (e.g. customer&amp;rsquo;s consent required for some steps; simulation of TSO)&lt;/li>
-&lt;li>&lt;strong>Prerequisites&lt;/strong> - specify which requirements have to be met so that the basis scenario use case can be successfully accomplished.&lt;/li>
-&lt;/ul>
-&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
-&lt;p>OPTIONAL - you can leave it blank&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Relation to other use cases&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>add text&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>add text&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>add text&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>add text&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>add text&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>add text&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Relation to other use cases&lt;/strong> - relation to other use cases in the same project or thematic area. Possible relation types are for instance include, extend, invoke, or associate.&lt;/li>
-&lt;li>&lt;strong>Level of depth&lt;/strong> - reflects the degree of specialisation of the use case. Although no common notation is settled, descriptions like high level use case, generic, detailed, or specialised use case are often used.&lt;/li>
-&lt;li>&lt;strong>Prioritisation&lt;/strong> - helps to rate the use cases in a project from very important to nice-to-have with labels like obligatory/mandatory or optional which have to be agreed upon beforehand.&lt;/li>
-&lt;li>&lt;strong>Generic, regional or national relation&lt;/strong> - for the purpose of generalisation if use case is applied to areas where restictions by law or silimiar issues occur.&lt;/li>
-&lt;li>&lt;strong>Nature of the use cases&lt;/strong> - describes the viewpoint and field of attention like &lt;em>technical, political, business/market, test&lt;/em>, etc.&lt;/li>
-&lt;/ul>
-&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>General remarks&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>- add text &lt;br/> - add text &lt;br/> - add text&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>
-Add any remarks which do not fit in any other category&lt;/p>
-&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&amp;amp;lt;! Example for img1: {{&amp;amp;lt; imgproc img_1 Fit &amp;quot;600x400&amp;quot; &amp;amp;gt;}} Diagram 1 {{&amp;amp;lt; /imgproc &amp;amp;gt;}} !&amp;amp;gt;&lt;/p>
-&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
-&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes:&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Actor Type&lt;/strong> - Device/ Sytem/ Person&lt;/li>
-&lt;/ul>
-&lt;h2 id="32-references">3.2. References&lt;/h2>
-&lt;p>OPTIONAL - you can leave it blank&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>add text&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
-&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>
-This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Primary Actor&lt;/strong> - the first actor appearing in the scenario at the incident causing the scenario to begin.&lt;/li>
-&lt;li>&lt;strong>Triggering Event&lt;/strong> - the incident causing the scenario to begin.&lt;/li>
-&lt;li>&lt;strong>Pre-Condition&lt;/strong> - indicates which terms have to be fulfilled for the scenario to be executed.&lt;/li>
-&lt;li>&lt;strong>Post-Condition&lt;/strong> - indicates which terms should be valid after the scenario. TIt can also specify whether a scenario has been successfully completed or not.&lt;/li>
-&lt;/ul>
-&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;p>&lt;strong>Scenario Name: No. 1 - (name of scenario)&lt;/strong>&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;strong>Scenario Name: No. 2 - (name of scenario)&lt;/strong>&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged (IDs)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>
-This part describes the possible scenarios of the use case. The scenarios should comply with the sequence diagrams in Sect. 2 of the template, so that every step describes one part of a communication or action. Apart from a normal success scenario, different failure scenarios or alternatives can be included to describe situations where preconditions are not satisfied or unwanted states are attained.&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Event&lt;/strong> - Event triggering a step, specific for that use case.&lt;/li>
-&lt;li>&lt;strong>Name of Process/ Activity&lt;/strong> - general classification of process/activity (e.g. data aquisition).&lt;/li>
-&lt;li>&lt;strong>Description of Process/ Activity&lt;/strong> - more detailed description of the step.&lt;/li>
-&lt;li>&lt;strong>Service&lt;/strong> - addresses the nature of the information flow. Possible: GET (The information receiver obtains information from the
-information producer after an implicit request.), CREATE (The information producer creates an information object.), CHANGE (The information producer performs an update of the information at the information receiver’s.), DELETE (The information producer deletes information of the receiver.), CANCEL/CLOSE (A process is terminated.), EXECUTE (An action or service is performed.), REPORT (The information producer supplies information of its own account.), TIMER (The actor which represents both information producer
-and receiver has to enforce a waiting period.), REPEAT (A number of steps has to be repeated until a break condition (stated in the field Event) is satisfied. The contemplated steps have to be added in parentheses.).&lt;/li>
-&lt;li>&lt;strong>Information Producer and Receiver (Actor)&lt;/strong> - actors from actor list in section 3.1&lt;/li>
-&lt;li>&lt;strong>Information exchanged (IDs)&lt;/strong> - ID of the information defined further in section 5&lt;/li>
-&lt;/ul>
-&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements to information data&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Information exchanged ID&lt;/strong> - unique number (I-01,I-02&amp;hellip;) for identification&lt;/li>
-&lt;li>&lt;strong>Requirements to information data&lt;/strong> - optional, defined in section 6&lt;/li>
-&lt;/ul>
-&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
-&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Term&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Definition&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;/table></description></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description/></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description/></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description/></item></channel></rss>
