@@ -2,6 +2,8 @@
 title: "UC-GE-2"
 linkTitle: "UC-GE-2"
 date: 2020-07-09
+tags: ["PlatOne", "local energy community"]
+categories: ["Taxonomies"]
 description: >
   Third Party Flex Request
 ---
