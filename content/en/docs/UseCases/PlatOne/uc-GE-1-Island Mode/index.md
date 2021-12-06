@@ -4,6 +4,9 @@ linkTitle: "UC-DE-1"
 date: 2020-07-09
 description: >
   Island Mode
+tags:
+- PlatOne
+- local-energy-community
 ---
 
 # 1. Description of the Use Case
