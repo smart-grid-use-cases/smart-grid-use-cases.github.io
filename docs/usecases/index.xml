@@ -1,1 +1,443 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Use Cases</title><link>https://smart-grid-use-cases.github.io/docs/usecases/</link><description>Recent content in Use Cases on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: ACCEPT</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/</guid><description/></item><item><title>Docs: BRIDGE</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/</guid><description/></item><item><title>Docs: CROSSBOW</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/</guid><description/></item><item><title>Docs: E-LAND</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/</guid><description/></item><item><title>Docs: OneNet</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/</guid><description/></item><item><title>Docs: PARITY</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/</guid><description/></item><item><title>Docs: X-FLEX</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/</guid><description/></item><item><title>Docs: PlatOne</title><link>https://smart-grid-use-cases.github.io/docs/usecases/platone/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/platone/</guid><description/></item><item><title>Docs: RS-TF</title><link>https://smart-grid-use-cases.github.io/docs/usecases/rs-tf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/rs-tf/</guid><description/></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Use Cases</title><link>https://smart-grid-use-cases.github.io/docs/usecases/</link><description>Recent content in Use Cases on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: ACCEPT</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/</guid><description/></item><item><title>Docs: BRIDGE</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/</guid><description/></item><item><title>Docs: CROSSBOW</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/</guid><description/></item><item><title>Docs: E-LAND</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/</guid><description/></item><item><title>Docs: OneNet</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/</guid><description/></item><item><title>Docs: PARITY</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/</guid><description/></item><item><title>Docs: X-FLEX</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/</guid><description/></item><item><title>Docs: PlatOne</title><link>https://smart-grid-use-cases.github.io/docs/usecases/platone/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/platone/</guid><description/></item><item><title>Docs: RS-TF</title><link>https://smart-grid-use-cases.github.io/docs/usecases/rs-tf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/rs-tf/</guid><description/></item><item><title>Docs: TIGON</title><link>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Energy system/Distribution,&lt;/td>
+&lt;td>TIGON&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>0.1&lt;/td>
+&lt;td>2021-11-05T00:00:00&lt;/td>
+&lt;td>Maria Fotopoulou, Fotis Stergiopoulos, Dimitrios Rakopoulos (CERTH),&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Draft&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>Construction of an AC/DC hybrid grid for the efficient distribution of power generated by Renewable Energy Sources (RES) which mostly produce DC power.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>-Enhancement of the local grid&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-Efficient incorporation of DC-based RES and storage in a distribution grid&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-Definition of topology, voltage levels and required equipement for an AC/DC hybrid grid&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-Construction of novel power converters&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-Implementation of Energy Management System (EMS) for hybrid grids&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>-Evaluation of the performance of AC/DC hybrid grids in the case of CIEMAT grid.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>Relevant to the AC/DC hybrid grid of the CEA demo site (other use case with the same purpose from the same project).&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>Design, construction and evaluation of an AC/DC hybrid grid in CIEMAT, Spain including a variety of RES and storage.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>The CIEMAT demo site includes a PV installation, 1-3 wind turbines, two Battery Energy Storage Systems (BESS) and two sorts of loads (AC and DC). Since the majority of these components utilizes DC power, it would be efficient to have an AC/DC hybrid grid. The topology, the required converters, the operation modes, etc. need to be defined and implemented, which is the purpose of TIGON.&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>kpi_01&lt;/td>
+&lt;td>Self-consumption rate&lt;/td>
+&lt;td>The ratio of consumed renewable energy over the sum of all renewable electricity generated on site.&lt;/td>
+&lt;td>Efficient incorporation of DC-based RES and storage in a distribution grid.,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>TIGON&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>TIGON&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>This use case is beneficial for grid development and RES implementation. It is mandatory for TIGON.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Technical/system use case&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Small scale, medium voltage (MV), low voltage (LV)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>![AC/DC hybrid architecture for the CIEMAT demo site](DC hybrid architecture for the CIEMAT demo site)&lt;/p>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>CIEMAT&amp;rsquo;s grid operator&lt;/td>
+&lt;td>Distribution system operator&lt;/td>
+&lt;td>They shall operate the AC/DC hybrid grid of CIEMAT&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Theoretical research entities&lt;/td>
+&lt;td>Research centres&lt;/td>
+&lt;td>Investigation of architectures, requirements, etc. for grid development.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Constructors of power electronics&lt;/td>
+&lt;td>Construction companies&lt;/td>
+&lt;td>Construction of appropriate DC-based power electronics, including solid state transformers, DC/DC converters, etc.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Developers of software applications&lt;/td>
+&lt;td>Software companies&lt;/td>
+&lt;td>Developers of energy management systems, dicision support systems, etc.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CIEMAT&amp;rsquo;s grid&lt;/td>
+&lt;td>Grid (including distributed resources, loads, buses, lines, etc.)&lt;/td>
+&lt;td>Power lines, distributed resources, loads, buses, etc.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Review paper&lt;/td>
+&lt;td>State of the Art of Low and Medium Voltage Direct Current (DC) Microgrids&lt;/td>
+&lt;td>Published&lt;/td>
+&lt;td>High&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://doi.org/10.3390/en14185595">https://doi.org/10.3390/en14185595&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Deliverable&lt;/td>
+&lt;td>TIGON D2.2 Demo site grids boundary conditions, overall requirements and operation modes&lt;/td>
+&lt;td>Finalized&lt;/td>
+&lt;td>High&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>CIEMAT demo site: A flexible configuration through BESS for DC-based hybrid grids&lt;/td>
+&lt;td>Deployment and integration of AC/DC hybrid solutions in CIEMAT demo site&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>CIEMAT demo site: A flexible configuration through BESS for DC-based hybrid grids&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>CIEMAT demo site: A flexible configuration through BESS for DC-based hybrid grids&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Need for research regarding AC/DC hybrid system designs&lt;/td>
+&lt;td>Boundary conditions and baseline for TIGON development&lt;/td>
+&lt;td>The objective is to define the baseline and key aspects for the correct development and later deployment of the TIGON solutions, including the modelling and characterization of the CIEMAT demo-site as well as the definition of alternative operation modes and ancillary services to be provided to the main grid.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Completion of the previous step, which is the theoretical analysis of the use case&lt;/td>
+&lt;td>Development of physical architecture&lt;/td>
+&lt;td>The objective is to design and develop novel physical architectures and grid assets to be implemented at TIGON demo-sites for fostering the implementation of DC-based hybrid grid across Europe&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Completion of the previous step, which is the design of the physical architecture&lt;/td>
+&lt;td>Software applications for an efficient monitoring, control and management of the grid&lt;/td>
+&lt;td>The objective is to develop innovative monitoring, control and management strategies for an optimized operation and performance of hybrid grids based on DC-architectures with the aim of improving the efficiency, resilience and security of TIGON demo-sites.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Completion of all previous steps, which provide the means for the deployment of AC/DC hybrid systems in the CIEMAT demo site&lt;/td>
+&lt;td>CIEMAT demo site: A flexible configuration through BESS for DC-based hybrid grids&lt;/td>
+&lt;td>The objective is to deploy and integrate TIGON solutions in CIEMAT demo-site, with the aim of demonstrating a smart and flexible management of MV DC-based grids linked to energy storage systems and providing stability yo the LV hybrid grid.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>CIEMAT demo-site&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>I-01&lt;/td>
+&lt;td>Design of CIEMAT&amp;rsquo;s grid&lt;/td>
+&lt;td>Topologies, voltage levels, KPIs, etc.&lt;/td>
+&lt;td>IS-1 (Information Security)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-02&lt;/td>
+&lt;td>Construction of CIEMAT&amp;rsquo;s grid components&lt;/td>
+&lt;td>Details on the constructed power converters, their requirements, etc.&lt;/td>
+&lt;td>IS-1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-03&lt;/td>
+&lt;td>Software of CIEMAT&amp;rsquo;s grid&lt;/td>
+&lt;td>Details regarding the proposed operation of the grid&lt;/td>
+&lt;td>IS-1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>I-04&lt;/td>
+&lt;td>Operation of CIEMAT&amp;rsquo;s grid&lt;/td>
+&lt;td>Operation and evaluation of the constructed AC/DC hybrid grid.&lt;/td>
+&lt;td>IS-1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item></channel></rss>
