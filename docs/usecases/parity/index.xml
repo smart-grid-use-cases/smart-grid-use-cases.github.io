@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – X-FLEX</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/</link><description>Recent content in X-FLEX on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 06 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/x-flex/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC2-5</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – PARITY</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/</link><description>Recent content in PARITY on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 06 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/parity/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC-08</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -12,8 +12,8 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>Energy,&lt;/td>
-&lt;td>UC2-5&lt;/td>
+&lt;td>/ DER, Distribution /operation, market,&lt;/td>
+&lt;td>UC-08&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -31,10 +31,10 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>2021-11-05T00:00:00&lt;/td>
-&lt;td>ICCS,&lt;/td>
-&lt;td>First version&lt;/td>
-&lt;td>Final&lt;/td>
+&lt;td>2020-11-15T00:00:00&lt;/td>
+&lt;td>CheckWatt,CERTH,&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>Final v1&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -49,11 +49,11 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
-&lt;td>GRIDFLEX, X-FLEX platform&lt;/td>
+&lt;td>Describes the process in which the DSO is acting as a single buyer of flexibility when grid is in yellow state, according to the traffic light concept, sets up and manages the LFM to attract the necessary resources to the LFM platform enabling congestion management.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>To provide flexibility to DSO through the Local Flexibiltiy Market according to DSO&amp;rsquo;s requirements. As a final result, foreseen congestion has been reduced or eliminated.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
@@ -63,9 +63,11 @@
 &lt;/table>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>State Estimation&lt;/p>
+&lt;p>DSO is a buyer of flexibility through the Local Flexibility Market, in order to manage a detected congestion&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>State estimation consists in the solution of an optimization problem that processes the measurements together with the network model in order to determine the optimal estimate of the system state. The output of state estimation is typically the voltage magnitude and phase (phase-to-ground voltage phasors) at all the network buses.&lt;/p>
+&lt;p>This use case describes the process followed by the DSO when is acting as a flexibility buyer through LFM in order to manage congestion in a specific area. The DSO is the main actor involved and the initiator of this UC. The network is entered into the yellow state, therefore LFM is engaged, in order to activate required flexibility for solving the congestion. Important points are the following: 1. Grid modelling and identification of congestion management needs. Ideally the DSO acts as a single buyer in the LFM where necessary DER flexibility is purchased through automated Local Flexibility Market transactions.
+2. DER mapping and recruitment through aggregator.
+3. On-point remuneration model (tilt towards market-based rather than fixed rate) to assure attraction in the right spots in the grid.&lt;/p>
 &lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -76,6 +78,14 @@
 &lt;th>Reference to mentioned use case objectives&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Successful procurement of prosumer flexibility by the DSO&lt;/td>
+&lt;td>Sufficient amount of flexibility has been provided to DSO&lt;/td>
+&lt;td>None,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
 &lt;table>
@@ -84,6 +94,11 @@
 &lt;th>Assumptions&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC-08&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;table>
 &lt;thead>
@@ -91,6 +106,11 @@
 &lt;th>Prerequisites&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC-08&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
 &lt;table>
@@ -110,19 +130,19 @@
 &lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>High&lt;/td>
+&lt;td>Mandatory (High priority)&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;/td>
+&lt;td>Generic&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;/td>
+&lt;td>Technical&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
@@ -146,6 +166,8 @@
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="UC-08_sequence_diagram.png" alt="UC-08_sequence_diagram">
+&lt;img src="UC-08_activity_diagram.png" alt="UC-08_activity_diagram">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -157,6 +179,26 @@
 &lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>DSO&lt;/td>
+&lt;td>System operator&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Aggregator&lt;/td>
+&lt;td>Resource aggregator&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Market Operator&lt;/td>
+&lt;td>Market Operator&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;h2 id="32-references">3.2. References&lt;/h2>
 &lt;table>
@@ -186,142 +228,9 @@
 &lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Main path&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Main path&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Exception path&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Exception path&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
 &lt;/table>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
 &lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Main path&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Acquisition of data&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>The measurements devices send data&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>State estimation calculation&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>With the received measurements the state estimation algorithm produces optimal power system data&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Trigger the bad data detector&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>The verification of the accuracy and reliability of the estimated state is conducted by interacting with the bad data detector&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>Coupling with real-time applications&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>The state estimator forwards its outcome to various real-time applications (UC 2.7)&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Exception path&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Bad data are detected&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Based on accuracy bad data are removed and system state is recalculated&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
 &lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
 &lt;table>
 &lt;thead>
@@ -347,7 +256,7 @@
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>State Estimation&lt;/td>
+&lt;td>Congestion management by DSO through operation of LFM to increase DER penetration&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -372,7 +281,7 @@
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-7</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-11</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -386,8 +295,8 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>Energy,&lt;/td>
-&lt;td>UC2-7&lt;/td>
+&lt;td>/ DER, Distribution /operation,&lt;/td>
+&lt;td>UC-11&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -405,10 +314,10 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>1&lt;/td>
-&lt;td>2021-11-05T00:00:00&lt;/td>
-&lt;td>ICCS,&lt;/td>
-&lt;td>First version&lt;/td>
-&lt;td>Final&lt;/td>
+&lt;td>2020-11-15T00:00:00&lt;/td>
+&lt;td>AEM, CERTH,&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>Final v1&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -423,28 +332,23 @@
 &lt;tbody>
 &lt;tr>
 &lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
-&lt;td>GRIDFLEX, X-FLEX platform&lt;/td>
+&lt;td>Defines the main DSOs standards and actions to ensure a safe and reliable grid management when grid is in red state&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>To properly adjust power consumption/production by triggering the utilization of the available flexibility loads without market involvement when grid is in red (emergency) state&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>Related to UC-7 &amp;quot;Ancillary services provision by STATCOM to TSO for overlay network stability&amp;quot;&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
 &lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>Real time congestion detection and management&lt;/p>
+&lt;p>DSO continously monitors the grid network condition and if an emergency (red state) situation is detected, aggregated flexibility from prosumers is activated based on bilateral contracts.&lt;/p>
 &lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>GRIDFLEX must periodically execute power flow calculations taking into account RT monitoring data in order to detect congestions (e.g. voltage violations, line power limitations, etc.) in the grid.&lt;/p>
-&lt;ul>
-&lt;li>Input: RT measurements + state estimation results&lt;/li>
-&lt;li>Output: U/Imax issues
-GRIDFLEX must provide the grid operator with a list of actions to perform in order to mitigate the detected congestion.&lt;/li>
-&lt;/ul>
+&lt;p>DSO continously monitors voltage level and maximum load at each MV/LV line and transformer. If certain thresholds according to EN 50160 are reached (under/over-voltage), the grid network enters the red state and the flexibility loads available in the area on the same LV line will be used. In particular, activation of flexibility will be requested, either directly or through the aggregator on the basis of bilateral contracts, in order to stabilize the network. Local Electricity Market operations are paused (P2P trading, trading to external markets) until the issues have been resolved.&lt;/p>
 &lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -455,6 +359,14 @@ GRIDFLEX must provide the grid operator with a list of actions to perform in ord
 &lt;th>Reference to mentioned use case objectives&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Network instability resolved on time&lt;/td>
+&lt;td>All the monitored parameters are within the acceptable thresholds defined by EN 50160&lt;/td>
+&lt;td>None,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
 &lt;table>
@@ -463,6 +375,11 @@ GRIDFLEX must provide the grid operator with a list of actions to perform in ord
 &lt;th>Assumptions&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC-11&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;table>
 &lt;thead>
@@ -470,6 +387,11 @@ GRIDFLEX must provide the grid operator with a list of actions to perform in ord
 &lt;th>Prerequisites&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC-11&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
 &lt;table>
@@ -489,19 +411,19 @@ GRIDFLEX must provide the grid operator with a list of actions to perform in ord
 &lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>High&lt;/td>
+&lt;td>Mandatory (High priority)&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;/td>
+&lt;td>Generic&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>&lt;/td>
+&lt;td>Technical&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
@@ -525,6 +447,8 @@ GRIDFLEX must provide the grid operator with a list of actions to perform in ord
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="UC-11_sequence_diagram.png" alt="UC-11_sequence_diagram">
+&lt;img src="UC-11_activity_diagram.png" alt="UC-11_activity_diagram">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -536,6 +460,20 @@ GRIDFLEX must provide the grid operator with a list of actions to perform in ord
 &lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>DSO&lt;/td>
+&lt;td>System operator&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Aggregator&lt;/td>
+&lt;td>Resource aggregator&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;h2 id="32-references">3.2. References&lt;/h2>
 &lt;table>
@@ -565,93 +503,9 @@ GRIDFLEX must provide the grid operator with a list of actions to perform in ord
 &lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Main path&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Main path&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
 &lt;/table>
 &lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
 &lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Main path&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Real-time measurement&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Measurements from metering device/AMR system&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Detection of congestion issues&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>GRIDFLEX tool performs power flow analysis, checks and compares the results with the admissible range&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Find availabilities&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Check the list of available RES units in order to correct the congestion problems&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>Define mitigation actions&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Defining the actions that can mitigate the detected congestions&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
 &lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
 &lt;table>
 &lt;thead>
@@ -677,7 +531,7 @@ GRIDFLEX must provide the grid operator with a list of actions to perform in ord
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Real time congestion detection and management&lt;/td>
+&lt;td>Red light grid management using automated control of distributed DER&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
