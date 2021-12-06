@@ -3229,7 +3229,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;tr>
 &lt;td>Customer Portal&lt;/td>
 &lt;td>System&lt;/td>
-&lt;td>Customer Portal manages data users&amp;rsquo; authentication, access permissions and data logs. Customer Portals store data related to its services (e.g. authentication information, representation rights, access permissions, data logs).&lt;/td>
+&lt;td>Customer Portal manages data users' authentication, access permissions and data logs. Customer Portals store data related to its services (e.g. authentication information, representation rights, access permissions, data logs).&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
