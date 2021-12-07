@@ -6242,6 +6242,74 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Periodically (yearly)&lt;/td>
+&lt;td>Define desired conditions for grid frequency&lt;/td>
+&lt;td>In a phase of mid-term planning, the SO defines the frequency control strategy, incl. nominal (target) frequency value, frequency bandwidth for operation and frequency thresholds for emergency actions&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Periodically (yearly)&lt;/td>
+&lt;td>Collect data of the power system&lt;/td>
+&lt;td>Collect the data to describe the power system (system model), historic measurements (load, frequency) and events (fault statistics)&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Periodically (yearly)&lt;/td>
+&lt;td>Mid-term &amp;amp; long-term forecasts&lt;/td>
+&lt;td>The SO generates mid-term and long-term forecasts of the development of consumption and generation&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Periodically (yearly)&lt;/td>
+&lt;td>Define design scenarios&lt;/td>
+&lt;td>The SO identifies critical situations (e.g., yearly peak load, separation of parts of the grid, etc.) and defines design scenarios comprising all possible critical situations.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>Periodically (yearly)&lt;/td>
+&lt;td>Calculate the required amount of flexibility- balancing reserve needed on the island - FRR&lt;/td>
+&lt;td>The SO assesses the amount of flexibility (FCR, FRR balancing reserve) required to perform the load-frequency control of the power system of the geographical islands.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>St5 finished&lt;/td>
+&lt;td>Define balancing service products&lt;/td>
+&lt;td>Based on the required amount of flexibility the SO defines appropriate balancing products&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;table>
 &lt;thead>
@@ -6269,6 +6337,41 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Periodically (interval of 1s of faster)&lt;/td>
+&lt;td>Measure the network frequency&lt;/td>
+&lt;td>Energy assets (central assets or DER) capable of providing FCR reserve are equipped with an accurate frequency meter to continuously measure frequency of the point of grid connection in real-time&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>New frequency measurement available&lt;/td>
+&lt;td>Submit the measured frequency to the local controller&lt;/td>
+&lt;td>The measured frequency must be sent to the local controller capable of receiving freq. measurements in real-time&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>When freq. measurements arrive to the local controller&lt;/td>
+&lt;td>Calculate frequency deviation&lt;/td>
+&lt;td>An algorithm on the PLC compares the measured frequency with the target value and calculates the deviation&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;table>
 &lt;thead>
@@ -6296,6 +6399,63 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Continuously&lt;/td>
+&lt;td>Measure grid frequency&lt;/td>
+&lt;td>An accurate (central) frequency meter located in a major substation (e.g., Longoni, Badamiers) measures frequency of the grid in real-time&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Continuously&lt;/td>
+&lt;td>Receive frequency measurement&lt;/td>
+&lt;td>The measured frequency is received by the AGC embedded in the SCADA.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Frequency measurement received by AGC&lt;/td>
+&lt;td>Measured frequency is stored and available for processing&lt;/td>
+&lt;td>The frequency measurements need to be persisted and available in real time and for later analysis. The SCADA (where AGC is embedded) saved the measurements in a database.&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Frequency measurement received by AGC&lt;/td>
+&lt;td>Calculate the frequency deviation&lt;/td>
+&lt;td>Calculate the difference between the current measured frequency and the define nominal (target) frequency (e.g., 50 Hz)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>Frequency deviation calculated&lt;/td>
+&lt;td>Calculate the new FRR setpoint&lt;/td>
+&lt;td>Based on the actual frequency deviation and its change in time the control algorithm calculates the new FRR setpoint&lt;/td>
+&lt;td>CHANGE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;table>
 &lt;thead>
@@ -6323,6 +6483,85 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>After definition of technical require-ments&lt;/td>
+&lt;td>Publish technical and market rules for balancing services&lt;/td>
+&lt;td>The SO publishes the document describing the balancing services, their technical and administrative requirements and tendered products.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>After reception of balancing service rules&lt;/td>
+&lt;td>Flexibility providers prepare for participation in balancing services&lt;/td>
+&lt;td>(3rd party) flexibility providers able to fulfil the SO’s requirements prepare for participation via the FMTP, directly or by aggregation via an intermediate platform (e.g., analyse available flexible power, identify suitable flexibility services and products, fulfil technical requirements). Finally, the flexibility provider or aggregator requests the prequalification of the DER (if directly connected to the FMTP).&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>After reception of tender announcement&lt;/td>
+&lt;td>Aggregators prepare for participation in balancing services&lt;/td>
+&lt;td>Aggregators prepare for balancing service provision, implementing the technical requirements and establishing contracts with flexibility providers. Finally, the aggregator requests the prequalification of the intermediate platform.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>SO received request for prequalification&lt;/td>
+&lt;td>Prequalify flexibility provider&lt;/td>
+&lt;td>The SO and flexibility provider (and aggregator if involved) conduct a series of tests to confirm the technical and administrative capability of the DER (and intermediate platform if involved) to provide the balancing services according to the SO’s requirements. The step is finalized by issuing the confirmation of prequalification by the SO.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>Periodically (yearly, monthly, weekly, or daily)&lt;/td>
+&lt;td>Publish tender for balancing services&lt;/td>
+&lt;td>The SO details the balancing market products and starts a tendering process and informs all prequalified flexibility providers about the tender&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>St5 finalized&lt;/td>
+&lt;td>Submit balancing services bids&lt;/td>
+&lt;td>The prequalified flexibility providers forecast the available power for the tendered balancing service products and calculate the costs of service provision. Then the most suitable balancing products are identified and balancing service bids are submitted via FMTP.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>SO received bid for balancing service provision&lt;/td>
+&lt;td>Contract balancing services&lt;/td>
+&lt;td>The SO selects the most favourable bids for flexibility service provision according to the tendering rules and informs the flexibility providers about acceptance or rejection of their bids via the FMTP. The acceptance of a balancing service bid is equivalent to a legal contract between SO and flexibility provider.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;table>
 &lt;thead>
@@ -6350,6 +6589,85 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Reception of FCR bid acceptance&lt;/td>
+&lt;td>Enable FCR service&lt;/td>
+&lt;td>The FCR functionality is unlocked via the PLC of the DER during the timespan defined in the accepted FCR bid.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>FCR provision enabled&lt;/td>
+&lt;td>Calculate FCR setpoint&lt;/td>
+&lt;td>The PLC calculates the FCR setpoint depending on the frequency deviation (calculated on-site and in real time, see scenario 2) based on an algorithm defined by the SO; e.g., a linear curve PFCR=f(Df)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>FCR setpoint calculated (continuously, e.g., 1s interval)&lt;/td>
+&lt;td>Follow new FCR setpoint&lt;/td>
+&lt;td>The DER adapts the active power feed-in (or consumption) according to the FCR setpoint within the required FAT.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Continuously (e.g., 1s interval)&lt;/td>
+&lt;td>Send monitoring data to FMTP&lt;/td>
+&lt;td>As long as the FCR service provision is enabled (timespan of the accepted FCR bid), the PLC sends monitoring data to the FMTP, where it is forwarded to the AGC)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>Continuously&lt;/td>
+&lt;td>Validate FCR provision&lt;/td>
+&lt;td>The AGC receives the FCR monitoring data and compares the measurements with the expected behaviour.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>FCR malperformance detected&lt;/td>
+&lt;td>Inform flexibility provider about malperformance&lt;/td>
+&lt;td>The SO informs the flexibility provider about the FCR malperformance and orders immediate correction of the behaviour&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>FCR validation report received&lt;/td>
+&lt;td>Remedy FCR malperformance&lt;/td>
+&lt;td>The flexibility provider updates the DER control algorithms in order to remedy the FCR malperformance and to provide the FCR service according to technical specifications.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;table>
 &lt;thead>
@@ -6377,6 +6695,151 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Reception of FRR bid acceptance&lt;/td>
+&lt;td>Enable FRR service&lt;/td>
+&lt;td>The FRR functionality is unlocked on the intermediate platform and/or the PLC of the DER during the timespan defined in the accepted FRR bid. The PLC starts waiting to receive activation requests from the FMTP or intermediate platform.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>New FRR setpoint available&lt;/td>
+&lt;td>Dispatch balancing assets&lt;/td>
+&lt;td>The new FRR setpoint is dispatched between central balancing assets (diesel engines operated by the SO) and distributed balancing assets (DER operated by third party).&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3a&lt;/td>
+&lt;td>Central assets’ FRR setpoint updated&lt;/td>
+&lt;td>Receive new FRR setpoints&lt;/td>
+&lt;td>Central balancing assets (operated by the SO) receive their new individual setpoint&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3b&lt;/td>
+&lt;td>Decentral assets’ FRR setpoint updated&lt;/td>
+&lt;td>Receive new FRR setpoints&lt;/td>
+&lt;td>The updated FRR setpoint is received by the FMTP platform.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>FMTP received a new FRR setpoint&lt;/td>
+&lt;td>FMTP dispatches contracted flexibility providers&lt;/td>
+&lt;td>The FMTP distributes the received FRR setpoint between the contracted flexibility providers (DERs or intermediate platforms) based on predefined rules (pro-rata or according to merit order), and submits the activation requests (direct setpoint or activation schedule).&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>Intermediate platform receives activation request&lt;/td>
+&lt;td>Intermediate platform distributes activation requests&lt;/td>
+&lt;td>The intermediate platform disaggregates the received activation request and forwards the setpoints to the connected DER, which previously indicated availability.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>DER received the activation request&lt;/td>
+&lt;td>FRR provision by DER&lt;/td>
+&lt;td>The DER changes its generation or consumption according to the received setpoint within the required FAT (details see scenario 8).&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>Continuously (e.g., in 2s interval)&lt;/td>
+&lt;td>Send monitoring data to intermediate platform&lt;/td>
+&lt;td>As long as the FRR service provision is enabled (timespan of the accepted FRR bid), the DER sends monitoring data to the intermediate platform.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>Continuously (e.g., in 2s interval)&lt;/td>
+&lt;td>Send monitoring data to AGC&lt;/td>
+&lt;td>The intermediate platform receives monitoring data from the connected DER and aggregates the values. The aggregated values are sent to the FMTP. Alternatively, large DER send monitoring data directly to the FMTP, without aggregation via an intermediate platform.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9a&lt;/td>
+&lt;td>Continuously&lt;/td>
+&lt;td>Validate FRR provision&lt;/td>
+&lt;td>The FMTP receives the FRR monitoring data and compares the measurements with the expected behaviour.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9b&lt;/td>
+&lt;td>Yearly&lt;/td>
+&lt;td>Validate FRR provision&lt;/td>
+&lt;td>In case of doubts, the SO compares FRR monitoring data with (public) meter readings.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>FRR malperformance detected&lt;/td>
+&lt;td>Inform flexibility provider about malperformance&lt;/td>
+&lt;td>The SO informs the flexibility provider about the FRR malperformance and orders immediate correction of the behaviour.&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
+&lt;td>FRR validation report received&lt;/td>
+&lt;td>Remedy FRR malperformance&lt;/td>
+&lt;td>The flexibility provider updates the DER control algorithms in order to remedy the FRR malperformance and to provide the FRR service according to technical specifications.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;table>
 &lt;thead>
@@ -6404,6 +6867,41 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Daily&lt;/td>
+&lt;td>Process monitoring data&lt;/td>
+&lt;td>In the morning hours the energy activated during the previous day is calculated individually for each balancing service contract (accepted bid).&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>After completing previous step&lt;/td>
+&lt;td>Accounting of balancing service provision&lt;/td>
+&lt;td>The activated energy and reserved capacity (provided by the aggregator or flexibility provider) is accounted per accepted bid and summarized by flexibility provider.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Monthly&lt;/td>
+&lt;td>Remuneration of flexibility service provision&lt;/td>
+&lt;td>The daily remuneration of balancing service provision is summarized for the entire past month and remunerated to each flexibility provider&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;table>
 &lt;thead>
@@ -6431,6 +6929,151 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Daily&lt;/td>
+&lt;td>Forecast flexible capacity for upcoming tender period&lt;/td>
+&lt;td>The flexibility provider forecasts the amount and costs of the balancing service provision for the next tender period.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Previous step finalized&lt;/td>
+&lt;td>Aggregator receives flexibility forecast&lt;/td>
+&lt;td>The aggregator receives the flexible capacity &amp;amp; cost forecasts of all contracted flexibility providers (DERs) and creates a merit order of flexibility.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Previous step finalized&lt;/td>
+&lt;td>Participation in balancing service tender&lt;/td>
+&lt;td>The aggregator participates in the balancing service tender, creates bids and submits the bids to the FMTP. (See scenario 4)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Bid acceptance message received&lt;/td>
+&lt;td>Flexibility reservation request&lt;/td>
+&lt;td>The aggregator informs the connected DER about required flexibility reservation for the next product period and the conditions for balancing service provision.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>Flexibility reservation request received&lt;/td>
+&lt;td>Flexibility reservation&lt;/td>
+&lt;td>The DER reserves the requested flexibility for the product period.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>Continuously&lt;/td>
+&lt;td>Real-time flexibility calculation&lt;/td>
+&lt;td>The DER calculates the actual flexibility bandwidth in real time and reports the values to the intermediary platform.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>Continuously&lt;/td>
+&lt;td>Listen to incoming setpoints&lt;/td>
+&lt;td>The PLC receives a setpoint to start an activation&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>Activation setpoint received by DER&lt;/td>
+&lt;td>Start activation program&lt;/td>
+&lt;td>After receiving a new setpoint (see (see scenario 6), the PLC of the DER initiates the activation program (ramp-up) in order to meet the setpoint received from the intermediary platform within the FAT.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>Continuously&lt;/td>
+&lt;td>Listen to incoming setpoints&lt;/td>
+&lt;td>The PLC receives a new setpoint to change the power of an activation&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>New activation setpoint received by DER&lt;/td>
+&lt;td>Change activation program&lt;/td>
+&lt;td>The PLC of the DER updates the activation program (ramp-up) in order to meet the new setpoint within the FAT.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
+&lt;td>Continuously&lt;/td>
+&lt;td>Listen to incoming setpoints&lt;/td>
+&lt;td>The PLC receives a setpoint of 0 MW to end the ongoing activation.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12&lt;/td>
+&lt;td>Activation end received by DER&lt;/td>
+&lt;td>End activation program&lt;/td>
+&lt;td>The PLC of the DER initiates the end activation program (ramp-down) in order and the balancing energy provision within the FAT.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>13&lt;/td>
+&lt;td>Continuously (e.g., 2s interval)&lt;/td>
+&lt;td>Send monitoring data&lt;/td>
+&lt;td>The DER processes the actual measurements and sends the required monitoring data to the intermediary platform.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
 &lt;/table>
 &lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
 &lt;table>
