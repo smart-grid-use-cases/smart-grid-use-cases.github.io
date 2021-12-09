@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: EACL-HU-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: EACL-HU-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -842,7 +842,7 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-HU-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-HU-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1022,6 +1022,10 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="EACL-HU-02_scenario1_activities.png" alt="EACL-HU-02_scenario1_activities">
+&lt;img src="EACL-HU-02_scenario2_activities.png" alt="EACL-HU-02_scenario2_activities">
+&lt;img src="EACL-HU-02_scenario3_activities.png" alt="EACL-HU-02_scenario3_activities">
+&lt;img src="EACL-HU-02_scenario4_activities.png" alt="EACL-HU-02_scenario4_activities">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -1681,7 +1685,7 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1880,6 +1884,16 @@ The status of FSP (registered) is registered in the FR.&lt;/p>
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="EACL-PL-01_Prequalification_Use_case_diagram.png" alt="EACL-PL-01 Prequalification_Use_case_diagram">
+&lt;img src="EACL-PL-01_Prequalification_BUC_overview.png" alt="EACL-PL-01 Prequalification_BUC_overview">
+&lt;img src="EACL-PL-01_Prequalification_Scenario_1.png" alt="EACL-PL-01 Prequalification Scenario 1">
+&lt;img src="EACL-PL-01_Prequalification_Scenario_2.png" alt="EACL-PL-01 Prequalification Scenario 2">
+&lt;img src="EACL-PL-01_Prequalification_Scenario_3.png" alt="EACL-PL-01 Prequalification Scenario 3">
+&lt;img src="EACL-PL-01_Prequalification_Scenario_4.png" alt="EACL-PL-01 Prequalification Scenario 4">
+&lt;img src="EACL-PL-01_Prequalification_Scenario_5.png" alt="EACL-PL-01 Prequalification Scenario 5">
+&lt;img src="EACL-PL-01_Prequalification_Scenario_6.png" alt="EACL-PL-01 Prequalification Scenario 6">
+&lt;img src="EACL-PL-01_Prequalification_Scenario_7.png" alt="EACL-PL-01 Prequalification Scenario 7">
+&lt;img src="EACL-PL-01_Prequalification_Scenario_8.png" alt="EACL-PL-01 Prequalification Scenario 8">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -2307,7 +2321,7 @@ The status of FSP (registered) is registered in the FR.&lt;/p>
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -2492,6 +2506,8 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="EAPCL-PL-02_Use_case.png" alt="EACL-PL-02 Use case">
+&lt;img src="EACL-PL-02_BUC_Balancing_overview.png" alt="EACL-PL-02 BUC Balancing overview">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -3135,7 +3151,7 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3320,6 +3336,8 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="EACL-PL-03_Use_case.png" alt="EACL-PL-03 Use case">
+&lt;img src="EACL-PL-03_CM_VC_for_DSO_BUC_overview.png" alt="EACL-PL-03 CM VC for DSO_BUC overview">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -3555,7 +3573,7 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-04</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-04</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3720,6 +3738,8 @@ BSP already has a contract with TSO for the provision of balancing services&lt;/
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="EACL-PL-04_BSP_on_Platform_Use_case_diagram.png" alt="EACL-PL-04 BSP on Platform_Use case diagram">
+&lt;img src="EACL-PL-04_BSP_on_Platform_BUC_overview" alt="EACL-PL-04 BSP on Platform_BUC overview">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
@@ -4099,7 +4119,7 @@ BSP already has a contract with TSO for the provision of balancing services&lt;/
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLU02-UC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLU02-UC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -4506,7 +4526,7 @@ Scheduled maintenance periods cannot be predicted and thus there should be a pro
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLUC01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLUC01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -4939,7 +4959,7 @@ PUC 7 Optimal management of EV and FCEVs in a LES |&lt;/li>
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLUC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLUC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -5354,7 +5374,7 @@ The above functionalities are facilitated by forecasting, scheduling and integra
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLUC03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLUC03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -5741,7 +5761,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: MAESHA</title><link>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</guid><description>
+&lt;/table></description></item><item><title>Docs: MAESHA</title><link>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -7343,7 +7363,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: NOCL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: NOCL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -8134,7 +8154,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: PUC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</guid><description>
+&lt;/table></description></item><item><title>Docs: PUC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -8645,7 +8665,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-CY-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-CY-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -9134,7 +9154,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-CY-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-CY-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -9536,7 +9556,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-GR-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-GR-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -10509,7 +10529,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-GR-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-GR-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -11000,7 +11020,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: TIGON</title><link>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</guid><description>
+&lt;/table></description></item><item><title>Docs: TIGON</title><link>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -11442,7 +11462,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC-08</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-08</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -11725,7 +11745,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC-11</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-11</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -12000,7 +12020,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -12583,7 +12603,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -13059,7 +13079,7 @@ VES is an inherent part of the building Digital Twin model and is also tightly d
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -13508,7 +13528,7 @@ Data to be collected comprises:
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-4</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-4</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -13921,7 +13941,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-5</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-5</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -14295,7 +14315,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-7</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-7</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -14625,7 +14645,7 @@ GRIDFLEX must provide the grid operator with a list of actions to perform in ord
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC3</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC3</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -15052,7 +15072,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -15505,7 +15525,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-ES-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-ES-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -16784,7 +16804,7 @@ o Availability/Activation cap price: X €/MW or X €/MWh | None |
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -22534,7 +22554,7 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -27052,7 +27072,7 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
