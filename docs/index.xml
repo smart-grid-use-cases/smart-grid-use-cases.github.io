@@ -20402,15 +20402,15 @@ Scheduled maintenance periods cannot be predicted and thus there should be a pro
 &lt;/tbody>
 &lt;/table>
 &lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;img src="HLU2-UC02-function.png" alt="SGAM function layer">
-&lt;img src="HLU2-UC02-component.png" alt="SGAM component layer">
-&lt;img src="HLU2-UC02-communication.png" alt="SGAM communication layer">
-&lt;img src="HLU2-UC02-information.png" alt="SGAM information layer">
-&lt;img src="HLU2-UC02-canonical.png" alt="SGAM canonical data model layer">
-&lt;img src="HLU2-UC02-estandard.png" alt="SGAM estandard and information data model layer">
-&lt;img src="HLU2-UC02-activity.png" alt="SGAM activity layer">
-&lt;img src="HLU2-UC02-function.png" alt="SGAM function layer">
-&lt;img src="HLU2-UC02-sequence.png" alt="SGAM sequence layer">&lt;/p>
+&lt;p>&lt;img src="HLU02-UC2-function.png" alt="SGAM function layer">
+&lt;img src="HLU02-UC2-COMPONENT.png" alt="SGAM component layer">
+&lt;img src="HLU02-UC2-COMMUNICATION.png" alt="SGAM communication layer">
+&lt;img src="HLU02-UC2-INFORMATION.png" alt="SGAM information layer">
+&lt;img src="HLU02-UC2-CANONICAL.png" alt="SGAM canonical data model layer">
+&lt;img src="HLU02-UC2-STANDARD.png" alt="SGAM estandard and information data model layer">
+&lt;img src="HLU02-UC2-ACTIVITY.png" alt="SGAM activity layer">
+&lt;img src="HLU02-UC2-FUNCTION.png" alt="SGAM function layer">
+&lt;img src="HLU02-UC2-SEQUENCE.png" alt="SGAM sequence layer">&lt;/p>
 &lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
 &lt;h2 id="31-actors">3.1. Actors&lt;/h2>
 &lt;table>
