@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – ACCEPT</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/</link><description>Recent content in ACCEPT on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/accept/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – ACCEPT</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/</link><description>Recent content in ACCEPT on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 10 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/accept/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -545,7 +545,7 @@
 &lt;td>INF 1.2&lt;/td>
 &lt;td>Processed and cleansed sensing and metering data&lt;/td>
 &lt;td>Data that have been cleansed&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>INF 1.2&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>INF 2.1&lt;/td>
@@ -569,7 +569,7 @@
 &lt;td>INF 3.2&lt;/td>
 &lt;td>Visualized data&lt;/td>
 &lt;td>Data read to be visualized&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>INF 3.2&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -583,7 +583,7 @@
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -866,7 +866,7 @@ VES is an inherent part of the building Digital Twin model and is also tightly d
 &lt;td>User requests via the UI the optimal scheduling for the apartment/ building&lt;/td>
 &lt;td>Module to Module&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Citizen Apps&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -876,7 +876,7 @@ VES is an inherent part of the building Digital Twin model and is also tightly d
 &lt;td>Request optimization&lt;/td>
 &lt;td>Request is passed on to the on-Demand flexibility management engine&lt;/td>
 &lt;td>Module to Module&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Citizen Apps&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -921,7 +921,7 @@ VES is an inherent part of the building Digital Twin model and is also tightly d
 &lt;td>Present the optimal schedule to the requesting actor&lt;/td>
 &lt;td>Module to Module&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Citizen Apps&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -954,7 +954,7 @@ VES is an inherent part of the building Digital Twin model and is also tightly d
 &lt;td>Provide information of scheduled operation&lt;/td>
 &lt;td>Module to Module&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Citizen Apps&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -964,7 +964,7 @@ VES is an inherent part of the building Digital Twin model and is also tightly d
 &lt;td>Monitor Event&lt;/td>
 &lt;td>Visualize results of operation at community level&lt;/td>
 &lt;td>External&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Citizen Apps&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
@@ -1059,7 +1059,7 @@ VES is an inherent part of the building Digital Twin model and is also tightly d
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC3</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC3</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1404,7 +1404,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;td>Present the optimal schedule to the requesting actor&lt;/td>
 &lt;td>External&lt;/td>
 &lt;td>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td>Prosumer&lt;/td>
 &lt;td>&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
@@ -1486,7 +1486,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1858,7 +1858,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;tr>
 &lt;td>(integer)&lt;/td>
 &lt;td>Number of DR events requested for the upcoming period&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>INF01&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1870,7 +1870,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;tr>
 &lt;td>(float)&lt;/td>
 &lt;td>The duration of the DR events requested for the upcoming period&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>INF02&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1882,7 +1882,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;tr>
 &lt;td>(float)&lt;/td>
 &lt;td>The amount of energy to be in-/de-creased during the DR event&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>INF03&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1894,7 +1894,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;tr>
 &lt;td>(string)&lt;/td>
 &lt;td>Any specific preferences the end user may pertaining the DR events, such as, preferred period for participating in a DR event, preferred appliances for engaging in a DR event (e.g. washing machine, clothe dryer etc.), his/her availability for participating in DR events for the upcoming period, etc.&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>INF04&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -1906,26 +1906,26 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;tr>
 &lt;td>(timeseries)&lt;/td>
 &lt;td>Forecast for the end user energy consumption baseline and upper/lower boundaries.&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>INF05&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>INF06&lt;/td>
 &lt;td>End user DR engagement profile (float)&lt;/td>
 &lt;td>A metric of how actively or non-actively engaged is the end user regarding DR events.&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>INF06&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>INF07&lt;/td>
 &lt;td>timestamp&lt;/td>
 &lt;td>A time instant, which the DR event is to start/end.&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>INF07&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>INF08&lt;/td>
 &lt;td>DR control signal&lt;/td>
 &lt;td>An appropriate DR signal to be sent to a particular device, in order to in-/de-crease&lt;/td>
-&lt;td>None&lt;/td>
+&lt;td>INF08&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
