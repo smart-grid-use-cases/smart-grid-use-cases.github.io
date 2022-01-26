@@ -1,4 +1,1377 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – BRIDGE</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/</link><description>Recent content in BRIDGE on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 18 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/bridge/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: edf-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/edf-1/</link><pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/edf-1/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – BRIDGE</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/</link><description>Recent content in BRIDGE on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 26 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/bridge/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: PUC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Smart Grid / Distribution / Operation,&lt;/td>
+&lt;td>PUC1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.0&lt;/td>
+&lt;td>2020-12-04T00:00:00&lt;/td>
+&lt;td>Luis Viguer,&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;td>Approved&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>Based on historical records, current load measures and weather forecast, it will be provided the total load forecast (consumption models) at a substation, primary or secondary, located at Kefalonia and Attica regions.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>Provide input data to DSO in order to assess voltage levels and power flows at distribution network&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>PUC12&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>Placed within the abovementioned BUCs, PUC1 describes how the forecast provider extracts, transforms and loads (ETL) the data needed by the DSO to assess voltage levels and power flows. It is composed by four Secondary Use Cases (scenarios):&lt;/p>
+&lt;ol>
+&lt;li>Get measurement form substation&lt;/li>
+&lt;li>Get meteo forecast&lt;/li>
+&lt;li>Generation of load forecast&lt;/li>
+&lt;li>KPI calculation for load forecast&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>This PUC makes reference to the forecasting modules focused on the operation of the DSO and the distribution network. In order to increase the performance of these modules, data requests to external systems will be sent. Finally, the results of the algorithms will be available to external actors/applications.&lt;/p>
+&lt;p>Type of considered forecasts:
+• Load Forecast: Forecast of total demand at a substation (primary or secondary).&lt;/p>
+&lt;p>The time-granularity/horizon of the forecast can be:
+• Very short-term: 1h (5 or 15 min steps),
+• Short-term: 24-48 h (15min-1hour step),
+• Medium-term: 48h-10days (1-hour step)&lt;/p>
+&lt;p>The PUC will deepen in the following steps that are necessary to forecast the total demand at a substation:&lt;/p>
+&lt;ol>
+&lt;li>Forecast Provider retrieves current load from substation.&lt;/li>
+&lt;li>Forecast Provider asks for meteo forecast to Weather Forecast.&lt;/li>
+&lt;li>Forecast Provider corrects wrong/missing data, using an algorithm for anomalies detection.&lt;/li>
+&lt;li>Forecast Provider generates a mathematical model for load, using the historical data, and it applies the current load to the mathematical model, getting the load forecast.&lt;/li>
+&lt;li>Forecast Provider sends the forecasts to DSO.&lt;/li>
+&lt;li>DSO sends the forecasts to Coordinet platform (actors who need it for their activities).&lt;/li>
+&lt;/ol>
+&lt;p>Besides, KPIs related to accuracy of prediction will be calculated in order to get the efficacy of the forecast done.&lt;/p>
+&lt;p>Within the related business use cases, this primary use case, jointly with PUC2 (RES forecast in DN), focuses on the BUCs’ first step from DSO side:&lt;/p>
+&lt;p>More precisely, PUC1 is divided into four secondary use cases also referred to as scenarios:&lt;/p>
+&lt;p>• SUC 1.1 – Get measurement from substation: The Forecast Provider asks for current load to the Substation, which returns that measure.&lt;/p>
+&lt;p>• SUC 1.2 – Get meteo forecast: The Forecast Provider asks for the weather prediction to the Weather Forecast Provider, an external server which does not belong to Coordinet ecosystem. The request contains the moment of time to be considered, such as prediction for 1 hour by or 24 hours by. The response contains the weather forecasting for that moment.&lt;/p>
+&lt;p>• SUC1.3 – Generation of load forecast: After correcting wrong/missing data, the Forecast Provider generates a model of load for a period of time, using weather forecast and historical data related to load. Once this model is prepared, the Forecast Provider uses the current measurement to generate its prediction.&lt;/p>
+&lt;p>• SUC1.4 – KPI calculation for load forecast: The KPIs are calculated in order to determine if the prediction is good enough. This calculation is done considering the load prediction and the real load.&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>KPI_24&lt;/td>
+&lt;td>Accuracy of load forecast calculated 1 hour in advance&lt;/td>
+&lt;td>This indicator measures the Mean Absolute Percentage Error (MAPE) of the load forecast in distribution system.&lt;/td>
+&lt;td>N/A,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>PUC1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>PUC1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mandatory&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Technical&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Smart Grid, Distribution Network, DSO, demand/load forecast&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Forecast provider&lt;/td>
+&lt;td>Process&lt;/td>
+&lt;td>Process in charge of generating load forecasting.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DSO (Distribution System Operator)&lt;/td>
+&lt;td>System operator&lt;/td>
+&lt;td>System operator in charge of controlling local voltage and power flows in DN.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Coordinet platform&lt;/td>
+&lt;td>IT platform&lt;/td>
+&lt;td>It receives the load forecast from DSO and shares it (at primary substation level) with the TSO.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Substation&lt;/td>
+&lt;td>Facility&lt;/td>
+&lt;td>Primary or secondary electrical substation where current load data is gathered.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Weather forecasting provider&lt;/td>
+&lt;td>Service&lt;/td>
+&lt;td>External service which receives requests of weather prediction for a moment and returns it.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Deliverable&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Approved&lt;/td>
+&lt;td>Low&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://private.coordinet-project.eu/files/documentos/5d724207ca982Coordinet_Deliverable_1.5.pdf">https://private.coordinet-project.eu/files/documentos/5d724207ca982Coordinet_Deliverable_1.5.pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;td>Deliverable&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Approved&lt;/td>
+&lt;td>Low&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;a href="https://private.coordinet-project.eu/files/documentos/5d724189a008fCoordiNet_Deliverable_1.6.pdf">https://private.coordinet-project.eu/files/documentos/5d724189a008fCoordiNet_Deliverable_1.6.pdf&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Get measurement from substation&lt;/td>
+&lt;td>See complete description&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Get measurement from substation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>See complete description&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>See complete description&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>See complete description&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Get measurement from substation&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Load forecast in distribution network&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>IE_1&lt;/td>
+&lt;td>Substation measure&lt;/td>
+&lt;td>Current load at the substation [KVA]&lt;/td>
+&lt;td>IE_1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE_2&lt;/td>
+&lt;td>Weather prediction&lt;/td>
+&lt;td>Weather forecasting values: Temperature [oC], relative humidity [%], atmospheric pressure [mbar], cloud index [%], wind speed [m/s], wind direction[degrees], etc.&lt;/td>
+&lt;td>IE_2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE_3&lt;/td>
+&lt;td>Load prediction&lt;/td>
+&lt;td>Load Forecast generated by the Forecast Provider [KVA]&lt;/td>
+&lt;td>IE_1, IE_2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IE_4&lt;/td>
+&lt;td>KPIs calculation&lt;/td>
+&lt;td>Calculation of KPIs, done when the moment of the prediction is reached: [KPI_24] and [KPI_25]&lt;/td>
+&lt;td>IE_3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: UC2-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Energy,&lt;/td>
+&lt;td>UC2-1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>2020-07-27T00:00:00&lt;/td>
+&lt;td>ETRA,&lt;/td>
+&lt;td>First version&lt;/td>
+&lt;td>final&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>GRIDFLEX, X-FLEX Platform&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>werwer&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>Network real-time monitoring&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>The smart grid environment requires the upgrade of tools for monitoring at all levels of the grid. By integrating the required data sources (e.g. SLAM, SMX, SCADA, AMI), these compo-nents will provide the data necessary for monitoring the grid.
+Several sources of energy data will be analysed, taking into account the specific characteris-tics of each pilot site where demonstration will take place. Communication protocols are an important issue due to the necessity to integrate different vendors.
+Data to be collected comprises:
+• Grid data: electrical parameters at relevant points of the grid (e.g. critical substa-tions or RES connections), including V, I, P, Q, PF, f
+• End user data: electrical parameters and energy counters at supply point of each prosumer, including V, I, P, Q, PF, f, Eimp, Eexp&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>High&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Main path&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Main path&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Exception path 1&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Exception path 1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Exception path 2&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Exception path 2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Main path&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Data acquisition&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Metering device/system produces the data&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Data dispatch&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Metering device/system publishes data to the GRIDFLEX tool&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Data val-idation and storage&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>GRIDFLEX assesses integrity of data and stores it for subsequent use&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Exception path 1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Data acquisition&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Metering device/system produces the data&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Communication problem&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>In the event of a communication problem, the metering device/system shall store temporarily the data and retry once the connection is re-established (if possible)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Exception path 2&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Data acquisition&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Metering device/system produces the data&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Data dispatch&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Metering device/system publishes data to the GRIDFLEX tool&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Data is inaccurate&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>GRIDFLEX stores data with a watermark indicating its potential inaccuracy. This indication can be considered by further processing&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Network real-time monitoring&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: UC2-4</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>,&lt;/td>
+&lt;td>UC2-4&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>2020-07-27T00:00:00&lt;/td>
+&lt;td>ETRA,&lt;/td>
+&lt;td>First version&lt;/td>
+&lt;td>final&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>GRIDFLEX, X-FLEX Platform&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>RES scheduling control&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>Grid operator is able to schedule the operation of its RES, storage assets, etc. to optimize the operation of the grid. This UC is envisioned to deal with assets directly managed by the operator of the grid, while assets from other actors will be indirectly operated through De-mand Side Management (DSM) in UC 2.10 and UC 2.11.
+Any microgrid operator will have two simultaneous objectives when managing this kind of assets:
+• Keep quality of the supply
+• Minimize energy flows in and out of the microgrid (i.e. minimizing dependency on the external network and RES surplus, thus maximizing self-sufficiency)
+This use case describes how those assets can be operated in an optimal way, following these assumptions:
+• First schedule is optimized energy-wise (maximize self-sufficiency)
+• Technical constraints (I or V congestions) coming from that schedule are assessed, which may deviate the original schedule from its optimal&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>High&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Main path&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Main path&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Exception path 1&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Exception path 1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Main path&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Overall demand estimation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Grid measurements are used to es-timate an overall demand indicator (in terms of active power) for current time slot&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Production estimation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Measurements from RES units are combined to calculate an overall production indicator (in terms of ac-tive power)&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Demand forecast&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Overall demand for the near future is calculated.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Production forecast&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Overall production for the near fu-ture is calculated.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>Optimization of storage units operation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Overall demand and production forecasts are combined with current storage units status to calculate the optimum schedule of those units for the next hours.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>Validation of optimum schedule&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Given the optimum schedule of the storage units, congestion in the next hours is assessed (trigger for UC 2.9).&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>Execution of optimum schedule&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The new schedule effectively updates the previous one. GRIDFLEX control system triggers required actions on the field assets, following the gener-ated schedule.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Exception path 1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>Congestion detected&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>If the schedule cannot be approved due to an associated congestion, UC 2.11 is triggered.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>RES scheduling control&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: edf-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/edf-1/</link><pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/edf-1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -15728,1379 +17101,6 @@ Das Ziel dieses Use Cases ist die Architekturdokumentation nach SGAM inkl. eines
 &lt;/tr>
 &lt;/thead>
 &lt;/table>
-&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table></description></item><item><title>Docs: PUC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</guid><description>
-&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
-&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
-&lt;th>Name of the Use Case&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Smart Grid / Distribution / Operation,&lt;/td>
-&lt;td>PUC1&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Version No.&lt;/th>
-&lt;th>Date&lt;/th>
-&lt;th>Name of author(s)&lt;/th>
-&lt;th>Changes&lt;/th>
-&lt;th>Approval status&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1.0&lt;/td>
-&lt;td>2020-12-04T00:00:00&lt;/td>
-&lt;td>Luis Viguer,&lt;/td>
-&lt;td>N/A&lt;/td>
-&lt;td>Approved&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;/th>
-&lt;th>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
-&lt;td>Based on historical records, current load measures and weather forecast, it will be provided the total load forecast (consumption models) at a substation, primary or secondary, located at Kefalonia and Attica regions.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>Provide input data to DSO in order to assess voltage levels and power flows at distribution network&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
-&lt;td>PUC12&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
-&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>Placed within the abovementioned BUCs, PUC1 describes how the forecast provider extracts, transforms and loads (ETL) the data needed by the DSO to assess voltage levels and power flows. It is composed by four Secondary Use Cases (scenarios):&lt;/p>
-&lt;ol>
-&lt;li>Get measurement form substation&lt;/li>
-&lt;li>Get meteo forecast&lt;/li>
-&lt;li>Generation of load forecast&lt;/li>
-&lt;li>KPI calculation for load forecast&lt;/li>
-&lt;/ol>
-&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>This PUC makes reference to the forecasting modules focused on the operation of the DSO and the distribution network. In order to increase the performance of these modules, data requests to external systems will be sent. Finally, the results of the algorithms will be available to external actors/applications.&lt;/p>
-&lt;p>Type of considered forecasts:
-• Load Forecast: Forecast of total demand at a substation (primary or secondary).&lt;/p>
-&lt;p>The time-granularity/horizon of the forecast can be:
-• Very short-term: 1h (5 or 15 min steps),
-• Short-term: 24-48 h (15min-1hour step),
-• Medium-term: 48h-10days (1-hour step)&lt;/p>
-&lt;p>The PUC will deepen in the following steps that are necessary to forecast the total demand at a substation:&lt;/p>
-&lt;ol>
-&lt;li>Forecast Provider retrieves current load from substation.&lt;/li>
-&lt;li>Forecast Provider asks for meteo forecast to Weather Forecast.&lt;/li>
-&lt;li>Forecast Provider corrects wrong/missing data, using an algorithm for anomalies detection.&lt;/li>
-&lt;li>Forecast Provider generates a mathematical model for load, using the historical data, and it applies the current load to the mathematical model, getting the load forecast.&lt;/li>
-&lt;li>Forecast Provider sends the forecasts to DSO.&lt;/li>
-&lt;li>DSO sends the forecasts to Coordinet platform (actors who need it for their activities).&lt;/li>
-&lt;/ol>
-&lt;p>Besides, KPIs related to accuracy of prediction will be calculated in order to get the efficacy of the forecast done.&lt;/p>
-&lt;p>Within the related business use cases, this primary use case, jointly with PUC2 (RES forecast in DN), focuses on the BUCs’ first step from DSO side:&lt;/p>
-&lt;p>More precisely, PUC1 is divided into four secondary use cases also referred to as scenarios:&lt;/p>
-&lt;p>• SUC 1.1 – Get measurement from substation: The Forecast Provider asks for current load to the Substation, which returns that measure.&lt;/p>
-&lt;p>• SUC 1.2 – Get meteo forecast: The Forecast Provider asks for the weather prediction to the Weather Forecast Provider, an external server which does not belong to Coordinet ecosystem. The request contains the moment of time to be considered, such as prediction for 1 hour by or 24 hours by. The response contains the weather forecasting for that moment.&lt;/p>
-&lt;p>• SUC1.3 – Generation of load forecast: After correcting wrong/missing data, the Forecast Provider generates a model of load for a period of time, using weather forecast and historical data related to load. Once this model is prepared, the Forecast Provider uses the current measurement to generate its prediction.&lt;/p>
-&lt;p>• SUC1.4 – KPI calculation for load forecast: The KPIs are calculated in order to determine if the prediction is good enough. This calculation is done considering the load prediction and the real load.&lt;/p>
-&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Name&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Reference to mentioned use case objectives&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>KPI_24&lt;/td>
-&lt;td>Accuracy of load forecast calculated 1 hour in advance&lt;/td>
-&lt;td>This indicator measures the Mean Absolute Percentage Error (MAPE) of the load forecast in distribution system.&lt;/td>
-&lt;td>N/A,&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Assumptions&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>PUC1&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Prerequisites&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>PUC1&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Relation to other use cases&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Mandatory&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Generic&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Technical&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Smart Grid, Distribution Network, DSO, demand/load forecast&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>General remarks&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
-&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Forecast provider&lt;/td>
-&lt;td>Process&lt;/td>
-&lt;td>Process in charge of generating load forecasting.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>DSO (Distribution System Operator)&lt;/td>
-&lt;td>System operator&lt;/td>
-&lt;td>System operator in charge of controlling local voltage and power flows in DN.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Coordinet platform&lt;/td>
-&lt;td>IT platform&lt;/td>
-&lt;td>It receives the load forecast from DSO and shares it (at primary substation level) with the TSO.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Substation&lt;/td>
-&lt;td>Facility&lt;/td>
-&lt;td>Primary or secondary electrical substation where current load data is gathered.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Weather forecasting provider&lt;/td>
-&lt;td>Service&lt;/td>
-&lt;td>External service which receives requests of weather prediction for a moment and returns it.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="32-references">3.2. References&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;td>Deliverable&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Approved&lt;/td>
-&lt;td>Low&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;a href="https://private.coordinet-project.eu/files/documentos/5d724207ca982Coordinet_Deliverable_1.5.pdf">https://private.coordinet-project.eu/files/documentos/5d724207ca982Coordinet_Deliverable_1.5.pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;td>Deliverable&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Approved&lt;/td>
-&lt;td>Low&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;a href="https://private.coordinet-project.eu/files/documentos/5d724189a008fCoordiNet_Deliverable_1.6.pdf">https://private.coordinet-project.eu/files/documentos/5d724189a008fCoordiNet_Deliverable_1.6.pdf&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
-&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Get measurement from substation&lt;/td>
-&lt;td>See complete description&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Get measurement from substation&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>See complete description&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>See complete description&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>See complete description&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
-&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Get measurement from substation&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>None&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>None&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>None&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Req_ID&lt;/td>
-&lt;td>Req_Name&lt;/td>
-&lt;td>Load forecast in distribution network&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>IE_1&lt;/td>
-&lt;td>Substation measure&lt;/td>
-&lt;td>Current load at the substation [KVA]&lt;/td>
-&lt;td>IE_1&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>IE_2&lt;/td>
-&lt;td>Weather prediction&lt;/td>
-&lt;td>Weather forecasting values: Temperature [oC], relative humidity [%], atmospheric pressure [mbar], cloud index [%], wind speed [m/s], wind direction[degrees], etc.&lt;/td>
-&lt;td>IE_2&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>IE_3&lt;/td>
-&lt;td>Load prediction&lt;/td>
-&lt;td>Load Forecast generated by the Forecast Provider [KVA]&lt;/td>
-&lt;td>IE_1, IE_2&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>IE_4&lt;/td>
-&lt;td>KPIs calculation&lt;/td>
-&lt;td>Calculation of KPIs, done when the moment of the prediction is reached: [KPI_24] and [KPI_25]&lt;/td>
-&lt;td>IE_3&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
-&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</guid><description>
-&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
-&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
-&lt;th>Name of the Use Case&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Energy,&lt;/td>
-&lt;td>UC2-1&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Version No.&lt;/th>
-&lt;th>Date&lt;/th>
-&lt;th>Name of author(s)&lt;/th>
-&lt;th>Changes&lt;/th>
-&lt;th>Approval status&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>2020-07-27T00:00:00&lt;/td>
-&lt;td>ETRA,&lt;/td>
-&lt;td>First version&lt;/td>
-&lt;td>final&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;/th>
-&lt;th>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
-&lt;td>GRIDFLEX, X-FLEX Platform&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>werwer&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
-&lt;td>None&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
-&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>Network real-time monitoring&lt;/p>
-&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>The smart grid environment requires the upgrade of tools for monitoring at all levels of the grid. By integrating the required data sources (e.g. SLAM, SMX, SCADA, AMI), these compo-nents will provide the data necessary for monitoring the grid.
-Several sources of energy data will be analysed, taking into account the specific characteris-tics of each pilot site where demonstration will take place. Communication protocols are an important issue due to the necessity to integrate different vendors.
-Data to be collected comprises:
-• Grid data: electrical parameters at relevant points of the grid (e.g. critical substa-tions or RES connections), including V, I, P, Q, PF, f
-• End user data: electrical parameters and energy counters at supply point of each prosumer, including V, I, P, Q, PF, f, Eimp, Eexp&lt;/p>
-&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Name&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Reference to mentioned use case objectives&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Assumptions&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Prerequisites&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Relation to other use cases&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>High&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>General remarks&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
-&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h2 id="32-references">3.2. References&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
-&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Main path&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Main path&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Exception path 1&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Exception path 1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Exception path 2&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Exception path 2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
-&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Main path&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Data acquisition&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Metering device/system produces the data&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Data dispatch&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Metering device/system publishes data to the GRIDFLEX tool&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Data val-idation and storage&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>GRIDFLEX assesses integrity of data and stores it for subsequent use&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Exception path 1&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Data acquisition&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Metering device/system produces the data&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Communication problem&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>In the event of a communication problem, the metering device/system shall store temporarily the data and retry once the connection is re-established (if possible)&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Exception path 2&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Data acquisition&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Metering device/system produces the data&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Data dispatch&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Metering device/system publishes data to the GRIDFLEX tool&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Data is inaccurate&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>GRIDFLEX stores data with a watermark indicating its potential inaccuracy. This indication can be considered by further processing&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Req_ID&lt;/td>
-&lt;td>Req_Name&lt;/td>
-&lt;td>Network real-time monitoring&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
-&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-4</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</guid><description>
-&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
-&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
-&lt;th>Name of the Use Case&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>,&lt;/td>
-&lt;td>UC2-4&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Version No.&lt;/th>
-&lt;th>Date&lt;/th>
-&lt;th>Name of author(s)&lt;/th>
-&lt;th>Changes&lt;/th>
-&lt;th>Approval status&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>2020-07-27T00:00:00&lt;/td>
-&lt;td>ETRA,&lt;/td>
-&lt;td>First version&lt;/td>
-&lt;td>final&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;/th>
-&lt;th>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
-&lt;td>GRIDFLEX, X-FLEX Platform&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
-&lt;td>None&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
-&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>RES scheduling control&lt;/p>
-&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>Grid operator is able to schedule the operation of its RES, storage assets, etc. to optimize the operation of the grid. This UC is envisioned to deal with assets directly managed by the operator of the grid, while assets from other actors will be indirectly operated through De-mand Side Management (DSM) in UC 2.10 and UC 2.11.
-Any microgrid operator will have two simultaneous objectives when managing this kind of assets:
-• Keep quality of the supply
-• Minimize energy flows in and out of the microgrid (i.e. minimizing dependency on the external network and RES surplus, thus maximizing self-sufficiency)
-This use case describes how those assets can be operated in an optimal way, following these assumptions:
-• First schedule is optimized energy-wise (maximize self-sufficiency)
-• Technical constraints (I or V congestions) coming from that schedule are assessed, which may deviate the original schedule from its optimal&lt;/p>
-&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Name&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Reference to mentioned use case objectives&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Assumptions&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Prerequisites&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Relation to other use cases&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>High&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>General remarks&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
-&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h2 id="32-references">3.2. References&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
-&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Main path&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Main path&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Exception path 1&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Exception path 1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
-&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Main path&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Overall demand estimation&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Grid measurements are used to es-timate an overall demand indicator (in terms of active power) for current time slot&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Production estimation&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Measurements from RES units are combined to calculate an overall production indicator (in terms of ac-tive power)&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Demand forecast&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Overall demand for the near future is calculated.&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>Production forecast&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Overall production for the near fu-ture is calculated.&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5&lt;/td>
-&lt;td>Optimization of storage units operation&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Overall demand and production forecasts are combined with current storage units status to calculate the optimum schedule of those units for the next hours.&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6&lt;/td>
-&lt;td>Validation of optimum schedule&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>Given the optimum schedule of the storage units, congestion in the next hours is assessed (trigger for UC 2.9).&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7&lt;/td>
-&lt;td>Execution of optimum schedule&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>The new schedule effectively updates the previous one. GRIDFLEX control system triggers required actions on the field assets, following the gener-ated schedule.&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Exception path 1&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>6&lt;/td>
-&lt;td>Congestion detected&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>If the schedule cannot be approved due to an associated congestion, UC 2.11 is triggered.&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Req_ID&lt;/td>
-&lt;td>Req_Name&lt;/td>
-&lt;td>RES scheduling control&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
 &lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
 &lt;table>
 &lt;thead>
