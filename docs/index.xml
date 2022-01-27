@@ -1,378 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: coordinet</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/</guid><description>
-&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
-&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
-&lt;th>Name of the Use Case&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Regional / local,&lt;/td>
-&lt;td>coordinet&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Version No.&lt;/th>
-&lt;th>Date&lt;/th>
-&lt;th>Name of author(s)&lt;/th>
-&lt;th>Changes&lt;/th>
-&lt;th>Approval status&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>2019-07-23T00:00:00&lt;/td>
-&lt;td>Vattenfall,&lt;/td>
-&lt;td>none&lt;/td>
-&lt;td>approved&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;/th>
-&lt;th>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
-&lt;td>This BUC describes the actions that are carried out in case of congestions in the low voltage as well as medium voltage distribution grid using a peer to peer market.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>• Local and regional DSOs want to give customers opportunity to optimize their resources&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>• Local and regional DSOs meets grid needs with a market opportunity&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>• In addition, the flexibility provider wants to meet financial goals&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
-&lt;td>n/a&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
-&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>mitigate congestion at distribution level&lt;/p>
-&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>The BUC describes the steps that are followed to eliminate congestions in low-voltage and medium-voltage distribution system using flexiility provided by resources connected to both systems.&lt;/p>
-&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Name&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Reference to mentioned use case objectives&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>23&lt;/td>
-&lt;td>Cost of R&amp;amp;I solution VS grid alternative solution&lt;/td>
-&lt;td>Cost of R&amp;amp;I solution VS grid alternative solution&lt;/td>
-&lt;td>BUC SE-1b,&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Assumptions&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>coordinet&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Prerequisites&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>coordinet&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Relation to other use cases&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>nice to have&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>national&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>business&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>n/a&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>General remarks&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;img src="UC_Sweden.png" alt="Congestion management - Distributed Market Model">&lt;/p>
-&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
-&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>DSO&lt;/td>
-&lt;td>ENTSO-E&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>FPS&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>None&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="32-references">3.2. References&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;td>no reference has been used&lt;/td>
-&lt;td>none&lt;/td>
-&lt;td>n/a&lt;/td>
-&lt;td>n/a&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>n/a&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
-&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Long term process&lt;/td>
-&lt;td>Coordinet platform and functionalities interaction in national energy market&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Long term process&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
-&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Long term process&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Flexibility needs to be exchanged in the day-ahead&lt;/td>
-&lt;td>Flexibility bids&lt;/td>
-&lt;td>Cooridnet receive bids (buy/sell) from FPS through DSOs,&lt;/td>
-&lt;td>get&lt;/td>
-&lt;td>FPS&lt;/td>
-&lt;td>DSO&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Coordinet settles flexibility&lt;/td>
-&lt;td>Confirmation of the flexibility bids&lt;/td>
-&lt;td>Bids settlment by Coordinet platform (first come first serve), that communicates results to FPS&lt;/td>
-&lt;td>get&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>FPS DSO&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>bids accepted&lt;/td>
-&lt;td>P2P market clearance&lt;/td>
-&lt;td>P2P market is cleared in a distributed manner by Coordinet platform&lt;/td>
-&lt;td>create&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>FPS DSO&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Req_ID&lt;/td>
-&lt;td>Req_Name&lt;/td>
-&lt;td>Congestion management - Distributed Market Model&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>n/a&lt;/td>
-&lt;td>n/a&lt;/td>
-&lt;td>n/a&lt;/td>
-&lt;td>n/a&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
-&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-HU-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: EACL-HU-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1216,7 +842,7 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-HU-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-HU-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -2059,7 +1685,7 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -2695,7 +2321,7 @@ The status of FSP (registered) is registered in the FR.&lt;/p>
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3525,7 +3151,7 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3947,7 +3573,7 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-04</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-04</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -4499,7 +4125,7 @@ BSP already has a contract with TSO for the provision of balancing services&lt;/
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLU02-UC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLU02-UC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -4906,7 +4532,7 @@ Scheduled maintenance periods cannot be predicted and thus there should be a pro
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLUC01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLUC01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -5339,7 +4965,7 @@ PUC 7 Optimal management of EV and FCEVs in a LES |&lt;/li>
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLUC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLUC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -5754,7 +5380,7 @@ The above functionalities are facilitated by forecasting, scheduling and integra
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLUC03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLUC03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -6141,7 +5767,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: MAESHA</title><link>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</guid><description>
+&lt;/table></description></item><item><title>Docs: MAESHA</title><link>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -7743,7 +7369,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: NOCL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: NOCL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -8480,7 +8106,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: PUC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</guid><description>
+&lt;/table></description></item><item><title>Docs: PUC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -8991,7 +8617,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-CY-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-CY-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -9483,7 +9109,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-CY-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-CY-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -9888,7 +9514,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-GR-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-GR-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -10862,7 +10488,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-GR-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-GR-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -11354,7 +10980,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: TIGON</title><link>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</guid><description>
+&lt;/table></description></item><item><title>Docs: TIGON</title><link>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -11796,7 +11422,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC-08</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-08</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -12079,7 +11705,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC-11</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-11</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -12354,7 +11980,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -12939,7 +12565,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -13415,7 +13041,7 @@ VES is an inherent part of the building Digital Twin model and is also tightly d
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -13864,7 +13490,7 @@ Data to be collected comprises:
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-4</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-4</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -14277,7 +13903,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-5</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-5</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -14651,7 +14277,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-7</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-7</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -14981,7 +14607,7 @@ GRIDFLEX must provide the grid operator with a list of actions to perform in ord
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC3</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC3</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -15408,7 +15034,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -15861,7 +15487,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-ES-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-ES-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -17147,7 +16773,7 @@ o Availability/Activation cap price: X €/MW or X €/MWh | I.E.08 |
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -22902,7 +22528,7 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -27425,7 +27051,7 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</link><pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -40894,6 +40520,713 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;td>FB-REQ2&lt;/td>
 &lt;td>Ability of flexibility platform to compute baseline&lt;/td>
 &lt;td>b3e149de-373c-47c1-97e9-9b8c48acd40e&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: elering-5</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/elering-5/</link><pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/elering-5/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Access to data, Market for flexibilities, Operational planning and forecasting, Services related to end customers, Balance management,&lt;/td>
+&lt;td>elering-5&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>2018-04-12T00:00:00&lt;/td>
+&lt;td>Kalle Kukk (Elering),&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>2018-07-07T00:00:00&lt;/td>
+&lt;td>Ricardo Jover (EDF), Eric Suignard (EDF),&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>2018-07-19T00:00:00&lt;/td>
+&lt;td>Ricardo Jover (EDF), Eric Suignard (EDF),&lt;/td>
+&lt;td>“Collect public market data” and “Collect individual market data” scenarios merged into a “Collect market data” scenario, &lt;br/>No DEP involved anymore.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>2018-08-02T00:00:00&lt;/td>
+&lt;td>Eric Suignard (EDF),&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>2018-09-21T00:00:00&lt;/td>
+&lt;td>Eric Suignard (EDF), Ricardo Jover (EDF),&lt;/td>
+&lt;td>&lt;br/>Remarks from Innogy and Elering.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>2018-10-04T00:00:00&lt;/td>
+&lt;td>Eric Suignard (EDF),&lt;/td>
+&lt;td>Version post WP5&amp;amp;9 physical meeting in Tallinn&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>2018-10-17T00:00:00&lt;/td>
+&lt;td>Eric Suignard (EDF),&lt;/td>
+&lt;td>Version reviewed by WP5&amp;amp;9 partners&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>2018-10-30T00:00:00&lt;/td>
+&lt;td>Eric Suignard (EDF),&lt;/td>
+&lt;td>Description of Grid data&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>2019-05-07T00:00:00&lt;/td>
+&lt;td>Eric Suignard (EDF),&lt;/td>
+&lt;td>WP6-7-8 demos alignment and miscellaneous changes&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>2020-06-16T00:00:00&lt;/td>
+&lt;td>Eric Suignard (EDF),&lt;/td>
+&lt;td>innogy’s and Elering’s review&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>Collection of different types of energy related data from data providers to data hubs&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>Collection of data which can be shared.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>Collection of different types of meter, market and grid data to be made available through a data exchange platform to interested parties. Users of data exchange platform can receive data directly from data provider (data source) or from a data hub which collects (and stores) data. This use case focuses on data necessary for flexibility trading. See separate use case description for sub-meter data (because the involved systems are different).&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Data should be simultaneously available to all authorized stakeholders to ensure level playing field (cf. SUC dealing with authorizations).&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Cross border effect: It should be allowed and enabled to store data in one country from a data provider in another country – e.g. collect meter data in one country and store them in a data hub in a foreign country.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SUC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="Image7.png" alt="Collect energy data - overview">
+&lt;img src="Image8.png" alt="Collect energy data - scenarios flowchart">&lt;/p>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Data Hub&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Data Hub is an information system which main functionality is to store and make available measurements (e.g. meter data, operational data) and associated master data. Data Hubs are not necessarily centralized in a country or in a region.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Metered Data Operator (MDO)&lt;/td>
+&lt;td>Business&lt;/td>
+&lt;td>Provide metered data to authorized users in a transparent and non-discriminatory manner&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Meter Data Collection Tool&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Meter Data Collection Tool is an information system which main functionality is to collect meter readings from electricity meters.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>System Operator&lt;/td>
+&lt;td>Business&lt;/td>
+&lt;td>System Operator means a natural or legal person responsible for operating, ensuring the maintenance of and, if necessary, developing the system in a given area and, where applicable, its interconnections with other systems, and for ensuring the long-term ability of the system to meet reasonable demands for the distribution or transmission of electricity (cf. ENTSOE-EFET-ebIX harmonized role model 2019). &lt;br/>Can be:&lt;br/>&lt;ul>&lt;li>A Transmission System Operator (cf. definition in T3.3 deliverable), for frequency control, congestion management and voltage control on transmission network,&lt;/li>&lt;li>A Distribution System Operator (cf. definition in T3.3 deliverable), for congestion management and voltage control on distribution network.&lt;/li>&lt;/ul>&lt;br/>NB: In some countries (e.g. Germany and Poland), the high voltage network is part of the distribution grid and in other countries (e. g. France and Italy) the high voltage network is part of the transmission grid. &lt;br/>&lt;br/>A System Operator can be:&lt;br/>&lt;ul>&lt;li>A Primary System Operator,&lt;/li>&lt;li>A Secondary System Operator.&lt;/li>&lt;/ul>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Market Operator&lt;/td>
+&lt;td>Business&lt;/td>
+&lt;td>A market operator is a party that provides a service whereby the offers to sell electricity are matched with bids to buy electricity (cf. ENTSOE-EFET-ebIX harmonized role model 2019).&lt;br/>In EU-SysFlex project, a market operator not only trades electricity but also flexibility services.&lt;br/>Organize auctions (continuous auctions, discrete auctions, calls for tender) between buyers and sellers of electricity-related products in the markets, and more generally publish the corresponding prices, for assets connected to power grid.&lt;br/>Manage/operate the platform for trading (where bids and offers are collected).&lt;br/>Clear the market and communicate results.&lt;br/>(cf. definition in T3.3 deliverable)&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Flexibility Service Provider&lt;/td>
+&lt;td>Business&lt;/td>
+&lt;td>Can be a Distribution Network Flexibility Provider or a Transmission Network Flexibility Provider (cf. definitions in T3.3 deliverable). &lt;br/>Similar to Flexibility Aggregator. Can be both aggregator and individual consumer/generator. Type of Energy Service Provider.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Data Hub Operator&lt;/td>
+&lt;td>Business&lt;/td>
+&lt;td>Data hub operator owns and operates an information system which main functionality is to store and make available electricity (also gas, heat) metering data and associated master data. Can be :&lt;br/>&lt;ul>&lt;li>Grid Data Hub Operator in the sphere of a System Operator&lt;/li>&lt;li>Market Data Hub Operator in the sphere of a Market Operator&lt;/li>&lt;li>Meter Data Hub Operator in the sphere of a Metered Data Operator&lt;/li>&lt;li>Sub-meter Data Hub Operator in the sphere of an Energy Service Provider&lt;/li>&lt;/ul>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DEP Operator&lt;/td>
+&lt;td>Business&lt;/td>
+&lt;td>Data exchange platform operator owns and operates a communication system which basic functionality is data transfer.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Collect data from certified meters&lt;/td>
+&lt;td>Metered Data Operators can collect data from electricity meters at transmission or distribution levels and store them in the Data Hub.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Collect market data&lt;/td>
+&lt;td>A Market Operator collects individual data from FSPs. Individual data can be flexibility bids or schedules.&lt;br/>Market Operator can also generate some market data itself (either public or with restricted access) and store them in the Market Data Hub. Market data can be used for balancing and congestion management.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Collect grid data&lt;/td>
+&lt;td>A System Operator collects and generates, in the Grid Data Hub, grid data related to its grid.&lt;br/>Grid data can be power grid descriptions or power grid congestion data used for balancing and congestion management.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Collect data from certified meters&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send data collection&amp;rsquo;s request&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Authenticate Information&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>f54a3eef-e16c-4917-9fb7-ba2e51f07da6&lt;/td>
+&lt;td>45af65d4-921b-419b-b824-dfb4bf1bb4de&lt;/td>
+&lt;td>79077332-56bd-437e-8295-63b9a9dab5bd&lt;/td>
+&lt;td>176b9940-9da9-45fa-b76b-db17de4ffbca 16aced1b-e4e3-4345-8316-278b3691b313 7c86cd26-f793-4a23-98ed-bfea4035d883&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive request and authenticate user&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>45af65d4-921b-419b-b824-dfb4bf1bb4de&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>176b9940-9da9-45fa-b76b-db17de4ffbca 16aced1b-e4e3-4345-8316-278b3691b313 7c86cd26-f793-4a23-98ed-bfea4035d883&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send meter data&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Metering Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>45af65d4-921b-419b-b824-dfb4bf1bb4de&lt;/td>
+&lt;td>f54a3eef-e16c-4917-9fb7-ba2e51f07da6&lt;/td>
+&lt;td>620429a9-a8f8-48c6-bf92-5f3e362b6cff&lt;/td>
+&lt;td>176b9940-9da9-45fa-b76b-db17de4ffbca 16aced1b-e4e3-4345-8316-278b3691b313 7c86cd26-f793-4a23-98ed-bfea4035d883&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Transmit meter data&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Metering Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>f54a3eef-e16c-4917-9fb7-ba2e51f07da6&lt;/td>
+&lt;td>43ac67ff-35a0-48e4-8b2c-d1eaf7537292&lt;/td>
+&lt;td>620429a9-a8f8-48c6-bf92-5f3e362b6cff&lt;/td>
+&lt;td>176b9940-9da9-45fa-b76b-db17de4ffbca 16aced1b-e4e3-4345-8316-278b3691b313 7c86cd26-f793-4a23-98ed-bfea4035d883&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Store meter data&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43ac67ff-35a0-48e4-8b2c-d1eaf7537292&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>176b9940-9da9-45fa-b76b-db17de4ffbca 16aced1b-e4e3-4345-8316-278b3691b313 7c86cd26-f793-4a23-98ed-bfea4035d883&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Collect market data&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>2.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send market data&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Market Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>2b8f28a5-4b5a-49fb-92fa-1728b089ce00&lt;/td>
+&lt;td>d2779077-a80f-43af-b09b-5a1fab340aed&lt;/td>
+&lt;td>21762d22-bc38-489c-b1a7-a5db4ca4945f&lt;/td>
+&lt;td>c7b8d744-dbbc-4fe9-8932-d072212e22cb d70ae303-c4c4-47bf-8814-eed06b87bfb3 786acf6f-952c-4c5a-b4c2-c5b5ab7ae331&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Collect market data&lt;/td>
+&lt;td>A Market Operator collects with its Flexibility Platform individual data from FSPs (i.e. bids and schedules).&lt;br/>Modsarus Use Case::InstanceName=Request on market data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>d2779077-a80f-43af-b09b-5a1fab340aed&lt;/td>
+&lt;td>2b8f28a5-4b5a-49fb-92fa-1728b089ce00&lt;/td>
+&lt;td>cdb8292b-f5e6-4f45-bee0-25916c5c6cbf&lt;/td>
+&lt;td>c7b8d744-dbbc-4fe9-8932-d072212e22cb d70ae303-c4c4-47bf-8814-eed06b87bfb3 786acf6f-952c-4c5a-b4c2-c5b5ab7ae331&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Generate market data&lt;/td>
+&lt;td>A Market Operator generates public market data (i.e. flexibility prices and volumes).&lt;br/>Modsarus Use Case::InstanceName=Market Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>d2779077-a80f-43af-b09b-5a1fab340aed&lt;/td>
+&lt;td>43ac67ff-35a0-48e4-8b2c-d1eaf7537292&lt;/td>
+&lt;td>21762d22-bc38-489c-b1a7-a5db4ca4945f&lt;/td>
+&lt;td>c7b8d744-dbbc-4fe9-8932-d072212e22cb d70ae303-c4c4-47bf-8814-eed06b87bfb3 786acf6f-952c-4c5a-b4c2-c5b5ab7ae331&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Store generated market data&lt;/td>
+&lt;td>Store generated data in a Market Data Hub.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43ac67ff-35a0-48e4-8b2c-d1eaf7537292&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>c7b8d744-dbbc-4fe9-8932-d072212e22cb d70ae303-c4c4-47bf-8814-eed06b87bfb3 786acf6f-952c-4c5a-b4c2-c5b5ab7ae331&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Collect grid data&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>3.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Collect grid data&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>63eb2d86-aa08-444e-88dc-51f7f64e714e&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>57301224-834e-4319-ae19-5efb9150541f 0ed0485f-31be-4cf6-a49a-18f8cd2a65e9 1b901786-140a-404e-9369-adae4ff9dbd5 de4e7a1e-ad65-4477-b158-4abcc02570be&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Generate grid data&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Grid Data&lt;br/>Modsarus Use Case::InstanceDescription=Necessary for flexibility services from their respective grids (DSO / TSO).&lt;br/>Grid data can be power grid descriptions or power grid congestion data used for congestion management&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>63eb2d86-aa08-444e-88dc-51f7f64e714e&lt;/td>
+&lt;td>43ac67ff-35a0-48e4-8b2c-d1eaf7537292&lt;/td>
+&lt;td>1d84924c-81aa-4e8a-b1b4-0a5be6a8b488&lt;/td>
+&lt;td>57301224-834e-4319-ae19-5efb9150541f 0ed0485f-31be-4cf6-a49a-18f8cd2a65e9 1b901786-140a-404e-9369-adae4ff9dbd5 de4e7a1e-ad65-4477-b158-4abcc02570be&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Store grid data&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43ac67ff-35a0-48e4-8b2c-d1eaf7537292&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>57301224-834e-4319-ae19-5efb9150541f 0ed0485f-31be-4cf6-a49a-18f8cd2a65e9 1b901786-140a-404e-9369-adae4ff9dbd5 de4e7a1e-ad65-4477-b158-4abcc02570be&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>79077332-56bd-437e-8295-63b9a9dab5bd&lt;/td>
+&lt;td>Authenticate Information&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>620429a9-a8f8-48c6-bf92-5f3e362b6cff&lt;/td>
+&lt;td>Metering Data&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>21762d22-bc38-489c-b1a7-a5db4ca4945f&lt;/td>
+&lt;td>Market Data&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>cdb8292b-f5e6-4f45-bee0-25916c5c6cbf&lt;/td>
+&lt;td>Request on market data&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1d84924c-81aa-4e8a-b1b4-0a5be6a8b488&lt;/td>
+&lt;td>Congestion Matrix&lt;/td>
+&lt;td>Congestion matrices are provided by System Operators and stored in Flexibility Platforms. It consists in a matrix based on grid models. Flexibility bids are inserted into the matrix, in order to check whether congestions would occur.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Cat1&lt;/td>
+&lt;td>Task 5.3&lt;/td>
+&lt;td>Requirements integrated from Task 5.3.&lt;/td>
+&lt;td>1880e39c-7084-4785-8c02-297057abe312&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req1&lt;/td>
+&lt;td>DC-REQ1.1&lt;/td>
+&lt;td>Get near-real-time data (up to 1 hour) from meters&lt;/td>
+&lt;td>176b9940-9da9-45fa-b76b-db17de4ffbca&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Req2&lt;/td>
+&lt;td>DC-REQ1.2&lt;/td>
+&lt;td>Get historical data (monthly) from conventional meters&lt;/td>
+&lt;td>16aced1b-e4e3-4345-8316-278b3691b313&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Req3&lt;/td>
+&lt;td>DC-REQ1.3&lt;/td>
+&lt;td>Store data in a meter data hub&lt;/td>
+&lt;td>7c86cd26-f793-4a23-98ed-bfea4035d883&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Req4&lt;/td>
+&lt;td>DC-REQ2.1&lt;/td>
+&lt;td>Get near-real-time (up to 1 hour) data from market&lt;/td>
+&lt;td>c7b8d744-dbbc-4fe9-8932-d072212e22cb&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Req5&lt;/td>
+&lt;td>DC-REQ2.2&lt;/td>
+&lt;td>Get historical data from market&lt;/td>
+&lt;td>d70ae303-c4c4-47bf-8814-eed06b87bfb3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Req6&lt;/td>
+&lt;td>DC-REQ2.3&lt;/td>
+&lt;td>Store data in a market data hub&lt;/td>
+&lt;td>786acf6f-952c-4c5a-b4c2-c5b5ab7ae331&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Req7&lt;/td>
+&lt;td>DC-REQ3.1&lt;/td>
+&lt;td>Get very-near-real-time (up to 1 minute) data from grid&lt;/td>
+&lt;td>57301224-834e-4319-ae19-5efb9150541f&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Req8&lt;/td>
+&lt;td>DC-REQ3.2&lt;/td>
+&lt;td>Get near-real-time (up to 1 hour) data from grid&lt;/td>
+&lt;td>0ed0485f-31be-4cf6-a49a-18f8cd2a65e9&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Req9&lt;/td>
+&lt;td>DC-REQ3.3&lt;/td>
+&lt;td>Get historical data from grid&lt;/td>
+&lt;td>1b901786-140a-404e-9369-adae4ff9dbd5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Req10&lt;/td>
+&lt;td>DC-REQ3.4&lt;/td>
+&lt;td>Store data in a grid data hub&lt;/td>
+&lt;td>de4e7a1e-ad65-4477-b158-4abcc02570be&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
