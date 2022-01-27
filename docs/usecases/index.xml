@@ -1,4 +1,612 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Use Cases</title><link>https://smart-grid-use-cases.github.io/docs/usecases/</link><description>Recent content in Use Cases on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: ACCEPT</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/</guid><description/></item><item><title>Docs: BRIDGE</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/</guid><description/></item><item><title>Docs: CROSSBOW</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/</guid><description/></item><item><title>Docs: E-LAND</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/</guid><description/></item><item><title>Docs: OneNet</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/</guid><description/></item><item><title>Docs: PARITY</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/</guid><description/></item><item><title>Docs: X-FLEX</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/</guid><description/></item><item><title>Docs: PlatOne</title><link>https://smart-grid-use-cases.github.io/docs/usecases/platone/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/platone/</guid><description/></item><item><title>Docs: RS-TF</title><link>https://smart-grid-use-cases.github.io/docs/usecases/rs-tf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/rs-tf/</guid><description/></item><item><title>Docs: MAESHA</title><link>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Use Cases</title><link>https://smart-grid-use-cases.github.io/docs/usecases/</link><description>Recent content in Use Cases on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: ACCEPT</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/</guid><description/></item><item><title>Docs: BRIDGE</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/</guid><description/></item><item><title>Docs: coordinet</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/</guid><description/></item><item><title>Docs: CROSSBOW</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/</guid><description/></item><item><title>Docs: E-LAND</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/</guid><description/></item><item><title>Docs: OneNet</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/</guid><description/></item><item><title>Docs: PARITY</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/</guid><description/></item><item><title>Docs: X-FLEX</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/</guid><description/></item><item><title>Docs: PlatOne</title><link>https://smart-grid-use-cases.github.io/docs/usecases/platone/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/platone/</guid><description/></item><item><title>Docs: RS-TF</title><link>https://smart-grid-use-cases.github.io/docs/usecases/rs-tf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/rs-tf/</guid><description/></item><item><title>Docs: GIFT</title><link>https://smart-grid-use-cases.github.io/docs/usecases/gift/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/gift/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Distribution system, DER, Customers,&lt;/td>
+&lt;td>GIFT&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>2019-05-24T00:00:00&lt;/td>
+&lt;td>Dune Sebilleau,&lt;/td>
+&lt;td>Document initiation&lt;/td>
+&lt;td>Approved&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>Procida network is to be organized as a local energy community, in order to reduce the dependency to the mainland, improve the efficiency of the grid and avoid summer congestion and blackouts. This would be used as an incentive for the individual prosumers to invest in renewable electricity production (PV). Afew public buildings would participate in this scheme.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>The main objectives are to create a local energy community, and to manage the congestion issues:&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>[3] Reduce the use of hydrocarbon-based energies&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>[3.1] Allow a high level of penetration of renewable energy&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>[3.1.1] Involve citizen through self-consumption&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>[3.1.2] Increase the renewable energy production&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>[3.2] Reduce dependency to the mainland&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>[3.2.1] Increase storage capacity&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>[4] Optimize the consumption of electricity&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>[4.1] Provide observability of the grid&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>[4.2] Provide flexibility in consumption&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>N/A&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>Create a local energy community in Procida (RUC5), driven by the municipality in order to decrease its dependency on the connection to
+the mainland, and optimize its consumption of energy. This LEC will as well be the driver for the development of renewable electricity
+production using PV.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>This use-case aims to create a local energy community at Procida, in order to increase the citizen implication in the energy network, to improve the energy efficiency and to develop the share of renewables. The local energy community will be driven by Procida municipality and run by an external BRP. This use-case would be supported by a few public buildings, that are equipped with heat pumps and have a relatively high energy consumption, and would therefore be eligible for providing flexibility:
+• The city hall: Equipped with a solar panel system and a heat pump. Will be coupled to the storage and generation system from Sylfen, which produces heat as well: 5kW of electricity storage and 4-5 kW of heat.
+• The public school: Equipped with a reversible heat pump
+• The hospital: Equipped with a heat pump, has a high energy consumption but low flexibility.
+Moreover, the municipality considers driving an increase in the local electricity production from PV on public buildings. The city hall PV system will be upgraded from 20 kW to 60 kW, and the two schools will get PV systems installed of 100 kW each (2 000 square meters in each school).
+The reduction of electricity consumption by the public lighting (currently one of the highest consumption sources in the island) will also be studied as part of this LEC. It could be done by replacing the light bulbs with LED, and/or by providing flexibility with the optimization of the use (with sensors). The PV energy could as well be used if batteries are involved.
+Other prosumers could as well enter the LEC:
+• A hotel (20 rooms) could join the scheme as a factory to provide flexibility.
+• Other industrial prosumers could join the scheme as factories.
+This is done using the GIFT system. It is a combination of different actors developed by the solution providers (GIFT project partners):
+• The Weather, Energy, S&amp;amp;D, Price Predictions and the Grid Observability system are used to forecast and monitor the state of the grid. A SCADA and an MDMS system present on the field are used to provide them with the necessary data.
+• The FlexAgent and the ESB are used for communication between the elements.
+• The VPS is used as an aggregator to trade the flexibility obtained from flexibility providers.&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>KPI 1.5&lt;/td>
+&lt;td>Accuracy of forecast at prosumer, MV/LV transformer or substantial level (energy demand, generation, flexibility)&lt;/td>
+&lt;td>Mean absolute percentage error (MAPE)&lt;/td>
+&lt;td>[2.1],&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>GIFT&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>GIFT&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Normal&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Optimized electricity consumption in a local energy community&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Local Energy Community, Flexibility, Renewable energy&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="UML_Diagram_of_the_Procida_Local_energy_community_Use-case.png" alt="UML Diagram of the Procida Local energy community Use-case">
+&lt;img src="SGAM_component_layer_of_the_Procida_Local_energy_community_Use-case.png" alt="SGAM component layer of the Procida Local energy community Use-case">&lt;/p>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>DSO&lt;/td>
+&lt;td>Operator&lt;/td>
+&lt;td>Operator of the Distribution System&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BRP&lt;/td>
+&lt;td>Operator&lt;/td>
+&lt;td>Balance responsible party of the distribution system&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Municipality&lt;/td>
+&lt;td>Business actor&lt;/td>
+&lt;td>Physical or legal Person that has his own interests, defined as &amp;ldquo;Business Goals&amp;rdquo;&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Weather, Energy, S&amp;amp;D, Price Predictions&lt;/td>
+&lt;td>Weather Forecast and Observation System&lt;/td>
+&lt;td>System which intends to perform weather forecast and observation calculation and to distribute the calculated geospatially referenced information to all connected other systems such as Distribution management systems, Transmission management systems, DER/Generation management systems, EMS or VPPs systems for DER, … enabling in many cases optimized decision processes or automation&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ESB&lt;/td>
+&lt;td>Systems Interfacing Support&lt;/td>
+&lt;td>Actor responsible for delivering &amp;amp; ensuring functional system interfaces&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Grid observability system&lt;/td>
+&lt;td>Network Operation Simulation&lt;/td>
+&lt;td>This actor performs network state estimation in order to allow facilities to define, prepare and optimize the sequence of operations required to solve or mitigate the predicted issues.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>VPS Control center&lt;/td>
+&lt;td>Application&lt;/td>
+&lt;td>Software-based application or system&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>FlexAgent&lt;/td>
+&lt;td>Systems Interfacing Support&lt;/td>
+&lt;td>Actor responsible for delivering &amp;amp; ensuring functional system interfaces,&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Meter Reading and Control System&lt;/td>
+&lt;td>Application&lt;/td>
+&lt;td>Application or system responsible for Meter Reading and Control&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PV&lt;/td>
+&lt;td>Distributed Energy Resource&lt;/td>
+&lt;td>Small unit which generates energy and which is connected to the distribution grid. Loads which could modify their consumption according to external set points are often also considered as DER&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>controller&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Factory EMS&lt;/td>
+&lt;td>Demand Response Management System&lt;/td>
+&lt;td>Demand Response Management System (DRMS) is a system or an application which maintains the control of many load devices to curtail their energy consumption in response to energy shortages or high energy prices.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Industrial Consumer&lt;/td>
+&lt;td>Business actor&lt;/td>
+&lt;td>An industrial consumer of electricity may also be involved in contract-based Demand/Response.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Smart energy hub&lt;/td>
+&lt;td>Battery Controller&lt;/td>
+&lt;td>An IED that provides data about battery status and controls the charging/de-charging cycles&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Sc.1&lt;/td>
+&lt;td>Optimized consumption using industrial consumers flexibility&lt;/td>
+&lt;td>Because congestion is forecasted on Procida grid, industrial consumers are requested to provide flexibility when consuming electricity.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Optimized consumption using industrial consumers flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sc.2&lt;/td>
+&lt;td>Optimized consumption using PV flexibility&lt;/td>
+&lt;td>Because congestion is predicted, the PV production is switched off.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Optimized consumption using PV flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Sc.3&lt;/td>
+&lt;td>Optimized consumption using Smart energy hub&lt;/td>
+&lt;td>Because congestion is forecasted on Procida grid, the Smart energy hub storage is requested to charge or discharge.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Optimized consumption using Smart energy hub&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Optimized consumption using industrial consumers flexibility&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>St.1&lt;/td>
+&lt;td>Prosumers flexibility offer&lt;/td>
+&lt;td>Flexibility offer&lt;/td>
+&lt;td>The prosumers continuously inform the VPS of its available energy.&lt;/td>
+&lt;td>Report&lt;/td>
+&lt;td>Factory EMS&lt;/td>
+&lt;td>FlexAgent&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Accuracy, Req.3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Optimized consumption using PV flexibility&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>St.1&lt;/td>
+&lt;td>PV flexibility offer&lt;/td>
+&lt;td>Flexibility offer&lt;/td>
+&lt;td>The PV controller continuously inform the VPS of its available flexibility.&lt;/td>
+&lt;td>Report&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>FlexAgent&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Accuracy, Req.3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Optimized consumption using Smart energy hub&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>St.1&lt;/td>
+&lt;td>Storage flexibility offer&lt;/td>
+&lt;td>Flexibility offer&lt;/td>
+&lt;td>The Smart energy hub continuously inform the VPS of its available energy.&lt;/td>
+&lt;td>Report&lt;/td>
+&lt;td>Smart energy hub&lt;/td>
+&lt;td>FlexAgent&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Accuracy, Req.3&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Procida Local energy community&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Inf.1&lt;/td>
+&lt;td>Weather forecast&lt;/td>
+&lt;td>The weather forecast is an input of the prediction system that enables to predict the future state of the grid.&lt;/td>
+&lt;td>Accuracy, Req.3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Inf.2&lt;/td>
+&lt;td>S&amp;amp;D&lt;/td>
+&lt;td>Supply and demand data are transferred to the Grid observability system. It is used to predict congestion through the Weather, Energy, S&amp;amp;D, Price Predictions system.&lt;/td>
+&lt;td>Accuracy, Req.3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Inf.3&lt;/td>
+&lt;td>Price&lt;/td>
+&lt;td>The energy price is predicted by the Weather, Energy, S&amp;amp;D, Price Predictions system.&lt;/td>
+&lt;td>Accuracy, Req.3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Inf.4&lt;/td>
+&lt;td>Grid state&lt;/td>
+&lt;td>The grid state is observed by the Grid observability system. It is used to directly detect congestion, or to predict congestion through the Weather, Energy, S&amp;amp;D, Price Predictions system.&lt;/td>
+&lt;td>Accuracy, Req.3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Inf.5&lt;/td>
+&lt;td>Grid state prediction&lt;/td>
+&lt;td>The Weather, Energy, S&amp;amp;D, Price Predictions system along with the Grid observability system are able to predict the Grid state on a short- and long -term basis.&lt;/td>
+&lt;td>Accuracy, Req.3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Inf.6&lt;/td>
+&lt;td>Power needed&lt;/td>
+&lt;td>The power needed to avoid congestion is assessed by the Grid observability system.&lt;/td>
+&lt;td>Accuracy, Req.3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Inf.7&lt;/td>
+&lt;td>Power available&lt;/td>
+&lt;td>The available power is calculated by the different flexibility providers based on the availability and flexibility of their components.&lt;/td>
+&lt;td>Accuracy, Req.3&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Inf.8&lt;/td>
+&lt;td>Power requested&lt;/td>
+&lt;td>The power requested from each flexibility provider is decided by the VPS in order to get the necessary flexibility from the available providers.&lt;/td>
+&lt;td>Equity, Req.5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Inf.9&lt;/td>
+&lt;td>Power modified&lt;/td>
+&lt;td>The controller receives the power modification requested by the VPS and executes the action by directly modifying the power at device level.&lt;/td>
+&lt;td>Response time, Req.2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Inf.10&lt;/td>
+&lt;td>Power consumption&lt;/td>
+&lt;td>The new power consumption by a flexibility provider following a power request from a VPS&lt;/td>
+&lt;td>Equity, Req.5&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: MAESHA</title><link>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
