@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – coordinet</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/</link><description>Recent content in coordinet on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/coordinet/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Greece</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/greece/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/greece/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – coordinet</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/</link><description>Recent content in coordinet on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/coordinet/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Greece</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/greece/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/greece/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -431,7 +431,7 @@ In addition, it has to be ensured that the activation of flexible resources in t
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Spain</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/spain/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/spain/</guid><description>
+&lt;/table></description></item><item><title>Docs: Spain</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/spain/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/spain/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -806,7 +806,7 @@ In this Use Case, the FSP performs the function of Balance Service Provider (BSP
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Sweden</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/sweden/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/sweden/</guid><description>
+&lt;/table></description></item><item><title>Docs: Sweden</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/sweden/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/sweden/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>

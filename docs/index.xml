@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: EACL-HU-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – Documentation</title><link>https://smart-grid-use-cases.github.io/docs/</link><description>Recent content in Documentation on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://smart-grid-use-cases.github.io/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: EACL-HU-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -842,7 +842,7 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-HU-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-HU-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1685,7 +1685,7 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -2321,7 +2321,7 @@ The status of FSP (registered) is registered in the FR.&lt;/p>
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3151,7 +3151,7 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3573,7 +3573,7 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-04</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-04</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -4125,7 +4125,7 @@ BSP already has a contract with TSO for the provision of balancing services&lt;/
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: GIFT</title><link>https://smart-grid-use-cases.github.io/docs/usecases/gift/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/gift/</guid><description>
+&lt;/table></description></item><item><title>Docs: GIFT</title><link>https://smart-grid-use-cases.github.io/docs/usecases/gift/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/gift/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -4733,7 +4733,7 @@ This is done using the GIFT system. It is a combination of different actors deve
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Greece</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/greece/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/greece/</guid><description>
+&lt;/table></description></item><item><title>Docs: Greece</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/greece/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/greece/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -5166,7 +5166,7 @@ In addition, it has to be ensured that the activation of flexible resources in t
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLU02-UC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLU02-UC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -5573,7 +5573,7 @@ Scheduled maintenance periods cannot be predicted and thus there should be a pro
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLUC01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLUC01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -6006,7 +6006,7 @@ PUC 7 Optimal management of EV and FCEVs in a LES |&lt;/li>
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLUC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLUC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -6421,7 +6421,7 @@ The above functionalities are facilitated by forecasting, scheduling and integra
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: HLUC03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</guid><description>
+&lt;/table></description></item><item><title>Docs: HLUC03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/e-land/hluc03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -6808,7 +6808,7 @@ In order to perform the simulations, the availability and cost of thermal and el
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: MAESHA</title><link>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</guid><description>
+&lt;/table></description></item><item><title>Docs: MAESHA</title><link>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/maesha/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -8410,7 +8410,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: NOCL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: NOCL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -9147,7 +9147,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: PUC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</guid><description>
+&lt;/table></description></item><item><title>Docs: PUC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/puc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -9658,7 +9658,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-CY-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-CY-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -10150,7 +10150,7 @@ Some transmission system operators (TSO), e.g., in the NORDPOOL, differentiate b
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-CY-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-CY-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -10555,7 +10555,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-GR-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-GR-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -11529,7 +11529,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-GR-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-GR-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -12021,7 +12021,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Spain</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/spain/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/spain/</guid><description>
+&lt;/table></description></item><item><title>Docs: Spain</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/spain/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/spain/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -12396,7 +12396,7 @@ In this Use Case, the FSP performs the function of Balance Service Provider (BSP
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: Sweden</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/sweden/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/sweden/</guid><description>
+&lt;/table></description></item><item><title>Docs: Sweden</title><link>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/sweden/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/coordinet/sweden/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -12770,7 +12770,7 @@ In this Use Case, the FSP performs the function of Balance Service Provider (BSP
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: TIGON</title><link>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</guid><description>
+&lt;/table></description></item><item><title>Docs: TIGON</title><link>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/tigon/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -13212,7 +13212,7 @@ In this Use Case, the FSP performs the function of Balance Service Provider (BSP
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC-08</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-08</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -13495,7 +13495,7 @@ In this Use Case, the FSP performs the function of Balance Service Provider (BSP
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC-11</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-11</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -13770,7 +13770,7 @@ In this Use Case, the FSP performs the function of Balance Service Provider (BSP
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -14355,7 +14355,1018 @@ In this Use Case, the FSP performs the function of Balance Service Provider (BSP
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc1/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc1/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>/ Generation, Transmission, Distribution, DER and Customer Premises / Station, Operation, Enterprise, Market,&lt;/td>
+&lt;td>UC1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>V0.9&lt;/td>
+&lt;td>2021-02-10T00:00:00&lt;/td>
+&lt;td>K. Piotrowski,&lt;/td>
+&lt;td>Initial version of the document&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>The scope of this Use Case is to describe the platform as a means to exchange data between the distributed energy management algorithms that are installed and executed on spatially distributed machines within the energy grid – management units. The scope covers the data exchange, but also other procedures needed to be done on the infrastructure management side, like registering stakeholders and their services, registering management units and defining their hierarchy.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>The objectives of the Use Case are as follows:&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>a) Platform initialization (preparation phase)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>o Registration of a stakeholder&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>o Registration of a Management Unit and identification of its responsible stakeholder&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>o Defining relations between Management Units (hierarchy relations parent-child)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>o Registration of a services that shall run on the behalf of a stakeholder&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>o Defining stakeholder policies to define allowed data access&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>b) Performing a data exchange within the platform (run-time phase)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>All other Use Cases exchange data based on the mechanisms described in this Use Case.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>This Use Case aims at demonstrating the functionality provided by the hierarchical energy-related communication platform. It abstracts the data exchange from the main energy management algorithms and by that simplifies the implementation of distributed energy management algorithms. The Use Case presents all the steps and procedures related to the platform, needed for its proper configuration and executed during its run-time.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>The Use Case aims at demonstrating the following main steps:
+a) Preparing the platform infrastructure
+b) Performing data exchange between distributed processes (services) executed on distributed management units (MUs)&lt;/p>
+&lt;p>These two steps can be further split into procedures that need to be applied to achieve the goal of the step, but these procedures can be applied in different combinations and sequences, depending on the given deployment. But in any case the infrastructure needs to be prepared first, before the data exchange can take place.&lt;/p>
+&lt;p>A deployment starts with the top level units (ebplus discovery and authority). These units are responsible for the organizational procedures related to the platform, like registration, certification, revocation.&lt;/p>
+&lt;p>First, each stakeholder needs to be registered in the system. A stakeholder is any actor that participates in the energy grid, being either a customer or (any service) provider. A stakeholder is relevant for the platform if there is data acquired or generated by that stakeholder or related to that stakeholder. After being registered the stakeholder obtains a unique identity in the system that she can prove to others with a certificate.&lt;/p>
+&lt;p>In order to create the physical infrastructure for the platform it is necessary to install the management units (hardware and software) and to register each of them within the platform. Here, similar to the stakeholder registration, each management unit obtains a unique identity and a certificate to prove the identity to others. The management unit is additionally linked to a specific stakeholder that is in charge of the management unit and has physical access to it. This stakeholder and management unit relation can be, for instance, defined by the premises the unit is installed within. After a management unit is registered in the system, it can be attached to the existing topology of units by defining its place in the hierarchy within the platform. This definition is done by creating a parent-child link between two management units. This relation is 1 to n, meaning that one parent can have many children, but one child can have only one parent (at a time). To define this link, it is necessary to configure both the management units properly, i.e., the child is added to the children configuration set on the parent MU and the parent is added to the parent (one element) configuration set on the child MU. This setting is local to this two MUs, it is not forced or configured by the top units, as it can be dynamic if the deployment allows topology/hierarchy changes, for instance, to improve the reliability.&lt;/p>
+&lt;p>In order to create data sources and exchange points it is necessary to register services that use the platform. A service is an implementation that accesses the data in the platform and executes a local algorithm processing the data and triggering actions or generating new data. These local services cooperate and together they implement a distributed algorithm. The locally installed piece of software (service) is executed on a management unit on behalf of a given stakeholder. It means that the same piece of software may be executed on the same management unit but for different stakeholders. By that we have two different instances of the algorithm, but performing their tasks for different stakeholders. Thus, within the platform not the piece of software – service is registered, but its specific instance to be run by a specific stakeholder. Such registered services to be run by specific stakeholders also get their certificates to prove their identity. This approach allows to specify data access policy that allows restricting the data accesses for specific algorithms by specific stakeholders only.
+Data stored by a service onto the platform is labeled as data belonging to the stakeholder the service runs on behalf of. By default each service run for a given stakeholder can access the data by that stakeholder without restrictions. But in order to access data of other stakeholders it is necessary that a proper access control policy is defined. Such policy specifies the allowed access patterns for given stakeholder/service configurations. And as the data access policy is handled by the MU where the data was written by a service of a stakeholder, it is also necessary to define the policy at that management unit. The best way to do that is to set it up while the service first starts. The access policy is then available on other MUs in the platform as well.&lt;/p>
+&lt;p>Finally, the data exchange between the running services may happen. The data exchange ways include reading, writing data, but reading can also be extended to subscribing to specific events, resulting in periodic data delivery or delivery of each newly available value. To exploit the hierarchical feature of the energy grid it is advised to perform data exchange according to the parent-children hierarchy, but indeed any other data exchange is possible as well. It is only necessary to know the identity of the target management unit, where the desired data origins from. Additionally, it is of course also necessary to have the right to access the desired data (policy definition by the data owner).&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>KPI.1.01&lt;/td>
+&lt;td>Platform reliability&lt;/td>
+&lt;td>Each data exchange request shall be accomplished with a clear outcome. Each condition in the platform has a defined influence on the data exchange result. Analysis of the platform state under the existence of data exchange requests gives a metric of the system reliability.&lt;/td>
+&lt;td>Objective b),&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Obligatory&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Technical&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Information Management System&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="Component_layer.png" alt="SGAM - Component Layer">
+&lt;img src="Communication_layer.png" alt="SGAM - Communication Layer">
+&lt;img src="Information_layer.png" alt="SGAM -Information layer">&lt;/p>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Data source&lt;/td>
+&lt;td>Any service by any stakeholder&lt;/td>
+&lt;td>Any service by any stakeholder storing data in the platform&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Data sink&lt;/td>
+&lt;td>Any service by any stakeholder&lt;/td>
+&lt;td>Any service by any stakeholder reading data in the platform&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>PS1&lt;/td>
+&lt;td>Storing data&lt;/td>
+&lt;td>Data source stores data in the platform&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Storing data&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PS2&lt;/td>
+&lt;td>Reading data&lt;/td>
+&lt;td>Data sink requests and obtains the data from the platform&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Reading data&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Storing data&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.1&lt;/td>
+&lt;td>Data source issues a store request&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Data source issues a store request. The data source is identified by the platform.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.2&lt;/td>
+&lt;td>Platform stores the data and replies with a reply.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>After successful processing of the request the data is stored in the platform.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Reading data&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>2.1&lt;/td>
+&lt;td>Data sink issues a data read request&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The data sink issues a request to read the data. The request may be either a single reading or a subscription for a series. The platform identifies the data sink and verifies if the data sink can access the requested data.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Data sink&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.2&lt;/td>
+&lt;td>Platform issues a reply for the request&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>After successful processing of the request the platform replies with data. This can be a single reply or a series of reply messages.&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Data sink&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Ebalance-plus Hierarchical Energy Communication Platform&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>EB.WR&lt;/td>
+&lt;td>Store request&lt;/td>
+&lt;td>Store request, containing the data to be stored together with meta description of the data and the identity of the data source (the requester).&lt;/td>
+&lt;td>EB.WR&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EB.WRR&lt;/td>
+&lt;td>Store reply&lt;/td>
+&lt;td>Store reply, containing the result of the request processing.&lt;/td>
+&lt;td>EB.WRR&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EB.RD&lt;/td>
+&lt;td>Read request&lt;/td>
+&lt;td>Read request, containing the meta description of the requested data and the identity of the data sink (the requester).&lt;/td>
+&lt;td>EB.RD&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EB.RDR&lt;/td>
+&lt;td>Read reply&lt;/td>
+&lt;td>Read reply, containing the result of the request processing and the requested data (if the access was granted)&lt;/td>
+&lt;td>EB.RDR&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: UC10</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc10/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc10/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>/ Customer premises / Process, Field, Station, Operation, Enterprises, Market,&lt;/td>
+&lt;td>UC10&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>V1&lt;/td>
+&lt;td>2020-09-25T00:00:00&lt;/td>
+&lt;td>DTU,&lt;/td>
+&lt;td>First Draft&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>This use case is aimed at unlocking the energy flexibility potential of end-users using smart energy management system, i.e. price-based or CO2-based optimal control, to enabling their participation in demand-response programs.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>1. Reduce building energy bills and CO2 emissions&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2. Enable an automatic load response to price signals (price-based demand response programs)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3. Enhance the control strategy of power-to-heat technologies coupled with thermal storage to increase building flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4. Develop forecasting algorithms to better exploit building flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>Associate with UC7&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>Price/CO2-based control is an indirect control mechanism that can be used to drive end-users’ power consumption on the basis of signals representative of market or grid (e.g., TSO/DSO) requirements. Indeed, end-users linked to time-varying electricity or network tariffs and equipped with smart controllers can react to changes in the price of electricity over time by shifting their consumption from peak to low-tariff hours, thus reducing their energy costs on the one hand and the overall demand, during peak-hours, on the other.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>Demand response (DR) is a promising way to exploit end users’ flexibility for supporting grid balancing and management. Among DR programs, price-based programs (also known as implicit DR programs) are recognized as the most suited for engaging low-voltage end-users, like households, in grid operations. Indeed, utilities equipped with controllers capable to react to external signals, like time-varying electricity prices, can exploit storage capacities (e.g.e.g., water of swimming pools) to implement load-shifting strategies that, on the one hand, reduce their energy cost and, on the other end, provide a service to the grid (e.g., peak-shaving, congestion relief, etc.). The present use case is structured as follows:
+(1) Each day, the market operators upload the market clearing prices (spot prices) for the next 24 hours to the Cloud platform, where they will be accessible to all the authorized end-users.
+(2) X hours before Real-Time Operations (RTO), the Control Management Unit (CMU) acquires the electricity tariffs from a Cloud platform (Internet service), and previously to RTO the CMU acquires all the information (e.g., sensors data, weather forecasting, etc.) needed to optimize the end-user energy consumption over the considered control horizon (e.g. 24 hours).&lt;br>
+(3) The CMU optimize the end-user’s consumption on the basis of the data gathered and implement the optimal control action.&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>KPI_1&lt;/td>
+&lt;td>Operational cost-saving (%)&lt;/td>
+&lt;td>Energy cost reduction by participating in price-based demand response programs (e.g., €/day)&lt;/td>
+&lt;td>1,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC10&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC10&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mandatory&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Technical&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Demand Response, Distribution Network Operation, Aggregator, Energy Flexibility&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="UC10-Diagram.png" alt="Overview of the use case">
+&lt;img src="Component_layer.png" alt="SGAM - Component Layer">
+&lt;img src="Function_layer.png" alt="SGAM - Function Layer">
+&lt;img src="Communication_layer.png" alt="SGAM - Communication Layer">
+&lt;img src="Information_layer.png" alt="SGAM - Information Layer">
+&lt;img src="Buisness_layer.png" alt="SGAM - Buisness Layer">&lt;/p>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Sensors, Smart meters&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Gather data at building level (e.g. indoor temperature and humidity, HP power consumption, water pool temperature) and broadcast them to the Control Management Unit through the IoT Gateway.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Controllable loads&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Controllable devices within a building, which consume electricity, such as heat pumps, electric boilers, ventilation systems, dishwashers, fridges, freezers, dryers etc.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>IoT gateway&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>IoT Gateway to integrate multi-vendor devices with processing capability (embedded Raspberry-Pi).&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cloud Platform&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>A cloud and web-based software platform which provides data-driven energy performance reporting, alarm, and notification system, compatible with all devices and systems such as smart meters, energy analyzers, automation systems and 3rd party software​, providing an intuitive user interface for building and district level stakeholders.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Customer Management Unit (CMU)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Application that optimize the operation of the controllable loads on the basis of price/CO2 forecasts.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Load controller&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Unit deployed at building level to control IoT devices and loads (e.g. Heat Pump).&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>PS1&lt;/td>
+&lt;td>Energy cost/CO2 optimization&lt;/td>
+&lt;td>The energy balancing/flexibility platform sends to every CMU/IoT gateway prices and forecasting and they perform the CO2/Cost optimization.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Energy cost/CO2 optimization&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AS1&lt;/td>
+&lt;td>End users preference prioritization&lt;/td>
+&lt;td>The CMU selects a non-optimal operation given the users preferences.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>End users preference prioritization&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Energy cost/CO2 optimization&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>11-15 min&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Sensors and Smart meters broadcast data to the IoT gateway.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>hourly&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The Cloud Platform acquires market data (e.g. energy prices, CO2), complement it with additional information (e.g. weather forecasting, booking status of summer houses), and make them available to the CMU.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>hourly&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>IoT gateway gathers data from the Cloud.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>hourly&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>IoT gateway transmits data gathered to the Control Management Unit.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>Data (prices, weather forecasting, booking status) acquired&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The Customer Management Unit defines the optimal control strategy to unlock the energy flexibility potential of the end users.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>Optimization problem solved&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The Control Management Unit broadcasts the optimal control signals (i.e. setpoints) to the Load Controller.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>Optimal setpoints received&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The load controller reformats the setpoints, or operating status, of the controllable devices, and broadcasts the new values to the controlled loads.&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>Optimal setpoints received&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Controllable devices update their operation parameters according to the new optimal setpoints.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>End users preference prioritization&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Customer setpoints received&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The customers reformat the setpoints of the controllable devices&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Customer setpoints received&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Controllable devices update their operation parameters according to the new setpoints.&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Price/CO2 based optimization&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Sensor and Smart meter measurements&lt;/td>
+&lt;td>Air temperature and humidity, pool water temperature, electric consumption.&lt;/td>
+&lt;td>Privacy&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Price/ CO2 data&lt;/td>
+&lt;td>Market data: electricity prices and CO2 emission factor&lt;/td>
+&lt;td>2&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Weather forecast&lt;/td>
+&lt;td>Weather forecasting&lt;/td>
+&lt;td>Availability of data&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Convenience&lt;/td>
+&lt;td>Additional parameters that affect the optimal control problem (i.e., occupants’ comfort requirements).&lt;/td>
+&lt;td>Availability of data&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>Optimal control strategy&lt;/td>
+&lt;td>Outputs of the optimal control problem solved to unlock the energy flexibility potential of end users.&lt;/td>
+&lt;td>5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>Optimal setpoints&lt;/td>
+&lt;td>Steering signals used to control/modify the operational status of the controllable devices.&lt;/td>
+&lt;td>6&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>Operation parameters&lt;/td>
+&lt;td>Parameters identifying the operational status of the controlled devices (e.g., on/off)&lt;/td>
+&lt;td>7&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: UC2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -14831,7 +15842,7 @@ VES is an inherent part of the building Digital Twin model and is also tightly d
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -15280,7 +16291,7 @@ Data to be collected comprises:
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-4</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-4</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/uc2-4/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -15693,7 +16704,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-5</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-5</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-5/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -16067,7 +17078,7 @@ This use case describes how those assets can be operated in an optimal way, foll
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2-7</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2-7</title><link>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/x-flex/uc2-7/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -16397,7 +17408,7 @@ GRIDFLEX must provide the grid operator with a list of actions to perform in ord
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC3</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC3</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -16824,7 +17835,710 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC5</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc5/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc5/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Distribution DER / Field, Station, Operation,&lt;/td>
+&lt;td>UC5&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>0.9&lt;/td>
+&lt;td>2020-11-25T00:00:00&lt;/td>
+&lt;td>Nikolaos Livanos, Vaggelis Alifragkis, Georgios Stravopodis,&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>The scope of the proposed Use Case is to implement Volt-VAr optimization approaches in the context of the eBalance+ project, by means of intelligent management units and optimization algorithms in the application field (i.e. Distribution Substations, RES, etc.).&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>a. To demonstrate the impact of Volt/VAr optimization on voltage stability&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>b. To demonstrate the impact of Volt/VAr optimization on technical power losses&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>c. To demonstrate the impact of Volt/VAr optimization on RES curtailment&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>d. To demonstrate the performance of Volt/VAr optimization both with a centralized and a distributed implementation with respect to possible failures in both approaches.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>The proposed Use Case refers to Volt-VAr optimization in a Power Distribution Grid incorporating DER (mainly RES), aiming to apply and demonstrate concepts and technologies of the eBalance+ project. The Use Case shall evaluate a specific distribution grid topology (TBD) in three different setups: 1. Laboratory Numerical Simulation, 2. Laboratory Simulation with Hardware-in-the-Loop (of eBalance+ management units), 3. Actual performance in project’s demo site(s). Regarding setup 3 (demo site) certain modifications in the distribution grid topology are anticipated, mainly due to the limitations of access to grid assets, as well as the limitations to intervene in the present control schemes. Two core scenarios will be presented: 1. Centralized, 2. Distributed. In the Centralized Scenario the Volt-VAr control is arbitrated and executed in the (A)DMS system (assumed to exist). The information is exchanged via the eBalance+ middleware and the MVGMU, LVGMU and DERMU devices (management units) are mainly used for communication interfacing and as remote terminal points (RTUs). In the Distributed scenario, the Volt-Var control is performed in the MVGMU device as an alternate scenario in case of central systems failures. As in the Centralized scenario, the LVGMU and DERMU are used for communication interfacing, again following eBalance+ middleware information routes.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>The present Use Case aims on the following:
+• Increased RES penetration in power distribution grids causes congestion and effective Volt-VAr optimization can intelligently manage RES to alleviate the problem.
+• An information/communication middleware (ebalance+) adopted by intelligent management units installed in the Operation, Station, and Field domains (following SGAM notation) can increase overall system resilience by means of automatic re-configuration and continuity of Volt-VAr service.
+• Intelligent management units in the Station and Field domains (e.g. MVGMU) are able to provide optimized Volt-VAr service.
+• Distributed intelligence could support Volt-VAr optimization approaches
+• Simulate respective Volt-Var optimization approaches
+• Apply Hardware-in-the-loop of the eBalance+ intelligent devices in the above simulations
+• Apply selected Volt-VAr optimization scenarios in the eBalance+ pilot installations
+• Measure and analyze performance in the demo sites&lt;/p>
+&lt;p>The Volt-VAr Use Case is based on the following methodology:&lt;/p>
+&lt;ol>
+&lt;li>Define a configurable power distribution grid topology
+a. Based on detailed analysis the topology may incorporate assets, such as: HV/MV Substation, Substation Capacitor Bank, Substation Transformer with On-Load TAP changer, MV RES, MV/LV Transformer with Voltage Regulator, MV Line Capacitors, LV RES, MV Loads, LV Loads, etc.
+b. The topology shall define the connections between the assets and perhaps possible reconfigurations (e.g. power switches, etc.)
+c. The RES generation shall be configurable (e.g. define three RES penetration scenarios: 50%, 100%, 200%).
+d. Part of the overall topology will be similar to the demo installation topologies&lt;/li>
+&lt;li>Define various congestion situations&lt;/li>
+&lt;li>Define specific optimization objective functions: Voltage Range, Power Loss Reduction, Minimum RES Curtailment&lt;/li>
+&lt;li>Define specific KPIs to support evaluation, comparisons and reporting: Voltage Violations (Frequency, Duration, Number, Excess), Power Losses, RES Energy, (optional KPIs depending on available control of assets: number of capacitor transitions, number of OLTC transitions, etc.)&lt;/li>
+&lt;li>Implement two scenarios:
+a. Centralized Volt-VAr: the solver is executed in the (A)DMS at the DSO’s Operation Center
+b. Distributed Volt-VAr: the solver is executed in the intelligent device in the Primary Distribution Substation (e.g. MVGMU)&lt;/li>
+&lt;li>Evaluate and compare the two scenarios&lt;/li>
+&lt;li>Evaluate and compare the grid’s performance before and after the application of optimization&lt;/li>
+&lt;li>The Use Case shall be implemented according to the following phases:
+a. Phase 1: Analysis, definitions and laboratory numerical simulations
+b. Phase 2: Laboratory simulations with Hardware-in-the-loop (e.g. MVGMU, LVGMU, DERMU in the simulation loop)
+c. Phase 3: Demo sites operations&lt;/li>
+&lt;/ol>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>KPI.01&lt;/td>
+&lt;td>Reduction of voltage violations&lt;/td>
+&lt;td>Based on the application of the Voltage Range objective function, this KPI measures the Frequency, Count and Duration of Voltage Violations per bus&lt;/td>
+&lt;td>Voltage Range,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC5&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mandatory&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Technical&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Advanced Distribution Management System, optimisation, simulation, RES, substation&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="Sequence_Diagram-Sc1-part1.png" alt="Sequence Diagram - Scenario 1 part 1/2">
+&lt;img src="Sequence_Diagram-Sc1-part2.png" alt="Sequence Diagram - Scenario 1 part 2/2">
+&lt;img src="Sequence_Diagram-Sc2.png" alt="Sequence Diagram - Scenario 2">
+&lt;img src="Component_layer_scenario1.png" alt="SGAM - Component Layer - Scenario 1">
+&lt;img src="Component_layer_scenario2.png" alt="SGAM - Component Layer - Scenario 2">
+&lt;img src="Function_layer_scenario1.png" alt="SGAM - Function Layer - Scenario 1">
+&lt;img src="Function_layer_scenario2.png" alt="SGAM - Function Layer - Scenario 2">
+&lt;img src="Communication_layer_scenario1.png" alt="SGAM - Communication Layer - Scenario 1">
+&lt;img src="Communication_layer_scenario2.png" alt="SGAM - Communication Layer - Scenario 2">
+&lt;img src="Information_layer_scenario1.png" alt="SGAM - Information Layer - Scenario 1">
+&lt;img src="Information_layer_scenario2.png" alt="SGAM - Information Layer - Scenario 2">
+&lt;img src="Buisness_layer.png" alt="SGAM - Buisness Layer">&lt;/p>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>DSO / Utility&lt;/td>
+&lt;td>Role&lt;/td>
+&lt;td>Responsible for operating, ensuring the maintenance of and, if necessary, developing the distribution system in a given area&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Service Provider&lt;/td>
+&lt;td>Role&lt;/td>
+&lt;td>Industrial partner involved in the ebalance+ project providing providing management units and algorithms&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DER Owner&lt;/td>
+&lt;td>Role&lt;/td>
+&lt;td>The owner of DER installation (see below) or the appointed representative that allows flexibility management&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DER installation(s)&lt;/td>
+&lt;td>System(s)&lt;/td>
+&lt;td>Small generation plant(s) (mainly of renewable energy) owned by a legal person&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>MVGMU, LVGMU, DERMU&lt;/td>
+&lt;td>System(s)&lt;/td>
+&lt;td>All devices placed on MV/LV network for monitoring or gathering information on grid&amp;rsquo;s situation or electrical parameters values. It also includes the IS associated&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>SCADA, (A)DMS&lt;/td>
+&lt;td>Systems&lt;/td>
+&lt;td>All the hardware and software associated, used at power command to control and monitor the network&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DMS.VVC&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>The software that performs the algorithms and produces the desired results. Operates at the DMS level&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>MVGMU.VVC&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>The software that performs the algorithms and produces the desired results. Operates at the MVGMU level&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>PS1&lt;/td>
+&lt;td>Centralized Volt/Var Optimization with RES Variability&lt;/td>
+&lt;td>The optimization logic is performed on the Distribution Management System level by collecting readings from the complete underlying grid. In turn control actions computed by the algorithm are distributed to the complete grid. The Primary scenario is separated in the following cases: 1. Nominal scenario, where the grid experiences no failures 2. DMS failure 3. MVGMU failure 4. LVGMU failure 5. DERMU failure&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Centralized Volt/Var Optimization with RES Variability&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AS1&lt;/td>
+&lt;td>Distributed Volt/Var Optimization with RES Variability&lt;/td>
+&lt;td>The optimization logic is performed on the Medium Voltage Grid level by collecting readings from the complete underlying grid. In turn control actions computed by the algorithm are distributed to the complete grid&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Distributed Volt/Var Optimization with RES Variability&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Centralized Volt/Var Optimization with RES Variability&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.1&lt;/td>
+&lt;td>Periodic Execution /No Failures – Set Inputs&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>DMS sets all the required input to VVC&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.2&lt;/td>
+&lt;td>Periodic Execution – Optimization&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>VVC performs optimization algorithm on given inputs (Optimum Power flow)&lt;/td>
+&lt;td>EXECUTE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.3&lt;/td>
+&lt;td>Periodic Execution – Get Outputs&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>VVC sends control signals based on results&lt;/td>
+&lt;td>CHANGE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>[VVC.008] The VVC function shall calculate the following:&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ol>
+&lt;li>Capacitor Bank New Status (on/off per capacitor)&lt;/li>
+&lt;li>TAP Position (number)&lt;/li>
+&lt;li>Line Capacitor Status (on/off flag)&lt;/li>
+&lt;li>RES Set-Point (desired power factor per RES source)
+[VVC.009] All outputs shall be provided to the SCADA in the case of DMS deployment
+[VVC.010] All outputs shall be provided to the MVGMU.RTU in the case of MVGMU deployment
+[VVC.011] Any not-set values shall be denoted by “null” |
+| 1.4 | Reporting | None | VVC computes and reports KPI compliance (continued process across multiple runs) | REPORT | | | | [VVC.012] The VVC shall be able to report the value of its KPIs
+[VVC.013] The KPIs shall be measured by the VVC function after it provides outputs. |
+| 2.1 | DMS Failure Set Inputs | None | DMS.VVC tries to collect inputs but communication has failed. (Please see AS1) | GET | | | | |
+| 3.1 | MVGMU Failure Set Input | None | DMS.VVC tries to collect all inputs but MVGMU fails to provide | GET | | | | |
+| 3.2 | Periodic Execution – Optimization | None | VVC performs optimization algorithm on given inputs (Optimum Power flow) without input from MVGMU | EXECUTE | | | | |
+| 3.3 | Periodic Execution – Get Outputs | None | VVC sends control signals based on results | CHANGE | | | | [VVC.008] The VVC function shall calculate the following:&lt;/li>
+&lt;li>Capacitor Bank New Status (on/off per capacitor)&lt;/li>
+&lt;li>TAP Position (number)&lt;/li>
+&lt;li>Line Capacitor Status (on/off flag)&lt;/li>
+&lt;li>RES Set-Point (desired power factor per RES source)
+[VVC.009] All outputs shall be provided to the SCADA in the case of DMS deployment
+[VVC.010] All outputs shall be provided to the MVGMU.RTU in the case of MVGMU deployment
+[VVC.011] Any not-set values shall be denoted by “null” |
+| 3.4 | Reporting | None | VVC computes and reports KPI compliance (continued process across multiple runs) | REPORT | | | | [VVC.012] The VVC shall be able to report the value of its KPIs
+[VVC.013] The KPIs shall be measured by the VVC function after it provides outputs. |
+| 4.1 | LVGMU Failure Set Input | None | DMS.VVC tries to collect all inputs but LVGMU fails to provide | GET | | | | |
+| 4.2 | Periodic Execution – Optimization | None | VVC performs optimization algorithm on given inputs (Optimum Power flow) without input from LVGMU | EXECUTE | | | | |
+| 4.3 | Periodic Execution – Get Outputs | None | VVC sends control signals based on results | CHANGE | | | | [VVC.008] The VVC function shall calculate the following:&lt;/li>
+&lt;li>Capacitor Bank New Status (on/off per capacitor)&lt;/li>
+&lt;li>TAP Position (number)&lt;/li>
+&lt;li>Line Capacitor Status (on/off flag)&lt;/li>
+&lt;li>RES Set-Point (desired power factor per RES source)
+[VVC.009] All outputs shall be provided to the SCADA in the case of DMS deployment
+[VVC.010] All outputs shall be provided to the MVGMU.RTU in the case of MVGMU deployment
+[VVC.011] Any not-set values shall be denoted by “null” |
+| 4.4 | Reporting | None | VVC computes and reports KPI compliance (continued process across multiple runs) | REPORT | | | | [VVC.012] The VVC shall be able to report the value of its KPIs
+[VVC.013] The KPIs shall be measured by the VVC function after it provides outputs. |
+| 5.1 | DERMU Failure Set Input | None | DMS.VVC tries to collect all inputs but DERMU fails to provide | GET | | | | |
+| 5.2 | Periodic Execution – Optimization | None | VVC performs optimization algorithm on given inputs (Optimum Power flow) without input from DERMU | CHANGE | | | | |
+| 5.3 | Periodic Execution – Get Outputs | None | VVC sends control signals based on results | CHANGE | | | | [VVC.008] The VVC function shall calculate the following:&lt;/li>
+&lt;li>Capacitor Bank New Status (on/off per capacitor)&lt;/li>
+&lt;li>TAP Position (number)&lt;/li>
+&lt;li>Line Capacitor Status (on/off flag)&lt;/li>
+&lt;li>RES Set-Point (desired power factor per RES source)
+[VVC.009] All outputs shall be provided to the SCADA in the case of DMS deployment
+[VVC.010] All outputs shall be provided to the MVGMU.RTU in the case of MVGMU deployment
+[VVC.011] Any not-set values shall be denoted by “null” |
+| 5.4 | Reporting | None | VVC computes and reports KPI compliance (continued process across multiple runs) | REPORT | | | | [VVC.012] The VVC shall be able to report the value of its KPIs
+[VVC.013] The KPIs shall be measured by the VVC function after it provides outputs. |&lt;/li>
+&lt;/ol>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Distributed Volt/Var Optimization with RES Variability&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>0&lt;/td>
+&lt;td>Configuration&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>MVGMU Configures VVC according to VVC.CONF&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>[VVC.001] The execution period shall be expressed in seconds&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>[VVC.002] The topology provided to the VVC function shall include the following:&lt;/p>
+&lt;ol>
+&lt;li>Line Specification (length, conductance)&lt;/li>
+&lt;li>Load Specification&lt;/li>
+&lt;li>Generator Specification (rated power)&lt;/li>
+&lt;li>RES Generator Specification (rater power, inverter specification)&lt;/li>
+&lt;li>Transformer Specification (voltage step, losses)&lt;/li>
+&lt;li>Capacitor specification (capacitance)&lt;/li>
+&lt;li>TAP Specification (voltage Step) |
+| 1.1 | Periodic Execution /No Failures – Set Inputs | None | MVGMU sets all the required input to VVC | GET | | | | |
+| 1.2 | Periodic Execution – Optimization | None | VVC performs optimization algorithm on given inputs (Optimum Power flow) | EXECUTE | | | | |
+| 1.3 | Periodic Execution – Get Outputs | None | VVC sends control signals based on results | CHANGE | | | | [VVC.008] The VVC function shall calculate the following:&lt;/li>
+&lt;li>Capacitor Bank New Status (on/off per capacitor)&lt;/li>
+&lt;li>TAP Position (number)&lt;/li>
+&lt;li>Line Capacitor Status (on/off flag)&lt;/li>
+&lt;li>RES Set-Point (desired power factor per RES source)
+[VVC.009] All outputs shall be provided to the SCADA in the case of DMS deployment
+[VVC.010] All outputs shall be provided to the MVGMU.RTU in the case of MVGMU deployment
+[VVC.011] Any not-set values shall be denoted by “null” |
+| 1.4 | Reporting | None | VVC computes and reports KPI compliance (continued process across multiple runs) | REPORT | | | | [VVC.012] The VVC shall be able to report the value of its KPIs
+[VVC.013] The KPIs shall be measured by the VVC function after it provides outputs. |
+| 2.1 | DMS Failure Set Inputs | None | MVGMU.VVC tries to collect inputs but DMS has failed | GET | | | | |
+| 2.2 | Periodic Execution – Optimization | None | VVC performs optimization algorithm on given inputs (Optimum Power flow) without input from MVGMU | EXECUTE | | | | |
+| 2.3 | Periodic Execution – Get Outputs | None | VVC sends control signals based on results | CHANGE | | | | [VVC.008] The VVC function shall calculate the following:&lt;/li>
+&lt;li>Capacitor Bank New Status (on/off per capacitor)&lt;/li>
+&lt;li>TAP Position (number)&lt;/li>
+&lt;li>Line Capacitor Status (on/off flag)&lt;/li>
+&lt;li>RES Set-Point (desired power factor per RES source)
+[VVC.009] All outputs shall be provided to the SCADA in the case of DMS deployment
+[VVC.010] All outputs shall be provided to the MVGMU.RTU in the case of MVGMU deployment
+[VVC.011] Any not-set values shall be denoted by “null” |
+| 2.4 | Reporting | None | VVC computes and reports KPI compliance (continued process across multiple runs) | REPORT | | | | [VVC.012] The VVC shall be able to report the value of its KPIs
+[VVC.013] The KPIs shall be measured by the VVC function after it provides outputs. |
+| 3.1 | MVGMU Failure Set Input | None | MVGMU.VVC tries to collect all inputs but MVGMU fails to provide | GET | | | | |
+| 4.1 | LVGMU Failure Set Input | None | MVGMU.VVC tries to collect all inputs but LVGMU fails to provide | GET | | | | |
+| 4.2 | Periodic Execution – Optimization | None | VVC performs optimization algorithm on given inputs (Optimum Power flow) without input from LVGMU | EXECUTE | | | | |
+| 4.3 | Periodic Execution – Get Outputs | None | VVC sends control signals based on results | CHANGE | | | | [VVC.008] The VVC function shall calculate the following:&lt;/li>
+&lt;li>Capacitor Bank New Status (on/off per capacitor)&lt;/li>
+&lt;li>TAP Position (number)&lt;/li>
+&lt;li>Line Capacitor Status (on/off flag)&lt;/li>
+&lt;li>RES Set-Point (desired power factor per RES source)
+[VVC.009] All outputs shall be provided to the SCADA in the case of DMS deployment
+[VVC.010] All outputs shall be provided to the MVGMU.RTU in the case of MVGMU deployment
+[VVC.011] Any not-set values shall be denoted by “null” |
+| 4.4 | Reporting | None | VVC computes and reports KPI compliance (continued process across multiple runs) | REPORT | | | | [VVC.012] The VVC shall be able to report the value of its KPIs
+[VVC.013] The KPIs shall be measured by the VVC function after it provides outputs. |
+| 5.1 | DERMU Failure Set Input | None | MVGMU.VVC tries to collect all inputs but DERMU fails to provide | GET | | | | |
+| 5.2 | Periodic Execution – Optimization | None | VVC performs optimization algorithm on given inputs (Optimum Power flow) without input from DERMU | CHANGE | | | | |
+| 5.3 | Periodic Execution – Get Outputs | None | VVC sends control signals based on results | CHANGE | | | | [VVC.008] The VVC function shall calculate the following:&lt;/li>
+&lt;li>Capacitor Bank New Status (on/off per capacitor)&lt;/li>
+&lt;li>TAP Position (number)&lt;/li>
+&lt;li>Line Capacitor Status (on/off flag)&lt;/li>
+&lt;li>RES Set-Point (desired power factor per RES source)
+[VVC.009] All outputs shall be provided to the SCADA in the case of DMS deployment
+[VVC.010] All outputs shall be provided to the MVGMU.RTU in the case of MVGMU deployment
+[VVC.011] Any not-set values shall be denoted by “null” |
+| 5.4 | Reporting | None | VVC computes and reports KPI compliance (continued process across multiple runs) | REPORT | | | | [VVC.012] The VVC shall be able to report the value of its KPIs
+[VVC.013] The KPIs shall be measured by the VVC function after it provides outputs. |&lt;/li>
+&lt;/ol>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>Volt-VAr optimization with increasing RES generation&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>VVC.CONF&lt;/td>
+&lt;td>VVC Configuration&lt;/td>
+&lt;td>Describes all the configuration options needed to be set to the VVC from the SCADA or RTU system that contains the VVC. These options only need to be set once and are:&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;ol>
+&lt;li>Grid Topology&lt;/li>
+&lt;li>Execution Period | [VVC.001] The execution period shall be expressed in seconds&lt;/li>
+&lt;/ol>
+&lt;p>[VVC.002] The topology provided to the VVC function shall include the following:&lt;/p>
+&lt;ol>
+&lt;li>Line Specification (length, conductance)&lt;/li>
+&lt;li>Load Specification&lt;/li>
+&lt;li>Generator Specification (rated power)&lt;/li>
+&lt;li>RES Generator Specification (rater power, inverter specification)&lt;/li>
+&lt;li>Transformer Specification (voltage step, losses)&lt;/li>
+&lt;li>Capacitor specification (capacitance)&lt;/li>
+&lt;li>TAP Specification (voltage Step) |
+| VVC.IN | VVC Input Execution Parameters | Describes the Information needed for a Volt/Var execution loop to compute. These are provided by the SCADA or RTU system that contains the VVC and are the following:&lt;/li>
+&lt;li>Voltage (Distribution Grid)&lt;/li>
+&lt;li>Active Power (Distribution Grid)&lt;/li>
+&lt;li>Reactive Power (Distribution Grid)&lt;/li>
+&lt;li>TAP Position&lt;/li>
+&lt;li>Capacitor Bank Status&lt;/li>
+&lt;li>Voltage (RES)&lt;/li>
+&lt;li>Active Power (RES)&lt;/li>
+&lt;li>Reactive Power (RES) | [VVC.003] The VVC function shall get as input the Distribution Grid state, which is:&lt;/li>
+&lt;li>Voltage (V)&lt;/li>
+&lt;li>Active Power (MW)&lt;/li>
+&lt;li>Reactive Power (MW)&lt;/li>
+&lt;li>TAP Position (number)&lt;/li>
+&lt;li>Capacitor Bank Status (on/off per capacitor)
+[VVC.004] The VVC function shall get as input the RES state, which is:&lt;/li>
+&lt;li>Voltage (V)&lt;/li>
+&lt;li>Active Power (MW)&lt;/li>
+&lt;li>Reactive Power (MVar)
+[VVC.005] All the inputs shall be provided by the SCADA in the case of DMS deployment (scenario 1)
+[VVC.006] All the inputs shall be provided by the MVGMU RTU in the case of MVGMU deployment (scenario 2)
+[VVC.007] All the inputs shall be provided
+Inputs that have no value for any reason shall be denoted as “null” |
+| VVC.OUT | VVC Output Results | Describes the results returned from the VVC after an execution loop. All results are returned to the SCADA or RTU system that contains the VVC which is then responsible to route them to the correct components. The output variables are:&lt;/li>
+&lt;li>Capacitor Bank New Status&lt;/li>
+&lt;li>TAP Position&lt;/li>
+&lt;li>Line Capacitor Status&lt;/li>
+&lt;li>RES set-points | [VVC.008] The VVC function shall calculate the following:&lt;/li>
+&lt;li>Capacitor Bank New Status (on/off per capacitor)&lt;/li>
+&lt;li>TAP Position (number)&lt;/li>
+&lt;li>Line Capacitor Status (on/off flag)&lt;/li>
+&lt;li>RES Set-Point (desired power factor per RES source)
+[VVC.009] All outputs shall be provided to the SCADA in the case of DMS deployment
+[VVC.010] All outputs shall be provided to the MVGMU.RTU in the case of MVGMU deployment
+[VVC.011] Any not-set values shall be denoted by “null” |
+| VVC.RPT | VVC Reporting | Describes the metrics computed after operation for the evaluation target KPIs. These metrics are aggregated in a temporal and a statistical manner and are persistent across runs. The Metrics are:&lt;/li>
+&lt;li>Voltage Violations Frequency&lt;/li>
+&lt;li>Voltage Violations Count&lt;/li>
+&lt;li>Voltage Violation Duration&lt;/li>
+&lt;li>Voltage Violation Excess&lt;/li>
+&lt;li>Power Losses&lt;/li>
+&lt;li>RES Energy&lt;/li>
+&lt;li>RES Curtailment percentage&lt;/li>
+&lt;li>Number of Capacitor Switches&lt;/li>
+&lt;li>Number of OLTC Switches | [VVC.012] The VVC shall be able to report the value of its KPIs
+[VVC.013] The KPIs shall be measured by the VVC function after it provides outputs. |
+| MGVMU.OUT | MGVMU RTU Outputs/Measurements | Describes all the values measured and retrieved from the specific RTU. These are:&lt;/li>
+&lt;li>Capacitor Bank Measurement&lt;/li>
+&lt;li>Tap Measurement&lt;/li>
+&lt;li>Voltage&lt;/li>
+&lt;li>Reactive Power&lt;/li>
+&lt;li>Active Power | [VVC.014] The MVGMU.RTU shall provide its measurements to the SCADA (scenario 1)
+[VVC.015] The MVGMU shall provide its measurements to the VVC function directly (scenario 2)
+[VVC.016] The measurements of the MVGMU.RTU shall be:&lt;/li>
+&lt;li>Capacitor Bank Status (on/off per capacitor)&lt;/li>
+&lt;li>Tap Measurement (number)&lt;/li>
+&lt;li>Voltage (V)&lt;/li>
+&lt;li>Reactive Power (MVAr)&lt;/li>
+&lt;li>Active Power (MW) |
+| MGVMU.CTRL | MGVMU RTU Control Input | Describes all the elements that the specific RTU can control. These are:&lt;/li>
+&lt;li>TAP Position&lt;/li>
+&lt;li>Capacitor State | [VVC.017] The MVGMU shall receive control signals from the SCADA as calculated by the VVC function (scenario 1)
+[VVC.018] The MVGMU shall receive control signals from the VVC function directly (scenario 2)
+[VVC.019] The MVGMU.RTU shall support the following control signals:&lt;/li>
+&lt;li>TAP Position (number)&lt;/li>
+&lt;li>Capacitor State (on/off per capacitor) |
+| LVGMU.OUT | LVGMU Output measurements | Describes all the values measured and retrieved from the specific RTU. These are:&lt;/li>
+&lt;li>Line Capacitor Status&lt;/li>
+&lt;li>Line Voltage Measurement&lt;/li>
+&lt;li>Reactive Power&lt;/li>
+&lt;li>Active Power | [VVC.020] The LVGMU.RTU shall provide its measurements to the SCADA (scenario 1)
+[VVC.021] The LVGMU shall provide its measurements to the MVGMU (scenario 2)
+[VVC.022] The measurements of the LVGMU.RTU shall be:&lt;/li>
+&lt;li>Line Capacitor Status (on/off flag)&lt;/li>
+&lt;li>Line Voltage (V)&lt;/li>
+&lt;li>Reactive Power (MVAr)&lt;/li>
+&lt;li>Active Power (MW) |
+| LVGMU.CTRL | LVGMU RTU Control Input | Describes all the elements that the specific RTU can control. These are:&lt;/li>
+&lt;li>Line Capacitor State&lt;/li>
+&lt;li>Voltage Regulator set-point | [VVC.023] The LVGMU shall receive control signals from the SCADA as calculated by the VVC function (scenario 1)
+[VVC.024] The LVGMU shall receive control signals from the MVGMU (scenario 2)
+[VVC.025] The LGMU.RTU shall support the following control signals:&lt;/li>
+&lt;li>Capacitor State (on/off flag)&lt;/li>
+&lt;li>Live Voltage Regulator Set-Point (Power Factor) |
+| DERMU.OUT | DERMU Output measurements | Describes all the values measured and retrieved from this unit. These are:&lt;/li>
+&lt;li>Voltage (RES)&lt;/li>
+&lt;li>Active Power (RES)&lt;/li>
+&lt;li>Reactive Power (RES) | [VVC.026] The DERMU.RTU shall provide its measurements to the SCADA (scenario 1)
+[VVC.027] The DERMU shall provide its measurements to the MVGMU (scenario 2)
+[VVC.028] The measurements of the DERMU.RTU shall be:&lt;/li>
+&lt;li>Line Voltage (V)&lt;/li>
+&lt;li>Reactive Power (MVAr)&lt;/li>
+&lt;li>Active Power (MW) |
+| DERMU.CTRL | DERMU Control Input | Describes the controllable element of this unit which is: RES Set-Points. | [VVC.029] The DERMU shall receive control signals from the SCADA as calculated by the VVC function (scenario 1)
+[VVC.030] The DERMU shall receive control signals from the MVGMU (scenario 2)
+[VVC.031] The DERMU.RTU shall support the following control signals:&lt;/li>
+&lt;li>RES Set-Point (Power Factor per RES) |&lt;/li>
+&lt;/ol>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -17277,7 +18991,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-ES-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-ES-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -18563,7 +20277,7 @@ o Availability/Activation cap price: X €/MW or X €/MWh | I.E.08 |
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -24318,7 +26032,7 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -28841,7 +30555,7 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -38683,1869 +40397,6 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;td>ESCO-REQ1&lt;/td>
 &lt;td>List of suppliers and ESCOs is available through DEP; List of aggregators is available through flexibility platform additionally&lt;/td>
 &lt;td>540a5c74-d66e-4dcf-95e0-d01d365a42d0&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
-&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table></description></item><item><title>Docs: elering-17</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/elering-17/</link><pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/elering-17/</guid><description>
-&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
-&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
-&lt;th>Name of the Use Case&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Access to data, Balance management, Market for flexibilities, Operational planning and forecasting, Services related to end customers,&lt;/td>
-&lt;td>elering-17&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Version No.&lt;/th>
-&lt;th>Date&lt;/th>
-&lt;th>Name of author(s)&lt;/th>
-&lt;th>Changes&lt;/th>
-&lt;th>Approval status&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>2018-04-12T00:00:00&lt;/td>
-&lt;td>Richárd Balog (Mavir), Kalle Kukk (Elering),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>2018-07-13T00:00:00&lt;/td>
-&lt;td>Ricardo Jover (EDF), Eric Suignard (EDF),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>2018-07-19T00:00:00&lt;/td>
-&lt;td>Ricardo Jover (EDF), Eric Suignard (EDF),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>2018-08-02T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>Scenario names changed. &lt;br/>First scenario restructured.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5&lt;/td>
-&lt;td>2018-09-21T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF), Ricardo Jover (EDF),&lt;/td>
-&lt;td>Remarks from Innogy and EirGrid.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6&lt;/td>
-&lt;td>2018-10-04T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>Version post WP5&amp;amp;9 physical meeting in Tallinn&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7&lt;/td>
-&lt;td>2018-10-17T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>Version reviewed by WP5&amp;amp;9 partners&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8&lt;/td>
-&lt;td>2019-05-07T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>WP6-7-8 demos alignment and miscellaneous changes&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9&lt;/td>
-&lt;td>2020-06-16T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>innogy’s and Elering’s review&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;/th>
-&lt;th>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
-&lt;td>Transfer of different types of energy related data. The system use case describes the data flow through data exchange platform from the data provider (data hub or any other data source) to data user (data owner) or to a third party application (supplier, aggregator, ESCO), who has consent or legal mandate to use the data. Data transfer does not necessarily need a central storage.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>To support business use cases and to ensure access to needed data for the relevant processes.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
-&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>The granularity of data and frequency of data transfer could be different depending on the business use case, but the purpose is the same: ensuring the needed data in order to support business processes. Some other system use cases (data collection, authentication of data users, authorization, anonymization of data, aggregation of data) are strongly connected to this use case, which are considered as preconditions.&lt;/p>
-&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Name&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Reference to mentioned use case objectives&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Assumptions&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Some sort of data validation is applied&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Prerequisites&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>The user has the proper authentication to download data&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Relation to other use cases&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SUC&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>General remarks&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;img src="Image5.png" alt="Transfer energy data - overview">
-&lt;img src="Image6.png" alt="Transfer energy data - scenarios flowchart">&lt;/p>
-&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
-&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Data Exchange Platform&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Data exchange platform (DEP) is a communication platform the basic functionality of which is to secure data transfer (routing) from data providers (e.g. data hubs, flexibility service providers, TSOs, DSOs) to the data users (e.g. TSOs, DSOs, consumers, suppliers, energy service providers). DEP stores data related to its services (e.g. cryptographic hash of the data requested). The DEP does not store core energy data (e.g. meter data, grid data, market data) while these data can be stored by data hubs. Several DEPs may exist in different countries and inside one country.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Data Source&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Any kind of system used to store data (including Data Hub and Flexibility Platform).&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Application&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Any kind of system connected to a Data Exchange Platform and used by a market participant who wishes to receive data.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Data User&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>Any person who uses data. Can be a Data Owner or a Data Delegated Third party.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Foreign Customer Portal&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Customer Portal for another country.&lt;br/>Can also mean a separate portal in the same country.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Customer Portal&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Customer Portal manages data users' authentication, access permissions and data logs. Customer Portals store data related to its services (e.g. authentication information, representation rights, access permissions, data logs).&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>DEP Operator&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>Data exchange platform operator owns and operates a communication system which basic functionality is data transfer.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="32-references">3.2. References&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
-&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Request data through DEP API and publish data to subscribed applications&lt;/td>
-&lt;td>Data can be sent to an application if the application has requested for the data through DEP API or if it has subscribed to publications of this data.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Download data through DEP customer portal&lt;/td>
-&lt;td>An authenticated user can check and download the data through DEP from any Data Hub, depending on the type of data (to be defined).&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
-&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Request data through DEP API and publish data to subscribed applications&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Request data&lt;/td>
-&lt;td>An application requests for data from a Data Source.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>3b6d4cd1-7cd7-473e-af25-2cd3f990d415&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 21ea2803-acf7-41f1-84c8-c72d43aeda29 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Check authorization from data owner to request specific data&lt;/td>
-&lt;td>According to &amp;quot;Manage access permissions&amp;quot; SUC, an application can receive authorization from a Data Owner to request data from a Data Source.&lt;br/>Modsarus Use Case::InstanceName=Any Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>3b6d4cd1-7cd7-473e-af25-2cd3f990d415&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6 5351ac19-9ec2-47b9-9ead-4a28907df045&lt;/td>
-&lt;td>97336539-bfa7-4501-b370-ff9d6d4bf681&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 21ea2803-acf7-41f1-84c8-c72d43aeda29 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Authorization check&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Any Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>4e694b8b-e0eb-4b2a-ae7a-1bcb6f656385&lt;/td>
-&lt;td>97336539-bfa7-4501-b370-ff9d6d4bf681&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 21ea2803-acf7-41f1-84c8-c72d43aeda29 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Authorization check&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Any Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>5351ac19-9ec2-47b9-9ead-4a28907df045&lt;/td>
-&lt;td>4e694b8b-e0eb-4b2a-ae7a-1bcb6f656385&lt;/td>
-&lt;td>97336539-bfa7-4501-b370-ff9d6d4bf681&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 21ea2803-acf7-41f1-84c8-c72d43aeda29 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Forward request for data&lt;/td>
-&lt;td>The Data Exchange Platform forwards to the Data Source the request for data.&lt;br/>Modsarus Use Case::InstanceName=Any Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>4e694b8b-e0eb-4b2a-ae7a-1bcb6f656385&lt;/td>
-&lt;td>0dd151df-ddcc-48b7-9236-208eb2f4a16c&lt;/td>
-&lt;td>97336539-bfa7-4501-b370-ff9d6d4bf681&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 21ea2803-acf7-41f1-84c8-c72d43aeda29 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Check the request for data&lt;/td>
-&lt;td>The Data Source checks whether there is valid authorization for the requesting application.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>0dd151df-ddcc-48b7-9236-208eb2f4a16c&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 21ea2803-acf7-41f1-84c8-c72d43aeda29 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Process the request for data&lt;/td>
-&lt;td>The Data Source makes data available to the requesting application, in a &amp;quot;publish-stream&amp;quot; mode.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>0dd151df-ddcc-48b7-9236-208eb2f4a16c&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 21ea2803-acf7-41f1-84c8-c72d43aeda29 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Publish data to authorized applications&lt;/td>
-&lt;td>The Data Source publishes data to all applications with valid authorization.&lt;br/>Modsarus Use Case::InstanceName=Any Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>0dd151df-ddcc-48b7-9236-208eb2f4a16c&lt;/td>
-&lt;td>4e694b8b-e0eb-4b2a-ae7a-1bcb6f656385&lt;/td>
-&lt;td>97336539-bfa7-4501-b370-ff9d6d4bf681&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 21ea2803-acf7-41f1-84c8-c72d43aeda29 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.9&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Forward data&lt;/td>
-&lt;td>The Data Exchange Platform forwards the published data to authorized applications.&lt;br/>Modsarus Use Case::InstanceName=Any Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>4e694b8b-e0eb-4b2a-ae7a-1bcb6f656385&lt;/td>
-&lt;td>3b6d4cd1-7cd7-473e-af25-2cd3f990d415&lt;/td>
-&lt;td>97336539-bfa7-4501-b370-ff9d6d4bf681&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 21ea2803-acf7-41f1-84c8-c72d43aeda29 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Download data through DEP customer portal&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>2.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Process the request for data&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Any Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>5351ac19-9ec2-47b9-9ead-4a28907df045&lt;/td>
-&lt;td>0dd151df-ddcc-48b7-9236-208eb2f4a16c&lt;/td>
-&lt;td>97336539-bfa7-4501-b370-ff9d6d4bf681&lt;/td>
-&lt;td>21ea2803-acf7-41f1-84c8-c72d43aeda29 2af6ad64-c90f-4bc9-aebd-7c01060f85c4 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Authenticate to DEP&lt;/td>
-&lt;td>Data users authenticates to Data Exchange Platform via a web-based customer portal or through 3rd party application.&lt;br/>Modsarus Use Case::InstanceName=Authenticate Information&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>f3850003-cd20-463b-891f-a2ab28c75bb1&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>79077332-56bd-437e-8295-63b9a9dab5bd&lt;/td>
-&lt;td>21ea2803-acf7-41f1-84c8-c72d43aeda29 2af6ad64-c90f-4bc9-aebd-7c01060f85c4 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Verify authentication information&lt;/td>
-&lt;td>The Data Exchange Platform verifies the authentication information and the representation rights.&lt;br/>Modsarus Use Case::InstanceName=Authenticate Information&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>f3850003-cd20-463b-891f-a2ab28c75bb1&lt;/td>
-&lt;td>79077332-56bd-437e-8295-63b9a9dab5bd&lt;/td>
-&lt;td>21ea2803-acf7-41f1-84c8-c72d43aeda29 2af6ad64-c90f-4bc9-aebd-7c01060f85c4 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Request data&lt;/td>
-&lt;td>Data users request for data via a DEP web-based portal or through 3rd party applications.&lt;br/>Modsarus Use Case::InstanceName=Any Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>f3850003-cd20-463b-891f-a2ab28c75bb1&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>97336539-bfa7-4501-b370-ff9d6d4bf681&lt;/td>
-&lt;td>21ea2803-acf7-41f1-84c8-c72d43aeda29 2af6ad64-c90f-4bc9-aebd-7c01060f85c4 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Process request&lt;/td>
-&lt;td>If the Data User and the Data Source are not in the same country, the Data Exchange Platform forwards the request to the Foreign Data Exchange Platform.&lt;br/>Modsarus Use Case::InstanceName=Any Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>0dd151df-ddcc-48b7-9236-208eb2f4a16c 5351ac19-9ec2-47b9-9ead-4a28907df045&lt;/td>
-&lt;td>97336539-bfa7-4501-b370-ff9d6d4bf681&lt;/td>
-&lt;td>21ea2803-acf7-41f1-84c8-c72d43aeda29 2af6ad64-c90f-4bc9-aebd-7c01060f85c4 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Process the request for data&lt;/td>
-&lt;td>The Data Source can create different kinds of file (e.g. Excel, PDF, XML).&lt;br/>Modsarus Use Case::InstanceName=Any Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>0dd151df-ddcc-48b7-9236-208eb2f4a16c&lt;/td>
-&lt;td>f3850003-cd20-463b-891f-a2ab28c75bb1&lt;/td>
-&lt;td>97336539-bfa7-4501-b370-ff9d6d4bf681&lt;/td>
-&lt;td>21ea2803-acf7-41f1-84c8-c72d43aeda29 2af6ad64-c90f-4bc9-aebd-7c01060f85c4 f2decf5c-0584-4b7f-b3cd-3f965c05eaac 3c2a1a64-8572-4c9e-a14f-fd230623d471 96f13794-5aad-4213-a61a-8a20c2f5089e ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>97336539-bfa7-4501-b370-ff9d6d4bf681&lt;/td>
-&lt;td>Any Data&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>79077332-56bd-437e-8295-63b9a9dab5bd&lt;/td>
-&lt;td>Authenticate Information&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Cat1&lt;/td>
-&lt;td>Personal data&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>bd1580a2-20b8-41fa-a8df-2ae6041bf604&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Req1&lt;/td>
-&lt;td>Access Citizen Right&lt;/td>
-&lt;td>Right to secure direct access of own personal data and to any processing, storage or sharing details&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Req2&lt;/td>
-&lt;td>Portable Citizen Right&lt;/td>
-&lt;td>A copy of the data held may be requested by the individual in a portable format&lt;/td>
-&lt;td>21ea2803-acf7-41f1-84c8-c72d43aeda29&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Cat2&lt;/td>
-&lt;td>Task 5.3&lt;/td>
-&lt;td>Requirements integrated from Task 5.3.&lt;/td>
-&lt;td>1880e39c-7084-4785-8c02-297057abe312&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Req3&lt;/td>
-&lt;td>DT-REQ1&lt;/td>
-&lt;td>Transfer of data must be secured, by means of encryption or communication protocol&lt;/td>
-&lt;td>f2decf5c-0584-4b7f-b3cd-3f965c05eaac&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Req4&lt;/td>
-&lt;td>DT-REQ3&lt;/td>
-&lt;td>Data owner&amp;rsquo;s access to data through DEP (and foreign DEP)&lt;/td>
-&lt;td>3c2a1a64-8572-4c9e-a14f-fd230623d471&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Req5&lt;/td>
-&lt;td>DT-REQ4&lt;/td>
-&lt;td>Application&amp;rsquo;s access to data through DEP (and foreign DEP)&lt;/td>
-&lt;td>96f13794-5aad-4213-a61a-8a20c2f5089e&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Req6&lt;/td>
-&lt;td>DT-REQ2&lt;/td>
-&lt;td>Data portability (applies to personal data - Article 20 of the GDPR)&lt;/td>
-&lt;td>ccb8fafe-70eb-44eb-aba5-b221fe6704e8&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
-&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table></description></item><item><title>Docs: elering-18</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/elering-18/</link><pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/elering-18/</guid><description>
-&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
-&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
-&lt;th>Name of the Use Case&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Balance management, Market for flexibilities, Operational planning and forecasting,&lt;/td>
-&lt;td>elering-18&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Version No.&lt;/th>
-&lt;th>Date&lt;/th>
-&lt;th>Name of author(s)&lt;/th>
-&lt;th>Changes&lt;/th>
-&lt;th>Approval status&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>2018-04-05T00:00:00&lt;/td>
-&lt;td>Marco Pietrucci (Terna),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>2018-06-25T00:00:00&lt;/td>
-&lt;td>Ricardo Jover (EDF), Eric Suignard (EDF),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>2018-07-19T00:00:00&lt;/td>
-&lt;td>Ricardo Jover (EDF), Eric Suignard (EDF),&lt;/td>
-&lt;td>- Network operators involved, instead of BRPs.&lt;br/>- Use of baseline, instead of winning bids.&lt;br/>- Imbalance calculation changed into flexibility verification.&lt;br/>- Calculation of delivered flexibilities and verification of delivered flexibilities in two steps.&lt;br/>- Imbalance fees changed into penalties.&lt;br/>- Invoice out of scope.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>2018-07-30T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5&lt;/td>
-&lt;td>2018-08-02T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6&lt;/td>
-&lt;td>2018-09-21T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF), Ricardo Jover (EDF),&lt;/td>
-&lt;td>Remarks from Innogy and EirGrid.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7&lt;/td>
-&lt;td>2018-10-04T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>Version post WP5&amp;amp;9 physical meeting in Tallinn&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8&lt;/td>
-&lt;td>2018-10-17T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>Version reviewed by WP5&amp;amp;9 partners&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9&lt;/td>
-&lt;td>2019-05-07T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>WP6-7-8 demos alignment and miscellaneous changes&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>10&lt;/td>
-&lt;td>2019-07-09T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>Elering review&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>11&lt;/td>
-&lt;td>2020-06-16T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>innogy’s and Elering’s review&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;/th>
-&lt;th>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
-&lt;td>Verification of the flexibilities actually delivered by Flexibility Service Providers.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>Calculate actually delivered flexibility as response to activation request. Verify that flexibility delivered matches with flexibility requested. Calculate the penalty if flexibility delivered is less than flexibility requested.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
-&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>Actual flexibility delivered is calculated as the difference between baseline and metered consumption/generation of that Flexibility Service Provider. The verification takes place by comparing the actually delivered flexibility and flexibility requested by the System Operator. Settlement means that a Flexibility Service Provider is asked for a penalty if actually delivered flexibility is less than requested flexibility. Imbalance settlement process follows but is out of the scope of this use case.&lt;/p>
-&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Name&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Reference to mentioned use case objectives&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Assumptions&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Market participant baselines (i.e. from any FSP: aggregator, individual consumer, individual generator) have been previously defined.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Prerequisites&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>For the verification and the calculation of penalties, the values of actual inputs / withdrawals must be obtained through accurate, reliable and certified instruments (metering data). Meter data, baselines and activation requests are needed.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Relation to other use cases&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SUC&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>General remarks&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;img src="Image3.png" alt="Verify and settle activated flexibilities - overview">
-&lt;img src="Image4.png" alt="Verify and settle activated flexibilities - scenarios flowchart">&lt;/p>
-&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
-&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Data Exchange Platform&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Data exchange platform (DEP) is a communication platform the basic functionality of which is to secure data transfer (routing) from data providers (e.g. data hubs, flexibility service providers, TSOs, DSOs) to the data users (e.g. TSOs, DSOs, consumers, suppliers, energy service providers). DEP stores data related to its services (e.g. cryptographic hash of the data requested). The DEP does not store core energy data (e.g. meter data, grid data, market data) while these data can be stored by data hubs. Several DEPs may exist in different countries and inside one country.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Data Hub&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Data Hub is an information system which main functionality is to store and make available measurements (e.g. meter data, operational data) and associated master data. Data Hubs are not necessarily centralized in a country or in a region.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>System Operator&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>System Operator means a natural or legal person responsible for operating, ensuring the maintenance of and, if necessary, developing the system in a given area and, where applicable, its interconnections with other systems, and for ensuring the long-term ability of the system to meet reasonable demands for the distribution or transmission of electricity (cf. ENTSOE-EFET-ebIX harmonized role model 2019). &lt;br/>Can be:&lt;br/>&lt;ul>&lt;li>A Transmission System Operator (cf. definition in T3.3 deliverable), for frequency control, congestion management and voltage control on transmission network,&lt;/li>&lt;li>A Distribution System Operator (cf. definition in T3.3 deliverable), for congestion management and voltage control on distribution network.&lt;/li>&lt;/ul>&lt;br/>NB: In some countries (e.g. Germany and Poland), the high voltage network is part of the distribution grid and in other countries (e. g. France and Italy) the high voltage network is part of the transmission grid. &lt;br/>&lt;br/>A System Operator can be:&lt;br/>&lt;ul>&lt;li>A Primary System Operator,&lt;/li>&lt;li>A Secondary System Operator.&lt;/li>&lt;/ul>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Flexibility Platform&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Flexibility Platform (FP) for System Operators and Flexibility Service Providers that enables the trading of different flexibility products and services. A FP is operated by a Market Operator.&lt;br/>&lt;br/>Available to System Operators and Flexibility Services Providers. It is used to support the prequalification, the bidding, the activation and the verification processes, ensuring coordination between activities undertaken by several operators using the same flexible resources. Several national and regional FPs may exist.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>DEP Operator&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>Data exchange platform operator owns and operates a communication system which basic functionality is data transfer.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Data Hub Operator&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>Data hub operator owns and operates an information system which main functionality is to store and make available electricity (also gas, heat) metering data and associated master data. Can be :&lt;br/>&lt;ul>&lt;li>Grid Data Hub Operator in the sphere of a System Operator&lt;/li>&lt;li>Market Data Hub Operator in the sphere of a Market Operator&lt;/li>&lt;li>Meter Data Hub Operator in the sphere of a Metered Data Operator&lt;/li>&lt;li>Sub-meter Data Hub Operator in the sphere of an Energy Service Provider&lt;/li>&lt;/ul>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="32-references">3.2. References&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
-&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Flexibility verification and settlement&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
-&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Flexibility verification and settlement&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Provide metering data&lt;/td>
-&lt;td>Real generation/consumption data measured by certified meters data and/or sub-meter data collected by Data Hubs.&lt;br/>Modsarus Use Case::InstanceName=Metering Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43ac67ff-35a0-48e4-8b2c-d1eaf7537292&lt;/td>
-&lt;td>4e694b8b-e0eb-4b2a-ae7a-1bcb6f656385&lt;/td>
-&lt;td>620429a9-a8f8-48c6-bf92-5f3e362b6cff&lt;/td>
-&lt;td>ed80c55c-4905-449d-a080-0b8a38816665 022e5e04-25f7-4d18-bc6f-d14cf3b6e928 d30141fc-cac2-4282-a9c1-999392a0a429&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Provide baselines&lt;/td>
-&lt;td>Baselines stored at Flexibility Platform and collected previously (see &amp;quot;Calculate flexibility baseline&amp;quot; SUC) by Market Operators, FSPs or System Operators.&lt;br/>Modsarus Use Case::InstanceName=Baseline&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>908bfa7a-c616-4b2b-a712-04aac115429b&lt;/td>
-&lt;td>908bfa7a-c616-4b2b-a712-04aac115429b&lt;/td>
-&lt;td>235f29ab-b809-45c2-83c6-f5710d3dd2f5&lt;/td>
-&lt;td>ed80c55c-4905-449d-a080-0b8a38816665 022e5e04-25f7-4d18-bc6f-d14cf3b6e928 d30141fc-cac2-4282-a9c1-999392a0a429&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Provide requested activation volumes&lt;/td>
-&lt;td>Volumes of requested flexibilities by System Operators (in &amp;quot;Manage flexibility activation&amp;quot; SUC).&lt;br/>Modsarus Use Case::InstanceName=Activated Flexibility&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>908bfa7a-c616-4b2b-a712-04aac115429b&lt;/td>
-&lt;td>908bfa7a-c616-4b2b-a712-04aac115429b 908bfa7a-c616-4b2b-a712-04aac115429b&lt;/td>
-&lt;td>6bc23364-c3c2-4760-8065-7fba38f1d821&lt;/td>
-&lt;td>ed80c55c-4905-449d-a080-0b8a38816665 022e5e04-25f7-4d18-bc6f-d14cf3b6e928 d30141fc-cac2-4282-a9c1-999392a0a429&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Forward metering data&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Metering Data&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>4e694b8b-e0eb-4b2a-ae7a-1bcb6f656385&lt;/td>
-&lt;td>908bfa7a-c616-4b2b-a712-04aac115429b&lt;/td>
-&lt;td>620429a9-a8f8-48c6-bf92-5f3e362b6cff&lt;/td>
-&lt;td>ed80c55c-4905-449d-a080-0b8a38816665 022e5e04-25f7-4d18-bc6f-d14cf3b6e928 d30141fc-cac2-4282-a9c1-999392a0a429&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Calculate the actually delivered flexibilities&lt;/td>
-&lt;td>The Flexibility Platform calculates the difference between the metered consumed/produced energy (delivered energy) and the baseline.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>908bfa7a-c616-4b2b-a712-04aac115429b&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>ed80c55c-4905-449d-a080-0b8a38816665 022e5e04-25f7-4d18-bc6f-d14cf3b6e928 d30141fc-cac2-4282-a9c1-999392a0a429&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Verify the delivered flexibilities&lt;/td>
-&lt;td>The Flexibility Platform calculates the differences between the actually delivered flexibilities and the requested activation volumes.&lt;br/>Modsarus Use Case::InstanceName=Flexibility Settlement&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>908bfa7a-c616-4b2b-a712-04aac115429b&lt;/td>
-&lt;td>63eb2d86-aa08-444e-88dc-51f7f64e714e&lt;/td>
-&lt;td>1481302c-63be-407f-a49b-0a4ec9080511&lt;/td>
-&lt;td>ed80c55c-4905-449d-a080-0b8a38816665 022e5e04-25f7-4d18-bc6f-d14cf3b6e928 d30141fc-cac2-4282-a9c1-999392a0a429&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Calculate penalties&lt;/td>
-&lt;td>Penalties of the requested but not delivered flexibilities.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>63eb2d86-aa08-444e-88dc-51f7f64e714e&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>ed80c55c-4905-449d-a080-0b8a38816665 022e5e04-25f7-4d18-bc6f-d14cf3b6e928 d30141fc-cac2-4282-a9c1-999392a0a429&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>620429a9-a8f8-48c6-bf92-5f3e362b6cff&lt;/td>
-&lt;td>Metering Data&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>235f29ab-b809-45c2-83c6-f5710d3dd2f5&lt;/td>
-&lt;td>Baseline&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6bc23364-c3c2-4760-8065-7fba38f1d821&lt;/td>
-&lt;td>Activated Flexibility&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1481302c-63be-407f-a49b-0a4ec9080511&lt;/td>
-&lt;td>Flexibility Settlement&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Cat1&lt;/td>
-&lt;td>Task 5.3&lt;/td>
-&lt;td>Requirements integrated from Task 5.3.&lt;/td>
-&lt;td>1880e39c-7084-4785-8c02-297057abe312&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Req1&lt;/td>
-&lt;td>FVERIF-REQ1&lt;/td>
-&lt;td>Calculation of actually delivered flexibility as a response to an activation request&lt;/td>
-&lt;td>ed80c55c-4905-449d-a080-0b8a38816665&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Req2&lt;/td>
-&lt;td>FVERIF-REQ2&lt;/td>
-&lt;td>Verification that flexibility delivered matches with flexibility requested&lt;/td>
-&lt;td>022e5e04-25f7-4d18-bc6f-d14cf3b6e928&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Req3&lt;/td>
-&lt;td>FVERIF-REQ3&lt;/td>
-&lt;td>Calculation of the penalty if flexibility delivered is less than flexibility requested&lt;/td>
-&lt;td>d30141fc-cac2-4282-a9c1-999392a0a429&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
-&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table></description></item><item><title>Docs: elering-19</title><link>https://smart-grid-use-cases.github.io/docs/usecases/bridge/elering-19/</link><pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/bridge/elering-19/</guid><description>
-&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
-&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
-&lt;th>Name of the Use Case&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Access to data, Market for flexibilities, Operational planning and forecasting, Services related to end customers, Balance management,&lt;/td>
-&lt;td>elering-19&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Version No.&lt;/th>
-&lt;th>Date&lt;/th>
-&lt;th>Name of author(s)&lt;/th>
-&lt;th>Changes&lt;/th>
-&lt;th>Approval status&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>2018-04-12T00:00:00&lt;/td>
-&lt;td>Kalle Kukk (Elering),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>2018-06-01T00:00:00&lt;/td>
-&lt;td>Kalle Kukk (Elering), Georg Rute (Elering),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>2018-06-28T00:00:00&lt;/td>
-&lt;td>Ricardo Jover (EDF), Eric Suignard (EDF),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>2018-07-02T00:00:00&lt;/td>
-&lt;td>Ricardo Jover (EDF), Eric Suignard (EDF),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5&lt;/td>
-&lt;td>2018-08-10T00:00:00&lt;/td>
-&lt;td>Ricardo Jover (EDF), Eric Suignard (EDF),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6&lt;/td>
-&lt;td>2018-08-19T00:00:00&lt;/td>
-&lt;td>Ricardo Jover (EDF), Eric Suignard (EDF),&lt;/td>
-&lt;td>“Delegated Authentication” changed into “Representation Rights”&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7&lt;/td>
-&lt;td>2018-08-02T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8&lt;/td>
-&lt;td>2018-09-21T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF), Ricardo Jover (EDF),&lt;/td>
-&lt;td>Remarks from Innogy, Elering (Automatic process for DEP, without Operator) and EirGrid.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9&lt;/td>
-&lt;td>2018-10-04T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>Version post WP5&amp;amp;9 physical meeting in Tallinn&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>10&lt;/td>
-&lt;td>2018-10-17T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>Version reviewed by WP5&amp;amp;9 partners&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>11&lt;/td>
-&lt;td>2019-05-07T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>WP6-7-8 demos alignment and miscellaneous changes&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>12&lt;/td>
-&lt;td>2020-06-16T00:00:00&lt;/td>
-&lt;td>Eric Suignard (EDF),&lt;/td>
-&lt;td>Wiebke&amp;rsquo;s and Kalle&amp;rsquo;s review&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;/th>
-&lt;th>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
-&lt;td>Access to private data and other information with restricted access through a Customer Portal and a Data Exchange Platform&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>Support easy but secure access to data&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
-&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>All data users need to be authenticated to a Customer Portal before having access to a Data Exchange Platform (DEP), for the exchange of individual metering data (private data) or any other information with restricted access.&lt;/p>
-&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Name&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Reference to mentioned use case objectives&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Assumptions&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>eIDAS (electronic IDentification, Authentication and trust Services) regulation and its trust levels shall be applied&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Prerequisites&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>National or platform specific identification infrastructure – ID card, dedicated password, internet bank link, etc&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Relation to other use cases&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>SUC&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>General remarks&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;img src="Image5.png" alt="Authenticate data users - overview">
-&lt;img src="Image6.png" alt="Authenticate data users - scenarios flowchart">&lt;/p>
-&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
-&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Customer Portal Operator&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>Operates a Customer Portal.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Authentication Service Provider&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>Trust authority. Verifies the identity of authenticating parties.&lt;br/>Some countries will have their own authentication service provider. For countries which will not, there may be a more global and to be defined one.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Data Owner&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>Any person who owns data and can give authorization to other parties to access them. Can be, inter alia: &lt;br/>&lt;ul>&lt;li>Flexibility Services Provider&lt;/li>&lt;li>Market Operator&lt;/li>&lt;li>Consumer&lt;/li>&lt;li>Generator&lt;/li>&lt;/ul>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Data Delegated Third party&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>Any natural person who has received representation rights from a data owner.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Foreign Customer Portal&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Customer Portal for another country.&lt;br/>Can also mean a separate portal in the same country.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Customer Portal&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Customer Portal manages data users' authentication, access permissions and data logs. Customer Portals store data related to its services (e.g. authentication information, representation rights, access permissions, data logs).&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Data Exchange Platform&lt;/td>
-&lt;td>System&lt;/td>
-&lt;td>Data exchange platform (DEP) is a communication platform the basic functionality of which is to secure data transfer (routing) from data providers (e.g. data hubs, flexibility service providers, TSOs, DSOs) to the data users (e.g. TSOs, DSOs, consumers, suppliers, energy service providers). DEP stores data related to its services (e.g. cryptographic hash of the data requested). The DEP does not store core energy data (e.g. meter data, grid data, market data) while these data can be stored by data hubs. Several DEPs may exist in different countries and inside one country.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>DEP Operator&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>Data exchange platform operator owns and operates a communication system which basic functionality is data transfer.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="32-references">3.2. References&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
-&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Authentication process and representation rights delegation&lt;/td>
-&lt;td>Any person needing access to personal or commercial data needs to be authenticated to a Customer Portal for having access to the data via a DEP – either logging in through a Customer Portal or through third party application connected to a DEP. &lt;br/>&lt;br/>This may involve:&lt;br/>&lt;ul>&lt;li>Consumer’s/generator’s access to own consumption/generation data;&lt;/li>&lt;li>Access to a person’s data by another person who has received representation rights from data owner.&lt;/li>&lt;/ul>&lt;br/>After authenticating himself/herself, the data owner (e.g. electricity consumer is the owner of its consumption data) can give representation rights to any other person who can then act on behalf of the data owner.&lt;br/>&lt;br/>Customer Portal operator checks the validity of the representation rights. If a representation right is given to a person in another country, then the Customer Portal operators of the involved countries share the information about representation rights between themselves.&lt;br/>&lt;br/>After authenticating himself/herself, the person who has received the representation rights can see who is he/she representing and act on behalf of data owner.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
-&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Authentication process and representation rights delegation&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Authenticate&lt;/td>
-&lt;td>Authentication means may include ID-card, mobile-ID or bank link. &lt;br/>Information associated to authentication process may include name, surname and ID-code of individual customers; company name and registry code of corporate customers as well as name, surname and ID-code of their representatives.&lt;br/>Modsarus Use Case::InstanceName=Authenticate Information&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>a17749ef-fb35-4331-9275-eaadfad82b36&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>79077332-56bd-437e-8295-63b9a9dab5bd&lt;/td>
-&lt;td>1e05916d-6efd-4312-b48e-80cf75241cb5&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Verify Logging Identification&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Authenticate Information&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>9488169b-e952-4818-b0f0-d417cf25f11b&lt;/td>
-&lt;td>79077332-56bd-437e-8295-63b9a9dab5bd&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 5798483d-0d41-4eee-8923-e6104e0a5407 61a984c8-570b-44ea-ae27-4ac6e8d539a4 f92f957a-3da4-4c7a-b131-07c09c7c78f5 6274a294-499d-4bb6-9d98-ef3d0a488633&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Verify Identity&lt;/td>
-&lt;td>Verifies the identity of authenticating parties.&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9488169b-e952-4818-b0f0-d417cf25f11b&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 5798483d-0d41-4eee-8923-e6104e0a5407 61a984c8-570b-44ea-ae27-4ac6e8d539a4 f92f957a-3da4-4c7a-b131-07c09c7c78f5 6274a294-499d-4bb6-9d98-ef3d0a488633&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Give access to data&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Authenticate access&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>4e694b8b-e0eb-4b2a-ae7a-1bcb6f656385&lt;/td>
-&lt;td>a17749ef-fb35-4331-9275-eaadfad82b36 baa61f8b-bde4-4008-820b-bfad5a7150f6 bd6ead6c-b65f-44e5-b686-9c9456170f0a&lt;/td>
-&lt;td>79077332-56bd-437e-8295-63b9a9dab5bd&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 5798483d-0d41-4eee-8923-e6104e0a5407 61a984c8-570b-44ea-ae27-4ac6e8d539a4 f92f957a-3da4-4c7a-b131-07c09c7c78f5 6274a294-499d-4bb6-9d98-ef3d0a488633&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Access to Own Data&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>a17749ef-fb35-4331-9275-eaadfad82b36&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 5798483d-0d41-4eee-8923-e6104e0a5407 61a984c8-570b-44ea-ae27-4ac6e8d539a4 f92f957a-3da4-4c7a-b131-07c09c7c78f5 6274a294-499d-4bb6-9d98-ef3d0a488633&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Delegate Representation Rights&lt;/td>
-&lt;td>A data owner gives representation rights for data per consumption/generation point. &lt;br/>He/she can also select types of data (e.g. historical consumption/generation data, sub-meter data, operational data) for which he/she gives representation rights.&lt;br/>He/she selects the persons to whom he/she gives representation rights.&lt;br/>Modsarus Use Case::InstanceName=Representation Rights&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>a17749ef-fb35-4331-9275-eaadfad82b36&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>2d556860-d3eb-4096-a4e9-da817e315002&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 5798483d-0d41-4eee-8923-e6104e0a5407 61a984c8-570b-44ea-ae27-4ac6e8d539a4 f92f957a-3da4-4c7a-b131-07c09c7c78f5 6274a294-499d-4bb6-9d98-ef3d0a488633&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Register Representation Rights&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Representation Rights&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6 5351ac19-9ec2-47b9-9ead-4a28907df045&lt;/td>
-&lt;td>2d556860-d3eb-4096-a4e9-da817e315002&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 5798483d-0d41-4eee-8923-e6104e0a5407 61a984c8-570b-44ea-ae27-4ac6e8d539a4 f92f957a-3da4-4c7a-b131-07c09c7c78f5 6274a294-499d-4bb6-9d98-ef3d0a488633&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Verify Representation Rights&lt;/td>
-&lt;td>Customer Portal operator checks the validity of the representation rights.&lt;br/>Modsarus Use Case::InstanceName=Representation Rights&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>2d556860-d3eb-4096-a4e9-da817e315002&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 5798483d-0d41-4eee-8923-e6104e0a5407 61a984c8-570b-44ea-ae27-4ac6e8d539a4 f92f957a-3da4-4c7a-b131-07c09c7c78f5 6274a294-499d-4bb6-9d98-ef3d0a488633&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.9&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Verify Representation Rights in a Foreign Country&lt;/td>
-&lt;td>If the representation right is given to a person in another country, then the Customer Portal operators of the involved countries share the information about representation rights between themselves.&lt;br/>Modsarus Use Case::InstanceName=Representation Rights&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>5351ac19-9ec2-47b9-9ead-4a28907df045&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>2d556860-d3eb-4096-a4e9-da817e315002&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 5798483d-0d41-4eee-8923-e6104e0a5407 61a984c8-570b-44ea-ae27-4ac6e8d539a4 f92f957a-3da4-4c7a-b131-07c09c7c78f5 6274a294-499d-4bb6-9d98-ef3d0a488633&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.10&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Notify Representation Rights&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Authenticate Information&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>79077332-56bd-437e-8295-63b9a9dab5bd&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 5798483d-0d41-4eee-8923-e6104e0a5407 61a984c8-570b-44ea-ae27-4ac6e8d539a4 f92f957a-3da4-4c7a-b131-07c09c7c78f5 6274a294-499d-4bb6-9d98-ef3d0a488633&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.11&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Authenticate&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=Authenticate Information&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>bd6ead6c-b65f-44e5-b686-9c9456170f0a&lt;/td>
-&lt;td>baa61f8b-bde4-4008-820b-bfad5a7150f6&lt;/td>
-&lt;td>79077332-56bd-437e-8295-63b9a9dab5bd&lt;/td>
-&lt;td>1e05916d-6efd-4312-b48e-80cf75241cb5&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.12&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Access to Delegated Data&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>bd6ead6c-b65f-44e5-b686-9c9456170f0a&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4 5798483d-0d41-4eee-8923-e6104e0a5407 61a984c8-570b-44ea-ae27-4ac6e8d539a4 f92f957a-3da4-4c7a-b131-07c09c7c78f5 6274a294-499d-4bb6-9d98-ef3d0a488633&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>79077332-56bd-437e-8295-63b9a9dab5bd&lt;/td>
-&lt;td>Authenticate Information&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2d556860-d3eb-4096-a4e9-da817e315002&lt;/td>
-&lt;td>Representation Rights&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Cat1&lt;/td>
-&lt;td>Personal data&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>bd1580a2-20b8-41fa-a8df-2ae6041bf604&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Req1&lt;/td>
-&lt;td>Access Citizen Right&lt;/td>
-&lt;td>Right to secure direct access of own personal data and to any processing, storage or sharing details&lt;/td>
-&lt;td>2af6ad64-c90f-4bc9-aebd-7c01060f85c4&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Cat2&lt;/td>
-&lt;td>Task 5.3&lt;/td>
-&lt;td>Requirements integrated from Task 5.3.&lt;/td>
-&lt;td>1880e39c-7084-4785-8c02-297057abe312&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Req2&lt;/td>
-&lt;td>AUTH-REQ-3&lt;/td>
-&lt;td>Ability to share information related to representation rights between data users and concerned Customer Portals&lt;/td>
-&lt;td>5798483d-0d41-4eee-8923-e6104e0a5407&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Req3&lt;/td>
-&lt;td>AUTH-REQ-4&lt;/td>
-&lt;td>Ability to share authentication information between data users, Customer Portal and Authentication Service Provider&lt;/td>
-&lt;td>61a984c8-570b-44ea-ae27-4ac6e8d539a4&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Req4&lt;/td>
-&lt;td>AUTH-REQ-2&lt;/td>
-&lt;td>Authentication tools&lt;/td>
-&lt;td>f92f957a-3da4-4c7a-b131-07c09c7c78f5&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Req5&lt;/td>
-&lt;td>AUTH-REQ-1&lt;/td>
-&lt;td>Right to access own data&lt;/td>
-&lt;td>6274a294-499d-4bb6-9d98-ef3d0a488633&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Cat3&lt;/td>
-&lt;td>Functional&lt;/td>
-&lt;td>Functional requirements&lt;/td>
-&lt;td>59e7899c-d9ee-4534-81a6-81b37dce5e81&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Req6&lt;/td>
-&lt;td>Authentication means&lt;/td>
-&lt;td>Authentication means may include ID-card, mobile-ID or bank link. &amp;lt;br/&amp;gt;Information associated to authentication process may include name, surname and ID-code of individual customers; company name and registry code of corporate customers as well as name, surname and ID-code of their representatives.&lt;/td>
-&lt;td>1e05916d-6efd-4312-b48e-80cf75241cb5&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
