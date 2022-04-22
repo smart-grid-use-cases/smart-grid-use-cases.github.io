@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – PARITY</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/</link><description>Recent content in PARITY on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/parity/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC-08</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – PARITY</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/</link><description>Recent content in PARITY on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/parity/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC-08</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-08/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -256,7 +256,7 @@
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Congestion management by DSO through operation of LFM to increase DER penetration&lt;/td>
+&lt;td>&amp;lsquo;Congestion management by DSO through operation of LFM to increase DER penetration&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -281,7 +281,7 @@
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC-11</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC-11</title><link>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/parity/uc-11/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -531,7 +531,7 @@
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Red light grid management using automated control of distributed DER&lt;/td>
+&lt;td>&amp;lsquo;Red light grid management using automated control of distributed DER&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>

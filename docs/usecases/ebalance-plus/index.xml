@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – EBALANCE-PLUS</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/</link><description>Recent content in EBALANCE-PLUS on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc1/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc1/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – EBALANCE-PLUS</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/</link><description>Recent content in EBALANCE-PLUS on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc1/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -408,7 +408,7 @@ Data stored by a service onto the platform is labeled as data belonging to the s
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Ebalance-plus Hierarchical Energy Communication Platform&lt;/td>
+&lt;td>&amp;lsquo;Ebalance-plus Hierarchical Energy Communication Platform&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -459,7 +459,7 @@ Data stored by a service onto the platform is labeled as data belonging to the s
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC10</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc10/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc10/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC10</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc10/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc10/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -940,7 +940,7 @@ Data stored by a service onto the platform is labeled as data belonging to the s
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Price/CO2 based optimization&lt;/td>
+&lt;td>&amp;lsquo;Price/CO2 based optimization&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -1009,7 +1009,7 @@ Data stored by a service onto the platform is labeled as data belonging to the s
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC5</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc5/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc5/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC5</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc5/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc5/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1569,7 +1569,7 @@ c. Phase 3: Demo sites operations&lt;/li>
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Volt-VAr optimization with increasing RES generation&lt;/td>
+&lt;td>&amp;lsquo;Volt-VAr optimization with increasing RES generation&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -1712,4 +1712,1581 @@ Inputs that have no value for any reason shall be denoted as “null” |
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc8/</guid><description/></item><item><title>Docs:</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc9/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc9/</guid><description/></item></channel></rss>
+&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc8/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc8/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>/ Distribution, DER / Station, Operation, Field, Process,&lt;/td>
+&lt;td>UC8&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>v0.1&lt;/td>
+&lt;td>2020-10-01T00:00:00&lt;/td>
+&lt;td>Juan Jacobo Peralta,&lt;/td>
+&lt;td>Preliminary description of narrative, objectives, users…&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>To enhance grid operation at distributed level by allowing flexibility mechanisms from Distributed Energy Resources (DER), specifically managing at district level Battery Energy Storage System (BESS), PV generation and V2G charging point infrastructure working on a DC voltage network.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>UC08.1. Balancing energy flows to support distribution grid operation (targets: charge/discharge electric vehicles, controlling local BESS and modulating PV production with power converters)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC08.2. Optimise electric car charging costs by local RES, local energy store or provided by the distribution grid (pool-based information)&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC08.3. Reduce electric car charging CO2 emissions by using local RES, local energy store or provide by the distribution grid (pool-based information).&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC08.4. Demonstrate high-efficient operation of DC networks with silicon carbide-based power converters.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>Associated to UC.09 (DERMU role is exchanged with CMU role)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>Optimised control of DER (including PV generation, BESS and V2G) can help to release flexibility according to grid constraints to enhance its operation. This would lead to lower operational costs, grid congestion and generation curtailment, while maximising revenue through VPP services.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>This use case aims (a) to define technical solutions to manage the energy flexibility of distributed energy resources (DER) that are exploited potentially by a DER manager (e.g. facility manager, ESCO…), and (b) to define market steps to exploit such energy flexibility through energy aggregators, balance responsible parties (BRP) or similar stakeholders.
+The technical context of this use case is a DC voltage network that integrates generation, storage and consumption units at district/neighbourhood level. As example, this use case is tested in the ebalance-plus project creating a DC voltage network with SiC-based power converters, PV canopies, external BESS and V2G infrastructure. In the operation level, the energy flow is managed mainly by two energy management units: the DERMU (distributed energy resources management unit) and the LVGMU (low voltage grid management unit). The former monitors the operation of all the DER components and receive the grid status and steering signals from the latter located in the secondary substation that supplies electricity to the DC network. As tentative market context, it is assumed that the DER manager has a deal with an energy retailer or energy aggregator to buy/sell the energy according to specific contract conditions (tariffs, daily prices, carbon emissions…) and with specific bonus by supporting grid operation.
+The DERMU optimises energy flows considering the DC network components, energy forecasting (e.g. PV generation, charging vehicles, BESS status), energy contract conditions or requests on demand from the energy aggregator as primary scenario and it will balance energy flows when the LVGMU requests flexibility from the DSO/TSO level as alternative scenario.
+In the primary scenario, the energy aggregator/ESCO enterprise system sends a specific flexibility request. The DERMU receives the steering signals, balances the network elements, and calculates the degree of compliance with the original requests and send it back to the aggregator/ESCO enterprise system, which validates if finally accepts the energy flexibility according to contractual conditions. In case of validation, the DERMU execute the optimized plan.
+In the alternative scenario, the energy management system of DSO/TSO will request flexibility to the ebalance-plus platform. The MVGMUs identify the most suitable LVGMUs and generate specific steering signals. These in turn identifies the most suitable DERMU and generate specific steering signals to support the request in a cost-efficient manner. The DERMU receives the steering signals, balances the network elements, and calculates the degree of compliance with the original requests and send it back to the LVGMU. Finally, the energy retailer or energy aggregator accounting system monitors the flexibility released and calculates the bonus.&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>I06b&lt;/td>
+&lt;td>Ratio of local DER generation vs. local DER consumption (%)&lt;/td>
+&lt;td>Percentage of energy consumed by V2G infrastructure and energy losses (power conversion) regarding energy generation/storage. This indicator can be calculated under different time ranges (hour, day, week…)&lt;/td>
+&lt;td>UC08.3,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC8&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC8&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mandatory&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Technical &amp;amp; Market&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Flexibility request, congestion, peak load reduction, DER optimization&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="Sequence_Diagram-Sc1.png" alt="Sequence diagram 1. Grid Capacity Management using available flexibility at DER domain">
+&lt;img src="Sequence_Diagram-Sc2.png" alt="Sequence diagram 2. Aggregator flexibility management system requests flexibility">
+&lt;img src="Component_layer.png" alt="SGAM - Component Layer">
+&lt;img src="Function_layer.png" alt="SGAM - Function Layer">
+&lt;img src="Communication_layer.png" alt="SGAM - Communication Layer">
+&lt;img src="Information_layer.png" alt="SGAM - Information Layer">
+&lt;img src="Buisness_layer.png" alt="SGAM - Buisness Layer">&lt;/p>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>ebalance-plus platform or TLGMU (top level grid management unit)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Grid management platform to balance energy according available flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ebalance-plus platform: DERMU (Distributed Energy Resource Management Unit)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Electronic unit that manages all the energy operations at district level, optimise energy operation and manage energy flexibility.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ebalance-plus platform: LVGMU (Low Voltage Grid Management Unit)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Electronic unit that manages all the energy operations of management units (CMU/DERMU) connected to their secondary substation&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ebalance-plus platform: MVGMU (Low Voltage Grid Management Unit)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Electronic unit that manages all the energy operations of management units (LVGMU/DERMU) connected to their secondary substation&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Energy aggregator flexibility management system&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>SW that support energy aggregator to make decisions about flexibility management&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DSO energy management system&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>SW that support DSO to establish grid capacity thresholds in PS/SS&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>EV-V2G user&lt;/td>
+&lt;td>Role&lt;/td>
+&lt;td>EV user&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DER Manager&lt;/td>
+&lt;td>Role&lt;/td>
+&lt;td>User that establishes operation preferences for its DER facility&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>V2G charging points EMS&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Integrated EMS in the V2G charging points&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>District BESS&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>External BESS supporting DER flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Local RES Power Converter EMS (e.g. PV)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Power converter manages energy flows from local RES&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>PS1&lt;/td>
+&lt;td>Grid Capacity Management using available flexibility at DER domain (success)&lt;/td>
+&lt;td>Some grid management unit of the ebalance-plus platform detect a forthcoming threshold overpass and calculate the necessary flexibility and request this flexibility to the corresponding DERMU&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Grid Capacity Management using available flexibility at DER domain (success)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PS2&lt;/td>
+&lt;td>Aggregator flexibility management system requests flexibility&lt;/td>
+&lt;td>Some energy aggregator flexibility system requests to ebalance-plus platform flexibility balancing services. The ebalance-plus identifies the DERMUs registered to the corresponding aggregator and activate flexibility services.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Aggregator flexibility management system requests flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AS1&lt;/td>
+&lt;td>Grid Capacity Management using available flexibility at DER domain (failure)&lt;/td>
+&lt;td>Some grid management unit of the ebalance-plus platform detect a forthcoming threshold overpass and calculate the necessary flexibility and request this flexibility to the corresponding DERMU&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Grid Capacity Management using available flexibility at DER domain (failure)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Grid Capacity Management using available flexibility at DER domain (success)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.1&lt;/td>
+&lt;td>Periodic execution&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The MVGMU/LVMGU located at PS/SS respectively receives power load forecasting (external/internal service)&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.2&lt;/td>
+&lt;td>Estimation of steady state&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Verification of DSO’s load thresholds and dispatching flexibility requests to lower units (economic dispatching based on operational constraints)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.1&lt;/td>
+&lt;td>Evaluation of flexibility request&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The DERMU optimizes the DER energy profile to meet flexibility requests and evaluate the compliance. It generates the steering signals (set points) to the DER units.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.2&lt;/td>
+&lt;td>Compliance check&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>DER’s EMS check &amp;amp; confirm flexibility level compliance (new energy profile)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.3&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>DERMU aggregates energy profile from DER units and send back to the LVGMU&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.4&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU aggregates energy profile from DER units and send back to the MVGMU&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.5&lt;/td>
+&lt;td>Publish&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>DERMU published energy flexibility released&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.1&lt;/td>
+&lt;td>Update load forecasting&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU update load forecasting and run new steady state to verify load thresholds&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.2&lt;/td>
+&lt;td>Update load forecasting&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>MVGMU update load forecasting and run new steady state to verify load thresholds&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Validation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU/MVGMU meet DSO’s thresholds and established state condition in normal operation&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Aggregator flexibility management system requests flexibility&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Execution on demand&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The external flexibility management system request flexibility (energy profile) to their DER customers.&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.2&lt;/td>
+&lt;td>Dispatching flexibility to DERMU&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Dispatching flexibility requests to DER linked to the energy aggregator&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.1&lt;/td>
+&lt;td>Evaluation of flexibility request&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The DERMU optimizes the DER energy profile to meet flexibility requests and evaluate the compliance. It generates the steering signals (set points) to the DER units.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.2&lt;/td>
+&lt;td>Compliance check&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>DER’s EMS check &amp;amp; confirm flexibility level compliance (new energy profile)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.3&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>DERMU aggregates energy profile from DER units and send back to the TLGMU&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.1&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>TLGMU aggregates energy profile from DER units and send back to the Aggregator flexibility management system&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.2&lt;/td>
+&lt;td>Register&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>TLGMU registers energy flexibility released&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Grid Capacity Management using available flexibility at DER domain (failure)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.1&lt;/td>
+&lt;td>Periodic execution&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The MVGMU/LVMGU located at PS/SS respectively receives power load forecasting (external/internal service)&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.2&lt;/td>
+&lt;td>Estimation of steady state&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Verification of DSO’s load thresholds and dispatching flexibility requests to lower units (economic dispatching based on operational constraints)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.1&lt;/td>
+&lt;td>Evaluation of flexibility request&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The DERMU optimizes the DER energy profile to meet flexibility requests and evaluate the compliance. It generates the steering signals (set points) to the DER units.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.2&lt;/td>
+&lt;td>Compliance check&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>DER’s EMS check &amp;amp; confirm flexibility level compliance (new energy profile)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.3&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>DERMU aggregates energy profile from DER units and send back to the LVGMU&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.4&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU aggregates energy profile from DER units and send back to the MVGMU&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.5&lt;/td>
+&lt;td>Publish&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>DERMU published energy flexibility released&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.1&lt;/td>
+&lt;td>Update load forecasting&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU update load forecasting and run new steady state to verify load thresholds&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.2&lt;/td>
+&lt;td>Update load forecasting&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>MVGMU update load forecasting and run new steady state to verify load thresholds&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Validation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU/MVGMU cannot meet DSO’s thresholds, activates alternative strategies (see grid management use cases)&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>&amp;lsquo;Flexibility measures I: Virtual Power Plant (VPP) services based on district solutions (variable PV generation, storage and V2G)&amp;rsquo;&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>VPP.EP&lt;/td>
+&lt;td>Energy profile&lt;/td>
+&lt;td>Array with energy values (positive/negative) indicating the consumption/generation status&lt;/td>
+&lt;td>The structure of this data will be decided during project progress&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>VPP.FR&lt;/td>
+&lt;td>Flexibility requests&lt;/td>
+&lt;td>Array with min/max power values (positive/negative) and periods indicating the requested energy flexibility&lt;/td>
+&lt;td>The structure of this data will be decided during project progress (e.g. based on USEF recommendations)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PP.AFR&lt;/td>
+&lt;td>Actual flexibility released&lt;/td>
+&lt;td>Array with power values (positive/negative) and periods indicating the released energy flexibility&lt;/td>
+&lt;td>The structure of this data will be decided during project progress (e.g. based on USEF recommendations)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: UC9</title><link>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc9/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/ebalance-plus/uc9/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>/ Customer premise, Distribution / Station, Operation, Field, Process, Enterprise,&lt;/td>
+&lt;td>UC9&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>v0.1&lt;/td>
+&lt;td>2020-10-01T00:00:00&lt;/td>
+&lt;td>Juan Jacobo Peralta,&lt;/td>
+&lt;td>Preliminary description of narrative, objectives, users…&lt;/td>
+&lt;td>None&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>To enhance grid operation at the distribution level by allowing flexibility mechanisms from Building Energy Management including Battery Energy Storage System (BESS), PV generation and IoT devices.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>UC09.1. Balancing energy flows to support distribution grid operation (lower operational costs, reducing grid congestion and minimizing generation curtailment).&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC09.2. Optimising BEM operation including control of smart devices (IoT), roof-PV generation and batteries.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC09.3. Reducing energy consumption costs and/or CO2 emissions at building level.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>UC09.4. Encouraging different actors (facility managers, DSOs/TSOs or energy aggregators) to request/release flexibility through the ebalance-plus platform.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>Associated to UC.08 (CMU role is exchanged with DERMU role)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>Buildings accounts for 40% of the final energy consumption in Europe and its flexibility is seen as one of the most relevant means to manage future grids and enhance their operation. This would lead to lower operational costs, grid congestion and generation curtailment, while maximising revenue through VPP services.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>I06a&lt;/td>
+&lt;td>Ratio of local production with flexible solutions (kWh produced vs consumed) (%)&lt;/td>
+&lt;td>Percentage of energy consumed by building facilities (smart devices) regarding energy generation/storage. This indicator can be calculated under different time ranges (hour, day, week…).&lt;/td>
+&lt;td>UC09.2,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC9&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>UC9&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Mandatory&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Generic&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Technical &amp;amp; Market&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Flexibility request, congestion, peak load reduction, BEMS optimization&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="Sequence_Diagram-Sc1.png" alt="Sequence diagram 1. Grid Capacity Management using available flexibility at DER domain">
+&lt;img src="Sequence_Diagram-Sc2.png" alt="Sequence diagram 2. Aggregator flexibility management system requests flexibility">
+&lt;img src="Component_layer.png" alt="SGAM - Component Layer">
+&lt;img src="Function_layer.png" alt="SGAM - Function Layer">
+&lt;img src="Communication_layer.png" alt="SGAM - Communication Layer">
+&lt;img src="Information_layer.png" alt="SGAM - Information Layer">
+&lt;img src="Buisness_layer.png" alt="SGAM - Buisness Layer">&lt;/p>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>ebalance-plus platform or TLGMU (Top Level Grid Management Unit)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Grid management platform to balance energy according to available flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ebalance-plus platform: CMU (Customer Management Unit)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Electronic unit that manages all the energy operations at building level, optimise energy operation and manage energy flexibility.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ebalance-plus platform: LVGMU (Low Voltage Grid Management Unit)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Electronic unit that manages all the energy operations of management units (CMU/DERMU) connected to their secondary substation&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ebalance-plus platform: MVGMU (Low Voltage Grid Management Unit)&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Electronic unit that manages all the energy operations of management units (LVGMU/DERMU) connected to their secondary substation&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Energy aggregator flexibility management system&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>SW that support energy aggregator to make decisions about flexibility management&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>DSO energy management system&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>SW that support DSO to establish grid capacity thresholds in PS/SS&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Facility Manager&lt;/td>
+&lt;td>Role&lt;/td>
+&lt;td>A physical client of a DSO that is involved at Demo scale.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BEMS&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>Building Energy Management System.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Building facility component&lt;/td>
+&lt;td>System&lt;/td>
+&lt;td>All devices working on electricity that can be found in a customer&amp;rsquo;s dwelling.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Customer&lt;/td>
+&lt;td>Role&lt;/td>
+&lt;td>Dwelling’s inhabitant / customer&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>PS1&lt;/td>
+&lt;td>Grid Capacity Management using available flexibility at Customer premise domain (success)&lt;/td>
+&lt;td>Some grid management unit of the ebalance-plus platform (MVGMU / LVGMU) detects a forthcoming threshold overpass and calculate the necessary flexibility and request this flexibility to the corresponding CMU.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Grid Capacity Management using available flexibility at Customer premise domain (success)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PS2&lt;/td>
+&lt;td>Aggregator flexibility management system requests flexibility&lt;/td>
+&lt;td>Some energy aggregator flexibility system requests to ebalance-plus platform flexibility balancing services. The ebalance-plus identifies the CMUs registered to the corresponding aggregator (authentication) and activate flexibility services.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Aggregator flexibility management system requests flexibility&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>AS1&lt;/td>
+&lt;td>Grid Capacity Management using available flexibility at Customer premise domain (failure)&lt;/td>
+&lt;td>Some grid management unit of the ebalance-plus platform (MVGMU / LVGMU) detects a forthcoming threshold overpass and calculate the necessary flexibility and request this flexibility to the corresponding CMU.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Grid Capacity Management using available flexibility at Customer premise domain (failure)&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Grid Capacity Management using available flexibility at Customer premise domain (success)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.1&lt;/td>
+&lt;td>Periodic execution&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The MVGMU/LVMGU located at PS/SS respectively receives power load forecasting (external/internal service)&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.2&lt;/td>
+&lt;td>Estimation of steady state&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Verification of DSO’s load thresholds and dispatching flexibility requests to lower units (Optimal Power Flow)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.1&lt;/td>
+&lt;td>Evaluation of flexibility request&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The CMU optimizes the building facility energy profile to meet flexibility requests and evaluate the compliance. It generates the steering signals (set points) to the building facilities.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.2&lt;/td>
+&lt;td>Compliance check&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>BEMS check &amp;amp; confirm flexibility level compliance (new energy profile)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.3&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>CMU aggregates energy profile from building facilities and send back to the LVGMU&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.4&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU aggregates energy profile from CMUs and send back to the MVGMU&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.5&lt;/td>
+&lt;td>Publish&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>CMU publishes energy flexibility released&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.1&lt;/td>
+&lt;td>Update load forecasting&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU update load forecasting and run new steady state to verify load thresholds&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.2&lt;/td>
+&lt;td>Update load forecasting&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>MVGMU update load forecasting and run new steady state to verify load thresholds&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Validation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU/MVGMU meet DSO’s thresholds and established state condition in normal operation&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Aggregator flexibility management system requests flexibility&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Execution on demand&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The external flexibility management systems request flexibility (energy profile) to their customers (facility managers).&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.2&lt;/td>
+&lt;td>Dispatching flexibility to CMU&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Dispatching flexibility requests to the CMUs linked to the energy aggregator&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.1&lt;/td>
+&lt;td>Evaluation of flexibility request&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The CMU optimizes the building facility energy profile to meet flexibility requests and evaluate the compliance. It generates the steering signals (set points) to the building facilities.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.2&lt;/td>
+&lt;td>Compliance check&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>BEMS check &amp;amp; confirm flexibility level compliance (new energy profile)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.3&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>CMU aggregates energy profile from building facilities and send back to the TLGMU&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.1&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>TLGMU aggregates energy profile from building facilities and send back to the Aggregator flexibility management system&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.2&lt;/td>
+&lt;td>Register&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>TLGMU registers energy flexibility released&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4.1&lt;/td>
+&lt;td>Update load forecasting&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU update load forecasting and run new steady state to verify load thresholds&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4.2&lt;/td>
+&lt;td>Update load forecasting&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>MVGMU update load forecasting and run new steady state to verify load thresholds&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Grid Capacity Management using available flexibility at Customer premise domain (failure)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.1&lt;/td>
+&lt;td>Periodic execution&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The MVGMU/LVMGU located at PS/SS respectively receives power load forecasting (external/internal service)&lt;/td>
+&lt;td>GET&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.2&lt;/td>
+&lt;td>Estimation of steady state&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>Verification of DSO’s load thresholds and dispatching flexibility requests to lower units (Optimal Power Flow)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.1&lt;/td>
+&lt;td>Evaluation of flexibility request&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>The CMU optimizes the building facility energy profile to meet flexibility requests and evaluate the compliance. It generates the steering signals (set points) to the building facilities.&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.2&lt;/td>
+&lt;td>Compliance check&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>BEMS check &amp;amp; confirm flexibility level compliance (new energy profile)&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.3&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>CMU aggregates energy profile from building facilities and send back to the LVGMU&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.4&lt;/td>
+&lt;td>Energy profile aggregation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU aggregates energy profile from building facilities and send back to the MVGMU&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.5&lt;/td>
+&lt;td>Publish&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>CMU publishes energy flexibility released&lt;/td>
+&lt;td>CREATE&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.1&lt;/td>
+&lt;td>Update load forecasting&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU update load forecasting and run new steady state to verify load thresholds&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.2&lt;/td>
+&lt;td>Update load forecasting&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>MVGMU update load forecasting and run new steady state to verify load thresholds&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Validation&lt;/td>
+&lt;td>None&lt;/td>
+&lt;td>LVGMU/MVGMU cannot meet DSO’s thresholds, activates alternative strategies (see grid management use cases)&lt;/td>
+&lt;td>REPORT&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Category Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Req_ID&lt;/td>
+&lt;td>Req_Name&lt;/td>
+&lt;td>&amp;lsquo;Flexibility measures II: Virtual Power Plant (VPP) services based on building solutions (IoT devices, PV and storage)&amp;rsquo;&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Identifier&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>mRID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>VPP.EP&lt;/td>
+&lt;td>Energy profile&lt;/td>
+&lt;td>Array with energy values (positive/negative) indicating the consumption/generation status&lt;/td>
+&lt;td>The structure of this data will be decided during project progress. Minimum resolution should be 15 minutes.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>VPP.FR&lt;/td>
+&lt;td>Flexibility requests&lt;/td>
+&lt;td>Array with min/max power values (positive/negative) and periods indicating the requested energy flexibility&lt;/td>
+&lt;td>The structure of this data will be decided during project progress (e.g., based on USEF recommendations)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>PP.AFR&lt;/td>
+&lt;td>Actual flexibility released&lt;/td>
+&lt;td>Array with power values (positive/negative) and periods indicating the released energy flexibility&lt;/td>
+&lt;td>The structure of this data will be decided during project progress (e.g., based on USEF recommendations)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item></channel></rss>

@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – ACCEPT</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/</link><description>Recent content in ACCEPT on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/accept/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – ACCEPT</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/</link><description>Recent content in ACCEPT on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/accept/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: UC1</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc1/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -520,7 +520,7 @@
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Monitoring and Visualization of Metering &amp;amp; Sensor Energy Data in community buildings&lt;/td>
+&lt;td>&amp;lsquo;Monitoring and Visualization of Metering &amp;amp; Sensor Energy Data in community buildings&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -583,7 +583,7 @@
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc2/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -996,7 +996,7 @@ VES is an inherent part of the building Digital Twin model and is also tightly d
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Building self-consumption employing Virtual Energy Storage optimisation&lt;/td>
+&lt;td>&amp;lsquo;Building self-consumption employing Virtual Energy Storage optimisation&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -1059,7 +1059,7 @@ VES is an inherent part of the building Digital Twin model and is also tightly d
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC3</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC3</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc3/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1435,7 +1435,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Consumer demand-side flexibility forecasting and optimisation taking into account comfort boundaries, activity patterns and possible requirements&lt;/td>
+&lt;td>&amp;lsquo;Consumer demand-side flexibility forecasting and optimisation taking into account comfort boundaries, activity patterns and possible requirements&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -1486,7 +1486,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description>
+&lt;/table></description></item><item><title>Docs: UC8</title><link>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/accept/uc8/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1834,7 +1834,7 @@ The computed flexibility forecasts can then be sent to the community flexibility
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Participation in explicit Demand Response schemes&lt;/td>
+&lt;td>&amp;lsquo;Participation in explicit Demand Response schemes&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>

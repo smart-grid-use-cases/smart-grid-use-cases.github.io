@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – CROSSBOW</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/</link><description>Recent content in CROSSBOW on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/crossbow/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: HLU02-UC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – CROSSBOW</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/</link><description>Recent content in CROSSBOW on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/crossbow/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: HLU02-UC02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/crossbow/hlu02-uc02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -348,7 +348,7 @@ Scheduled maintenance periods cannot be predicted and thus there should be a pro
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>RES generation forecast including scheduled maintenance&lt;/td>
+&lt;td>&amp;lsquo;RES generation forecast including scheduled maintenance&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>

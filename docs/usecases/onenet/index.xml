@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – OneNet</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/</link><description>Recent content in OneNet on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 25 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/onenet/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: EACL-HU-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Smart Grid Use Cases – OneNet</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/</link><description>Recent content in OneNet on Smart Grid Use Cases</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 22 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://smart-grid-use-cases.github.io/docs/usecases/onenet/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: EACL-HU-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -767,7 +767,7 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>MV feeder voltage control&lt;/td>
+&lt;td>&amp;lsquo;MV feeder voltage control&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -842,7 +842,7 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-HU-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-HU-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-hu-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -1610,7 +1610,7 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>HV/MV transformer overload&lt;/td>
+&lt;td>&amp;lsquo;HV/MV transformer overload&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -1685,7 +1685,7 @@ Capacity auctions will be driven by technical needs of the DSOs, which are deter
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -2296,7 +2296,7 @@ The status of FSP (registered) is registered in the FR.&lt;/p>
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Prequalification of resources provided by Flexibility Service Providers to support flexibility services in the Polish demo&lt;/td>
+&lt;td>&amp;lsquo;Prequalification of resources provided by Flexibility Service Providers to support flexibility services in the Polish demo&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -2321,7 +2321,7 @@ The status of FSP (registered) is registered in the FR.&lt;/p>
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3126,7 +3126,7 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Managing flexibility delivered by DER to provide balancing services to TSO.&lt;/td>
+&lt;td>&amp;lsquo;Managing flexibility delivered by DER to provide balancing services to TSO.&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -3151,7 +3151,7 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -3548,7 +3548,7 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Event-driven Active Power Management for Congestion Management and voltage control by the DSO&lt;/td>
+&lt;td>&amp;lsquo;Event-driven Active Power Management for Congestion Management and voltage control by the DSO&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -3573,7 +3573,7 @@ Scenario 1 – Determination of TSO needs in terms of capacity
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-PL-04</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-PL-04</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-pl-04/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -4100,7 +4100,7 @@ BSP already has a contract with TSO for the provision of balancing services&lt;/
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Balancing Service Provider (BSP) on the Flexibility Platform&lt;/td>
+&lt;td>&amp;lsquo;Balancing Service Provider (BSP) on the Flexibility Platform&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -4125,7 +4125,1798 @@ BSP already has a contract with TSO for the provision of balancing services&lt;/
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: NOCL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: EACL-SL-01 v2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-sl-01-v2/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-sl-01-v2/</guid><description>
+&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
+&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
+&lt;th>Name of the Use Case&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Energy market,&lt;/td>
+&lt;td>EACL-SL-01 v2&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Version No.&lt;/th>
+&lt;th>Date&lt;/th>
+&lt;th>Name of author(s)&lt;/th>
+&lt;th>Changes&lt;/th>
+&lt;th>Approval status&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>2021-02-17T00:00:00&lt;/td>
+&lt;td>Rok Lacko (GEN-I),&lt;/td>
+&lt;td>draft-concept&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>2021-04-28T00:00:00&lt;/td>
+&lt;td>Nermin Suljanović (EIMV),&lt;/td>
+&lt;td>Domain, Roles, BUC description, SUC list without detailed description&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
+&lt;td>Demonstrate effectiveness and appropriateness of flexibility services for the congestion management of a distribution grid, under market conditions. The flexibility tested with this BUC can also be utilised for mFRR at the balancing market. This BUC will validate a process in which managing flexibility in the distribution grid (e.g. switching of heat pumps) can prevent that distribution grid overreaches it’s physical limits (e.g. transformer overheating, line congestion). It will also verify information exchange between all stakeholders in this process enabling data as well as communication interoperability, under flexibility market conditions.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
+&lt;td>Deferral of grid reinforcement investments (defer or avoid secondary substation replacement) Improve security of supply Validate demand response mechanism to prevent congestion in the distribution grid. Test flexibility products to prevent congestion in the distribution grid under market conditions.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
+&lt;td>849dbc1f-3dd1-490c-9142-2de3c5595e1d 52052567-2a63-4a07-ac5f-4f373f93f743 f3f672bc-e797-4993-8a04-f4ccac11c676 0877ad60-6993-44df-b36b-abb447ecc4ef 313a3295-19b4-4deb-9b60-e60b92927ba5 3439f0c8-80f2-4896-bd40-be4556c85a91 ea73fd14-13f8-4eb6-864f-d68a35fac84f 25406cc5-5e1f-44a4-b976-b00268a38156 b82d8c40-9322-4bc9-bbea-ed6a2e492fbd&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
+&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
+&lt;p>Due to excessive and increasing energy consumption, existing MV/LV secondary substations occasionally becomes thermally overloaded and power lines congested. Demand response services can be utilised to decrease duration or even prevent overloads of the distribution grid components. In particular, switching of the heat pumps in one substation area can be used to reduce the transformer load during peak hours. In regard how DSO procure this flexibility service, two scenarios are considered. In the first scenario, service provider (e.g. aggregator) enters into a contract with DSO for a long-term period. The second scenario assumes that local flexibility market exists and that DSO purchases flexibility service at the local flexibility market to resolve congestion problems in the distribution grid.&lt;/p>
+&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
+&lt;p>In this BUC, DSO uses flexibility resources connected to the distribution grid to resolve congestion problem and postpone investment in the grid reinforcement. Depending on how local flexibility market is organised, two scenarios are considered.&lt;br/>The first scenario corresponds to &lt;b>over the counter market (OCM)&lt;/b> in which flexibility service provider (FSP) make a long-term (e.g. 6 months) bilateral contract with DSO related. This first scenario includes the following processes:&lt;br/>· &lt;b>Prequalification&lt;/b>: after DSO publishes a call for flexibility procurement, FSP sends a request for prequalification. Within this process, DSO evaluates technical info and optionally run tests (depending on the offered power and impact on the distribution grid) to confirm capability of FSP to deliver a service.&lt;br/>· &lt;b>Offering&lt;/b>: when DSO identifies a need for the flexibility, DSO sends requests for offers. FSP send an offer. DSO collects and ranks the offer. After selection of the best offer, contract is signed.&lt;br/>· &lt;b>Activation&lt;/b>: when congestion in the grid is predicted or occurred, DSO sends a request to FSP for contracted flexibility at a given location in the distribution grid. FSP acknowledges request and activates a service (e.g. reduces a consumption by switching off heat pumps).&lt;br/>· &lt;b>Settlement&lt;/b>: using calculated base line, volume of the delivered power is calculated. This is volume is confirmed by both sides (e.g. check of error in measurements) and invoice is sent.&lt;br/>In the second scenario, DSO procures flexibility on the &lt;b>organised local flexibility market&lt;/b>. This scenario includes the following processes:&lt;br/>· &lt;b>Grid prequalification:&lt;/b> at the start of this process, flexibility resources are registered at the flexibility register. Flexibility register (component located at the market operator) initiates prequalification of the registered resource run by DSO, to validate existence of the resource and it’s impact on the distribution grid. The complexity of this procedure depends on the volume/power and the impact on the grid of the flexibility resources.&lt;br/>· &lt;b>Product prequalification&lt;/b>: DSO defines the requirements that each local flexibility product should meet. Flexibility market operator (FMO) coordinates the prequalification process. Flexibility service provider sends the prequalification request with accompanying information to the FMO, who forwards this request to DSO. DSO runs predefined tests and calculation, after send the results and acknowledge FMO about the final decision. FMO stores this information to the flexibility register and acknowledges FSP &lt;br/>· &lt;b>Bidding&lt;/b>: DSO expresses the need for the flexibility service to FMO (based on the load and distributed generation prediction and state of the distribution grid), which publishes request for bids. FMO collects the bids from flexibility service provides and selects the optimal bids. FMO sends information about selected bids to DSO, flexibility service provider, TSO and flexibility register.&lt;br/>· &lt;b>Activation&lt;/b>: For the selected bid, activation is initiated by DSO sending activation signal to the flexibility service provider. FSP internally activates flexibility resources and acknowledges DSO. DSO informs TSO about activated flexibility resources in the distribution grid in order to avoid collision and double activation on the balancing market. During the activation, flexibility register (component of the market operator) collects the measurements from DSO and FSP.&lt;br/>&lt;b>Settlement&lt;/b>: Flexibility register calculates the base line. After the activated product has been delivered, flexibility register calculates delivered volume and information to DSO and FSP. In the process of volume validation, DSO and FSP should validate delivered volume. When volume can’t be validated, alignment process is initiated. FMO monetizes the delivered flexibility product and send the bill to DSO and reimbursement to FSP.&lt;/p>
+&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ID&lt;/th>
+&lt;th>Name&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Reference to mentioned use case objectives&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>A number of succefullz avoided congestions during demonstration period&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>cfdd65f6-46d4-45b2-8196-af55163fb078, 2e949073-a8b8-44e9-bfff-887322236bd9,&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Assumptions&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Local flexibility market&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Prerequisites&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Flexibility service provider provides flexibilty services to DSO to avoid grid congestion problems&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Relation to other use cases&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>SUC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>National relation&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BUC&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Flexibilty, Local flexibilty market, Congestion management&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>General remarks&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
+&lt;p>&lt;img src="Image10.png" alt="BusinessUseCase1 - overview">
+&lt;img src="Image11.png" alt="BusinessUseCase1 - scenarios flowchart">&lt;/p>
+&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
+&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Transmission System Operator (TSO)&lt;/td>
+&lt;td>Business&lt;/td>
+&lt;td>According to the Article 2.4 of the Electricity Directive 2009/72/EC (Directive): &amp;quot;a natural or legal person responsible for operating, ensuring the maintenance of and, if necessary, developing the transmission system in a given area and, where applicable, its interconnections with other systems, and for ensuring the long-term ability of the system to meet reasonable demands for the transmission of electricity&amp;quot;. Moreover, the TSO is responsible for connection of all grid users at the transmission level and connection of the DSOs within the TSO control area.&lt;br/>Source : EU Commission Task Force for Smart Grids, EG3&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Distribution System Operator (DSO)&lt;/td>
+&lt;td>Business&lt;/td>
+&lt;td>A natural or legal person who is responsible for operating, ensuring the maintenance of and, if necessary, developing the &lt;a href="https://www.emissions-euets.com/internal-electricity-market-glossary/1018-distribution">&lt;font color="#0000ff">&lt;u>distribution&lt;/u>&lt;/font>&lt;/a> system in a given area and, where applicable, its interconnections with other systems, and for ensuring the long-term ability of the system to meet reasonable demands for the distribution of electricity.&lt;br/>&lt;br/>Defined in the European Union Internal Electricity Market is legally defined in Article 2(29) of the Directive (EU) 2019/944 of the European Parliament and of the Council of 5 June 2019 on common rules for the internal market in electricity (recast), &lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Flexibilty Service Provider (FSP)&lt;/td>
+&lt;td>Business&lt;/td>
+&lt;td>Defined as any legal entity that offers flexibility services in the market, based on acquired (aggregated) capabilities, usually from third parties.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Market Operator&lt;/td>
+&lt;td>Harmonised Role&lt;/td>
+&lt;td>A market operator is a party that provides a service whereby the offers to sell electricity are matched with bids to buy electricity.&lt;br/>&lt;br/>&lt;b>Additional Information&lt;/b>:&lt;br/>This usually is an energy/power exchange or platform.&lt;br/>The definition is based on &lt;a href="$inet://https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2019%3A158%3ATOC&amp;amp;uri=uriserv%3AOJ.L_.2019.158.01.0054.01.ENG#d1e741-54-1">&lt;font color="#0000ff">&lt;u>Regulation on the internal market for electricity (EU) 2019/943.&lt;/u>&lt;/font>&lt;/a>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="32-references">3.2. References&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
+&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>Activation&lt;/td>
+&lt;td>Activation of flexibilty service procured on the flexibility market.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>Activation-OTC&lt;/td>
+&lt;td>DSO activates flexibility product to avoid congestion in the grid.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>Bidding&lt;/td>
+&lt;td>Flexibilty Market Operator collects the bids from Flexibility Service Provider, for the flexibilty need published by DSO.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>Grid prequalification&lt;/td>
+&lt;td>Run by DSO to validate existence of the flexibility resource and evaluate impact on the distribution grid.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>Offering&lt;/td>
+&lt;td>Flexibility service provider (FSP) makes a long-term (e.g. 6 months) contract with DSO. This corresponds to the OTC market.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>Prequalification&lt;/td>
+&lt;td>On OTC market, prequalification run by DSO only.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>Product prequalification&lt;/td>
+&lt;td>Process is coordinated by the Flexibilty Market Operator (FMO).&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>Settlement&lt;/td>
+&lt;td>Monetisation of the delivered flexibilty product, procured on the flexibilty market.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>Settlement-OTC&lt;/td>
+&lt;td>Settlement for the delivered flexibilty service on the OTC market.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
+&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Activation&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Activate flexibility resource&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive acknowledgement&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive activation info&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive activation measurement&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive measurements&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.6&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send acknowledgement&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>46d6ff86-bf6a-4027-9ea4-12d3a420399c&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.7&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send activation info&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>7063e125-31d7-42b2-a270-7a0731b1db20&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send activation signal&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>3c1cb605-f58c-4958-814a-7a03a043659d&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.9&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send real-time measurements&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>f0340b68-b92a-4663-bed7-764f15a472d4&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1.10&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send real-time measurements&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>f0340b68-b92a-4663-bed7-764f15a472d4&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Activation-OTC&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>2.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Activate flexibillity resources&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive activation acknowledgment&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive activation request&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive activation status&lt;/td>
+&lt;td>Information about flexibility resource activation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive measurements&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.6&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send acknowledgement&lt;/td>
+&lt;td>ACK is sent to confirm reception of a document.&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>46d6ff86-bf6a-4027-9ea4-12d3a420399c&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.7&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send activation request for contracted flexibility&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>3c1cb605-f58c-4958-814a-7a03a043659d&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send activation status&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>7063e125-31d7-42b2-a270-7a0731b1db20&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.9&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send activation status&lt;/td>
+&lt;td>Information when flexibilty service ended.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2.10&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send measurements&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>f0340b68-b92a-4663-bed7-764f15a472d4&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bidding&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>3.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Activity1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Market clearing&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Publish flexibilty need&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>313976a7-d5aa-44fa-bc96-e2944b3cad70&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive and acknowledge&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive and acknowledge&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.6&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive and acknowledge&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.7&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive call for bid&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive flexibilty service bid&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.9&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send flexibility need&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>028c0c08-cef3-4d6a-9c4e-56111695b1c9&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.10&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send flexibility service bid&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>088c5de4-0f86-41f0-b2d1-05095d90ce2a&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3.11&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send trading results&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>d62c7c1d-7a9f-4088-b6f8-4e154f5789ac&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Grid prequalification&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>4.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Initiate grid prequalification&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>5edc0deb-8121-43c5-988b-84b9e5973427&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive grid prequalification report&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive grid prequalification request&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Register flexibility resource&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Request to register flexibility resource&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>5edc0deb-8121-43c5-988b-84b9e5973427&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4.6&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Run grid prequalification tests&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4.7&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send grid prequalification report&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>b731b7fb-003c-45f7-b5c3-063b225b8de8&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4.8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send grid prequalification result&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>4277ff30-2470-406e-a9a2-de42dd9d1945&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4.9&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Validate and register flexibilty resource&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Offering&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>5.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Call for offers closed&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Flexibilty service offer reception&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Ranking and selection of offers&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive information about selected offers&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive information about selected offers&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5.6&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive the request for an offer&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5.7&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send acceptance offer confirmation&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>07c2e8e9-6aa8-4ca3-8762-9fe88b6093d6&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5.8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send an offer for the flexibilty service&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>bc4565f0-22d9-45b3-9c7c-85e47748934d&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5.9&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send the need for the flexibilty&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>1b402b9e-1938-45b1-abee-cc9aa8f14ac4&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Prequalification&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>6.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Publish call for flexibility services&lt;/td>
+&lt;td>DSO expresses a need for a flexibilty services to prevent a congestion in the distribution grid and publishes a call to prequalificate products that meet DSO requirements.&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive prequalification decision and acknowledge&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive prequalification information and acknowledge&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive request for prequalification&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Run prequalification tests&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6.6&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send a request for the flexibilty service prequalification&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>20ac9df8-68c1-4677-a482-6b26d64d6bf1&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6.7&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send prequalification test results and acknowledgement&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>ce6e318f-ed47-4c5c-a23d-1d3b29c5e8a9&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Product prequalification&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>7.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Evaluate prequalification test results&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Publish call for flexibility service&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive and acknowledge&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive and acknowledge&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive and acknowledge&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.6&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive and forward request for flexibilty service prequalification&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>a7048736-1d7f-4449-8377-84e8c1aa7a90&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.7&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive and validate request&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive prequalification test results&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.9&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Run prequalification tests&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.10&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send prequalification test results&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>22165eb0-609b-43f2-a779-3e5f48482df5&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.11&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send product prequalification requirements&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>77bc39f1-f954-46a4-8d98-a4b7fcc8574c&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.12&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send request for flexibilty service prequalification&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>a7048736-1d7f-4449-8377-84e8c1aa7a90&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7.13&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send service prequalification information&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>33901346-ea40-4ecf-adf9-2dbcff2e0f2a&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Settlement&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>8.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Calculate baseline&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Monetiye flexibilty service&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive acknowledgement&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive proposed volume&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive proposed volume&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.6&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive the bill&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.7&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive the reimbursement&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send acknowledgement&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>1b71eaac-d551-4bfb-a37b-af4ef745d0ed&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.9&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send acknowledgement&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>1b71eaac-d551-4bfb-a37b-af4ef745d0ed&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.10&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send the bill&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>917cf83c-b984-48bd-a15a-2b4a166866f9&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.11&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send the reimbursement&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>c0e04fd3-1b40-4402-aabc-5af70502ff1b&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.12&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Start alignement process&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.13&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Start volume aligment process&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8.14&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Validate delivered volume&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>774c99c4-973f-40b5-a044-5a2d4043644d&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Settlement-OTC&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>9.1&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Calculate base line&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9.2&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Calculate delivered volume&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9.3&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive acknowledgement&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9.4&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive proposed volume&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9.5&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Receive the reimbursement&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9.6&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Request volume recalculation&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>4d0dcf4b-eb99-4197-9a78-3a4cf10ffe1a&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9.7&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send acknowledgement&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>1b71eaac-d551-4bfb-a37b-af4ef745d0ed&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9.8&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send request to validate volume&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>eee9a5ec-87db-4b90-af68-174a99f9bbc8&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9.9&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Send the reimbursement&lt;/td>
+&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>c0e04fd3-1b40-4402-aabc-5af70502ff1b&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9.10&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>Volume recalculation&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>46d6ff86-bf6a-4027-9ea4-12d3a420399c&lt;/td>
+&lt;td>Activation acknowledgement&lt;/td>
+&lt;td>To confirm that activation has been executed.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7063e125-31d7-42b2-a270-7a0731b1db20&lt;/td>
+&lt;td>Activation status&lt;/td>
+&lt;td>DSO informs TSO about successful activation of the flexibility service in the distribution grid.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3c1cb605-f58c-4958-814a-7a03a043659d&lt;/td>
+&lt;td>Activation signal&lt;/td>
+&lt;td>This a request for activation of the contracted flexibility resource.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>f0340b68-b92a-4663-bed7-764f15a472d4&lt;/td>
+&lt;td>Real-time measurement&lt;/td>
+&lt;td>Measured active power delivered by the flexibility resource. This is time series, delivered in real-time.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>313976a7-d5aa-44fa-bc96-e2944b3cad70&lt;/td>
+&lt;td>Call for bids&lt;/td>
+&lt;td>Request to prequalified FSP to place a bid for the flexibility service.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>028c0c08-cef3-4d6a-9c4e-56111695b1c9&lt;/td>
+&lt;td>Flexibility need&lt;/td>
+&lt;td>Based on load forecast and simulation, DSO predicts the state of the distribution grid. Time intervals and volume of flexibility are determined. DSO sends a request to market operator to open a call for bids.&lt;br/>This request contains information about the needed flexibility service, location/area, volume, date and time interval.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>088c5de4-0f86-41f0-b2d1-05095d90ce2a&lt;/td>
+&lt;td>Flexibillity service bid&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>d62c7c1d-7a9f-4088-b6f8-4e154f5789ac&lt;/td>
+&lt;td>Selected bids&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5edc0deb-8121-43c5-988b-84b9e5973427&lt;/td>
+&lt;td>Grid prequalification request&lt;/td>
+&lt;td>Request for grid prequalification sent by FSP or flexibility resource owner. The requst contains all technical data such as:&lt;br/>1. Flexibility resource type&lt;br/>2. Connectivity (voltage level, transformer substation, DSO)&lt;br/>3. Location (GPS coordinates)&lt;br/>4. Active power&lt;br/>5. &amp;hellip;.&lt;br/>&lt;br/>Based on these data, flexibility resource will be registered in the flexibility register. Otherwise, grid prequalification test can be required from DSO.&lt;br/>&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>b731b7fb-003c-45f7-b5c3-063b225b8de8&lt;/td>
+&lt;td>Grid prequalification report&lt;/td>
+&lt;td>This is information to FSP about the grid prequalification and it is in the form of a document.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4277ff30-2470-406e-a9a2-de42dd9d1945&lt;/td>
+&lt;td>Grid prequalification test results&lt;/td>
+&lt;td>This is information that DSO sends to market operator after running the grid prequalification tests. It concludes does or not flexibility resources can be registered, and used later without negative impact on the distribution grid.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>07c2e8e9-6aa8-4ca3-8762-9fe88b6093d6&lt;/td>
+&lt;td>Offer acceptance&lt;/td>
+&lt;td>Information about accepted offers.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>bc4565f0-22d9-45b3-9c7c-85e47748934d&lt;/td>
+&lt;td>Flexibiltity offer&lt;/td>
+&lt;td>Offer for the flexibility service on OTC market.&lt;br/>&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1b402b9e-1938-45b1-abee-cc9aa8f14ac4&lt;/td>
+&lt;td>Request for flexibility offer&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>20ac9df8-68c1-4677-a482-6b26d64d6bf1&lt;/td>
+&lt;td>Prequalification request&lt;/td>
+&lt;td>Request document with all the information necessary to run prequalifcation tests. These documents include:&lt;br/>1. Type of the DER&lt;br/>2. Connection information (DSO, nominal voltage, transformer substation ID, GPS location)&lt;br/>3. Installed power&lt;br/>4.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ce6e318f-ed47-4c5c-a23d-1d3b29c5e8a9&lt;/td>
+&lt;td>Prequalification information&lt;/td>
+&lt;td>Document with the prequalification results.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>a7048736-1d7f-4449-8377-84e8c1aa7a90&lt;/td>
+&lt;td>Product prequalification request&lt;/td>
+&lt;td>Request for product prequalification with accompanying documents.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>22165eb0-609b-43f2-a779-3e5f48482df5&lt;/td>
+&lt;td>Product prequalification test results&lt;/td>
+&lt;td>Results of tests run by DSO.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>77bc39f1-f954-46a4-8d98-a4b7fcc8574c&lt;/td>
+&lt;td>Product prequalification requirements&lt;/td>
+&lt;td>Detailed description of the flexibility service product and requirements. This is a document.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>33901346-ea40-4ecf-adf9-2dbcff2e0f2a&lt;/td>
+&lt;td>Product prequalification report&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>1b71eaac-d551-4bfb-a37b-af4ef745d0ed&lt;/td>
+&lt;td>Volume acknowledged&lt;/td>
+&lt;td>FSP agrees with the calculated volume related to the delivered flexibility service.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>917cf83c-b984-48bd-a15a-2b4a166866f9&lt;/td>
+&lt;td>Bill&lt;/td>
+&lt;td>Document, not modeled in CIM.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>c0e04fd3-1b40-4402-aabc-5af70502ff1b&lt;/td>
+&lt;td>Reimbursement&lt;/td>
+&lt;td>This information is related to the sending the invoice and payment. It will not be modeled with CIM.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>774c99c4-973f-40b5-a044-5a2d4043644d&lt;/td>
+&lt;td>Flexibility service volume&lt;/td>
+&lt;td>Information about calculated delivered volume, from the baseline and measurements.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4d0dcf4b-eb99-4197-9a78-3a4cf10ffe1a&lt;/td>
+&lt;td>Recalculation request&lt;/td>
+&lt;td>FSP determinates the deviation in the calculated volume and requests a check of the calculation.&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>eee9a5ec-87db-4b90-af68-174a99f9bbc8&lt;/td>
+&lt;td>Volume validation request&lt;/td>
+&lt;td>After delivered flexibility service, volume is determined based on measurements. This volume is a basis for reimbursement.&lt;br/>&lt;/td>
+&lt;td>&amp;mdash;-&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
+&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
+&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table></description></item><item><title>Docs: NOCL-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/nocl-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -4691,7 +6482,7 @@ BSP already has a contract with TSO for the provision of balancing services&lt;/
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Northern Flexibility Market&lt;/td>
+&lt;td>&amp;lsquo;Northern Flexibility Market&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -4862,7 +6653,7 @@ BSP already has a contract with TSO for the provision of balancing services&lt;/
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-CY-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-CY-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -5237,7 +7028,7 @@ BSP already has a contract with TSO for the provision of balancing services&lt;/
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Active power flexibility&lt;/td>
+&lt;td>&amp;lsquo;Active power flexibility&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -5354,7 +7145,7 @@ BSP already has a contract with TSO for the provision of balancing services&lt;/
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-CY-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-CY-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-cy-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -5684,7 +7475,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Reactive power flexibility and power quality&lt;/td>
+&lt;td>&amp;lsquo;Reactive power flexibility and power quality&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -5759,7 +7550,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-GR-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-GR-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -6604,7 +8395,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Enhanced Active/Reactive Power Management for TSO-DSO coordination&lt;/td>
+&lt;td>&amp;lsquo;Enhanced Active/Reactive Power Management for TSO-DSO coordination&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -6733,7 +8524,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: SOCL-GR-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: SOCL-GR-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/socl-gr-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -7168,7 +8959,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Enhanced severe weather condition management and outage management for TSO, DSO and micro grid operator&lt;/td>
+&lt;td>&amp;lsquo;Enhanced severe weather condition management and outage management for TSO, DSO and micro grid operator&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -7225,7 +9016,7 @@ Currently, the reactive/voltage support is performed by reactors/capacitors inst
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-ES-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-ES-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-es-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -8378,7 +10169,7 @@ Whenever possible, the pre-qualification processes (grid and product) will be co
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Long-term congestion management&lt;/td>
+&lt;td>&amp;lsquo;Long-term congestion management&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -8511,7 +10302,7 @@ o Availability/Activation cap price: X €/MW or X €/MWh | I.E.08 |
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-01</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-01/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -14053,7 +15844,7 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Exchange of Information for Congestion Management – Short Term&lt;/td>
+&lt;td>&amp;lsquo;Exchange of Information for Congestion Management – Short Term&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -14266,7 +16057,7 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-02</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-02/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -18576,7 +20367,7 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Exchange of Information for Congestion Management – Long term&lt;/td>
+&lt;td>&amp;lsquo;Exchange of Information for Congestion Management – Long term&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -18789,7 +20580,7 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
 &lt;/tr>
 &lt;/thead>
-&lt;/table></description></item><item><title>Docs: WECL-PT-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</link><pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</guid><description>
+&lt;/table></description></item><item><title>Docs: WECL-PT-03</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</link><pubDate>Fri, 22 Apr 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/wecl-pt-03/</guid><description>
 &lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
 &lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
 &lt;table>
@@ -19181,7 +20972,7 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;tr>
 &lt;td>Req_ID&lt;/td>
 &lt;td>Req_Name&lt;/td>
-&lt;td>Exchange of Information for Operational Planning&lt;/td>
+&lt;td>&amp;lsquo;Exchange of Information for Operational Planning&amp;rsquo;&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -19330,1797 +21121,6 @@ This phase occurs after the list of bids sorted by a merit order is defined. The
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
-&lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Key&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Value&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Refers to Section&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table></description></item><item><title>Docs: EACL-SL-01 v2</title><link>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-sl-01-v2/</link><pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate><guid>https://smart-grid-use-cases.github.io/docs/usecases/onenet/eacl-sl-01-v2/</guid><description>
-&lt;h1 id="1-description-of-the-use-case">1. Description of the Use Case&lt;/h1>
-&lt;h2 id="11-name-of-the-use-case">1.1. Name of the Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Area /Domain(s)/Zone(s)&lt;/th>
-&lt;th>Name of the Use Case&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Energy market,&lt;/td>
-&lt;td>EACL-SL-01 v2&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="12-version-management">1.2. Version Management&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Version No.&lt;/th>
-&lt;th>Date&lt;/th>
-&lt;th>Name of author(s)&lt;/th>
-&lt;th>Changes&lt;/th>
-&lt;th>Approval status&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>2021-02-17T00:00:00&lt;/td>
-&lt;td>Rok Lacko (GEN-I),&lt;/td>
-&lt;td>draft-concept&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>2021-04-28T00:00:00&lt;/td>
-&lt;td>Nermin Suljanović (EIMV),&lt;/td>
-&lt;td>Domain, Roles, BUC description, SUC list without detailed description&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="13-scope-and-objectives-of-use-case">1.3. Scope and Objectives of Use Case&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;/th>
-&lt;th>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;strong>Scope&lt;/strong>&lt;/td>
-&lt;td>Demonstrate effectiveness and appropriateness of flexibility services for the congestion management of a distribution grid, under market conditions. The flexibility tested with this BUC can also be utilised for mFRR at the balancing market. This BUC will validate a process in which managing flexibility in the distribution grid (e.g. switching of heat pumps) can prevent that distribution grid overreaches it’s physical limits (e.g. transformer overheating, line congestion). It will also verify information exchange between all stakeholders in this process enabling data as well as communication interoperability, under flexibility market conditions.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Objective(s)&lt;/strong>&lt;/td>
-&lt;td>Deferral of grid reinforcement investments (defer or avoid secondary substation replacement) Improve security of supply Validate demand response mechanism to prevent congestion in the distribution grid. Test flexibility products to prevent congestion in the distribution grid under market conditions.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Related business case(s)&lt;/strong>&lt;/td>
-&lt;td>849dbc1f-3dd1-490c-9142-2de3c5595e1d 52052567-2a63-4a07-ac5f-4f373f93f743 f3f672bc-e797-4993-8a04-f4ccac11c676 0877ad60-6993-44df-b36b-abb447ecc4ef 313a3295-19b4-4deb-9b60-e60b92927ba5 3439f0c8-80f2-4896-bd40-be4556c85a91 ea73fd14-13f8-4eb6-864f-d68a35fac84f 25406cc5-5e1f-44a4-b976-b00268a38156 b82d8c40-9322-4bc9-bbea-ed6a2e492fbd&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="14-narrative-of-use-case">1.4. Narrative of Use Case&lt;/h2>
-&lt;p>&lt;strong>Short description&lt;/strong>&lt;/p>
-&lt;p>Due to excessive and increasing energy consumption, existing MV/LV secondary substations occasionally becomes thermally overloaded and power lines congested. Demand response services can be utilised to decrease duration or even prevent overloads of the distribution grid components. In particular, switching of the heat pumps in one substation area can be used to reduce the transformer load during peak hours. In regard how DSO procure this flexibility service, two scenarios are considered. In the first scenario, service provider (e.g. aggregator) enters into a contract with DSO for a long-term period. The second scenario assumes that local flexibility market exists and that DSO purchases flexibility service at the local flexibility market to resolve congestion problems in the distribution grid.&lt;/p>
-&lt;p>&lt;strong>Complete description&lt;/strong>&lt;/p>
-&lt;p>In this BUC, DSO uses flexibility resources connected to the distribution grid to resolve congestion problem and postpone investment in the grid reinforcement. Depending on how local flexibility market is organised, two scenarios are considered.&lt;br/>The first scenario corresponds to &lt;b>over the counter market (OCM)&lt;/b> in which flexibility service provider (FSP) make a long-term (e.g. 6 months) bilateral contract with DSO related. This first scenario includes the following processes:&lt;br/>· &lt;b>Prequalification&lt;/b>: after DSO publishes a call for flexibility procurement, FSP sends a request for prequalification. Within this process, DSO evaluates technical info and optionally run tests (depending on the offered power and impact on the distribution grid) to confirm capability of FSP to deliver a service.&lt;br/>· &lt;b>Offering&lt;/b>: when DSO identifies a need for the flexibility, DSO sends requests for offers. FSP send an offer. DSO collects and ranks the offer. After selection of the best offer, contract is signed.&lt;br/>· &lt;b>Activation&lt;/b>: when congestion in the grid is predicted or occurred, DSO sends a request to FSP for contracted flexibility at a given location in the distribution grid. FSP acknowledges request and activates a service (e.g. reduces a consumption by switching off heat pumps).&lt;br/>· &lt;b>Settlement&lt;/b>: using calculated base line, volume of the delivered power is calculated. This is volume is confirmed by both sides (e.g. check of error in measurements) and invoice is sent.&lt;br/>In the second scenario, DSO procures flexibility on the &lt;b>organised local flexibility market&lt;/b>. This scenario includes the following processes:&lt;br/>· &lt;b>Grid prequalification:&lt;/b> at the start of this process, flexibility resources are registered at the flexibility register. Flexibility register (component located at the market operator) initiates prequalification of the registered resource run by DSO, to validate existence of the resource and it’s impact on the distribution grid. The complexity of this procedure depends on the volume/power and the impact on the grid of the flexibility resources.&lt;br/>· &lt;b>Product prequalification&lt;/b>: DSO defines the requirements that each local flexibility product should meet. Flexibility market operator (FMO) coordinates the prequalification process. Flexibility service provider sends the prequalification request with accompanying information to the FMO, who forwards this request to DSO. DSO runs predefined tests and calculation, after send the results and acknowledge FMO about the final decision. FMO stores this information to the flexibility register and acknowledges FSP &lt;br/>· &lt;b>Bidding&lt;/b>: DSO expresses the need for the flexibility service to FMO (based on the load and distributed generation prediction and state of the distribution grid), which publishes request for bids. FMO collects the bids from flexibility service provides and selects the optimal bids. FMO sends information about selected bids to DSO, flexibility service provider, TSO and flexibility register.&lt;br/>· &lt;b>Activation&lt;/b>: For the selected bid, activation is initiated by DSO sending activation signal to the flexibility service provider. FSP internally activates flexibility resources and acknowledges DSO. DSO informs TSO about activated flexibility resources in the distribution grid in order to avoid collision and double activation on the balancing market. During the activation, flexibility register (component of the market operator) collects the measurements from DSO and FSP.&lt;br/>&lt;b>Settlement&lt;/b>: Flexibility register calculates the base line. After the activated product has been delivered, flexibility register calculates delivered volume and information to DSO and FSP. In the process of volume validation, DSO and FSP should validate delivered volume. When volume can’t be validated, alignment process is initiated. FMO monetizes the delivered flexibility product and send the bill to DSO and reimbursement to FSP.&lt;/p>
-&lt;h2 id="15-key-performance-indicatiors-kpi">1.5. Key Performance Indicatiors (KPI)&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>ID&lt;/th>
-&lt;th>Name&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;th>Reference to mentioned use case objectives&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>A number of succefullz avoided congestions during demonstration period&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>cfdd65f6-46d4-45b2-8196-af55163fb078, 2e949073-a8b8-44e9-bfff-887322236bd9,&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="16-use-case-conditions">1.6. Use case conditions&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Assumptions&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Local flexibility market&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Prerequisites&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Flexibility service provider provides flexibilty services to DSO to avoid grid congestion problems&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="17-further-information-to-the-use-case-for-classificationmapping">1.7. Further information to the use case for classification/mapping&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Relation to other use cases&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>SUC&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Level of depth&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Prioritisation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Generic, regional or national relation&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>National relation&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Nature of the use cases&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>BUC&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Further keywords for classification&lt;/strong>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Flexibilty, Local flexibilty market, Congestion management&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="18-general-remarks">1.8. General remarks&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>General remarks&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="2-diagrams-of-use-case">2. Diagrams of Use Case&lt;/h1>
-&lt;p>&lt;img src="Image10.png" alt="BusinessUseCase1 - overview">
-&lt;img src="Image11.png" alt="BusinessUseCase1 - scenarios flowchart">&lt;/p>
-&lt;h1 id="3-technical-details">3. Technical Details&lt;/h1>
-&lt;h2 id="31-actors">3.1. Actors&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Actor Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Actor Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Further information specific to this Use Case&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Transmission System Operator (TSO)&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>According to the Article 2.4 of the Electricity Directive 2009/72/EC (Directive): &amp;quot;a natural or legal person responsible for operating, ensuring the maintenance of and, if necessary, developing the transmission system in a given area and, where applicable, its interconnections with other systems, and for ensuring the long-term ability of the system to meet reasonable demands for the transmission of electricity&amp;quot;. Moreover, the TSO is responsible for connection of all grid users at the transmission level and connection of the DSOs within the TSO control area.&lt;br/>Source : EU Commission Task Force for Smart Grids, EG3&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Distribution System Operator (DSO)&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>A natural or legal person who is responsible for operating, ensuring the maintenance of and, if necessary, developing the &lt;a href="https://www.emissions-euets.com/internal-electricity-market-glossary/1018-distribution">&lt;font color="#0000ff">&lt;u>distribution&lt;/u>&lt;/font>&lt;/a> system in a given area and, where applicable, its interconnections with other systems, and for ensuring the long-term ability of the system to meet reasonable demands for the distribution of electricity.&lt;br/>&lt;br/>Defined in the European Union Internal Electricity Market is legally defined in Article 2(29) of the Directive (EU) 2019/944 of the European Parliament and of the Council of 5 June 2019 on common rules for the internal market in electricity (recast), &lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Flexibilty Service Provider (FSP)&lt;/td>
-&lt;td>Business&lt;/td>
-&lt;td>Defined as any legal entity that offers flexibility services in the market, based on acquired (aggregated) capabilities, usually from third parties.&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Market Operator&lt;/td>
-&lt;td>Harmonised Role&lt;/td>
-&lt;td>A market operator is a party that provides a service whereby the offers to sell electricity are matched with bids to buy electricity.&lt;br/>&lt;br/>&lt;b>Additional Information&lt;/b>:&lt;br/>This usually is an energy/power exchange or platform.&lt;br/>The definition is based on &lt;a href="$inet://https://eur-lex.europa.eu/legal-content/EN/TXT/?toc=OJ%3AL%3A2019%3A158%3ATOC&amp;amp;uri=uriserv%3AOJ.L_.2019.158.01.0054.01.ENG#d1e741-54-1">&lt;font color="#0000ff">&lt;u>Regulation on the internal market for electricity (EU) 2019/943.&lt;/u>&lt;/font>&lt;/a>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="32-references">3.2. References&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>References Type&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Reference&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Status&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Impact on Use Case&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Organistaor / Organisation&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Link&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;/table>
-&lt;h1 id="4-step-by-step-analysis-of-use-case">4. Step by Step Analysis of Use Case&lt;/h1>
-&lt;h2 id="41-overview-of-scenarios">4.1. Overview of Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Name&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Scenario Description&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Primary Actor&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Triggering Event&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Pre-Condition&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Post-Condition&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1&lt;/td>
-&lt;td>Activation&lt;/td>
-&lt;td>Activation of flexibilty service procured on the flexibility market.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2&lt;/td>
-&lt;td>Activation-OTC&lt;/td>
-&lt;td>DSO activates flexibility product to avoid congestion in the grid.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3&lt;/td>
-&lt;td>Bidding&lt;/td>
-&lt;td>Flexibilty Market Operator collects the bids from Flexibility Service Provider, for the flexibilty need published by DSO.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4&lt;/td>
-&lt;td>Grid prequalification&lt;/td>
-&lt;td>Run by DSO to validate existence of the flexibility resource and evaluate impact on the distribution grid.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5&lt;/td>
-&lt;td>Offering&lt;/td>
-&lt;td>Flexibility service provider (FSP) makes a long-term (e.g. 6 months) contract with DSO. This corresponds to the OTC market.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6&lt;/td>
-&lt;td>Prequalification&lt;/td>
-&lt;td>On OTC market, prequalification run by DSO only.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7&lt;/td>
-&lt;td>Product prequalification&lt;/td>
-&lt;td>Process is coordinated by the Flexibilty Market Operator (FMO).&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8&lt;/td>
-&lt;td>Settlement&lt;/td>
-&lt;td>Monetisation of the delivered flexibilty product, procured on the flexibilty market.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9&lt;/td>
-&lt;td>Settlement-OTC&lt;/td>
-&lt;td>Settlement for the delivered flexibilty service on the OTC market.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;em>&lt;strong>Notes&lt;/strong>&lt;/em>&lt;/p>
-&lt;h2 id="42-steps--scenarios">4.2. Steps – Scenarios&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Activation&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>1.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Activate flexibility resource&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive acknowledgement&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive activation info&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive activation measurement&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive measurements&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send acknowledgement&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>46d6ff86-bf6a-4027-9ea4-12d3a420399c&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send activation info&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>7063e125-31d7-42b2-a270-7a0731b1db20&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send activation signal&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>3c1cb605-f58c-4958-814a-7a03a043659d&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.9&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send real-time measurements&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>f0340b68-b92a-4663-bed7-764f15a472d4&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1.10&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send real-time measurements&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>f0340b68-b92a-4663-bed7-764f15a472d4&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Activation-OTC&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>2.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Activate flexibillity resources&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive activation acknowledgment&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive activation request&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive activation status&lt;/td>
-&lt;td>Information about flexibility resource activation&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive measurements&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send acknowledgement&lt;/td>
-&lt;td>ACK is sent to confirm reception of a document.&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>46d6ff86-bf6a-4027-9ea4-12d3a420399c&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send activation request for contracted flexibility&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>3c1cb605-f58c-4958-814a-7a03a043659d&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send activation status&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>7063e125-31d7-42b2-a270-7a0731b1db20&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.9&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send activation status&lt;/td>
-&lt;td>Information when flexibilty service ended.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>2.10&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send measurements&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>f0340b68-b92a-4663-bed7-764f15a472d4&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Bidding&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>3.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Activity1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Market clearing&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Publish flexibilty need&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>313976a7-d5aa-44fa-bc96-e2944b3cad70&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive and acknowledge&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive and acknowledge&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive and acknowledge&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive call for bid&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3.8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive flexibilty service bid&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3.9&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send flexibility need&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>028c0c08-cef3-4d6a-9c4e-56111695b1c9&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3.10&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send flexibility service bid&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>088c5de4-0f86-41f0-b2d1-05095d90ce2a&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3.11&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send trading results&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>d62c7c1d-7a9f-4088-b6f8-4e154f5789ac&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Grid prequalification&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>4.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Initiate grid prequalification&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>5edc0deb-8121-43c5-988b-84b9e5973427&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive grid prequalification report&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive grid prequalification request&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Register flexibility resource&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Request to register flexibility resource&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>5edc0deb-8121-43c5-988b-84b9e5973427&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Run grid prequalification tests&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send grid prequalification report&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>b731b7fb-003c-45f7-b5c3-063b225b8de8&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4.8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send grid prequalification result&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>4277ff30-2470-406e-a9a2-de42dd9d1945&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4.9&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Validate and register flexibilty resource&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Offering&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>5.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Call for offers closed&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Flexibilty service offer reception&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Ranking and selection of offers&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive information about selected offers&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive information about selected offers&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive the request for an offer&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send acceptance offer confirmation&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>07c2e8e9-6aa8-4ca3-8762-9fe88b6093d6&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5.8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send an offer for the flexibilty service&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>bc4565f0-22d9-45b3-9c7c-85e47748934d&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5.9&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send the need for the flexibilty&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>1b402b9e-1938-45b1-abee-cc9aa8f14ac4&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Prequalification&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>6.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Publish call for flexibility services&lt;/td>
-&lt;td>DSO expresses a need for a flexibilty services to prevent a congestion in the distribution grid and publishes a call to prequalificate products that meet DSO requirements.&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive prequalification decision and acknowledge&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive prequalification information and acknowledge&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive request for prequalification&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Run prequalification tests&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send a request for the flexibilty service prequalification&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>20ac9df8-68c1-4677-a482-6b26d64d6bf1&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>6.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send prequalification test results and acknowledgement&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>ce6e318f-ed47-4c5c-a23d-1d3b29c5e8a9&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Product prequalification&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>7.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Evaluate prequalification test results&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Publish call for flexibility service&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive and acknowledge&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive and acknowledge&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive and acknowledge&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>121e72c3-e0bf-4f21-8bee-75ca5af7a72d&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive and forward request for flexibilty service prequalification&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>a7048736-1d7f-4449-8377-84e8c1aa7a90&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive and validate request&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive prequalification test results&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.9&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Run prequalification tests&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.10&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send prequalification test results&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>22165eb0-609b-43f2-a779-3e5f48482df5&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.11&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send product prequalification requirements&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>77bc39f1-f954-46a4-8d98-a4b7fcc8574c&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.12&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send request for flexibilty service prequalification&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>a7048736-1d7f-4449-8377-84e8c1aa7a90&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7.13&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send service prequalification information&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>33901346-ea40-4ecf-adf9-2dbcff2e0f2a&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Settlement&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>8.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Calculate baseline&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Monetiye flexibilty service&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive acknowledgement&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive proposed volume&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive proposed volume&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive the bill&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive the reimbursement&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send acknowledgement&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>1b71eaac-d551-4bfb-a37b-af4ef745d0ed&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.9&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send acknowledgement&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>1b71eaac-d551-4bfb-a37b-af4ef745d0ed&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.10&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send the bill&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>917cf83c-b984-48bd-a15a-2b4a166866f9&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.11&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send the reimbursement&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>c0e04fd3-1b40-4402-aabc-5af70502ff1b&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.12&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Start alignement process&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.13&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Start volume aligment process&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>8.14&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Validate delivered volume&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>9c168352-71a9-47ae-b1af-23ca6ceb29a8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>774c99c4-973f-40b5-a044-5a2d4043644d&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Scenario Name:&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Settlement-OTC&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Step No.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Event.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Process/ Activity&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Process/ Activity.&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Service&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Producer (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Receiver (Actor)&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirements, R-ID&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>9.1&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Calculate base line&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9.2&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Calculate delivered volume&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9.3&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive acknowledgement&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9.4&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive proposed volume&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9.5&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Receive the reimbursement&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9.6&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Request volume recalculation&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>4d0dcf4b-eb99-4197-9a78-3a4cf10ffe1a&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9.7&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send acknowledgement&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>43f73de2-a6ba-4e46-bd78-30ef0dc89bfe&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>1b71eaac-d551-4bfb-a37b-af4ef745d0ed&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9.8&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send request to validate volume&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>eee9a5ec-87db-4b90-af68-174a99f9bbc8&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9.9&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Send the reimbursement&lt;/td>
-&lt;td>&lt;br/>Modsarus Use Case::InstanceName=InfoInstance&lt;br/>Modsarus Use Case::InstanceDescription=&lt;br/>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>c0e04fd3-1b40-4402-aabc-5af70502ff1b&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>9.10&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>Volume recalculation&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>69dd2399-d76d-454e-a3f4-37196b34c973&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="5-information-exchanged">5. Information Exchanged&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>&lt;strong>Information exchanged ID&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Name of Information&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Description of Information Exchanged&lt;/strong>&lt;/th>
-&lt;th>&lt;strong>Requirement&lt;/strong>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>46d6ff86-bf6a-4027-9ea4-12d3a420399c&lt;/td>
-&lt;td>Activation acknowledgement&lt;/td>
-&lt;td>To confirm that activation has been executed.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>7063e125-31d7-42b2-a270-7a0731b1db20&lt;/td>
-&lt;td>Activation status&lt;/td>
-&lt;td>DSO informs TSO about successful activation of the flexibility service in the distribution grid.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>3c1cb605-f58c-4958-814a-7a03a043659d&lt;/td>
-&lt;td>Activation signal&lt;/td>
-&lt;td>This a request for activation of the contracted flexibility resource.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>f0340b68-b92a-4663-bed7-764f15a472d4&lt;/td>
-&lt;td>Real-time measurement&lt;/td>
-&lt;td>Measured active power delivered by the flexibility resource. This is time series, delivered in real-time.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>313976a7-d5aa-44fa-bc96-e2944b3cad70&lt;/td>
-&lt;td>Call for bids&lt;/td>
-&lt;td>Request to prequalified FSP to place a bid for the flexibility service.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>028c0c08-cef3-4d6a-9c4e-56111695b1c9&lt;/td>
-&lt;td>Flexibility need&lt;/td>
-&lt;td>Based on load forecast and simulation, DSO predicts the state of the distribution grid. Time intervals and volume of flexibility are determined. DSO sends a request to market operator to open a call for bids.&lt;br/>This request contains information about the needed flexibility service, location/area, volume, date and time interval.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>088c5de4-0f86-41f0-b2d1-05095d90ce2a&lt;/td>
-&lt;td>Flexibillity service bid&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>d62c7c1d-7a9f-4088-b6f8-4e154f5789ac&lt;/td>
-&lt;td>Selected bids&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>5edc0deb-8121-43c5-988b-84b9e5973427&lt;/td>
-&lt;td>Grid prequalification request&lt;/td>
-&lt;td>Request for grid prequalification sent by FSP or flexibility resource owner. The requst contains all technical data such as:&lt;br/>1. Flexibility resource type&lt;br/>2. Connectivity (voltage level, transformer substation, DSO)&lt;br/>3. Location (GPS coordinates)&lt;br/>4. Active power&lt;br/>5. &amp;hellip;.&lt;br/>&lt;br/>Based on these data, flexibility resource will be registered in the flexibility register. Otherwise, grid prequalification test can be required from DSO.&lt;br/>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>b731b7fb-003c-45f7-b5c3-063b225b8de8&lt;/td>
-&lt;td>Grid prequalification report&lt;/td>
-&lt;td>This is information to FSP about the grid prequalification and it is in the form of a document.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4277ff30-2470-406e-a9a2-de42dd9d1945&lt;/td>
-&lt;td>Grid prequalification test results&lt;/td>
-&lt;td>This is information that DSO sends to market operator after running the grid prequalification tests. It concludes does or not flexibility resources can be registered, and used later without negative impact on the distribution grid.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>07c2e8e9-6aa8-4ca3-8762-9fe88b6093d6&lt;/td>
-&lt;td>Offer acceptance&lt;/td>
-&lt;td>Information about accepted offers.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>bc4565f0-22d9-45b3-9c7c-85e47748934d&lt;/td>
-&lt;td>Flexibiltity offer&lt;/td>
-&lt;td>Offer for the flexibility service on OTC market.&lt;br/>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1b402b9e-1938-45b1-abee-cc9aa8f14ac4&lt;/td>
-&lt;td>Request for flexibility offer&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>20ac9df8-68c1-4677-a482-6b26d64d6bf1&lt;/td>
-&lt;td>Prequalification request&lt;/td>
-&lt;td>Request document with all the information necessary to run prequalifcation tests. These documents include:&lt;br/>1. Type of the DER&lt;br/>2. Connection information (DSO, nominal voltage, transformer substation ID, GPS location)&lt;br/>3. Installed power&lt;br/>4.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>ce6e318f-ed47-4c5c-a23d-1d3b29c5e8a9&lt;/td>
-&lt;td>Prequalification information&lt;/td>
-&lt;td>Document with the prequalification results.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>a7048736-1d7f-4449-8377-84e8c1aa7a90&lt;/td>
-&lt;td>Product prequalification request&lt;/td>
-&lt;td>Request for product prequalification with accompanying documents.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>22165eb0-609b-43f2-a779-3e5f48482df5&lt;/td>
-&lt;td>Product prequalification test results&lt;/td>
-&lt;td>Results of tests run by DSO.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>77bc39f1-f954-46a4-8d98-a4b7fcc8574c&lt;/td>
-&lt;td>Product prequalification requirements&lt;/td>
-&lt;td>Detailed description of the flexibility service product and requirements. This is a document.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>33901346-ea40-4ecf-adf9-2dbcff2e0f2a&lt;/td>
-&lt;td>Product prequalification report&lt;/td>
-&lt;td>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>1b71eaac-d551-4bfb-a37b-af4ef745d0ed&lt;/td>
-&lt;td>Volume acknowledged&lt;/td>
-&lt;td>FSP agrees with the calculated volume related to the delivered flexibility service.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>917cf83c-b984-48bd-a15a-2b4a166866f9&lt;/td>
-&lt;td>Bill&lt;/td>
-&lt;td>Document, not modeled in CIM.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>c0e04fd3-1b40-4402-aabc-5af70502ff1b&lt;/td>
-&lt;td>Reimbursement&lt;/td>
-&lt;td>This information is related to the sending the invoice and payment. It will not be modeled with CIM.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>774c99c4-973f-40b5-a044-5a2d4043644d&lt;/td>
-&lt;td>Flexibility service volume&lt;/td>
-&lt;td>Information about calculated delivered volume, from the baseline and measurements.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>4d0dcf4b-eb99-4197-9a78-3a4cf10ffe1a&lt;/td>
-&lt;td>Recalculation request&lt;/td>
-&lt;td>FSP determinates the deviation in the calculated volume and requests a check of the calculation.&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>eee9a5ec-87db-4b90-af68-174a99f9bbc8&lt;/td>
-&lt;td>Volume validation request&lt;/td>
-&lt;td>After delivered flexibility service, volume is determined based on measurements. This volume is a basis for reimbursement.&lt;br/>&lt;/td>
-&lt;td>&amp;mdash;-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="6-requirements-optional">6. Requirements (optional)&lt;/h1>
 &lt;h1 id="7-common-terms-and-definitions">7. Common Terms and Definitions&lt;/h1>
 &lt;h1 id="8-custom-information-optional">8. Custom Information (optional)&lt;/h1>
 &lt;table>
